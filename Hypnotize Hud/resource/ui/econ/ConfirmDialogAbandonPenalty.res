@@ -1,0 +1,167 @@
+"Resource/UI/ConfirmDialogAbandonPenalty.res"
+{
+	"ConfirmDialog"
+	{
+		"ControlName"			"Frame"
+		"fieldName"				"ConfirmDialog"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"f0"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"settitlebarvisible"	"0"
+		"paintbackground"		"1"
+		"bgcolor_override"		"Background"
+	}
+	
+	"BackgroundCustom"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"BackgroundCustom"
+		"xpos"					"c-162"
+		"ypos"					"140"
+		"zpos"					"1"
+		"wide"					"324"
+		"tall"					"200"
+		"visible"				"1"
+		"enabled"				"1"
+		"paintbackground"		"0"
+		"border"				"MaterialDarkBG"
+	}
+	
+	"TitleLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"TitleLabel"
+		"font"					"EconFontMedium"
+		"labelText"				"#ConfirmTitle"
+		"textAlignment"			"north"
+		"xpos"					"c-162"
+		"ypos"					"155"
+		"zpos"					"2"
+		"wide"					"324"
+		"tall"					"25"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"AllCaps"				"1"
+		"fgcolor_override"		"Red"
+	}
+	
+	"AbandonIcon"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"AbandonIcon"
+		"wide"					"0"
+		"tall"					"0"
+		"visible"				"0"
+		"enabled"				"0"
+	}
+	
+	"ExplanationLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ExplanationLabel"
+		"font"					"EconFontSmall"
+		"labelText"				"%text%"
+		"textAlignment"			"north"
+		"xpos"					"c-122"
+		"ypos"					"220"
+		"zpos"					"2"
+		"wide"					"244"
+		"tall"					"170"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"centerwrap"			"1"
+		"fgcolor_override"		"White"
+		"AllCaps"				"1"
+	}
+		
+	"CancelButton"
+	{
+		"ControlName"				"CExButton"
+		"fieldName"					"CancelButton"
+		"xpos"						"c2"
+		"ypos"						"302"
+		"zpos"						"20"
+		"wide"						"150"
+		"tall"						"30"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"#GameUI_CancelBold"
+		"font"						"HudFontSmallBold"
+		"textAlignment"				"center"
+		"textinsetx"				"0"
+		"dulltext"					"0"
+		"brighttext"				"0"
+		"Command"					"cancel"
+		"AllCaps"					"1"
+		
+		"paintbackground"			"0"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+		
+		"border_default"			"MaterialLightBG"
+		"border_armed"				"MaterialHypno"
+		
+		"defaultBgColor_override"	"Blank"
+		"armedBgColor_override"		"Blank"
+		"depressedBgColor_override" "Blank"
+
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override" "White"
+	}		
+
+	"ConfirmButton"
+	{
+		"ControlName"				"CExButton"
+		"fieldName"					"ConfirmButton"
+		"xpos"						"c-152"
+		"ypos"						"302"
+		"zpos"						"20"
+		"wide"						"150"
+		"tall"						"30"
+		"default"					"1"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"#ConfirmButtonText"
+		"font"						"HudFontSmallBold"
+		"textAlignment"				"center"
+		"textinsetx"				"0"
+		"dulltext"					"0"
+		"brighttext"				"0"
+		"Command"					"confirm"
+		"AllCaps"					"1"
+		
+		"paintbackground"			"0"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+		
+		"border_default"			"MaterialLightBG"
+		"border_armed"				"MaterialHypno"
+		
+		"defaultBgColor_override"	"Blank"
+		"armedBgColor_override"		"Blank"
+		"depressedBgColor_override" "Blank"
+
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override" "White"
+	}			
+}
