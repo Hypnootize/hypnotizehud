@@ -41,9 +41,8 @@
 	{
 		"ControlName"	           				 	"CExLabel"
 		"fieldName"	  	         				 	"PlayerStatusHealthValueShadow"
-		"xpos"	    		         				"22"
-		"xpos_minmode"	    		         		"2"
-		"ypos"	    		         				"2"	
+		"xpos"	    		         				"-2"
+		"ypos"	    		         				"-2"	
 		"zpos"	    		         				"5"
 		"wide"		    	         				"150"
 		"wide_minmode"		    	         		"149"
@@ -56,6 +55,10 @@
 		"font"                   				 	"GameFont44Blur"
 		"font_minmode"                   			"GameFont32Blur"
 		"fgcolor"	     	         				"Shadow"
+		
+		"pin_to_sibling" 							"PlayerStatusHealthValue"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"PlayerStatusAnchor"
