@@ -349,7 +349,7 @@ Scheme
 		ListPanel.EmptyListInfoTextColor					"White"
 
 		Menu.TextColor										"TanLight"
-		Menu.BgColor										"TransparentBlack"
+		Menu.BgColor										"DarkBG"
 		Menu.ArmedTextColor									"TanDark"
 		Menu.ArmedBgColor									"TanLight"
 		Menu.TextInset										"6"

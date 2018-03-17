@@ -38,13 +38,13 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AccountValueShadow"
-		"xpos"										"1"
-		"ypos"										"1"
+		"xpos"										"-1"
+		"ypos"										"-1"
 		"zpos"										"2"
 		"wide"										"200"
 		"tall"										"20"
 		"autoResize"								"1"
-		"pinCorner"									"2"
+		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
@@ -55,6 +55,10 @@
 		"font"										"GameFont22Blur"
 		"font_minmode"								"GameFont16Blur"
 		"fgcolor"   								"Shadow"
+		
+		"pin_to_sibling" 							"AccountValue"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	

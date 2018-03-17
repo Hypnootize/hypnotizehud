@@ -235,9 +235,10 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"MenuNumbers14"
+			"font"			"Numbers14"
 			"fgcolor_override"	"White"
 			"textAlignment"	"west"
+			"textinsetx"	"-7"
 			"labelText"		"%level%"
 			"proportionaltoparent"	"1"
 
@@ -250,6 +251,7 @@
 				"font"		"HudFontSmallestBold"
 				"fgcolor_override"	"White"
 				"textAlignment"		"north-west"
+				"textinsetx"	"0"
 			}
 		}
 

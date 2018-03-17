@@ -91,10 +91,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayerStatusHealthValueSpecShadow"
-		"xpos"										"1"
-		"xpos_minmode"								"1"
-		"ypos"										"5"
-		"ypos_minmode"								"6"
+		"xpos"										"-1"
+		"ypos"										"-1"
 		"zpos"										"5"
 		"wide"										"44"
 		"wide_minmode"								"40"
@@ -107,6 +105,10 @@
 		"font_minmode"								"GameFont14Blur"
 		"fgcolor"									"Shadow"
 		"labeltext"									"%Health%"
+		
+		"pin_to_sibling" 							"PlayerStatusHealthValueSpec"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	

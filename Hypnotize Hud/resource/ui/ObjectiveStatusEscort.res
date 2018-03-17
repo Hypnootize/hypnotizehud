@@ -46,7 +46,7 @@
 		
 		"if_single_with_hills"
 		{
-			"ypos"			"119"
+			"ypos"			"120"
 			"tall"			"4"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}	
@@ -172,6 +172,10 @@
 		"if_multiple_trains_bottom"
 		{
 			"ypos"			"107"
+		}
+		"if_single_with_hills"
+		{
+			"ypos"			"117"
 		}
 	}
 

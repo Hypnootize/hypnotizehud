@@ -31,7 +31,7 @@
 		"textAlignment"								"west"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"GameFont24"
+		"font"										"HudFontMedium"
 		"fgcolor"									"White"
 	}
 	
@@ -39,12 +39,12 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"KillstreaklabelShadow"
-		"xpos"										"51"
-		"ypos"										"1"
+		"xpos"										"-1"
+		"ypos"										"-1"
 		"zpos"										"3"
 		"wide"										"20"
 		"tall"										"17"	
-		"pinCorner"									"2"
+		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
@@ -53,8 +53,12 @@
 		"textAlignment"								"west"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"GameFont24Blur"
+		"font"										"HudFontMediumBlur"
 		"fgcolor"									"Shadow"
+		
+		"pin_to_sibling" 							"Killstreaklabel"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"ItemEffectMeterCount"
@@ -82,8 +86,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterCountShadow"
-		"xpos"										"0"
-		"ypos"										"1"
+		"xpos"										"-1"
+		"ypos"										"-1"
 		"zpos"										"2"
 		"wide"										"46"
 		"tall"										"16"	
@@ -97,6 +101,10 @@
 		"brighttext"								"0"
 		"font"										"GameFont18Blur"
 		"fgcolor"									"Shadow"
+		
+		"pin_to_sibling" 							"ItemEffectMeterCount"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	
