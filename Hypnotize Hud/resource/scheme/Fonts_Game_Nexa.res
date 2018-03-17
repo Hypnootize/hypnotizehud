@@ -1595,6 +1595,26 @@ Scheme
 				"outline"									"1"
 			}
 		}
+		Numbers14
+		{
+			"1"
+			{
+				"name"										"Nexa Numbers"
+				"tall"										"14"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		Numbers20
+		{
+			"1"
+			{
+				"name"										"Nexa Numbers"
+				"tall"										"20"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
 	}
 		
 	CustomFontFiles
@@ -1603,6 +1623,11 @@ Scheme
 		{
 			"font" 		"resource/scheme/fontfiles/Nexa Bold.otf"
 			"name" 		"NexaBold"
+		}
+		"11" 
+		{
+			"font" 		"resource/scheme/fontfiles/Nexa Numbers.otf"
+			"name" 		"Nexa Numbers"
 		}
 	}
 }

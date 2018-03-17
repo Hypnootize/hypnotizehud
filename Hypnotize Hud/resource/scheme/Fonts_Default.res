@@ -8,16 +8,6 @@ Scheme
 	
 	Fonts
 	{
-		MenuNumbers14
-		{
-			"1"
-			{
-				"name"										"Nexa Numbers"
-				"tall"										"14"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
 		"Default"
 		{
 			"1"
@@ -391,6 +381,18 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
+			}
+		}
+		"HudFontMediumBlur"
+		{
+			"1"
+			{
+				"name"		"NexaBold"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"blur" "2"
 			}
 		}
 		"HudFontMediumSecondary"
@@ -2487,11 +2489,6 @@ Scheme
 		{
 			"font" 		"resource/scheme/fontfiles/Nexa Bold.otf"
 			"name" 		"NexaBold"
-		}
-		"9" 
-		{
-			"font" 		"resource/scheme/fontfiles/Nexa Numbers.otf"
-			"name" 		"Nexa Numbers"
 		}
 	}
 }
