@@ -38,8 +38,6 @@ If you are using a 4:3 or 16:10 aspect ration replace the all the files you find
 
 **F.A.Q:**
 
-F.A.Q:
-
 1. How do I install the hud?
 
 - Download the hud and extract it
