@@ -38,4 +38,34 @@ If you are using a 4:3 or 16:10 aspect ration replace the all the files you find
 
 **F.A.Q:**
 
+F.A.Q:
 
+1. How do I install the hud?
+
+- Download the hud and extract it
+- Follow the "Quick Installation Guide" file!
+
+.
+
+2. My Fonts are looking weird/different from the screenshots how can I fix it?
+
+- Go to resource/scheme/fontfiles and install all the fonts (right click on the font file and select install)
+
+.
+
+3. How can I change the font?
+
+- Go to resource/clientescheme.res and uncomment (remove the //) the font you want to use. Be sure to comment the font no longer in use!
+
+.
+
+4. Why are my Backpack and Loadout menus cut off ?
+
+- If both these menus look broken and cut off then you are probably using a 4:3 or 16:10 resolution! in order to fix it open the "4:3 & 16:10 overrides" folder and replace all the files you find inside over the base hypnotize hud files!
+
+.
+
+5. Where i can find and enable the hud crosshairs:
+
+- Go to scripts/crosshairs/crosshairs.res inside that file you can find all the crosshairs and easily enable them by setting the "visible" from "0" to "1"
+- You can also animate the crosshairs by using the CrosshairsAnimations file, follow the instructions inside the file!
