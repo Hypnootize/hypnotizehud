@@ -30,7 +30,7 @@
 			"wide"				"119"
 			"tall"				"80"
 			"model_xpos"		"2"
-			"model_wide"		""
+			"model_wide"		"80"
 			"model_tall"		"57"
 			"model_center_x"	"1"
 			"text_ypos"			"0"

@@ -1206,7 +1206,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorPaintkitWeapon"
+			"color"					"215 215 215 255"
 			
 			"image"					"replay/thumbnails/material_generic"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -1218,7 +1218,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorPaintkitWeapon"
+			"color"					"215 215 215 255"
 			
 			"image"					"replay/thumbnails/material_generic"
 			"src_corner_height"		"24"				// pixels inside the image

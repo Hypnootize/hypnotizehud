@@ -142,17 +142,18 @@
 		"tall"										"f0"
 		"visible"									"0"
 		"enabled"									"1"
-		"delta_item_x"								"60"
-		"delta_item_start_y"						"0"
-		"delta_item_end_y"							"0"
+		"delta_item_x"								"0"
+		"delta_item_start_y"						"35"
+		"delta_item_end_y"							"35"
 		"PositiveColor"								"Green"
 		"NegativeColor"								"Red"
 		"delta_lifetime"							"2"
-		"delta_item_font"							"GameFont20"
+		"delta_item_font"							"GameFont16"
 		
 		if_match
 		{
 			"xpos"									"c-18"
+			"delta_item_x"							"9999"
 		}
 		
 		"TimePanelValue"
