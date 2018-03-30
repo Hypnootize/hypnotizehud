@@ -15,13 +15,49 @@
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
+		
+		"RankImage"
+		{
+			"ControlName"	"CTFLocalPlayerBadgePanel"
+			"fieldName"		"RankImage"
+			"xpos"			"0"
+			"ypos"			"-8"
+			"zpos"			"110"
+			"wide"			"50"
+			"tall"			"50"
+			"visible"		"1"
+			"enabled"		"1"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"		"0"
+
+			"matchgroup"	"MatchGroup_Casual_12v12"
+		}
+	
+		"RankPanel"
+		{
+			"ControlName"	"CPvPRankPanel"
+			"fieldName"		"RankPanel"
+			"xpos"			"55"
+			"ypos"			"7"
+			"zpos"			"100"
+			"wide"			"200"
+			"tall"			"30"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+
+			"matchgroup"	"MatchGroup_Casual_12v12"
+
+			"show_model"	"0"
+			"show_type"		"1"
+		}
 
 		"RestoreCasualSearchCriteria"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"RestoreCasualSearchCriteria"
 			"xpos"			"rs1-25"
-			"ypos"			"13"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"22"
 			"tall"			"22"
@@ -80,7 +116,7 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SaveCasualSearchCriteria"
 			"xpos"			"rs1-5"
-			"ypos"			"13"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"22"
 			"tall"			"22"
@@ -145,36 +181,23 @@
 
 		"Title"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"Title"
-			"xpos"		"10"
-			"ypos"		"5"
-			"zpos"		"0"
-			"wide"		"f0"
-			"tall"		"20"
-			"proportionaltoparent"	"1"
-			"labeltext"		"#TF_Casual_MapSelection"
-			"textAlignment"	"west"
-			"font"			"HudFontMediumSmallBold"
-			"fgcolor_override"	"White"
-			
-			"AllCaps"		"1"
-		
-			"mouseinputenabled"	"0"
+			"xpos"			"9999"
 		}
 
 		"SelectedCount"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"SelectedCount"
-			"xpos"		"10"
+			"xpos"		"-8"
 			"ypos"		"18"
 			"zpos"		"0"
 			"wide"		"f0"
 			"tall"		"20"
 			"proportionaltoparent"	"1"
 			"labeltext"		"%selected_maps_count%"
-			"textAlignment"	"west"
+			"textAlignment"	"east"
 			"font"			"HudFontSmallest"
 			"fgcolor_override"	"Main Theme"
 			
@@ -188,7 +211,7 @@
 			"ControlName"		"Label"
 			"fieldName"		"QueueEstimation"
 			"xpos"		"rs1-5"
-			"ypos"		"18"
+			"ypos"		"38"
 			"zpos"		"0"
 			"wide"		"f0"
 			"tall"		"20"

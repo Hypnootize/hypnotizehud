@@ -229,6 +229,46 @@ Scheme
 			"draw_corner_height" 	"8"	
 		}
 		
+		TanLine
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "0 0"
+				}
+			}
+		}
+		
 		
 		///////////////////////////////////////////////////////////////////////////////
 		////////////////////////////////DEFAULT BORDERS////////////////////////////////
@@ -2455,13 +2495,13 @@ Scheme
 		}
 		QuickplayBorder
 		{
-			"inset" "0 0 0 0"
+			"inset" "0 0 1 1"
 			Left
 			{
 				"1"
 				{
 					"color" "Blank"
-					"offset" "0 0"
+					"offset" "0 1"
 				}
 			}
 
@@ -2470,7 +2510,7 @@ Scheme
 				"1"
 				{
 					"color" "Blank"
-					"offset" "0 0"
+					"offset" "1 0"
 				}
 			}
 

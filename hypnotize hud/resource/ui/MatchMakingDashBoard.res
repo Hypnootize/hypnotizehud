@@ -328,6 +328,57 @@
 					}
 				}
 			}
+			
+			"MultiQueuesManageButton"
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"MultiQueuesManageButton"
+				"xpos"			"165"
+				"ypos"			"5"
+				"zpos"			"10"
+				"wide"			"20"
+				"tall"			"20"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"labeltext"		"u"
+				"font"			"ModPics18"
+				"textAlignment"	"center"
+				"textinsety"	"-8"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"default"		"1"
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				"Command"		"manage_queues"
+				"proportionaltoparent"	"1"
+				"actionsignallevel"	"3"
+			
+				"paintbackground"			"0"
+			
+				"sound_depressed"			"UI/buttonclick.wav"
+				"sound_released"			"UI/buttonclickrelease.wav"
+				
+				"border_default"			"MaterialLightBG"
+				"border_armed"				"MaterialHypno"
+				
+				"defaultBgColor_override"	"Blank"
+				"armedBgColor_override"		"Blank"
+				"depressedBgColor_override" "Blank"
+
+				"defaultFgColor_override"	"White"
+				"armedFgColor_override"		"White"
+				"depressedFgColor_override" "White"
+				
+				"SubImage"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"SubImage"
+					"xpos"			"9999"
+				}
+			}
 
 			"CloseButton"
 			{
@@ -375,7 +426,7 @@
 					"ControlName"	"ImagePanel"
 					"fieldName"		"SubImage"
 					"xpos"			"9999"
-				}				
+				}
 			}		
 		}
 

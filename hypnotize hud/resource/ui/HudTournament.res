@@ -158,10 +158,10 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HudTournamentBLUEBG"
-		"xpos"										"c-31"
-		"ypos"										"0"
+		"xpos"										"-11"
+		"ypos"										"-1"
 		"zpos"										"1"
-		"wide"										"35"
+		"wide"										"16"
 		"tall"										"22"
 		"visible"									"1"
 		"enabled"									"1"
@@ -187,10 +187,10 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HudTournamentREDBG"
-		"xpos"										"-4"
-		"ypos"										"0"
+		"xpos"										"0"
+		"ypos"										"-2"
 		"zpos"										"1"
-		"wide"										"35"
+		"wide"										"16"
 		"tall"										"22"
 		"visible"									"1"
 		"enabled"									"1"
@@ -199,8 +199,8 @@
 		"border"									"MaterialRed"
 		
 		"pin_to_sibling" 							"HudTournamentBLUEBG"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
 		
 		if_competitive
 		{
@@ -222,7 +222,7 @@
 		"fieldName"									"TournamentBLUEStateLabel"
 		"font"										"Yahud32"
 		"fgcolor_override" 							"White"
-		"xpos"										"-29"
+		"xpos"										"-12"
 		"ypos"										"19"
 		"zpos"										"2"
 		"wide"										"40"
@@ -237,7 +237,44 @@
 		
 		"pin_to_sibling" 							"HudTournamentBLUEBG"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		
+		if_competitive
+		{
+			"visible"								"0"
+		}
+		if_readymode
+		{
+			"visible"								"0"
+		}
+		if_mvm
+		{
+			"visible"								"0"
+		}
+	}
+	
+	"TournamentBLUEStateLabelShadow"
+	{	
+		"ControlName"								"Label"
+		"fieldName"									"TournamentBLUEStateLabelShadow"
+		"font"										"Yahud32Blur"
+		"fgcolor_override" 							"Shadow"
+		"xpos"										"-1"
+		"ypos"										"-1"
+		"zpos"										"2"
+		"wide"										"40"
+		"tall"										"42"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"wrap"										"0"
+		"labelText"									"%bluestate%"
+		"textAlignment"								"center"
+		
+		"pin_to_sibling" 							"TournamentBLUEStateLabel"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 		
 		if_competitive
 		{
@@ -259,7 +296,7 @@
 		"fieldName"									"TournamentREDStateLabel"
 		"font"										"Yahud32"
 		"fgcolor_override" 							"White"
-		"xpos"										"-30"
+		"xpos"										"-12"
 		"ypos"										"19"
 		"zpos"										"2"
 		"wide"										"40"
@@ -274,7 +311,44 @@
 		
 		"pin_to_sibling" 							"HudTournamentREDBG"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		
+		if_competitive
+		{
+			"visible"								"0"
+		}
+		if_readymode
+		{
+			"visible"								"0"
+		}
+		if_mvm
+		{
+			"visible"								"0"
+		}
+	}
+	
+	"TournamentREDStateLabelShadow"
+	{	
+		"ControlName"								"Label"
+		"fieldName"									"TournamentREDStateLabelShadow"
+		"font"										"Yahud32Blur"
+		"fgcolor_override" 							"Shadow"
+		"xpos"										"-1"
+		"ypos"										"-1"
+		"zpos"										"2"
+		"wide"										"40"
+		"tall"										"42"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"wrap"										"0"
+		"labelText"									"%redstate%"
+		"textAlignment"								"center"
+		
+		"pin_to_sibling" 							"TournamentREDStateLabel"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 		
 		if_competitive
 		{

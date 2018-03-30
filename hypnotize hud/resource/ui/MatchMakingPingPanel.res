@@ -269,6 +269,23 @@
 		"cvar_name"									"tf_mm_custom_ping"
 		"use_convar_minmax" 						"1"
 	}
+	
+	"DataCenterBackground"
+	{
+		"ControlName"							"EditablePanel"
+		"fieldname"								"DataCenterBackground"
+		"xpos"									"6"
+		"ypos"									"158"
+		"zpos"									"0"
+		"wide"									"190"
+		"tall"									"135"
+		"visible"								"1"
+		"PaintBackgroundType"					"0"
+		"proportionaltoparent"					"1"
+
+		"paintborder"							"1"
+		"border"								"MaterialDarkBG"
+	}
 
 	"DataCenterContainer"
 	{
@@ -303,7 +320,7 @@
 			{
 				"ControlName"						"ScrollBar"
 				"FieldName"							"ScrollBar"
-				"xpos"								"rs1-1"
+				"xpos"								"rs1-2"
 				"ypos"								"0"
 				"tall"								"f0"
 				"wide"								"3"
@@ -337,23 +354,6 @@
 			"Controlname"							"EditablePanel"
 			"fieldName"								"Frame"
 			"xpos"									"9999"
-		}
-			
-		"Background"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldname"								"Background"
-			"xpos"									"-2"
-			"ypos"									"-2"
-			"zpos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"PaintBackgroundType"					"0"
-			"proportionaltoparent"					"1"
-
-			"paintborder"							"1"
-			"border"								"MaterialDarkBG"
 		}
 	}
 	

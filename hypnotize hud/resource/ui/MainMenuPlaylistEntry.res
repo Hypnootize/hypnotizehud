@@ -15,12 +15,28 @@
 		"proportionaltoparent"	"1"
 		"image"			""
 	}
+	
+	"PlayListDropShadow"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PlayListDropShadow"
+		"xpos"			"9999"
+		"ypos"			"0"
+		"zpos"			"1000"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"PaintBackgroundType"	"2"
+		"border"		"InnerShadowBorderThin"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+	}
 
 	"BGColor"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGColor"
-		"xpos"			"0"
+		"xpos"			"9999"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"0"
@@ -37,15 +53,33 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ToolTipHack"
-		"xpos"			"0"
+		"xpos"			"9999"
 		"ypos"			"0"
-		"zpos"			"490"
+		"zpos"			"50"
 		"wide"			"0"
 		"tall"			"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled"	"1"
 		"eatmouseinput"	"0"	
+		"showtooltipswhenmousedisabled"	"1"
+	}
+
+	"ToolTipButtonHack"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ToolTipButtonHack"
+		"xpos"			"9999"
+		"ypos"			"2"
+		"zpos"			"51"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"mouseinputenabled"	"1"
+		"eatmouseinput"	"0"	
+		"showtooltipswhenmousedisabled"	"1"
+		"proportionaltoparent" "1"
 	}
 
 	"ModeButton"

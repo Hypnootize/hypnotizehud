@@ -11,13 +11,54 @@
 		"tall"			"330"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
+		
+		"RankImage"
+		{
+			"ControlName"	"CTFLocalPlayerBadgePanel"
+			"fieldName"		"RankImage"
+			"xpos"			"9999"	//-8
+			"ypos"			"-15"
+			"zpos"			"110"
+			"wide"			"o1"
+			"tall"			"70"
+			"visible"		"1"
+			"enabled"		"1"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+
+			"matchgroup"	"MatchGroup_Ladder_6v6"
+		}
+	
+		"RankPanel"
+		{
+			"ControlName"	"CPvPRankPanel"
+			"fieldName"		"RankPanel"
+			"xpos"			"3"
+			"ypos"			"0"
+			"zpos"			"100"
+			"wide"			"200"
+			"tall"			"30"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+
+			"matchgroup"	"MatchGroup_Ladder_6v6"
+
+			"show_model"	"0"
+			"show_type"		"1"
+
+			"BGBorder"
+			{
+				"visible"	"0"
+			}
+		}
 
 		"ShowLeaderboardsButton"
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"ShowLeaderboardsButton"
 			"xpos"			"rs1-10"
-			"ypos"			"2"
+			"ypos"			"20"
 			"zpos"			"2"
 			"wide"			"120"
 			"tall"			"20"
@@ -55,7 +96,7 @@
 			"ControlName"	"Button"
 			"fieldName"		"ShowMatchHistoryButton"
 			"xpos"			"10"
-			"ypos"			"2"
+			"ypos"			"20"
 			"zpos"			"2"
 			"wide"			"120"
 			"tall"			"20"
@@ -93,7 +134,7 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"			"ShowMatchHistoryButtonBG"
 			"xpos"				"10"
-			"ypos"				"2"
+			"ypos"				"20"
 			"zpos"				"1"
 			"wide"				"120"
 			"tall"				"20"
@@ -108,7 +149,7 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"PlaylistBGPanel"
 			"xpos"			"cs-0.5"
-			"ypos"			"0"
+			"ypos"			"18"
 			"zpos"			"-1"
 			"wide"			"p0.98"
 			"tall"			"p1"
@@ -345,9 +386,9 @@
 				"ControlName"	"CScrollableList"
 				"fieldName"		"MatchHistoryContainer"
 				"xpos"			"cs-0.5"
-				"ypos"			"40"
+				"ypos"			"38"
 				"wide"			"p0.95"
-				"tall"			"p0.84"
+				"tall"			"p0.81"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 				"restrict_width" "0"
@@ -357,7 +398,7 @@
 				{
 					"ControlName"	"ScrollBar"
 					"FieldName"		"ScrollBar"
-					"xpos"			"rs1+2"
+					"xpos"			"rs1+1"
 					"ypos"			"0"
 					"tall"			"f0"
 					"wide"			"3" // This gets slammed from client schme.  GG.

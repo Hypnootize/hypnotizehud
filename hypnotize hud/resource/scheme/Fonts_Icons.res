@@ -663,7 +663,7 @@ Scheme
                 "tall"        								"24"
                 "additive"    								"0"
                 "antialias"    								"1"
-                 "blur"    									"1"
+                "blur"    									"1"
             }
         }
 		"Yahud30Blur"
@@ -674,7 +674,18 @@ Scheme
                 "tall"        								"24"
                 "additive"    								"0"
                 "antialias"    								"1"
-                 "blur"    									"1"
+                "blur"    									"1"
+            }
+        }
+		"Yahud32Blur"
+        {
+            "1"
+            {
+                "name"        								"yahud"
+                "tall"        								"32"
+                "additive"    								"0"
+                "antialias"    								"1"
+                "blur"    									"1"
             }
         }
 		"Yahud36Blur"

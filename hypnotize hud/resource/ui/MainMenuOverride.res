@@ -177,23 +177,67 @@
 		"textAlignment"								"west"	
 	}
 	
+	"CycleRankTypeButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CycleRankTypeButton"
+		"xpos"			"133"
+		"ypos"			"-1"
+		"zpos"			"10003"
+		"wide"			"22"
+		"tall"			"22"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"Q"
+		"use_proportional_insets" "1"
+		"font"			"CustomIcons12"
+		"command"		"open_rank_type_menu"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"vo/null.mp3"
+		"actionsignallevel" "1"
+		"proportionaltoparent"	"1"
+				
+		"paintbackground"			"0"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+			
+		"border_default"			"MaterialBackground"
+		"border_armed"				"MaterialHypno"
+			
+		"defaultBgColor_override"	"Blank"
+		"armedBgColor_override"		"Blank"
+		"depressedBgColor_override" "Blank"
+
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override" "White"
+	}
+	
 	"RankPanel"
 	{
 		"ControlName"								"CPvPRankPanel"
 		"fieldName"									"RankPanel"
-		"xpos"										"135"
+		"xpos"										"154"
 		"ypos"										"1"
 		"zpos"										"10003"
 		"wide"										"200"
 		"tall"										"30"
-		"visible"									"1"
+		"visible"									"0"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 
 		"matchgroup"								"MatchGroup_Casual_12v12"
-		"xp_source_notification_center_x"			"350"
 
 		"show_model"								"0"
+		"show_type"									"1"
 	}
 	
 	"FriendsContainer"

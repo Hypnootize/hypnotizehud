@@ -23,6 +23,11 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
+			
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
 
 			"ParticleEffects"
 			{
@@ -117,6 +122,11 @@
 			"proportionaltoparent"	"1"
 
 			"paintbackground"	"0"
+			
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
 
 			"ParticleEffects"
 			{
@@ -182,7 +192,6 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"NoBorder"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -191,7 +200,6 @@
 			"ypos"			"cs-0.5"
 			"tall"			"35"
 			"wide"			"505"
-			"border"		"MainMenuBGBorder"
 		}
 
 		"NameLabel"
@@ -224,10 +232,43 @@
 			}
 		}
 
-		"LevelLabel"
+		"DescLine1"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LevelLabel"
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine1"
+			"xpos"			"9999"
+			"ypos"			"9999"
+			"wide"			"0"
+			"zpos"			"100"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"HudFontSmallestBold"
+			"fgcolor_override"	"TanLight"
+			"textAlignment"	"north-west"
+			"labelText"		"%desc1%"
+			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"xpos"	"67"
+				"ypos"	"4"
+				"wide"	"195"
+				"tall"	"20"
+			}
+
+			"fonts"
+			{
+				"0"		"HudFontSmallestBold"
+				"1"		"StorePromotionsTitle"
+				"2"		"FontStorePrice"
+			}
+		}
+
+		"DescLine2"
+		{
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine2"
 			"xpos"			"46"
 			"ypos"			"0"
 			"wide"			"50"
@@ -238,20 +279,32 @@
 			"font"			"Numbers14"
 			"fgcolor_override"	"White"
 			"textAlignment"	"west"
-			"textinsetx"	"-7"
-			"labelText"		"%level%"
+			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
+			"textinsetx"	"-7"
 
 			if_mini
 			{
-				"xpos"		"67"
-				"ypos"		"4"
-				"wide"		"f0"
-				"tall"		"20"
-				"font"		"HudFontSmallestBold"
-				"fgcolor_override"	"White"
-				"textAlignment"		"north-west"
+				"xpos"	"67"
+				"ypos"	"4"
+				"font"	"HudFontSmallestBold"
+				"wide"	"195"
+				"tall"	"20"
+				"textAlignment"	"north-west"
 				"textinsetx"	"0"
+			}
+
+			"fonts"
+			{
+				"0"		"Numbers14"
+				"1"		"StorePromotionsTitle"
+				"2"		"FontStorePrice"
+			}
+
+			"colors"
+			{
+				"1"		"CreditsGreen"
+				"2"		"TanLight"
 			}
 		}
 

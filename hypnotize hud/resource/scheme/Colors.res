@@ -266,7 +266,7 @@ Scheme
 		
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 		
-		Econ.Dialog.BgColor									"Blank"
+		Econ.Dialog.BgColor									"DarkBG"
 		Econ.Button.BgColor									"Background"
 		Econ.Button.FgColor									"White"
 		Econ.Button.ArmedBgColor							"Main Theme"

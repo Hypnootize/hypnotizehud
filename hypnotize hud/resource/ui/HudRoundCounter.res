@@ -52,7 +52,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BlueScoreBG"
-		"xpos"										"0"
+		"xpos"										"-1"
 		"ypos"										"-15"
 		"zpos"										"1"
 		"wide"										"43"

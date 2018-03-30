@@ -19,10 +19,10 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"BackgroundCustom"
 		"xpos"					"7"
-		"ypos"					"45"
+		"ypos"					"66"
 		"zpos"					"1"
 		"wide"					"255"
-		"tall"					"324"
+		"tall"					"312"
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"0"
@@ -74,6 +74,23 @@
 		"actionsignallevel"	"1"
 		"proportionaltoparent"	"1"
 	}
+	
+	"RankTooltipPanel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RankTooltipPanel"
+		"xpos"			"256"
+		"ypos"			"15"
+		"zpos"			"1000"
+		"wide"			"8"
+		"tall"			"8"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+		"image"			"info"
+		"scaleImage"	"1"	
+		"alpha"			"75"
+	}
 
 	"stats"
 	{
@@ -86,13 +103,30 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
+	
+	"ToolTipButtonHack"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ToolTipButtonHack"
+		"xpos"			"cs-0.5"
+		"ypos"			"rs1-8"
+		"zpos"			"101"
+		"wide"			"f20"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"1"
+		"mouseinputenabled"	"1"
+		"eatmouseinput"	"0"	
+		"showtooltipswhenmousedisabled"	"1"
+		"proportionaltoparent" "1"
+	}
 
 	"QueueButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
 		"xpos"			"7"
-		"ypos"			"rs1-12"
+		"ypos"			"rs1-8"
 		"zpos"			"100"
 		"wide"			"255"
 		"tall"			"24"
