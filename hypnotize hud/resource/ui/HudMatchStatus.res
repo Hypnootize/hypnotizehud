@@ -199,7 +199,7 @@
 		
 		if_match
 		{
-			"xpos"									"c-18"
+			"xpos"									"c-31"
 			"delta_item_x"							"9999"
 		}
 		
@@ -221,8 +221,9 @@
 			
 			if_match
 			{
-				"font"								"GameFont12"
 				"ypos"								"7"
+				"font"								"GameFont12"
+				"textAlignment"						"center"
 			}
 		}	
 	}

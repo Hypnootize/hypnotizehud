@@ -47,6 +47,13 @@
 		"font" 										"GameFont12"
 		"fgcolor"									"White"
 		
+		if_match
+		{
+			"xpos" 									"8"
+			"ypos" 									"18"
+			"font" 									"GameFont10"
+			"textAlignment"							"center"
+		}
 		if_mvm
 		{
 			"visible"								"0"
@@ -77,7 +84,7 @@
 
 		if_match
 		{
-			"visible"								"0"
+			"wide"									"0"
 		}
 	}
 	
