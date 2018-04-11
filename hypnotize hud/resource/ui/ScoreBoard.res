@@ -5,7 +5,7 @@
 		"ControlName"	        					"CTFClientScoreBoardDialog"
 		"fieldName"	          						"scoreinfo"
 		"xpos"		            					"0"
-		"ypos"		            					"31"
+		"ypos"		            					"0"
 		"wide"		            					"f0"
 		"tall"			            				"480"
 		"autoResize"	        					"0"
@@ -14,7 +14,7 @@
 		"enabled"		            				"1"
 		
 		"tabPosition"								"0"
-		"medal_width"								"12"
+		"medal_width"								"0"
 		"avatar_width"								"55"
 		"spacer"									"2"
 		"name_width"								"85"
