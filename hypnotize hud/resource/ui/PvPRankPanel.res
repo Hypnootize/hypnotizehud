@@ -297,14 +297,14 @@
 			"fonts"
 			{
 				"0"		"Numbers14"
-				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
+				"1"		"Numbers14"
+				"2"		"Numbers14"
 			}
 
 			"colors"
 			{
 				"1"		"CreditsGreen"
-				"2"		"TanLight"
+				"2"		"White"
 			}
 		}
 

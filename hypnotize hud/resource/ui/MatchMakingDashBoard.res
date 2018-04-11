@@ -241,10 +241,10 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"QueueContainer"
-			"xpos"			"c-90"
+			"xpos"			"c-120"
 			"ypos"			"-50"
 			"zpos"			"111"
-			"wide"			"190"
+			"wide"			"240"
 			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
@@ -263,7 +263,7 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"0"
-				"wide"			"190"
+				"wide"			"240"
 				"tall"			"28"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
@@ -295,12 +295,12 @@
 				"fieldName"		"QueueText"
 				"xpos"			"0"
 				"ypos"			"2"
-				"wide"			"190"
+				"wide"			"240"
 				"zpos"			"100"
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFontSmallestBold"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"center"
 				"labelText"		"%queue_state%"
@@ -312,17 +312,13 @@
 				{
 					"0"
 					{
-						"font"	"HudFontSmallBold" // this actually works????
+						"font"	"HudFontSmallestBold" // TF2 Build 11
 					}
 					"1"
 					{
-						"font"	"HudFontSmallestBold" // TF2 Build 11
-					}
-					"2"
-					{
 						"font"	"StorePromotionsTitle" // TF2 Build 10
 					}
-					"3"
+					"2"
 					{
 						"font"	"FontStorePrice" // TF2 Build 9
 					}
@@ -333,7 +329,7 @@
 			{
 				"ControlName"	"CExImageButton"
 				"fieldName"		"MultiQueuesManageButton"
-				"xpos"			"165"
+				"xpos"			"215"
 				"ypos"			"5"
 				"zpos"			"10"
 				"wide"			"20"
@@ -384,7 +380,7 @@
 			{
 				"ControlName"	"CExImageButton"
 				"fieldName"		"CloseButton"
-				"xpos"			"165"
+				"xpos"			"215"
 				"ypos"			"5"
 				"zpos"			"10"
 				"wide"			"20"
@@ -634,6 +630,55 @@
 			}
 		}
 		
+		"ResumeButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"ResumeButton"
+			"xpos"			"rs1-36"
+			"ypos"			"0"
+			"zpos"			"100"
+			"wide"			"0"		//17
+			"tall"			"0"		//27
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"font"			"CustomIcons14"
+			"textAlignment"	"west"
+			"textinsetx"	"0"
+			"textinsety"	"5"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"Command"		"resume_game"
+			"proportionaltoparent"	"1"
+			"labeltext"		"Z"
+			"mouseinputenabled"	"1"
+			"keyboardinputenabled"	"0"
+			"actionsignallevel"	"2"
+			"RoundedCorners"	"0"
+			"use_proportional_insets"	"1"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"armedBgColor_override"		"Blank"
+			"defaultBgColor_override"	"Blank"
+
+			"defaultFgColor_override" "White"
+			"armedFgColor_override" "Main Theme"
+
+			"image_drawcolor"	"255 255 255 255"
+			"image_armedcolor"	"255 42 50 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"9999"
+			}
+		}
+		
 		"FindAGameButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -690,13 +735,6 @@
 				"image"			"glyph_multiplayer"
 				"drawcolor_override" "White"
 			}
-		}
-
-		"ResumeButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"ResumeButton"
-			"xpos"			"9999"
 		}
 	}
 }
