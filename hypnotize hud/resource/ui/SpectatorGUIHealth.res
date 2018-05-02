@@ -1,9 +1,9 @@
 "Resource/UI/SpectatorGUIHealth.res"
 {
-	"TargetBG"
+	"HealthBG"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"TargetBG"
+		"fieldName"									"HealthBG"
 		"xpos"										"2"
 		"ypos"										"4"
 		"zpos"										"1"
@@ -18,14 +18,14 @@
 		"enabled"									"1"
 		"alpha"										"255"
 		
-		"border"									"TargetBorder"
+		"border"									"HealthBorder"
 		"scaleImage"								"1"
 	}
 	
-	"TargetBuff"
+	"HealthBuff"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"TargetBuff"
+		"fieldName"									"HealthBuff"
 		"xpos"										"2"
 		"ypos"										"4"
 		"zpos"										"1"
@@ -44,10 +44,10 @@
 		"scaleImage"								"1"
 	}
 	
-	"TargetHurt"
+	"HealthHurt"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"TargetHurt"
+		"fieldName"									"HealthHurt"
 		"xpos"										"2"
 		"ypos"										"4"
 		"zpos"										"1"

@@ -485,10 +485,10 @@
 				"ControlName"	"CExButton"
 				"fieldName"		"JoinNowButton"
 				"xpos"			"rs1-10"
-				"ypos"			"rs1-15"
+				"ypos"			"rs1-9"
 				"wide"			"40"
 				"zpos"			"100"
-				"tall"			"22"
+				"tall"			"15"
 
 				if_queued
 				{

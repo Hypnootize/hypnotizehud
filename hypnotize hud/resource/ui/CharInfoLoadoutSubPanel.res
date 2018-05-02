@@ -428,7 +428,7 @@
 		"textinsety"		"-16"
 		"Command"			"backpack"
 		"Default"			"0"
-		"labelText"			"."
+		"labelText"			"3"
 		"font"				"ModPics46"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

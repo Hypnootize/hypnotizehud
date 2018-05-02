@@ -191,7 +191,7 @@ Scheme
 			"draw_corner_height" 	"8"	
 		}
 		
-		TargetBorder
+		HealthBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"

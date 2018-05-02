@@ -325,8 +325,8 @@
 		"fgcolor"              						"White"
 		"labelText"		          					"%spectators%"
 		"textAlignment"								"west"
-		"xpos"          							"0"
-		"ypos" 		     							"r10"
+		"xpos"          							"2"
+		"ypos" 		     							"r11"
 		"zpos"		      	     					"4"
 		"wide"		      	      					"f0"
 		"tall"		      	      					"12"
@@ -349,8 +349,8 @@
 		"fgcolor"              						"White"
 		"labelText"		          					"%waitingtoplay%"
 		"textAlignment"								"west"
-		"xpos"          							"0"
-		"ypos" 		     							"r10"
+		"xpos"          							"2"
+		"ypos" 		     							"r11"
 		"zpos"		      	     					"4"
 		"wide"		      	      					"f0"
 		"tall"		      	      					"12"
@@ -364,6 +364,24 @@
 		{
 			"visible"								"0"
 		}
+	}
+	
+	"ServerLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ServerLabel"
+		"font"										"DefaultVerySmall"
+		"fgcolor"									"White"
+		"labelText"									"%server%"
+		"textAlignment"								"east"
+		"xpos"										"r302"
+		"ypos"										"r11"
+		"wide"										"300"
+		"tall"										"12"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
 	}
 	
 	"MapName"
