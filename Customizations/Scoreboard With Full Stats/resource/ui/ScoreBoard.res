@@ -1182,38 +1182,46 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"LocalPlayerDuelStatsPanel"
 		"xpos"										"0"
-		"ypos"										"395"
+		"ypos"										"0"
 		"zpos"										"3"
-		"wide"										"600"
-		"tall"										"53"
+		"wide"										"472"
+		"tall"										"50"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
+		
+		"paintbackground"							"0"
+		"border"									"MaterialTransparent"
+		
+		"pin_to_sibling" 							"MainBackground"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 
 		"DuelingLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DuelingLabel"
-			"font"									"ScoreboardSmall"
+			"font"									"GameFont14"
 			"labelText"								"#TF_ScoreBoard_Dueling"
 			"textAlignment"							"center"
-			"xpos"									"250"
+			"xpos"									"0"
 			"ypos"									"2"
 			"zpos"									"3"
-			"wide"									"100"
+			"wide"									"472"
 			"tall"									"20"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			"AllCaps"								"1"
 		}
 
 		"DuelingIcon"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"DuelingIcon"
-			"xpos"									"284"
+			"xpos"									"220"
 			"ypos"									"15"
 			"zpos"									"2"
 			"wide"									"32"
@@ -1228,7 +1236,7 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"LocalPlayerData"
-			"xpos"									"75"
+			"xpos"									"0"
 			"ypos"									"0"
 			"wide"									"200"
 			"tall"									"53"
@@ -1241,14 +1249,7 @@
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"AvatarBGPanel"
-				"xpos"								"157"
-				"ypos"								"7"
-				"zpos"								"-1"
-				"wide"								"36"
-				"tall"								"36"
-				"visible"							"1"
-				"PaintBackgroundType"				"2"
-				"bgcolor_override"					"117 107 94 255"
+				"xpos"								"9999"
 			}
 			
 			"AvatarImage"
@@ -1264,7 +1265,7 @@
 				"enabled"							"1"
 				"image"								""
 				"scaleImage"						"1"	
-				"color_outline"						"52 48 45 255"
+				"color_outline"						"Blank"
 			}
 			
 			"AvatarTextLabel"
@@ -1284,7 +1285,7 @@
 				"wrap"								"0"
 				"labelText"							"%playername%"
 				"textAlignment"						"east"
-				"font"								"HudFontSmallest"
+				"font"								"GameFont12"
 			}
 			
 			"Score"
@@ -1302,7 +1303,7 @@
 				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"ScoreboardMedium"
+				"font"								"GameFont20"
 			}
 		}
 
@@ -1310,7 +1311,7 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"OpponentData"
-			"xpos"									"325"
+			"xpos"									"275"
 			"ypos"									"0"
 			"wide"									"200"
 			"tall"									"53"
@@ -1323,15 +1324,9 @@
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"AvatarBGPanel"
-				"xpos"								"7"
-				"ypos"								"7"
-				"zpos"								"-1"
-				"wide"								"36"
-				"tall"								"36"
-				"visible"							"1"
-				"PaintBackgroundType"				"2"
-				"bgcolor_override"					"117 107 94 255"
+				"xpos"								"9999"
 			}
+			
 			"AvatarImage"
 			{
 				"ControlName"						"CAvatarImagePanel"
@@ -1345,8 +1340,9 @@
 				"enabled"							"1"
 				"image"								""
 				"scaleImage"						"1"	
-				"color_outline"						"52 48 45 255"
+				"color_outline"						"Blank"
 			}
+			
 			"AvatarTextLabel"
 			{	
 				"ControlName"						"CExLabel"
@@ -1364,8 +1360,9 @@
 				"wrap"								"0"
 				"labelText"							"%playername%"
 				"textAlignment"						"west"
-				"font"								"HudFontSmallest"
+				"font"								"GameFont12"
 			}
+			
 			"Score"
 			{
 				"ControlName"						"CExLabel"
@@ -1381,7 +1378,7 @@
 				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"ScoreboardMedium"
+				"font"								"GameFont20"
 			}
 		}		
 	}
