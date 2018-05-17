@@ -121,13 +121,7 @@
 	"RoundCounter"
 	{
 		"fieldName"									"RoundCounter"
-		"xpos"										"cs-0.5"
-		"ypos"										"-2"
-		"zpos"										"1"		
-		"wide"										"300"
-		"tall"										"100"
-		"visible"									"1"
-		"enabled"									"1"
+		"xpos"										"9999"
 	}
 	
 	"RankUpLabel"
@@ -197,12 +191,6 @@
 		"delta_lifetime"							"2"
 		"delta_item_font"							"GameFont16"
 		
-		if_match
-		{
-			"xpos"									"c-31"
-			"delta_item_x"							"9999"
-		}
-		
 		"TimePanelValue"
 		{
 			"ControlName"							"CExLabel"
@@ -218,13 +206,6 @@
 			"enabled"								"1"
 			"textAlignment"							"west"
 			"labelText"								"0:00"
-			
-			if_match
-			{
-				"ypos"								"7"
-				"font"								"GameFont12"
-				"textAlignment"						"center"
-			}
 		}	
 	}
 	
@@ -240,19 +221,18 @@
 		"visible"									"1"
 		"enabled"									"1"
 
+		"max_size"									"30"
 
-		"max_size"									"19"
-
-		"6v6_gap"									"4"
+		"6v6_gap"									"2"
 		"12v12_gap"									"1"
 
 		"team1_grow_dir" 							"west"
-		"team1_base_x"								"c-45"
-		"team1_max_expand"							"133"
+		"team1_base_x"								"c-5"
+		"team1_max_expand"							"200"
 
 		"team2_grow_dir" 							"east"
-		"team2_base_x"								"c47"
-		"team2_max_expand"							"133"
+		"team2_base_x"								"c5"
+		"team2_max_expand"							"200"
 
 		"playerpanels_kv"
 		{
@@ -261,31 +241,36 @@
 			"tall"									"50"
 			"zpos"									"1"
 
-			"color_portrait_bg_red"					"119 62 61 255"
-			"color_portrait_bg_blue"				"62 81 101 255"
-			"color_portrait_bg_red_dead"			"79 54 52 255"
-			"color_portrait_bg_blue_dead"			"44 49 51 255"
-			"color_bar_health_high"					"84 191 58 255"
+			"color_portrait_bg_red"					"Red"
+			"color_portrait_bg_blue"				"Blue"
+			"color_portrait_bg_red_dead"			"DarkBG"
+			"color_portrait_bg_blue_dead"			"DarkBG"
+			"color_bar_health_high"					"Green"
 			"color_bar_health_med"					"191 183 58 255"
 			"percentage_health_med"					"0.6"
 			"color_bar_health_low"					"191 58 58 255"
 			"percentage_health_low"					"0.3"
-			"color_portrait_blend_dead_red"			"255 255 255 255"
-			"color_portrait_blend_dead_blue" 		"255 255 255 255"
+			"color_portrait_blend_dead_red"			"White"
+			"color_portrait_blend_dead_blue" 		"White"
 			
 			"playername"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"playername"
-				"font"								"DefaultVerySmall"
-				"xpos"								"5"
-				"ypos"								"24"
+				"xpos"								"0"
+				"ypos"								"19"
 				"zpos"								"5"
-				"wide"								"50"
-				"tall"								"8"
+				"wide"								"f0"
+				"tall"								"7"
 				"autoResize"						"0"
 				"pinCorner"							"0"
-				"visible"							"0"
+				"visible"							"1"
+				"textinsetx"						"1"
+				"labelText"							"%playername%"
+				"font"								"UltraSmall"
+				"textAlignment"						"center"
+				"bgcolor_override"					"TransparentBlack"
+				"proportionaltoparent"				"1"
 			}
 			
 			"classimage"
@@ -325,7 +310,7 @@
 				"fieldName"							"healthbar"
 				"font"								"Default"																		
 				"xpos"								"0"
-				"ypos"								"19"
+				"ypos"								"17"
 				"zpos"								"5"
 				"wide"								"f0"
 				"tall"								"2"				
@@ -346,7 +331,7 @@
 				"fieldName"							"overhealbar"
 				"font"								"Default"																		
 				"xpos"								"0"
-				"ypos"								"19"
+				"ypos"								"17"
 				"zpos"								"6"
 				"wide"								"f0"
 				"tall"								"2"				
@@ -357,7 +342,7 @@
 				"textAlignment"						"Left"
 				"dulltext"							"0"
 				"brighttext"						"0"
-				"bgcolor_override"	   				"0 0 0 0"
+				"bgcolor_override"	   				"Blank"
 				"fgcolor_override"	   				"255 255 255 160"
 				"proportionaltoparent"				"1"
 			}
@@ -421,7 +406,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"respawntime"
-				"font"								"PlayerPanelPlayerName"
+				"font"								"GameFont10"
 				"xpos"								"cs-0.5"
 				"ypos"								"0"
 				"zpos"								"5"
@@ -491,10 +476,10 @@
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"SkullPanel"
-				"xpos"								"cs-0.5"
+				"xpos"								"9999"
 				"zpos"								"1"
-				"wide"								"o1.2"
-				"tall"								"p0.15"
+				"wide"								"0"
+				"tall"								"0"
 				"visible"							"0"
 				"enabled"							"1"
 				"image"								"../HUD/comp_player_status_skull"	
