@@ -1616,6 +1616,16 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		Respawn
+		{
+			"1"
+			{
+				"name"										"Nexa Respawn"
+				"tall"										"20"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
 	}
 		
 	CustomFontFiles
@@ -1631,6 +1641,11 @@ Scheme
 			"name" 		"Nexa Numbers"
 		}
 		"12" 
+		{
+			"font" 		"resource/scheme/fontfiles/Nexa Respawn.otf"
+			"name" 		"Nexa Respawn"
+		}
+		"13" 
 		{
 			"font" 		"resource/scheme/fontfiles/Roboto.ttf"
 			"name" 		"Roboto Bold"

@@ -8,6 +8,17 @@ Scheme
 	
 	Fonts
 	{
+		"UltraSmall"
+		{
+			"1"
+			{
+				"name"										"Verdana"
+				"tall"										"6"
+				"weight"									"0"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
 		"Default"
 		{
 			"1"
@@ -593,7 +604,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NexaBold"
+				"name"		"Verdana"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -718,7 +729,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NexaBold"
+				"name"		"Verdana"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -740,7 +751,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NexaBold"
+				"name"		"Verdana"
 				"tall"		"8"
 				"tall_hidef"	"9"
 				"tall_lodef"	"10"
@@ -753,7 +764,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NexaBold"
+				"name"		"Verdana"
 				"tall"		"8"
 				"tall_hidef"	"7"
 				"weight"	"500"
@@ -1084,7 +1095,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NexaBold"
+				"name"		"Verdana"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
@@ -1305,7 +1316,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NexaBold"
+				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1417,7 +1428,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"				"NexaBold"
+				"name"		"NexaBold"
 				"tall"		"20"
 				"weight"	"500"
 				"additive"	"0"
@@ -1467,12 +1478,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NexaBold"
+				"name"		"TF2"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"TextColor"	"Black"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
 
@@ -1480,7 +1491,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NexaBold"
+				"name"		"Verdana"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"12"
@@ -1681,7 +1692,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NexaBold"
+				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1724,7 +1735,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NexaBold"
+				"name"		"Verdana"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -1768,7 +1779,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NexaBold"
+				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -1779,7 +1790,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NexaBold"
+				"name"		"Verdana"
 				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500"
@@ -1789,7 +1800,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NexaBold"
+				"name"		"Verdana"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -1847,7 +1858,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NexaBold"
+				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -1858,7 +1869,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NexaBold"
+				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -1869,7 +1880,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NexaBold"
+				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -1879,7 +1890,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NexaBold"
+				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -1892,7 +1903,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NexaBold"
+				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2121,7 +2132,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NexaBold"
+				"name"		"Verdana"
 				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
@@ -2132,7 +2143,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NexaBold"
+				"name"		"Verdana"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2143,7 +2154,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NexaBold"
+				"name"		"Verdana"
 				"tall"		"8"
 				"weight"	"400"
 				"antialias" "1"
@@ -2425,7 +2436,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NexaBold"
+				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -2438,7 +2449,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NexaBold"
+				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
