@@ -48,7 +48,7 @@
 				"wide"			"400"
 				"tall"			"58"
 				"visible"		"1"
-				"bgcolor_override"		"0 0 0 255"
+				"bgcolor_override"		"Black"
 				"noitem_textcolor"		"NoItemText"
 				"PaintBackgroundType"	"2"
 				"paintborder"	"0"

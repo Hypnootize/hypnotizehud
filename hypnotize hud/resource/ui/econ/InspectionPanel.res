@@ -253,7 +253,7 @@
 			
 			"paintbackground"	"0"
 			"paintbackgroundtype"	"0"
-			"defaultBgColor_Override"	"0 0 0 255"
+			"defaultBgColor_Override"	"Black"
 			
 			"paintborder"		"0"
 			
@@ -366,12 +366,12 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "0 0 0 0"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Blank"
+			"armedFgColor_override" "Red"
+			"depressedFgColor_override" "Black"
 			
 			"image_drawcolor"	"TanDark"
-			"image_armedcolor"	"200 80 60 255"
+			"image_armedcolor"	"255 42 50 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -486,12 +486,12 @@
 			"proportionaltoparent"	"1"
 		
 			"fgcolor_override"	"White"
-			"bgcolor_override"	"0 0 0 0"
+			"bgcolor_override"	"Blank"
 			"disabledFgColor_override" "TanDark"
-			"disabledBgColor_override" "0 0 0 0"
-			"selectionColor_override" "0 0 0 0"
+			"disabledBgColor_override" "Blank"
+			"selectionColor_override" "Blank"
 			"selectionTextColor_override" "White"
-			"defaultSelectionBG2Color_override" "0 0 0 0"
+			"defaultSelectionBG2Color_override" "Blank"
 		}
 
 		"ItemLabel"

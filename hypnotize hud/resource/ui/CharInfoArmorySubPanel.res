@@ -38,7 +38,7 @@
 			"wide"			"70"
 			"tall"			"49"
 			"visible"		"0"
-			"bgcolor_override"		"0 0 0 255"
+			"bgcolor_override"		"Black"
 			"noitem_textcolor"		"NoItemText"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
@@ -181,7 +181,7 @@
 		"wide"			"260"
 		"tall"			"209"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Blank"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		
@@ -206,7 +206,7 @@
 		"wide"			"290"
 		"tall"			"140"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Blank"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		

@@ -1122,7 +1122,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "255 255 255 255"
+			"fgcolor_override" "White"
 		}
 		
 		"TextLabel"
@@ -1141,7 +1141,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "255 255 255 255"
+			"fgcolor_override" "White"
 		}
 		
 		"CloseButton"
@@ -1170,9 +1170,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "255 42 50 255"
-			"depressedFgColor_override" "255 255 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override" "Red"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 42 50 255"
@@ -1235,9 +1235,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "255 42 50 255"
-			"depressedFgColor_override" "255 255 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override" "Red"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1297,7 +1297,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "255 255 255 255"
+			"fgcolor_override" "White"
 		}
 		
 		"TextLabel"
@@ -1316,7 +1316,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "255 255 255 255"
+			"fgcolor_override" "White"
 		}
 		
 		"CloseButton"
@@ -1345,9 +1345,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "255 42 50 255"
-			"depressedFgColor_override" "255 255 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override" "Red"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 42 50 255"
@@ -1392,9 +1392,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "255 42 50 255"
-			"depressedFgColor_override" "255 255 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override" "Red"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1457,9 +1457,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "255 42 50 255"
-			"depressedFgColor_override" "255 255 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override" "Red"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1519,7 +1519,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "255 255 255 255"
+			"fgcolor_override" "White"
 		}
 		
 		"TextLabel"
@@ -1538,7 +1538,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "255 255 255 255"
+			"fgcolor_override" "White"
 		}
 		
 		"CloseButton"
@@ -1567,9 +1567,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "255 255 255 255"
-			"depressedFgColor_override" "255 255 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override" "Red"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 42 50 255"
@@ -1614,9 +1614,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "255 42 50 255"
-			"depressedFgColor_override" "255 255 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override" "Red"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1651,7 +1651,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "255 42 50 255"
+			"fgcolor_override" "Red"
 		}
 		"NextButton"
 		{
@@ -1679,9 +1679,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "255 42 50 255"
-			"depressedFgColor_override" "255 255 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override" "Red"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1741,7 +1741,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "255 255 255 255"
+			"fgcolor_override" "White"
 		}
 		
 		"TextLabel"
@@ -1760,7 +1760,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "255 255 255 255"
+			"fgcolor_override" "White"
 		}
 		
 		"CloseButton"
@@ -1789,9 +1789,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "255 255 255 255"
-			"depressedFgColor_override" "255 255 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override" "White"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 42 50 255"
@@ -1836,9 +1836,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "255 42 50 255"
-			"depressedFgColor_override" "255 255 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override" "Red"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1873,7 +1873,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "255 42 50 255"
+			"fgcolor_override" "Red"
 		}
 		"NextButton"
 		{
@@ -1901,9 +1901,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "255 42 50 255"
-			"depressedFgColor_override" "255 255 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override" "Red"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1963,7 +1963,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "255 255 255 255"
+			"fgcolor_override" "White"
 		}
 		
 		"TextLabel"
@@ -1982,7 +1982,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "255 255 255 255"
+			"fgcolor_override" "White"
 		}
 		
 		"CloseButton"
@@ -2011,9 +2011,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "255 255 255 255"
-			"depressedFgColor_override" "255 255 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override" "Red"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 42 50 255"
@@ -2058,9 +2058,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "255 42 50 255"
-			"depressedFgColor_override" "255 255 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override" "Red"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -2095,7 +2095,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "255 42 50 255"
+			"fgcolor_override" "Red"
 		}
 		"NextButton"
 		{
@@ -2123,9 +2123,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "255 42 50 255"
-			"depressedFgColor_override" "255 255 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override" "Red"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -2185,7 +2185,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "255 255 255 255"
+			"fgcolor_override" "White"
 		}
 		
 		"TextLabel"
@@ -2204,7 +2204,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "255 255 255 255"
+			"fgcolor_override" "White"
 		}
 		
 		"CloseButton"
@@ -2233,9 +2233,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "255 255 255 255"
-			"depressedFgColor_override" "255 255 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override" "Red"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 42 50 255"
@@ -2280,9 +2280,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "255 42 50 255"
-			"depressedFgColor_override" "255 255 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override" "Red"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -2317,7 +2317,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "255 42 50 255"
+			"fgcolor_override" "Red"
 		}
 		"NextButton"
 		{
@@ -2345,9 +2345,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "255 42 50 255"
-			"depressedFgColor_override" "255 255 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override" "Red"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -2406,7 +2406,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "255 255 255 255"
+			"fgcolor_override" "White"
 		}
 		
 		"TextLabel"
@@ -2425,7 +2425,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "255 255 255 255"
+			"fgcolor_override" "White"
 		}
 		
 		"CloseButton"
@@ -2454,9 +2454,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "255 255 255 255"
-			"depressedFgColor_override" "255 255 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override" "Red"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 42 50 255"
@@ -2501,9 +2501,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "255 42 50 255"
-			"depressedFgColor_override" "255 255 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override" "Red"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -2538,7 +2538,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "255 42 50 255"
+			"fgcolor_override" "Red"
 		}
 	}
 	

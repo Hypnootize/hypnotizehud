@@ -43,7 +43,7 @@
 			"wide"			"150"
 			"tall"			"80"
 			"visible"		"0"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Blank"
 			"noitem_textcolor"		"NoItemText"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
@@ -119,8 +119,8 @@
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"27"
-		"allow_rot"		"1"
+		"fov"				"27"
+		"allow_manip"		"1"
 				
 		"model"
 		{
@@ -151,7 +151,7 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Blank"
 		"noitem_textcolor"		"NoItemText"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"

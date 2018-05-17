@@ -293,7 +293,7 @@
 			"tall"			"18"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 200"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"NoItemText"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			"useparentbg"	"0"

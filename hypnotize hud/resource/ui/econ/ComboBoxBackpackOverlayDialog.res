@@ -60,7 +60,7 @@
 		"tall"										"120"
 		"visible"									"1"
 		"enabled"									"1"
-		"bgcolor_override"							"0 0 0 0"
+		"bgcolor_override"							"Blank"
 		"noitem_textcolor"							"NoItemText"
 		"PaintBackgroundType"						"1"
 		"paintborder"								"1"

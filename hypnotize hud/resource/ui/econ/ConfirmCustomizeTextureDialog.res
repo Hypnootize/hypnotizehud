@@ -57,7 +57,7 @@
 			"wide"					"300"
 			"tall"					"300"
 			"visible"				"0"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Blank"
 			"noitem_textcolor"		"NoItemText"
 			"PaintBackgroundType"	"2"
 			"paintborder"			"1"
@@ -114,7 +114,7 @@
 			"wide"					"84"
 			"tall"					"64"
 			"visible"				"1"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Blank"
 			"noitem_textcolor"		"NoItemText"
 			"PaintBackgroundType"	"2"
 			"paintborder"			"0"
@@ -182,7 +182,7 @@
 			"wide"					"84"
 			"tall"					"64"
 			"visible"				"1"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Blank"
 			"noitem_textcolor"		"NoItemText"
 			"PaintBackgroundType"	"2"
 			"paintborder"			"0"
@@ -212,7 +212,7 @@
 			"wide"					"160"
 			"tall"					"160"
 			"visible"				"1"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Blank"
 			"noitem_textcolor"		"NoItemText"
 			//"PaintBackgroundType"	"2"
 			"paintborder"			"0"
@@ -388,12 +388,12 @@
 					"font"				"HudFontSmall"
 
 					//"fgcolor_override"	"White"
-					"bgcolor_override"		"0 0 0 255"
+					"bgcolor_override"		"Black"
 					//"disabledFgColor_override" "White"
-					"disabledBgColor_override" "0 0 0 255"
-					"selectionColor_override" "0 0 0 255"
+					"disabledBgColor_override" "Black"
+					"selectionColor_override" "Black"
 					"selectionTextColor_override" "White"
-					"defaultSelectionBG2Color_override" "0 0 0 0"
+					"defaultSelectionBG2Color_override" "Blank"
 				}
 
 			}
@@ -536,12 +536,12 @@
 					"visible"		"0"
 
 					//"fgcolor_override"	"White"
-					"bgcolor_override"	"0 0 0 255"
+					"bgcolor_override"	"Black"
 					//"disabledFgColor_override" "White"
-					"disabledBgColor_override" "0 0 0 255"
-					"selectionColor_override" "0 0 0 255"
+					"disabledBgColor_override" "Black"
+					"selectionColor_override" "Black"
 					"selectionTextColor_override" "White"
-					"defaultSelectionBG2Color_override" "0 0 0 0"
+					"defaultSelectionBG2Color_override" "Blank"
 				}
 
 				"PainterlyOptions"
@@ -696,12 +696,12 @@
 						"font"				"HudFontSmall"
 
 						//"fgcolor_override"	"White"
-						"bgcolor_override"	"0 0 0 255"
+						"bgcolor_override"	"Black"
 						//"disabledFgColor_override" "White"
-						"disabledBgColor_override" "0 0 0 255"
-						"selectionColor_override" "0 0 0 255"
+						"disabledBgColor_override" "Black"
+						"selectionColor_override" "Black"
 						"selectionTextColor_override" "White"
-						"defaultSelectionBG2Color_override" "0 0 0 0"
+						"defaultSelectionBG2Color_override" "Blank"
 					}
 				}
 			}

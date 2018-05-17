@@ -7,7 +7,7 @@
 		"xpos"			"0"
 		"ypos"			"100"
 		"tall"			"45"
-		"wide"			"255"
+		"wide"			"280"
 		"proportionaltoparent"	"1"
 
 		"button_command"	"play_event"

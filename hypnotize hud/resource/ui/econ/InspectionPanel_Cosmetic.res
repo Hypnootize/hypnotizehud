@@ -1163,7 +1163,7 @@
 			
 			"paintbackground"						"0"
 			"paintbackgroundtype"					"0"
-			"defaultBgColor_Override"				"0 0 0 255"
+			"defaultBgColor_Override"				"Black"
 			
 			"paintborder"							"0"
 			

@@ -45,7 +45,7 @@
 		"enabled"		"1"
 		
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 255"
+		"bgcolor_override"	"Black"
 	}
 
 	
@@ -133,7 +133,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled"	"0"
-		"bgcolor_override"	"0 0 0 250"
+		"bgcolor_override"	"Black"
 		"proportionaltoparent"	"1"
 
 		"MatchmakingBanDurationLabel"
@@ -223,15 +223,15 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 				
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-		"defaultBgColor_override" "0 0 0 0"
-		"armedBgColor_override" "0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
+		"defaultFgColor_override" "Black"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "Black"
+		"defaultBgColor_override" "Blank"
+		"armedBgColor_override" "Blank"
+		"depressedBgColor_override" "Blank"
 				
 		"image_drawcolor"	"117 107 94 255"
-		"image_armedcolor"	"235 226 202 255"
+		"image_armedcolor"	"255 255 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"

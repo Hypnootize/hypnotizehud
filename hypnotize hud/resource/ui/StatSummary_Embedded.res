@@ -1642,9 +1642,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Blank"
 			"tabPosition"			"0"	
-			"fillcolor"				"0 0 0 0"
+			"fillcolor"				"Blank"
 			"PaintBackgroundType"	"0"
 		}
 		"RecordsLabel1"
@@ -1676,9 +1676,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Blank"
 			"tabPosition"			"0"	
-			"fillcolor"				"0 0 0 0"
+			"fillcolor"				"Blank"
 			"PaintBackgroundType"	"0"
 		}
 		"RecordsLabel"

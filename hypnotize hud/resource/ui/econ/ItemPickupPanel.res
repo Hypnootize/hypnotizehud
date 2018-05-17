@@ -32,7 +32,7 @@
 		{
 			"PaintBackgroundType"					"2"
 			"paintborder"							"1"
-			"bgcolor_override"						"0 0 0 0"
+			"bgcolor_override"						"Blank"
 			
 			"model_xpos"							"0"
 			"model_center_y"						"1"
@@ -84,7 +84,7 @@
 		"wide"										"36"
 		"tall"										"0"		//36
 		"visible"									"1"
-		"bgcolor_override" 							"0 0 0 255"
+		"bgcolor_override" 							"Black"
 	}
 	
 	"classimage"
@@ -438,8 +438,8 @@
 		"NumericInputOnly"							"0"
 		"unicode"									"0"
 		"wrap"										"0"
-		"fgcolor_override"							"255 255 255 255"
-		"bgcolor_override"							"0 0 0 255"
+		"fgcolor_override"							"White"
+		"bgcolor_override"							"Black"
 		"labelText"									"Enter Score Here"
 		"textAlignment"								"center"
 	}

@@ -955,7 +955,7 @@
 		"wide"										"300"
 		"tall"										"300"
 		"visible"									"0"
-		"bgcolor_override"							"0 0 0 0"
+		"bgcolor_override"							"Blank"
 		"noitem_textcolor"							"NoItemText"
 		"PaintBackgroundType"						"2"
 		"paintborder"								"1"

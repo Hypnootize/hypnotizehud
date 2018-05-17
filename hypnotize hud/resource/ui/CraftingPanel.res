@@ -39,7 +39,7 @@
 			"wide"			"70"
 			"tall"			"45"
 			"visible"		"0"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Blank"
 			"noitem_textcolor"		"NoItemText"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
@@ -63,7 +63,7 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"visible"		"1"
-				"bgcolor_override"		"0 0 0 0"
+				"bgcolor_override"		"Blank"
 			
 				"itemmodelpanel"
 				{
@@ -355,8 +355,8 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Blank"
+		"noitem_textcolor"		"NoItemText"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
@@ -396,8 +396,8 @@
 		"wide"			"54"
 		"tall"			"42"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Blank"
+		"noitem_textcolor"		"NoItemText"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		

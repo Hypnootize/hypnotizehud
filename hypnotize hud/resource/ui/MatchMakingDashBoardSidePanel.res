@@ -60,8 +60,8 @@
 		"textAlignment"	"west"
 		"font"			"HudFontSmallBold"
 
-		"armedBgColor_override"	"0 0 0 0"
-		"defaultBgColor_override"	"0 0 0 0"
+		"armedBgColor_override"	"Blank"
+		"defaultBgColor_override"	"Blank"
 
 		"armedFgColor_override"	"Orange"
 	}
