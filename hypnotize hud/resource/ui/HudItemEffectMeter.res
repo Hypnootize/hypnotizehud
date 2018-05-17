@@ -35,7 +35,7 @@
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"GameFont9"
+		"font"										"ScoreboardVerySmall"
 		"font_minmode"								"DefaultVerySmall"
 		"fgcolor_override"							"White"
 	}

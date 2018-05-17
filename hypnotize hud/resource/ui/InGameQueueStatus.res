@@ -6,7 +6,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"xpos"										"r76"
-		"ypos"										"110"
+		"ypos"										"115"
 		"zpos"										"1001"
 		"wide"										"120"
 		"tall"										"18"
@@ -28,7 +28,7 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 
-		"radius"									"8"
+		"radius"									"6"
 		"velocity"									"100"
 
 		"fgcolor_override"							"Main Theme"

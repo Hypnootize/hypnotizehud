@@ -20,12 +20,7 @@
 		"src_corner_height"							"24"
 		"src_corner_width"							"24"
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"	
-
-		if_match
-		{
-			"visible"								"0"
-		}
+		"draw_corner_height" 						"8"
 	}
 	
 	"ServerTimeLimitLabel"
@@ -47,13 +42,6 @@
 		"font" 										"GameFont12"
 		"fgcolor"									"White"
 		
-		if_match
-		{
-			"xpos" 									"8"
-			"ypos" 									"18"
-			"font" 									"GameFont10"
-			"textAlignment"							"center"
-		}
 		if_mvm
 		{
 			"visible"								"0"
@@ -80,12 +68,7 @@
 		"src_corner_height"							"32"
 		"src_corner_width"							"32"
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"	
-
-		if_match
-		{
-			"wide"									"0"
-		}
+		"draw_corner_height" 						"8"
 	}
 	
 	

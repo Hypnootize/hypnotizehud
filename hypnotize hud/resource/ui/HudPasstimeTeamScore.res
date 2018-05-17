@@ -89,7 +89,7 @@
 		"ypos"										"0"
 		"zpos"										"10"
 		"wide"										"f0"
-		"tall"										"480"
+		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
 
@@ -97,18 +97,18 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PlayingTo"
-			"xpos"									"c-70"
-			"ypos"									"r44"
+			"xpos"									"-7"
+			"ypos"									"0"
 			"zpos"									"4"
-			"wide"									"140"
-			"tall"									"30"
+			"wide"									"f0"
+			"tall"									"8"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_PlayingTo"
-			"textAlignment"							"center"
+			"textAlignment"							"east"
 			"dulltext"								"0"
 			"brighttext"							"0"
-			"font"									"defaultverysmall"
+			"font"									"DefaultVerySmall"
 			"fgcolor"								"White"
 		}	
 				

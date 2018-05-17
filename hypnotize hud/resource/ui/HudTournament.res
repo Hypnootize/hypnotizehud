@@ -23,11 +23,11 @@
 		
 		if_competitive
 		{
-			"team1_player_base_y"					"43"
+			"team1_player_base_y"					"22"
 		}
 		if_readymode
 		{
-			"team1_player_base_y"					"19"
+			"team1_player_base_y"					"22"
 		}
 		if_mvm
 		{
@@ -53,9 +53,9 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"playername"
-				"font"								"ScoreboardVerySmall"
+				"font"								"DefaultVerySmall"
 				"xpos"								"5"
-				"ypos"								"23"
+				"ypos"								"22"
 				"zpos"								"5"
 				"wide"								"40"
 				"tall"								"9"
@@ -63,7 +63,7 @@
 				"pinCorner"							"0"
 				"visible"							"1"
 				"labelText"							"%playername%"
-				"textAlignment"						"north-west"
+				"textAlignment"						"west"
 				"AllCaps"							"1"
 				"fgcolor_override"					"White"
 			}
@@ -386,11 +386,15 @@
 		
 		if_competitive
 		{
-			"visible"		              			"0"
+			"xpos"			              			"c-100"
+			"ypos"	              					"55"
+			"textAlignment"		        			"center"
 		}
 		if_readymode
 		{
-			"xpos"			              			"c-145"
+			"xpos"			              			"c-100"
+			"ypos"	              					"55"
+			"textAlignment"		        			"center"
 		}
 		if_mvm
 		{

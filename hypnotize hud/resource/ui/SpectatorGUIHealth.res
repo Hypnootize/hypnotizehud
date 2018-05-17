@@ -1,71 +1,5 @@
 "Resource/UI/SpectatorGUIHealth.res"
 {
-	"HealthBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"HealthBG"
-		"xpos"										"2"
-		"ypos"										"4"
-		"zpos"										"1"
-		"wide"										"40"
-		"wide_minmode"								"36"
-		"tall"	 									"22"
-		"tall_minmode"	 							"19"
-		"autoResize"								"0"
-		"paintbackground"							"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"alpha"										"255"
-		
-		"border"									"HealthBorder"
-		"scaleImage"								"1"
-	}
-	
-	"HealthBuff"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"HealthBuff"
-		"xpos"										"2"
-		"ypos"										"4"
-		"zpos"										"1"
-		"wide"										"40"
-		"wide_minmode"								"36"
-		"tall"	 									"22"
-		"tall_minmode"	 							"19"
-		"autoResize"								"0"
-		"paintbackground"							"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"alpha"										"0"
-		
-		"border"									"BuffedBorder"
-		"scaleImage"								"1"
-	}
-	
-	"HealthHurt"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"HealthHurt"
-		"xpos"										"2"
-		"ypos"										"4"
-		"zpos"										"1"
-		"wide"										"40"
-		"wide_minmode"								"36"
-		"tall"	 									"22"
-		"tall_minmode"	 							"19"
-		"autoResize"								"0"
-		"paintbackground"							"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"alpha"										"0"
-		
-		"border"									"HurtBorder"
-		"scaleImage"								"1"
-	}
-	
 	"PlayerStatusHealthValueSpec"
 	{
 		"ControlName"								"CExLabel"
@@ -111,6 +45,85 @@
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
+	"HealthBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"HealthBG"
+		"xpos"										"-2"
+		"xpos_minmode"								"-4"
+		"ypos"										"0"
+		"ypos_minmode"								"1"
+		"zpos"										"1"
+		"wide"										"40"
+		"wide_minmode"								"34"
+		"tall"	 									"22"
+		"tall_minmode"	 							"19"
+		"autoResize"								"0"
+		"paintbackground"							"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"alpha"										"255"
+		
+		"border"									"HealthBorder"
+		"scaleImage"								"1"
+		
+		"pin_to_sibling" 							"PlayerStatusHealthValueSpec"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+	}
+	
+	"HealthBuff"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"HealthBuff"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"1"
+		"wide"										"40"
+		"wide_minmode"								"32"
+		"tall"	 									"22"
+		"tall_minmode"	 							"19"
+		"autoResize"								"0"
+		"paintbackground"							"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"alpha"										"0"
+		
+		"border"									"BuffedBorder"
+		"scaleImage"								"1"
+		
+		"pin_to_sibling" 							"HealthBG"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+	}
+	
+	"HealthHurt"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"HealthHurt"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"1"
+		"wide"										"40"
+		"wide_minmode"								"34"
+		"tall"	 									"22"
+		"tall_minmode"	 							"19"
+		"autoResize"								"0"
+		"paintbackground"							"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"alpha"										"0"
+		
+		"border"									"HurtBorder"
+		"scaleImage"								"1"
+		
+		"pin_to_sibling" 							"HealthBG"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+	}
 	
 	
 	

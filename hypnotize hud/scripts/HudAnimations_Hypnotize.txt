@@ -148,13 +148,51 @@ event HudSpyDisguiseChanged
 event HudTournamentSetupPanelOpen
 {
 	Animate HudTournamentSetup					Position	"c-61 -50"							Linear 	0.0 	0.001
-	Animate HudTournamentSetup					Position	"c-61 20"							Spline 	0.001 	0.1
+	Animate HudTournamentSetup					Position	"c-61 25"							Spline 	0.001 	0.1
 }
 
 event HudTournamentSetupPanelClose
 {
-	Animate HudTournamentSetup					Position	"c-61 20"							Linear 	0.0 	0.001
+	Animate HudTournamentSetup					Position	"c-61 25"							Linear 	0.0 	0.001
 	Animate HudTournamentSetup					Position	"c-61 -50"							Spline 	0.001 	0.6
+}
+
+//====================================================================================================================
+
+event RDPositiveScorePulse
+{
+	Animate Score 								FgColor		"Green"								Linear 	0.0 	0.0
+	Animate Score 								FgColor		"White"								Linear 	0.1 	0.2
+}
+
+event RDNegativeScorePulse
+{
+	Animate Score 								FgColor		"Low Health Pulse"					Linear 	0.0 	0.0
+	Animate Score 								FgColor		"White"								Linear 	0.1 	0.2
+}
+
+//====================================================================================================================
+
+event TeamStatus_PlayerDead
+{
+   SetVisible DeathPanel  						0 0
+   SetVisible SkullPanel 						0 0
+   SetVisible respawntime  						1 0
+
+   Animate DeathPanel 							ypos 		0 									Accel 0 0.2
+   Animate SkullPanel							ypos 		0 									Accel 0 0.2
+   Animate respawntime 							ypos 		0 									Accel 0 0.2
+}
+
+event TeamStatus_PlayerAlive
+{
+   Animate DeathPanel 							ypos 		0 									Accel 0 0.2
+   Animate SkullPanel 							ypos 		0 									Accel 0 0.2
+   Animate respawntime 							ypos 		0 									Accel 0 0.2
+
+   SetVisible DeathPanel 			 			0 			0.2
+   SetVisible SkullPanel  						0 			0.2
+   SetVisible respawntime 						0 			0.2
 }
 
 //====================================================================================================================

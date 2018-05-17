@@ -1,13 +1,5 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
 {
-	"HudKothTimeStatus"
-	{
-		if_match
-		{
-			"zpos"									"5"
-		}
-	}
-	
 	"TimeBGBlue"
 	{
 		"ControlName"								"EditablePanel"
@@ -20,11 +12,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"border"									"MaterialBlue"
-		
-		if_match
-		{
-			"visible"								"0"
-		}
 	}
 	
 	"BlueTimer"
@@ -38,11 +25,6 @@
 		"tall"										"50"
 		"visible"									"1"
 		"enabled"									"1"
-		
-		if_match
-		{
-			"xpos"									"c-46"
-		}
 		
 		"TimePanelValue"
 		{
@@ -59,13 +41,6 @@
 			"enabled"								"1"
 			"textAlignment"							"west"
 			"labelText"								"0:00"
-			
-			if_match
-			{
-				"font"								"GameFont12"
-				"ypos"								"7"
-				"textAlignment"						"center"
-			}
 		}	
 	}
 	
@@ -81,11 +56,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"border"									"MaterialRed"
-		
-		if_match
-		{
-			"visible"								"0"
-		}
 	}
 
 	"RedTimer"
@@ -99,12 +69,6 @@
 		"tall"										"50"
 		"visible"									"1"
 		"enabled"									"1"
-		
-		if_match
-		{
-			"xpos"									"c-9"
-			"ypos"									"0"
-		}
 		
 		"TimePanelValue"
 		{
@@ -121,13 +85,6 @@
 			"enabled"								"1"
 			"textAlignment"							"west"
 			"labelText"								"0:00"
-			
-			if_match
-			{
-				"font"								"GameFont12"
-				"ypos"								"7"
-				"textAlignment"						"center"
-			}
 		}	
 	}
 	

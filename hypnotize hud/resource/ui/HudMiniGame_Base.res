@@ -78,18 +78,18 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayingTo"
-		"xpos"										"-5"
+		"xpos"										"-7"
 		"ypos"										"0"
 		"zpos"										"4"
 		"wide"										"f0"
-		"tall"										"10"
+		"tall"										"8"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_PlayingTo"
 		"textAlignment"								"east"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"defaultverysmall"
+		"font"										"DefaultVerySmall"
 		"fgcolor"									"White"
 	}
 	

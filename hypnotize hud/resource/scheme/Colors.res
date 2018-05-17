@@ -29,11 +29,6 @@ Scheme
 		
 		"NoItemText"										"120 120 120 255"
 		
-		"BorderBlue"										"90 122 143 255"
-		"BorderRed"											"189 59 61 255"
-		
-		"Class Selection"									"0 255 0 255"
-		
 		/////////////////////////////////INGAME COLORS/////////////////////////////////
 		
 		"Shadow"											"0 0 0 175"
@@ -130,7 +125,7 @@ Scheme
 		"HudProgressBarInActiveLow"							"255 42 50 255"	
 
 		"HudTimerProgressActive"							"255 255 255 255"
-		"HudTimerProgressInActive"							"52 48 45 255"
+		"HudTimerProgressInActive"							"50 50 50 255"
 		"HudTimerProgressWarning"							"240 30 30 255"
 
 		"HudTrainingHint"									"212 160 23 255"
@@ -158,17 +153,17 @@ Scheme
 		"DisguiseMenuIconBlue"								"0 170 255 255"
 
  		"MatchmakingDialogTitleColor"						"255 255 255 255"
- 		"MatchmakingMenuItemBackground"						"46 43 42 255"
+ 		"MatchmakingMenuItemBackground"						"30 30 30 255"
  		"MatchmakingMenuItemBackgroundActive"				"0 170 255 255"	
 		"MatchmakingMenuItemTitleColor"						"255 255 255 255"
 		"MatchmakingMenuItemDescriptionColor"				"255 255 255 255"
 		
 		"HTMLBackground"									"30 30 30 255"
 		
-		"ItemAttribLevel"									"117 107 94 255"
-		"ItemAttribNeutral"									"235 226 202 255"
-		"ItemAttribPositive"								"153 204 255 255"
-		"ItemAttribNegative"								"255 64 64 255"
+		"ItemAttribLevel"									"255 255 255 255"
+		"ItemAttribNeutral"									"255 255 255 255"
+		"ItemAttribPositive"								"150 200 255 255"
+		"ItemAttribNegative"								"255 42 50 255"
 
 		"ItemSetName"										"225 255 15 255"
 		"ItemSetItemEquipped"								"149 175 12 255"

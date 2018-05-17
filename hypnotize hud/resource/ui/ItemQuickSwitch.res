@@ -52,8 +52,8 @@
 		"wide"										"250"
 		"tall"										"113"
 		"PaintBackgroundType"						"2"
-		"fgcolor_override"							"0 0 0 0"
-		"bgcolor_override"							"0 0 0 0"
+		"fgcolor_override"							"Blank"
+		"bgcolor_override"							"Blank"
 		"autohide_buttons" 							"1"
 	}
 	

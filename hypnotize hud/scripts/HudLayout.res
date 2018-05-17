@@ -217,7 +217,7 @@
 		"ControlName"								"Label"
 		"fieldName"									"BuildingAnchor"
 		"xpos"										"-13"
-		"ypos"										"150"
+		"ypos"										"125"
 		"zpos"										"0"
 		"wide"										"100"
 		"tall"										"0"
@@ -275,7 +275,7 @@
 		"visible" 									"1"
 		"enabled" 									"1"
 		"xpos"	 									"r635"
-		"ypos"	 									"20"
+		"ypos"	 									"25"
 		"wide"	 									"628"
 		"tall"	 									"468"
 
@@ -495,8 +495,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HudAchievementTracker"
-		"xpos"										"5"
-		"NormalY"									"10"
+		"xpos"										"2"
+		"NormalY"									"30"
 		"EngineerY"									"170"
 		"zpos"										"2"
 		"wide"										"200"
