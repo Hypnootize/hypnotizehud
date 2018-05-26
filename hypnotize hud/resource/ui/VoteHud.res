@@ -656,13 +656,14 @@
 			"selectionTextColor_override" "117 107 94 255"
 			"defaultSelectionBG2Color_override" "251 235 202 255"
 		}
-			
-		"CallVoteButton2"
+		
+		"CallVoteButton"
 		{
-			"ControlName"	"CExButton"
-			"fieldName"		"CallVoteButton2"
+			"ControlName"		"Button"
+			"fieldName"		"CallVoteButton"
 			"xpos"			"75"
 			"ypos"			"275"
+			"zpos"			"1"
 			"wide"			"160"
 			"tall"			"24"
 			"autoResize"	"0"
@@ -682,29 +683,41 @@
 			"AllCaps"					"1"
 		
 			"paintbackground"			"0"
+			"paintborder"				"0"
 			
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
 			
-			"border_default"			"MaterialLightBG"
-			"border_armed"				"MaterialHypno"
-			
-			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"		"Blank"
-			"depressedBgColor_override" "Blank"
-
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"White"
+			"armedFgColor_override"		"Main Theme"
 			"depressedFgColor_override" "White"
 		}
+		
+		"CallVoteButtonBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"CallVoteButtonBG"
+			"xpos"			"75"
+			"ypos"			"275"
+			"zpos"			"0"
+			"wide"			"160"
+			"tall"			"24"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"0"
+			"border"		"MaterialLightBG"
+		}
+		
 		"Button1"
 		{
-			"ControlName"		"CExButton"
+			"ControlName"	"Button"
 			"fieldName"		"Button1"
-			"xpos"		"240"
-			"ypos"		"275"
-			"wide"		"80"
-			"tall"		"24"
+			"xpos"			"240"
+			"ypos"			"275"
+			"zpos"			"1"
+			"wide"			"80"
+			"tall"			"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -722,20 +735,30 @@
 			"AllCaps"					"1"
 		
 			"paintbackground"			"0"
+			"paintborder"				"0"
 			
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
 			
-			"border_default"			"MaterialLightBG"
-			"border_armed"				"MaterialHypno"
-			
-			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"		"Blank"
-			"depressedBgColor_override" "Blank"
-
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"White"
+			"armedFgColor_override"		"Main Theme"
 			"depressedFgColor_override" "White"
+		}
+		
+		"Button1BG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"Button1BG"
+			"xpos"			"240"
+			"ypos"			"275"
+			"zpos"			"0"
+			"wide"			"80"
+			"tall"			"24"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"0"
+			"border"		"MaterialLightBG"
 		}
 	}
 }
