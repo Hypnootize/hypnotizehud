@@ -671,7 +671,6 @@
 	
 	
 	//////////////////////////SIDE BAR START/////////////////////////
-	//USE HEAVY TO MOVE THE BAR HYPNO!!!
 	
 	
 	"FastClassSelectionBG"
@@ -712,20 +711,24 @@
 		"Command"									"loadout scout"
 		
 		"paintbackground"							"0"
-		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
+		"paintborder"								"0"
 		
 		"defaultFgColor_override"					"LightBGHover"
 		"armedFgColor_override" 					"LightBGHover"
 		"depressedFgColor_override" 				"LightBGHover"
 		
-		"border"									"NoBorder"
-		
 		"pin_to_sibling" 							"CustomSoldierSide"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+	}
+	"ScoutSelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"ScoutSelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&1"
+		"Command"									"loadout scout"
+		"visible"									"1"
 	}
 	
 	"CustomSoldierSide"
@@ -752,20 +755,24 @@
 		"Command"									"loadout soldier"
 		
 		"paintbackground"							"0"
-		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
+		"paintborder"								"0"
 		
 		"defaultFgColor_override"					"LightBGHover"
 		"armedFgColor_override" 					"LightBGHover"
 		"depressedFgColor_override" 				"LightBGHover"
 		
-		"border"									"NoBorder"
-		
 		"pin_to_sibling" 							"CustomPyroSide"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+	}
+	"SoldierSelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"SoldierSelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&2"
+		"Command"									"loadout soldier"
+		"visible"									"1"
 	}
 	
 	"CustomPyroSide"
@@ -792,20 +799,24 @@
 		"Command"									"loadout pyro"
 		
 		"paintbackground"							"0"
-		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
+		"paintborder"								"0"
 		
 		"defaultFgColor_override"					"LightBGHover"
 		"armedFgColor_override" 					"LightBGHover"
 		"depressedFgColor_override" 				"LightBGHover"
 		
-		"border"									"NoBorder"
-		
 		"pin_to_sibling" 							"CustomDemomanSide"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+	}
+	"PyroSelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"PyroSelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&3"
+		"Command"									"loadout pyro"
+		"visible"									"1"
 	}
 	
 	"CustomDemomanSide"
@@ -832,20 +843,24 @@
 		"Command"									"loadout demoman"
 		
 		"paintbackground"							"0"
-		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
+		"paintborder"								"0"
 		
 		"defaultFgColor_override"					"LightBGHover"
 		"armedFgColor_override" 					"LightBGHover"
 		"depressedFgColor_override" 				"LightBGHover"
-		
-		"border"									"NoBorder"
 
 		"pin_to_sibling" 							"CustomHeavySide"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"		
+	}
+	"DemomanSelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"DemomanSelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&4"
+		"Command"									"loadout demoman"
+		"visible"									"1"
 	}
 	
 	"CustomHeavySide"
@@ -874,16 +889,20 @@
 		"Command"									"loadout heavy"
 		
 		"paintbackground"							"0"
-		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
+		"paintborder"								"0"
 		
 		"defaultFgColor_override"					"LightBGHover"
 		"armedFgColor_override" 					"LightBGHover"
 		"depressedFgColor_override" 				"LightBGHover"
-		
-		"border"									"NoBorder"
+	}
+	"HeavySelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"HeavySelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&5"
+		"Command"									"loadout heavy"
+		"visible"									"1"
 	}
 	
 	"CustomEngineerSide"
@@ -910,20 +929,24 @@
 		"Command"									"loadout engineer"
 		
 		"paintbackground"							"0"
-		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
+		"paintborder"								"0"
 		
 		"defaultFgColor_override"					"LightBGHover"
 		"armedFgColor_override" 					"LightBGHover"
 		"depressedFgColor_override" 				"LightBGHover"
 		
-		"border"									"NoBorder"
-		
 		"pin_to_sibling" 							"CustomHeavySide"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
+	}
+	"EngineerSelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"EngineerSelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&6"
+		"Command"									"loadout engineer"
+		"visible"									"1"
 	}
 	
 	"CustomMedicSide"
@@ -950,20 +973,24 @@
 		"Command"									"loadout medic"
 		
 		"paintbackground"							"0"
-		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
+		"paintborder"								"0"
 		
 		"defaultFgColor_override"					"LightBGHover"
 		"armedFgColor_override" 					"LightBGHover"
 		"depressedFgColor_override" 				"LightBGHover"
 		
-		"border"									"NoBorder"
-		
 		"pin_to_sibling" 							"CustomEngineerSide"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
+	}
+	"MedicSelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"MedicSelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&7"
+		"Command"									"loadout medic"
+		"visible"									"1"
 	}
 	
 	"CustomSniperSide"
@@ -990,20 +1017,24 @@
 		"Command"									"loadout sniper"
 		
 		"paintbackground"							"0"
-		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
+		"paintborder"								"0"
 		
 		"defaultFgColor_override"					"LightBGHover"
 		"armedFgColor_override" 					"LightBGHover"
 		"depressedFgColor_override" 				"LightBGHover"
 		
-		"border"									"NoBorder"
-		
 		"pin_to_sibling" 							"CustomMedicSide"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
+	}
+	"SniperSelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"SniperSelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&8"
+		"Command"									"loadout sniper"
+		"visible"									"1"
 	}
 	
 	"CustomSpySide"
@@ -1030,20 +1061,24 @@
 		"Command"									"loadout spy"
 		
 		"paintbackground"							"0"
-		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
+		"paintborder"								"0"
 		
 		"defaultFgColor_override"					"LightBGHover"
 		"armedFgColor_override" 					"LightBGHover"
 		"depressedFgColor_override" 				"LightBGHover"
 		
-		"border"									"NoBorder"
-		
 		"pin_to_sibling" 							"CustomSniperSide"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
+	}
+	"SpySelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"SpySelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&9"
+		"Command"									"loadout spy"
+		"visible"									"1"
 	}
 	
 	"BackpackSide"
@@ -1063,20 +1098,15 @@
 		"textAlignment"								"center"
 		"Command"									"backpack"
 		"Default"									"0"
-		"labelText"									"."
+		"labelText"									"3"
 		"font"										"ModPics20"
 		
 		"paintbackground"							"0"
-		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
+		"paintborder"								"0"
 		
 		"defaultFgColor_override"					"LightBGHover"
 		"armedFgColor_override" 					"LightBGHover"
 		"depressedFgColor_override" 				"LightBGHover"
-		
-		"border"									"NoBorder"
 		
 		"pin_to_sibling" 							"CustomSniperSide"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"

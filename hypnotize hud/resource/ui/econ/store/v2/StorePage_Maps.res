@@ -77,11 +77,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SubTitleLabel"
-		"font"			"FontStoreOriginalPrice"
+		"font"			"StorePromotionsTitle"
 		"labelText"		"#Store_Maps_SubTitle"
 		"textAlignment"	"south-west"
 		"xpos"			"c-301"
-		"ypos"			"30"
+		"ypos"			"35"
 		"zpos"			"5"
 		"wide"			"500"
 		"tall"			"25"

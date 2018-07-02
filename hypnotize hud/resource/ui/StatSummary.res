@@ -26,12 +26,12 @@
 		"fillcolor"		"Background"
 	}
 
-	"OnYourWayLabel"
+	"MapType"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"OnYourWayLabel"
+		"fieldName"		"MapType"
 		"font"			"HudFontMediumBigBold"
-		"labelText"		"#LoadingMap"
+		"labelText"		"%maptype%"
 		"textAlignment"	"center"
 		"xpos"			"c-240"
 		"ypos"			"35"
@@ -64,26 +64,6 @@
 		"enabled"		"1"
 		"AllCaps"		"1"
 		"fgcolor_override"	"White"
-	}
-	
-	"MapType"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"MapType"
-		"font"			"HudFontSmallBold"
-		"labelText"		"%maptype%"
-		"textAlignment"	"center"
-		"xpos"			"c-240"
-		"ypos"			"140"
-		"zpos"			"91"
-		"wide"			"480"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"AllCaps"		"1"
-		"fgcolor_override"	"LightBG"
 	}
 	
 	

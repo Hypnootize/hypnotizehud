@@ -290,10 +290,10 @@
 			
 			"Scrollbar"
 			{
-				"xpos"			"580"
-				"ypos"			"2"
-				"wide"			"6"
-				"tall"			"240"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"0"
+				"tall"			"0"
 				"zpos"			"1000"
 				
 				"Slider"

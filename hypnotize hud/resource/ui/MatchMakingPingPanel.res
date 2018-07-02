@@ -8,7 +8,7 @@
 		"xpos"										"-302"
 		"ypos"										"10"
 		"zpos"										"1001"
-		"wide"										"204"
+		"wide"										"205"
 		"tall"										"300"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
@@ -77,7 +77,7 @@
 	{
 	//	"ControlName"								"ComboBox"
 		"fieldName"									"InviteModeComboBox"
-		"xpos"										"5"
+		"xpos"										"8"
 		"ypos"										"46"
 		"zpos"										"1"
 		"wide"										"190"
@@ -101,7 +101,7 @@
 	{
 		"ControlName"								"CvarToggleCheckButton"
 		"fieldName"									"IgnorePartyInvites"
-		"xpos"										"1"
+		"xpos"										"4"
 		"ypos"										"66"
 		"zpos"										"3"
 		"wide"										"190"
@@ -125,7 +125,7 @@
 	{
 		"ControlName"								"CvarToggleCheckButton"
 		"fieldName"									"KeepPartyOnSameTeam"
-		"xpos"										"1"
+		"xpos"										"4"
 		"ypos"										"83"
 		"zpos"										"3"
 		"wide"										"190"
@@ -146,7 +146,7 @@
 	{
 		"ControlName"								"Label"
 		"fieldName"									"KeepPartyOnSameTeamLabel"
-		"xpos"										"20"
+		"xpos"										"23"
 		"ypos"										"85"
 		"zpos"										"3"
 		"wide"										"185"
@@ -168,7 +168,7 @@
 	{
 		"ControlName"								"CvarToggleCheckButton"
 		"fieldName"									"CustomPingCheckButton"
-		"xpos"										"1"
+		"xpos"										"4"
 		"ypos"										"100"
 		"zpos"										"3"
 		"wide"										"190"
@@ -193,7 +193,7 @@
 	{
 		"ControlName"								"Label"
 		"fieldName"									"CheckLabel"
-		"xpos"										"20"
+		"xpos"										"23"
 		"ypos"										"102"
 		"zpos"										"3"
 		"wide"										"190"
@@ -277,7 +277,7 @@
 		"xpos"									"6"
 		"ypos"									"158"
 		"zpos"									"0"
-		"wide"									"190"
+		"wide"									"191"
 		"tall"									"135"
 		"visible"								"1"
 		"PaintBackgroundType"					"0"

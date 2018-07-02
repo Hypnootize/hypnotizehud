@@ -485,8 +485,9 @@
 		"fieldName"									"HudStopWatch"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"90"
+		"xpos"										"-20"
 		"ypos"										"-2"
+		"ypos_minmode"								"-2"
 		"wide"										"f0"
 		"tall"										"f0"
 	}

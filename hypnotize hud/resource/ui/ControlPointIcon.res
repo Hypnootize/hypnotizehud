@@ -7,8 +7,8 @@
 		"xpos"		    							"0"
 		"ypos"		    							"0"
 		"zpos"		    							"2"
-		"wide"		    							"24"
-		"tall"		    							"24"
+		"wide"		    							"26"
+		"tall"		    							"26"
 		"visible"	   						 		"1"
 		"enabled"	    							"1"
 	}
@@ -46,11 +46,11 @@
 		"ControlName"		  						"Label"
 		"fieldName"		    						"CapNumPlayers"
 		"font"			      						"GameFont16"
-		"xpos"			      						"5"
-		"ypos"			      						"2"
+		"xpos"			      						"7"
+		"ypos"			      						"0"
 		"zpos"			      						"3"
-		"wide"			      						"24"
-		"tall"			      						"22"
+		"wide"			      						"26"
+		"tall"			      						"26"
 		"autoResize"		  						"0"
 		"pinCorner"		    						"0"
 		"visible"		      						"1"
@@ -100,7 +100,7 @@
 			"visible"								"0"
 		}
 	}
-				
+	
 	"CPTimerBG"
 	{
 		"ControlName"	  							"Panel"

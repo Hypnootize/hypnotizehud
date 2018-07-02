@@ -23,11 +23,11 @@
 		
 		if_competitive
 		{
-			"team1_player_base_y"					"22"
+			"team1_player_base_y"					"32"
 		}
 		if_readymode
 		{
-			"team1_player_base_y"					"22"
+			"team1_player_base_y"					"32"
 		}
 		if_mvm
 		{
@@ -384,18 +384,6 @@
 		"textAlignment"		        				"east"
 		"AllCaps"		        					"1"
 		
-		if_competitive
-		{
-			"xpos"			              			"c-100"
-			"ypos"	              					"55"
-			"textAlignment"		        			"center"
-		}
-		if_readymode
-		{
-			"xpos"			              			"c-100"
-			"ypos"	              					"55"
-			"textAlignment"		        			"center"
-		}
 		if_mvm
 		{
 			"visible"		              			"0"

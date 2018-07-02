@@ -56,7 +56,7 @@
 		"zpos"										"3"
 		"wide"										"100"
 		"tall"										"12"
-		"tall_minmode"								"10"
+		"tall_minmode"								"9"
 		"autoResize"								"1"
 		"pinCorner"									"2"
 		"visible"									"1"

@@ -2,7 +2,7 @@
 {
 	"Background"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"150"
 		"ypos"			"2"
@@ -11,7 +11,7 @@
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/Material_Transparent"
 
@@ -26,17 +26,17 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveCountLabel"
-		"font"			"GameFont11"
+		"font"			"GameFont9"
 		"font_minmode"	"GameFont9"
 		"fgcolor"		"TanLight"
-		"xpos"			"200"
-		"ypos"			"6"
-		"ypos_minmode"	"7"
-		"zpos"			"3"
+		"xpos"			"211"
+		"ypos"			"4"
+		"ypos_minmode"	"4"
+		"zpos"			"5"
 		"zpos_minmode"	"5"
-		"wide"			"200"
-		"tall"			"15"
-		"tall_minmode"	"16"
+		"wide"			"178"
+		"tall"			"18"
+		"tall_minmode"	"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"AllCaps"		"1"
@@ -93,11 +93,11 @@
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ProgressBar"
 		"xpos"			"211"
-		"ypos"			"17"
-		"ypos_minmode"	"6"
+		"ypos"			"4"
+		"ypos_minmode"	"4"
 		"zpos"			"3"
 		"wide"			"178"
-		"tall"			"16"
+		"tall"			"17"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/Material_Blue"
@@ -113,6 +113,20 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ProgressBarBG"
-		"xpos"			"9999"
+		"xpos"			"209"
+		"ypos"			"3"
+		"ypos_minmode"	"3"
+		"zpos"			"3"
+		"wide"			"181"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/material_transparent"
+		
+		"src_corner_height"	"24"				// pixels inside the image
+		"src_corner_width"	"24"
+	
+		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"
 	}
 }
