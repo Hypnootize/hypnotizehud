@@ -2031,7 +2031,7 @@ Scheme
 	{
 		"40"
 		{
-			"font" 		"resource/scheme/fontfiles/tf2cross.ttf"
+			"font" 		"resource/scheme/fontfiles/TF2Cross.ttf"
 			"name" 		"tf2cross"
 		}
 		
@@ -2043,7 +2043,7 @@ Scheme
 		
 		"42" 
 		{
-			"font" 		"resource/scheme/fontfiles/taller_evolution.ttf"
+			"font" 		"resource/scheme/fontfiles/Taller Evolution.ttf"
 			"name" 		"taller evolution"
 		}
 		
