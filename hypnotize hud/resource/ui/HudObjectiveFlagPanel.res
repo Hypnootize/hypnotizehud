@@ -343,7 +343,7 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labelText"									"%redscore%"
-		"font"										"HudFontMediumBold"
+		"font"										"GameFont24"
 		"fgcolor"									"White"
 	}	
 	

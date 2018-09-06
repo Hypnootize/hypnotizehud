@@ -278,7 +278,6 @@
 		"labelText"		"#TF_LessThan"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"textinsety"	"2"
 		"textinsetx"	"0"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -320,8 +319,6 @@
 		"labelText"		"#TF_GreaterThan"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"textinsety"	"2"
-		"textinsetx"	"0"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nextcustomtexture"
@@ -405,7 +402,6 @@
 		"labelText"		"#AbuseReport_Discard"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"textinsety"	"2"
 		"Command"		"discard"
 		
 		"AllCaps"					"1"
@@ -439,7 +435,6 @@
 		"labelText"		"#AbuseReport_Submit"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"textinsety"	"2"
 		"Command"		"submit"
 		
 		"AllCaps"					"1"
@@ -473,7 +468,6 @@
 		"labelText"		"#AbuseReport_SaveForLater"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"textinsety"	"2"
 		"Command"		"cancel"
 		
 		"AllCaps"					"1"

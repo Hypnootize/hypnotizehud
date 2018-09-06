@@ -51,7 +51,7 @@
 		"wrap"					"0"
 		"labelText"				"%name%"
 		"proportionaltoparent"	"1"
-		"font"					"ControlPointTimer"
+		"font"					"AdFont_ItemName"
 		"mouseinputenabled"		"0"
 	}
 

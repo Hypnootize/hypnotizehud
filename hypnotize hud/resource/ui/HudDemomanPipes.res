@@ -44,7 +44,7 @@
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"GameFont9"
+		"font"										"ItemFontNameSmallest"
 		"font_minmode"								"DefaultVerySmall"
 		"fgcolor_override"							"White"
 	}				

@@ -511,7 +511,6 @@
 					"labelText"						"ITEM WIKI PAGE"
 					"font"							"HudFontSmallestBold"
 					"textAlignment"					"center"
-					"textinsety"					"1"
 					"dulltext"						"0"
 					"brighttext"					"0"
 					"command"						"viewwikipage"

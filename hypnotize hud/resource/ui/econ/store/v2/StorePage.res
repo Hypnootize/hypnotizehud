@@ -97,8 +97,8 @@
 			"xpos"			"c-61"
 			"ypos"			"32"
 			"zpos"			"15"
-			"wide"			"16"
-			"tall"			"10"
+			"wide"			"0"
+			"tall"			"0"
 			"autoResize"	"1"
 			"pinCorner"		"0"	
 			"visible"		"0"
@@ -112,8 +112,8 @@
 			"xpos"			"c-70"
 			"ypos"			"270"
 			"zpos"			"13"
-			"wide"			"32"
-			"tall"			"25"
+			"wide"			"0"
+			"tall"			"0"
 			"visible"		"0"
 			"bgcolor_override"		"Black"
 			"noitem_textcolor"		"NoItemText"
@@ -329,8 +329,8 @@
 		"xpos"			"46"
 		"ypos"			"170"
 		"zpos"			"100"
-		"wide"			"200"
-		"tall"			"40"
+		"wide"			"170"
+		"tall"			"30"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -340,9 +340,8 @@
 		"centerwrap"	"1"
 		"paintborder"	"1"
 		"textinsetx"	"100"
-		"border"		"NoBorder"
+		"border"		"MaterialDarkBG"
 		"fgcolor_override"		"White"
-		"Bgcolor_override"		"DarkBG"
 	}
 
 	"PrevPageButton"
@@ -389,7 +388,6 @@
 		"font"										"HudFontMediumSmallBold"
 		"labelText"									"%backpackpage%"
 		"textAlignment"								"center"
-		"textinsety"								"2"
 		"xpos"										"c214"
 		"ypos"										"288"
 		"zpos"										"10"
@@ -476,7 +474,7 @@
 		"auto_scale"		"1"
 		"auto_layout"		"1"
 		"selected_button_default"	"0"
-		"auto_layout_horizontal_buffer"	"8"
+		"auto_layout_horizontal_buffer"	"7"
 		"display_vertically"	"0"
 		"align"				"west"
 		
@@ -505,7 +503,7 @@
 			"paintbackground"	"0"
 			"paintborder"		"0"
 			
-			"image_drawcolor"		"255 255 255 255"
+			"image_drawcolor"		"255 255 255 180"
 			"image_armedcolor"		"255 255 255 255"
 			"image_selectedcolor"	"255 255 255 255"
 			
@@ -532,9 +530,9 @@
 			"all"
 			{
 				"userdata"			"0"
-				"image_default"		"class_icons/filter_all"
-				"image_armed"		"class_icons/filter_all"
-				"image_selected"	"class_icons/filter_all_on"
+				"image_default"		"replay/thumbnails/class_logos/tflogo_grey"
+				"image_armed"		"replay/thumbnails/class_logos/tflogo_grey"
+				"image_selected"	"replay/thumbnails/class_logos/tflogo"
 				"tooltiptext"		"#TF_Items_All"
 				
 				"SubImage"
@@ -545,9 +543,9 @@
 			"scout"
 			{
 				"userdata"			"1"
-				"image_default"		"class_icons/filter_scout"
-				"image_armed"		"class_icons/filter_scout"
-				"image_selected"	"class_icons/filter_scout_on"
+				"image_default"		"replay/thumbnails/class_logos/scout_grey"
+				"image_armed"		"replay/thumbnails/class_logos/scout_grey"
+				"image_selected"	"replay/thumbnails/class_logos/scout"
 				"tooltiptext"		"#TF_Items_Scout"
 				
 				"SubImage"
@@ -558,9 +556,9 @@
 			"soldier"
 			{
 				"userdata"			"3"
-				"image_default"		"class_icons/filter_soldier"
-				"image_armed"		"class_icons/filter_soldier"
-				"image_selected"	"class_icons/filter_soldier_on"
+				"image_default"		"replay/thumbnails/class_logos/soldier_grey"
+				"image_armed"		"replay/thumbnails/class_logos/soldier_grey"
+				"image_selected"	"replay/thumbnails/class_logos/soldier"
 				"tooltiptext"		"#TF_Items_Soldier"
 
 				"SubImage"
@@ -571,9 +569,9 @@
 			"pyro"
 			{
 				"userdata"			"7"
-				"image_default"		"class_icons/filter_pyro"
-				"image_armed"		"class_icons/filter_pyro"
-				"image_selected"	"class_icons/filter_pyro_on"
+				"image_default"		"replay/thumbnails/class_logos/pyro_grey"
+				"image_armed"		"replay/thumbnails/class_logos/pyro_grey"
+				"image_selected"	"replay/thumbnails/class_logos/pyro"
 				"tooltiptext"		"#TF_Items_Pyro"
 				
 				"SubImage"
@@ -584,9 +582,9 @@
 			"demo"
 			{
 				"userdata"			"4"
-				"image_default"		"class_icons/filter_demo"
-				"image_armed"		"class_icons/filter_demo"
-				"image_selected"	"class_icons/filter_demo_on"
+				"image_default"		"replay/thumbnails/class_logos/demoman_grey"
+				"image_armed"		"replay/thumbnails/class_logos/demoman_grey"
+				"image_selected"	"replay/thumbnails/class_logos/demoman"
 				"tooltiptext"		"#TF_Items_Demoman"
 				
 				"SubImage"
@@ -597,9 +595,9 @@
 			"heavy"
 			{
 				"userdata"			"6"
-				"image_default"		"class_icons/filter_heavy"
-				"image_armed"		"class_icons/filter_heavy"
-				"image_selected"	"class_icons/filter_heavy_on"
+				"image_default"		"replay/thumbnails/class_logos/heavy_grey"
+				"image_armed"		"replay/thumbnails/class_logos/heavy_grey"
+				"image_selected"	"replay/thumbnails/class_logos/heavy"
 				"tooltiptext"		"#TF_Items_Heavy"
 				
 				"SubImage"
@@ -610,9 +608,9 @@
 			"engineer"
 			{
 				"userdata"			"9"
-				"image_default"		"class_icons/filter_engineer"
-				"image_armed"		"class_icons/filter_engineer"
-				"image_selected"	"class_icons/filter_engineer_on"
+				"image_default"		"replay/thumbnails/class_logos/engineer_grey"
+				"image_armed"		"replay/thumbnails/class_logos/engineer_grey"
+				"image_selected"	"replay/thumbnails/class_logos/engineer"
 				"tooltiptext"		"#TF_Items_Engineer"
 				
 				"SubImage"
@@ -623,9 +621,9 @@
 			"medic"
 			{
 				"userdata"			"5"
-				"image_default"		"class_icons/filter_medic"
-				"image_armed"		"class_icons/filter_medic"
-				"image_selected"	"class_icons/filter_medic_on"
+				"image_default"		"replay/thumbnails/class_logos/medic_grey"
+				"image_armed"		"replay/thumbnails/class_logos/medic_grey"
+				"image_selected"	"replay/thumbnails/class_logos/medic"
 				"tooltiptext"		"#TF_Items_Medic"
 				
 				"SubImage"
@@ -636,9 +634,9 @@
 			"sniper"
 			{
 				"userdata"			"2"
-				"image_default"		"class_icons/filter_sniper"
-				"image_armed"		"class_icons/filter_sniper"
-				"image_selected"	"class_icons/filter_sniper_on"
+				"image_default"		"replay/thumbnails/class_logos/sniper_grey"
+				"image_armed"		"replay/thumbnails/class_logos/sniper_grey"
+				"image_selected"	"replay/thumbnails/class_logos/sniper"
 				"tooltiptext"		"#TF_Items_Sniper"
 				
 				"SubImage"
@@ -649,9 +647,9 @@
 			"spy"
 			{
 				"userdata"			"8"
-				"image_default"		"class_icons/filter_spy"
-				"image_armed"		"class_icons/filter_spy"
-				"image_selected"	"class_icons/filter_spy_on"
+				"image_default"		"replay/thumbnails/class_logos/spy_grey"
+				"image_armed"		"replay/thumbnails/class_logos/spy_grey"
+				"image_selected"	"replay/thumbnails/class_logos/spy"
 				"tooltiptext"		"#TF_Items_Spy"
 				
 				"SubImage"
@@ -724,7 +722,7 @@
 		"xpos"			"c-302"
 		"ypos"			"322"
 		"zpos"			"13"
-		"wide"			"24"
+		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"

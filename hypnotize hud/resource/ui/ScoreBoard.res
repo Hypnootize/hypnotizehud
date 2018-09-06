@@ -374,9 +374,9 @@
 		"fgcolor"									"White"
 		"labelText"									"%server%"
 		"textAlignment"								"east"
-		"xpos"										"r302"
+		"xpos"										"-2"
 		"ypos"										"r11"
-		"wide"										"300"
+		"wide"										"f0"
 		"tall"										"12"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -843,12 +843,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerScoreLabel"
-		"xpos"			"99999"
-	}
-	"ServerLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ServerLabel"
 		"xpos"			"99999"
 	}
 }

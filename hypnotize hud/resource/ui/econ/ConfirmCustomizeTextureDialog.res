@@ -316,7 +316,6 @@
 					"font"				"HudFontSmallBold"
 					"Command"			"pick_image"
 					"textAlignment"	"center"
-					"textinsety"		"2"
 					"AllCaps"			"1"
 		
 					"paintbackground"			"0"
@@ -410,7 +409,6 @@
 				"labelText"		"#Cancel"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"textinsety"	"2"
 				"Command"		"cancel"
 				
 				"AllCaps"					"1"
@@ -444,7 +442,6 @@
 				"labelText"		"#TF_NextCarat"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"textinsety"	"2"
 				"Command"		"next_page"
 				
 				"AllCaps"					"1"
@@ -776,7 +773,6 @@
 				"labelText"		"#Cancel"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"textinsety"	"2"
 				"Command"		"cancel"
 				
 				"AllCaps"					"1"
@@ -810,7 +806,6 @@
 				"labelText"		"#TF_BackCarat"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"textinsety"	"2"
 				"Command"		"prev_page"
 				
 				"AllCaps"					"1"
@@ -844,7 +839,6 @@
 				"labelText"		"#TF_NextCarat"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"textinsety"	"2"
 				"Command"		"next_page"
 				
 				"AllCaps"					"1"
@@ -969,7 +963,6 @@
 				"labelText"		"#Cancel"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"textinsety"	"2"
 				"default"		"0"
 				"Command"		"cancel"
 				
@@ -1004,7 +997,6 @@
 				"labelText"		"#TF_BackCarat"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"textinsety"	"2"
 				"Command"		"prev_page"
 				
 				"AllCaps"					"1"
@@ -1038,7 +1030,6 @@
 				"labelText"		"#ToolCustomizeTextureOKButton"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"textinsety"	"2"
 				"default"		"1"
 				"Command"		"apply"
 				

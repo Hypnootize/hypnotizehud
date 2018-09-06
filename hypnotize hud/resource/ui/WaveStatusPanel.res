@@ -69,7 +69,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"GameFont11"
 		"fgcolor"		"TanLight"
 		"xpos"			"55"
 		"ypos"			"6"

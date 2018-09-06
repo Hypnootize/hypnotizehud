@@ -8,11 +8,11 @@
 		"xpos_minmode"								"0"
 		"ypos"										"0"
 		"ypos_minmode"								"0"
-		"wide"										"36"
-		"tall"										"36"
+		"wide"										"40"
+		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"	
-		"TFFont"									"HudFontSmall"
+		"TFFont"									"GameFont14"
 		"TextColor"									"HudOffWhite"
 		"autoResize"								"1"
 	}
@@ -29,7 +29,7 @@
 		"tall"										"128"
 		"visible"									"1"
 		"enabled"									"1"	
-		"TFFont"									"HudFontSmall"
+		"TFFont"									"GameFont14"
 		"TextColor"									"HudOffWhite"
 		"autoResize"								"1"
 	}	

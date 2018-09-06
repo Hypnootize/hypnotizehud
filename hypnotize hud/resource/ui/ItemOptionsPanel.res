@@ -43,7 +43,6 @@
 			"wrap"									"0"
 			"centerwrap"							"0"
 			"textinsetx"							"6"
-			"textinsety"							"0"
 			"auto_wide_tocontents"					"0"
 			"use_proportional_insets"				"0"
 			"Default"								"0"

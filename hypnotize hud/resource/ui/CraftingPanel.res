@@ -240,7 +240,6 @@
 			"labelText"		"craft!"
 			"font"			"HudFontMediumBold"
 			"textAlignment"	"center"
-			"textinsety"	"3"
 			"textinsetx"	"0"
 			"dulltext"		"0"
 			"brighttext"	"0"

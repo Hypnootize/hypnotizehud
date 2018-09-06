@@ -95,7 +95,6 @@
 		"enabled"		"1"
 		"labelText"		"%button_token%"
 		"textinsetx"	"0"
-		"textinsety"	"2"
 		"use_proportional_insets" "1"
 		"font"			"HudFontMediumBold"
 		"AllCaps"			"1"

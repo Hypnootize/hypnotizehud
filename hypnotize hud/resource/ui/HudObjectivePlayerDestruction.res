@@ -134,7 +134,7 @@
 			"enabled"								"1"
 			"textAlignment"							"center"	
 			"labelText"								"%flagvalue%"
-			"font"									"HudFontSmallBold"
+			"font"									"GameFont14"
 			"fgcolor"								"White"	
 			"proportionalToParent"					"1"	
 		}	
@@ -152,7 +152,7 @@
 			"enabled"								"1"
 			"textAlignment"							"center"	
 			"labelText"								"%flagvalue%"
-			"font"									"HudFontSmallBold"
+			"font"									"GameFont14"
 			"fgcolor"								"TransparentLightBlack"	
 			"proportionalToParent"					"1"	
 		}

@@ -150,7 +150,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
-			"font"			"HudFontMediumBold"
+			"font"			"GameFont24"
 			"fgcolor"		"TanLight"	
 			"proportionalToParent"	"1"	
 		}	
@@ -168,7 +168,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
-			"font"			"HudFontMediumBold"
+			"font"			"GameFont24"
 			"fgcolor"		"Black"	
 			"proportionalToParent"	"1"	
 		}
@@ -351,7 +351,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%intelvalue%"
-				"font"			"HudFontSmallishBold"
+				"font"			"GameFont16"
 				"fgcolor"		"TanLight"		
 				"bgcolor_override"		"Blank"
 				"proportionalToParent"	"1"
@@ -370,7 +370,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%intelvalue%"
-				"font"			"HudFontSmallishBold"	
+				"font"			"GameFont16"	
 				"fgcolor"		"Black"
 				"proportionalToParent"	"1"
 			}
@@ -451,7 +451,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%intelvalue%"
-				"font"			"HudFontSmallishBold"
+				"font"			"GameFont16"
 				"fgcolor"		"TanLight"		
 				"bgcolor_override"		"Blank"
 				"proportionalToParent"	"1"
@@ -470,7 +470,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%intelvalue%"
-				"font"			"HudFontSmallishBold"	
+				"font"			"GameFont16"	
 				"fgcolor"		"Black"	
 				"proportionalToParent"	"1"
 			}

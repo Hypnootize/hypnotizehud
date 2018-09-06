@@ -374,9 +374,9 @@
 		"fgcolor"									"White"
 		"labelText"									"%server%"
 		"textAlignment"								"east"
-		"xpos"										"r302"
+		"xpos"										"-2"
 		"ypos"										"r11"
-		"wide"										"300"
+		"wide"										"f0"
 		"tall"										"12"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -391,10 +391,10 @@
 		"font"										"GameFont10"
 		"labelText"									"%mapname%"
 		"textAlignment"								"center"
-		"xpos"										"0"
+		"xpos"										"-6"
 		"ypos"										"2"
 		"zpos"										"4"
-		"wide"										"100"
+		"wide"										"90"
 		"tall"										"22"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -1432,12 +1432,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerScoreLabel"
-		"xpos"			"99999"
-	}
-	"ServerLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ServerLabel"
 		"xpos"			"99999"
 	}
 }

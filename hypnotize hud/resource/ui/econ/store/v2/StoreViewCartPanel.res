@@ -131,7 +131,6 @@
 				"labelText"		"#Store_Remove"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"textinsety"	"2"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"1"
@@ -284,21 +283,21 @@
 			"wide"			"600"
 			"tall"			"240"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"White"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
+			"fgcolor_override"	"LightBG"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
 			"bgcolor_override"	"Background"
 			"autohide_buttons" "1"
 			
 			"Scrollbar"
 			{
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"0"
-				"tall"			"0"
+				"xpos"			"580"
+				"ypos"			"3"
+				"wide"			"6"
+				"tall"			"127"
 				"zpos"			"1000"
 				
 				"Slider"
 				{
-					"PaintBackgroundType"	"2"
+					"PaintBackgroundType"	"0"
 				}
 				
 				"nobuttons"		"1"
@@ -455,7 +454,6 @@
 		"labelText"		"keep shopping"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"textinsety"	"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
@@ -495,7 +493,6 @@
 		"labelText"									"CHECKOUT"
 		"font"										"HudFontSmallBold"
 		"textAlignment"								"center"
-		"textinsety"								"1"
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"default"									"0"

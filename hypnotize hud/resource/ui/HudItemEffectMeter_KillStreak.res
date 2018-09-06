@@ -31,7 +31,7 @@
 		"textAlignment"								"west"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"HudFontMedium"
+		"font"										"Nexa24"
 		"fgcolor"									"White"
 	}
 	
@@ -53,7 +53,7 @@
 		"textAlignment"								"west"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"HudFontMediumBlur"
+		"font"										"Nexa24Blur"
 		"fgcolor"									"Shadow"
 		
 		"pin_to_sibling" 							"Killstreaklabel"

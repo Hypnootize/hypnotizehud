@@ -8,8 +8,8 @@
 		"presetbutton_kv"
 		{
 			"zpos"			"20"
-			"wide"			"25"
-			"tall"			"25"
+			"wide"			"27"
+			"tall"			"27"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -17,13 +17,20 @@
 			"tabPosition"	"0"
 			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"center"
-			"textinsetx"	"0"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		""
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"centerwrap"	"1"
+			
+			"paintborder"		"1"
+			"paintbackground"	"0"
+			"border"			"MaterialLightBG"
+			"border_override"	"MaterialLightBG"
+			"border_default"	"MaterialLightBG"
+			"border_armed"		"MaterialHypno"
+			"border_depressed"	"MaterialHypno"
 		}			
 	}
 }

@@ -32,7 +32,7 @@
 			"enabled"								"1"	
 			"HealthBonusPosAdj"						"9"
 			"HealthDeathWarning"					"0.49"
-			"TFFont"								"HudFontSmall"
+			"TFFont"								"GameFont14"
 			"HealthDeathWarningColor"				"HUDDeathWarning"
 			"TextColor"								"HudOffWhite"
 		}

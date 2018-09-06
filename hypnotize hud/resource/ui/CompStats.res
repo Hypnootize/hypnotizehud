@@ -71,7 +71,6 @@
 			"labeltext"		"#TF_Competitive_ViewLeaderboards"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"textinsety"	"2"
 			"AllCaps"		"1"
 
 			"paintbackground"			"0"
@@ -108,7 +107,6 @@
 			"labeltext"		"#TF_Competitive_ViewMatches"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"textinsety"	"2"
 			"AllCaps"		"1"
 
 			"paintbackground"			"0"

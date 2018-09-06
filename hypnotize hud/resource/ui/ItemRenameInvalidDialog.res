@@ -294,7 +294,6 @@
 		"labelText"				"#TF_OK"
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
-		"textinsety"			"2"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"default"				"1"

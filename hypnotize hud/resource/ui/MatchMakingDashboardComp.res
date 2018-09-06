@@ -137,7 +137,6 @@
 		"tabPosition"	"0"
 		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"center"
-		"textinsety"	"2"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"find_game"

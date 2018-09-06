@@ -103,7 +103,6 @@
 		"font"				"HudFontSmallBold"
 		"textAlignment"		"center"
 		"textinsetx"		"50"
-		"textinsety"		"2"
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"Command"			"%startcommand%"

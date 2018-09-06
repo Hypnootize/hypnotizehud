@@ -309,6 +309,25 @@
 		"ypos"										"r35"
 	}
 	
+	HudCloseCaption
+	{
+		"fieldName" 								"HudCloseCaption"
+		"visible"									"1"
+		"enabled"									"1"
+		"xpos"										"c200"
+		"ypos"										"235"	
+		"wide"										"500"
+		"tall"										"136"	
+
+		"BgAlpha"									"0"
+
+		"GrowTime"									"0.24"
+		"ItemHiddenTime"							"0.2" 
+		"ItemFadeInTime"							"0.17"	
+		"ItemFadeOutTime"							"0.24"
+		"topoffset"									"0"
+	}
+	
 	HudControlPointIcons
 	{
 		"fieldName"									"HudControlPointIcons"
