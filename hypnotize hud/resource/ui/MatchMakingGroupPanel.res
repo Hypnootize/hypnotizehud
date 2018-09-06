@@ -37,6 +37,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"smallcheckimage"	"1"
+		"AllCaps"	"1"
 		"fgcolor"	"TanLight"	
 		"font"		"HudFontSmallBold"
 
