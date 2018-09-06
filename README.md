@@ -53,7 +53,7 @@ If you are using a 4:3 or 16:10 aspect ration replace the all the files you find
 
 3. How can I change the font?
 
-- Go to resource/clientescheme.res and uncomment (remove the //) the font you want to use. Be sure to comment the font no longer in use!
+- You can find all the extra fonts inside the Customization folder and follow the instructions inside the "How does this works" file!
 
 .
 
