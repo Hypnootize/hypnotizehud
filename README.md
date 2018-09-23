@@ -29,7 +29,7 @@ Omni, Doodle, Wiet, Flame, Rays: Infinitely useful Hud Guides and Huds.tf news p
 
 1. Extract/Unzip the hud
 2. Copy the Hypnotize Hud folder (NOT Hypnotize-Hud-Master)
-3. Paste The folder to your custom tf folder (C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom\Hypnotize Hud)
+3. Paste The folder to your custom tf folder (C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom\Hypnotize Hud) 
 3.1 (If your system is linux) Copy the contents of the (hypnotize hud linux) and paste it into the (\tf\custom\hypnotize hud\) folder
 4. Go to Resource/Scheme/FontFiles select all the font and install them (rightclick while selected and install)
 
