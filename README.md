@@ -50,12 +50,7 @@ Inside the colors.res file is possible to change all the colors used for the hea
 
 <a>CROSSHAIRS</a>
 ====
-
-<<<<<<< HEAD
 All the hud crosshairs can be found inside the scripts/crosshairs folder!
-=======
-- You can find all the extra fonts inside the Customization folder and follow the instructions inside the "How does this works" file!
->>>>>>> 6d25d9e01a237f8b0699b4c3ab1235002bb4ed22
 
 It is possible to enable them from the crosshairs.res file by setting **"visible" "1"** for the wanted crosshair.
 
