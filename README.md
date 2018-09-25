@@ -1,69 +1,79 @@
-![Logo](https://i.imgur.com/SEnC0Zf.png)
+![Logo](https://i.imgur.com/i2JEWI5.png)
+
+**Material Design Team Fortress 2 Hud by Hypnotize**
+
+<a>LINKS</a>
+====
+
+[Huds.tf](https://huds.tf/forum/showthread.php?tid=668)
+
+[Screenshot Album](https://imgur.com/a/4sgZ1)
+
+[Changelogs](https://github.com/Hypnootize/Hypnotize-Hud/commits/master)
 
 
-Simple Material TF2 Hud
+<a>INSTALLATION</a>
+====
 
-.
+**1)** Extract/Unzip the hud
 
-**LINKS**
+**2)** Copy the hypnotize hud folder (**NOT** Hypnotize-Hud-Master, the one inside it!)
 
-Screenshots: https://imgur.com/a/4sgZ1
+**3)** Paste The folder to your custom tf folder (C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom\hypnotize hud)
 
-.
+**4)** Go to Resource/Scheme/FontFiles select all the font and install them (rightclick while selected and install)
 
-**CREDITS:**
+**NOTES:**
 
-m0re: My hud started as a m0rehud edit
+If you are using a **4:3 or 16:10** aspect ration replace the all the files you find inside the "4x3 & 16x10 Overrides" folder over the normal hud files.
 
-extracrispy: Material VTF I used as a base for my materials
+I suggest using **"tf_hud_target_id_disable_floating_health" "1"** since the floating version is not as consistan and can have problems.
 
-whayay and Marblr: Classes and Ready Icons
 
-Broesel, Knuckles, Seeker: Crosshairs Fonts
+<a>CUSTOMIZATION</a>
+====
 
-Omni, Doodle, Wiet, Flame, Rays: Infinitely useful Hud Guides and Huds.tf news posts
+My hud supports different customizations, it is possible to easily replace stuff like fonts, scoreboard and health style for example.
 
-.
+All the customizations can be found inside the Customization folder and from there all you need to do is:
 
-**INSTALLATION:**
+**1)** Choose which customization you want to apply and open the dedicated folder (each folder has a screen of the customization as well)
 
-1. Extract/Unzip the hud
-2. Copy the Hypnotize Hud folder (NOT Hypnotize-Hud-Master)
-3. Paste The folder to your custom tf folder (C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom\Hypnotize Hud)
-4. Go to Resource/Scheme/FontFiles select all the font and install them (rightclick while selected and install)
+**2)** Copy all the folders found inside (usually resource & scripts)
 
-If you are using a 4:3 or 16:10 aspect ration replace the all the files you find inside the "4x3 & 16x10 Overrides" folder over the normal hud files!
+**3)** Paste and replace them over the normal hypnotize hud files!
 
-.
+**Other than that is also possible to easily change the colors by editing the resource/scheme/colors file**
 
-**F.A.Q:**
+Inside the colors.res file is possible to change all the colors used for the health/ammo/buff/hurt/uber and many more as well as all the colors used for the menu!
 
-1. How do I install the hud?
 
-- Download the hud and extract it
-- Follow the "Quick Installation Guide" file!
+<a>CROSSHAIRS</a>
+====
 
-.
-
-2. My Fonts are looking weird/different from the screenshots how can I fix it?
-
-- Go to resource/scheme/fontfiles and install all the fonts (right click on the font file and select install)
-
-.
-
-3. How can I change the font?
-
+<<<<<<< HEAD
+All the hud crosshairs can be found inside the scripts/crosshairs folder!
+=======
 - You can find all the extra fonts inside the Customization folder and follow the instructions inside the "How does this works" file!
+>>>>>>> 6d25d9e01a237f8b0699b4c3ab1235002bb4ed22
 
-.
+It is possible to enable them from the crosshairs.res file by setting **"visible" "1"** for the wanted crosshair.
 
-4. Why are my Backpack and Loadout menus cut off ?
+It is also possible to easily animate them so the crosshair turns red on damage by editing the CrosshairsAnimations file, you can find all the instructions inside the file!
 
-- If both these menus look broken and cut off then you are probably using a 4:3 or 16:10 resolution! in order to fix it open the "4:3 & 16:10 overrides" folder and replace all the files you find inside over the base hypnotize hud files!
 
-.
+<a>CREDITS</a>
+====
+**m0re:** My hud started as a m0rehud edit
 
-5. Where i can find and enable the hud crosshairs:
+**extracrispy & Rawsor:** Material VTF I used as a base for my materials
 
-- Go to scripts/crosshairs/crosshairs.res inside that file you can find all the crosshairs and easily enable them by setting the "visible" from "0" to "1"
-- You can also animate the crosshairs by using the CrosshairsAnimations file, follow the instructions inside the file!
+**whayay & Marblr:** Classes and Ready Icons
+
+**roesel, Knuckles, Seeker:** Crosshairs Fonts
+
+**Colly:** Killfeed icons help
+
+**Omni, Doodle, Wiet, Flame, Rays:** Infinitely useful Hud Guides and Huds.tf news posts
+
+**Everyone who helped me testing the hud <3**

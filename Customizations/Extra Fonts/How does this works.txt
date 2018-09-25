@@ -1,4 +1,4 @@
 1. Choose the font you want to use (see the fonts screen to see how they are in the game!)
-2. Open the folder of the font you choosed and copy resource folder
+2. Open the folder of the font you choosed and copy the resource folder
 3. Paste and replace the resource folder over the default hud files
 4. Done!
