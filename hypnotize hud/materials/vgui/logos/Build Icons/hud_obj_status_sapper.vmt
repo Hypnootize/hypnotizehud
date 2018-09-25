@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
 	"$translucent" "1"
-	"$baseTexture" "vgui\logos\Build Icons\hud_obj_status_sapper"
+	"$baseTexture" "vgui\logos\build icons\hud_obj_status_sapper"
 	"$alpha" "1"
 	"$vertexalpha" "1"	
 	"$vertexcolor" "1"
