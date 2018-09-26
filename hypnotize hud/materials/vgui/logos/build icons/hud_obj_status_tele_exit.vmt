@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"$translucent" "1"
+	"$baseTexture" "vgui\logos\build icons\hud_obj_status_tele_exit"
+	"$alpha" "1"
+	"$vertexalpha" "1"	
+	"$vertexcolor" "1"
+	"$no_fullbright" "1"
+	"$ignorez" "1"
+	"%keywords" "tf"
+}
