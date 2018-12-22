@@ -144,6 +144,7 @@
 		"tabPosition"								"0"
 		"labelText"									"CONTINUE (&E) "
 		"textAlignment"								"center"
+		"textinsety"								"1"
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"wrap"										"0"

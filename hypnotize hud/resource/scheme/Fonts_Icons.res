@@ -2,16 +2,6 @@ Scheme
 {
 	Fonts
 	{
-		Symbols
-		{
-			"1"
-			{
-				"name"										"Heydings Icons"
-				"tall"										"18"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
 		CustomIcons10
 		{
 			"1"
@@ -208,6 +198,16 @@ Scheme
 			{
 				"name"										"ModernPictograms"
 				"tall"										"20"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		ModPics22
+		{
+			"1"
+			{
+				"name"										"ModernPictograms"
+				"tall"										"22"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -757,35 +757,30 @@ Scheme
 	{
 		"20"
 		{
-			"font" 		"resource/scheme/fontfiles/Heydings Icons.ttf"
-			"name" 		"Heydings Icons"
-		}
-		"21"
-		{
 			"font" 		"resource/scheme/fontfiles/Yahud.otf"
 			"name" 		"yahud"
 		}
-		"22"
+		"21"
 		{
 			"font" 		"resource/scheme/fontfiles/Icons.ttf"
 			"name" 		"Icons"
 		}
-		"23"
+		"22"
 		{
 			"font" 		"resource/scheme/fontfiles/PinyonScript Regular.ttf"
 			"name" 		"Pinyon Script"
 		}
-		"24" 
+		"23" 
 		{
 			"font" 		"resource/scheme/fontfiles/Emblems.ttf"
 			"name" 		"Emblems"
 		}
-		"25" 
+		"24" 
 		{
 			"font" 		"resource/scheme/fontfiles/ModernPics.otf"
 			"name" 		"ModernPictograms"
 		}
-		"26" 
+		"25" 
 		{
 			"font" 		"resource/scheme/fontfiles/Blocks.ttf"
 			"name" 		"Blocks"

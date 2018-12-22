@@ -25,8 +25,8 @@
 		"item_ypos"						"85"
 		"output_item_ypos"				"255"		
 		"item_crafting_offcenter_x"		"0"
-		"item_backpack_xdelta"			"0"
-		"item_backpack_ydelta"			"0"
+		"item_backpack_xdelta"			"2"
+		"item_backpack_ydelta"			"4"
 
 		"button_xpos_offcenter"			"175"		
 		"button_ypos"					"85"
@@ -39,8 +39,8 @@
 			"wide"			"70"
 			"tall"			"45"
 			"visible"		"0"
-			"bgcolor_override"		"Blank"
-			"noitem_textcolor"		"NoItemText"
+			"bgcolor_override"		"0 0 0 0"
+			"noitem_textcolor"		"White"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
@@ -63,7 +63,7 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"visible"		"1"
-				"bgcolor_override"		"Blank"
+				"bgcolor_override"		"0 0 0 0"
 			
 				"itemmodelpanel"
 				{
@@ -90,6 +90,7 @@
 					"fgcolor"		"White"
 					"wrap"			"1"
 					"centerwrap"	"1"
+					"AllCaps"		"1"
 				}
 			}
 		}
@@ -100,25 +101,27 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"280"
-			"tall"			"13"
+			"wide"			"250"
+			"tall"			"22"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"wrap"			"0"
 			"centerwrap"	"0"
-			"textAlignment" "west"
-			"textinsetx"	"0"
+			"textAlignment" "center"
+			"textinsetx"	"7"
 			"AllCaps"		"1"
-			"defaultFgColor_override" "White"
-			"defaultBgColor_override" "Blank"
-			"armedFgColor_override" "Main Theme"
-			"armedBgColor_override" "Blank"
-			"depressedFgColor_override" "Main Theme"
-			"depressedBgColor_override" "Blank"
+			"paintbackground"		"0"
+			
+			"border_default" 	"MaterialLightBG"
+			"border_Armed"		"MaterialHypno"
+			
+			"defaultFgColor_override" 	"White"
+			"armedFgColor_override" 	"White"
+			"depressedFgColor_override" "White"
 		}
 		
-		"filter_xoffset"	"-290"
+		"filter_xoffset"	"-245"
 		"filter_ypos"		"30"
 		"filter_xdelta"		"10"
 		"filter_ydelta"		"10"
@@ -160,7 +163,20 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecipeTitle"
+			"font"			"HudFontSmallBold"
+			"labelText"		"%recipetitle%"
+			"textAlignment"	"west"
 			"xpos"			"9999"
+			"ypos"			"10"
+			"zpos"			"1"
+			"wide"			"280"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+			"wrap"			"1"
 		}
 		
 		"RecipeInputStringLabel"
@@ -170,7 +186,7 @@
 			"font"			"ItemFontAttribLarge"
 			"labelText"		"%recipeinputstring%"
 			"textAlignment"	"north-west"
-			"xpos"			"3"
+			"xpos"			"9999"
 			"ypos"			"45"
 			"zpos"			"1"
 			"wide"			"280"
@@ -179,9 +195,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"LightBG"
+			"fgcolor"		"White"
 			"wrap"			"1"
-			"AllCaps"		"1"
 		}
 	
 		"InputLabel"
@@ -200,8 +215,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"White"
 			"AllCaps"		"1"
+			"fgcolor"		"White"
 		}
 		"OutputLabel"
 		{
@@ -219,8 +234,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"White"
 			"AllCaps"		"1"
+			"fgcolor"		"White"
 		}
 		
 		"CraftButton"
@@ -230,37 +245,28 @@
 			"xpos"			"0"
 			"ypos"			"318"
 			"zpos"			"20"
-			"wide"			"200"
+			"wide"			"215"
 			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"0"
 			"tabPosition"	"0"
-			"labelText"		"craft!"
+			"labelText"		"#CraftConfirm"
 			"font"			"HudFontMediumBold"
 			"textAlignment"	"center"
-			"textinsetx"	"0"
+			"textinsetx"	"50"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"Command"		"craft"
 			"AllCaps"		"1"
+			"Command"		"craft"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"paintbackground"			"0"
-		
-			"sound_depressed"			"UI/buttonclick.wav"
-			"sound_released"			"UI/buttonclickrelease.wav"
+			"paintbackground"		"0"
 			
-			"border_default"			"MaterialLightBG"
-			"border_armed"				"MaterialHypno"
-			
-			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"		"Blank"
-			"depressedBgColor_override" "Blank"
-
-			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"White"
-			"depressedFgColor_override" "White"
+			"border_default"	"MaterialLightBG"
+			"border_armed"		"MaterialHypno"
 		}			
 		
 		"FreeAccountLabel"
@@ -280,9 +286,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor"		"Red"
 			"AllCaps"		"1"
+			"fgcolor"		"Red"
 		}
+		
 		"UpgradeButton"
 		{
 			"ControlName"	"CExButton"
@@ -291,7 +298,7 @@
 			"ypos"			"318"
 			"zpos"			"20"
 			"wide"			"100"
-			"tall"			"25"
+			"tall"			"27"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -305,15 +312,12 @@
 			"brighttext"	"0"
 			"Command"		"upgrade"
 			"AllCaps"		"1"
-			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"border_default"	"QuickplayBorderDark"
-			"border_armed"		"QuickplayBorderDark"
-			"defaultBgColor_override"	"102 122 42 255"
-			"armedBgColor_override"		"143 167 57 255"
-			"depressedBgColor_override"	"143 167 57 255"
-			"selectedBgColor_override"	"143 167 57 255"
+			"paintbackground"	"0"
+			
+			"border_default"	"MaterialGreen"
+			"border_armed"		"MaterialHypno"
 		}			
 	}
 	
@@ -325,7 +329,7 @@
 		"ypos"			"70"
 		"zpos"			"5"
 		"wide"			"280"
-		"tall"			"240"
+		"tall"			"280"
 		"PaintBackgroundType"	"2"
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"200 187 161 0"
@@ -339,7 +343,7 @@
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"280"
-		"tall"			"240"
+		"tall"			"280"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"200 187 161 0"
 	}
@@ -442,7 +446,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"White"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}

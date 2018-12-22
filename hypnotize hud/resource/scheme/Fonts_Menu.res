@@ -8,374 +8,14 @@ Scheme
 	
 	Fonts
 	{
-		MenuFont6
+		AvenirNumbers
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"6"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont8
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"8"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont9
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"9"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont10
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"10"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont11
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"11"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont12
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"12"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont14
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"14"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont15
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"15"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont16
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"16"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont18
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"18"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont20
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"20"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont21
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"21"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont22
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"22"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont24
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"24"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont26
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"26"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont28
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"28"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont30
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"30"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont32
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"32"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont36
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"36"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont38
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"38"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont40
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"40"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont42
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"42"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont44
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"44"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont46
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"46"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont48
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"48"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont50
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"50"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont52
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"52"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont54
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"54"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont56
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"56"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont58
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"58"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont60
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"60"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont62
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"62"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont64
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"64"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont66
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"66"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont68
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"68"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont70
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"70"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		MenuFont72
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"72"
-				"additive"									"0"
-				"antialias" 								"1"
+				"name"		"Avenir Numbers"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias"	"1"
 			}
 		}
 		
@@ -449,15 +89,56 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"AvenirLTStd-Black" [!$OSX]
-				"name"		"Helvetica" [$OSX]
+				"name"		"AvenirLTStd-Black"
 				"tall"		"18"
-				"weight"	"900"
+				"weight"	"500"
 				"antialias" "1"
 				"additive"	"1"
 			}
 		}
-
+		HudHintText
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Black"
+				"tall"		"9"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+			"2"
+			{
+				"name"		"AvenirLTStd-Black"
+				"tall"		"10"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+			"3"
+			{
+				"name"		"AvenirLTStd-Black"
+				"tall"		"11"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+			"4"
+			{
+				"name"		"AvenirLTStd-Black"
+				"tall"		"16"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+			"5"
+			{
+				"name"		"AvenirLTStd-Black"
+				"tall"		"20"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"HudFontGiant"
 		{
 			"1"
@@ -2328,6 +2009,11 @@ Scheme
 		{
 			"font" 		"resource/scheme/fontfiles/Avenir Black.ttf"
 			"name" 		"AvenirLTStd-Black"
+		}
+		"9" 
+		{
+			"font" 		"resource/scheme/fontfiles/Avenir Numbers.otf"
+			"name" 		"Avenir Numbers"
 		}
 	}
 }

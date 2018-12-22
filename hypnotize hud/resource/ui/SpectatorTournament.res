@@ -30,15 +30,15 @@
 			"color_ready"							"0 255 0 220"
 			"color_notready"						"0 0 0 220"
 			
-			"playername"
+			"PlayerName"
 			{
 				"ControlName"						"CExLabel"
-				"fieldName"							"playername"
+				"fieldName"							"PlayerName"
 				"font"								"GameFont11"
 				"xpos"								"47"
 				"ypos"								"0"
 				"zpos"								"5"
-				"wide"								"84"
+				"wide"								"62"
 				"tall"								"22"
 				"autoResize"						"0"
 				"pinCorner"							"0"
@@ -48,15 +48,15 @@
 				"fgcolor"							"White"
 			}
 			
-			"classimage"
+			"ClassImage"
 			{
 				"ControlName"						"CTFClassImage"
-				"fieldName"							"classimage"
-				"xpos"								"5"
-				"ypos"								"6"
+				"fieldName"							"ClassImage"
+				"xpos"								"4"
+				"ypos"								"4"
 				"zpos"								"2"
-				"wide"								"12"
-				"tall"								"12"
+				"wide"								"15"
+				"tall"								"15"
 				"visible"							"1"
 				"enabled"							"1"
 				"image"								"../hud/class_scoutred"
@@ -67,7 +67,7 @@
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"HealthIcon"
-				"xpos"			              		"16"
+				"xpos"			              		"18"
 				"ypos"				           		"0"
 				"zpos"				            	"3"
 				"wide"				            	"50"
@@ -98,12 +98,12 @@
 				"scaleImage"						"1"
 			}
 			
-			"respawntime"
+			"RespawnTime"
 			{
 				"ControlName"						"CExLabel"
-				"fieldName"							"respawntime"
+				"fieldName"							"RespawnTime"
 				"font"								"GameFont12"
-				"xpos"								"20"
+				"xpos"								"22"
 				"ypos"								"0"
 				"zpos"								"5"
 				"wide"								"23"
@@ -116,40 +116,40 @@
 				"fgcolor"							"White"
 			}
 			
-			"chargeamount"
+			"ChargeAmount"
 			{
 				"ControlName"						"CExLabel"
-				"fieldName"							"chargeamount"
+				"fieldName"							"ChargeAmount"
 				"font"								"GameFont11"
-				"xpos"								"106"
+				"xpos"								"0"
 				"ypos"								"6"
 				"zpos"								"20"
-				"wide"								"28"
-				"tall"								"11"
-				"autoResize"						"0"
-				"pinCorner"							"0"
-				"visible"							"1"
-				"labelText"							"%chargeamount%"
-				"textAlignment"						"center"
-				"fgcolor_override"					"Black"
-			}
-			
-			"chargeamountcover"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"chargeamountcover"
-				"font"								"BlocksSharp64"
-				"xpos"								"106"
-				"ypos"								"6"
-				"zpos"								"19"
-				"wide"								"28"
+				"wide"								"135"
 				"tall"								"11"
 				"autoResize"						"0"
 				"pinCorner"							"0"
 				"visible"							"1"
 				"labelText"							"%chargeamount%"
 				"textAlignment"						"east"
-				"fgcolor"							"White"
+				"fgcolor_override"					"White"
+			}
+			
+			"ChargeAmountShadow"
+			{
+				"ControlName"						"CExLabel"
+				"fieldName"							"ChargeAmountShadow"
+				"font"								"GameFont11Blur"
+				"xpos"								"0"
+				"ypos"								"6"
+				"zpos"								"20"
+				"wide"								"136"
+				"tall"								"12"
+				"autoResize"						"0"
+				"pinCorner"							"0"
+				"visible"							"1"
+				"labelText"							"%chargeamount%"
+				"textAlignment"						"east"
+				"fgcolor_override"					"Black"
 			}
 			
 			"classimagebg"
@@ -157,7 +157,6 @@
 				"ControlName"						"Panel"
 				"fieldName"							"classimagebg"
 				"xpos"			       				"9999"
-				
 			}
 			"ReadyBG"
 			{

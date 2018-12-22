@@ -291,11 +291,10 @@
 	{
 		"ControlName"		       					"CExLabel"
 		"fieldName"		          					"ServerTimeLeft"
-		"font"			            				"Numbers20"
+		"font"			            				"GameFont20"
 		"fgcolor"               					"White"
 		"labelText"		        					"%servertimeleft%"
 		"textAlignment"								"west"
-		"textinsetx"								"-8"
 		"xpos"          							"2"
 		"ypos" 		     							"-4"
 		"zpos"										"1"
@@ -321,7 +320,7 @@
 	{
 		"ControlName"	  	     					"CExLabel"
 		"fieldName"	    	      					"Spectators"
-		"font"		            					"DefaultVerySmall"
+		"font"		            					"SpectatorKeyHints"
 		"fgcolor"              						"White"
 		"labelText"		          					"%spectators%"
 		"textAlignment"								"west"
@@ -334,6 +333,8 @@
 		"pinCorner"	    	      					"0"
 		"visible"		           					"1"
 		"enabled"	              					"1"
+		"AllCaps"									"1"
+		"alpha"										"175"
 		
 		if_mvm
 		{
@@ -345,7 +346,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SpectatorsInQueue"
-		"font"		            					"DefaultVerySmall"
+		"font"		            					"SpectatorKeyHints"
 		"fgcolor"              						"White"
 		"labelText"		          					"%waitingtoplay%"
 		"textAlignment"								"west"
@@ -359,6 +360,7 @@
 		"visible"		           					"1"
 		"enabled"	              					"1"
 		"AllCaps"	              					"1"
+		"alpha"										"175"
 		
 		if_mvm
 		{
@@ -370,7 +372,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ServerLabel"
-		"font"										"DefaultVerySmall"
+		"font"										"SpectatorKeyHints"
 		"fgcolor"									"White"
 		"labelText"									"%server%"
 		"textAlignment"								"east"
@@ -382,6 +384,8 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
+		"AllCaps"									"1"
+		"alpha"										"175"
 	}
 	
 	"MapName"
@@ -798,7 +802,7 @@
 	{
 		"ControlName"								"CTFHudMannVsMachineScoreboard"
 		"fieldName"									"MvMScoreboard"
-		"xpos"										"127"
+		"xpos"										"c-300"
 		"ypos"										"-8"
 		"zpos"										"10"
 		"wide"										"f0"

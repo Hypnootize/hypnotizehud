@@ -47,7 +47,7 @@
 		"labeltext"									"X"
 		"font"										"ModPics18"
 		"textAlignment"								"center"
-		"textinsety"								"-8"
+		"textinsety"								"-7"
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"default"									"0"

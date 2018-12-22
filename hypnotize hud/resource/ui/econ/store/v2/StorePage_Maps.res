@@ -26,7 +26,7 @@
 	
 	"ClassFilterNavPanel"
 	{
-		"visible"			"0"
+		"visible"		"0"
 	}
 	
 	"ClassFilterLabel"
@@ -44,14 +44,29 @@
 		"visible"		"0"
 	}
 	
+	"NameFilterBG"
+	{
+		"visible"		"0"
+	}
+	
 	"SortFilterLabel"
+	{
+		"visible"		"0"
+	}
+	
+	"SubcategoryFilterBG"
 	{
 		"visible"		"0"
 	}
 	
 	"SortFilterComboBox"
 	{
-		"visible"			"0"
+		"visible"		"0"
+	}
+	
+	"SortFilterBG"
+	{
+		"visible"		"0"
 	}
 	
 	"TitleLabel"
@@ -115,20 +130,20 @@
 		"Command"		"maps_learnmore"
 		"AllCaps"		"1"
 		
-		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"paintbackground"							"0"
+		"paintbackground"	"0"
 		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
+		"defaultBgColor_override"	"Blank"
+		"armedBgColor_override"		"Blank"
+		"depressedBgColor_override"	"Blank"
 		
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override"	"White"
 		
-		"border_default"							"MaterialLightBG"
-		"border_armed"								"MaterialHypno"
+		"border_default"			"MaterialLightBG"
+		"border_armed"				"MaterialHypno"
 	}	
 }

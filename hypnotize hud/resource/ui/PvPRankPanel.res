@@ -213,7 +213,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"LVL"
-			"xpos"			"2"
+			"xpos"			"1"
 			"ypos"			"0"
 			"wide"			"67"
 			"zpos"			"100"
@@ -269,19 +269,18 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"46"
-			"ypos"			"1"
+			"xpos"			"45"
+			"ypos"			"0"
 			"wide"			"50"
 			"zpos"			"100"
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"Numbers16"
+			"font"			"AvenirNumbers"
 			"fgcolor_override"	"White"
 			"textAlignment"	"west"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
-			"textinsetx"	"-7"
 
 			if_mini
 			{
@@ -296,9 +295,9 @@
 
 			"fonts"
 			{
-				"0"		"Numbers14"
-				"1"		"Numbers14"
-				"2"		"Numbers14"
+				"0"		"AvenirNumbers"
+				"1"		"AvenirNumbers"
+				"2"		"AvenirNumbers"
 			}
 
 			"colors"

@@ -1616,26 +1616,6 @@ Scheme
 				"blur" 										"2"
 			}
 		}
-		Numbers14
-		{
-			"1"
-			{
-				"name"										"Nexa Numbers"
-				"tall"										"14"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		Numbers16
-		{
-			"1"
-			{
-				"name"										"Nexa Numbers"
-				"tall"										"16"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
 		Numbers20
 		{
 			"1"
@@ -1858,44 +1838,6 @@ Scheme
 				"weight"									"500"
 				"additive"									"0"
 				"antialias" 								"1"
-			}
-		}
-		HudHintText
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-				"tall"										"12"
-				"weight"									"700"
-				"yres"										"480 599"
-			}
-			"2"
-			{
-				"name"										"NexaBold"
-				"tall"										"13"
-				"weight"									"700"
-				"yres"										"600 767"
-			}
-			"3"
-			{
-				"name"										"NexaBold"
-				"tall"										"14"
-				"weight"									"700"
-				"yres"										"768 1023"
-			}
-			"4"
-			{
-				"name"										"NexaBold"
-				"tall"										"20"
-				"weight"									"700"
-				"yres"										"1024 1199"
-			}
-			"5"
-			{
-				"name"										"NexaBold"
-				"tall"										"24"
-				"weight"									"700"
-				"yres"										"1200 10000"
 			}
 		}
 		"HudClassHealth"
