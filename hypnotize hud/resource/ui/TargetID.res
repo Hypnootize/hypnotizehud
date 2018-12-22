@@ -20,7 +20,7 @@
 	{
 		"ControlName"								"Label"
 		"fieldName"									"TargetNameLabel"
-		"font"										"GameFont11"
+		"font"										"GameFont11Shadow"
 		"xpos"										"40"
 		"ypos"										"25"
 		"zpos"										"1"
@@ -37,7 +37,7 @@
 	{
 		"ControlName"								"Label"
 		"fieldName"									"TargetDataLabel"
-		"font"										"GameFont10"
+		"font"										"GameFont10Shadow"
 		"xpos"										"40"
 		"ypos"										"32"
 		"zpos"										"1"
@@ -66,6 +66,37 @@
 		"TFFont"									"GameFont14"
 		"HealthDeathWarningColor"					"HUDDeathWarning"
 		"TextColor"									"HudOffWhite"
+	}
+	
+	"KillAnchor"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"KillAnchor"
+		"xpos"										"-4"
+		"ypos"										"38"
+		"wide"										"8"
+		"tall"										"8"
+		"visible"									"1"
+		"enabled"									"1"
+	}
+	
+	"KillStreakIcon"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"KillStreakIcon"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"12"
+		"wide"										"11"
+		"tall"										"11"
+		"visible"									"0"
+		"enabled"									"1"
+		"image"										"../hud/leaderboard_streak"
+		"scaleImage"								"1"
+		
+		"pin_to_sibling" 							"KillAnchor"
+		"pin_corner_to_sibling" 					"1"
+		"pin_to_sibling_corner" 					"1"
 	}
 
 	

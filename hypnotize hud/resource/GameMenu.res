@@ -1,23 +1,9 @@
 "GameMenu"
 {
-	/////////////////////////Top Menu Buttons///////////////////////////
-	"QuestsButton"
-	{
-		"label" 									"d"
-		"command" 									"questlog"
-	}
-	"WatchStreamButton"
-	{
-		"label" 									"q"
-		"command" 									"watch_stream"
-	}
-	"MOTD_ShowButtonPanel"
-	{
-		"label" 									"h"
-		"command" 									"motd_show"
-	}
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////MAIN BUTTONS/////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	/////////////////////////Main Menu Buttons/////////////////////////
 	"Servers"
 	{
 		"label" 									"SERVERS"
@@ -54,7 +40,10 @@
 		"command"									"engine showconsole"
 	}
 	
-	/////////////////////////Ingame Only Buttons///////////////////////
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////IN-GAME ONLY BUTTONS/////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
 	"Vote"
 	{
 		"label"										"R"
@@ -83,6 +72,81 @@
 	{
 		"label"										"MINMODE"
 		"command"									"engine toggle cl_hud_minmode"
+		"OnlyInGame"								"1"
+	}
+	
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////BOTTOM MENU BUTTONS/////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	"Contracker"
+	{
+		"label" 									"d"
+		"command" 									"questlog"
+		"tooltip" 									"Contracker"
+	}
+	"Streams"
+	{
+		"label" 									"q"
+		"command" 									"watch_stream"
+		"tooltip" 									"Streams"
+	}
+	"HomeServer"
+	{
+		"label" 									"X"
+		"command" 									"engine map tr_walkway_rc2" 	//"engine connect *server ip*"
+		"tooltip" 									"Home Server"
+	}
+	
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////IN-GAME TOOLS////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	"ToolsBG"
+	{
+		"command" 									"engine"
+		"OnlyInGame"								"1"
+	}
+	"ReloadScheme"
+	{
+		"label" 									"R"
+		"command" 									"engine vgui_cache_res_files 0;hud_reloadscheme"
+		"tooltip" 									"Reload Hud"
+		"OnlyInGame"								"1"
+	}
+	"ClosedCaptionsON"
+	{
+		"label" 									"Z"
+		"command" 									"engine closecaption 1;cc_subtitles 0;cc_lang english;cc_predisplay_time 0;cc_emit #subtitles0"
+		"tooltip" 									"Closed Captions ON"
+		"OnlyInGame"								"1"
+	}
+	"ClosedCaptionsOFF"
+	{
+		"label" 									"Z"
+		"command" 									"engine closecaption 0; cc_predisplay_time 0"
+		"tooltip" 									"Closed Captions OFF"
+		"OnlyInGame"								"1"
+	}
+	"SoundFix"
+	{
+		"label" 									"2"
+		"command" 									"engine snd_restart"
+		"tooltip" 									"Fix Sound"
+		"OnlyInGame"								"1"
+	}
+	"InviliblePlayersFix"
+	{
+		"label" 									"f"
+		"command" 									"engine stop; record fix"
+		"tooltip" 									"Fix Invisible Players"
+		"OnlyInGame"								"1"
+	}
+	"NetgraphToggle"
+	{
+		"label" 									"7"
+		"command" 									"engine toggle net_graph 1 0"
+		"tooltip" 									"Netgrapgh on/off"
 		"OnlyInGame"								"1"
 	}
 }
