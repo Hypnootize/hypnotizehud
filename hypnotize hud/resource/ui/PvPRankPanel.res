@@ -209,29 +209,6 @@
 			"xpos"			"9999"
 		}
 		
-		"LVL"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"LVL"
-			"xpos"			"1"
-			"ypos"			"0"
-			"wide"			"67"
-			"zpos"			"100"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"font"			"HudFontSmall"
-			"fgcolor_override"	"TanLight"
-			"textAlignment"		"west"
-			"labelText"			"LEVEL :"
-			"proportionaltoparent"	"1"
-
-			if_mini
-			{
-				"visible"	"0"
-			}
-		}
-
 		"DescLine1"
 		{
 			"ControlName"	"CAutoFittingLabel"
@@ -269,18 +246,19 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"45"
+			"xpos"			"1"
 			"ypos"			"0"
-			"wide"			"50"
+			"wide"			"67"
 			"zpos"			"100"
 			"tall"			"16"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
-			"font"			"AvenirNumbers"
-			"fgcolor_override"	"White"
-			"textAlignment"	"west"
+			"font"			"HudFontSmall"
+			"fgcolor_override"	"TanLight"
+			"textAlignment"		"west"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
+			"AllCaps"	"1"
 
 			if_mini
 			{
@@ -291,18 +269,19 @@
 				"tall"	"20"
 				"textAlignment"	"north-west"
 				"textinsetx"	"0"
+				"AllCaps"	"0"
 			}
 
 			"fonts"
 			{
-				"0"		"AvenirNumbers"
-				"1"		"AvenirNumbers"
-				"2"		"AvenirNumbers"
+				"0"		"HudFontSmall"
+				"1"		"HudFontSmall"
+				"2"		"HudFontSmall"
 			}
 
 			"colors"
 			{
-				"1"		"CreditsGreen"
+				"1"		"White"
 				"2"		"White"
 			}
 		}

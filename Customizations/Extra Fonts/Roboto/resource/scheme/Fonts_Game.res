@@ -1616,16 +1616,6 @@ Scheme
 				"blur" 										"2"
 			}
 		}
-		Numbers20
-		{
-			"1"
-			{
-				"name"										"Nexa Numbers"
-				"tall"										"20"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
 		Respawn
 		{
 			"1"

@@ -146,7 +146,7 @@
 	{
 		"label" 									"7"
 		"command" 									"engine toggle net_graph 1 0"
-		"tooltip" 									"Netgrapgh on/off"
+		"tooltip" 									"Netgraph ON/OFF"
 		"OnlyInGame"								"1"
 	}
 }

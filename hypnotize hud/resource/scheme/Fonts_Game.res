@@ -1616,16 +1616,6 @@ Scheme
 				"blur" 										"2"
 			}
 		}
-		Numbers20
-		{
-			"1"
-			{
-				"name"										"Nexa Numbers"
-				"tall"										"20"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
 		Respawn
 		{
 			"1"
@@ -2171,11 +2161,6 @@ Scheme
 			"name" 		"NexaBold"
 		}
 		"11" 
-		{
-			"font" 		"resource/scheme/fontfiles/Nexa Numbers.otf"
-			"name" 		"Nexa Numbers"
-		}
-		"12" 
 		{
 			"font" 		"resource/scheme/fontfiles/Nexa Respawn.otf"
 			"name" 		"Nexa Respawn"
