@@ -209,6 +209,29 @@
 			"xpos"			"9999"
 		}
 		
+		"LVL"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"LVL"
+			"xpos"			"1"
+			"ypos"			"0"
+			"wide"			"67"
+			"zpos"			"100"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"HudFontSmall"
+			"fgcolor_override"	"TanLight"
+			"textAlignment"		"west"
+			"labelText"			"LEVEL"
+			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"visible"	"0"
+			}
+		}
+		
 		"DescLine1"
 		{
 			"ControlName"	"CAutoFittingLabel"
@@ -246,19 +269,18 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"1"
+			"xpos"			"38"
 			"ypos"			"0"
-			"wide"			"67"
+			"wide"			"50"
 			"zpos"			"100"
 			"tall"			"16"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmall"
-			"fgcolor_override"	"TanLight"
-			"textAlignment"		"west"
+			"font"			"AvenirNumbers"
+			"fgcolor_override"	"White"
+			"textAlignment"	"west"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
-			"AllCaps"	"1"
 
 			if_mini
 			{
@@ -269,14 +291,13 @@
 				"tall"	"20"
 				"textAlignment"	"north-west"
 				"textinsetx"	"0"
-				"AllCaps"	"0"
 			}
 
 			"fonts"
 			{
-				"0"		"HudFontSmall"
-				"1"		"HudFontSmall"
-				"2"		"HudFontSmall"
+				"0"		"AvenirNumbers"
+				"1"		"AvenirNumbers"
+				"2"		"AvenirNumbers"
 			}
 
 			"colors"
@@ -284,7 +305,7 @@
 				"1"		"White"
 				"2"		"White"
 			}
-		}
+}
 
 		"StatsContainer"
 		{
