@@ -58,10 +58,10 @@
 		"fieldName"									"classmodelpanel"
 		
 		"xpos"										"0"
-		"ypos"										"r100"
+		"ypos"										"r120"
 		"zpos"										"2"		
 		"wide"										"88"
-		"tall"										"102"
+		"tall"										"140"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
@@ -70,7 +70,7 @@
 		"render_texture"							"0"
 		"fov"										"27"
 		"allow_rot"									"1"
-				
+		
 		"model"
 		{
 			"force_pos"								"1"
@@ -106,13 +106,13 @@
 			}
 			"Sniper"
 			{
-				"fov"								"30"
+				"fov"								"32"
 				"angles_x"							"-2"
 				"angles_y"							"270"
 				"angles_z"							"0"
-				"origin_x"							"130"
-				"origin_y"							"15"
-				"origin_z"							"-47"
+				"origin_x"							"125"
+				"origin_y"							"16"
+				"origin_z"							"-55"
 			}
 			"Soldier"
 			{
