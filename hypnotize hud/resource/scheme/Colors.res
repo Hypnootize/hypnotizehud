@@ -298,8 +298,8 @@ Scheme
 		CheckButton.Check									"White"
 		CheckButton.HighlightFgColor						"White"
 		
-		ComboBoxButton.ArrowColor							"TanLight"
-		ComboBoxButton.ArmedArrowColor						"TanLight"
+		ComboBoxButton.ArrowColor							"White"
+		ComboBoxButton.ArmedArrowColor						"White"
 		ComboBoxButton.BgColor								"Blank"
 		ComboBoxButton.DisabledBgColor						"Blank"
 
@@ -329,8 +329,8 @@ Scheme
 		GraphPanel.BgColor									"TransparentBlack"
 
 		Label.TextDullColor									"TanDark"
-		Label.TextColor										"TanLight"
-		Label.TextBrightColor								"TanLight"
+		Label.TextColor										"White"
+		Label.TextBrightColor								"White"
 		Label.SelectedTextColor								"White"
 		Label.BgColor										"Blank"
 		Label.DisabledFgColor1								"Blank"
@@ -343,10 +343,10 @@ Scheme
 		ListPanel.SelectedOutOfFocusBgColor					"Red"
 		ListPanel.EmptyListInfoTextColor					"White"
 
-		Menu.TextColor										"TanLight"
+		Menu.TextColor										"White"
 		Menu.BgColor										"DarkBG"
 		Menu.ArmedTextColor									"TanDark"
-		Menu.ArmedBgColor									"TanLight"
+		Menu.ArmedBgColor									"White"
 		Menu.TextInset										"6"
 
 		Chat.TypingText										"White"
@@ -400,7 +400,7 @@ Scheme
 		SectionedListPanel.OutOfFocusSelectedBgColor		"255 255 255 32"
 
 		Slider.NobColor										"108 108 108 255"
-		Slider.TextColor									"127 140 127 255"
+		Slider.TextColor									"White"
 		Slider.TrackColor									"31 31 31 255"
 		Slider.DisabledTextColor1							"117 117 117 255"
 		Slider.DisabledTextColor2							"30 30 30 255"

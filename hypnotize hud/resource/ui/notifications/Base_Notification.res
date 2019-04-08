@@ -21,10 +21,6 @@
 	
 	
 	
-	
-	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-	
 	"Notification_Background"
 	{
 		"ControlName"								"CImagePanel"

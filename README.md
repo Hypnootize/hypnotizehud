@@ -65,10 +65,12 @@ It is also possible to easily animate them so the crosshair turns red on damage 
 
 **whayay & Marblr:** Classes and Ready Icons
 
-**roesel, Knuckles, Seeker:** Crosshairs Fonts
+**Broesel, Knuckles, Seeker:** Crosshairs Fonts
 
 **Colly:** Killfeed icons help
 
-**Omni, Doodle, Wiet, Flame, Rays:** Infinitely useful Hud Guides and Huds.tf news posts
+**Omni, Doodle, Wiet, Flame, Rays:** Infinitely useful Hud Guides and Huds.tf posts on updates
+
+**bLa:** Huge help on finding bugs and fixes
 
 **Everyone who helped me testing the hud <3**
