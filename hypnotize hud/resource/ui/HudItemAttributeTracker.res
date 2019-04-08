@@ -19,12 +19,12 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestsStatusContainer"
 		"xpos"			"rs1-10"
-		"ypos"			"135"
+		"ypos"			"120"
 		"wide"			"110"
 		"tall"			"20"
 		"proportionaltoparent"	"1"
 
-		"border"	"QuestStatusBorder"
+		"border"	"NoBorder"
 		"paintborder"	"2"
 		
 		"Header"
