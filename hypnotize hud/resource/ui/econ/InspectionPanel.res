@@ -27,6 +27,11 @@
 		"bgcolor_override"		"Background"
 		"border"				"NoBorder"
 		
+		"fixed_item"
+		{
+			"visible"		"0"
+		}
+		
 		"consume_mode"
 		{
 			"wide"			"0"
@@ -49,7 +54,7 @@
 		
 		"fixed_item"
 		{
-			"ypos"				"c-160"
+			"visible"			"0"
 		}
 		"consume_mode"
 		{
@@ -622,22 +627,20 @@
 			"brighttext"	"0"
 			"keyboardinputenabled"	"0"
 			"AllCaps"			"1"
-
-			"border_default"	"QuickplayBorderDark"
-			"border_armed"		"QuickplayBorderDark"
+			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
 			"paintbackground"	"1"
+			
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override"		"White"
+			"depressedFgColor_override" "White"
 			
 			"defaultBgColor_override"	"LightBG"
 			"armedBgColor_override"		"Main Theme"
 			"depressedBgColor_override" "Main Theme"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"White"
-			"depressedFgColor_override" "White"
-
+			
 			"command"	"random_seed"
 
 			"consume_mode"
@@ -675,7 +678,6 @@
 			"bgcolor_override"	"0 0 0 200"
 			"maxchars"		"18"
 			
-
 			"consume_mode"
 			{
 				"visible"	"0"
@@ -700,7 +702,7 @@
 			"wide"		"75"
 			"tall"		"20"
 			"labelText"			"#TF_ItemAd_ViewOnMarket"
-			"font"			"HudFontSmallestBold"
+			"font"			"FontStorePrice"
 			"textinsetx"		"0"
 			"textAlignment"	"center"
 		
@@ -711,11 +713,8 @@
 			"RoundedCorners"	"0"
 			"AllCaps"			"1"
 			
-			"border_default"	"QuickplayBorderDark"
-			"border_armed"		"QuickplayBorderDark"
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
-
 			"defaultBgColor_override"	"72 103 32 255"
 			"armedBgColor_override"		"72 133 32 255"
 
