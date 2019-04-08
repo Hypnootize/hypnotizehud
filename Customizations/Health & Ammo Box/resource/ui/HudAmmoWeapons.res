@@ -130,6 +130,34 @@
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
+	"LowAmmoBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"LowAmmoBG"
+		"xpos"										"-27"
+		"xpos_minmode"								"-38"
+		"ypos"										"-54"
+		"ypos_minmode"								"-58"
+		"zpos"										"1"
+		"wide"										"93"
+		"wide_minmode"								"72"
+		"tall"	 									"40"
+		"tall_minmode"	 							"33"
+		"autoResize"								"0"
+		"paintbackground"							"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"alpha"										"0"
+		
+		"border"									"HurtBorder"
+		"scaleImage"								"1"
+		
+		"pin_to_sibling" 							"AmmoNoClip"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+	}
+	
 	
 	
 	
