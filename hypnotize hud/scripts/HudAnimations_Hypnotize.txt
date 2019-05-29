@@ -7,7 +7,7 @@ event HudHealthBonusPulse
 	
 	Animate HealthBG							Alpha 		"0"									Accel 	0.0 	0.0
 	Animate HealthBuff							Alpha 		"255"								Accel 	0.0 	0.0
-		
+	
 	RunEvent HudHealthBonusPulseLoop			0.7
 	
 }

@@ -1,4 +1,4 @@
-#base "../resource/scheme/Background Remover.res"
+#base "../resource/tools/Background Remover.res"
 
 "GameMenu"
 {
