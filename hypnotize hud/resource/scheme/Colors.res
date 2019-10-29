@@ -2,12 +2,9 @@ Scheme
 {
 	Colors
 	{
-		
 		///////////////////////////////////////////////////////////////////////////////
-		/////////////////////////////////CUSTOM COLORS/////////////////////////////////
-		///////////////////////////////////////////////////////////////////////////////
-		
 		/////////////////////////////////MENU COLORS///////////////////////////////////
+		///////////////////////////////////////////////////////////////////////////////
 		
 		"Main Theme"										"80 150 255 255"
 		
@@ -29,35 +26,55 @@ Scheme
 		
 		"NoItemText"										"120 120 120 255"
 		
-		/////////////////////////////////INGAME COLORS/////////////////////////////////
+		///////////////////////////////////////////////////////////////////////////////
+		//////////////////////////// ITEM QUALITY COLORS //////////////////////////////
+		///////////////////////////////////////////////////////////////////////////////
 		
-		"Shadow"											"0 0 0 175"
+		"Normal"											"50 50 50 255"
+		"Genuine"											"115 215 140 255"
+		"Unusual"											"215 145 255 255"
+		"Vintage"											"110 165 255 255"
+		"Unique"											"255 190 40 255"
+		"Community"											"145 225 100 255"
+		"Developer"											"255 90 205 255"
+		"SelfMade"											"145 225 100 255"
+		"Customized"										"110 165 255 255"
+		"Strange"											"240 125 10 255"
+		"Completed"											"215 145 255 255"
+		"Haunted"											"0 230 120 255"
+		"Collectors"										"245 70 70 255"
+		"PaintkitWeapon"									"215 215 215 255"
+
+		"GradedWeaponDefault"								"190 190 190 255"
+		"CivilianGrade"										"195 220 255 255"
+		"FreelanceGrade"									"115 200 255 255"
+		"MercenaryGrade"									"70 130 250 255"
+		"CommandoGrade"										"160 125 255 255"
+		"AssassinGrade"										"245 150 255 255"
+		"EliteGrade"										"255 130 130 255"
 		
-		"Health Numbers"									"255 255 255 255"
+		"Normal_Hover"										"40 40 40 255"
+		"Genuine_Hover"										"105 205 130 255"
+		"Unusual_Hover"										"205 135 245 255"
+		"Vintage_Hover"										"100 155 245 255"
+		"Unique_Hover"										"245 180 30 255"
+		"Community_Hover"									"135 215 90 255"
+		"Developer_Hover"									"245 80 195 255"
+		"SelfMade_Hover"									"135 215 90 255"
+		"Customized_Hover"									"100 155 245 255"
+		"Strange_Hover"										"230 115 0 255"
+		"Completed_Hover"									"205 135 245 255"
+		"Haunted_Hover"										"0 220 110 255"
+		"Collectors_Hover"									"235 60 60 255"
+		"PaintkitWeapon_Hover"								"225 225 225 255"
 
-		"Buffed Health"										"30 175 255 255"
-		"Buffed Health Pulse"								"80 150 255 255"
-		
-		"Low Health"										"255 50 50 255"
-		"Low Health Pulse"									"255 0 0 255"
-		
-		"Ammo In Clip"										"255 255 255 255"
-		"Ammo In Reserve"									"255 255 255 255"
-		"Ammo No Clip"										"255 255 255 255"
-
-		"Low Ammo In Clip"									"255 50 50 255"
-		"Low Ammo In Clip Pulse"							"255 0 0 255"
-		"Low Ammo In Reserve"								"255 50 50 255"
-		"Low Ammo In Reserve Pulse"							"255 0 0 255"
-		"Low Ammo No Clip"									"255 50 50 255"
-		"Low Ammo No Clip Pulse"							"255 0 0 255"
-
-		"Full Ubercharge"									"30 175 255 255"
-		"Full Ubercharge Pulse"								"80 150 255 255"
-
-		"Damage Numbers"									"255 255 255 255"
-		"Heal Numbers"										"0 255 0 255"
-		"Last Damage Done"									"255 255 255 255"
+		"GradedWeaponDefault_Hover"							"180 180 180 255"
+		"CivilianGrade_Hover"								"185 210 245 255"
+		"FreelanceGrade"									"105 190 245 255"
+		"MercenaryGrade_Hover"								"60 120 240 255"
+		"CommandoGrade_Hover"								"150 115 245 255"
+		"AssassinGrade_Hover"								"235 140 245 255"
+		"EliteGrade_Hover"									"245 120 120 255"
 		
 		///////////////////////////////////////////////////////////////////////////////
 		/////////////////////////////////BASE COLORS///////////////////////////////////
@@ -185,7 +202,7 @@ Scheme
 		"QualityColorDeveloper"								"165 15 121 255"
 		"QualityColorSelfMade"								"112 176 74 255"
 		"QualityColorCustomized"							"71 98 145 255"
-		"QualityColorStrange"								"207 106 50 255"
+		"QualityColorStrange"								"255 165 105 255"
 		"QualityColorCompleted"								"134 80 172 255"
 		"QualityColorHaunted"								"56 243 171 255"
 		"QualityColorCollectors"							"170 0 0 255"
