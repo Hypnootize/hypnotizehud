@@ -89,8 +89,6 @@
 		"fgcolor_override"							"White"
 		
 		"pin_to_sibling" 							"MapFrame"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"FightFrame"
@@ -113,8 +111,6 @@
 		"border"									"MaterialRed"
 		
 		"pin_to_sibling" 							"TeamsAnchor"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"teambutton2"									//FIGHT
@@ -141,8 +137,6 @@
 		"fgcolor"		  							"Blank"
 		
 		"pin_to_sibling" 							"FightFrame"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"Fight"
@@ -187,8 +181,6 @@
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling" 							"FightFrame"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"SpectateFrame"
@@ -240,8 +232,6 @@
 		"fgcolor"		  							"Blank"
 		
 		"pin_to_sibling" 							"SpectateFrame"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"Spec"
@@ -263,8 +253,6 @@
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling" 							"SpectateFrame"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}	
 	
 	"SpectateNumber"

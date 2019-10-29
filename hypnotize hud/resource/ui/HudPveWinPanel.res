@@ -9,7 +9,7 @@
 		"zpos"			"0"
 		"wide"			"300"
 		"tall"			"90"
-		"image"			"replay/thumbnails/Material_Transparent"
+		"image"			"replay/thumbnails/panels/Material_Transparent"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		
@@ -136,7 +136,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"AllCaps"		"1"
-		"image"			"replay/thumbnails/Material_Transparent"
+		"image"			"replay/thumbnails/panels/Material_Transparent"
 
 		"src_corner_height"	"24"				// pixels inside the image
 		"src_corner_width"	"24"

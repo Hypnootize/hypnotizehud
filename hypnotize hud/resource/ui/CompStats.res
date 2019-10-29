@@ -33,7 +33,7 @@
 		{
 			"ControlName"	"CPvPRankPanel"
 			"fieldName"		"RankPanel"
-			"xpos"			"3"
+			"xpos"			"9999" //3
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"200"
@@ -80,10 +80,6 @@
 			"paintborder"				"1"
 			"border_default"			"MaterialLightBG"
 			"border_armed"				"MaterialLightBG"
-			
-			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"		"Blank"
-			"depressedBgColor_override" "Blank"
 
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"Main Theme"
@@ -117,10 +113,6 @@
 			
 			"border_default"			"MaterialLightBG"
 			"border_armed"				"MaterialHypno"
-			
-			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"		"Blank"
-			"depressedBgColor_override" "Blank"
 
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"Main Theme"
@@ -249,10 +241,6 @@
 					
 					"border_default"			"MaterialLightBG"
 					"border_armed"				"MaterialHypno"
-					
-					"defaultBgColor_override"	"Blank"
-					"armedBgColor_override"		"Blank"
-					"depressedBgColor_override" "Blank"
 
 					"defaultFgColor_override"	"White"
 					"armedFgColor_override"		"White"
@@ -288,10 +276,6 @@
 					
 					"border_default"			"MaterialLightBG"
 					"border_armed"				"MaterialHypno"
-					
-					"defaultBgColor_override"	"Blank"
-					"armedBgColor_override"		"Blank"
-					"depressedBgColor_override" "Blank"
 
 					"defaultFgColor_override"	"White"
 					"armedFgColor_override"		"White"
@@ -327,10 +311,6 @@
 					
 					"border_default"			"MaterialLightBG"
 					"border_armed"				"MaterialHypno"
-					
-					"defaultBgColor_override"	"Blank"
-					"armedBgColor_override"		"Blank"
-					"depressedBgColor_override" "Blank"
 
 					"defaultFgColor_override"	"White"
 					"armedFgColor_override"		"White"
@@ -365,10 +345,6 @@
 					
 					"border_default"			"MaterialLightBG"
 					"border_armed"				"MaterialHypno"
-					
-					"defaultBgColor_override"	"Blank"
-					"armedBgColor_override"		"Blank"
-					"depressedBgColor_override" "Blank"
 
 					"defaultFgColor_override"	"White"
 					"armedFgColor_override"		"White"

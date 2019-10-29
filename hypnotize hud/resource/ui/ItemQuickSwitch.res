@@ -86,10 +86,9 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CurrentlyEquippedBackground"
-			"font"									"Yahud24"
-			"labelText"								"R"
+			"font"									"Symbols 20"
+			"labelText"								"J"
 			"textAlignment"							"center"
-			"textinsety"							"-11"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"100"

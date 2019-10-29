@@ -9,7 +9,6 @@ event HudHealthBonusPulse
 	Animate HealthBuff							Alpha 		"255"								Accel 	0.0 	0.0
 	
 	RunEvent HudHealthBonusPulseLoop			0.7
-	
 }
 
 event HudHealthBonusPulseLoop
@@ -61,7 +60,6 @@ event HudHealthDyingPulseStop
 
 event HudLowAmmoPulse
 {
-
 	Animate AmmoInClip 							FgColor 	"Low Ammo In Clip" 					Linear 	0.0 	0.075
 	Animate AmmoInClip 							FgColor 	"Low Ammo In Clip Pulse" 			Linear 	0.125 	0.075
 	
@@ -155,6 +153,27 @@ event HudTournamentSetupPanelClose
 {
 	Animate HudTournamentSetup					Position	"c-61 25"							Linear 	0.0 	0.001
 	Animate HudTournamentSetup					Position	"c-61 -50"							Spline 	0.001 	0.6
+}
+
+//====================================================================================================================
+
+event ActiveTimerHighlight
+{
+	Animate TimePanelValue 						FgColor		"180 255 180 255"					Linear 	0.1 	0.1
+	Animate TimePanelValue 						FgColor		"White"								Linear 	0.3 	0.1
+
+	Animate TimePanelValue						FgColor		"180 255 180 255"					Linear 	0.5 	0.1
+	Animate TimePanelValue 						FgColor		"White"								Linear 	0.7 	0.1
+
+	Animate TimePanelValue 						FgColor		"180 255 180 255"					Linear 	0.9 	0.1
+	Animate TimePanelValue 						FgColor		"White"								Linear 	1.1 	0.1
+
+	Animate TimePanelValue 						FgColor		"180 255 180 255"					Linear 	1.3 	0.3
+}
+
+event ActiveTimerDim
+{
+	Animate TimePanelValue 						FgColor		"White"								Linear 	0.0 	0.4
 }
 
 //====================================================================================================================

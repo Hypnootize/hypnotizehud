@@ -2512,10 +2512,6 @@
 		"border_default"	"MaterialLightBG"
 		"border_armed"		"MaterialHypno"
 		"paintbackground"	"0"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"

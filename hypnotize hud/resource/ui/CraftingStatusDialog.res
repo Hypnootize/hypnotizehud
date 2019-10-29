@@ -126,10 +126,6 @@
 		
 		"border_default"			"MaterialLightBG"
 		"border_armed"				"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"

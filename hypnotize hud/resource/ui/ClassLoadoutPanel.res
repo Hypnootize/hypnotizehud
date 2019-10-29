@@ -82,8 +82,8 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"Q"
-			"font"			"CustomIcons10"
+			"labelText"		"I"
+			"font"			"Symbols 12"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -121,7 +121,7 @@
 		"render_texture"	"0"
 		"fov"				"27"
 		"allow_manip"		"1"
-				
+		
 		"model"
 		{
 			"force_pos"	"1"
@@ -259,14 +259,6 @@
 		
 		"border_default"			"MaterialBlue"
 		"border_armed"				"MaterialBlue"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
-
-		"defaultFgColor_override"	"Blank"
-		"armedFgColor_override"		"Blank"
-		"depressedFgColor_override" "Blank"
 	} 
 
 	"RedButton"
@@ -297,14 +289,6 @@
 		
 		"border_default"			"MaterialRed"
 		"border_armed"				"MaterialRed"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
-
-		"defaultFgColor_override"	"Blank"
-		"armedFgColor_override"		"Blank"
-		"depressedFgColor_override" "Blank"
 	}
 
 	"CharacterLoadoutButton"
@@ -337,10 +321,6 @@
 		
 		"border_default"			"MaterialLightBG"
 		"border_armed"				"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
 
 		"defaultFgColor_override"	"Blank"
 		"armedFgColor_override"		"Blank"
@@ -384,10 +364,6 @@
 		
 		"border_default"			"MaterialLightBG"
 		"border_armed"				"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
 
 		"defaultFgColor_override"	"Blank"
 		"armedFgColor_override"		"Blank"

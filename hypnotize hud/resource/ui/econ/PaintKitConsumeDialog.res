@@ -27,14 +27,14 @@
 		"enabled"		"1"
 		"fgcolor_override" "White"
 		"proportionaltoparent"	"1"
-		"AllCaps"				"1"
+		"AllCaps"		"1"
 	}
 
 	"DescText"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"DescText"
-		"font"			"HudFontSmall"
+		"font"			"MenuKeys"
 		"labelText"		"#TF_UsePaintkit_Panel_Desc"
 		"textAlignment"	"north"
 		"xpos"			"cs-0.5"
@@ -46,7 +46,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "Main Theme"
 		"proportionaltoparent"	"1"
-		"AllCaps"	"1"
+		"AllCaps"		"1"
 	}
 
 	"BGPanel"
@@ -111,7 +111,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "White"
 			"proportionaltoparent"	"1"
-			"AllCaps"	"1"
+			"AllCaps"		"1"
 		}
 	}
 
@@ -253,10 +253,6 @@
 		
 		"border_default"			"MaterialLightBG"
 		"border_armed"				"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
@@ -296,10 +292,6 @@
 		
 		"border_default"			"MaterialLightBG"
 		"border_armed"				"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"

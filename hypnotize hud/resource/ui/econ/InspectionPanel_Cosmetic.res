@@ -79,10 +79,6 @@
 				
 				"border_default"			"MaterialLightBG"
 				"border_armed"				"MaterialHypno"
-				
-				"defaultBgColor_override"	"Blank"
-				"armedBgColor_override"		"Blank"
-				"depressedBgColor_override" "Blank"
 
 				"defaultFgColor_override"	"White"
 				"armedFgColor_override"		"White"
@@ -118,10 +114,6 @@
 				
 				"border_default"			"MaterialLightBG"
 				"border_armed"				"MaterialHypno"
-				
-				"defaultBgColor_override"	"Blank"
-				"armedBgColor_override"		"Blank"
-				"depressedBgColor_override" "Blank"
 
 				"defaultFgColor_override"	"White"
 				"armedFgColor_override"		"White"
@@ -160,10 +152,6 @@
 				
 				"border_default"			"MaterialLightBG"
 				"border_armed"				"MaterialHypno"
-				
-				"defaultBgColor_override"	"Blank"
-				"armedBgColor_override"		"Blank"
-				"depressedBgColor_override" "Blank"
 
 				"defaultFgColor_override"	"White"
 				"armedFgColor_override"		"White"
@@ -524,10 +512,6 @@
 					
 					"border_default"			"MaterialLightBG"
 					"border_armed"				"MaterialHypno"
-					
-					"defaultBgColor_override"	"Blank"
-					"armedBgColor_override"		"Blank"
-					"depressedBgColor_override" "Blank"
 
 					"defaultFgColor_override"	"White"
 					"armedFgColor_override"		"White"
@@ -849,10 +833,6 @@
 		
 		"border_default"			"MaterialLightBG"
 		"border_armed"				"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
@@ -887,10 +867,6 @@
 		
 		"border_default"			"MaterialLightBG"
 		"border_armed"				"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
@@ -947,10 +923,6 @@
 		
 		"border_default"			"MaterialLightBG"
 		"border_armed"				"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
@@ -987,10 +959,6 @@
 		
 		"border_default"			"MaterialLightBG"
 		"border_armed"				"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
@@ -1030,10 +998,6 @@
 		
 		"border_default"			"MaterialLightBG"
 		"border_armed"				"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
@@ -1089,10 +1053,6 @@
 		
 		"border_default"			"MaterialLightBG"
 		"border_armed"				"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
@@ -1289,10 +1249,9 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labeltext"									"X"
-		"font"										"ModPics18"
+		"labeltext"									"W"
+		"font"										"Symbols 16"
 		"textAlignment"								"center"
-		"textinsety"								"-7"
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"default"									"0"
@@ -1305,10 +1264,6 @@
 		
 		"border_default"			"MaterialLightBG"
 		"border_armed"				"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"

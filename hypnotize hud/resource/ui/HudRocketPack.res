@@ -43,8 +43,8 @@
 	
 	"ItemEffectIcon"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectIcon"
-		"xpos"			"9999"
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"ItemEffectIcon"
+		"xpos"										"9999"
 	}
 }

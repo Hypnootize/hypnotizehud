@@ -100,7 +100,7 @@
 				"ypos"			"rs1-5"
 				"zpos"			"100"
 				"wide"			"75"
-				"tall"			"15"
+				"tall"			"18"
 				"autoResize"	"0"
 				"pinCorner"		"3"
 				"visible"		"1"
@@ -133,10 +133,6 @@
 				
 				"border_default"			"MaterialRed"
 				"border_armed"				"MaterialHypno"
-				
-				"defaultBgColor_override"	"Blank"
-				"armedBgColor_override"		"Blank"
-				"depressedBgColor_override" "Blank"
 
 				"defaultFgColor_override"	"White"
 				"armedFgColor_override"		"White"
@@ -151,7 +147,7 @@
 				"ypos"			"rs1-5"
 				"wide"			"90"
 				"zpos"			"100"
-				"tall"			"15"
+				"tall"			"18"
 
 				if_expected
 				{
@@ -184,10 +180,6 @@
 				
 				"border_default"			"MaterialGreen"
 				"border_armed"				"MaterialHypno"
-				
-				"defaultBgColor_override"	"Blank"
-				"armedBgColor_override"		"Blank"
-				"depressedBgColor_override" "Blank"
 
 				"defaultFgColor_override"	"White"
 				"armedFgColor_override"		"White"
@@ -202,7 +194,7 @@
 				"ypos"			"rs1-5"
 				"wide"			"150"
 				"zpos"			"100"
-				"tall"			"15"
+				"tall"			"18"
 				
 				"autoResize"	"0"
 				"pinCorner"		"3"
@@ -229,10 +221,6 @@
 				
 				"border_default"			"MaterialGreen"
 				"border_armed"				"MaterialHypno"
-				
-				"defaultBgColor_override"	"Blank"
-				"armedBgColor_override"		"Blank"
-				"depressedBgColor_override" "Blank"
 
 				"defaultFgColor_override"	"White"
 				"armedFgColor_override"		"White"

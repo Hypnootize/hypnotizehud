@@ -378,10 +378,6 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"		"Blank"
-			"depressedBgColor_override"	"Blank"
-			
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
@@ -403,10 +399,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		"X"
-			"font"			"ModPics18"
+			"labeltext"		"W"
+			"font"			"Symbols 16"
 			"textAlignment"	"center"
-			"textinsety"	"-8"
+			"textinsety"	"0"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -418,10 +414,6 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"paintbackground"	"0"
-			
-			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"		"Blank"
-			"depressedBgColor_override"	"Blank"
 			
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
@@ -496,10 +488,6 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"		"Blank"
-			"depressedBgColor_override"	"Blank"
-			
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
@@ -521,10 +509,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		"X"
-			"font"			"ModPics18"
+			"labeltext"		"W"
+			"font"			"Symbols 16"
 			"textAlignment"	"center"
-			"textinsety"	"-8"
+			"textinsety"	"0"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -536,10 +524,6 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"paintbackground"	"0"
-			
-			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"		"Blank"
-			"depressedBgColor_override"	"Blank"
 			
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
@@ -614,10 +598,6 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"		"Blank"
-			"depressedBgColor_override"	"Blank"
-			
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
@@ -639,10 +619,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		"X"
-			"font"			"ModPics18"
+			"labeltext"		"W"
+			"font"			"Symbols 16"
 			"textAlignment"	"center"
-			"textinsety"	"-8"
+			"textinsety"	"0"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -654,10 +634,6 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"paintbackground"	"0"
-			
-			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"		"Blank"
-			"depressedBgColor_override"	"Blank"
 			
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
@@ -732,10 +708,6 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"		"Blank"
-			"depressedBgColor_override"	"Blank"
-			
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
@@ -757,10 +729,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		"X"
-			"font"			"ModPics18"
+			"labeltext"		"W"
+			"font"			"Symbols 16"
 			"textAlignment"	"center"
-			"textinsety"	"-8"
+			"textinsety"	"0"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -772,10 +744,6 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"paintbackground"	"0"
-			
-			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"		"Blank"
-			"depressedBgColor_override"	"Blank"
 			
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
@@ -890,10 +858,6 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"		"Blank"
-			"depressedBgColor_override"	"Blank"
-			
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
@@ -960,10 +924,6 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"paintbackground"	"0"
-			
-			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"		"Blank"
-			"depressedBgColor_override"	"Blank"
 			
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"

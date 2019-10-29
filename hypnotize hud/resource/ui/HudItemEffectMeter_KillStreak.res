@@ -21,17 +21,17 @@
 		"ypos"										"0"
 		"zpos"										"3"
 		"wide"										"20"
-		"tall"										"17"	
+		"tall"										"15"	
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labelText"									"<"
+		"labelText"									"]"
 		"AllCaps"									"1"
 		"textAlignment"								"west"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"Nexa24"
+		"font"										"Symbols 12"
 		"fgcolor"									"White"
 	}
 	
@@ -43,22 +43,20 @@
 		"ypos"										"-1"
 		"zpos"										"3"
 		"wide"										"20"
-		"tall"										"17"	
+		"tall"										"15"	
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labelText"									"<"
+		"labelText"									"]"
 		"AllCaps"									"1"
 		"textAlignment"								"west"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"Nexa24Blur"
+		"font"										"Symbols 12 Blur"
 		"fgcolor"									"Shadow"
 		
 		"pin_to_sibling" 							"Killstreaklabel"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"ItemEffectMeterCount"
@@ -103,8 +101,6 @@
 		"fgcolor"									"Shadow"
 		
 		"pin_to_sibling" 							"ItemEffectMeterCount"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	

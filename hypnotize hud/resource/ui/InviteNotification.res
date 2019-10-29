@@ -138,10 +138,6 @@
 		
 		"border_default"			"MaterialGreen"
 		"border_armed"				"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
@@ -189,10 +185,6 @@
 		
 		"border_default"			"MaterialRed"
 		"border_armed"				"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"

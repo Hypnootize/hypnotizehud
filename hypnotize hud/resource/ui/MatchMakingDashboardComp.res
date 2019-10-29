@@ -18,11 +18,11 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"BackgroundCustom"
-		"xpos"					"7"
-		"ypos"					"66"
+		"xpos"					"9"
+		"ypos"					"54"
 		"zpos"					"1"
-		"wide"					"255"
-		"tall"					"312"
+		"wide"					"253"
+		"tall"					"315"
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"0"
@@ -96,7 +96,7 @@
 	{
 		"fieldName"		"stats"
 		"xpos"			"5"
-		"ypos"			"49"
+		"ypos"			"40"
 		"zpos"			"100"
 		"wide"			"305"
 		"tall"			"f80"
@@ -155,10 +155,6 @@
 		
 		"border_default"			"MaterialLightBG"
 		"border_armed"				"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"

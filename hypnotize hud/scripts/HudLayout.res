@@ -1,5 +1,6 @@
 #base "HudLayout_Base.res"
-#base "../scripts/Crosshairs/crosshairs.res"
+#base "../customizations/Crosshairs.res"
+#base "../customizations/HitMarkers.res"
 
 "Resource/HudLayout.res"
 {	
@@ -239,10 +240,8 @@
 		"PaintBackgroundType"						"2"
 		
 		"pin_to_sibling"							"BuildingAnchor"
-		"pin_corner_to_sibling"						"PIN_CENTERTOP"
-		"pin_to_sibling_corner"						"PIN_CENTERTOP"
 	}
-		
+	
 	HudRoundTimerHudRoundTimer
 	{
 		"fieldName" 								"HudRoundTimer"

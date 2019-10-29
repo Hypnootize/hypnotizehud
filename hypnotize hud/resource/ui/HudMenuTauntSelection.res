@@ -153,8 +153,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling" 							"NumberBG1"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 
 	"TauntModelPanel2"
@@ -232,8 +230,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling" 							"NumberBG2"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 
 	"TauntModelPanel3"
@@ -311,8 +307,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling" 							"NumberBG3"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 
 	"TauntModelPanel4"
@@ -390,8 +384,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling" 							"NumberBG4"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 
 	"TauntModelPanel5"
@@ -469,8 +461,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling" 							"NumberBG5"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 
 	"TauntModelPanel6"
@@ -548,8 +538,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling" 							"NumberBG6"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 
 	"TauntModelPanel7"
@@ -627,8 +615,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling" 							"NumberBG7"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 
 	"TauntModelPanel8"
@@ -706,8 +692,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling" 							"NumberBG8"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	

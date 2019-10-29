@@ -65,8 +65,6 @@
 			"AllCaps"								"1"
 			
 			"pin_to_sibling" 						"BlueScoreBG"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
 		}
 		
 		"BlueTeamScore"
@@ -135,8 +133,6 @@
 			"enabled"								"1"
 			
 			"pin_to_sibling" 						"RedScoreBG"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
 		}
 		
 		"ArenaStreakLabel"
@@ -195,8 +191,6 @@
 		"AllCaps"									"1"
 		
 		"pin_to_sibling" 							"ShadedBar"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"ClassPlayedLabel"
@@ -220,8 +214,6 @@
 		"AllCaps"									"1"
 		
 		"pin_to_sibling" 							"ShadedBar"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"DamageThisRoundLabel"
@@ -245,8 +237,6 @@
 		"AllCaps"									"1"
 		
 		"pin_to_sibling" 							"ShadedBar"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"HealingThisRoundLabel"
@@ -270,8 +260,6 @@
 		"AllCaps"									"1"
 		
 		"pin_to_sibling" 							"ShadedBar"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"LifetimeThisRoundLabel"
@@ -295,8 +283,6 @@
 		"AllCaps"									"1"
 		
 		"pin_to_sibling" 							"ShadedBar"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"KillingBlowsThisRoundLabel"
@@ -320,8 +306,6 @@
 		"AllCaps"									"1"
 		
 		"pin_to_sibling" 							"ShadedBar"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"ArenaWinPanelWinnersPanel"
@@ -336,8 +320,6 @@
 		"zpos"										"3"
 		
 		"pin_to_sibling" 							"ShadedBar"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 
 		"Player1Avatar"
 		{
@@ -715,8 +697,6 @@
 		"zpos"										"3"
 		
 		"pin_to_sibling" 							"ShadedBar"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 
 		"Player1Avatar"
 		{

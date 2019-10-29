@@ -33,8 +33,6 @@
 		"fgcolor"									"White"
 		
 		"pin_to_sibling" 							"BlueScoreBG"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"RedScoreBG"
@@ -70,8 +68,6 @@
 		"fgcolor"									"White"	
 
 		"pin_to_sibling" 							"RedScoreBG"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"		
 	}	
 		
 	"PlayingTo"

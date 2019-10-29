@@ -44,9 +44,9 @@
 		"enabled"									"1"
 		"image"										"../hud/color_panel_brown"
 		"scaleImage"								"1"
-		"teambg_1"									"replay/thumbnails/Material_Transparent"
-		"teambg_2"									"replay/thumbnails/Material_Transparent_Red"
-		"teambg_3"									"replay/thumbnails/Material_Transparent_Blue"
+		"teambg_1"									"replay/thumbnails/panels/Material_Transparent"
+		"teambg_2"									"replay/thumbnails/panels/Material_Transparent_Red"
+		"teambg_3"									"replay/thumbnails/panels/Material_Transparent_Blue"
 		
 		"src_corner_height"							"24"
 		"src_corner_width"							"24"
@@ -55,9 +55,9 @@
 		
 		if_mvm
 		{
-			"teambg_1"								"replay/thumbnails/Material_Transparent"
-			"teambg_2"								"replay/thumbnails/Material_Red"
-			"teambg_3"								"replay/thumbnails/Material_Blue"
+			"teambg_1"								"replay/thumbnails/panels/Material_Transparent"
+			"teambg_2"								"replay/thumbnails/panels/Material_Red"
+			"teambg_3"								"replay/thumbnails/panels/Material_Blue"
 		}
 	}
 

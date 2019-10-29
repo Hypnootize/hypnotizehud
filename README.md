@@ -25,36 +25,23 @@
 
 **NOTES:**
 
-If you are using a **4:3 or 16:10** aspect ration replace the all the files you find inside the "4x3 & 16x10 Overrides" folder over the normal hud files.
+If you are using a **4:3 or 16:10** aspect ration replace the all the files you find inside the (customizations/4x3 5x4 16x10 Overrides) folder over the normal hud files.
 
-I suggest using **"tf_hud_target_id_disable_floating_health" "1"** since the floating version is not as consistan and can have problems.
+I also suggest using **"tf_hud_target_id_disable_floating_health" "1"** since the floating version is not as consistan and can have problems.
 
 
 <a>CUSTOMIZATION</a>
 ====
 
-My hud supports different customizations, it is possible to easily replace stuff like fonts, scoreboard and health style for example.
+My hud supports different customizations, it is possible to easily edit stuff like scoreboard, health styles, fonts and match status!
 
-All the customizations can be found inside the Customization folder and from there all you need to do is:
+All the customizations can be found inside the Customizations folder and from there all you need to do is:
 
-**1)** Choose which customization you want to apply and open the dedicated folder (each folder has a screen of the customization as well)
+**1)** Choose which customization you want to apply and open the dedicated file
 
-**2)** Copy all the folders found inside (usually resource & scripts)
+**2)** Inside the file uncomment (by removing the // before the #base) the line of the customization you want to apply
 
-**3)** Paste and replace them over the normal hypnotize hud files!
-
-**Other than that is also possible to easily change the colors by editing the resource/scheme/colors file**
-
-Inside the colors.res file is possible to change all the colors used for the health/ammo/buff/hurt/uber and many more as well as all the colors used for the menu!
-
-
-<a>CROSSHAIRS</a>
-====
-All the hud crosshairs can be found inside the scripts/crosshairs folder!
-
-It is possible to enable them from the crosshairs.res file by setting **"visible" "1"** for the wanted crosshair.
-
-It is also possible to easily animate them so the crosshair turns red on damage by editing the CrosshairsAnimations file, you can find all the instructions inside the file!
+**Other than that is also possible to easily change the colors by editing the colors.res file and enable crosshairs and hitmarkers!**
 
 
 <a>CREDITS</a>

@@ -41,8 +41,6 @@
 		"labeltext"									"%Health%"
 		
 		"pin_to_sibling" 							"PlayerStatusHealthValueSpec"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"HealthBG"
@@ -69,8 +67,6 @@
 		"scaleImage"								"1"
 		
 		"pin_to_sibling" 							"PlayerStatusHealthValueSpec"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"HealthBuff"
@@ -95,8 +91,6 @@
 		"scaleImage"								"1"
 		
 		"pin_to_sibling" 							"HealthBG"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"HealthHurt"
@@ -121,8 +115,6 @@
 		"scaleImage"								"1"
 		
 		"pin_to_sibling" 							"HealthBG"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	

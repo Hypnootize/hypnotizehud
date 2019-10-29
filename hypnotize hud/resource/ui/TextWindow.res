@@ -54,12 +54,10 @@
 		"AllCaps"									"1"
 		"dulltext"									"0"
 		"brighttext"								"1"
-		"font"										"GameFont14"
+		"font"										"HudFontSmallBold"
 		"fgcolor_override"							"White"
 		
 		"pin_to_sibling" 							"TitleFrame"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"Background"
@@ -103,8 +101,6 @@
 		"AllCaps"									"1"
 		
 		"pin_to_sibling" 							"Background"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 
 	"HTMLMessage"
@@ -124,8 +120,6 @@
 		"paintborder"	 							"0"
 		
 		"pin_to_sibling" 							"Background"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"ok"
@@ -150,7 +144,7 @@
 		"wrap"										"0"
 		"command"									"okay"
 		"default"									"1"
-		"font"										"GameFont14"
+		"font"										"HudFontSmallBold"
 		
 		"paintbackground"							"0"
 		

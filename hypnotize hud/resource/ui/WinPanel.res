@@ -66,8 +66,6 @@
 			"AllCaps"								"1"
 			
 			"pin_to_sibling" 						"BlueScoreBG2"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
 		}
 		
 		"BlueTeamScore"
@@ -136,8 +134,6 @@
 			"enabled"								"1"
 			
 			"pin_to_sibling" 						"RedScoreBG2"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
 		}
 		
 		"BlueScoreBG"
@@ -237,8 +233,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling" 							"ShadedBar"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"Player1Class"
@@ -259,8 +253,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling" 							"ShadedBar"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"Player1Score"
@@ -307,8 +299,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling" 							"ShadedBar"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"Player2Class"
@@ -331,8 +321,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling" 							"ShadedBar"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"Player2Score"
@@ -379,8 +367,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling" 							"ShadedBar"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"Player3Class"
@@ -403,8 +389,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling" 							"ShadedBar"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"Player3Score"

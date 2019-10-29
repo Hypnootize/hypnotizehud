@@ -39,7 +39,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/Material_Blue"
+		"image"			"replay/thumbnails/panels/Material_Blue"
 		
 		"src_corner_height"	"24"				// pixels inside the image
 		"src_corner_width"	"24"

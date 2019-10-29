@@ -40,12 +40,12 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"ReturnButton"
 		"xpos"			"3"
-		"labelText"		"<"
+		"labelText"		"]"
 
 		if_left
 		{
 			"xpos"	"rs1-3"
-			"labelText"		">"
+			"labelText"		"H"
 		}
 
 		"ypos"			"0"
@@ -55,10 +55,10 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_to"
-		"labelText"		"<"
+		"labelText"		"]"
 
 		"textAlignment"	"west"
-		"font"			"HudFontSmallBold"
+		"font"			"Symbols 18"
 
 		"armedBgColor_override"	"Blank"
 		"defaultBgColor_override"	"Blank"

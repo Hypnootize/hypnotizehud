@@ -96,7 +96,7 @@
 				"pinCorner"							"0"
 				"visible"							"0"
 				"enabled"							"1"
-				"image"								"replay/thumbnails/material_transparent"
+				"image"								"replay/thumbnails/panels/material_transparent"
 
 				"src_corner_height"					"32"
 				"src_corner_width"					"32"
@@ -220,24 +220,24 @@
 	{	
 		"ControlName"								"Label"
 		"fieldName"									"TournamentBLUEStateLabel"
-		"font"										"Yahud32"
+		"font"										"ReadyUp 26"
 		"fgcolor_override" 							"White"
-		"xpos"										"-12"
-		"ypos"										"19"
+		"xpos"										"0"
+		"ypos"										"7"
 		"zpos"										"2"
-		"wide"										"40"
-		"tall"										"42"
+		"wide"										"26"
+		"tall"										"26"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"0"
 		"labelText"									"%bluestate%"
-		"textAlignment"								"center"
+		"textAlignment"								"west"
 		
 		"pin_to_sibling" 							"HudTournamentBLUEBG"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 		
 		if_competitive
 		{
@@ -257,24 +257,22 @@
 	{	
 		"ControlName"								"Label"
 		"fieldName"									"TournamentBLUEStateLabelShadow"
-		"font"										"Yahud32Blur"
+		"font"										"ReadyUp 26 Blur"
 		"fgcolor_override" 							"Shadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"2"
-		"wide"										"40"
-		"tall"										"42"
+		"wide"										"26"
+		"tall"										"26"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"0"
 		"labelText"									"%bluestate%"
-		"textAlignment"								"center"
+		"textAlignment"								"west"
 		
 		"pin_to_sibling" 							"TournamentBLUEStateLabel"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 		
 		if_competitive
 		{
@@ -294,24 +292,24 @@
 	{	
 		"ControlName"								"Label"
 		"fieldName"									"TournamentREDStateLabel"
-		"font"										"Yahud32"
+		"font"										"ReadyUp 26"
 		"fgcolor_override" 							"White"
-		"xpos"										"-12"
-		"ypos"										"19"
+		"xpos"										"0"
+		"ypos"										"7"
 		"zpos"										"2"
-		"wide"										"40"
-		"tall"										"42"
+		"wide"										"26"
+		"tall"										"26"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"0"
 		"labelText"									"%redstate%"
-		"textAlignment"								"center"
+		"textAlignment"								"west"
 		
 		"pin_to_sibling" 							"HudTournamentREDBG"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 		
 		if_competitive
 		{
@@ -331,24 +329,22 @@
 	{	
 		"ControlName"								"Label"
 		"fieldName"									"TournamentREDStateLabelShadow"
-		"font"										"Yahud32Blur"
+		"font"										"ReadyUp 26 Blur"
 		"fgcolor_override" 							"Shadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"2"
-		"wide"										"40"
-		"tall"										"42"
+		"wide"										"26"
+		"tall"										"26"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"0"
 		"labelText"									"%redstate%"
-		"textAlignment"								"center"
+		"textAlignment"								"west"
 		
 		"pin_to_sibling" 							"TournamentREDStateLabel"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 		
 		if_competitive
 		{

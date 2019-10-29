@@ -13,7 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/Material_Transparent"
+		"image"			"replay/thumbnails/panels/Material_Transparent"
 
 		"src_corner_height"	"24"				// pixels inside the image
 		"src_corner_width"	"24"
@@ -100,7 +100,7 @@
 		"tall"			"17"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/Material_Blue"
+		"image"			"replay/thumbnails/panels/Material_Blue"
 		
 		"src_corner_height"	"24"				// pixels inside the image
 		"src_corner_width"	"24"
@@ -121,7 +121,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/material_transparent"
+		"image"			"replay/thumbnails/panels/material_transparent"
 		
 		"src_corner_height"	"24"				// pixels inside the image
 		"src_corner_width"	"24"

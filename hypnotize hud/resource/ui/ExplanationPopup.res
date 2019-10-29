@@ -123,10 +123,6 @@
 		
 		"border_default"			"MaterialLightBG"
 		"border_armed"				"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
@@ -170,7 +166,7 @@
 		"Command"		"nextexplanation"
 		"proportionaltoparent"	"1"
 		"skip_autoresize"	"1"
-			
+		
 		"paintbackground"			"0"
 		
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -178,10 +174,6 @@
 		
 		"border_default"			"MaterialLightBG"
 		"border_armed"				"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"

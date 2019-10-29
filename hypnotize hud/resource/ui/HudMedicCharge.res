@@ -44,7 +44,6 @@
 		"bgcolor_override"							"Blank"
 		
 		"pin_to_sibling" 							"ChargeMeterBG"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 	}
 	
 	"ChargeLabel"
@@ -71,7 +70,6 @@
 		"fgcolor"   								"White"
 		
 		"pin_to_sibling" 							"ChargeMeterBG"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 	}
 
 	"ResistIconAnchor"
@@ -129,7 +127,6 @@
 		"bgcolor_override"							"TransparentLightBlack"
 		
 		"pin_to_sibling" 							"ChargeMeter"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 	}
 
 	"ChargeMeter2"

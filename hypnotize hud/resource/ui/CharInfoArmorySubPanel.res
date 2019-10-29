@@ -237,8 +237,6 @@
 		"resize_to_text" 		"1"
 		
 		"pin_to_sibling" 		"RightBackground"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
 		
 		"itemmodelpanel"
 		{
@@ -263,8 +261,6 @@
 		"PaintBorder"			"0"
 		
 		"pin_to_sibling" 		"RightBackground"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
 
 		"Data_TextRichText"
 		{

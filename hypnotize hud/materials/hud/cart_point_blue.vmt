@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui\replay\thumbnails\bg_blank"
+	"$baseTexture" "vgui\replay\thumbnails\panels\bg_blank"
 	"$translucent" 1
 	"$alpha" 1
 	"$vertexalpha" "1"

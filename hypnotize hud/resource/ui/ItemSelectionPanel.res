@@ -121,7 +121,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"NameFilterBG"
-		"font"					"ModPics18"
+		"font"					"Symbols 16"
 		"xpos"					"20"
 		"ypos"					"5"
 		"zpos"					"0"
@@ -133,15 +133,12 @@
 		"pinCorner"				"0"
 		"textAlignment"			"west"
 		"textinsetx"			"11"
-		"textinsety"			"-8"
-		"labeltext"				"s"
+		"labeltext"				"Q"
 		"fgcolor_override"		"White"
 		
 		"border"				"MaterialLightBG"
 		
 		"pin_to_sibling" 		"NameFilterTextEntry"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	
 	"PrevPageButton"
@@ -168,10 +165,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"paintbackground"	"0"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override"	"Blank"
 		
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
@@ -229,10 +222,6 @@
 		
 		"paintbackground"	"0"
 		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override"	"Blank"
-		
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
@@ -275,10 +264,6 @@
 		
 		"border_default"	"MaterialLightBG"
 		"border_armed"		"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
@@ -315,10 +300,6 @@
 		
 		"border_default"	"MaterialLightBG"
 		"border_armed"		"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
@@ -354,10 +335,6 @@
 		
 		"border_default"			"MaterialLightBG"
 		"border_armed"				"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"

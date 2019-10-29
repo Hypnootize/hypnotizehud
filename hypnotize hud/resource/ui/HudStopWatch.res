@@ -64,8 +64,6 @@
 		"AllCaps"				"1"
 		
 		"pin_to_sibling" 		"HudStopWatchBG"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	
 	"StopWatchPointsLabel"
@@ -89,8 +87,6 @@
 		"AllCaps"				"1"
 		
 		"pin_to_sibling" 		"HudStopWatchBG"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
 	"StopWatchLabel"
@@ -114,8 +110,6 @@
 		"AllCaps"				"1"
 		
 		"pin_to_sibling" 		"HudStopWatchBG"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	
 	

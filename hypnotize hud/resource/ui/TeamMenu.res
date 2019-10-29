@@ -65,13 +65,11 @@
 		"AllCaps"									"1"
 		"dulltext"									"0"
 		"brighttext"								"1"
-		"font"										"GameFont14"
+		"font"										"HudFontSmallBold"
 		"fgcolor"									"White"
 		"fgcolor_override"							"White"
 		
 		"pin_to_sibling" 							"MapFrame"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"BlueFrame"
@@ -94,8 +92,6 @@
 		"border"									"MaterialBlue"
 		
 		"pin_to_sibling" 							"TeamsAnchor"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"Blue"
@@ -113,7 +109,7 @@
 		"enabled"		  							"1"
 		"labelText"		  							"Blue"
 		"textAlignment"	  							"east"
-		"font"			  							"GameFont18"
+		"font"			  							"HudFontMediumSmallBold"
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling" 							"BlueFrame"
@@ -136,12 +132,10 @@
 		"enabled"		  							"1"
 		"labelText"		  							"%bluecount%"
 		"textAlignment"	  							"center"
-		"font"			  							"GameFont30"
+		"font"			  							"HudFontMediumBigBold"
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling" 							"BlueFrame"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"teambutton0"									//TEAMBLUE
@@ -170,8 +164,6 @@
 		"fgcolor"		  							"Blank"
 		
 		"pin_to_sibling" 							"BlueFrame"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"RedFrame"
@@ -213,12 +205,10 @@
 		"enabled"		  							"1"
 		"labelText"		  							"Red"
 		"textAlignment"	  							"west"
-		"font"			  							"GameFont18"
+		"font"			  							"HudFontMediumSmallBold"
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling" 							"RedFrame"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}	
 	
 	"RedCount"
@@ -234,7 +224,7 @@
 		"enabled"		  							"1"
 		"labelText"		  							"%redcount%"
 		"textAlignment"	  							"center"
-		"font"			  							"GameFont30"
+		"font"			  							"HudFontMediumBigBold"
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling" 							"RedFrame"
@@ -269,8 +259,6 @@
 		"fgcolor"		  							"Blank"
 		
 		"pin_to_sibling" 							"RedFrame"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"RandomFrame"
@@ -311,12 +299,10 @@
 		"labelText"		  							"Random"
 		"AllCaps"		  							"1"
 		"textAlignment"	  							"west"
-		"font"			  							"GameFont14"
+		"font"			  							"HudFontSmallBold"
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling" 							"RandomFrame"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"teambutton2"									//TEAMRANDOM
@@ -345,8 +331,6 @@
 		"fgcolor"		  							"Blank"
 		
 		"pin_to_sibling" 							"RandomFrame"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"SpectateFrame"
@@ -370,8 +354,6 @@
 		"border"									"MaterialTransparentDark"
 		
 		"pin_to_sibling" 							"RedFrame"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"Spectate"
@@ -388,12 +370,10 @@
 		"labelText"		  							"Spectate"
 		"AllCaps"		  							"1"
 		"textAlignment"  							"east"
-		"font"			  							"GameFont14"
+		"font"			  							"HudFontSmallBold"
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling" 							"SpectateFrame"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"teambutton3"									//TEAMSPEC
@@ -421,8 +401,6 @@
 		"fgcolor"		  							"Blank"
 		
 		"pin_to_sibling" 							"SpectateFrame"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	

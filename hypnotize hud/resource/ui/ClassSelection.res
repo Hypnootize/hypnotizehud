@@ -53,12 +53,10 @@
 		"AllCaps"									"1"
 		"dulltext"									"0"
 		"brighttext"								"1"
-		"font"										"GameFont14"
+		"font"										"HudFontSmallBold"
 		"fgcolor_override"							"White"
 		
 		"pin_to_sibling" 							"ClassSelectFrame"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"ClassesAnchor"									//////MOVES THE WHOLE CLASS LIST THROUGH PINNING (no model)
@@ -427,8 +425,6 @@
 		"keyboardinputenabled"		"0"
 		
 		"pin_to_sibling" 		"ClassesAnchor"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	
 	"engineer"

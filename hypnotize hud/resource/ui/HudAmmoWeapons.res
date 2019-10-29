@@ -40,8 +40,6 @@
 		"labelText"									"%Ammo%"
 		
 		"pin_to_sibling" 							"AmmoInClip"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}	
 	
 	"AmmoInReserve"
@@ -82,8 +80,6 @@
 		"labelText"									"%AmmoInReserve%"
 		
 		"pin_to_sibling" 							"AmmoInReserve"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}	
 	
 	"AmmoNoClip"
@@ -126,8 +122,6 @@
 		"labelText"									"%Ammo%"
 		
 		"pin_to_sibling" 							"AmmoNoClip"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	

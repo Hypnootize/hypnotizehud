@@ -18,7 +18,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemName"
-		"font"										"Emblems24"
+		"font"										"Class Symbols 26"
 		"xpos"										"18"
 		"ypos"										"0"
 		"zpos"										"2"
@@ -28,7 +28,7 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"labelText"									"A"
+		"labelText"									"1"
 		"textAlignment"								"Center"
 		"dulltext"									"0"
 		"brighttext"								"0"

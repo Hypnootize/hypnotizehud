@@ -5,6 +5,6 @@
 	HudItemEffectMeter
 	{
 		"ypos"										"c108"
-		"ypos_minmode"								"312"
+		"ypos_minmode"								"c72"
 	}
 }

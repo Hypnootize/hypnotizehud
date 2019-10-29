@@ -199,7 +199,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"NameFilterBG"
-		"font"					"ModPics18"
+		"font"					"Symbols 16"
 		"xpos"					"20"
 		"ypos"					"4"
 		"zpos"					"0"
@@ -211,15 +211,12 @@
 		"pinCorner"				"0"
 		"textAlignment"			"west"
 		"textinsetx"			"11"
-		"textinsety"			"-8"
-		"labeltext"				"s"
+		"labeltext"				"Q"
 		"fgcolor_override"		"White"
 		
 		"border"				"MaterialLightBG"
 		
 		"pin_to_sibling" 		"NameFilterTextEntry"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	
 	"SubcategoryFilterComboBox"
@@ -277,8 +274,6 @@
 		"border"				"MaterialLightBG"
 		
 		"pin_to_sibling" 		"SubcategoryFilterComboBox"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	
 	"SortFilterComboBox"
@@ -336,8 +331,6 @@
 		"border"				"MaterialLightBG"
 		
 		"pin_to_sibling" 		"SortFilterComboBox"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	
 	"mouseoveritempanel"
