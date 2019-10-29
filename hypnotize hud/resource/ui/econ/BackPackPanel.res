@@ -217,7 +217,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"NameFilterBG"
-		"font"					"ModPics18"
+		"font"					"Symbols 16"
 		"xpos"					"20"
 		"ypos"					"5"
 		"zpos"					"0"
@@ -229,22 +229,19 @@
 		"pinCorner"				"0"
 		"textAlignment"			"west"
 		"textinsetx"			"11"
-		"textinsety"			"-8"
-		"labeltext"				"s"
+		"labeltext"				"Q"
 		"fgcolor_override"		"White"
 		
 		"border"				"MaterialLightBG"
 		
 		"pin_to_sibling" 		"NameFilterTextEntry"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	
 	"PrevPageButton"
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"PrevPageButton"
-		"xpos"				"6"
+		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"24"
@@ -265,10 +262,6 @@
 		
 		"paintbackground"	"0"
 		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override"	"Blank"
-		
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
@@ -288,10 +281,10 @@
 		"font"				"HudFontMediumSmallBold"
 		"labelText"			"%backpackpage%"
 		"textAlignment"		"center"
-		"xpos"				"c-159"
+		"xpos"				"c-168"
 		"ypos"				"24"
 		"zpos"				"1"
-		"wide"				"40"
+		"wide"				"60"
 		"tall"				"24"
 		"autoResize"		"1"
 		"pinCorner"			"0"
@@ -304,7 +297,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"NextPageButton"
-		"xpos"				"6"
+		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"24"
@@ -324,10 +317,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"paintbackground"	"0"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override"	"Blank"
 		
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
@@ -397,8 +386,6 @@
 		"border"				"MaterialLightBG"
 		
 		"pin_to_sibling" 		"ShowRarityComboBox"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	
 	"SortByComboBox"
@@ -456,8 +443,6 @@
 		"border"				"MaterialLightBG"
 		
 		"pin_to_sibling" 		"SortByComboBox"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	
 	"mouseoveritempanel"
