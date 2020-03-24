@@ -4,13 +4,13 @@
 	{
 		"ControlName"           					"EditablePanel"
 		"fieldName"	            					"HudPlayerHealth"
-		"xpos"		               					"c-230"
-		"xpos_minmode"		               			"c-170"
-		"ypos"		               					"c35"
-		"ypos_minmode"		               			"c-10"
+		"xpos"		               					"0"
+		"xpos_minmode"		               			"0"
+		"ypos"		               					"0"
+		"ypos_minmode"		               			"0"
 		"zpos"		               					"2"
-		"wide"		              					"170"
-		"tall"			           				 	"150"
+		"wide"		              					"f0"
+		"tall"			           				 	"480"
 		"visible"	              					"1"
 		"enabled"		           					"1"	
 		"HealthBonusPosAdj"     					"35"
@@ -18,16 +18,31 @@
 		"HealthDeathWarningColor"					"HUDDeathWarning"
 	}
 	
+	"HEALTHAnchor"									//Moves the health
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"HEALTHAnchor"
+		"xpos"										"c-135"
+		"xpos_minmode"								"c-95"
+		"ypos"										"c85"
+		"ypos_minmode"								"c40"
+		"zpos"										"0"
+		"wide"										"2"
+		"tall"										"50"
+		"visible"									"0"
+		"enabled"									"1"
+	}
+	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	           				 	"CExLabel"
 		"fieldName"	  	         				 	"PlayerStatusHealthValue"
-		"xpos"		    	         				"20"
+		"xpos"		    	         				"0"
 		"xpos_minmode"		    	         		"0"
 		"ypos"		    	         				"0"	
 		"zpos"		    	         				"5"
 		"wide"		    	         				"150"
-		"tall"		    	         				"150"
+		"tall"		    	         				"50"
 		"visible"		  	         				"1"
 		"enabled"	  		         				"1"
 		"labelText" 		         				"%Health%"
@@ -35,6 +50,10 @@
 		"font"                   				 	"GameFont44"
 		"font_minmode"                   			"GameFont32"
 		"fgcolor"	    	         				"Health Numbers"
+		
+		"pin_to_sibling"							"HealthAnchor"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	
 	"PlayerStatusHealthValueShadow"
@@ -46,8 +65,8 @@
 		"zpos"	    		         				"5"
 		"wide"		    	         				"150"
 		"wide_minmode"		    	         		"149"
-		"tall"		    	         				"150"
-		"tall_minmode"		    	         		"149"
+		"tall"		    	         				"50"
+		"tall_minmode"		    	         		"49"
 		"visible"	    	         				"1"
 		"enabled"	    	         				"1"
 		"labelText"	  	         				 	"%Health%"
@@ -59,38 +78,14 @@
 		"pin_to_sibling" 							"PlayerStatusHealthValue"
 	}
 	
-	"HealthBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"HealthBG"
-		"xpos"										"-29"
-		"xpos_minmode"								"-40"
-		"ypos"										"-54"
-		"ypos_minmode"								"-58"
-		"zpos"										"1"
-		"wide"										"0"
-		"wide_minmode"								"0"
-		"tall"	 									"0"
-		"tall_minmode"	 							"0"
-		"autoResize"								"0"
-		"paintbackground"							"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"alpha"										"255"
-		
-		"border"									"HealthBorder"
-		"scaleImage"								"1"
-		
-		"pin_to_sibling" 							"PlayerStatusHealthValue"
-	}
-	
 	"HealthBuff"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HealthBuff"
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"-29"
+		"xpos_minmode"								"-40"
+		"ypos"										"-4"
+		"ypos_minmode"								"-8"
 		"zpos"										"1"
 		"wide"										"90"
 		"wide_minmode"								"70"
@@ -106,15 +101,17 @@
 		"border"									"BuffedBorder"
 		"scaleImage"								"1"
 		
-		"pin_to_sibling" 							"HealthBG"
+		"pin_to_sibling" 							"PlayerStatusHealthValue"
 	}
 	
 	"HealthHurt"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HealthHurt"
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"-29"
+		"xpos_minmode"								"-40"
+		"ypos"										"-4"
+		"ypos_minmode"								"-8"
 		"zpos"										"1"
 		"wide"										"90"
 		"wide_minmode"								"70"
@@ -130,21 +127,25 @@
 		"border"									"HurtBorder"
 		"scaleImage"								"1"
 		
-		"pin_to_sibling" 							"HealthBG"
+		"pin_to_sibling" 							"PlayerStatusHealthValue"
 	}
 	
 	"PlayerStatusAnchor"
 	{
 		"ControlName"				         		"EditablePanel"
 		"fieldName"				         			"PlayerStatusAnchor"
-		"xpos"					         			"0"
-		"xpos_minmode"					         	"-12"
-		"ypos"					         			"60"
-		"ypos_minmode"					         	"67"
+		"xpos"					         			"-5"
+		"xpos_minmode"					         	"-10"
+		"ypos"					         			"-11"
+		"ypos_minmode"					         	"-16"
 		"wide"					         			"30"
 		"tall"					         			"30"
 		"visible"				         			"1"
 		"enabled"				         			"1"
+		
+		"pin_to_sibling"							"PlayerStatusHealthValue"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"PlayerStatusBleedImage"

@@ -1,12 +1,26 @@
 "Resource/UI/HudMedicCharge.res"
 {	
+	"UBERAnchor"									//Moves the uber bar
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"UBERAnchor"
+		"xpos"										"c-55"
+		"ypos"										"r142"
+		"ypos_minmode"								"r186"
+		"zpos"										"1"
+		"wide"										"1"
+		"tall"										"1"
+		"visible"									"0"
+		"enabled"									"1"
+	}
+	
 	"ChargeMeterBG"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ChargeMeterBG"
-		"xpos"										"c-55"
-		"ypos"										"r142"
-		"ypos_minmode"								"r186"
+		"xpos"										"0"
+		"ypos"										"0"
+		"ypos_minmode"								"0"
 		"zpos"										"1"
 		"wide"										"110"
 		"tall"										"22"
@@ -16,9 +30,9 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"alpha"										"125"
-		
 		"border"									"MaterialTransparent"
-		"scaleImage"								"1"
+		
+		"pin_to_sibling" 							"UBERAnchor"
 	}
 	
 	"ChargeMeter"
@@ -100,9 +114,8 @@
 		"enabled"									"1"
 		"image"										"../HUD/defense_buff_bullet_blue"
 		"scaleImage"								"1"
+		
 		"pin_to_sibling"							"ResistIconAnchor"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
 	}
 	
 	"ChargeMeter1"
