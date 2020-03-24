@@ -505,7 +505,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labeltext"				"W"
+		"labeltext"				"1"
 		"font"					"Symbols 16"
 		"textAlignment"			"center"
 		"dulltext"				"0"

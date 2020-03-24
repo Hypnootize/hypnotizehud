@@ -82,7 +82,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"I"
+			"labelText"		")"
 			"font"			"Symbols 12"
 			"textAlignment"	"center"
 			"dulltext"		"0"

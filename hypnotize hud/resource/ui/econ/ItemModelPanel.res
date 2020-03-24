@@ -132,7 +132,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"J"
+			"labelText"		"0"
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
 			"paintbackground"	"0"

@@ -48,25 +48,25 @@
 	
 	"Vote"
 	{
-		"label"										"J"
+		"label"										"0"
 		"command"									"callvote"
 		"OnlyInGame" 								"1"
 	}
 	"Mute"
 	{
-		"label"										">"
+		"label"										"k"
 		"command"									"OpenPlayerListDialog"
 		"OnlyInGame" 								"1"
 	}
 	"Report"
 	{
-		"label"										"!"
+		"label"										","
 		"command"									"OpenReportPlayerDialog"
 		"OnlyInGame"								"1"
 	}
 	"Achievements"
 	{
-		"label"										"w"
+		"label"										"K"
 		"command"									"OpenAchievementsDialog"
 		"OnlyInGame"								"1"
 	}
@@ -83,19 +83,19 @@
 	
 	"Contracker"
 	{
-		"label" 									"1"
+		"label" 									"V"
 		"command" 									"questlog"
 		"tooltip" 									"Contracker"
 	}
 	"Streams"
 	{
-		"label" 									"à"
+		"label" 									"a"
 		"command" 									"watch_stream"
 		"tooltip" 									"Streams"
 	}
 	"HomeServer"
 	{
-		"label" 									"/"
+		"label" 									"%"
 		"command" 									"engine map tr_walkway_rc2" 	//"engine connect *server ip*"
 		"tooltip" 									"Home Server"
 	}
@@ -111,42 +111,42 @@
 	}
 	"ReloadScheme"
 	{
-		"label" 									"5"
+		"label" 									"8"
 		"command" 									"engine vgui_cache_res_files 0;hud_reloadscheme"
 		"tooltip" 									"Reload Hud"
 		"OnlyInGame"								"1"
 	}
 	"ClosedCaptionsON"
 	{
-		"label" 									"^"
+		"label" 									"N"
 		"command" 									"engine closecaption 1;cc_subtitles 0;cc_lang english;cc_predisplay_time 0;cc_emit #subtitles0"
 		"tooltip" 									"Closed Captions ON"
 		"OnlyInGame"								"1"
 	}
 	"ClosedCaptionsOFF"
 	{
-		"label" 									"^"
+		"label" 									"N"
 		"command" 									"engine closecaption 0; cc_predisplay_time 0"
 		"tooltip" 									"Closed Captions OFF"
 		"OnlyInGame"								"1"
 	}
 	"SoundFix"
 	{
-		"label" 									"î"
+		"label" 									"w"
 		"command" 									"engine snd_restart"
 		"tooltip" 									"Fix Sound"
 		"OnlyInGame"								"1"
 	}
 	"InviliblePlayersFix"
 	{
-		"label" 									"2"
+		"label" 									"C"
 		"command" 									"engine stop; record fix"
 		"tooltip" 									"Fix Invisible Players"
 		"OnlyInGame"								"1"
 	}
 	"NetgraphToggle"
 	{
-		"label" 									"x"
+		"label" 									"P"
 		"command" 									"engine toggle net_graph 1 0"
 		"tooltip" 									"Netgraph ON/OFF"
 		"OnlyInGame"								"1"
