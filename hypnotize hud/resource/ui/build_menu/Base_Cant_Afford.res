@@ -10,7 +10,7 @@
 	{	
 		"font"			"Symbols 30"
 		"ypos"			"-7"
-		"labelText"		"W"
+		"labelText"		"1"
 		"visible"		"1"
 	}
 	"MetalIcon"	

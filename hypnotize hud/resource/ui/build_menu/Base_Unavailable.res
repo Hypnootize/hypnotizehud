@@ -11,7 +11,7 @@
 	{	
 		"font"			"Symbols 34"
 		"visible"		"1"
-		"labelText"		"W"
+		"labelText"		"1"
 	}
 	"MetalIcon"	
 	{

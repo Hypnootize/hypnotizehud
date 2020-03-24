@@ -1,1 +1,1 @@
-#base "Base_Inactive.res"
+#base "../Sentry_Inactive.res"
