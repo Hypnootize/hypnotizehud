@@ -557,8 +557,8 @@
 			"paintbackground"	"0"
 			"paintborder"		"0"
 			
-			"image_drawcolor"		"255 255 255 180"
-			"image_armedcolor"		"255 255 255 255"
+			"image_drawcolor"		"255 255 255 255"
+			"image_armedcolor"		"80 150 255 255"
 			"image_selectedcolor"	"255 255 255 255"
 			
 			"stayselectedonclick"	"1"
@@ -583,132 +583,132 @@
 		{
 			"all"
 			{
-				"userdata"			"0"
-				"image_default"		"replay/thumbnails/class_logos/tflogo_grey"
-				"image_armed"		"replay/thumbnails/class_logos/tflogo_grey"
-				"image_selected"	"replay/thumbnails/class_logos/tflogo"
-				"tooltiptext"		"#TF_Items_All"
+				"userdata"						"0"
+				"image_default"					"replay/thumbnails/filters/filter_all"
+				"image_armed"					"replay/thumbnails/filters/filter_all_on"
+				"image_selected"				"replay/thumbnails/filters/filter_all_on"
+				"tooltiptext"					"#TF_Items_All"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_all"
+					"image"						"class_icons/filter_all"
 				}				
 			}
 			"scout"
 			{
-				"userdata"			"1"
-				"image_default"		"replay/thumbnails/class_logos/scout_grey"
-				"image_armed"		"replay/thumbnails/class_logos/scout_grey"
-				"image_selected"	"replay/thumbnails/class_logos/scout"
-				"tooltiptext"		"#TF_Items_Scout"
+				"userdata"						"1"
+				"image_default"					"replay/thumbnails/filters/filter_scout"
+				"image_armed"					"replay/thumbnails/filters/filter_scout_on"
+				"image_selected"				"replay/thumbnails/filters/filter_scout_on"
+				"tooltiptext"					"#TF_Items_Scout"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_scout"
+					"image"						"class_icons/filter_scout"
 				}				
 			}
 			"soldier"
 			{
-				"userdata"			"3"
-				"image_default"		"replay/thumbnails/class_logos/soldier_grey"
-				"image_armed"		"replay/thumbnails/class_logos/soldier_grey"
-				"image_selected"	"replay/thumbnails/class_logos/soldier"
-				"tooltiptext"		"#TF_Items_Soldier"
+				"userdata"						"3"
+				"image_default"					"replay/thumbnails/filters/filter_soldier"
+				"image_armed"					"replay/thumbnails/filters/filter_soldier_on"
+				"image_selected"				"replay/thumbnails/filters/filter_soldier_on"
+				"tooltiptext"					"#TF_Items_Soldier"
 
 				"SubImage"
 				{
-					"image"			"class_icons/filter_soldier"
+					"image"						"class_icons/filter_soldier"
 				}				
 			}
 			"pyro"
 			{
-				"userdata"			"7"
-				"image_default"		"replay/thumbnails/class_logos/pyro_grey"
-				"image_armed"		"replay/thumbnails/class_logos/pyro_grey"
-				"image_selected"	"replay/thumbnails/class_logos/pyro"
-				"tooltiptext"		"#TF_Items_Pyro"
+				"userdata"						"7"
+				"image_default"					"replay/thumbnails/filters/filter_pyro"
+				"image_armed"					"replay/thumbnails/filters/filter_pyro_on"
+				"image_selected"				"replay/thumbnails/filters/filter_pyro_on"
+				"tooltiptext"					"#TF_Items_Pyro"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_pyro"
+					"image"						"class_icons/filter_pyro"
 				}				
 			}
 			"demo"
 			{
-				"userdata"			"4"
-				"image_default"		"replay/thumbnails/class_logos/demoman_grey"
-				"image_armed"		"replay/thumbnails/class_logos/demoman_grey"
-				"image_selected"	"replay/thumbnails/class_logos/demoman"
-				"tooltiptext"		"#TF_Items_Demoman"
+				"userdata"						"4"
+				"image_default"					"replay/thumbnails/filters/filter_demoman"
+				"image_armed"					"replay/thumbnails/filters/filter_demoman_on"
+				"image_selected"				"replay/thumbnails/filters/filter_demoman_on"
+				"tooltiptext"					"#TF_Items_Demoman"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_demo"
+					"image"						"class_icons/filter_demo"
 				}				
 			}	
 			"heavy"
 			{
-				"userdata"			"6"
-				"image_default"		"replay/thumbnails/class_logos/heavy_grey"
-				"image_armed"		"replay/thumbnails/class_logos/heavy_grey"
-				"image_selected"	"replay/thumbnails/class_logos/heavy"
-				"tooltiptext"		"#TF_Items_Heavy"
+				"userdata"						"6"
+				"image_default"					"replay/thumbnails/filters/filter_heavy"
+				"image_armed"					"replay/thumbnails/filters/filter_heavy_on"
+				"image_selected"				"replay/thumbnails/filters/filter_heavy_on"
+				"tooltiptext"					"#TF_Items_Heavy"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_heavy"
+					"image"						"class_icons/filter_heavy"
 				}				
 			}
 			"engineer"
 			{
-				"userdata"			"9"
-				"image_default"		"replay/thumbnails/class_logos/engineer_grey"
-				"image_armed"		"replay/thumbnails/class_logos/engineer_grey"
-				"image_selected"	"replay/thumbnails/class_logos/engineer"
-				"tooltiptext"		"#TF_Items_Engineer"
+				"userdata"						"9"
+				"image_default"					"replay/thumbnails/filters/filter_engineer"
+				"image_armed"					"replay/thumbnails/filters/filter_engineer_on"
+				"image_selected"				"replay/thumbnails/filters/filter_engineer_on"
+				"tooltiptext"					"#TF_Items_Engineer"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_engineer"
+					"image"						"class_icons/filter_engineer"
 				}				
 			}
 			"medic"
 			{
-				"userdata"			"5"
-				"image_default"		"replay/thumbnails/class_logos/medic_grey"
-				"image_armed"		"replay/thumbnails/class_logos/medic_grey"
-				"image_selected"	"replay/thumbnails/class_logos/medic"
-				"tooltiptext"		"#TF_Items_Medic"
+				"userdata"						"5"
+				"image_default"					"replay/thumbnails/filters/filter_medic"
+				"image_armed"					"replay/thumbnails/filters/filter_medic_on"
+				"image_selected"				"replay/thumbnails/filters/filter_medic_on"
+				"tooltiptext"					"#TF_Items_Medic"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_medic"
+					"image"						"class_icons/filter_medic"
 				}				
 			}
 			"sniper"
 			{
-				"userdata"			"2"
-				"image_default"		"replay/thumbnails/class_logos/sniper_grey"
-				"image_armed"		"replay/thumbnails/class_logos/sniper_grey"
-				"image_selected"	"replay/thumbnails/class_logos/sniper"
-				"tooltiptext"		"#TF_Items_Sniper"
+				"userdata"						"2"
+				"image_default"					"replay/thumbnails/filters/filter_sniper"
+				"image_armed"					"replay/thumbnails/filters/filter_sniper_on"
+				"image_selected"				"replay/thumbnails/filters/filter_sniper_on"
+				"tooltiptext"					"#TF_Items_Sniper"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_sniper"
+					"image"						"class_icons/filter_sniper"
 				}				
 			}
 			"spy"
 			{
-				"userdata"			"8"
-				"image_default"		"replay/thumbnails/class_logos/spy_grey"
-				"image_armed"		"replay/thumbnails/class_logos/spy_grey"
-				"image_selected"	"replay/thumbnails/class_logos/spy"
-				"tooltiptext"		"#TF_Items_Spy"
+				"userdata"						"8"
+				"image_default"					"replay/thumbnails/filters/filter_spy"
+				"image_armed"					"replay/thumbnails/filters/filter_spy_on"
+				"image_selected"				"replay/thumbnails/filters/filter_spy_on"
+				"tooltiptext"					"#TF_Items_Spy"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_spy"
+					"image"						"class_icons/filter_spy"
 				}				
 			}	
 		}
