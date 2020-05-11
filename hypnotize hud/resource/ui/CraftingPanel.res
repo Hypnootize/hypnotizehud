@@ -121,16 +121,16 @@
 			"depressedFgColor_override" "White"
 		}
 		
-		"filter_xoffset"	"-245"
-		"filter_ypos"		"30"
+		"filter_xoffset"	"-267"
+		"filter_ypos"		"20"
 		"filter_xdelta"		"10"
 		"filter_ydelta"		"10"
 		
 		"recipefilterbuttons_kv"
 		{
 			"zpos"				"2"
-			"wide"				"30"
-			"tall"				"30"
+			"wide"				"45"
+			"tall"				"45"
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"
