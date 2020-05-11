@@ -50,12 +50,6 @@
 		"tall"										"480"
 	}
 	
-	FreezePanel
-	{
-		"xpos"										"c-195"
-		"ypos"										"300"
-	}
-
 	CHudAccountPanel
 	{
 		"xpos"         								"c-98"
