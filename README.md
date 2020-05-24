@@ -15,13 +15,9 @@
 <a>INSTALLATION</a>
 ====
 
-**1)** Extract/Unzip the hud
+**1)** Extract/Unzip the hud then copy the hypnotize hud folder
 
-**2)** Copy the hypnotize hud folder (**NOT** Hypnotize-Hud-Master, the one inside it!)
-
-**3)** Paste The folder to your custom tf folder (C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom\hypnotize hud)
-
-**4)** Go to Resource/Scheme/FontFiles select all the font and install them (rightclick while selected and install)
+**2)** Navigate to (C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom) and paste the previously copied folder!
 
 **NOTES:**
 
