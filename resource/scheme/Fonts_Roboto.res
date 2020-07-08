@@ -2,16 +2,6 @@ Scheme
 {
 	Fonts
 	{
-		GameFont6
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"6"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
 		GameFont8
 		{
 			"1"
@@ -192,32 +182,12 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		GameFont38
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"38"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
 		GameFont40
 		{
 			"1"
 			{
 				"name"										"Roboto Bold"
 				"tall"										"40"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		GameFont42
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"42"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -242,42 +212,12 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		GameFont48
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"48"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
 		GameFont50
 		{
 			"1"
 			{
 				"name"										"Roboto Bold"
 				"tall"										"50"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		GameFont52
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"52"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		GameFont54
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"54"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -292,16 +232,6 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		GameFont58
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"58"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
 		GameFont60
 		{
 			"1"
@@ -312,42 +242,12 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		GameFont62
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"62"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		GameFont64
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"64"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
 		GameFont66
 		{
 			"1"
 			{
 				"name"										"Roboto Bold"
 				"tall"										"66"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		GameFont68
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"68"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -370,17 +270,6 @@ Scheme
 				"tall"										"72"
 				"additive"									"0"
 				"antialias" 								"1"
-			}
-		}
-		GameFont6Blur
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"6"
-				"additive"									"0"
-				"antialias" 								"1"
-				"blur"										"2"
 			}
 		}
 		GameFont8Blur
@@ -581,34 +470,12 @@ Scheme
 				"blur"										"2"
 			}
 		}
-		GameFont38Blur
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"38"
-				"additive"									"0"
-				"antialias" 								"1"
-				"blur"										"2"
-			}
-		}
 		GameFont40Blur
 		{
 			"1"
 			{
 				"name"										"Roboto Bold"
 				"tall"										"40"
-				"additive"									"0"
-				"antialias" 								"1"
-				"blur"										"2"
-			}
-		}
-		GameFont42Blur
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"42"
 				"additive"									"0"
 				"antialias" 								"1"
 				"blur"										"2"
@@ -636,45 +503,12 @@ Scheme
 				"blur"										"2"
 			}
 		}
-		GameFont48Blur
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"48"
-				"additive"									"0"
-				"antialias" 								"1"
-				"blur"										"2"
-			}
-		}
 		GameFont50Blur
 		{
 			"1"
 			{
 				"name"										"Roboto Bold"
 				"tall"										"50"
-				"additive"									"0"
-				"antialias" 								"1"
-				"blur"										"2"
-			}
-		}
-		GameFont52Blur
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"52"
-				"additive"									"0"
-				"antialias" 								"1"
-				"blur"										"2"
-			}
-		}
-		GameFont54Blur
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"54"
 				"additive"									"0"
 				"antialias" 								"1"
 				"blur"										"2"
@@ -691,17 +525,6 @@ Scheme
 				"blur"										"2"
 			}
 		}
-		GameFont58Blur
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"58"
-				"additive"									"0"
-				"antialias" 								"1"
-				"blur"										"2"
-			}
-		}
 		GameFont60Blur
 		{
 			"1"
@@ -713,45 +536,12 @@ Scheme
 				"blur"										"2"
 			}
 		}
-		GameFont62Blur
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"62"
-				"additive"									"0"
-				"antialias" 								"1"
-				"blur"										"2"
-			}
-		}
-		GameFont64Blur
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"64"
-				"additive"									"0"
-				"antialias" 								"1"
-				"blur"										"2"
-			}
-		}
 		GameFont66Blur
 		{
 			"1"
 			{
 				"name"										"Roboto Bold"
 				"tall"										"66"
-				"additive"									"0"
-				"antialias" 								"1"
-				"blur"										"2"
-			}
-		}
-		GameFont68Blur
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"68"
 				"additive"									"0"
 				"antialias" 								"1"
 				"blur"										"2"
@@ -780,39 +570,6 @@ Scheme
 			}
 		}
 		
-		GameFont6Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"6"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont8Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"8"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont9Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"9"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
 		GameFont10Shadow
 		{
 			"1"
@@ -841,28 +598,6 @@ Scheme
 			{
 				"name"										"Roboto Bold"
 				"tall"										"12"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont14Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"14"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont15Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"15"
 				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow"								"1"
@@ -901,17 +636,6 @@ Scheme
 				"dropshadow"								"1"
 			}
 		}
-		GameFont21Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"21"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
 		GameFont22Shadow
 		{
 			"1"
@@ -934,28 +658,6 @@ Scheme
 				"dropshadow"								"1"
 			}
 		}
-		GameFont26Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"26"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont28Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"28"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
 		GameFont30Shadow
 		{
 			"1"
@@ -967,260 +669,7 @@ Scheme
 				"dropshadow"								"1"
 			}
 		}
-		GameFont32Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"32"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont36Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"36"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont38Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"38"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont40Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"40"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont42Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"42"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont44Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"44"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont46Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"46"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont48Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"48"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont50Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"50"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont52Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"52"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont54Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"54"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont56Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"56"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont58Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"58"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont60Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"60"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont62Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"62"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont64Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"64"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont66Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"66"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont68Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"68"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont70Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"70"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont72Shadow
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"72"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
 		
-		GameFont6Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"6"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont8Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"8"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont9Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"9"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
 		GameFont10Outline
 		{
 			"1"
@@ -1254,67 +703,12 @@ Scheme
 				"outline"									"1"
 			}
 		}
-		GameFont14Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"14"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont15Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"15"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont16Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"16"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
 		GameFont18Outline
 		{
 			"1"
 			{
 				"name"										"Roboto Bold"
 				"tall"										"18"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont20Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"20"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont21Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"21"
 				"additive"									"0"
 				"antialias" 								"1"
 				"outline"									"1"
@@ -1342,259 +736,7 @@ Scheme
 				"outline"									"1"
 			}
 		}
-		GameFont26Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"26"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont28Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"28"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont30Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"30"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont32Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"32"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont36Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"36"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont38Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"38"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont40Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"40"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont42Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"42"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont44Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"44"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont46Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"46"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont48Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"48"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont50Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"50"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont52Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"52"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont54Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"54"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont56Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"56"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont58Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"58"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont60Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"60"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont62Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"62"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont64Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"64"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont66Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"66"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont68Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"68"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont70Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"70"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		GameFont72Outline
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-				"tall"										"72"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
+		
 		Respawn
 		{
 			"1"

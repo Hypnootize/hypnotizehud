@@ -305,7 +305,7 @@
 				"1"		"White"
 				"2"		"White"
 			}
-}
+		}
 
 		"StatsContainer"
 		{
