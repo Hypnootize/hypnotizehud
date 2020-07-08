@@ -39,7 +39,7 @@
 	"Console"
 	{
 		"label"										"CONSOLE"
-		"command"									"engine showconsole"
+		"command"									"engine con_enable 1; toggleconsole"
 	}
 	
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -55,7 +55,7 @@
 	"Mute"
 	{
 		"label"										"k"
-		"command"									"OpenPlayerListDialog"
+		"command"									"OpenMutePlayerDialog"
 		"OnlyInGame" 								"1"
 	}
 	"Report"
