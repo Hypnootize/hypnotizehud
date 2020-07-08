@@ -28,3 +28,4 @@
 ///////////////////////////////////////////
 
 #base "../resource/scheme/Crosshairs.res"
+//#base "../resource/scheme/Crosshairs_Blur.res"

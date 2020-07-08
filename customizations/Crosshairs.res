@@ -1,517 +1,112 @@
-//////////////////////////////////////////////////////////////////////////////////////////////
-//****************************************INSTRUCTIONS**************************************//
-//																							//
-//						SET VISIBLE TO '1' FOR THE CROSSHAIR YOU WANT TO USE				//
-//																							//
-//  EACH CROSSHAIR CAN BE ANIMATED TO PULSE ON DAMAGE INSIDE THE CROSSHAIR_ANIMATIONS FILE! //
-//																							//
-//		THE CROSSHAIR COLOR AND PULSE ON DAMAGE COLOR CAN BE SET INSIDE THE COLORS FILE!	//
-//////////////////////////////////////////////////////////////////////////////////////////////
-
 "Resource/HudLayout.res"
 {
-	///////////////////////////////////////////////////////////////////////////////
-	////////////////////////////////////SEEKER/////////////////////////////////////
-	///////////////////////////////////////////////////////////////////////////////
+	//****************************************************************************//
+	//**							HUD CROSSHAIR								**//
+	//****************************************************************************//
 	
-	"SeekerCrosshair"
+	CustomCrosshair
 	{
-		"visible"    								"0"
+		//////////////////////////////////////////////////////////////////
+		//						CROSSHAIR VISIBILITY					//
+		//	----------------------------------------------------------	//
+		//	  	"visible" "1" = Enabled  "visible" "0" = Disabled		//
+		//////////////////////////////////////////////////////////////////
 		
-		"xpos"      								"c-14"
-		"ypos"      								"c-12"
-		"wide"      								"25"
-		"tall"      								"24"
+		"visible"	"0"																																																																			"controlName" "CExLabel" "fieldName" "CustomCrosshair" "enabled" "1" "zpos" "2" "wide" "100" "tall" "100" "textAlignment" "center"
 		
-		"fgcolor"    								"Crosshair"
-		"labelText"    								"x"
-		"font"      								"seeker11"				//Alternative Sizes: Seeker9-10-11-12-SeekerShadow
+		//////////////////////////////////////////////////////////////////
+		//					  	   CROSSHAIR TYPE						//
+		//	----------------------------------------------------------	//
+		// The "labelText" can be changed to display different types of //
+		//	   crosshairs, each alphabet letter / symbol represents 	//
+		//  a different crosshair. Checkout the Crosshairs.png to see 	//
+		// 		the different options and their attached letter			//
+		//////////////////////////////////////////////////////////////////
 		
-		"controlName"  								"CExLabel"
-		"fieldName"     							"SeekerCrosshair"
-		"textAlignment"  							"center"
-		"enabled"   								"1"
-		"zpos"      								"1"
-    }
-	
-	"SeekerCrosshairShadow"							//SEEKER BLUR SHADOW NEEDS TO BE USED TOGETHER WITH THE NORMAL SEEKER
-	{
-		"visible"    								"0"
+		"labelText"	"?"
 		
-		"xpos"      								"c-14"
-		"ypos"      								"c-12"
-		"wide"      								"26"
-		"tall"      								"25"
+		//////////////////////////////////////////////////////////////////
+		//				 	CROSSHAIR SIZE & PROPERTIES					//
+		//	----------------------------------------------------------	//
+		//    The crosshair size can be any number between 10 and 30	//
+		//																//
+		//  	  The Outline can be toggled between ON and OFF			//
+		//////////////////////////////////////////////////////////////////
 		
-		"fgcolor"    								"Black"
-		"labelText"    								"x"
-		"font"      								"seeker11Blur"
+		"font"		"Size:18 | Outline:OFF"
 		
-		"controlName"  								"CExLabel"
-		"fieldName"     							"SeekerCrosshairShadow"
-		"textAlignment"  							"center"
-		"enabled"   								"1"
-		"zpos"      								"1"
-    }
-	
-	///////////////////////////////////////////////////////////////////////////////
-	///////////////////////////////////TLR CROSS///////////////////////////////////
-	///////////////////////////////////////////////////////////////////////////////
-	
-	"CrossHairTLR"
-    {
-		"visible"               					"0"
+		//////////////////////////////////////////////////////////////////
+		//					   CROSSHAIR POSITION						//
+		//	----------------------------------------------------------	//
+		// 		"xpos" represents the horizontal crosshair position 	//
+		// 		 "ypos" represents the vertical crosshair position 		//
+		// Adjust the values in order to perfectly center the crosshair //
+		//////////////////////////////////////////////////////////////////
 		
-		"xpos"                  					"c-12"
-		"ypos"                  					"c-14"
-		"wide"                  					"24"
-		"tall"                  					"23"
+		"xpos"		"c-50"
+		"ypos"		"c-50"
 		
-		"fgcolor"               					"Crosshair"
-		"labelText"             					"+"
-		"font"                  					"CrossHairTLR"
+		//////////////////////////////////////////////////////////////////
+		//					     CROSSHAIR COLOR						//
+		//	----------------------------------------------------------	//
+		// The color is a R. (red) G. (green) B. (blu) A. (alpha) code	//
+		//		  Adjust each value to get the desired color			//
+		//																//
+		//   If you change this value, make sure to also change the  	//
+		//   			  second animation definition in				//
+		// 				 crosshair_animation.txt to match	     		//
+		//////////////////////////////////////////////////////////////////
 		
-		"controlName"   							"CExLabel"
-		"fieldName"             					"CrossHairTLR"
-		"textAlignment"								"center"
-		"enabled"               					"1"
-		"zpos"                  					"1"
-	}	
-	
-	"CrossHairTLRShadow"							//TLR BLUR SHADOW NEEDS TO BE USED TOGETHER WITH THE NORMAL CROSSHAIRTLR
-    {
-		"visible"               					"0"
-		
-		"xpos"                 	 					"c-12"
-		"ypos"                  					"c-14"
-		"wide"                  					"24"
-		"tall"                  					"23"
-		
-		"fgcolor"               					"Black"
-		"labelText"             					"+"
-		"font"                  					"CrossHairTLRShadow"
-		
-		"controlName"  								"CExLabel"
-		"fieldName"             					"CrossHairTLRShadow"
-		"textAlignment" 							"center"
-		"enabled"               					"1"
-		"zpos"                  					"1"
+		"fgcolor"	"Crosshair"
 	}
 	
-	///////////////////////////////////////////////////////////////////////////////
-	////////////////////////////////M0RE CROSSHAIRS////////////////////////////////
-	///////////////////////////////////////////////////////////////////////////////
 	
-	"M0rexhairCross"
+	
+	
+	
+	
+	
+	//****************************************************************************//
+	//**					   HUD CROSSHAIR BLUR SHADOW						**//
+	//****************************************************************************//
+	// 	  Before you enable the crosshair's blur shadow make sure to enable the	  //
+	// 	 blur scheme inside resource/Clientscheme.res by uncommenting this line:  //
+	//					#base "../resource/scheme/Crosshairs_Blur.res"		  	  //
+	////////////////////////////////////////////////////////////////////////////////
+	
+	CustomCrosshairBlurShadow
 	{
-		"visible"        							"0"
-	  
-		"xpos"            							"c-7"
-		"ypos"            							"c-8"
-		"wide"            							"13"
-		"tall"            							"15"
+		//////////////////////////////////////////////////////////////////
+		//						 SHADOW VISIBILITY						//
+		//	----------------------------------------------------------	//
+		//	  	"visible" "1" = Enabled  "visible" "0" = Disabled		//
+		//////////////////////////////////////////////////////////////////
 		
-		"fgcolor"         							"Crosshair"
-		"labelText"      							"+"
-		"font"            							"M0rexhairCross"
+		"visible"	"0"																																																																			"controlName" "CExLabel" "fieldName" "CustomCrosshairBlurShadow" "enabled" "1" "xpos" "0" "ypos" "0" "zpos" "1" "wide" "101" "tall" "101" "textAlignment" "center" "pin_to_sibling" "CustomCrosshair"
 		
+		//////////////////////////////////////////////////////////////////
+		//					  	   SHADOW TYPE							//
+		//	----------------------------------------------------------	//
+		// Make sure the shadow label is the same as the crosshair's!!	//
+		//////////////////////////////////////////////////////////////////
 		
-		"controlName"     							"CExLabel"
-		"fieldName"       							"M0reXhairCross"
-		"textAlignment"  							"center" 
-		"enabled"         							"1"
-		"zpos"            							"1"
-	}
-  
-	"M0rexhairCircle"
-	{
-		"visible"         							"0"
-    
-		"xpos"			     						"c-100"
-		"ypos"			     						"c-100"
-		"wide"			     						"200"
-		"tall"		      							"200"
+		"labelText"	"?"
 		
-		"fgcolor"        							"Crosshair"
-		"labelText"       							"o"
-		"font"            							"M0rexhairCircle"
+		//////////////////////////////////////////////////////////////////
+		//				 		   SHADOW SIZE							//
+		//	----------------------------------------------------------	//
+		// 	Make sure the shadow size is the same as the crosshair's!!	//
+		//////////////////////////////////////////////////////////////////
 		
-		"controlName"     							"CExLabel"
-		"fieldName"       							"M0reXhairCircle"
-		"textAlignment"   							"center" 
-		"enabled"         							"1"
-		"zpos"            							"1"
-	}
-  
-	"M0rexhairDot"
-	{
-		"visible"         							"0"
-
-		"xpos"			      						"c-12"
-		"ypos"			      						"c-17"
-		"wide"			      						"26"
-		"tall"			      						"26"
+		"font"		"Size:18 | Blur:ON"
 		
-		"fgcolor"         							"Crosshair"
-		"labelText"       							"."
-		"font"            							"M0rexhairDot"
+		//////////////////////////////////////////////////////////////////
+		//					       SHADOW COLOR							//
+		//	----------------------------------------------------------	//
+		// The color is a R. (red) G. (green) B. (blu) A. (alpha) code	//
+		//		  Adjust each value to get the desired color			//
+		//////////////////////////////////////////////////////////////////
 		
-		"controlName"     							"CExLabel"
-		"fieldName"       							"M0reXhairDot"
-		"textAlignment"   							"center" 
-		"enabled"         							"1"
-		"zpos"            							"1"
-	}
-	
-	///////////////////////////////////////////////////////////////////////////////
-	//////////////////////////////BROESEL CROSSHAIRS///////////////////////////////
-	///////////////////////////////////////////////////////////////////////////////
-	
-	"Simple Cross"
-	{
-		"visible"									"0"
-		
-		"xpos"										"c-25"
-		"ypos"										"c-25"
-		"wide"										"50"
-		"tall"										"50"
-		
-		"fgcolor"									"Crosshair"
-		"labelText"									"a"
-		"font"										"size: 14, outline: on"
-		
-		"controlName"								"CExLabel"
-		"fieldName"									"Simple Cross"
-		"textAlignment"								"center"
-		"enabled"									"1"
-		"zpos"										"1"
-	}
-	
-	"Dot"
-	{
-		"visible"									"0"
-		
-		"xpos"										"c-25"
-		"ypos"										"c-25"
-		"wide"										"50"
-		"tall"										"50"
-		
-		"fgcolor"									"Crosshair"
-		"labelText"									"k"
-		"font"										"size: 24, outline: off"
-		
-		"controlName"								"CExLabel"
-		"fieldName"									"Dot"
-		"textAlignment"								"center"
-		"enabled"									"1"
-		"zpos"										"1"
-	}
-	
-	"Hollow Cross"
-	{
-		"visible"									"0"
-		
-		"xpos"										"c-25"
-		"ypos"										"c-25"
-		"wide"										"50"
-		"tall"										"50"
-		
-		"fgcolor"									"Crosshair"
-		"labelText"									"b"
-		"font"										"size: 18, outline: on"
-		
-		"controlName"								"CExLabel"
-		"fieldName"									"Hollow Cross"
-		"textAlignment"								"center"
-		"enabled"									"1"
-		"zpos"										"1"
-	}
-	
-	"Hollow Cross With Dot"
-	{
-		"visible"									"0"
-		
-		"xpos"										"c-25"
-		"ypos"										"c-25"
-		"wide"										"50"
-		"tall"										"50"
-		
-		"fgcolor"									"Crosshair"
-		"labelText"									"c"
-		"font"										"size: 18, outline: on"
-		
-		"controlName"								"CExLabel"
-		"fieldName"									"Hollow Cross With Dot"
-		"textAlignment"								"center"
-		"enabled"									"1"
-		"zpos"										"1"
-	}
-	
-	"Thick Cross"
-	{
-		"visible"									"0"
-		
-		"xpos"										"c-25"
-		"ypos"										"c-25"
-		"wide"										"50"
-		"tall"										"50"
-		
-		"fgcolor"									"Crosshair"
-		"labelText"									"d"
-		"font"										"size: 16, outline: on"
-		
-		"controlName"								"CExLabel"
-		"fieldName"									"Thick Cross"
-		"textAlignment"								"center"
-		"enabled"									"1"
-		"zpos"										"1"
-	}
-	
-	"Small Cross"
-	{
-		"visible"									"0"
-		
-		"xpos"										"c-25"
-		"ypos"										"c-25"
-		"wide"										"50"
-		"tall"										"50"
-		
-		"fgcolor"									"Crosshair"
-		"labelText"									"e"
-		"font"										"size: 24, outline: on"
-		
-		"controlName"								"CExLabel"
-		"fieldName"									"Small Cross"
-		"textAlignment"								"center"
-		"enabled"									"1"
-		"zpos"										"1"
-	}
-	
-	"Wide Cross"
-	{
-		"visible"									"0"
-		
-		"xpos"										"c-25"
-		"ypos"										"c-25"
-		"wide"										"50"
-		"tall"										"50"
-		
-		"fgcolor"									"Crosshair"
-		"labelText"									"f"
-		"font"										"size: 20, outline: on"
-		
-		"controlName"								"CExLabel"
-		"fieldName"									"Wide Cross"
-		"textAlignment"								"center"
-		"enabled"									"1"
-		"zpos"										"1"
-	}
-	
-	"Thick Wide Cross"
-	{
-		"visible"									"0"
-		
-		"xpos"										"c-25"
-		"ypos"										"c-25"
-		"wide"										"50"
-		"tall"										"50"
-		
-		"fgcolor"									"Crosshair"
-		"labelText"									"g"
-		"font"										"size: 22, outline: on"
-		
-		"controlName"								"CExLabel"
-		"fieldName"									"Thick Wide Cross"
-		"textAlignment"								"center"
-		"enabled"									"1"
-		"zpos"										"1"
-	}
-	
-	"Thin Circle"
-	{
-		"visible"									"0"
-		
-		"xpos"										"c-25"
-		"ypos"										"c-25"
-		"wide"										"50"
-		"tall"										"50"
-		
-		"fgcolor"									"Crosshair"
-		"labelText"									"h"
-		"font"										"size: 28, outline: off"
-		
-		"controlName"								"CExLabel"
-		"fieldName"									"Thin Circle"
-		"textAlignment"								"center"
-		"enabled"									"1"
-		"zpos"										"1"
-	}
-	
-	"Thick Circle"
-	{
-		"visible"									"0"
-		
-		"xpos"										"c-25"
-		"ypos"										"c-25"
-		"wide"										"50"
-		"tall"										"50"
-		
-		"fgcolor"									"Crosshair"
-		"labelText"									"i"
-		"font"										"size: 28, outline: off"
-		
-		"controlName"								"CExLabel"
-		"fieldName"									"Thick Circle"
-		"textAlignment"								"center"
-		"enabled"									"1"
-		"zpos"										"1"
-	}
-	
-	"Quartered Circle"
-	{
-		"visible"									"0"
-		
-		"xpos"										"c-25"
-		"ypos"										"c-25"
-		"wide"										"50"
-		"tall"										"50"
-		
-		"fgcolor"									"Crosshair"
-		"labelText"									"j"
-		"font"										"size: 28, outline: off"
-		
-		"controlName"								"CExLabel"
-		"fieldName"									"Quartered Circle"
-		"textAlignment"								"center"
-		"enabled"									"1"
-		"zpos"										"1"
-	}
-	
-	"Square"
-	{
-		"visible"									"0"
-		
-		"xpos"										"c-25"
-		"ypos"										"c-25"
-		"wide"										"50"
-		"tall"										"50"
-		
-		"fgcolor"									"Crosshair"
-		"labelText"									"l"
-		"font"										"size: 22, outline: on"
-		
-		"controlName"								"CExLabel"
-		"fieldName"									"Square"
-		"textAlignment"								"center"
-		"enabled"									"1"
-		"zpos"										"1"
-	}
-	
-	"Round Brackets"
-	{
-		"visible"									"0"
-		
-		"xpos"										"c-25"
-		"ypos"										"c-25"
-		"wide"										"50"
-		"tall"										"50"
-		
-		"fgcolor"									"Crosshair"
-		"labelText"									"o"
-		"font"										"size: 22, outline: off"
-		
-		"controlName"								"CExLabel"
-		"fieldName"									"Round Brackets"
-		"textAlignment"								"center"
-		"enabled"									"1"
-		"zpos"										"1"
-	}
-	
-	"Round Brackets With Cross"
-	{
-		"visible"									"0"
-		
-		"xpos"										"c-25"
-		"ypos"										"c-25"
-		"wide"										"50"
-		"tall"										"50"
-		
-		"fgcolor"									"Crosshair"
-		"labelText"									"m"
-		"font"										"size: 22, outline: off"
-		
-		"controlName"								"CExLabel"
-		"fieldName"									"Round Brackets With Cross"
-		"textAlignment"								"center"
-		"enabled"									"1"
-		"zpos"										"1"
-	}
-	
-	"Round Brackets With Dot"
-	{
-		"visible"									"0"
-		
-		"xpos"										"c-25"
-		"ypos"										"c-25"
-		"wide"										"50"
-		"tall"										"50"
-		
-		"fgcolor"									"Crosshair"
-		"labelText"									"n"
-		"font"										"size: 22, outline: off"
-		
-		"controlName"								"CExLabel"
-		"fieldName"									"Round Brackets With Dot"
-		"textAlignment"								"center"
-		"enabled"									"1"
-		"zpos"										"1"
-	}
-	
-	///////////////////////////////////////////////////////////////////////////////
-	////////////////////////////////KONR CROSSHAIR/////////////////////////////////
-	///////////////////////////////////////////////////////////////////////////////
-	
-	"Konr Wings"
-	{
-		"visible"									"0"
-		
-		"xpos"										"c-33"
-		"ypos"										"c-24"
-		"wide"										"53"
-		"tall"										"51"
-		
-		"fgcolor"									"Crosshair"
-		"labelText"									"i"
-		"font"										"konr20"
-		
-		"controlName"								"CExLabel"
-		"fieldName"									"Konr Wings"
-		"textAlignment"								"center"
-		"enabled"									"1"
-		"zpos"										"1"
-	}
-	
-	///////////////////////////////////////////////////////////////////////////////
-	//////////////////////////////KNUCKLES CROSSHAIRS//////////////////////////////
-	///////////////////////////////////////////////////////////////////////////////
-	
-	"Knuckles Crosshairs"
-	{
-		"visible" 									"0"
-		
-		"xpos" 		 								"c-25"
-		"ypos" 		 								"c-24"
-		"wide" 		 								"50"
-		"tall" 		 								"50"
-		
-		"fgcolor" 									"Crosshair"
-		"labelText"									"a"						//You can change this to use a different crosshair, see the list of crosshairs in Crosshairs.png
-		"font"										"size:26,outline:off"
-		
-		"controlName"								"CExLabel"
-		"fieldName"	 								"Knuckles Crosshairs"
-		"textAlignment"								"center"
-		"enabled" 									"1"
-		"zpos"										"1"
+		"fgcolor"	"0 0 0 255"
 	}
 }

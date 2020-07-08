@@ -1,110 +1,18 @@
-//////////////////////////////////////////////////////////////////////////////////////////////
-//****************************************INSTRUCTIONS**************************************//
-//																							//
-//	UNCOMMENT (REMOVE THE // BEFORE ANIMATE) FROM THE CROSSHAIR LINES YOU WANT TO ANIMATE	//
-//																							//
-// 						***IMPORTANT: ONLY 1 LINE CAN BE UNCOMMENTED***						//
-//////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////INSTRUCTIONS/////////////////////////////////////////////
+//																									//
+// 		Uncomment both lines by removing the // to activate the crosshair flashing on damage		//
+//																									//
+/////////////////////////////////////////////CUSTOMIZATION////////////////////////////////////////////
+//																									//
+// 					The first fgcolor is the damage flash color (red by default)					//
+//																									//
+// 						The second fgcolor is the normal crosshair color! 							//
+//					Be sure to set the color to match the one on "Crosshair.res"					//
+//																									//
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 
 event DamagedPlayer
 {
-    //Animate "SeekerCrosshair"    	 			FgColor     "Crosshair Pulse"			Linear 	0.0 	0.00001
-    //Animate "SeekerCrosshair"    				FgColor     "Crosshair"   				Linear 	0.10 	0.10001
-	
-	//Animate "CrossHairTLR"    	 			FgColor     "Crosshair Pulse"			Linear 	0.0 	0.00001
-    //Animate "CrossHairTLR"    				FgColor     "Crosshair"   				Linear 	0.10 	0.10001
-	
-	//Animate "M0rexhairCross"    	 			FgColor     "Crosshair Pulse"			Linear 	0.0 	0.00001
-	//Animate "M0rexhairCross"    				FgColor     "Crosshair"   				Linear 	0.10 	0.10001
-	
-	//Animate "M0rexhairCircle"    	 			FgColor     "Crosshair Pulse"			Linear 	0.0 	0.00001
-    //Animate "M0rexhairCircle"    				FgColor     "Crosshair"   				Linear 	0.10 	0.10001
-	
-	//Animate "M0rexhairDot"    	 			FgColor     "Crosshair Pulse"			Linear 	0.0 	0.00001
-    //Animate "M0rexhairDot"    				FgColor     "Crosshair"   				Linear 	0.10 	0.10001
-	
-	//Animate "Simple Cross"    	 			FgColor     "Crosshair Pulse"			Linear 	0.0 	0.00001
-	//Animate "Simple Cross"    				FgColor     "Crosshair"   				Linear 	0.10 	0.10001
-	
-	//Animate "Dot"    	 						FgColor     "Crosshair Pulse"			Linear 	0.0 	0.00001
-	//Animate "Dot"   							FgColor     "Crosshair"   				Linear 	0.10 	0.10001
-	
-	//Animate "Hollow Cross"    	 			FgColor     "Crosshair Pulse"			Linear 	0.0 	0.00001
-    //Animate "Hollow Cross"    				FgColor     "Crosshair"   				Linear 	0.10 	0.10001
-	
-	//Animate "Hollow Cross With Dot"    	 	FgColor     "Crosshair Pulse"			Linear 	0.0 	0.00001
-    //Animate "Hollow Cross With Dot"    		FgColor     "Crosshair"   				Linear 	0.10 	0.10001
-	
-	//Animate "Thick Cross"    	 				FgColor     "Crosshair Pulse"			Linear 	0.0 	0.00001
-    //Animate "Thick Cross"   					FgColor     "Crosshair"   				Linear 	0.10 	0.10001
-	
-	//Animate "Small Cross"    	 				FgColor     "Crosshair Pulse"			Linear 	0.0 	0.00001
-    //Animate "Small Cross"    					FgColor     "Crosshair"   				Linear 	0.10 	0.10001
-	
-	//Animate "Wide Cross"    	 				FgColor     "Crosshair Pulse"			Linear 	0.0 	0.00001
-    //Animate "Wide Cross"    					FgColor     "Crosshair"   				Linear 	0.10 	0.10001
-	
-	//Animate "Thick Wide Cross"    	 		FgColor     "Crosshair Pulse"			Linear 	0.0 	0.00001
-    //Animate "Thick Wide Cross"    			FgColor     "Crosshair"   				Linear 	0.10 	0.10001
-	
-	//Animate "Thin Circle"    	 				FgColor     "Crosshair Pulse"			Linear 	0.0 	0.00001
-    //Animate "Thin Circle"    					FgColor     "Crosshair"   				Linear 	0.10 	0.10001
-	
-	//Animate "Thick Circle"    	 			FgColor     "Crosshair Pulse"			Linear 	0.0 	0.00001
-    //Animate "Thick Circle"    				FgColor     "Crosshair"   				Linear 	0.10 	0.10001
-	
-	//Animate "Quartered Circle"    	 		FgColor     "Crosshair Pulse"			Linear 	0.0 	0.00001
-    //Animate "Quartered Circle"    			FgColor     "Crosshair"   				Linear 	0.10 	0.10001
-	
-	//Animate "Square"    	 					FgColor     "Crosshair Pulse"			Linear 	0.0 	0.00001
-    //Animate "Square"    						FgColor     "Crosshair"   				Linear 	0.10 	0.10001
-	
-	//Animate "Round Brackets"    	 			FgColor     "Crosshair Pulse"			Linear 	0.0 	0.00001
-    //Animate "Round Brackets"    				FgColor     "Crosshair"   				Linear 	0.10 	0.10001
-	
-	//Animate "Round Brackets With Cross"     	FgColor     "Crosshair Pulse"			Linear 	0.0 	0.00001
-    //Animate "Round Brackets With Cross"    	FgColor     "Crosshair"   				Linear 	0.10 	0.10001
-	
-	//Animate "Konr Wings"    	 				FgColor     "Crosshair Pulse"			Linear 	0.0 	0.00001
-    //Animate "Konr Wings"    					FgColor     "Crosshair"   				Linear 	0.10 	0.10001
-	
-	//Animate "Knuckles Crosshairs"    	 		FgColor     "Crosshair Pulse"			Linear 	0.0 	0.00001
-    //Animate "Knuckles Crosshairs"    			FgColor     "Crosshair"   				Linear 	0.10 	0.10001
-	
-	
-	
-	
-	
-	/////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	////																									 ////
-	////							HITMARKERS ANIMATIONS DON'T TOUCH THESE EVER!							 ////
-	////																									 ////
-	/////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-	Animate "^Hitmarker"    	 				Alpha     "255"							Linear 	0.0 	0.0
-    Animate "^Hitmarker"    					Alpha     "0"   						Linear 	0.0 	0.35
-	
-	Animate "BracketsHitmarker"    	 			Alpha     "255"							Linear 	0.0 	0.0
-    Animate "BracketsHitmarker"    				Alpha     "0"   						Linear 	0.0 	0.35
-	
-	Animate "CircleHitmarker"    	 			Alpha     "255"							Linear 	0.0 	0.0
-    Animate "CircleHitmarker"    				Alpha     "0"   						Linear 	0.0 	0.35
-	
-	Animate "DotHitmarker"    	 				Alpha     "255"							Linear 	0.0 	0.0
-    Animate "DotHitmarker"    					Alpha     "0"   						Linear 	0.0 	0.35
-	
-	Animate "DotsCircleHitmarker"    	 		Alpha     "255"							Linear 	0.0 	0.0
-    Animate "DotsCircleHitmarker"    			Alpha     "0"   						Linear 	0.0 	0.35
-	
-	Animate "HollowCrossHitmarker"    	 		Alpha     "255"							Linear 	0.0 	0.0
-    Animate "HollowCrossHitmarker"    			Alpha     "0"   						Linear 	0.0 	0.35
-	
-	Animate "OverwatchHitmarker"    	 		Alpha     "255"							Linear 	0.0 	0.0
-    Animate "OverwatchHitmarker"    			Alpha     "0"   						Linear 	0.0 	0.35
-	
-	Animate "WingsHitmarker"    	 			Alpha     "255"							Linear 	0.0 	0.0
-    Animate "WingsHitmarker"    				Alpha     "0"   						Linear 	0.0 	0.35
-	
-	Animate "XHitmarker"   		 	 			Alpha     "255"							Linear 	0.0 	0.0
-    Animate "XHitmarker"    					Alpha     "0"   						Linear 	0.0 	0.35
+    //	Animate "CustomCrosshair"		FgColor     "Crosshair Pulse"		Linear 	0.0 	0.00001 	// Crosshair color on hit
+    //	Animate "CustomCrosshair"		FgColor     "Crosshair"				Linear 	0.10 	0.10001 	// Should match your crosshair color in crosshair.res
 }
