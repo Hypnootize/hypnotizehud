@@ -209,6 +209,22 @@
 		"tall"										"f0"
 	}
 	
+	"HudAlert"
+	{
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"480"
+	}
+	
+	HudTeamSwitch
+	{
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"480"
+	}
+	
 	HudArenaClassLayout
 	{
 		"ypos"										"r340"
