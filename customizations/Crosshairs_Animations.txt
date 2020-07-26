@@ -1,6 +1,6 @@
 /////////////////////////////////////////////INSTRUCTIONS/////////////////////////////////////////////
 //																									//
-// 		Uncomment both lines by removing the // to activate the crosshair flashing on damage		//
+//   Uncomment both Animate lines by removing the // to activate the crosshair flashing on damage	//
 //																									//
 /////////////////////////////////////////////CUSTOMIZATION////////////////////////////////////////////
 //																									//
@@ -13,6 +13,9 @@
 
 event DamagedPlayer
 {
-    //	Animate "CustomCrosshair"		FgColor     "Crosshair Pulse"		Linear 	0.0 	0.00001 	// Crosshair color on hit
-    //	Animate "CustomCrosshair"		FgColor     "Crosshair"				Linear 	0.10 	0.10001 	// Should match your crosshair color in crosshair.res
+    StopEvent	HitMarker				0.0
+	RunEvent	HitMarker				0.01
+	
+	//Animate 	"CustomCrosshair"		FgColor     "Crosshair Pulse"		Linear 	0.0 	0.00001 	// Crosshair color on hit
+    //Animate 	"CustomCrosshair"		FgColor     "Crosshair"				Linear 	0.10 	0.10001 	// Should match your crosshair color in crosshair.res
 }

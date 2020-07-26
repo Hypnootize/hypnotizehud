@@ -1,119 +1,5 @@
 //====================================================================================================================
 
-event HudHealthBonusPulse
-{
-	Animate PlayerStatusHealthValue				FgColor 	"Buffed Health" 					Accel 	0.0		0.075
-	Animate PlayerStatusHealthValue				FgColor 	"Buffed Health Pulse" 				Accel 	0.125	0.175
-	
-	Animate HealthBG							Alpha 		"0"									Accel 	0.0 	0.0
-	Animate HealthBuff							Alpha 		"255"								Accel 	0.0 	0.0
-	
-	RunEvent HudHealthBonusPulseLoop			0.7
-}
-
-event HudHealthBonusPulseLoop
-{
-	RunEvent HudHealthBonusPulse				0.0
-}
-
-event HudHealthBonusPulseStop
-{
-	StopEvent HudHealthBonusPulse 				0.0
-	StopEvent HudHealthBonusPulseLoop			0.0
-	
-	Animate PlayerStatusHealthValue 			FgColor 	"Health Numbers" 					Linear 	0.0 	0.0
-	
-	Animate HealthBG							Alpha 		"255"								Accel 	0.0 	0.0
-	Animate HealthBuff							Alpha 		"0"									Accel 	0.0 	0.0
-}
-
-//====================================================================================================================
-
-event HudHealthDyingPulse
-{
-	Animate PlayerStatusHealthValue				FgColor 	"Low Health" 						Linear 	0.0		0.075
-	Animate PlayerStatusHealthValue				FgColor 	"Low Health Pulse" 					Linear 	0.125 	0.175
-	
-	Animate HealthBG							Alpha 		"0"									Accel 	0.0 	0.0
-	Animate HealthHurt							Alpha 		"255"								Accel 	0.0 	0.0
-
-	RunEvent HudHealthDyingPulseLoop			0.4
-}
-
-event HudHealthDyingPulseLoop
-{
-	RunEvent HudHealthDyingPulse				0.0
-}
-
-event HudHealthDyingPulseStop
-{
-	StopEvent HudHealthDyingPulse				0.0
-	StopEvent HudHealthDyingPulseLoop 			0.0
-	
-	Animate PlayerStatusHealthValue 			FgColor 	"Health Numbers" 					Linear 	0.0 	0.0
-	
-	Animate HealthBG							Alpha 		"255"								Accel 	0.0 	0.0
-	Animate HealthHurt							Alpha 		"0"									Accel 	0.0 	0.0
-}
-
-//====================================================================================================================
-
-event HudLowAmmoPulse
-{
-	Animate AmmoInClip 							FgColor 	"Low Ammo In Clip" 					Linear 	0.0 	0.075
-	Animate AmmoInClip 							FgColor 	"Low Ammo In Clip Pulse" 			Linear 	0.125 	0.075
-	
-	Animate AmmoInReserve						FgColor 	"Low Ammo In Reserve" 				Linear 	0.0 	0.075
-	Animate AmmoInReserve 						FgColor 	"Low Ammo In Reserve Pulse" 		Linear 	0.125 	0.075
-	
-	Animate AmmoNoClip 							FgColor 	"Low Ammo No Clip" 					Linear 	0.0 	0.075
-	Animate AmmoNoClip 							FgColor 	"Low Ammo No Clip Pulse" 			Linear 	0.125 	0.075
-	
-	RunEvent HudLowAmmoPulseLoop				0.4
-}	
-
-event HudLowAmmoPulseLoop
-{
-	RunEvent HudLowAmmoPulse					0.0
-}
-
-event HudLowAmmoPulseStop
-{
-	StopEvent HudLowAmmoPulse 					0.0
-	StopEvent HudLowAmmoPulseLoop 				0.0
-	
-	Animate AmmoInClip 							FgColor 	"Ammo In Clip" 						Linear 	0.0 	0.0
-	
-	Animate AmmoInReserve 						FgColor 	"Ammo In Reserve" 					Linear 	0.0 	0.0
-	
-	Animate AmmoNoClip 							FgColor 	"Ammo No Clip" 						Linear 	0.0 	0.0
-}
-
-//====================================================================================================================
-
-event HudMedicCharged
-{
-	Animate ChargeMeter 						FgColor 	"Full Ubercharge" 					Linear 	0.0 	0.075
-	Animate ChargeMeter 						FgColor 	"Full Ubercharge Pulse" 			Linear 	0.125 	0.075
-	
-	RunEvent HudMedicChargedLoop				0.7
-}
-
-event HudMedicChargedLoop
-{
-	RunEvent HudMedicCharged 					0.0
-}
-
-event HudMedicChargedStop
-{
-	StopEvent HudMedicCharged 					0.0
-	StopEvent HudMedicChargedLoop 				0.0
-	
-	Animate	ChargeMeter 						FgColor		"Full Ubercharge Pulse"				Linear 	0.0 0.0001
-}
-
-//====================================================================================================================
-
 event FlagOutline
 {
 	RunEvent FlagOutlineHide 					0.0
@@ -156,6 +42,28 @@ event HudTournamentSetupPanelClose
 }
 
 //====================================================================================================================
+
+event HasNotificationsBlink
+{
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"								Linear 	0.0 	0.0
+
+	RunEvent HasNotificationsBlinkLoop			2.0
+}
+
+event HasNotificationsBlinkLoop
+{
+	RunEvent HasNotificationsBlink				0.0
+}
+
+event HasNotificationsBlinkStop
+{
+	StopEvent HasNotificationsBlink				0.0
+	StopEvent HasNotificationsBlinkLoop 		0.0
+	
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"								Linear 	0.0 	0.0
+}
+
+//===========================================================================================================================
 
 event ActiveTimerHighlight
 {

@@ -48,7 +48,7 @@ All the customizations can be found inside the Customizations folder and from th
 
 **whayay & Marblr:** Classes and Ready Icons
 
-**Broesel, Knuckles, Seeker:** Crosshairs Fonts
+**Broesel, Knuckles, Seeker, Toon, Whayay :** Crosshairs Fonts
 
 **Colly:** Killfeed icons help
 

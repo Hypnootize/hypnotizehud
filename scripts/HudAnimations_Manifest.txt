@@ -1,7 +1,11 @@
 hudanimations_manifest
 {
 	"file" "scripts/hudanimations.txt"
-	"file" "scripts/Hudanimations_Hypnotize.txt"
+	"file" "scripts/animations/Hypnotize.txt"
+	"file" "scripts/animations/Health.txt"
+	"file" "scripts/animations/Ammo.txt"
+	"file" "scripts/animations/Ubercharge.txt"
 	"file" "customizations/Crosshairs_Animations.txt"
+	"file" "scripts/animations/Hitmarkers.txt"
 	"file" "scripts/hudanimations_tf.txt"
 }
