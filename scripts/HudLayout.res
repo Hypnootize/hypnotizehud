@@ -1,6 +1,4 @@
 #base "HudLayout_Base.res"
-#base "../customizations/Crosshairs.res"
-#base "../customizations/HitMarkers.res"
 
 "Resource/HudLayout.res"
 {
