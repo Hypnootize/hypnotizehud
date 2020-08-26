@@ -560,7 +560,7 @@
 			"labelText"								"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"							"west"
 			"xpos"									"10"
-			"ypos"									"34"
+			"ypos"									"30"
 			"zpos"									"3"
 			"wide"									"80"
 			"tall"									"10"
@@ -1098,6 +1098,61 @@
 			}
 		}
 		
+		"BackstabsLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"BackstabsLabel"
+			"font"									"GameFont9"
+			"labelText"								"#TF_ScoreBoard_BackstabsLabel"
+			"textAlignment"							"west"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"3"
+			"wide"									"80"
+			"tall"									"10"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"AllCaps"								"1"
+			
+			"pin_to_sibling" 						"HeadshotsLabel"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			
+			if_mvm
+			{
+				"visible"							"0"
+			}
+		}
+		
+		"BackstabsWhite"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"BackstabsWhite"
+			"font"									"GameFont9"
+			"labelText"								"%backstabs%"
+			"textAlignment"							"west"
+			"xpos"									"-20"
+			"ypos"									"0"
+			"zpos"									"3"
+			"wide"									"40"
+			"tall"									"10"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			
+			"pin_to_sibling" 						"BackstabsLabel"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			
+			if_mvm
+			{
+				"visible"							"0"
+			}
+		}
+		
 		"BonusLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -1116,7 +1171,7 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			
-			"pin_to_sibling" 						"HeadshotsLabel"
+			"pin_to_sibling" 						"BackstabsLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 			
