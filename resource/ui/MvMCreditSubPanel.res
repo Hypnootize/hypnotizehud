@@ -135,7 +135,7 @@
 		"textAlignment" "center"
 		"xpos"			"126"
 		"ypos"			"26"
-		"wide"			"70"
+		"wide"			"0"		//70
 		"tall"			"20"
 		"AllCaps"		"1"
 		"fgcolor"		"Shadow"
@@ -150,7 +150,7 @@
 		"textAlignment" "center"
 		"xpos"			"125"
 		"ypos"			"25"
-		"wide"			"70"
+		"wide"			"0"		//70
 		"tall"			"20"
 		"AllCaps"		"1"
 		"fgcolor"		"White"
