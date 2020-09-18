@@ -67,7 +67,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -84,7 +84,7 @@
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
 			
-			"border_default"			"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
 			"border_armed"				"MaterialHypno"
 
 			"defaultFgColor_override"	"White"
@@ -122,7 +122,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -139,7 +139,7 @@
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
 			
-			"border_default"			"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
 			"border_armed"				"MaterialHypno"
 
 			"defaultFgColor_override"	"White"
@@ -190,7 +190,7 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"%selected_maps_count%"
 			"textAlignment"	"west"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"fgcolor_override"	"Main Theme"
 			
 			"AllCaps"		"1"
@@ -210,7 +210,7 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_Casual_QueueEstimation"
 			"textAlignment"	"east"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"fgcolor_override"	"TanLight"
 			"textinsetx"	"5"
 			"visible"	"0"

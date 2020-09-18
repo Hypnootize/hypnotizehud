@@ -22,7 +22,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"Size 11"
 		"labelText"		"#IT_BotControl_Title"
 		"textAlignment"	"west"
 		"xpos"			"7"
@@ -41,7 +41,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BotAnimationTitle"
-		"font"			"HudFontSmallest"
+		"font"			"Size 11"
 		"labelText"		"#IT_BotAnim_Title"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -59,7 +59,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"BotAnimationComboBox"
-		"Font"				"HudFontSmallest"
+		"Font"				"Size 11"
 		"xpos"				"95"
 		"ypos"				"20"
 		"zpos"				"1"
@@ -154,7 +154,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BotAnimationAnimTitle"
-		"font"			"HudFontSmallest"
+		"font"			"Size 11"
 		"labelText"		"#IT_BotAnimSpeed_Title"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -198,7 +198,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -215,7 +215,7 @@
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 	}
 	"OkButton"
@@ -233,7 +233,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#IT_Apply"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -250,7 +250,7 @@
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 	}
 	

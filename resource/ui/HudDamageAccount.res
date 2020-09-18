@@ -9,8 +9,8 @@
 		"PositiveColor"								"Heal Numbers"
 		"NegativeColor"								"Damage Numbers"
 		"delta_lifetime"							"2"
-		"delta_item_font"							"GameFont22Shadow"
-		"delta_item_font_big"						"GameFont22Shadow"
+		"delta_item_font"							"Game 22Shadow"
+		"delta_item_font_big"						"Game 22Shadow"
 	}
 	
 	"DamageAccountValue"
@@ -28,7 +28,7 @@
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"fgcolor"									"Last Damage Done"
-		"font"										"GameFont22"
+		"font"										"Game 22"
 	}
 	
 	"DamageAccountValueShadow"
@@ -46,7 +46,7 @@
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"fgcolor"									"Shadow"
-		"font"										"GameFont22Blur"
+		"font"										"Game 22 Blur"
 		
 		"pin_to_sibling" 							"DamageAccountValue"
 	}

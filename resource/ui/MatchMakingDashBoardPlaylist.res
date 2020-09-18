@@ -26,7 +26,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderModeSelect"
 		"textAlignment"	"west"
-		"font"			"HudFontMediumBigBold"
+		"font"			"Size 30"
 		"fgcolor_override"	"TanDark"
 		
 		"mouseinputenabled"	"0"
@@ -45,7 +45,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"select"
 		"textAlignment"	"center"
-		"font"			"HudFontGiantBold"
+		"font"			"Size 44"
 		"fgcolor_override"	"White"
 		
 		"mouseinputenabled"	"0"
@@ -64,7 +64,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"Gamemode"
 		"textAlignment"	"center"
-		"font"			"HudFontGiantBold"
+		"font"			"Size 44"
 		"fgcolor_override"	"White"
 		
 		"mouseinputenabled"	"0"

@@ -23,14 +23,14 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"Background"
+		"fillcolor"		"GrayDarkest"
 	}
 
 	"MapType"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"font"			"HudFontMediumBigBold"
+		"font"			"Size 30"
 		"labelText"		"%maptype%"
 		"textAlignment"	"center"
 		"xpos"			"c-240"
@@ -43,14 +43,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"AllCaps"		"1"
-		"fgcolor_override"	"LightBG"
+		"fgcolor_override"	"GrayDark"
 	}
 	
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"HudFontGiantBold"
+		"font"			"Size 44"
 		"labelText"		"%maplabel%"
 		"textAlignment"	"center"
 		"xpos"			"c-240"

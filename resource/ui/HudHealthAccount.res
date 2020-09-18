@@ -9,7 +9,7 @@
 		"PositiveColor"								"Buffed Health"
 		"NegativeColor"								"Low Health"
 		"delta_lifetime"							"1"
-		"delta_item_font"							"GameFont22"
-		"delta_item_font_minmode"					"GameFont16"
+		"delta_item_font"							"Game 22"
+		"delta_item_font_minmode"					"Game 16"
 	}
 }

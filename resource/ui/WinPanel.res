@@ -49,7 +49,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BlueTeamLabel"
-			"font"									"GameFont11"
+			"font"									"Game 11"
 			"fgcolor"								"White"
 			"labelText"								"%blueteamname%"
 			"textAlignment"							"west"
@@ -72,7 +72,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BlueTeamScore"
-			"font"									"GameFont16"
+			"font"									"Game 16"
 			"fgcolor"								"White"
 			"labelText"								"%blueteamscore%"
 			"textAlignment"							"east"
@@ -96,7 +96,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RedTeamLabel"
-			"font"									"GameFont11"
+			"font"									"Game 11"
 			"fgcolor"								"White"
 			"labelText"								"%redteamname%"
 			"textAlignment"							"east"
@@ -119,7 +119,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RedTeamScore"
-			"font"									"GameFont16"
+			"font"									"Game 16"
 			"fgcolor"								"White"
 			"labelText"								"%redteamscore%"
 			"textAlignment"							"west"
@@ -217,7 +217,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"Player1Name"
-		"font"										"GameFont11"
+		"font"										"Game 11"
 		"xpos"										"-5"
 		"ypos"										"1"
 		"zpos"										"3"
@@ -239,7 +239,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"Player1Class"
-		"font"										"GameFont11"
+		"font"										"Game 11"
 		"xpos"										"-88"
 		"ypos"										"1"
 		"zpos"										"3"
@@ -259,7 +259,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"Player1Score"
-		"font"										"GameFont11"
+		"font"										"Game 11"
 		"xpos"										"-5"
 		"ypos"										"1"
 		"zpos"										"3"
@@ -283,7 +283,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"Player2Name"
-		"font"										"GameFont11"
+		"font"										"Game 11"
 		"xpos"										"-5"
 		"ypos"										"-10"
 		"zpos"										"3"
@@ -305,7 +305,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"Player2Class"
-		"font"										"GameFont11"
+		"font"										"Game 11"
 		"xpos"										"-88"
 		"ypos"										"-10"
 		"zpos"										"3"
@@ -327,7 +327,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"Player2Score"
-		"font"										"GameFont11"
+		"font"										"Game 11"
 		"xpos"										"-5"
 		"ypos"										"-10"
 		"zpos"										"3"
@@ -351,7 +351,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"Player3Name"
-		"font"										"GameFont11"
+		"font"										"Game 11"
 		"xpos"										"-5"
 		"ypos"										"-20"
 		"zpos"										"3"
@@ -373,7 +373,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"Player3Class"
-		"font"										"GameFont11"
+		"font"										"Game 11"
 		"xpos"										"-88"
 		"ypos"										"-20"
 		"zpos"										"3"
@@ -395,7 +395,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"Player3Score"
-		"font"										"GameFont11"
+		"font"										"Game 11"
 		"xpos"										"-5"
 		"ypos"										"-20"
 		"zpos"										"3"

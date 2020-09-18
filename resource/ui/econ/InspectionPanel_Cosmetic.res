@@ -42,7 +42,7 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override" 						"Background"
+			"bgcolor_override" 						"GrayDarkest"
 			"proportionaltoparent" 					"1"
 		
 			"fullscreen_fade_to_black_duration"		"0.32"
@@ -67,7 +67,7 @@
 				"enabled"							"1"
 				"tabPosition"						"0"
 				"labelText"							"<"
-				"font"								"HudFontBiggerBold"
+				"font"								"Size 34"
 				"textAlignment"						"center"
 				"dulltext"							"0"
 				"brighttext"						"0"
@@ -77,7 +77,7 @@
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
 				
-				"border_default"			"MaterialLightBG"
+				"border_default"			"MaterialGrayDark"
 				"border_armed"				"MaterialHypno"
 
 				"defaultFgColor_override"	"White"
@@ -103,7 +103,7 @@
 				"enabled"							"1"
 				"tabPosition"						"0"
 				"labelText"							">"
-				"font"								"HudFontBiggerBold"
+				"font"								"Size 34"
 				"textAlignment"						"center"
 				"dulltext"							"0"
 				"brighttext"						"0"
@@ -112,7 +112,7 @@
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
 				
-				"border_default"			"MaterialLightBG"
+				"border_default"			"MaterialGrayDark"
 				"border_armed"				"MaterialHypno"
 
 				"defaultFgColor_override"	"White"
@@ -138,7 +138,7 @@
 				"enabled"							"1"
 				"tabPosition"						"0"
 				"labeltext"							""
-				"font"								"HudFontSmallBold"
+				"font"								"Size 14"
 				"textAlignment"						"center"
 				"dulltext"							"0"
 				"brighttext"						"0"
@@ -150,7 +150,7 @@
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
 				
-				"border_default"			"MaterialLightBG"
+				"border_default"			"MaterialGrayDark"
 				"border_armed"				"MaterialHypno"
 
 				"defaultFgColor_override"	"White"
@@ -227,7 +227,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override" 							"Background"
+		"bgcolor_override" 							"GrayDarkest"
 	}
 	
 	"DialogFrame"
@@ -243,7 +243,7 @@
 		"enabled"									"1"
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
-		"bgcolor_override"							"DarkBG"
+		"bgcolor_override"							"BlackDark"
 		"border"									"HypnoBorder"
 		
 		"PreviewViewportBg"
@@ -265,7 +265,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ItemNameLabel"
-			"font"									"HudFontSmallBold"
+			"font"									"Size 14"
 			"labelText"								"%itemname%"
 			"textAlignment"							"west"
 			"xpos"									"240"
@@ -497,7 +497,7 @@
 					"enabled"						"1"
 					"tabPosition"					"0"
 					"labelText"						"ITEM WIKI PAGE"
-					"font"							"HudFontSmallestBold"
+					"font"							"Size 11"
 					"textAlignment"					"center"
 					"dulltext"						"0"
 					"brighttext"					"0"
@@ -510,7 +510,7 @@
 					"sound_depressed"			"UI/buttonclick.wav"
 					"sound_released"			"UI/buttonclickrelease.wav"
 					
-					"border_default"			"MaterialLightBG"
+					"border_default"			"MaterialGrayDark"
 					"border_armed"				"MaterialHypno"
 
 					"defaultFgColor_override"	"White"
@@ -820,7 +820,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									"<"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -831,7 +831,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"
@@ -854,7 +854,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									">"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -865,7 +865,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"
@@ -877,7 +877,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ClassUsageMouseoverLabel"
-		"font"										"HudFontSmallest"
+		"font"										"Size 11"
 		"textAlignment"								"center"
 		"xpos"										"c-265"
 		"ypos"										"c125"
@@ -911,7 +911,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"<"
-		"font"			"HudFontBiggerBold"
+		"font"			"Size 34"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -921,7 +921,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"
@@ -946,7 +946,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		">"
-		"font"			"HudFontBiggerBold"
+		"font"			"Size 34"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -957,7 +957,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"
@@ -982,7 +982,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labeltext"		""
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -996,7 +996,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"
@@ -1037,7 +1037,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labeltext"		""
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1051,7 +1051,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"
@@ -1262,7 +1262,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"

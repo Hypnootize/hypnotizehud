@@ -29,7 +29,7 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MaterialDarkBG"
+			"border"		"MaterialBlackDark"
 		
 			"force_close"	"1"
 			"end_x"			"r515"
@@ -57,7 +57,7 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MaterialDarkBG"
+			"border"		"MaterialBlackDark"
 		
 			"force_close"	"1"
 			"end_x"			"r280"
@@ -85,7 +85,7 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MaterialDarkBG"
+			"border"		"MaterialBlackDark"
 		
 			"force_close"	"1"
 			"end_x"			"r515"
@@ -113,7 +113,7 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MaterialDarkBG"
+			"border"		"MaterialBlackDark"
 		
 			"force_close"	"1"
 			"end_x"			"r280"
@@ -141,7 +141,7 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MaterialDarkBG"
+			"border"		"MaterialBlackDark"
 		
 			"force_close"	"1"
 			"end_x"			"r515"
@@ -169,7 +169,7 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MaterialDarkBG"
+			"border"		"MaterialBlackDark"
 		
 			"force_close"	"0"
 			"end_x"			"r515"
@@ -197,7 +197,7 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MaterialDarkBG"
+			"border"		"MaterialBlackDark"
 		
 			"force_close"	"1"
 			"end_x"			"r515"
@@ -225,7 +225,7 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MaterialDarkBG"
+			"border"		"MaterialBlackDark"
 		
 			"force_close"	"1"
 			"end_x"			"r515"
@@ -253,7 +253,7 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MaterialDarkBG"
+			"border"		"MaterialBlackDark"
 		
 			"force_close"	"1"
 			"end_x"			"r515"
@@ -281,7 +281,7 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MaterialDarkBG"
+			"border"		"MaterialBlackDark"
 		
 			"force_close"	"1"
 			"end_x"			"r515"
@@ -309,7 +309,7 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MaterialDarkBG"
+			"border"		"MaterialBlackDark"
 		
 			"force_close"	"1"
 			"end_x"			"r515"
@@ -337,7 +337,7 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MaterialDarkBG"
+			"border"		"MaterialBlackDark"
 		
 			"force_close"	"1"
 			"end_x"			"r515"
@@ -364,7 +364,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MaterialDarkBG"
+		"border"		"MaterialBlackDark"
 		
 		"force_close"	"1"
 		"end_x"			"r100"
@@ -391,7 +391,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MaterialDarkBG"
+		"border"		"MaterialBlackDark"
 		
 		"start_x"		"c-85"
 		"start_y"		"185"
@@ -408,7 +408,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"%highlighttext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -427,7 +427,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"Size 14"
 			"labelText"		"#MMenu_TutorialHighlight_Text"
 			"textAlignment"	"south-west"
 			"xpos"			"20"
@@ -458,7 +458,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -502,7 +502,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MaterialDarkBG"
+		"border"		"MaterialBlackDark"
 		
 		"start_x"		"c-85"
 		"start_y"		"185"
@@ -519,7 +519,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#MMenu_PracticeHighlight_Title"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -538,7 +538,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"Size 14"
 			"labelText"		"#MMenu_PracticeHighlight_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -567,7 +567,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -613,7 +613,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MaterialDarkBG"
+		"border"		"MaterialBlackDark"
 		
 		"start_x"		"c-112"
 		"start_y"		"437"
@@ -630,7 +630,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#MMenu_NewUserForumHighlight_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -649,7 +649,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"Size 14"
 			"labelText"		"#MMenu_NewUserForumHighlight_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -679,7 +679,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -725,7 +725,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MaterialDarkBG"
+		"border"		"MaterialBlackDark"
 		
 		"start_x"		"c238"
 		"start_y"		"437"
@@ -742,7 +742,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#MMenu_OptionsHighlightPanel_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -761,7 +761,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"Size 14"
 			"labelText"		"#MMenu_OptionsHighlightPanel_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -791,7 +791,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -837,7 +837,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MaterialDarkBG"
+		"border"		"MaterialBlackDark"
 		
 		"start_x"		"c-190"
 		"start_y"		"267"
@@ -854,7 +854,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#MMenu_LoadoutHighlightPanel_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -873,7 +873,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"Size 14"
 			"labelText"		"#MMenu_LoadoutHighlightPanel_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -903,7 +903,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -949,7 +949,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MaterialDarkBG"
+		"border"		"MaterialBlackDark"
 		
 		"start_x"		"c20"
 		"start_y"		"285"
@@ -966,7 +966,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#MMenu_StoreHighlightPanel_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -985,7 +985,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"Size 14"
 			"labelText"		"%highlighttext%"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -1015,7 +1015,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1061,7 +1061,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MaterialDarkBG"
+		"border"		"MaterialBlackDark"
 		
 		"force_close"	"0"
 		"end_x"			"r300"
@@ -1088,7 +1088,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MaterialDarkBG"
+		"border"		"MaterialBlackDark"
 		
 		"force_close"	"0"
 		"end_x"			"r450"
@@ -1117,7 +1117,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MaterialDarkBG"
+		"border"		"MaterialBlackDark"
 		
 		"force_close"	"0"
 		"end_x"			"r600"

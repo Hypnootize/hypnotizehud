@@ -11,8 +11,8 @@
 		"tall"										"50"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"									"DarkBG"
-		"fgcolor_override"							"DarkBG"
+		"fgcolor"									"White"
+		"fgcolor_override"							"White"
 	}
 
 	"AvatarBGPanel"
@@ -25,8 +25,8 @@
 		"wide"										"36"
 		"tall"										"36"
 		"visible"									"1"
-		"PaintBackgroundType"						"2"
-		"bgcolor_override"							"117 107 94 255"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"White"
 	}
 	
 	"AvatarImage"
@@ -49,8 +49,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AvatarTextLabel"
-		"fgcolor"									"DarkBG"
-		"fgcolor_override" 							"DarkBG"
+		"fgcolor"									"White"
+		"fgcolor_override" 							"White"
 		"xpos"										"45"
 		"ypos"										"7"
 		"zpos"										"2"
@@ -63,21 +63,21 @@
 		"wrap"										"1"
 		"labelText"									"%avatartext%"
 		"textAlignment"								"West"
-		"font"										"HudFontSmallest"
+		"font"										"Size 12"
 	}
 
 	"TextLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TextLabel"
-		"fgcolor"									"DarkBG"
-		"fgcolor_override" 							"DarkBG"
+		"fgcolor"									"White"
+		"fgcolor_override" 							"White"
 		
 		"if_high_priority"
 		{
 			"fgcolor"								"White"
 			"fgcolor_override"						"White"
-			"font"									"StorePromotionsTitle"
+			"font"									"Size 10"
 		}
 		
 		"xpos"										"7"
@@ -92,6 +92,6 @@
 		"wrap"										"1"
 		"labelText"									"%text%"
 		"textAlignment"								"West"
-		"font"										"HudFontSmallest"
+		"font"										"Size 12"
 	}
 }

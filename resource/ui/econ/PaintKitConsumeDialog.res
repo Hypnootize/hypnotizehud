@@ -15,7 +15,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"Title"
-		"font"			"HudFontMediumBold"
+		"font"			"Size 24"
 		"labelText"		"#TF_UsePaintkit_Panel_Title"
 		"textAlignment"	"north"
 		"xpos"			"cs-0.5"
@@ -58,7 +58,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
-		"border"		"MaterialDarkBG"
+		"border"		"MaterialBlackDark"
 	}
 
 	"Shade"
@@ -79,7 +79,7 @@
 		"tall"			"150"
 		"proportionaltoparent"	"1"
 		"visible"		"0"
-		"border"		"MaterialDarkBG"
+		"border"		"MaterialBlackDark"
 
 		"CTFLogoPanel"
 		{
@@ -100,7 +100,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"WorkingText"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#TF_UsePaintkit_Working"
 			"textAlignment"	"north"
 			"xpos"			"cs-0.5"
@@ -126,7 +126,7 @@
 		"tall"			"150"
 		"proportionaltoparent"	"1"
 		"visible"		"0"
-		"border"		"MaterialDarkBG"
+		"border"		"MaterialBlackDark"
 
 		"CTFLogoPanel"
 		{
@@ -147,7 +147,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"SuccessText"
-			"font"			"HudFontMediumBold"
+			"font"			"Size 24"
 			"labelText"		"#AbuseReport_SucceededTitle"
 			"textAlignment"	"north"
 			"xpos"			"cs-0.5"
@@ -173,7 +173,7 @@
 		"tall"			"150"
 		"proportionaltoparent"	"1"
 		"visible"		"0"
-		"border"		"MaterialDarkBG"
+		"border"		"MaterialBlackDark"
 
 		"CTFLogoPanel"
 		{
@@ -194,7 +194,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"FailureText"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#TF_UsePaintkit_Failed"
 			"textAlignment"	"north"
 			"xpos"			"cs-0.5"
@@ -251,7 +251,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"
@@ -290,7 +290,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"

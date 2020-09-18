@@ -26,7 +26,7 @@
 		"enabled"									"1"
 		"textAlignment"								"east"	
 		"labelText"									"%bluescore%"
-		"font"										"GameFont16"
+		"font"										"Game 16"
 		"fgcolor"									"Blue"
 	}
 	
@@ -43,7 +43,7 @@
 		"enabled"									"1"
 		"textAlignment"								"east"	
 		"labelText"									"%bluescore%"
-		"font"										"GameFont16Blur"
+		"font"										"Game 16 Blur"
 		"fgcolor"									"Shadow"
 	}
 	
@@ -60,7 +60,7 @@
 		"enabled"									"1"
 		"textAlignment"								"west"	
 		"labelText"									"%redscore%"
-		"font"										"GameFont16"
+		"font"										"Game 16"
 		"fgcolor"									"Red"
 	}
 	
@@ -77,7 +77,7 @@
 		"enabled"									"1"
 		"textAlignment"								"west"	
 		"labelText"									"%redscore%"
-		"font"										"GameFont16Blur"
+		"font"										"Game 16 Blur"
 		"fgcolor"									"Shadow"
 	}
 

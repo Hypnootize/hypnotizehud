@@ -13,7 +13,7 @@
 		"tall"					"f0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"Background"
+		"bgcolor_override"		"GrayDarkest"
 		"border"				"NoBorder"
 		"settitlebarvisible"	""
 		
@@ -36,7 +36,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		""
-				"font"			"HudFontSmallBold"
+				"font"			"Size 14"
 				"textAlignment"	"west"
 				"textinsetx"	"34"
 				"use_proportional_insets" "1"
@@ -46,7 +46,7 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
-				"border_default"	"MaterialLightBG"
+				"border_default"	"MaterialGrayDark"
 				"border_armed"		"MaterialHypno"
 				"paintbackground"	"0"
 
@@ -77,7 +77,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiantBold"
+		"font"			"Size 44"
 		"labelText"		"#TF_TradeStartDialog_Title"
 		"textAlignment"	"north"
 		"xpos"			"c-200"
@@ -102,7 +102,7 @@
 		"wide"			"380"
 		"tall"			"130"
 		"PaintBackgroundType"	"2"
-		"border"	"MaterialDarkBG"
+		"border"	"MaterialBlackDark"
 		"paintbackground"	"0"
 		
 		"fgcolor_override"	"117 107 94 255"
@@ -136,7 +136,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#TF_TradeStartDialog_Select"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -167,7 +167,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_TradeStartDialog_SelectFriends"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -178,7 +178,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MaterialLightBG"
+			"border_default"	"MaterialGrayDark"
 			"border_armed"		"MaterialHypno"
 			"paintbackground"	"0"
 
@@ -201,7 +201,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_TradeStartDialog_SelectServer"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -211,7 +211,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MaterialLightBG"
+			"border_default"	"MaterialGrayDark"
 			"border_armed"		"MaterialHypno"
 			"paintbackground"	"0"
 
@@ -234,7 +234,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_TradeStartDialog_SelectProfile"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -244,7 +244,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MaterialLightBG"
+			"border_default"	"MaterialGrayDark"
 			"border_armed"		"MaterialHypno"
 			"paintbackground"	"0"
 
@@ -269,7 +269,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#TF_TradeStartDialog_Friends"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -288,7 +288,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"EmptyPlayerListLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#TF_TradeStartDialog_FriendsNone"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -322,7 +322,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#TF_TradeStartDialog_Server"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -342,7 +342,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"EmptyPlayerListLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#TF_TradeStartDialog_ServerNone"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -376,7 +376,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#TF_TradeStartDialog_Profile"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -396,7 +396,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"URLHelpLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#TF_TradeStartDialog_ProfileHelp"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -418,7 +418,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"URLFailLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#TF_TradeStartDialog_ProfileFail"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -439,7 +439,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"URLSearchingLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#TF_TradeStartDialog_ProfileLookup"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -480,7 +480,7 @@
 			"bgcolor_override"	"0 0 0 60"
 			"paintbackgroundtype" "2"
 			"labelText"			""
-			"font"				"HudFontSmall"
+			"font"				"Size 14"
 			"textAlignment"		"west"
 			"AllCaps"		"1"
 		}
@@ -500,7 +500,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_TradeStartDialog_ProfileGo"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -510,7 +510,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MaterialLightBG"
+			"border_default"	"MaterialGrayDark"
 			"border_armed"		"MaterialHypno"
 			"paintbackground"	"0"
 
@@ -535,7 +535,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -547,7 +547,7 @@
 		
 		"paintbackground"	"0"
 		
-		"border_default"	"MaterialLightBG"
+		"border_default"	"MaterialGrayDark"
 		"border_armed"		"MaterialHypno"
 		
 		"defaultFgColor_override"	"White"

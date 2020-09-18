@@ -53,7 +53,7 @@
 		"AllCaps"									"1"
 		"dulltext"									"0"
 		"brighttext"								"1"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"fgcolor_override"							"White"
 		
 		"pin_to_sibling" 							"MapFrame"
@@ -84,7 +84,7 @@
 	{
 		"ControlName"								"CExRichText"
 		"fieldName"									"MapInfoText"
-		"font"										"HudFontSmallest"
+		"font"										"Size 11"
 		"xpos"										"-5"
 		"ypos"										"-5"
 		"zpos"										"3"
@@ -124,7 +124,7 @@
 		"wrap"										"0"
 		"command"									"continue"
 		"default"									"1"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		
 		"paintbackground"							"0"
 		
@@ -163,7 +163,7 @@
 		"command"									"intro"
 		"default"									"1"
 		"paintbackground"							"0"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		
 		"paintbackground"							"0"
 		

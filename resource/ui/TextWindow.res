@@ -54,7 +54,7 @@
 		"AllCaps"									"1"
 		"dulltext"									"0"
 		"brighttext"								"1"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"fgcolor_override"							"White"
 		
 		"pin_to_sibling" 							"TitleFrame"
@@ -144,7 +144,7 @@
 		"wrap"										"0"
 		"command"									"okay"
 		"default"									"1"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		
 		"paintbackground"							"0"
 		

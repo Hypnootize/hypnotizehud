@@ -96,7 +96,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"NotBuiltLabel"
-			"font"									"GameFont10"
+			"font"									"Game 10"
 			"xpos"									"9"
 			"ypos"									"0"
 			"wide"									"110"
@@ -297,7 +297,7 @@
 				{	
 					"ControlName"					"CExLabel"
 					"fieldName"						"Used"
-					"font"							"GameFont10"
+					"font"							"Game 10"
 					"xpos"							"0"
 					"ypos"							"4"
 					"wide"							"200"
@@ -318,7 +318,7 @@
 				{	
 					"ControlName"					"CExLabel"
 					"fieldName"						"TimesUsedLabel"
-					"font"							"GameFont10"
+					"font"							"Game 10"
 					"xpos"							"28"
 					"ypos"							"4"
 					"wide"							"200"

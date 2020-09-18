@@ -79,8 +79,8 @@
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"GameFont14"
-		"font_minmode"								"GameFont12"
+		"font"										"Game 14"
+		"font_minmode"								"Game 12"
 		"fgcolor"   								"White"
 		
 		"pin_to_sibling" 							"ChargeMeterBG"

@@ -20,7 +20,7 @@
 	{
 		"ControlName"								"Label"
 		"fieldName"									"TargetNameLabel"
-		"font"										"GameFont11Shadow"
+		"font"										"Game 11Shadow"
 		"xpos"										"40"
 		"ypos"										"25"
 		"zpos"										"1"
@@ -37,7 +37,7 @@
 	{
 		"ControlName"								"Label"
 		"fieldName"									"TargetDataLabel"
-		"font"										"GameFont10Shadow"
+		"font"										"Game 10Shadow"
 		"xpos"										"40"
 		"ypos"										"32"
 		"zpos"										"1"
@@ -63,7 +63,7 @@
 		"enabled"									"0"
 		"HealthBonusPosAdj"							"10"
 		"HealthDeathWarning"						"0.49"
-		"TFFont"									"GameFont14"
+		"TFFont"									"Game 14"
 		"HealthDeathWarningColor"					"HUDDeathWarning"
 		"TextColor"									"HudOffWhite"
 	}

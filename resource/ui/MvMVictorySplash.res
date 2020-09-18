@@ -35,7 +35,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SplashLabelShadow"
-			"font"			"GameFont40Blur"
+			"font"			"Game 40 Blur"
 			"labelText"		"#TF_MVM_Victory"
 			"textAlignment" "center"
 			"xpos"			"2"
@@ -49,7 +49,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SplashLabel"
-			"font"			"GameFont40"
+			"font"			"Game 40"
 			"labelText"		"#TF_MVM_Victory"
 			"textAlignment" "center"
 			"xpos"			"0"

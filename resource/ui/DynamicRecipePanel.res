@@ -18,9 +18,9 @@
 		"tabPosition"							"0"
 		"settitlebarvisible"					"0"
 		"PaintBackgroundType"					"0"
-		"bgcolor_override"						"Background"
-		"infocus_bgcolor_override" 				"Background"
-		"outoffocus_bgcolor_override" 			"Background"
+		"bgcolor_override"						"GrayDarkest"
+		"infocus_bgcolor_override" 				"GrayDarkest"
+		"outoffocus_bgcolor_override" 			"GrayDarkest"
 
 		"item_ypos"								"50"
 		"output_item_ypos"						"255"		
@@ -101,7 +101,7 @@
 		"wide"									"300"
 		"tall"									"350"
 		"paintbackground"						"0"
-		"border"								"MaterialDarkBG"
+		"border"								"MaterialBlackDark"
 
 		"RecipeTitle"
 		{
@@ -130,7 +130,7 @@
 		{
 			"ControlName"						"CExLabel"
 			"fieldName"							"InputLabel"
-			"font"								"HudFontSmallBold"
+			"font"								"Size 14"
 			"labelText"							"#Craft_Recipe_Inputs"
 			"textAlignment"						"west"
 			"xpos"								"10"
@@ -150,7 +150,7 @@
 		{
 			"ControlName"						"CExLabel"
 			"fieldName"							"OutputLabel"
-			"font"								"HudFontSmallBold"
+			"font"								"Size 14"
 			"labelText"							"#Dynamic_Recipe_Outputs_Not_Complete"
 			"textAlignment"						"west"
 			"xpos"								"10"
@@ -171,7 +171,7 @@
 		{
 			"ControlName"						"CExLabel"
 			"fieldName"							"UntradableLabel"
-			"font"								"HudFontSmallBold"
+			"font"								"Size 14"
 			"labelText"							"#Dynamic_Recipe_Outputs_Not_Tradable"
 			"textAlignment"						"west"
 			"xpos"								"0"
@@ -202,7 +202,7 @@
 			"enabled"							"0"
 			"tabPosition"						"0"
 			"labelText"							"#CraftConfirm"
-			"font"								"HudFontSmallBold"
+			"font"								"Size 14"
 			"textAlignment"						"center"
 			"textinsetx"						"50"
 			"dulltext"							"0"
@@ -217,7 +217,7 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"MaterialLightBG"
+			"border_default"					"MaterialGrayDark"
 			"border_armed"						"MaterialHypno"
 
 			"defaultFgColor_override"			"White"
@@ -254,7 +254,7 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"MaterialLightBG"
+			"border_default"					"MaterialGrayDark"
 			"border_armed"						"MaterialHypno"
 
 			"defaultFgColor_override"			"White"
@@ -266,7 +266,7 @@
 		{
 			"ControlName"						"CExLabel"
 			"fieldName"							"CurInputPageLabel"
-			"font"								"HudFontMediumSmallBold"
+			"font"								"Size 18"
 			"labelText"							"%inputpage%"
 			"textAlignment"						"center"
 			"xpos"								"cs-0.5"
@@ -311,7 +311,7 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"MaterialLightBG"
+			"border_default"					"MaterialGrayDark"
 			"border_armed"						"MaterialHypno"
 
 			"defaultFgColor_override"			"White"
@@ -330,13 +330,13 @@
 		"wide"									"300"
 		"tall"									"350"
 		"paintbackground"						"0"
-		"border"								"MaterialDarkBG"
+		"border"								"MaterialBlackDark"
 
 		"NoMatches"
 		{
 			"ControlName"						"CExLabel"
 			"fieldName"							"NoMatches"
-			"font"								"HudFontSmallBold"
+			"font"								"Size 14"
 			"labelText"							"#Dynamic_Recipe_No_Matching_Items"
 			"textAlignment"						"center"
 			"xpos"								"cs-0.5"
@@ -360,7 +360,7 @@
 			"ControlName"						"CheckButton"
 			"fieldName"							"UntradableCheckBox"
 			"labelText"							"#Dynamic_Recipe_Untradable_Checkbox"
-			"Font"								"HudFontSmallestBold"
+			"Font"								"Size 11"
 			"textAlignment"						"west"
 			"xpos"								"5"
 			"ypos"								"7"
@@ -382,7 +382,7 @@
 		{
 			"ControlName"						"CExLabel"
 			"fieldName"							"BackpackItems"
-			"font"								"HudFontSmallBold"
+			"font"								"Size 14"
 			"labelText"							"#Dynamic_Recipe_Matching_Items"
 			"textAlignment"						"west"
 			"xpos"								"7"
@@ -415,7 +415,7 @@
 			"enabled"							"1"
 			"tabPosition"						"0"
 			"labelText"							"#Cancel"
-			"font"								"HudFontSmallBold"
+			"font"								"Size 14"
 			"textAlignment"						"center"
 			"textinsetx"						"50"
 			"dulltext"							"0"
@@ -430,7 +430,7 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"MaterialLightBG"
+			"border_default"					"MaterialGrayDark"
 			"border_armed"						"MaterialHypno"
 
 			"defaultFgColor_override"			"White"
@@ -465,7 +465,7 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"MaterialLightBG"
+			"border_default"					"MaterialGrayDark"
 			"border_armed"						"MaterialHypno"
 
 			"defaultFgColor_override"			"White"
@@ -477,7 +477,7 @@
 		{
 			"ControlName"						"CExLabel"
 			"fieldName"							"CurPageLabel"
-			"font"								"HudFontMediumSmallBold"
+			"font"								"Size 18"
 			"labelText"							"%backpackpage%"
 			"textAlignment"						"center"
 			"xpos"								"cs-0.5"
@@ -522,7 +522,7 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"MaterialLightBG"
+			"border_default"					"MaterialGrayDark"
 			"border_armed"						"MaterialHypno"
 
 			"defaultFgColor_override"			"White"

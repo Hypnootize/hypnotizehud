@@ -72,7 +72,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"center"
-		"font"										"GameFont12"
+		"font"										"Game 12"
 		"fgcolor"									"Health Numbers"
 		"labeltext"									"%Health%"
 	}
@@ -89,7 +89,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"center"
-		"font"										"GameFont12Blur"
+		"font"										"Game 12 Blur"
 		"fgcolor"									"Shadow"
 		"labeltext"									"%Health%"
 		

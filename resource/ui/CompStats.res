@@ -69,7 +69,7 @@
 			"actionsignallevel"		"2"
 			"command"		"show_leaderboards"
 			"labeltext"		"#TF_Competitive_ViewLeaderboards"
-			"font"			"HudFontSmallestBold"
+			"font"			"Size 11"
 			"textAlignment"	"center"
 			"AllCaps"		"1"
 
@@ -78,8 +78,8 @@
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
 			"paintborder"				"1"
-			"border_default"			"MaterialLightBG"
-			"border_armed"				"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
+			"border_armed"				"MaterialGrayDark"
 
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"Main Theme"
@@ -101,7 +101,7 @@
 			"actionsignallevel"		"2"
 			"command"		"show_match_history"
 			"labeltext"		"#TF_Competitive_ViewMatches"
-			"font"			"HudFontSmallestBold"
+			"font"			"Size 11"
 			"textAlignment"	"center"
 			"AllCaps"		"1"
 
@@ -111,7 +111,7 @@
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
 			
-			"border_default"			"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
 			"border_armed"				"MaterialHypno"
 
 			"defaultFgColor_override"	"White"
@@ -130,7 +130,7 @@
 			"tall"				"20"
 			"visible"			"1"
 			"paintbackground"	"0"
-			"border"			"MaterialLightBG"
+			"border"			"MaterialGrayDark"
 		}
 
 
@@ -228,7 +228,7 @@
 					"visible"		"1"
 			
 					"labeltext"			"#TF_Competitive_Result"
-					"font"				"HudFontSmallest"
+					"font"				"Size 11"
 					"textAlignment"		"west"
 					"textinsetx"		"15"
 
@@ -239,7 +239,7 @@
 					"sound_depressed"			"UI/buttonclick.wav"
 					"sound_released"			"UI/buttonclickrelease.wav"
 					
-					"border_default"			"MaterialLightBG"
+					"border_default"			"MaterialGrayDark"
 					"border_armed"				"MaterialHypno"
 
 					"defaultFgColor_override"	"White"
@@ -263,7 +263,7 @@
 					"paintbackground"	"0"	
 			
 					"labeltext"			"#TF_Competitive_Date"
-					"font"				"HudFontSmallest"
+					"font"				"Size 11"
 					"textAlignment"		"west"
 					"textinsetx"		"15"
 
@@ -274,7 +274,7 @@
 					"sound_depressed"			"UI/buttonclick.wav"
 					"sound_released"			"UI/buttonclickrelease.wav"
 					
-					"border_default"			"MaterialLightBG"
+					"border_default"			"MaterialGrayDark"
 					"border_armed"				"MaterialHypno"
 
 					"defaultFgColor_override"	"White"
@@ -298,7 +298,7 @@
 					"paintbackground"	"0"
 			
 					"labeltext"			"#TF_Competitive_Map"
-					"font"				"HudFontSmallest"
+					"font"				"Size 11"
 					"textAlignment"		"west"
 					"textinsetx"		"15"
 					
@@ -309,7 +309,7 @@
 					"sound_depressed"			"UI/buttonclick.wav"
 					"sound_released"			"UI/buttonclickrelease.wav"
 					
-					"border_default"			"MaterialLightBG"
+					"border_default"			"MaterialGrayDark"
 					"border_armed"				"MaterialHypno"
 
 					"defaultFgColor_override"	"White"
@@ -333,7 +333,7 @@
 					"paintbackground"	"0"
 			
 					"labeltext"			"#TF_Competitive_KDR"
-					"font"				"HudFontSmallest"
+					"font"				"Size 11"
 					"textAlignment"		"west"
 					
 					"AllCaps"			"1"
@@ -343,7 +343,7 @@
 					"sound_depressed"			"UI/buttonclick.wav"
 					"sound_released"			"UI/buttonclickrelease.wav"
 					
-					"border_default"			"MaterialLightBG"
+					"border_default"			"MaterialGrayDark"
 					"border_armed"				"MaterialHypno"
 
 					"defaultFgColor_override"	"White"

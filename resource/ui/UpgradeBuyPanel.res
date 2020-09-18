@@ -22,7 +22,7 @@
 			"wide"			"16"
 			"tall"			"16"
 			"textAlignment"	"center"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"image"			"pve/upgrade_unowned"
 			"scaleImage"	"1"	
 			
@@ -34,7 +34,7 @@
 			"depressedBgColor_override"	"Blank"
 			"selectedFgColor_override"	"Main Theme"
 			"selectedBgColor_override"	"Blank"
-			"disabledfgcolor2_override"	"DarkBG"
+			"disabledfgcolor2_override"	"BlackDark"
 		}
 	}
 	
@@ -53,7 +53,7 @@
 		"enabled"		"1"
 		
 		"PaintBackgroundType" "2"
-		"bgcolor_override"	"Background"
+		"bgcolor_override"	"GrayDarkest"
 	}
 	
 	"IconBorder"
@@ -111,7 +111,7 @@
 		
 		"labelText"		""
 		"textAlignment"	"center"
-		"font"			"HudFontSmall"
+		"font"			"Size 14"
 	}
 	
 	"ShortDescriptionLabel"
@@ -132,7 +132,7 @@
 		
 		"labelText"		""
 		"textAlignment"	"center-west"
-		"font"			"HudFontSmallest"
+		"font"			"Size 11"
 	}
 	
 	"BuySellBG"
@@ -184,7 +184,7 @@
 		"depressedBgColor_override"	"Blank"
 		"selectedFgColor_override"	"Main Theme"
 		"selectedBgColor_override"	"Blank"
-		"disabledfgcolor2_override"	"DarkBG"
+		"disabledfgcolor2_override"	"BlackDark"
 	}
 	
 	"DecrementButton"
@@ -218,6 +218,6 @@
 		"depressedBgColor_override"	"Blank"
 		"selectedFgColor_override"	"Main Theme"
 		"selectedBgColor_override"	"Blank"
-		"disabledfgcolor2_override"	"DarkBG"
+		"disabledfgcolor2_override"	"BlackDark"
 	}
 }

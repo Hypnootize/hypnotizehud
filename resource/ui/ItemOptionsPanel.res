@@ -17,7 +17,7 @@
 		"autohide_scrollbar"						"1"
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
-		"bgcolor_override"							"DarkBG"
+		"bgcolor_override"							"BlackDark"
 		"border"									"NoBorder"
 
 		"HatUseHeadCheckButton"
@@ -79,7 +79,7 @@
 			"enabled"								"1"
 			"tabPosition"							"0"
 			"labelText"								"#TF_Item_SelectStyle"
-			"font"									"HudFontSmallBold"
+			"font"									"Size 14"
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"

@@ -97,7 +97,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"NotBuiltLabel"
-			"font"									"GameFont10"
+			"font"									"Game 10"
 			"xpos"									"9"
 			"ypos"									"0"
 			"wide"									"110"

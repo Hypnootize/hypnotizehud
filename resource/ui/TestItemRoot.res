@@ -11,7 +11,7 @@
 		"ypos"					"0"
 		"wide"					"f0"
 		"tall"					"480"
-		"bgcolor_override"		"Background"
+		"bgcolor_override"		"GrayDarkest"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
 		"paintborder"			"0"
@@ -22,7 +22,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"Size 24"
 		"labelText"		"#IT_Title"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -48,13 +48,13 @@
 		"tall"			"105"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"	"MaterialDarkBG"
+		"border"	"MaterialBlackDark"
 		
 		"ClassUsageLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ClassUsageLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"Size 11"
 			"labelText"		"#IT_ClassUsage"
 			"textAlignment"	"west"
 			"xpos"			"7"
@@ -291,13 +291,13 @@
 		"tall"			"115"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"	"MaterialDarkBG"
+		"border"	"MaterialBlackDark"
 	
 		"CurrentlyTestingLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CurrentlyTestingLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"Size 11"
 			"labelText"		"#IT_CurrentlyTesting"
 			"textAlignment"	"west"
 			"xpos"			"7"
@@ -316,7 +316,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TestingWeaponLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#IT_TestingSlot_Weapon"
 			"textAlignment"	"east"
 			"xpos"			"0"
@@ -365,7 +365,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#IT_Item_Add"
-			"font"			"HudFontSmallestBold"
+			"font"			"Size 11"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -382,7 +382,7 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
 			
-			"border_default"			"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
 			"border_armed"				"MaterialHypno"
 		}
 		"RemoveItemButton0"
@@ -419,14 +419,14 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
 			
-			"border_default"			"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
 			"border_armed"				"MaterialRed"
 		}
 		"TestingHeadgearLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TestingHeadgearLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#IT_TestingSlot_Headgear"
 			"textAlignment"	"east"
 			"xpos"			"0"
@@ -475,7 +475,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#IT_Item_Add"
-			"font"			"HudFontSmallestBold"
+			"font"			"Size 11"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -492,7 +492,7 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
 			
-			"border_default"			"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
 			"border_armed"				"MaterialHypno"
 		}
 		"RemoveItemButton1"
@@ -529,14 +529,14 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
 			
-			"border_default"			"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
 			"border_armed"				"MaterialRed"
 		}
 		"TestingMisc1Label"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TestingMisc1Label"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#IT_TestingSlot_Misc1"
 			"textAlignment"	"east"
 			"xpos"			"0"
@@ -585,7 +585,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#IT_Item_Add"
-			"font"			"HudFontSmallestBold"
+			"font"			"Size 11"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -602,7 +602,7 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
 			
-			"border_default"			"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
 			"border_armed"				"MaterialHypno"
 		}
 		"RemoveItemButton2"
@@ -639,14 +639,14 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
 			
-			"border_default"			"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
 			"border_armed"				"MaterialRed"
 		}
 		"TestingMisc2Label"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TestingMisc2Label"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#IT_TestingSlot_Misc2"
 			"textAlignment"	"east"
 			"xpos"			"0"
@@ -695,7 +695,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#IT_Item_Add"
-			"font"			"HudFontSmallestBold"
+			"font"			"Size 11"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -712,7 +712,7 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
 			
-			"border_default"			"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
 			"border_armed"				"MaterialHypno"
 		}
 		"RemoveItemButton3"
@@ -749,7 +749,7 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
 			
-			"border_default"			"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
 			"border_armed"				"MaterialRed"
 		}
 	}
@@ -765,13 +765,13 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
-		"border"		"MaterialDarkBG"
+		"border"		"MaterialBlackDark"
 		
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"Size 11"
 			"labelText"		"#IT_BotControl_Title"
 			"textAlignment"	"west"
 			"xpos"			"7"
@@ -845,7 +845,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#IT_Bot_Add"
-			"font"			"HudFontSmallestBold"
+			"font"			"Size 11"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -862,7 +862,7 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
 			
-			"border_default"			"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
 			"border_armed"				"MaterialHypno"
 		}
 	
@@ -870,7 +870,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"BotSelectionComboBox"
-			"Font"				"HudFontSmallest"
+			"Font"				"Size 11"
 			"xpos"				"95"
 			"ypos"				"45"
 			"zpos"				"1"
@@ -912,7 +912,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#IT_Bot_RemoveAll"
-			"font"			"HudFontSmallestBold"
+			"font"			"Size 11"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -929,7 +929,7 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
 			
-			"border_default"			"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
 			"border_armed"				"MaterialHypno"
 		}
 	}
@@ -946,7 +946,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"0"
 		"paintborder"			"1"
-		"border"				"MaterialDarkBG"
+		"border"				"MaterialBlackDark"
 	}
 	
 	"ExportButton"
@@ -964,7 +964,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#IT_ExportLoadout"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -981,7 +981,7 @@
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 	}
 	"ImportButton"
@@ -999,7 +999,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#IT_ImportLoadout"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1016,7 +1016,7 @@
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 	}
 	"ImportRecentButton"
@@ -1034,7 +1034,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#IT_ImportLast"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1051,7 +1051,7 @@
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 	}
 	
@@ -1070,7 +1070,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1087,7 +1087,7 @@
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 	}
 	"OkButton"
@@ -1105,7 +1105,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#IT_Ok"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1122,7 +1122,7 @@
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 	}
 
@@ -1153,7 +1153,7 @@
 			"textinsetx"	"25"
 			"textalignment" "center"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1172,7 +1172,7 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
 			
-			"border_default"			"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
 			"border_armed"				"MaterialHypno"
 			
 			"image_armedcolor"	"White"

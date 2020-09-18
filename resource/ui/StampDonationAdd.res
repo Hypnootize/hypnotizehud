@@ -16,14 +16,14 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"DarkBG"
+		"bgcolor_override"	"BlackDark"
 	}
 	
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"HudFontMediumBold"
+		"font"				"Size 24"
 		"labelText"			"#ConfirmTitle"
 		"textAlignment"		"north"
 		"xpos"				"0"
@@ -43,7 +43,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ExplanationLabel"
-		"font"				"HudFontSmallestBold"
+		"font"				"Size 11"
 		"labelText"			"%text%"
 		"textAlignment"		"north-west"
 		"xpos"				"35"
@@ -63,7 +63,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ExplanationLabel2"
-		"font"				"HudFontSmallest"
+		"font"				"Size 11"
 		"labelText"			"and earn the world traveler's hat to track contributions: "
 		"textAlignment"		"north"
 		"xpos"				"40"
@@ -126,7 +126,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_Nope"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -140,7 +140,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"
@@ -163,7 +163,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_AddToCart"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -177,7 +177,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"
@@ -205,7 +205,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PriceLabel"
-		"font"			"HudFontSmall"
+		"font"			"Size 14"
 		"labelText"		"%price%"
 		"textAlignment"	"center"
 		"xpos"			"270"

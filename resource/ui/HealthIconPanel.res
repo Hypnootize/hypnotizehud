@@ -12,7 +12,7 @@
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"	
-		"TFFont"									"GameFont14"
+		"TFFont"									"Game 14"
 		"TextColor"									"HudOffWhite"
 		"autoResize"								"1"
 	}
@@ -29,7 +29,7 @@
 		"tall"										"128"
 		"visible"									"1"
 		"enabled"									"1"	
-		"TFFont"									"GameFont14"
+		"TFFont"									"Game 14"
 		"TextColor"									"HudOffWhite"
 		"autoResize"								"1"
 	}	

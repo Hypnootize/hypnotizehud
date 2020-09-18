@@ -41,7 +41,7 @@
 			"mouseinputenabled"	"0"
 		
 			"proportionaltoparent"	"1"
-			"bgcolor_override"	"LightBG"
+			"bgcolor_override"	"GrayDark"
 		}
 
 		"BGImage"
@@ -154,7 +154,7 @@
 			"enabled"		"1"
 			"labelText"		"%title_token%"
 			"use_proportional_insets" "1"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"Size 18"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -181,7 +181,7 @@
 			"labelText"		"%title_token%"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
+			"font"			"Size 11"
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -277,6 +277,6 @@
 
 		"skip_autoresize"	"1"
 
-		"bgcolor_override"	"DarkBG"
+		"bgcolor_override"	"BlackDark"
 	}
 }

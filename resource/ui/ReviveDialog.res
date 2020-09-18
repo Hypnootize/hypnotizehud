@@ -16,7 +16,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"0"
-		"border"				"MaterialDarkBG"
+		"border"				"MaterialBlackDark"
 
 		"TitleLabel"
 		{
@@ -88,7 +88,7 @@
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
 			
-			"border_default"			"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
 			"border_armed"				"MaterialHypno"
 
 			"defaultFgColor_override"	"White"
@@ -109,7 +109,7 @@
 			"enabled"			"1"	
 			"HealthBonusPosAdj"	"10"
 			"HealthDeathWarning"		"0.49"
-			"TFFont"					"HudFontSmallest"
+			"TFFont"					"Size 11"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
 			"TextColor"					"HudOffWhite"
 			"autoResize"	"1"

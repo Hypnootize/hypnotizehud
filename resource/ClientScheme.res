@@ -13,8 +13,8 @@
 ////////////////////FONTS//////////////////
 ///////////////////////////////////////////
 
+//#base "../customizations/Alternative Fonts.res"
 #base "../resource/scheme/Fonts.res"
-#base "../customizations/Alternative Fonts.res"
 #base "../resource/scheme/Symbols.res"
 
 ///////////////////////////////////////////

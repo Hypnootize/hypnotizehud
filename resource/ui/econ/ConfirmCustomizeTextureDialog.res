@@ -12,7 +12,7 @@
 		"wide"					"f0"
 		"tall"					"f0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"Background"
+		"bgcolor_override"		"GrayDarkest"
 	}
 	
 	"BackgroundCustom"
@@ -27,7 +27,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"0"
-		"border"				"MaterialDarkBG"
+		"border"				"MaterialBlackDark"
 	}
 
 //	"Container"
@@ -87,7 +87,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"ToolBG"
-			"font"				"HudFontSmallBold"
+			"font"				"Size 14"
 			"labelText"			""
 			"textAlignment"		"east"
 			"xpos"				"c-270"
@@ -138,7 +138,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"dynamic"
 			"textAlignment"	"center"
 			"xpos"			"c-180"
@@ -154,7 +154,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"SubjectBG"
-			"font"				"HudFontSmallBold"
+			"font"				"Size 14"
 			"labelText"			""
 			"textAlignment"		"east"
 			"xpos"				"c185"
@@ -252,7 +252,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"PageTitleLabel"
-				"font"			"HudFontMediumSmall"
+				"font"			"Size 18"
 				"labelText"		"#ToolCustomizeTextureStep1"
 				"textAlignment"	"north-west"
 				"xpos"			"3"
@@ -284,7 +284,7 @@
 					"tall"				"20"
 					"labelText"			"#ToolCustomizeTextureUseAvatarImage"
 					"textAlignment"		"west"
-					"font"				"HudFontSmallBold"
+					"font"				"Size 14"
 					"AllCaps"			"1"
 				}
 
@@ -298,7 +298,7 @@
 					"tall"				"20"
 					"labelText"			"#ToolCustomizeTextureUseAnyImage"
 					"textAlignment"		"west"
-					"font"				"HudFontSmallBold"
+					"font"				"Size 14"
 					"AllCaps"			"1"
 				}
 
@@ -313,7 +313,7 @@
 					"tall"				"22"
 					"textinsetx"		"5"
 					"labelText"			"#ToolCustomizeTextureBrowseButton"
-					"font"				"HudFontSmallBold"
+					"font"				"Size 14"
 					"Command"			"pick_image"
 					"textAlignment"	"center"
 					"AllCaps"			"1"
@@ -323,7 +323,7 @@
 					"sound_depressed"			"UI/buttonclick.wav"
 					"sound_released"			"UI/buttonclickrelease.wav"
 					
-					"border_default"			"MaterialLightBG"
+					"border_default"			"MaterialGrayDark"
 					"border_armed"				"MaterialHypno"
 
 					"defaultFgColor_override"	"White"
@@ -335,7 +335,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"			"ForBestResultsLabel"
-					"font"				"HudFontSmallest"
+					"font"				"Size 11"
 					"xpos"				"43"
 					"ypos"				"135"
 					"wide"				"300"
@@ -380,7 +380,7 @@
 					"wide"				"140"
 					"tall"				"15"
 					"editable"			"0"
-					"font"				"HudFontSmall"
+					"font"				"Size 14"
 
 					//"fgcolor_override"	"White"
 					"bgcolor_override"		"Black"
@@ -403,7 +403,7 @@
 				"wide"			"130"
 				"tall"			"25"
 				"labelText"		"#Cancel"
-				"font"			"HudFontSmallBold"
+				"font"			"Size 14"
 				"textAlignment"	"center"
 				"Command"		"cancel"
 				
@@ -414,7 +414,7 @@
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
 				
-				"border_default"			"MaterialLightBG"
+				"border_default"			"MaterialGrayDark"
 				"border_armed"				"MaterialHypno"
 
 				"defaultFgColor_override"	"White"
@@ -432,7 +432,7 @@
 				"wide"			"130"
 				"tall"			"25"
 				"labelText"		"#TF_NextCarat"
-				"font"			"HudFontSmallBold"
+				"font"			"Size 14"
 				"textAlignment"	"center"
 				"Command"		"next_page"
 				
@@ -443,7 +443,7 @@
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
 				
-				"border_default"			"MaterialLightBG"
+				"border_default"			"MaterialGrayDark"
 				"border_armed"				"MaterialHypno"
 
 				"defaultFgColor_override"	"White"
@@ -469,7 +469,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"PageTitleLabel"
-				"font"			"HudFontMediumSmall"
+				"font"			"Size 18"
 				"labelText"		"#ToolCustomizeTextureStep2"
 				"textAlignment"	"north-west"
 				"xpos"			"3"
@@ -484,7 +484,7 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"SelectFilterGroupBox"
-				"Font"				"HudFontSmallestBold"
+				"Font"				"Size 11"
 				"xpos"				"0"
 				"ypos"				"25"
 				"zpos"				"-1"
@@ -496,7 +496,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"FilterLabel"
-					"font"			"HudFontSmallBold"
+					"font"			"Size 14"
 					"xpos"			"10"
 					"ypos"			"10"
 					"wide"			"140"
@@ -517,7 +517,7 @@
 					"wide"			"140"
 					"tall"			"15"
 					"editable"		"0"
-					"font"			"HudFontSmall"
+					"font"			"Size 14"
 					"visible"		"0"
 
 					//"fgcolor_override"	"White"
@@ -549,7 +549,7 @@
 						"tall"				"80"
 						"labelText"			"#ToolCustomizeTexturePainterlyDescription"
 						"textAlignment"		"north-west"
-						"font"				"HudFontSmall"
+						"font"				"Size 14"
 						"wrap"				"1"
 						"AllCaps"			"1"
 					}
@@ -575,7 +575,7 @@
 						"tall"			"60"
 						"labelText"		"#ToolCustomizeTextureStencilDescription"
 						"textAlignment"	"north-west"
-						"font"			"HudFontSmall"
+						"font"			"Size 14"
 						"wrap"			"1"
 						"visible"		"0"
 						"AllCaps"		"1"
@@ -591,7 +591,7 @@
 						"tall"			"15"
 						"labelText"		"#ToolCustomizeTextureColorPalette"
 						"textAlignment"	"north-west"
-						"font"			"HudFontSmallBold"
+						"font"			"Size 14"
 						"AllCaps"		"1"
 					}
 
@@ -605,7 +605,7 @@
 						"wide"			"65"
 						"tall"			"20"
 						"labelText"		"<<"
-						"font"			"HudFontSmallBold"
+						"font"			"Size 14"
 						"textAlignment"	"center"
 						"Command"		"prev_stencil_palette"
 		
@@ -614,7 +614,7 @@
 						"sound_depressed"			"UI/buttonclick.wav"
 						"sound_released"			"UI/buttonclickrelease.wav"
 						
-						"border_default"			"MaterialLightBG"
+						"border_default"			"MaterialGrayDark"
 						"border_armed"				"MaterialHypno"
 
 						"defaultFgColor_override"	"White"
@@ -632,7 +632,7 @@
 						"wide"			"65"
 						"tall"			"20"
 						"labelText"		">>"
-						"font"			"HudFontSmallBold"
+						"font"			"Size 14"
 						"textAlignment"	"center"
 						"Command"		"next_stencil_palette"
 		
@@ -641,7 +641,7 @@
 						"sound_depressed"			"UI/buttonclick.wav"
 						"sound_released"			"UI/buttonclickrelease.wav"
 						
-						"border_default"			"MaterialLightBG"
+						"border_default"			"MaterialGrayDark"
 						"border_armed"				"MaterialHypno"
 
 						"defaultFgColor_override"	"White"
@@ -670,7 +670,7 @@
 						"wide"				"140"
 						"tall"				"15"
 						"editable"			"0"
-						"font"				"HudFontSmall"
+						"font"				"Size 14"
 
 						//"fgcolor_override"	"White"
 						"bgcolor_override"	"Black"
@@ -728,7 +728,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"DragToRotateLabel"
-					"font"			"HudFontSmall"
+					"font"			"Size 14"
 					"labelText"		"#ToolCustomizeTextureDragToRotate"
 					"textAlignment"	"center"
 					"xpos"			"10"
@@ -751,7 +751,7 @@
 				"wide"			"130"
 				"tall"			"25"
 				"labelText"		"#Cancel"
-				"font"			"HudFontSmallBold"
+				"font"			"Size 14"
 				"textAlignment"	"center"
 				"Command"		"cancel"
 				
@@ -762,7 +762,7 @@
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
 				
-				"border_default"			"MaterialLightBG"
+				"border_default"			"MaterialGrayDark"
 				"border_armed"				"MaterialHypno"
 
 				"defaultFgColor_override"	"White"
@@ -780,7 +780,7 @@
 				"wide"			"130"
 				"tall"			"25"
 				"labelText"		"#TF_BackCarat"
-				"font"			"HudFontSmallBold"
+				"font"			"Size 14"
 				"textAlignment"	"center"
 				"Command"		"prev_page"
 				
@@ -791,7 +791,7 @@
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
 				
-				"border_default"			"MaterialLightBG"
+				"border_default"			"MaterialGrayDark"
 				"border_armed"				"MaterialHypno"
 
 				"defaultFgColor_override"	"White"
@@ -809,7 +809,7 @@
 				"wide"			"130"
 				"tall"			"25"
 				"labelText"		"#TF_NextCarat"
-				"font"			"HudFontSmallBold"
+				"font"			"Size 14"
 				"textAlignment"	"center"
 				"Command"		"next_page"
 				
@@ -820,7 +820,7 @@
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
 				
-				"border_default"			"MaterialLightBG"
+				"border_default"			"MaterialGrayDark"
 				"border_armed"				"MaterialHypno"
 
 				"defaultFgColor_override"	"White"
@@ -844,7 +844,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"PageTitleLabel"
-				"font"			"HudFontMediumSmall"
+				"font"			"Size 18"
 				"labelText"		"#ToolCustomizeTextureStep3"
 				"textAlignment"	"north-west"
 				"xpos"			"3"
@@ -859,7 +859,7 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"WarningTextGroupBox"
-				"Font"			"HudFontSmallestBold"
+				"Font"			"Size 11"
 				"xpos"			"0"
 				"ypos"			"25"
 				"zpos"			"-1"
@@ -871,7 +871,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"			"WarningText"
-					"font"				"HudFontSmall"
+					"font"				"Size 14"
 					"xpos"				"10"
 					"ypos"				"10"
 					"wide"				"330"
@@ -906,7 +906,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"DragToRotateLabel"
-					"font"			"HudFontSmall"
+					"font"			"Size 14"
 					"labelText"		"#ToolCustomizeTextureDragToRotate"
 					"textAlignment"	"center"
 					"xpos"			"10"
@@ -929,7 +929,7 @@
 				"wide"			"130"
 				"tall"			"25"
 				"labelText"		"#Cancel"
-				"font"			"HudFontSmallBold"
+				"font"			"Size 14"
 				"textAlignment"	"center"
 				"default"		"0"
 				"Command"		"cancel"
@@ -941,7 +941,7 @@
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
 				
-				"border_default"			"MaterialLightBG"
+				"border_default"			"MaterialGrayDark"
 				"border_armed"				"MaterialHypno"
 
 				"defaultFgColor_override"	"White"
@@ -959,7 +959,7 @@
 				"wide"			"130"
 				"tall"			"25"
 				"labelText"		"#TF_BackCarat"
-				"font"			"HudFontSmallBold"
+				"font"			"Size 14"
 				"textAlignment"	"center"
 				"Command"		"prev_page"
 				
@@ -970,7 +970,7 @@
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
 				
-				"border_default"			"MaterialLightBG"
+				"border_default"			"MaterialGrayDark"
 				"border_armed"				"MaterialHypno"
 
 				"defaultFgColor_override"	"White"
@@ -988,7 +988,7 @@
 				"wide"			"130"
 				"tall"			"25"
 				"labelText"		"#ToolCustomizeTextureOKButton"
-				"font"			"HudFontSmallBold"
+				"font"			"Size 14"
 				"textAlignment"	"center"
 				"default"		"1"
 				"Command"		"apply"
@@ -1000,7 +1000,7 @@
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
 				
-				"border_default"			"MaterialLightBG"
+				"border_default"			"MaterialGrayDark"
 				"border_armed"				"MaterialHypno"
 
 				"defaultFgColor_override"	"White"
@@ -1024,7 +1024,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"PleaseWaitLabel"
-				"font"			"HudFontSmallBold"
+				"font"			"Size 14"
 				"labelText"		"#ToolCustomizeTexturePleaseWait"
 				"textAlignment"	"center"
 				"xpos"			"20"
@@ -1058,7 +1058,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"DragToRotateLabel"
-					"font"			"HudFontSmall"
+					"font"			"Size 14"
 					"labelText"		"#ToolCustomizeTextureDragToRotate"
 					"textAlignment"	"center"
 					"xpos"			"10"

@@ -542,7 +542,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"border"			"MaterialDarkBG"
+		"border"			"MaterialBlackDark"
 		"bgcolor_override"	"Blank"
 		"PaintBackground"	"0"
 
@@ -560,7 +560,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"Size 24"
 			"labelText"		"#TF_Vote_Title"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -614,7 +614,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ComboLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"Size 11"
 			"labelText"		"%combo_label%"
 			"textAlignment"	"east"
 			"xpos"			"5"
@@ -631,7 +631,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBox"
-			"Font"				"HudFontSmallestBold"
+			"Font"				"Size 11"
 			"xpos"				"85"
 			"ypos"				"245"
 			"zpos"				"1"
@@ -677,7 +677,7 @@
 			"brighttext"	"0"
 			"Command"		"CallVote"
 			"Default"		"0"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			
 			"AllCaps"					"1"
 		
@@ -705,7 +705,7 @@
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"0"
-			"border"		"MaterialLightBG"
+			"border"		"MaterialGrayDark"
 		}
 		
 		"Button1"
@@ -728,7 +728,7 @@
 			"brighttext"	"0"
 			"Command"		"Close"
 			"Default"		"0"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			
 			"AllCaps"					"1"
 		
@@ -756,7 +756,7 @@
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"0"
-			"border"		"MaterialLightBG"
+			"border"		"MaterialGrayDark"
 		}
 	}
 }

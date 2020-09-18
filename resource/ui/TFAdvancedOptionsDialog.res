@@ -16,7 +16,7 @@
 		"settitlebarvisible"						""
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
-		"bgcolor_override"							"Background"
+		"bgcolor_override"							"GrayDarkest"
 		"border"									"NoBorder"
 		
 		"control_w"									"500"
@@ -37,14 +37,14 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"0"
-		"border"				"MaterialDarkBG"
+		"border"				"MaterialBlackDark"
 	}
 	
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"HudFontMediumBold"
+		"font"										"Size 24"
 		"labelText"									"#TF_AdvancedOptions"
 		"textAlignment"								"center"
 		"xpos"										"c-250"
@@ -75,7 +75,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									"#Cancel"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -96,7 +96,7 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"MaterialLightBG"
+		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}
 	
@@ -115,7 +115,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									"#GameUI_Ok"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -136,7 +136,7 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"MaterialLightBG"
+		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}
 	
@@ -170,13 +170,13 @@
 		"visible"									"0"
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"0"
-		"border"									"MaterialLightBG"
+		"border"									"MaterialGrayDark"
 		
 		"TipLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipLabel"
-			"font"									"HudFontSmallest"
+			"font"									"Size 11"
 			"labelText"								"%tiptext%"
 			"textAlignment"							"center"
 			"xpos"									"20"

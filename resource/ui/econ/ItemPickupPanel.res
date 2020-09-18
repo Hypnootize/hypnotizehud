@@ -18,9 +18,9 @@
 		"tabPosition"								"0"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"Background"
-		"infocus_bgcolor_override" 					"Background"
-		"outoffocus_bgcolor_override" 				"Background"
+		"bgcolor_override"							"GrayDarkest"
+		"infocus_bgcolor_override" 					"GrayDarkest"
+		"outoffocus_bgcolor_override" 				"GrayDarkest"
 		
 		"modelpanels_spacing"						"40"
 		"modelpanels_width"							"500"
@@ -58,7 +58,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemsFoundLabel"
-		"font"										"HudFontMediumBold"
+		"font"										"Size 24"
 		"labelText"									"#NewItemsAcquired"
 		"fgcolor_override"   						"White"
 		"textAlignment"								"center"
@@ -106,7 +106,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SelectedItemFoundMethodLabel"
-		"font"										"HudFontMediumSmallBold"
+		"font"										"Size 18"
 		"labelText"									""
 		"textAlignment"								"center"
 		"xpos"										"0"
@@ -124,7 +124,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemCountLabel"
-		"font"										"HudFontSmallestBold"
+		"font"										"Size 11"
 		"labelText"									"#Item"
 		"textAlignment"								"north-west"
 		"xpos"										"c-245"
@@ -142,7 +142,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SelectedItemNumberLabel"
-		"font"										"HudFontMediumBigBold"
+		"font"										"Size 30"
 		"labelText"									"#SelectedItemNumber"
 		"textAlignment"								"north-west"
 		"xpos"										"c-245"
@@ -171,7 +171,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									">"
-		"font"										"HudFontMediumBold"
+		"font"										"Size 24"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -204,7 +204,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									"<"
-		"font"										"HudFontMediumBold"
+		"font"										"Size 24"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -237,7 +237,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									"#CloseItemPanel"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -251,7 +251,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"border_default"							"MaterialLightBG"
+		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 		
 		"defaultBgColor_override"					"Blank"
@@ -278,7 +278,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									"%loadouttext%"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -291,7 +291,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"border_default"							"MaterialLightBG"
+		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 		
 		"defaultBgColor_override"					"Blank"
@@ -318,7 +318,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									""
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -331,7 +331,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"border_default"							"MaterialDarkBG"
+		"border_default"							"MaterialBlackDark"
 		"border_armed"								"MaterialRed"
 		
 		"defaultBgColor_override"					"Blank"
@@ -371,13 +371,13 @@
 		"tall"										"50"
 		"visible"									"0"
 		"PaintBackgroundType"						"2"
-		"border"									"MaterialDarkBG"
+		"border"									"MaterialBlackDark"
 		
 		"TipLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipLabel"
-			"font"									"HudFontSmallestBold"
+			"font"									"Size 11"
 			"labelText"								"#DiscardItem"
 			"textAlignment"							"center"
 			"xpos"									"12"
@@ -399,7 +399,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DiscardedLabel"
-		"font"										"HudFontMediumBold"
+		"font"										"Size 24"
 		"labelText"									"#Discarded"
 		"textAlignment"								"center"
 		"xpos"										"c-215"
@@ -414,7 +414,7 @@
 		"AllCaps"									"1"
 		"fgcolor_override" 							"White"
 		"PaintBackgroundType"						"2"
-		"border"									"MaterialDarkBG"
+		"border"									"MaterialBlackDark"
 	}
 	
 	"ScoreEntry"

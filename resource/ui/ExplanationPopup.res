@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"labelText"		"%title%"
 		"textAlignment"	"north"
 		"xpos"			"cs-0.5"
@@ -25,7 +25,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextLabel"
-		"font"			"HudFontSmall"
+		"font"			"Size 14"
 		"labelText"		"%body%"
 		"textAlignment"	"north-west"
 		"xpos"			"cs-0.5"
@@ -56,7 +56,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labeltext"		""
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -105,7 +105,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labeltext"		"<"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -121,7 +121,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"
@@ -156,7 +156,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labeltext"		">"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -172,7 +172,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"
@@ -198,7 +198,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PositionLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"labelText"		"%explanationnumber%"
 		"textAlignment"	"center"
 		"xpos"			"cs-0.5"

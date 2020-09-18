@@ -17,7 +17,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"bgcolor_override"	"Background"
+		"bgcolor_override"	"GrayDarkest"
 		
 		"item_ypos"		"50"
 		"item_ydelta"	"80"
@@ -114,7 +114,7 @@
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"Blank"
 		"paintbackgroundtype"	"2"
-		"font"				"HudFontSmallest"
+		"font"				"Size 11"
 	}
 	
 	"NameFilterBG"
@@ -136,7 +136,7 @@
 		"labeltext"				"|"
 		"fgcolor_override"		"White"
 		
-		"border"				"MaterialLightBG"
+		"border"				"MaterialGrayDark"
 		
 		"pin_to_sibling" 		"NameFilterTextEntry"
 	}
@@ -156,7 +156,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"&A"
-		"font"				"HudFontMediumSmallBold"
+		"font"				"Size 18"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
@@ -170,7 +170,7 @@
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 		
 		"pin_to_sibling"			"CurPageLabel"
@@ -182,7 +182,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CurPageLabel"
-		"font"				"HudFontMediumSmallBold"
+		"font"				"Size 18"
 		"labelText"			"%backpackpage%"
 		"textAlignment"		"center"
 		"xpos"				"c-159"
@@ -212,7 +212,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"&D"
-		"font"				"HudFontMediumSmallBold"
+		"font"				"Size 18"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
@@ -226,7 +226,7 @@
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 		
 		"pin_to_sibling"			"CurPageLabel"
@@ -249,7 +249,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -262,7 +262,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"border_default"	"MaterialLightBG"
+		"border_default"	"MaterialGrayDark"
 		"border_armed"		"MaterialHypno"
 
 		"defaultFgColor_override"	"White"
@@ -285,7 +285,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"backpack"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -298,7 +298,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"border_default"	"MaterialLightBG"
+		"border_default"	"MaterialGrayDark"
 		"border_armed"		"MaterialHypno"
 
 		"defaultFgColor_override"	"White"
@@ -320,7 +320,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"show selection"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -333,7 +333,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"

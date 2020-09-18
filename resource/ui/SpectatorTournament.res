@@ -34,7 +34,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"PlayerName"
-				"font"								"GameFont11"
+				"font"								"Game 11"
 				"xpos"								"47"
 				"ypos"								"0"
 				"zpos"								"5"
@@ -76,7 +76,7 @@
 				"enabled"			     	       	"1"					
 				"HealthBonusPosAdj"	     			"10"
 				"HealthDeathWarning"		 		"0.49"
-				"TFFont"					        "GameFont11"
+				"TFFont"					        "Game 11"
 				"HealthDeathWarningColor"	        "HUDDeathWarning"
 				"TextColor"					        "HudOffWhite"
 			}
@@ -102,7 +102,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"RespawnTime"
-				"font"								"GameFont12"
+				"font"								"Game 12"
 				"xpos"								"22"
 				"ypos"								"0"
 				"zpos"								"5"
@@ -120,7 +120,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"ChargeAmount"
-				"font"								"GameFont11"
+				"font"								"Game 11"
 				"xpos"								"0"
 				"ypos"								"6"
 				"zpos"								"20"
@@ -138,7 +138,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"ChargeAmountShadow"
-				"font"								"GameFont11Blur"
+				"font"								"Game 11 Blur"
 				"xpos"								"0"
 				"ypos"								"6"
 				"zpos"								"20"
@@ -212,7 +212,7 @@
 		"enabled"									"1"
 		"labelText"									"#TF_PVE_Buyback"
 		"textAlignment"								"center"
-		"font"										"HudFontSmall"
+		"font"										"Size 14"
 		"wrap"										"1"
 		"centerwrap"								"1"
 

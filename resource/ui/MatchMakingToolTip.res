@@ -11,7 +11,7 @@
 		"tall"			"100"
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
-		"border"		"MaterialDarkBG"
+		"border"		"MaterialBlackDark"
 		"mouseinputenabled"	"0"
 		
 		"TipLabel"
@@ -27,12 +27,12 @@
 
 			if_medium
 			{
-				"font"	"HudFontSmall"
+				"font"	"Size 14"
 			}
 
 			if_large
 			{
-				"font"	"HudFontSmallBold"
+				"font"	"Size 14"
 			}
 
 			"labelText"		"%tiptext%"

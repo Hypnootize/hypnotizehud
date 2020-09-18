@@ -64,12 +64,6 @@
 		"command"									"OpenReportPlayerDialog"
 		"OnlyInGame"								"1"
 	}
-	"Achievements"
-	{
-		"label"										"K"
-		"command"									"OpenAchievementsDialog"
-		"OnlyInGame"								"1"
-	}
 	"Minmode"
 	{
 		"label"										"MINMODE"
@@ -95,9 +89,33 @@
 	}
 	"HomeServer"
 	{
-		"label" 									"%"
+		"label" 									"A"
 		"command" 									"engine map tr_walkway_rc2" 	//"engine connect *server ip*"
 		"tooltip" 									"Home Server"
+	}
+	"Achievements"
+	{
+		"label"										"K"
+		"command"									"OpenAchievementsDialog"
+		"tooltip" 									"Achievements"
+	}
+	"Bugs"
+	{
+		"label"										"Q"
+		"command"									"engine bug"
+		"tooltip" 									"Report a Bug"
+	}
+	"Replays"
+	{
+		"label"										"h"
+		"command"									"engine replay_reloadbrowser"
+		"tooltip" 									"Replays"
+	}
+	"Forum"
+	{
+		"label"										"C"
+		"command"									"view_newuser_forums"
+		"tooltip" 									"New Users Forum"
 	}
 	
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////

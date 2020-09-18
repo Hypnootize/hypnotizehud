@@ -84,7 +84,7 @@
 		"AllCaps"									"1"
 		"dulltext"									"0"
 		"brighttext"								"1"
-		"font"										"GameFont14"
+		"font"										"Game 14"
 		"fgcolor"									"White"
 		"fgcolor_override"							"White"
 		
@@ -154,7 +154,7 @@
 		"enabled"		  							"1"
 		"labelText"		  							"Fight"
 		"textAlignment"	  							"east"
-		"font"			  							"GameFont18"
+		"font"			  							"Game 18"
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling" 							"FightFrame"
@@ -177,7 +177,7 @@
 		"enabled"		  							"1"
 		"labelText"		  							"1"
 		"textAlignment"	  							"center"
-		"font"			  							"GameFont30"
+		"font"			  							"Game 30"
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling" 							"FightFrame"
@@ -200,7 +200,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"paintbackground"							"0"
-		"border"									"MaterialLightBG"
+		"border"									"MaterialGrayDark"
 		
 		"pin_to_sibling" 							"FightFrame"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -249,7 +249,7 @@
 		"enabled"		  							"1"
 		"labelText"		  							"Spec"
 		"textAlignment"	  							"west"
-		"font"			  							"GameFont18"
+		"font"			  							"Game 18"
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling" 							"SpectateFrame"
@@ -268,7 +268,7 @@
 		"enabled"		  							"1"
 		"labelText"		  							"2"
 		"textAlignment"	  							"center"
-		"font"			  							"GameFont30"
+		"font"			  							"Game 30"
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling" 							"SpectateFrame"

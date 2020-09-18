@@ -4,7 +4,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"AlertLabel"
-		"font"										"GameFont10"
+		"font"										"Game 10"
 		"xpos"										"cs-0.5"
 		"ypos"										"80"
 		"zpos"										"1"

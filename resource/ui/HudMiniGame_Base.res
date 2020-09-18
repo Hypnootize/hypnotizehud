@@ -29,7 +29,7 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labelText"									"%bluescore%"
-		"font"										"GameFont18"
+		"font"										"Game 18"
 		"fgcolor"									"White"
 		
 		"pin_to_sibling" 							"BlueScoreBG"
@@ -64,7 +64,7 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labelText"									"%redscore%"
-		"font"										"GameFont18"
+		"font"										"Game 18"
 		"fgcolor"									"White"	
 
 		"pin_to_sibling" 							"RedScoreBG"

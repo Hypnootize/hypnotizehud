@@ -43,7 +43,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -56,7 +56,7 @@
 		
 		"paintbackground"			"0"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"
@@ -80,7 +80,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -93,7 +93,7 @@
 
 		"paintbackground"			"0"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialGreen"
 
 		"defaultFgColor_override"	"White"
@@ -117,7 +117,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -133,7 +133,7 @@
 
 		"paintbackground"			"0"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialGreen"
 
 		"defaultFgColor_override"	"White"
@@ -157,7 +157,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -170,7 +170,7 @@
 
 		"paintbackground"			"0"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"
@@ -189,7 +189,7 @@
 		"zpos"		"50"
 		"wide"		"140"
 		"tall"		"20"
-		"font"			"HudFontSmallest"
+		"font"			"Size 11"
 		"labelText"		""
 		"proportionaltoparent"	"1"
 	}
@@ -203,7 +203,7 @@
 		"zpos"		"50"
 		"wide"		"115"
 		"tall"		"20"
-		"font"			"HudFontSmallest"
+		"font"			"Size 11"
 		"labelText"		"#TF_Matchmaking_JoinInProgress"
 		"proportionaltoparent"	"1"
 		"AllCaps"	"0"

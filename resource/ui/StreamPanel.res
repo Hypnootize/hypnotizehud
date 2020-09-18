@@ -47,7 +47,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DescriptionLabel"
-			"font"									"HudFontSmallestBold"
+			"font"									"Size 11"
 			"labelText"								"#MMenu_Stream_Loading"
 			"textAlignment"							"west"
 			"xpos"									"90"
@@ -97,7 +97,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DisplayNameLabel"
-		"font"										"HudFontSmallestBold"
+		"font"										"Size 11"
 		"labelText"									"%display_name%"
 		"textAlignment"								"west"
 		"xpos"										"86"
@@ -116,7 +116,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TextDescriptionLabel"
-		"font"										"HudFontSmallest"
+		"font"										"Size 11"
 		"labelText"									"%text_description%"
 		"textAlignment"								"north-west"
 		"xpos"										"86"
@@ -135,7 +135,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ViewerCountLabel"
-		"font"										"HudFontSmallest"
+		"font"										"Size 11"
 		"labelText"									"%viewer_count%"
 		"textAlignment"								"west"
 		"xpos"										"86"

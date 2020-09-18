@@ -20,7 +20,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"GameFont14"
+		"font"										"Game 14"
 		"xpos"										"0"
 		"ypos"										"3"
 		"zpos"										"3"
@@ -41,7 +41,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabelShadow"
-		"font"										"GameFont14Blur"
+		"font"										"Game 14 Blur"
 		"xpos"										"1"
 		"ypos"										"4"
 		"zpos"										"3"
@@ -136,7 +136,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel1"
-		"font"										"GameFont12"
+		"font"										"Game 12"
 		"fgcolor"									"White"
 		"xpos"										"0"
 		"ypos"										"-1"
@@ -213,7 +213,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel2"
-		"font"										"GameFont12"
+		"font"										"Game 12"
 		"fgcolor"									"White"
 		"xpos"										"0"
 		"ypos"										"-1"
@@ -290,7 +290,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel3"
-		"font"										"GameFont12"
+		"font"										"Game 12"
 		"fgcolor"									"White"
 		"xpos"										"0"
 		"ypos"										"-1"
@@ -367,7 +367,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel4"
-		"font"										"GameFont12"
+		"font"										"Game 12"
 		"fgcolor"									"White"
 		"xpos"										"0"
 		"ypos"										"-1"
@@ -444,7 +444,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel5"
-		"font"										"GameFont12"
+		"font"										"Game 12"
 		"fgcolor"									"White"
 		"xpos"										"0"
 		"ypos"										"-1"
@@ -521,7 +521,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel6"
-		"font"										"GameFont12"
+		"font"										"Game 12"
 		"fgcolor"									"White"
 		"xpos"										"0"
 		"ypos"										"-1"
@@ -598,7 +598,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel7"
-		"font"										"GameFont12"
+		"font"										"Game 12"
 		"fgcolor"									"White"
 		"xpos"										"0"
 		"ypos"										"-1"
@@ -675,7 +675,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel8"
-		"font"										"GameFont12"
+		"font"										"Game 12"
 		"fgcolor"									"White"
 		"xpos"										"0"
 		"ypos"										"-1"

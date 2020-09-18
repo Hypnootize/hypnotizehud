@@ -46,7 +46,7 @@
 		"labeltext"									"Ping Settings"
 		"AllCaps"									"1"
 		"textAlignment"								"center"
-		"font"										"HudFontMediumSmallBold"
+		"font"										"Size 18"
 		"fgcolor_override"							"White"
 		
 		"mouseinputenabled"							"0"
@@ -64,7 +64,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_MM_InviteMode"
 		"textAlignment"								"center"
-		"font"										"HudFontSmallestBold"
+		"font"										"Size 11"
 		"smallcheckimage"							"1"
 		"fgcolor_override"							"White"
 		"AllCaps"									"1"
@@ -83,7 +83,7 @@
 		"wide"										"190"
 		"tall"										"15"
 		"textAlignment"								"west"
-		"font"										"HudFontSmallestBold"
+		"font"										"Size 11"
 		"keyboardinputenabled"						"0"
 		"AllCaps"									"1"
 
@@ -109,7 +109,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_MM_IgnoreInvites"
 		"textAlignment"								"west"
-		"font"										"HudFontSmallestBold"
+		"font"										"Size 11"
 		"smallcheckimage"							"1"
 		"fgcolor_override"							"White"
 		"fgcolor"									"White"
@@ -133,7 +133,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"textAlignment"								"west"
-		"font"										"HudFontSmallestBold"
+		"font"										"Size 11"
 		"smallcheckimage"							"1"
 		"enabled"									"0"
 		"AllCaps"									"1"
@@ -154,7 +154,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_MM_PartySameTeam"
 		"textAlignment"								"west"
-		"font"										"HudFontSmallestBold"
+		"font"										"Size 11"
 		"smallcheckimage"							"1"
 		"wrap"										"1"
 		"AllCaps"									"1"
@@ -176,7 +176,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"textAlignment"								"west"
-		"font"										"HudFontSmallestBold"
+		"font"										"Size 11"
 		"smallcheckimage"							"1"
 		"actionsignallevel"							"1"
 		"AllCaps"									"1"
@@ -201,7 +201,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_LobbyContainer_CustomPingButton"
 		"textAlignment"								"west"
-		"font"										"HudFontSmallestBold"
+		"font"										"Size 11"
 		"smallcheckimage"							"1"
 		"AllCaps"									"1"
 
@@ -221,7 +221,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_LobbyContainer_CustomPingDesc"
 		"textAlignment"								"north-west"
-		"font"										"HudFontSmallest"
+		"font"										"Size 11"
 		"wrap"										"1"
 		"fgcolor"									"White"
 		"AllCaps"									"1"
@@ -242,7 +242,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"textAlignment"								"center"
-		"font"										"HudFontSmallestBold"
+		"font"										"Size 11"
 		"AllCaps"									"1"
 		
 		"mouseinputenabled"							"0"
@@ -284,7 +284,7 @@
 		"proportionaltoparent"					"1"
 
 		"paintborder"							"1"
-		"border"								"MaterialDarkBG"
+		"border"								"MaterialBlackDark"
 	}
 
 	"DataCenterContainer"
@@ -379,7 +379,7 @@
 		"command"									"nav_close"
 
 		"textAlignment"								"east"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 
 		"armedBgColor_override"						"Blank"
 		"defaultBgColor_override"					"Blank"
@@ -410,7 +410,7 @@
 		"labelText"									"<"
 
 		"textAlignment"								"west"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 
 		"armedBgColor_override"						"Blank"
 		"defaultBgColor_override"					"Blank"

@@ -364,7 +364,7 @@
 	{	
 		"ControlName"		          				"CExLabel"
 		"fieldName"		           					"TournamentConditionLabel"
-		"font"			              				"GameFont9"
+		"font"			              				"Game 9"
 		"fgcolor"                					"White"
 		"xpos"			              				"r207"
 		"ypos"	              						"0"
@@ -390,7 +390,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabel"
-		"font"										"GameFont24"
+		"font"										"Game 24"
 		"xpos"										"c-16"
 		"ypos"										"r40"
 		"wide"										"40"
@@ -410,7 +410,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabelShadow"
-		"font"										"GameFont24Blur"
+		"font"										"Game 24 Blur"
 		"xpos"										"c-15"
 		"ypos"										"r39"
 		"wide"										"40"

@@ -14,7 +14,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"HeaderLabel"
-			"font"									"HudFontSmallBold"
+			"font"									"Size 14"
 			"textAlignment"							"center"
 			"labelText"								"#MMenu_Stream_LiveStream"
 			"xpos"									"0"
@@ -58,7 +58,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"
@@ -70,7 +70,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"labelText"									"#MMenu_Stream_Title"
 		"textAlignment"								"west"
 		"xpos"										"5"
@@ -175,7 +175,7 @@
 		"labelText"									"#MMenu_Stream_ViewMore"
 		"textinsetx"								"0"
 		"use_proportional_insets" 					"1"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -188,7 +188,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"

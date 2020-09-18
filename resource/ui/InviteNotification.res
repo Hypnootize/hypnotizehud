@@ -9,7 +9,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"paintbackground"	"0"
-		"border" "MaterialLightBG"
+		"border" "MaterialGrayDark"
 	}
 
 	"avatar"
@@ -118,7 +118,7 @@
 
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontSmallestBold"
+		"font"			"Size 11"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -165,7 +165,7 @@
 
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontSmallestBold"
+		"font"			"Size 11"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

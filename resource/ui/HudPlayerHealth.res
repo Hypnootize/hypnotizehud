@@ -47,8 +47,8 @@
 		"enabled"	  		         				"1"
 		"labelText" 		         				"%Health%"
 		"textAlignment"         				 	"center"	
-		"font"                   				 	"GameFont44"
-		"font_minmode"                   			"GameFont32"
+		"font"                   				 	"Game 44"
+		"font_minmode"                   			"Game 32"
 		"fgcolor"	    	         				"Health Numbers"
 		
 		"pin_to_sibling"							"HealthAnchor"
@@ -71,8 +71,8 @@
 		"enabled"	    	         				"1"
 		"labelText"	  	         				 	"%Health%"
 		"textAlignment"	         				 	"center"	
-		"font"                   				 	"GameFont44Blur"
-		"font_minmode"                   			"GameFont32Blur"
+		"font"                   				 	"Game 44 Blur"
+		"font_minmode"                   			"Game 32 Blur"
 		"fgcolor"	     	         				"Shadow"
 		
 		"pin_to_sibling" 							"PlayerStatusHealthValue"

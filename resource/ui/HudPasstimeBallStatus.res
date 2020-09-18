@@ -18,7 +18,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"EventTitleLabel"
 		"dropshadow"								"1"
-		"font"										"GameFont12"
+		"font"										"Game 12"
 		"xpos"										"0"
 		"ypos"										"c-160"
 		"zpos"										"3"
@@ -35,7 +35,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"EventBonusLabel"
-		"font"										"GameFont16"
+		"font"										"Game 16"
 		"dropshadow"								"1"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -56,7 +56,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"EventDetailLabel"
-		"font"										"GameFont12"
+		"font"										"Game 12"
 		"dropshadow"								"1"
 		"xpos"										"0"
 		"ypos"										"0"

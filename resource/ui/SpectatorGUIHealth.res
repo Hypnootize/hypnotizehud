@@ -15,8 +15,8 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"center"
-		"font"										"GameFont18"
-		"font_minmode"								"GameFont14"
+		"font"										"Game 18"
+		"font_minmode"								"Game 14"
 		"fgcolor"									"Health Numbers"
 		"labeltext"									"%Health%"
 	}
@@ -35,8 +35,8 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"center"
-		"font"										"GameFont18Blur"
-		"font_minmode"								"GameFont14Blur"
+		"font"										"Game 18 Blur"
+		"font_minmode"								"Game 14 Blur"
 		"fgcolor"									"Shadow"
 		"labeltext"									"%Health%"
 		

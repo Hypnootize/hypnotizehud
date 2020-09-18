@@ -70,7 +70,7 @@
 		"enabled"									"1"
 		"textAlignment"								"west"	
 		"labelText"									"%bluescore%"
-		"font"										"GameFont16"
+		"font"										"Game 16"
 		"fgcolor"									"White"
 		
 		"if_hybrid"
@@ -135,7 +135,7 @@
 		"enabled"									"1"
 		"textAlignment"								"east"	
 		"labelText"									"%redscore%"
-		"font"										"GameFont16"
+		"font"										"Game 16"
 		"fgcolor"									"White"		
 		
 		"if_hybrid"
@@ -343,7 +343,7 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labelText"									"%redscore%"
-		"font"										"GameFont24"
+		"font"										"Game 24"
 		"fgcolor"									"White"
 	}	
 	

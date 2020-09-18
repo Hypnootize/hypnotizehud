@@ -8,23 +8,26 @@ Scheme
 		
 		"Main Theme"										"80 150 255 255"
 		
-		"Background"										"30 30 30 255"
-		"DarkBG"											"15 15 15 255"
-		"LightBGHover"										"40 40 40 255"
-		"LightBG"											"50 50 50 255"
-		"FullBlack"											"0 0 0 255"
+		"WhiteLight"										"255 255 255 255"
+		"White"												"230 230 230 255"
+		"WhiteDark"											"175 175 175 255"
+		"WhiteGray"											"120 120 120 255"
+		"GrayLight"											"80 80 80 255"
+		"GrayMedium"										"65 65 65 255"
+		"GrayDark"											"50 50 50 255"
+		"GrayDarker"										"40 40 40 255"
+		"GrayDarkest"										"30 30 30 255"
+		"BlackLight"										"23 23 23 255"
+		"BlackDark"											"15 15 15 255"
+		"Black"												"0 0 0 255"
 		"TransparentBlack"									"0 0 0 150"
 		"TransparentLightBlack"								"0 0 0 100"
 		
-		"White"												"255 255 255 255"
 		"Red"												"255 42 50 255"
 		"Blue"												"0 170 255 255"
-		"Black"												"0 0 0 255"
 		"Green"												"35 185 30 255"
 		"Orangee"											"255 130 50 255"
 		"Purple"											"170 20 220 255"
-		
-		"NoItemText"										"120 120 120 255"
 		
 		///////////////////////////////////////////////////////////////////////////////
 		//////////////////////////// ITEM QUALITY COLORS //////////////////////////////
@@ -70,7 +73,7 @@ Scheme
 
 		"GradedWeaponDefault_Hover"							"180 180 180 255"
 		"CivilianGrade_Hover"								"185 210 245 255"
-		"FreelanceGrade"									"105 190 245 255"
+		"FreelanceGrade_Hover"								"105 190 245 255"
 		"MercenaryGrade_Hover"								"60 120 240 255"
 		"CommandoGrade_Hover"								"150 115 245 255"
 		"AssassinGrade_Hover"								"235 140 245 255"
@@ -148,7 +151,7 @@ Scheme
 		"HudTrainingHint"									"212 160 23 255"
 		
 		"TanDark"											"150 150 150 255"
-		"TanLight"											"255 255 255 255"
+		"TanLight"											"230 230 230 255"
 		"TanDarker"											"15 15 15 255"
 		
 		"StoreDarkTan"										"150 150 150 255"
@@ -278,13 +281,13 @@ Scheme
 		
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 		
-		Econ.Dialog.BgColor									"DarkBG"
-		Econ.Button.BgColor									"Background"
+		Econ.Dialog.BgColor									"BlackDark"
+		Econ.Button.BgColor									"BlackLight"
 		Econ.Button.FgColor									"White"
 		Econ.Button.ArmedBgColor							"Main Theme"
 		Econ.Button.ArmedFgColor							"White"
 		Econ.Button.DepressedBgColor						"Main Theme"
-		Econ.Button.DepressedFgColor						"Background"
+		Econ.Button.DepressedFgColor						"BlackLight"
 		
 		Econ.Button.PresetDefaultColorFg					"White"
 		Econ.Button.PresetArmedColorFg						"White"
@@ -295,16 +298,16 @@ Scheme
 		Econ.Button.PresetDepressedColorBg					"Main Theme"
 		
 		Border.Bright										"Blank"
-		Border.Dark											"Background"
+		Border.Dark											"BlackDark"
 		Border.Selection									"Gray"
 
 		Button.TextColor									"White"
-		Button.BgColor										"Background"
+		Button.BgColor										"GrayDark"
 		Button.ArmedTextColor								"White"
 		Button.ArmedBgColor									"Main Theme"
 		Button.SelectedTextColor							"White"
 		Button.SelectedBgColor								"Main Theme"
-		Button.DepressedTextColor							"Background"
+		Button.DepressedTextColor							"GrayDark"
 		Button.DepressedBgColor								"Main Theme"
 
 		CheckButton.TextColor								"White"
@@ -361,7 +364,7 @@ Scheme
 		ListPanel.EmptyListInfoTextColor					"White"
 
 		Menu.TextColor										"White"
-		Menu.BgColor										"DarkBG"
+		Menu.BgColor										"BlackDark"
 		Menu.ArmedTextColor									"TanDark"
 		Menu.ArmedBgColor									"White"
 		Menu.TextInset										"6"

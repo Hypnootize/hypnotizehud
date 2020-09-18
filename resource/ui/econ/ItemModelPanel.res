@@ -136,7 +136,7 @@
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
 			"paintbackground"	"0"
-			"border"			"MaterialDarkBG"
+			"border"			"MaterialBlackDark"
 			"paintborder"		"1"
 		}
 	
@@ -172,7 +172,7 @@
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
 			"paintbackground"	"0"
-			"border"		"MaterialDarkBG"
+			"border"		"MaterialBlackDark"
 			"paintborder"	"1"
 		}
 
@@ -196,7 +196,7 @@
 			"auto_wide_tocontents"	"1"
 			"textinsetx"	"20"
 			"paintbackground"	"0"
-			"border"		"MaterialDarkBG"
+			"border"		"MaterialBlackDark"
 			"paintborder"	"1"
 		}
 

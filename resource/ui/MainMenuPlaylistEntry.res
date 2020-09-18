@@ -96,7 +96,7 @@
 		"labelText"		"%button_token%"
 		"textinsetx"	"0"
 		"use_proportional_insets" "1"
-		"font"			"HudFontMediumBold"
+		"font"			"Size 24"
 		"AllCaps"			"1"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -108,7 +108,7 @@
 
 		"paintbackground"			"0"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"

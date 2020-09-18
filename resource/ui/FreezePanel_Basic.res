@@ -33,7 +33,7 @@
 			"enabled"								"1"
 			"HealthBonusPosAdj"						"9"
 			"HealthDeathWarning"					"0.49"
-			"TFFont"								"GameFont14"
+			"TFFont"								"Game 14"
 			"HealthDeathWarningColor"				"HUDDeathWarning"
 			"TextColor"								"HudOffWhite"
 			"proportionaltoparent"					"1"
@@ -43,7 +43,7 @@
 		{	
 			"ControlName"							"CExLabel"
 			"fieldName"								"FreezeLabelKiller"
-			"font"									"GameFont12"
+			"font"									"Game 12"
 			"xpos"									"cs-0.5"
 			"ypos"									"c105"
 			"zpos"									"1"
@@ -63,7 +63,7 @@
 		{	
 			"ControlName"							"CExLabel"
 			"fieldName"								"FreezeLabelKillerShadow"
-			"font"									"GameFont12Blur"
+			"font"									"Game 12 Blur"
 			"xpos"									"cs-0.5"
 			"ypos"									"c105"
 			"zpos"									"1"

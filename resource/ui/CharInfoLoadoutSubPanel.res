@@ -4,43 +4,43 @@
 {
 	"ReloadSchemeButton"
 	{
-		"xpos"				"r17"
-		"ypos"				"0"
+		"xpos"										"r17"
+		"ypos"										"0"
 	}
 	
 	"CharInfoLoadoutSubPanel"
 	{
-		"ControlName"	"Frame"
-		"fieldName"		"CharInfoLoadoutSubPanel"
-		"xpos"			"0"
-		"ypos"			"40"
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"Background"
-		"infocus_bgcolor_override" "Background"
-		"outoffocus_bgcolor_override" "Background"
+		"ControlName"								"Frame"
+		"fieldName"									"CharInfoLoadoutSubPanel"
+		"xpos"										"0"
+		"ypos"										"40"
+		"wide"										"f0"
+		"tall"										"480"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"settitlebarvisible"						"0"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"GrayDarkest"
+		"infocus_bgcolor_override" 					"GrayDarkest"
+		"outoffocus_bgcolor_override" 				"GrayDarkest"
 		
-		"selectlabely_default"		"25"
-		"selectlabely_onchanges"	"15"
+		"selectlabely_default"						"25"
+		"selectlabely_onchanges"					"15"
 		
-		"class_ypos"				"9999"
-		"class_xdelta"				"5"
-		"class_wide_min"			"60"
-		"class_wide_max"			"100"
-		"class_tall_min"			"120"
-		"class_tall_max"			"200"
-		"class_distance_min"		"7"
-		"class_distance_max"		"100"
+		"class_ypos"								"9999"
+		"class_xdelta"								"5"
+		"class_wide_min"							"60"
+		"class_wide_max"							"100"
+		"class_tall_min"							"120"
+		"class_tall_max"							"200"
+		"class_distance_min"						"7"
+		"class_distance_max"						"100"
 
-		"itemcountcolor"			"255 42 50 255"
-		"itemcountcolor_noitems"	"255 255 255 255"
+		"itemcountcolor"							"255 42 50 255"
+		"itemcountcolor_noitems"					"255 255 255 255"
 	}
 	
 	"CustomScout"
@@ -68,20 +68,16 @@
 		
 		"paintbackground"							"0"
 		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-		
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"MaterialBackground"
+		"border_default"							"MaterialBlackLight"
 		"border_armed"								"MaterialHypno"
 		
-		"pin_to_sibling" 		"CustomSoldier"
-		"pin_corner_to_sibling" "PIN_TOPRIGHT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"pin_to_sibling" 							"CustomSoldier"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"CustomSoldier"
@@ -109,20 +105,16 @@
 		
 		"paintbackground"							"0"
 		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-		
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"MaterialBackground"
+		"border_default"							"MaterialBlackLight"
 		"border_armed"								"MaterialHypno"
 		
-		"pin_to_sibling" 		"CustomPyro"
-		"pin_corner_to_sibling" "PIN_TOPRIGHT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"pin_to_sibling" 							"CustomPyro"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"CustomPyro"
@@ -150,20 +142,16 @@
 		
 		"paintbackground"							"0"
 		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-		
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"MaterialBackground"
+		"border_default"							"MaterialBlackLight"
 		"border_armed"								"MaterialHypno"
 		
-		"pin_to_sibling" 		"CustomDemoman"
-		"pin_corner_to_sibling" "PIN_TOPRIGHT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"pin_to_sibling" 							"CustomDemoman"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"CustomDemoman"
@@ -191,20 +179,16 @@
 		
 		"paintbackground"							"0"
 		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-		
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"MaterialBackground"
+		"border_default"							"MaterialBlackLight"
 		"border_armed"								"MaterialHypno"
 
-		"pin_to_sibling" 		"CustomHeavy"
-		"pin_corner_to_sibling" "PIN_TOPRIGHT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"		
+		"pin_to_sibling" 							"CustomHeavy"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"		
 	}
 	
 	"CustomHeavy"
@@ -234,15 +218,11 @@
 		
 		"paintbackground"							"0"
 		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-		
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"MaterialBackground"
+		"border_default"							"MaterialBlackLight"
 		"border_armed"								"MaterialHypno"
 	}
 	
@@ -271,20 +251,16 @@
 		
 		"paintbackground"							"0"
 		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-		
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"MaterialBackground"
+		"border_default"							"MaterialBlackLight"
 		"border_armed"								"MaterialHypno"
 		
-		"pin_to_sibling" 		"CustomHeavy"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+		"pin_to_sibling" 							"CustomHeavy"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
 	
 	"CustomMedic"
@@ -312,20 +288,16 @@
 		
 		"paintbackground"							"0"
 		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-		
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"MaterialBackground"
+		"border_default"							"MaterialBlackLight"
 		"border_armed"								"MaterialHypno"
 		
-		"pin_to_sibling" 		"CustomEngineer"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+		"pin_to_sibling" 							"CustomEngineer"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
 	
 	"CustomSniper"
@@ -353,20 +325,16 @@
 		
 		"paintbackground"							"0"
 		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-		
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"MaterialBackground"
+		"border_default"							"MaterialBlackLight"
 		"border_armed"								"MaterialHypno"
 		
-		"pin_to_sibling" 		"CustomMedic"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+		"pin_to_sibling" 							"CustomMedic"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
 	
 	"CustomSpy"
@@ -394,288 +362,268 @@
 		
 		"paintbackground"							"0"
 		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-		
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"MaterialBackground"
+		"border_default"							"MaterialBlackLight"
 		"border_armed"								"MaterialHypno"
 		
-		"pin_to_sibling" 		"CustomSniper"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+		"pin_to_sibling" 							"CustomSniper"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
 	
 	"Backpack"
 	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"Backpack"
-		"xpos"				"7"
-		"ypos"				"0"
-		"zpos"				"6"
-		"wide"				"75"
-		"tall"				"75"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"textAlignment"		"center"
-		"Command"			"backpack"
-		"Default"			"0"
-		"labelText"			"O"
-		"font"				"Symbols 46"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"ControlName"								"CExImageButton"
+		"fieldName"									"Backpack"
+		"xpos"										"7"
+		"ypos"										"0"
+		"zpos"										"6"
+		"wide"										"75"
+		"tall"										"75"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"textAlignment"								"center"
+		"Command"									"backpack"
+		"Default"									"0"
+		"labelText"									"G"
+		"font"										"Symbols 46"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"paintbackground"	"0"
+		"paintbackground"							"0"
 		
-		"defaultFgColor_override"		"White"
-		"armedFgColor_override"			"White"
-		"depressedFgColor_override"		"White"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
 		
-		"border_default"				"MaterialBackground"
-		"border_armed"					"MaterialHypno"
+		"border_default"							"MaterialBlackLight"
+		"border_armed"								"MaterialHypno"
 		
-		"pin_to_sibling" 				"Crafting"
-		"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
+		"pin_to_sibling" 							"Crafting"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}	
 	
 	"Crafting"
 	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"Crafting"
-		"xpos"				"7"
-		"ypos"				"0"
-		"zpos"				"6"
-		"wide"				"75"
-		"tall"				"75"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"J"
-		"textAlignment"		"center"
-		"textinsety"		"0"
-		"Command"			"crafting"
-		"Default"			"0"
-		"font"				"Symbols 46"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"ControlName"								"CExImageButton"
+		"fieldName"									"Crafting"
+		"xpos"										"7"
+		"ypos"										"0"
+		"zpos"										"6"
+		"wide"										"75"
+		"tall"										"75"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"J"
+		"textAlignment"								"center"
+		"textinsety"								"0"
+		"Command"									"crafting"
+		"Default"									"0"
+		"font"										"Symbols 46"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"paintbackground"	"0"
+		"paintbackground"							"0"
 		
-		"defaultFgColor_override"		"White"
-		"armedFgColor_override"			"White"
-		"depressedFgColor_override"		"White"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
 		
-		"border_default"				"MaterialBackground"
-		"border_armed"					"MaterialHypno"
+		"border_default"							"MaterialBlackLight"
+		"border_armed"								"MaterialHypno"
 		
-		"pin_to_sibling" 				"Armory"
-		"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
+		"pin_to_sibling" 							"Armory"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"Armory"
 	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"Armory"
-		"xpos"				"c-35"
-		"ypos"				"225"
-		"zpos"				"6"
-		"wide"				"75"
-		"tall"				"75"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"R"
-		"textAlignment"		"center"
-		"textinsety"		"0"
-		"Command"			"armory"
-		"Default"			"0"
-		"font"				"Symbols 46"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"ControlName"								"CExImageButton"
+		"fieldName"									"Armory"
+		"xpos"										"c-35"
+		"ypos"										"225"
+		"zpos"										"6"
+		"wide"										"75"
+		"tall"										"75"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"R"
+		"textAlignment"								"center"
+		"textinsety"								"0"
+		"Command"									"armory"
+		"Default"									"0"
+		"font"										"Symbols 46"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"paintbackground"	"0"
+		"paintbackground"							"0"
 		
-		"defaultFgColor_override"		"White"
-		"armedFgColor_override"			"White"
-		"depressedFgColor_override"		"White"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
 		
-		"border_default"				"MaterialBackground"
-		"border_armed"					"MaterialHypno"
+		"border_default"							"MaterialBlackLight"
+		"border_armed"								"MaterialHypno"
 	}
 	
 	"Trade"
 	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"Trade"
-		"xpos"				"7"
-		"ypos"				"0"
-		"zpos"				"6"
-		"wide"				"75"
-		"tall"				"75"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"7"
-		"textAlignment"		"center"
-		"textinsety"		"0"
-		"Command"			"trading"
-		"Default"			"0"
-		"font"				"Symbols 46"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"ControlName"								"CExImageButton"
+		"fieldName"									"Trade"
+		"xpos"										"7"
+		"ypos"										"0"
+		"zpos"										"6"
+		"wide"										"75"
+		"tall"										"75"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"7"
+		"textAlignment"								"center"
+		"textinsety"								"0"
+		"Command"									"trading"
+		"Default"									"0"
+		"font"										"Symbols 46"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"paintbackground"	"0"
+		"paintbackground"							"0"
 		
-		"defaultFgColor_override"		"White"
-		"armedFgColor_override"			"White"
-		"depressedFgColor_override"		"White"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
 		
-		"border_default"				"MaterialBackground"
-		"border_armed"					"MaterialHypno"
+		"border_default"							"MaterialBlackLight"
+		"border_armed"								"MaterialHypno"
 		
-		"pin_to_sibling" 				"Armory"
-		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
+		"pin_to_sibling" 							"Armory"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}	
 	
 	"Paints"
 	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"Paints"
-		"xpos"				"7"
-		"ypos"				"0"
-		"zpos"				"6"
-		"wide"				"75"
-		"tall"				"75"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"$"
-		"textAlignment"		"center"
-		"textinsety"		"0"
-		"Command"			"paintkit_preview"
-		"Default"			"0"
-		"font"				"Symbols 46"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"ControlName"								"CExImageButton"
+		"fieldName"									"Paints"
+		"xpos"										"7"
+		"ypos"										"0"
+		"zpos"										"6"
+		"wide"										"75"
+		"tall"										"75"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"$"
+		"textAlignment"								"center"
+		"textinsety"								"0"
+		"Command"									"paintkit_preview"
+		"Default"									"0"
+		"font"										"Symbols 46"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"paintbackground"	"0"
+		"paintbackground"							"0"
 		
-		"defaultFgColor_override"		"White"
-		"armedFgColor_override"			"White"
-		"depressedFgColor_override"		"White"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
 		
-		"border_default"				"MaterialBackground"
-		"border_armed"					"MaterialHypno"
+		"border_default"							"MaterialBlackLight"
+		"border_armed"								"MaterialHypno"
 		
-		"pin_to_sibling" 				"Trade"
-		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
+		"pin_to_sibling" 							"Trade"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}	
 	
-	"SelectLabel"		//Select a class to modify loadout
+	"SelectLabel"									//Select a class to modify loadout
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SelectLabel"
-		"font"			"HudFontMediumSmall"
-		"labelText"		"#SelectClassLoadout"
-		"textAlignment"	"north"
-		"xpos"			"0"
-		"ypos"			"300"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "White"
+		"ControlName"								"CExLabel"
+		"fieldName"									"SelectLabel"
+		"font"										"Size 24"
+		"labelText"									"#SelectClassLoadout"
+		"textAlignment"								"north"
+		"xpos"										"0"
+		"ypos"										"300"
+		"zpos"										"1"
+		"wide"										"f0"
+		"tall"										"30"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"fgcolor_override" 							"GrayLight"
 	}
 	
 	"class_loadout_panel"
 	{
-		"ControlName"		"CClassLoadoutPanel"
-		"fieldName"			"class_loadout_panel"
-		"xpos"				"0"
-		"ypos"				"0"
-		"wide"				"f0"
-		"tall"				"400"
-		"zpos"				"500"
-		"visible"			"0"
+		"ControlName"								"CClassLoadoutPanel"
+		"fieldName"									"class_loadout_panel"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"400"
+		"zpos"										"500"
+		"visible"									"0"
 	}
 
 	"backpack_panel"
 	{
-		"ControlName"		"CBackpackPanel"
-		"fieldName"			"backpack_panel"
-		"xpos"				"0"
-		"ypos"				"0"
-		"wide"				"f0"
-		"tall"				"400"
-		"zpos"				"500"
-		"visible"			"0"
+		"ControlName"								"CBackpackPanel"
+		"fieldName"									"backpack_panel"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"400"
+		"zpos"										"500"
+		"visible"									"0"
 	}
 
 	"armory_panel"
 	{
-		"ControlName"		"CArmoryPanel"
-		"fieldName"			"armory_panel"
-		"xpos"				"0"
-		"ypos"				"0"
-		"wide"				"f0"
-		"tall"				"400"
-		"zpos"				"500"
-		"visible"			"0"
+		"ControlName"								"CArmoryPanel"
+		"fieldName"									"armory_panel"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"400"
+		"zpos"										"500"
+		"visible"									"0"
 	}
 
 	"InspectionPanel"
 	{
-		"fieldName"		"InspectionPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"0"
-		"zpos"			"2000"
-		"wide"			"f0"
-		"tall"			"f100"
-		"visible"		"0"
-		"proportionaltoparent"	"1"
-		"bgcolor_override"	"30 25 25 245"
+		"fieldName"									"InspectionPanel"
+		"xpos"										"cs-0.5"
+		"ypos"										"0"
+		"zpos"										"2000"
+		"wide"										"f0"
+		"tall"										"f100"
+		"visible"									"0"
+		"proportionaltoparent"						"1"
+		"bgcolor_override"							"30 25 25 245"
 	}
 	
 	
 	//////////////////////////SIDE BAR START/////////////////////////
-	
-	
-	"FastClassSelectionBG"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"FastClassSelectionBG"
-		"xpos"					"1"
-		"ypos"					"55"
-		"zpos"					"600"
-		"wide"					"20"
-		"tall"					"200"
-		"visible"				"0"
-		"enabled"				"1"
-		"paintbackground"		"0"
-		"border"				"MaterialBackground"
-	}
 	
 	"CustomScoutSide"
 	{
@@ -702,9 +650,9 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 		
-		"defaultFgColor_override"					"LightBGHover"
-		"armedFgColor_override" 					"LightBGHover"
-		"depressedFgColor_override" 				"LightBGHover"
+		"defaultFgColor_override"					"GrayLight"
+		"armedFgColor_override" 					"WhiteGray"
+		"depressedFgColor_override" 				"GrayLight"
 		
 		"pin_to_sibling" 							"CustomSoldierSide"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
@@ -746,9 +694,9 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 		
-		"defaultFgColor_override"					"LightBGHover"
-		"armedFgColor_override" 					"LightBGHover"
-		"depressedFgColor_override" 				"LightBGHover"
+		"defaultFgColor_override"					"GrayLight"
+		"armedFgColor_override" 					"WhiteGray"
+		"depressedFgColor_override" 				"GrayLight"
 		
 		"pin_to_sibling" 							"CustomPyroSide"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
@@ -790,9 +738,9 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 		
-		"defaultFgColor_override"					"LightBGHover"
-		"armedFgColor_override" 					"LightBGHover"
-		"depressedFgColor_override" 				"LightBGHover"
+		"defaultFgColor_override"					"GrayLight"
+		"armedFgColor_override" 					"WhiteGray"
+		"depressedFgColor_override" 				"GrayLight"
 		
 		"pin_to_sibling" 							"CustomDemomanSide"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
@@ -834,9 +782,9 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 		
-		"defaultFgColor_override"					"LightBGHover"
-		"armedFgColor_override" 					"LightBGHover"
-		"depressedFgColor_override" 				"LightBGHover"
+		"defaultFgColor_override"					"GrayLight"
+		"armedFgColor_override" 					"WhiteGray"
+		"depressedFgColor_override" 				"GrayLight"
 
 		"pin_to_sibling" 							"CustomHeavySide"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
@@ -856,8 +804,8 @@
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"CustomHeavySide"
-		"xpos"										"4"
-		"ypos"										"c-15"
+		"xpos"										"0"
+		"ypos"										"cs-0.5"
 		"zpos"										"601"
 		"wide"										"18"
 		"tall"										"18"
@@ -880,9 +828,9 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 		
-		"defaultFgColor_override"					"LightBGHover"
-		"armedFgColor_override" 					"LightBGHover"
-		"depressedFgColor_override" 				"LightBGHover"
+		"defaultFgColor_override"					"GrayLight"
+		"armedFgColor_override" 					"WhiteGray"
+		"depressedFgColor_override" 				"GrayLight"
 	}
 	"HeavySelectNumber"
 	{
@@ -920,9 +868,9 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 		
-		"defaultFgColor_override"					"LightBGHover"
-		"armedFgColor_override" 					"LightBGHover"
-		"depressedFgColor_override" 				"LightBGHover"
+		"defaultFgColor_override"					"GrayLight"
+		"armedFgColor_override" 					"WhiteGray"
+		"depressedFgColor_override" 				"GrayLight"
 		
 		"pin_to_sibling" 							"CustomHeavySide"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -964,9 +912,9 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 		
-		"defaultFgColor_override"					"LightBGHover"
-		"armedFgColor_override" 					"LightBGHover"
-		"depressedFgColor_override" 				"LightBGHover"
+		"defaultFgColor_override"					"GrayLight"
+		"armedFgColor_override" 					"WhiteGray"
+		"depressedFgColor_override" 				"GrayLight"
 		
 		"pin_to_sibling" 							"CustomEngineerSide"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -1008,9 +956,9 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 		
-		"defaultFgColor_override"					"LightBGHover"
-		"armedFgColor_override" 					"LightBGHover"
-		"depressedFgColor_override" 				"LightBGHover"
+		"defaultFgColor_override"					"GrayLight"
+		"armedFgColor_override" 					"WhiteGray"
+		"depressedFgColor_override" 				"GrayLight"
 		
 		"pin_to_sibling" 							"CustomMedicSide"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -1052,9 +1000,9 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 		
-		"defaultFgColor_override"					"LightBGHover"
-		"armedFgColor_override" 					"LightBGHover"
-		"depressedFgColor_override" 				"LightBGHover"
+		"defaultFgColor_override"					"GrayLight"
+		"armedFgColor_override" 					"WhiteGray"
+		"depressedFgColor_override" 				"GrayLight"
 		
 		"pin_to_sibling" 							"CustomSniperSide"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -1069,39 +1017,6 @@
 		"Command"									"loadout spy"
 		"visible"									"1"
 	}
-	
-	"BackpackSide"
-	{
-		"ControlName"								"CExImageButton"
-		"fieldName"									"BackpackSide"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"601"
-		"wide"										"20"
-		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"tabPosition"								"0"
-		"textAlignment"								"center"
-		"Command"									"backpack"
-		"Default"									"0"
-		"labelText"									"O"
-		"font"										"Symbols 16"
-		
-		"paintbackground"							"0"
-		"paintborder"								"0"
-		
-		"defaultFgColor_override"					"LightBGHover"
-		"armedFgColor_override" 					"LightBGHover"
-		"depressedFgColor_override" 				"LightBGHover"
-		
-		"pin_to_sibling" 							"CustomSpySide"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
-	}
-	
 	"BackpackSelectNumber"
 	{
 		"ControlName"								"CExButton"
@@ -1111,6 +1026,22 @@
 		"Command"									"backpack"
 		"visible"									"1"
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	"StartExplanation"
 	{
@@ -1124,7 +1055,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MaterialDarkBG"
+		"border"		"MaterialBlackDark"
 		
 		"force_close"	"1"
 		"end_x"			"c-150"
@@ -1139,7 +1070,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#LoadoutExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1158,7 +1089,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"Size 14"
 			"labelText"		"#LoadoutExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -1188,7 +1119,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1224,7 +1155,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -1253,7 +1184,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1299,7 +1230,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MaterialDarkBG"
+		"border"		"MaterialBlackDark"
 		
 		"force_close"	"1"
 		"end_x"			"c-320"
@@ -1314,7 +1245,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#BackpackExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1333,7 +1264,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"Size 14"
 			"labelText"		"#BackpackExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -1363,7 +1294,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1410,7 +1341,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1446,7 +1377,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -1475,7 +1406,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1521,7 +1452,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MaterialDarkBG"
+		"border"		"MaterialBlackDark"
 		
 		"force_close"	"1"
 		"end_x"			"c-210"
@@ -1536,7 +1467,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#CraftingExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1555,7 +1486,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"Size 14"
 			"labelText"		"#CraftingExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -1585,7 +1516,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1632,7 +1563,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1668,7 +1599,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -1697,7 +1628,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1743,7 +1674,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MaterialDarkBG"
+		"border"		"MaterialBlackDark"
 		
 		"force_close"	"1"
 		"end_x"			"c-120"
@@ -1758,7 +1689,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#ArmoryExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1777,7 +1708,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"Size 14"
 			"labelText"		"#ArmoryExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -1807,7 +1738,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1854,7 +1785,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1890,7 +1821,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -1919,7 +1850,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1965,7 +1896,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MaterialDarkBG"
+		"border"		"MaterialBlackDark"
 		
 		"force_close"	"1"
 		"end_x"			"c-30"
@@ -1980,7 +1911,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#TradingExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1999,7 +1930,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"Size 14"
 			"labelText"		"#TradingExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -2029,7 +1960,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2076,7 +2007,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2112,7 +2043,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -2141,7 +2072,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2187,7 +2118,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MaterialDarkBG"
+		"border"		"MaterialBlackDark"
 		
 		"force_close"	"1"
 		"end_x"			"c130"
@@ -2202,7 +2133,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#WeaponPatternsExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -2221,7 +2152,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"Size 14"
 			"labelText"		"#WeaponPatternsExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -2251,7 +2182,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2298,7 +2229,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2334,7 +2265,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -2363,7 +2294,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2409,7 +2340,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MaterialDarkBG"
+		"border"		"MaterialBlackDark"
 		
 		"force_close"	"1"
 		"end_x"			"c100"
@@ -2423,7 +2354,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#ExplanationExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -2442,7 +2373,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"Size 14"
 			"labelText"		"#ExplanationExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -2472,7 +2403,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2519,7 +2450,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2555,7 +2486,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"

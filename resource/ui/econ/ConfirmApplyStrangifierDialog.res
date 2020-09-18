@@ -10,7 +10,7 @@
 		"wide"										"400"
 		"tall"										"240"
 		"paintbackground"		"0"
-		"border"				"MaterialDarkBG"
+		"border"				"MaterialBlackDark"
 	}
 
 	"mouseoveritempanel"
@@ -57,7 +57,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"labelText"									"dynamic"
 		"textAlignment"								"center"
 		"xpos"										"100"
@@ -76,7 +76,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ToolBG"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"labelText"									""
 		"textAlignment"								"east"
 		"xpos"										"10"
@@ -143,7 +143,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SubjectBG"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"labelText"									""
 		"textAlignment"								"east"
 		"xpos"										"300"
@@ -209,7 +209,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ConfirmLabel"
-		"font"										"HudFontSmall"
+		"font"										"Size 14"
 		"labelText"									"#ToolStrangifierConfirm"
 		"textAlignment"								"center"
 		"xpos"										"20"
@@ -240,7 +240,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									"#Cancel"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -278,7 +278,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									"#CraftNameConfirm"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"

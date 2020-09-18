@@ -22,7 +22,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"Size 24"
 		"labelText"		"%testtitle%"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -42,7 +42,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectModelLabel"
-		"font"			"HudFontSmallest"
+		"font"			"Size 11"
 		"labelText"		"#IT_YourModel"
 		"textAlignment"	"west"
 		"xpos"			"10"
@@ -90,7 +90,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#IT_SelectModel"
-		"font"			"HudFontSmallestBold"
+		"font"			"Size 11"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -107,7 +107,7 @@
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 	}
 	"ExistingItemToTestPanel"
@@ -122,13 +122,13 @@
 		"PaintBackgroundType"	"2"
 		"PaintBackground"	"0"
 		"PaintBorder"	"1"
-		"border"	"MaterialDarkBG"
+		"border"	"MaterialBlackDark"
 		
 		"ItemReplacedLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemReplacedLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#IT_ExistingItem"
 			"textAlignment"	"west"
 			"xpos"			"5"
@@ -147,7 +147,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ExistingItemComboBox"
-			"Font"				"HudFontSmallest"
+			"Font"				"Size 11"
 			"xpos"				"110"
 			"ypos"				"7"
 			"zpos"				"1"
@@ -186,13 +186,13 @@
 		"PaintBackgroundType"	"2"
 		"PaintBackground"	"0"
 		"PaintBorder"	"1"
-		"border"	"MaterialDarkBG"
+		"border"	"MaterialBlackDark"
 		
 		"ItemReplacedLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemReplacedLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#IT_ItemReplaces"
 			"textAlignment"	"west"
 			"xpos"			"5"
@@ -210,7 +210,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ItemReplacedComboBox"
-			"Font"				"HudFontSmallest"
+			"Font"				"Size 11"
 			"xpos"				"110"
 			"ypos"				"7"
 			"zpos"				"1"
@@ -239,7 +239,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NoItemsToReplaceLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#IT_ItemReplaced_Invalid"
 			"textAlignment"	"west"
 			"xpos"			"95"
@@ -271,7 +271,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"HideBodygroupLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#IT_Bodygroups"
 			"textAlignment"	"west"
 			"xpos"			"5"
@@ -490,7 +490,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PaintColorLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#IT_PaintTitle"
 			"textAlignment"	"west"
 			"xpos"			"5"
@@ -538,7 +538,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UnusualEffectLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#IT_UnusualTitle"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -598,7 +598,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -615,7 +615,7 @@
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 	}
 	"OkButton"
@@ -633,7 +633,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#GameUI_Ok"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -650,7 +650,7 @@
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 	}
 	

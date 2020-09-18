@@ -13,7 +13,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabel"
-		"font"										"GameFont24Shadow"
+		"font"										"Game 24Shadow"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.1"
 		"wide"										"40"
@@ -128,7 +128,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"RankUpLabel"
-		"font"										"GameFont18"
+		"font"										"Game 18"
 		"xpos"										"cs-0.5"
 		"ypos"										"80"
 		"wide"										"600"
@@ -152,7 +152,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"RankUpShadowLabel"
-		"font"										"GameFont18Blur"
+		"font"										"Game 18 Blur"
 		"xpos"										"cs-0.5+1"
 		"ypos"										"80+1"
 		"wide"										"600"
@@ -189,13 +189,13 @@
 		"PositiveColor"								"Green"
 		"NegativeColor"								"Red"
 		"delta_lifetime"							"2"
-		"delta_item_font"							"GameFont16"
+		"delta_item_font"							"Game 16"
 		
 		"TimePanelValue"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"GameFont20"
+			"font"									"Game 20"
 			"fgcolor"								"White"
 			"xpos"									"8"
 			"ypos"									"3"
@@ -243,8 +243,8 @@
 
 			"color_portrait_bg_red"					"Red"
 			"color_portrait_bg_blue"				"Blue"
-			"color_portrait_bg_red_dead"			"DarkBG"
-			"color_portrait_bg_blue_dead"			"DarkBG"
+			"color_portrait_bg_red_dead"			"BlackDark"
+			"color_portrait_bg_blue_dead"			"BlackDark"
 			"color_bar_health_high"					"Green"
 			"color_bar_health_med"					"Orangee"
 			"percentage_health_med"					"0.6"
@@ -360,7 +360,7 @@
 				"enabled"							"1"	
 				"HealthBonusPosAdj"					"10"
 				"HealthDeathWarning"				"0.49"
-				"TFFont"							"GameFont11"
+				"TFFont"							"Game 11"
 				"HealthDeathWarningColor"			"HUDDeathWarning"
 				"TextColor"							"HudOffWhite"
 			}
@@ -406,7 +406,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"respawntime"
-				"font"								"GameFont10"
+				"font"								"Game 10"
 				"xpos"								"cs-0.5"
 				"ypos"								"0"
 				"zpos"								"10"

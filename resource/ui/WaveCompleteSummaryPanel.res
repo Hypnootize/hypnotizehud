@@ -36,7 +36,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabelShadow"
-			"font"			"GameFont14Blur"
+			"font"			"Game 14 Blur"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
 			"xpos"			"3"
@@ -58,7 +58,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabel"
-			"font"			"GameFont14"
+			"font"			"Game 14"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
 			"xpos"			"2"
@@ -87,7 +87,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditCollectedTextLabel"
-			"font"			"GameFont12"
+			"font"			"Game 12"
 			"labelText"		"#TF_PVE_CurrencyCollected"
 			"textAlignment" "north-east"
 			"xpos"			"0"
@@ -102,7 +102,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditCollectedCountLabel"
-			"font"			"GameFont12"
+			"font"			"Game 12"
 			"labelText"		"%creditscollected%"
 			"textAlignment" "north-east"
 			"xpos"			"115"
@@ -117,7 +117,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditMissedTextLabel"
-			"font"			"GameFont12"
+			"font"			"Game 12"
 			"labelText"		"#TF_PVE_Missed"
 			"textAlignment" "north-east"
 			"xpos"			"0"
@@ -132,7 +132,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditMissedCountLabel"
-			"font"			"GameFont12"
+			"font"			"Game 12"
 			"labelText"		"%creditsmissed%"
 			"textAlignment" "north-east"
 			"xpos"			"115"
@@ -147,7 +147,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditBonusTextLabel"
-			"font"			"GameFont12"
+			"font"			"Game 12"
 			"labelText"		"#TF_PVE_Bonus"
 			"textAlignment" "north-east"
 			"xpos"			"0"
@@ -162,7 +162,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditBonusCountLabel"
-			"font"			"GameFont12"
+			"font"			"Game 12"
 			"labelText"		"%creditbonus%"
 			"textAlignment" "north-east"
 			"xpos"			"115"
@@ -189,7 +189,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RatingLabel"
-			"font"			"GameFont14"
+			"font"			"Game 14"
 			"labelText"		"%ratinglabel%"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -204,7 +204,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RatingTextShadow"
-			"font"			"GameFont24Blur"
+			"font"			"Game 24 Blur"
 			"labelText"		"%ratingscore%"
 			"textAlignment" "center"
 			"xpos"			"1"
@@ -219,7 +219,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RatingText"
-			"font"			"GameFont24"
+			"font"			"Game 24"
 			"labelText"		"%ratingscore%"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -267,7 +267,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecTextLabelWin"
-			"font"			"GameFont14"
+			"font"			"Game 14"
 			"labelText"		"#TF_PVE_Respecs"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -282,7 +282,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecCountLabel"
-			"font"			"GameFont14"
+			"font"			"Game 14"
 			"labelText"		"%respeccount%"
 			"textAlignment" "center"
 			"xpos"			"145"

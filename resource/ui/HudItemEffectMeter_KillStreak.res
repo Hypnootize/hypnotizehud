@@ -76,7 +76,7 @@
 		"textAlignment"								"east"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"GameFont18"
+		"font"										"Game 18"
 		"fgcolor"									"White"
 	}
 	
@@ -97,7 +97,7 @@
 		"textAlignment"								"east"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"GameFont18Blur"
+		"font"										"Game 18 Blur"
 		"fgcolor"									"Shadow"
 		
 		"pin_to_sibling" 							"ItemEffectMeterCount"

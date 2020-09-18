@@ -26,8 +26,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveCountLabel"
-		"font"			"GameFont9"
-		"font_minmode"	"GameFont9"
+		"font"			"Game 9"
+		"font_minmode"	"Game 9"
 		"fgcolor"		"TanLight"
 		"xpos"			"211"
 		"ypos"			"4"
@@ -69,7 +69,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabel"
-		"font"			"GameFont11"
+		"font"			"Game 11"
 		"fgcolor"		"TanLight"
 		"xpos"			"55"
 		"ypos"			"6"

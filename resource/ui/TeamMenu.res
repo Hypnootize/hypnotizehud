@@ -65,7 +65,7 @@
 		"AllCaps"									"1"
 		"dulltext"									"0"
 		"brighttext"								"1"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"fgcolor"									"White"
 		"fgcolor_override"							"White"
 		
@@ -109,7 +109,7 @@
 		"enabled"		  							"1"
 		"labelText"		  							"Blue"
 		"textAlignment"	  							"east"
-		"font"			  							"HudFontMediumSmallBold"
+		"font"			  							"Size 18"
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling" 							"BlueFrame"
@@ -132,7 +132,7 @@
 		"enabled"		  							"1"
 		"labelText"		  							"%bluecount%"
 		"textAlignment"	  							"center"
-		"font"			  							"HudFontMediumBigBold"
+		"font"			  							"Size 30"
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling" 							"BlueFrame"
@@ -205,7 +205,7 @@
 		"enabled"		  							"1"
 		"labelText"		  							"Red"
 		"textAlignment"	  							"west"
-		"font"			  							"HudFontMediumSmallBold"
+		"font"			  							"Size 18"
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling" 							"RedFrame"
@@ -224,7 +224,7 @@
 		"enabled"		  							"1"
 		"labelText"		  							"%redcount%"
 		"textAlignment"	  							"center"
-		"font"			  							"HudFontMediumBigBold"
+		"font"			  							"Size 30"
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling" 							"RedFrame"
@@ -299,7 +299,7 @@
 		"labelText"		  							"Random"
 		"AllCaps"		  							"1"
 		"textAlignment"	  							"west"
-		"font"			  							"HudFontSmallBold"
+		"font"			  							"Size 14"
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling" 							"RandomFrame"
@@ -370,7 +370,7 @@
 		"labelText"		  							"Spectate"
 		"AllCaps"		  							"1"
 		"textAlignment"  							"east"
-		"font"			  							"HudFontSmallBold"
+		"font"			  							"Size 14"
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling" 							"SpectateFrame"

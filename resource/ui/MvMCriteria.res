@@ -14,7 +14,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ChallengeLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#TF_MvM_TourOfDuty"
 			"textAlignment"	"south-west"
 			"xpos"			"4"
@@ -30,7 +30,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"DifficultyLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"south-west"
 			"xpos"			"189"
@@ -46,7 +46,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"CompleteLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#TF_MvM_TourOfDutyProgress"
 			"textAlignment"	"south-west"
 			"xpos"			"279"
@@ -62,7 +62,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"TourLevelLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#TF_MvM_TourNumber"
 			"textAlignment"	"south-west"
 			"xpos"			"345"
@@ -84,7 +84,7 @@
 			"wide"				"400"
 			"tall"				"200"
 			"paintbackground"	"0"
-			"border"			"MaterialDarkBG"
+			"border"			"MaterialBlackDark"
 
 			"GreyOutPanel"
 			{
@@ -103,7 +103,7 @@
 			{
 				"ControlName"	"SectionedListPanel"
 				"fieldName"		"TourList"
-				"font"			"HudFontSmall"
+				"font"			"Size 14"
 				"xpos"			"5"
 				"ypos"			"5"
 				"zpos"			"0"
@@ -118,7 +118,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"TourDifficultyWarning"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#TF_MVM_Tour_ExpertDifficulty_Warning"
 			"xpos"		"30"
 			"ypos"		"120"
@@ -144,7 +144,7 @@
 		"wide"		"400"
 		"tall"		"120"
 		"paintbackground"	"0"
-		"border"			"MaterialDarkBG"
+		"border"			"MaterialBlackDark"
 
 		"TourLootImage"
 		{
@@ -166,7 +166,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ToorLootTitle"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#TF_MvM_TourLootTitle"
 			"textAlignment"	"west"
 			"xpos"			"10"
@@ -181,7 +181,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ToorLootDetailLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"%tour_loot_detail%"
 			"textAlignment"	"west"
 			"wrap"			"1"
@@ -203,13 +203,13 @@
 		"wide"			"400"
 		"tall"			"120"
 		"paintbackground"	"0"
-		"border"			"MaterialDarkBG"
+		"border"			"MaterialBlackDark"
 
 		"InventoryTitleLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"InventoryTitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#TF_MvM_InventoryTitle"
 			"textAlignment"	"north-west"
 			"xpos"			"8"
@@ -252,7 +252,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"MannUpTicketCountLabel"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"Size 18"
 			"labelText"		"%ticket_count%"
 			"textAlignment"	"north-west"
 			"fgcolor_override"	"Red"
@@ -295,7 +295,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"SquadSurplusCountLabel"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"Size 18"
 			"labelText"		"%voucher_count%"
 			"textAlignment"	"north-west"
 			"fgcolor_override"	"Red"
@@ -316,7 +316,7 @@
 			"zpos"		"2"
 			"wide"		"25"
 			"tall"		"25"
-			"font"			"HudFontSmall"
+			"font"			"Size 14"
 			"labelText"		""
 		}
 
@@ -324,7 +324,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"SquadSurplusCheckLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"Size 11"
 			"labelText"		"#TF_MvM_ActivateSquadSurplus"
 			"textAlignment"	"north-west"
 			"wrap"			"1"
@@ -435,7 +435,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"MissingTicketsLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"fgcolor_override"	"White"
 			"labelText"		"#TF_Matchmaking_CantQueue_NoTicket"
 			"textAlignment"	"south-west"
@@ -459,7 +459,7 @@
 		"wide"		"400"
 		"tall"		"120"
 		"paintbackground"	"0"
-		"border"			"MaterialDarkBG"
+		"border"			"MaterialBlackDark"
 
 		"NoMannUpImage"
 		{
@@ -481,7 +481,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NoMannUpTitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#TF_MvM_NoMannUpTitle"
 			"textAlignment"	"west"
 			"xpos"			"10"
@@ -496,7 +496,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NoMannUpDescriptionLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#TF_MvM_NoMannUpDescription"
 			"textAlignment"	"west"
 			"wrap"			"1"
@@ -522,7 +522,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_MvM_MannUpNow"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -535,7 +535,7 @@
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
 		
-			"border_default"			"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
 			"border_armed"				"MaterialHypno"
 		
 			"defaultFgColor_override"	"White"
@@ -558,7 +558,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ChallengeLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"%tour_name%"
 			"textAlignment"	"south-west"
 			"xpos"			"4"
@@ -574,7 +574,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"CompleteLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"%complete_heading%"
 			"textAlignment"	"south-west"
 			"xpos"			"264"
@@ -606,7 +606,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"TourLevelLabel"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"Size 18"
 			"labelText"		"%tour_level%"
 			"textAlignment"	"south"
 			"xpos"			"357"
@@ -627,7 +627,7 @@
 			"wide"			"400"
 			"tall"			"200"
 			"paintbackground"	"0"
-			"border"			"MaterialDarkBG"
+			"border"			"MaterialBlackDark"
 
 			"GreyOutPanel"
 			{
@@ -646,7 +646,7 @@
 			{
 				"ControlName"	"SectionedListPanel"
 				"fieldName"		"ChallengeList"
-				"font"			"HudFontSmall"
+				"font"			"Size 14"
 				"xpos"			"70"
 				"ypos"			"5"
 				"zpos"			"0"

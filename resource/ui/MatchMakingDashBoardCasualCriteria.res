@@ -26,7 +26,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderCasual"
 		"textAlignment"	"west"
-		"font"			"HudFontMedium"
+		"font"			"Size 24"
 		"fgcolor_override"	"White"
 		
 		"AllCaps"		"1"
@@ -78,7 +78,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"Size 18"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -96,7 +96,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"

@@ -6,7 +6,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"8"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -16,7 +16,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"9"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -26,7 +26,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"10"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -36,7 +36,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"11"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -46,7 +46,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"12"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -56,7 +56,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"14"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -66,7 +66,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"15"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -76,7 +76,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"16"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -86,7 +86,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -96,7 +96,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"20"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -106,7 +106,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"21"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -116,7 +116,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"22"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -126,7 +126,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"24"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -136,7 +136,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"26"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -146,7 +146,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"28"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -156,7 +156,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"30"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -166,7 +166,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"32"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -176,7 +176,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"36"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -186,7 +186,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"40"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -196,7 +196,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"44"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -206,7 +206,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"46"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -216,7 +216,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"50"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -226,7 +226,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"56"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -236,7 +236,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"60"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -246,7 +246,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"66"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -256,7 +256,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"70"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -266,7 +266,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"72"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -276,7 +276,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"8"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -287,7 +287,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"9"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -298,7 +298,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"10"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -309,7 +309,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"11"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -320,7 +320,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"12"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -331,7 +331,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"14"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -342,7 +342,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"15"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -353,7 +353,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"16"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -364,7 +364,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -375,7 +375,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"20"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -386,7 +386,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"21"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -397,7 +397,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"22"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -408,7 +408,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"24"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -419,7 +419,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"26"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -430,7 +430,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"28"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -441,7 +441,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"30"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -452,7 +452,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"32"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -463,7 +463,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"36"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -474,7 +474,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"40"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -485,7 +485,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"44"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -496,7 +496,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"46"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -507,7 +507,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"50"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -518,7 +518,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"56"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -529,7 +529,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"60"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -540,7 +540,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"66"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -551,7 +551,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"70"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -562,7 +562,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"72"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -574,7 +574,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"10"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -585,7 +585,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"11"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -596,7 +596,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"12"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -607,7 +607,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"16"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -618,7 +618,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -629,7 +629,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"20"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -640,7 +640,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"22"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -651,7 +651,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"24"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -662,19 +662,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"30"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		GameFont44Shadow
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-				"tall"										"44"
 				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow"								"1"
@@ -685,7 +674,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"10"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -696,7 +685,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"11"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -707,7 +696,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"12"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -718,7 +707,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -729,7 +718,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"22"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -740,7 +729,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"24"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -752,7 +741,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Nexa Respawn"
+				"name"										"Rubik Respawn"
 				"tall"										"20"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -774,28 +763,28 @@ Scheme
 		{
 			"1"
 			{
-				"name"		  								"NexaBold"
+				"name"		  								"Rubik Bold"
 				"tall"      								"14"
 				"antialias" 								"1"
 				"yres"	    								"480 700"
 			}
 			"2"
 			{
-				"name"		 								"NexaBold"
+				"name"		 								"Rubik Bold"
 				"tall"      								"18"
 				"antialias" 								"1"
 				"yres"	    								"701 899"
 			}
 			"3"
 			{
-				"name"		  								"NexaBold"
+				"name"		  								"Rubik Bold"
 				"tall"      								"22"
 				"antialias" 								"1"
 				"yres"	    								"900 1000"
 			}
 			"4"
 			{
-				"name"		  								"NexaBold"
+				"name"		  								"Rubik Bold"
 				"tall"      								"24"
 				"antialias" 								"1"
 				"yres"	    								"1001 10000"
@@ -806,28 +795,28 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"      								"13"
 				"antialias" 								"1"
 				"yres"										"480 700"
 			}
 			"2"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"      								"16"
 				"antialias" 								"1"
 				"yres"										"701 899"
 			}
 			"3"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"     									"20"
 				"antialias" 								"1"
 				"yres"										"900 1000"
 			}
 			"4"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"      								"24"
 				"antialias" 								"1"
 				"yres"										"1001 10000"
@@ -838,7 +827,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"18"
 				"weight"									"900"
 				"range"										"0x0000 0x017F" 
@@ -846,7 +835,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"21"
 				"weight"									"900"
 				"range"										"0x0000 0x017F" 
@@ -854,7 +843,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"22"
 				"weight"									"900"
 				"range"										"0x0000 0x017F" 
@@ -863,7 +852,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"28"
 				"weight"									"900"
 				"range"										"0x0000 0x017F" 
@@ -872,7 +861,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"30"
 				"weight"									"900"
 				"range"										"0x0000 0x017F" 
@@ -881,7 +870,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"20"
 				"range" 									"0x0000 0x00FF"
 				"weight"									"900"
@@ -898,7 +887,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"24"
 				"weight"									"500"
 				"additive"									"0"
@@ -909,7 +898,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"24"
 				"weight"									"500"
 				"additive"									"0"
@@ -920,7 +909,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"24"
 				"weight"									"500"
 				"additive"									"0"
@@ -931,7 +920,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"24"
 				"weight"									"500"
 				"additive"									"0"
@@ -942,7 +931,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"16"
 				"weight"									"500"
 				"additive"									"0"
@@ -954,7 +943,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"6"
 				"weight"									"500"
 				"additive"									"0"
@@ -965,7 +954,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"16"
 				"weight"									"500"
 				"additive"									"0"
@@ -998,7 +987,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"10"
 				"weight"									"400"
 				"additive"									"0"
@@ -1009,7 +998,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"14"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
@@ -1021,7 +1010,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"20"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
@@ -1033,7 +1022,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"20"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
@@ -1045,7 +1034,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"14"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
@@ -1057,7 +1046,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"20"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
@@ -1069,7 +1058,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"34"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
@@ -1081,7 +1070,7 @@ Scheme
  		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"36"
 				"weight"									"500"
 				"additive"									"0"
@@ -1092,7 +1081,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"52"
 				"range" 									"0x0000 0x00FF"
 				"weight"									"400"
@@ -1101,7 +1090,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"72"
 				"range" 									"0x0000 0x00FF"
 				"weight"									"400"
@@ -1110,7 +1099,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"100"
 				"range" 									"0x0000 0x00FF"
 				"weight"									"400"
@@ -1119,7 +1108,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"140"
 				"range" 									"0x0000 0x00FF"
 				"weight"									"400"
@@ -1128,7 +1117,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"180"
 				"range" 									"0x0000 0x00FF"
 				"weight"									"400"
@@ -1140,7 +1129,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"36"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
@@ -1152,7 +1141,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"14"
 				"weight"									"400"
 				"additive"									"0"
@@ -1163,7 +1152,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"20"
 				"weight"									"400"
 				"additive"									"0"
@@ -1174,7 +1163,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"14"
 				"weight"									"400"
 				"additive"									"0"
@@ -1185,7 +1174,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"10"
 				"weight"									"400"
 				"additive"									"0"
@@ -1207,7 +1196,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"10"
 				"weight"									"400"
 				"additive"									"0"
@@ -1219,7 +1208,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"12"
 				"weight"									"700"
 				"yres"										"480 599"
@@ -1227,7 +1216,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"13"
 				"weight"									"700"
 				"yres"										"600 767"
@@ -1235,7 +1224,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"14"
 				"weight"									"700"
 				"yres"										"768 1023"
@@ -1243,7 +1232,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"20"
 				"weight"									"700"
 				"yres"										"1024 1199"
@@ -1251,7 +1240,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"24"
 				"weight"									"700"
 				"yres"										"1200 10000"
@@ -1262,7 +1251,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"12"
 				"weight"									"500"
 				"range"										"0x0000 0x017F" 
@@ -1274,7 +1263,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"Rubik Bold"
 				"tall"										"8"
 				"weight"									"500"
 				"range"										"0x0000 0x017F"
@@ -1288,13 +1277,8 @@ Scheme
 	{
 		"10"
 		{
-			"font" 		"resource/scheme/fontfiles/Nexa Bold.otf"
-			"name" 		"NexaBold"
-		}
-		"11"
-		{
-			"font" 		"resource/scheme/fontfiles/Nexa Respawn.otf"
-			"name" 		"Nexa Respawn"
+			"font" 		"resource/scheme/fontfiles/Rubik.ttf"
+			"name" 		"Rubik Bold"
 		}
 	}
 }

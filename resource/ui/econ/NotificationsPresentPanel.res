@@ -12,7 +12,7 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"paintbackground"		"0"
-		"border"				"MaterialDarkBG"
+		"border"				"MaterialBlackDark"
 	}
 
 	"TextLabel"
@@ -32,7 +32,7 @@
 		"wrap"			"0"
 		"labelText"		"#Notifications_Present"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallestBold"
+		"font"			"Size 11"
 		"proportionaltoparent"	"1"
 		"AllCaps"	"1"
 	}

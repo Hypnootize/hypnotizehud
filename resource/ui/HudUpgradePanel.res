@@ -128,7 +128,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"PLAYER"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -186,7 +186,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"DarkBG"
+			"bgcolor_override"	"BlackDark"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -240,7 +240,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"LightBG"
+			"bgcolor_override"	"GrayDark"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -258,7 +258,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"LightBG"
+			"bgcolor_override"	"GrayDark"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -276,7 +276,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"LightBG"
+			"bgcolor_override"	"GrayDark"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -294,7 +294,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"LightBG"
+			"bgcolor_override"	"GrayDark"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -312,7 +312,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"LightBG"
+			"bgcolor_override"	"GrayDark"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -330,7 +330,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"LightBG"
+			"bgcolor_override"	"GrayDark"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -345,7 +345,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"GreyedOutLabel"
-			"font"			"HudFontSmall"
+			"font"			"Size 14"
 			"labelText"		"%powerup_hint%"
 			"textAlignment"	"north"
 			"wrap"			"1"
@@ -377,7 +377,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_PVE_Quick_Equip_Bottle"
-			"font"			"HudFontSmallestBold"
+			"font"			"Size 11"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -402,7 +402,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#OpenGeneralLoadout"
-			"font"			"HudFontSmallestBold"
+			"font"			"Size 11"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -427,7 +427,7 @@
 			"enabled"		"1"
 			
 			
-			"bgcolor_override"	"Background"
+			"bgcolor_override"	"GrayDarkest"
 		}
 		
 		"UpgradeItemsDescriptionLabel"
@@ -466,7 +466,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			
-			"bgcolor_override"	"Background"
+			"bgcolor_override"	"GrayDarkest"
 		}
 		
 		"UpgradeItemsHeaderBG"
@@ -490,7 +490,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UpgradeItemsLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"%upgrade_label%"
 			"textAlignment"	"center"
 			"xpos"			"25"
@@ -529,7 +529,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"HudFontMediumSmall"
+			"font"			"Size 18"
 			"labelText"		"%credits%"
 			"textAlignment"	"east"
 			"xpos"			"0"
@@ -548,7 +548,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsTextLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#TF_PVE_UpgradeAmount"
 			"textAlignment"	"west"
 			"xpos"			"250"
@@ -578,7 +578,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_PVE_UpgradeCancel"
-			"font"			"HudFontSmallestBold"
+			"font"			"Size 11"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -592,7 +592,7 @@
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
 			
-			"border_default"			"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
 			"border_armed"				"MaterialHypno"
 
 			"defaultFgColor_override"	"White"
@@ -615,7 +615,7 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		"#TF_PVE_UpgradeDone"
-			"font"			"HudFontSmallestBold"
+			"font"			"Size 11"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -629,7 +629,7 @@
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
 			
-			"border_default"			"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
 			"border_armed"				"MaterialHypno"
 
 			"defaultFgColor_override"	"White"
@@ -652,7 +652,7 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		"#TF_PVE_UpgradeRespec"
-			"font"			"HudFontSmallestBold"
+			"font"			"Size 11"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -666,7 +666,7 @@
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
 			
-			"border_default"			"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
 			"border_armed"				"MaterialHypno"
 
 			"defaultFgColor_override"	"White"

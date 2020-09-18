@@ -21,7 +21,7 @@
 		"tall"			"19"
 		"proportionaltoparent"	"1"
 		"paintbackground"		"0"
-		"border"		"MaterialLightBG"
+		"border"		"MaterialGrayDark"
 
 		"EntryToggleButton"
 		{
@@ -61,7 +61,7 @@
 			"mouseinputenabled"	"0"
 			
 			"labeltext"			"#TF_Competitive_MatchHistory_Win"
-			"font"				"HudFontSmallestBold"
+			"font"				"Size 11"
 			"fgcolor_override"	"Green"
 			"textAlignment"		"west"
 		}
@@ -79,7 +79,7 @@
 			"mouseinputenabled"	"0"
 			
 			"labeltext"			"#TF_Competitive_MatchHistory_Loss"
-			"font"				"HudFontSmallestBold"
+			"font"				"Size 11"
 			"fgcolor_override"	"Red"
 			"textAlignment"		"west"
 		}

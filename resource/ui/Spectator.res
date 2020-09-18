@@ -49,7 +49,7 @@
 		"enabled"									"1"
 		"labelText"									""
 		"textAlignment"								"center"
-		"font"										"GameFont16"
+		"font"										"Game 16"
 		"wrap"										"1"
 		"centerwrap"								"1"
 		

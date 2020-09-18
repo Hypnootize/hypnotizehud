@@ -20,7 +20,7 @@
 		"NumericInputOnly"							"0"
 		"unicode"									"0"
 		"wrap"										"0"
-		"font" 										"GameFont11"
+		"font" 										"Game 11"
 		"labelText"									"%teamname%"
 		"textAlignment"								"west"
 		"PaintBackground"							"1"

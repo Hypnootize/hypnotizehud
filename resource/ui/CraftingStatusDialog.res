@@ -12,14 +12,14 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"DarkBG"
+		"bgcolor_override"		"BlackDark"
 	}
 	
 	"CenterPositioner"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"CenterPositioner"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"xpos"			"0"
 		"ypos"			"10"
 		"zpos"			"0"
@@ -47,7 +47,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
@@ -74,7 +74,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"EllipsesLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
@@ -110,7 +110,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#GameUI_Ok"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -124,7 +124,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"

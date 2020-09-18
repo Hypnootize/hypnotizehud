@@ -14,7 +14,7 @@
 		"tall"					"f0"
 		"settitlebarvisible"	""
 		"paintbackground"		"1"
-		"bgcolor_override"		"Background"
+		"bgcolor_override"		"GrayDarkest"
 		
 		"button_kv"
 		{
@@ -35,7 +35,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		""
-				"font"			"HudFontSmallBold"
+				"font"			"Size 14"
 				"textAlignment"	"west"
 				"textinsetx"	"34"
 				"use_proportional_insets" "1"
@@ -50,7 +50,7 @@
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
 				
-				"border_default"			"MaterialLightBG"
+				"border_default"			"MaterialGrayDark"
 				"border_armed"				"MaterialHypno"
 
 				"defaultFgColor_override"	"White"
@@ -88,14 +88,14 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"paintbackground"	"0"
-		"border"			"MaterialDarkBG"
+		"border"			"MaterialBlackDark"
 	}
 	
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"Size 24"
 		"labelText"		"%title%"
 		"textAlignment"	"north"
 		"xpos"			"c-200"
@@ -153,7 +153,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#TF_SelectPlayer_Select"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -184,7 +184,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_SelectPlayer_SelectFriends"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -198,7 +198,7 @@
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
 			
-			"border_default"			"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
 			"border_armed"				"MaterialHypno"
 
 			"defaultFgColor_override"	"White"
@@ -220,7 +220,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_FindCoachDialog_Match"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -234,7 +234,7 @@
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
 			
-			"border_default"			"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
 			"border_armed"				"MaterialHypno"
 
 			"defaultFgColor_override"	"White"
@@ -259,7 +259,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#TF_SelectPlayer_Friends"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -278,7 +278,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"EmptyPlayerListLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#TF_SelectPlayer_FriendsNone"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -312,7 +312,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -326,7 +326,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 			
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"

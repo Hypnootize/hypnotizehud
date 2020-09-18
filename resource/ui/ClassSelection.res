@@ -53,7 +53,7 @@
 		"AllCaps"									"1"
 		"dulltext"									"0"
 		"brighttext"								"1"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"fgcolor_override"							"White"
 		
 		"pin_to_sibling" 							"ClassSelectFrame"
@@ -86,7 +86,7 @@
 		"textinsetx"								"10"
 		"Command"									"joinclass random"
 		"Default"									"1"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"AllCaps"									"1"
 			
 		"paintbackground"							"0"
@@ -119,7 +119,7 @@
 		"textinsetx"								"10"
 		"Command"									"openloadout"
 		"Default"									"1"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"AllCaps"									"1"
 			
 		"paintbackground"							"0"
@@ -152,7 +152,7 @@
 		"labelText"		"offense"
 		"textAlignment"	"left"
 		"AllCaps"		"1"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"Size 18"
 		"fgcolor"		"White"
 		
 		"pin_to_sibling" 		"scout"
@@ -181,7 +181,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 1"
 		"Default"			"0"
-		"font"				"HudFontSmallBold"
+		"font"				"Size 14"
 		"scaleImage"		"1"
 		"AllCaps"			"1"
 		
@@ -230,7 +230,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 3"
 		"Default"			"0"
-		"font"				"HudFontSmallBold"
+		"font"				"Size 14"
 		"scaleImage"		"1"
 		"AllCaps"			"1"
 		
@@ -279,7 +279,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 7"
 		"Default"			"0"
-		"font"				"HudFontSmallBold"
+		"font"				"Size 14"
 		"scaleImage"		"1"
 		"AllCaps"			"1"
 		
@@ -324,7 +324,7 @@
 		"labelText"		"defense"
 		"textAlignment"	"left"
 		"AllCaps"		"1"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"Size 18"
 		"fgcolor"		"White"
 		
 		"pin_to_sibling" 		"demoman"
@@ -353,7 +353,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 4"
 		"Default"			"0"
-		"font"				"HudFontSmallBold"
+		"font"				"Size 14"
 		"scaleImage"		"1"
 		"AllCaps"			"1"
 		
@@ -401,7 +401,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 6"
 		"Default"			"0"
-		"font"				"HudFontSmallBold"
+		"font"				"Size 14"
 		"scaleImage"		"1"
 		"AllCaps"			"1"
 		
@@ -448,7 +448,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 9"
 		"Default"			"0"
-		"font"				"HudFontSmallBold"
+		"font"				"Size 14"
 		"scaleImage"		"1"
 		"AllCaps"			"1"
 		
@@ -493,7 +493,7 @@
 		"labelText"		"support"
 		"textAlignment"	"left"
 		"AllCaps"		"1"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"Size 18"
 		"fgcolor"		"White"
 		
 		"pin_to_sibling" 		"engineer"
@@ -522,7 +522,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 5"
 		"Default"			"0"
-		"font"				"HudFontSmallBold"
+		"font"				"Size 14"
 		"scaleImage"		"1"
 		"AllCaps"			"1"
 		
@@ -571,7 +571,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 2"
 		"Default"			"0"
-		"font"				"HudFontSmallBold"
+		"font"				"Size 14"
 		"scaleImage"		"1"
 		"AllCaps"			"1"
 		
@@ -620,7 +620,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 8"
 		"Default"			"0"
-		"font"				"HudFontSmallBold"
+		"font"				"Size 14"
 		"scaleImage"		"1"
 		"AllCaps"			"1"
 		
@@ -664,7 +664,7 @@
 		"tabPosition"		"0"
 		"AllCaps"			"1"
 		"labelText"			"%numscout%"
-		"font"				"HudFontSmallBold"
+		"font"				"Size 14"
 		"textAlignment"		"east"
 		"fgcolor"			"White"
 		
@@ -689,7 +689,7 @@
 		"tabPosition"		"0"
 		"AllCaps"			"1"
 		"labelText"			"%numsoldier%"
-		"font"				"HudFontSmallBold"
+		"font"				"Size 14"
 		"textAlignment"		"east"
 		"fgcolor"			"White"
 		
@@ -714,7 +714,7 @@
 		"tabPosition"		"0"
 		"AllCaps"			"1"
 		"labelText"			"%numpyro%"
-		"font"				"HudFontSmallBold"
+		"font"				"Size 14"
 		"textAlignment"		"east"
 		"fgcolor"			"White"
 		
@@ -739,7 +739,7 @@
 		"tabPosition"		"0"
 		"AllCaps"			"1"
 		"labelText"			"%numdemoman%"
-		"font"				"HudFontSmallBold"
+		"font"				"Size 14"
 		"textAlignment"		"east"
 		"fgcolor"			"White"
 		
@@ -764,7 +764,7 @@
 		"tabPosition"		"0"
 		"AllCaps"			"1"
 		"labelText"			"%numheavy%"
-		"font"				"HudFontSmallBold"
+		"font"				"Size 14"
 		"textAlignment"		"east"
 		"fgcolor"			"White"
 		
@@ -789,7 +789,7 @@
 		"tabPosition"		"0"
 		"AllCaps"			"1"
 		"labelText"			"%numengineer%"
-		"font"				"HudFontSmallBold"
+		"font"				"Size 14"
 		"textAlignment"		"east"
 		"fgcolor"			"White"
 		
@@ -814,7 +814,7 @@
 		"tabPosition"		"0"
 		"AllCaps"			"1"
 		"labelText"			"%nummedic%"
-		"font"				"HudFontSmallBold"
+		"font"				"Size 14"
 		"textAlignment"		"east"
 		"fgcolor"			"White"
 		
@@ -839,7 +839,7 @@
 		"tabPosition"		"0"
 		"AllCaps"			"1"
 		"labelText"			"%numsniper%"
-		"font"				"HudFontSmallBold"
+		"font"				"Size 14"
 		"textAlignment"		"east"
 		"fgcolor"			"White"
 		
@@ -864,7 +864,7 @@
 		"tabPosition"		"0"
 		"AllCaps"			"1"
 		"labelText"			"%numspy%"
-		"font"				"HudFontSmallBold"
+		"font"				"Size 14"
 		"textAlignment"		"east"
 		"fgcolor"			"White"
 		

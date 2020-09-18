@@ -10,7 +10,7 @@
 		"wide"					"f0"
 		"tall"					"f0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"Background"
+		"bgcolor_override"		"GrayDarkest"
 		"settitlebarvisible"	"0"
 	}
 	
@@ -26,7 +26,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"0"
-		"border"				"MaterialDarkBG"
+		"border"				"MaterialBlackDark"
 	}
 
 	"mouseoveritempanel"
@@ -73,7 +73,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"labelText"									"dynamic"
 		"textAlignment"								"center"
 		"xpos"										"c-105"
@@ -93,7 +93,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ToolBG"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"labelText"									""
 		"textAlignment"								"east"
 		"xpos"										"c-190"
@@ -154,7 +154,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SubjectBG"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"labelText"									""
 		"textAlignment"								"east"
 		"xpos"										"c100"
@@ -214,7 +214,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ConfirmLabel"
-		"font"										"HudFontSmall"
+		"font"										"Size 14"
 		"labelText"									"#SpellbookPageApplyConfirm"
 		"textAlignment"								"center"
 		"xpos"										"c-180"
@@ -245,7 +245,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									"#Cancel"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -259,7 +259,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"
@@ -282,7 +282,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									"#CraftNameConfirm"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -296,7 +296,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"

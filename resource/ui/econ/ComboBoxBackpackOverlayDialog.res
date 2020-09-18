@@ -10,7 +10,7 @@
 		"wide"					"f0"
 		"tall"					"f0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"Background"
+		"bgcolor_override"		"GrayDarkest"
 		"settitlebarvisible"	"1"
 	}
 	
@@ -26,14 +26,14 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"0"
-		"border"				"MaterialDarkBG"
+		"border"				"MaterialBlackDark"
 	}
 	
 	"TitleLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"TitleLabel"
-		"font"					"HudFontMediumSmallBold"
+		"font"					"Size 18"
 		"labelText"				"#TF_Item_SelectStyle"
 		"textAlignment"			"center"
 		"xpos"					"c-140"
@@ -86,7 +86,7 @@
 	{
 		"ControlName"								"ComboBox"
 		"fieldName"									"ComboBox"
-		"Font"										"HudFontSmallest"
+		"Font"										"Size 11"
 		"xpos"										"c-110"
 		"ypos"										"275"
 		"zpos"										"4"
@@ -128,7 +128,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									"#Cancel"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -141,7 +141,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"
@@ -164,7 +164,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									"#TF_OK"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -177,7 +177,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 
 		"defaultFgColor_override"	"White"

@@ -8,7 +8,7 @@
 		"PositiveColor"								"0 255 0 155"
 		"NegativeColor"								"255 0 0 155"
 		"delta_lifetime"							"1"
-		"delta_item_font"							"GameFont18"
+		"delta_item_font"							"Game 18"
 	}
 	
 	"AccountValue"
@@ -29,8 +29,8 @@
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"GameFont22"
-		"font_minmode"								"GameFont16"
+		"font"										"Game 22"
+		"font_minmode"								"Game 16"
 		"fgcolor"   								"White"
 	}
 	
@@ -52,8 +52,8 @@
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"GameFont22Blur"
-		"font_minmode"								"GameFont16Blur"
+		"font"										"Game 22 Blur"
+		"font_minmode"								"Game 16 Blur"
 		"fgcolor"   								"Shadow"
 		
 		"pin_to_sibling" 							"AccountValue"

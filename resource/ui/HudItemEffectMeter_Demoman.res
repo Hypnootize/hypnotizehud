@@ -31,7 +31,7 @@
 		"textAlignment"								"east"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"GameFont9"
+		"font"										"Game 9"
 		"fgcolor_override" 							"White"
 	}
 
@@ -52,7 +52,7 @@
 		"textAlignment"								"east"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"GameFont24"
+		"font"										"Game 24"
 		"fgcolor_override" 							"White"
 	}
 	
@@ -73,7 +73,7 @@
 		"textAlignment"								"east"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"GameFont24Blur"
+		"font"										"Game 24 Blur"
 		"fgcolor_override" 							"Shadow"
 		
 		"pin_to_sibling" 							"ItemEffectMeterCount"

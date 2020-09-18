@@ -15,13 +15,13 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"Background"
-		"infocus_bgcolor_override" "Background"
-		"outoffocus_bgcolor_override" "Background"
+		"bgcolor_override"	"GrayDarkest"
+		"infocus_bgcolor_override" "GrayDarkest"
+		"outoffocus_bgcolor_override" "GrayDarkest"
 		
-		"thumbnail_bgcolor"			"LightBG"
-		"thumbnail_bgcolor_mouseover"	"LightBG"
-		"thumbnail_bgcolor_selected"	"LightBGHover"
+		"thumbnail_bgcolor"			"GrayDark"
+		"thumbnail_bgcolor_mouseover"	"GrayDark"
+		"thumbnail_bgcolor_selected"	"GrayDarker"
 		
 		"thumbnails_rows"		"6"
 		"thumbnails_columns"	"4"
@@ -75,14 +75,14 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"0"
-		"border"				"MaterialDarkBG"
+		"border"				"MaterialBlackDark"
 	}
 	
 	"FilterComboBox"
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"FilterComboBox"
-		"Font"				"HudFontSmallestBold"
+		"Font"				"Size 11"
 		"xpos"				"c-288"
 		"ypos"				"18"
 		"zpos"				"1"
@@ -104,10 +104,10 @@
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"blank"
 		"disabledFgColor_override" "White"
-		"disabledBgColor_override" "DarkBG"
+		"disabledBgColor_override" "BlackDark"
 		"selectionColor_override" "Blank"
 		"selectionTextColor_override" "White"
-		"defaultSelectionBG2Color_override" "DarkBG"
+		"defaultSelectionBG2Color_override" "BlackDark"
 	}
 	
 	"PrevPageButton"
@@ -125,7 +125,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									"&A"
-		"font"										"HudFontMediumSmallBold"
+		"font"										"Size 18"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -143,7 +143,7 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"MaterialLightBG"
+		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}
 	
@@ -151,7 +151,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurPageLabel"
-		"font"										"HudFontMediumSmallBold"
+		"font"										"Size 18"
 		"labelText"									"%thumbnailpage%"
 		"textAlignment"								"center"
 		"xpos"										"c-170"
@@ -181,7 +181,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									"&D"
-		"font"										"HudFontMediumSmallBold"
+		"font"										"Size 18"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -199,7 +199,7 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"MaterialLightBG"
+		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}
 	
@@ -215,7 +215,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"0"
-		"border"				"MaterialDarkBG"
+		"border"				"MaterialBlackDark"
 	}
 	
 	"SelectedItemModelPanel"
@@ -266,7 +266,7 @@
 		{
 			"ControlName"		"CEconItemDetailsRichText"
 			"fieldName"			"Data_TextRichText"
-			"font"				"HudFontSmallest"
+			"font"				"Size 11"
 			"labelText"			"%datatext%"
 			"textAlignment"		"north-west"
 			"xpos"				"0"
@@ -344,7 +344,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ArmoryButton_Store"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -364,7 +364,7 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"MaterialLightBG"
+		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}
 		
@@ -383,7 +383,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ArmoryButton_Wiki"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -403,7 +403,7 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"MaterialLightBG"
+		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}		
 	
@@ -422,7 +422,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ArmoryButton_SetDetails"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -442,7 +442,7 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"MaterialLightBG"
+		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}		
 	

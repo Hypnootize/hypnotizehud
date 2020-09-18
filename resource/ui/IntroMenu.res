@@ -54,7 +54,7 @@
 		"AllCaps"									"1"
 		"dulltext"									"0"
 		"brighttext"								"1"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		"fgcolor_override"							"White"
 		
 		"pin_to_sibling" 							"IntroFrame"
@@ -142,7 +142,7 @@
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"HudFontSmallestBold"
+		"font"										"Size 11"
 		"fgcolor"									"White"
 		"wrap"										"1"
 		"centerwrap"								"1"
@@ -170,7 +170,7 @@
 		"brighttext"								"0"
 		"wrap"										"0"
 		"command"									"skip"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		
 		"AllCaps"									"1"
 		
@@ -209,7 +209,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"command"									"back"
-		"font"										"HudFontSmallBold"
+		"font"										"Size 14"
 		
 		"AllCaps"									"1"
 		

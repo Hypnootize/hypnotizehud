@@ -41,7 +41,7 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"MaterialLightBG"
+			"border"		"MaterialGrayDark"
 			"proportionaltoparent"	"1"
 			"pinCorner"		"2"
 
@@ -56,7 +56,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFontSmallBold"
+				"font"			"Size 14"
 				"fgcolor_override"	"White"
 				"textAlignment"	"center"
 				"labelText"		"#TF_Matchmaking_RollingQueue_NextMapWinner"

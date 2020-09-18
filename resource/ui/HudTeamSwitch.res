@@ -4,7 +4,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"SwitchLabel"
-		"font"										"GameFont10"
+		"font"										"Game 10"
 		"xpos"										"cs-0.5"
 		"ypos"										"80"
 		"zpos"										"1"
@@ -26,7 +26,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"BalanceLabel"
-		"font"										"GameFont10"
+		"font"										"Game 10"
 		"xpos"										"cs-0.5"
 		"ypos"										"60"
 		"zpos"										"1"

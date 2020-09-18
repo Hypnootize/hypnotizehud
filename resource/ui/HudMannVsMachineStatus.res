@@ -243,7 +243,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ServerChangeLabel"
-			"font"									"GameFont12"
+			"font"									"Game 12"
 			"textAlignment"							"center"
 			"labelText"								"%servermessage%"
 			"xpos"									"c-90"

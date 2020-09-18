@@ -67,7 +67,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EnemyCount"
-		"font"			"GameFont12"
+		"font"			"Game 12"
 		"fgcolor"		"White"
 		"xpos"			"0"
 		"ypos"			"19"
@@ -84,7 +84,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EnemyCountShadow"
-		"font"			"GameFont12Blur"
+		"font"			"Game 12 Blur"
 		"fgcolor"		"Shadow"
 		"xpos"			"0"
 		"ypos"			"19"

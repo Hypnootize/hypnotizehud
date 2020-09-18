@@ -2,31 +2,31 @@ Scheme
 {
 	Colors
 	{
-	    "TFDarkBrown"               "60 56 53 255"
-	    "TFDarkBrownTransparent"    "60 56 53 190"
-	    "TFTanBright"               "236 227 203 150"
-	    "TFTanLight"                "201 188 162 150"
-	    "TFTanMedium"               "131 121 104 150"
-	    "TFTanLightBright"          "229 223 211 90"
-	    "TFTanLightDark"            "96 90 78 90"
-	    "TFOrangeBright"            "156 82 33 255"
-	    "TFTextBright"              "251 236 203 150"
-	    "TFTextLight"               "201 188 162 255"
-	    "TFTextMedium"				"131 121 104 255"
-	    "TFTextMediumDark"			"104 96 83 255"
-	    "TFTextBlack"				"42 39 37 255"
-	    "TFTextDull"				"131 121 104 255"
-	    "TFMediumBrown"				"69 64 58 255"
-	    "QuickListBGDeselected"		"69 64 58 255"
-	    "QuickListBGSelected"		"131 121 104 150"
-	    "Blank"						"0 0 0 0"
-	    "White"						"255 255 255 255"
-		"ControlBG"					"76 88 68 255"
-		"ControlDarkBG"				"90 106 80 255"
-		"WindowBG"					"62 70 55 255"
-		"SelectionBG"				"90 84 75 255"
-		"SelectionBG2"				"69 64 57 255"
-		"ListBG"					"39 36 34 0"
+	    "TFDarkBrown"               					"60 56 53 255"
+	    "TFDarkBrownTransparent"    					"60 56 53 190"
+	    "TFTanBright"               					"236 227 203 150"
+	    "TFTanLight"                					"201 188 162 150"
+	    "TFTanMedium"               					"131 121 104 150"
+	    "TFTanLightBright"          					"229 223 211 90"
+	    "TFTanLightDark"            					"96 90 78 90"
+	    "TFOrangeBright"            					"156 82 33 255"
+	    "TFTextBright"              					"251 236 203 150"
+	    "TFTextLight"               					"201 188 162 255"
+	    "TFTextMedium"									"131 121 104 255"
+	    "TFTextMediumDark"								"104 96 83 255"
+	    "TFTextBlack"									"42 39 37 255"
+	    "TFTextDull"									"131 121 104 255"
+	    "TFMediumBrown"									"69 64 58 255"
+	    "QuickListBGDeselected"							"69 64 58 255"
+	    "QuickListBGSelected"							"131 121 104 150"
+	    "Blank"											"0 0 0 0"
+	    "White"											"255 255 255 255"
+		"ControlBG"										"76 88 68 255"
+		"ControlDarkBG"									"90 106 80 255"
+		"WindowBG"										"62 70 55 255"
+		"SelectionBG"									"90 84 75 255"
+		"SelectionBG2"									"69 64 57 255"
+		"ListBG"										"39 36 34 0"
 	}
 
 	BaseSettings
@@ -188,7 +188,7 @@ Scheme
 
 	BitmapFontFiles
 	{
-		"Buttons"	"materials/vgui/fonts/buttons_32.vbf"
+		"Buttons"										"materials/vgui/fonts/buttons_32.vbf"
 	}
 
 	Fonts
@@ -198,50 +198,50 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana"
-				"tall"			"12"
-				"weight"		"0"
-				"range"			"0x0000 0x017F"
-				"yres"			"480 599"
+				"name"									"Verdana"
+				"tall"									"12"
+				"weight"								"0"
+				"range"									"0x0000 0x017F"
+				"yres"									"480 599"
 			}
 
 			"2"
 			{
-				"name"			"Verdana"
-				"tall"			"13"
-				"weight"		"0"
-				"range"			"0x0000 0x017F"
-				"yres"			"600 767"
+				"name"									"Verdana"
+				"tall"									"13"
+				"weight"								"0"
+				"range"									"0x0000 0x017F"
+				"yres"									"600 767"
 			}
 
 			"3"
 			{
-				"name"			"Verdana"
-				"tall"			"14"
-				"weight"		"0"
-				"range"			"0x0000 0x017F"
-				"yres"			"768 1023"
-				"antialias"		"1"
+				"name"									"Verdana"
+				"tall"									"14"
+				"weight"								"0"
+				"range"									"0x0000 0x017F"
+				"yres"									"768 1023"
+				"antialias"								"1"
 			}
 
 			"4"
 			{
-				"name"			"Verdana"
-				"tall"			"16"
-				"weight"		"0"
-				"range"			"0x0000 0x017F"
-				"yres"			"1024 1199"
-				"antialias"		"1"
+				"name"									"Verdana"
+				"tall"									"16"
+				"weight"								"0"
+				"range"									"0x0000 0x017F"
+				"yres"									"1024 1199"
+				"antialias"								"1"
 			}
 
 			"5"
 			{
-				"name"			"Verdana"
-				"tall"			"20"
-				"weight"		"0"
-				"range"			"0x0000 0x017F"
-				"yres"			"1200 6000"
-				"antialias"		"1"
+				"name"									"Verdana"
+				"tall"									"20"
+				"weight"								"0"
+				"range"									"0x0000 0x017F"
+				"yres"									"1200 6000"
+				"antialias"								"1"
 			}
 		}
 
@@ -250,47 +250,47 @@ Scheme
 
 			"1"
 			{
-				"name"			"Marlett"
-				"tall"			"10"
-				"weight"		"0"
-				"yres"			"480 599"
-				"symbol"		"1"
+				"name"									"Marlett"
+				"tall"									"10"
+				"weight"								"0"
+				"yres"									"480 599"
+				"symbol"								"1"
 			}
 
 			"2"
 			{
-				"name"			"Marlett"
-				"tall"			"14"
-				"weight"		"0"
-				"yres"			"600 767"
-				"symbol"		"1"
+				"name"									"Marlett"
+				"tall"									"14"
+				"weight"								"0"
+				"yres"									"600 767"
+				"symbol"								"1"
 			}
 
 			"3"
 			{
-				"name"			"Marlett"
-				"tall"			"13"
-				"weight"		"0"
-				"yres"			"768 1023"
-				"symbol"		"1"
+				"name"									"Marlett"
+				"tall"									"13"
+				"weight"								"0"
+				"yres"									"768 1023"
+				"symbol"								"1"
 			}
 
 			"4"
 			{
-				"name"			"Marlett"
-				"tall"			"17"
-				"weight"		"0"
-				"yres"			"1024 1199"
-				"symbol"		"1"
+				"name"									"Marlett"
+				"tall"									"17"
+				"weight"								"0"
+				"yres"									"1024 1199"
+				"symbol"								"1"
 			}
 
 			"5"
 			{
-				"name"			"Marlett"
-				"tall"			"22"
-				"weight"		"0"
-				"yres"			"1200 10000"
-				"symbol"		"1"
+				"name"									"Marlett"
+				"tall"									"22"
+				"weight"								"0"
+				"yres"									"1200 10000"
+				"symbol"								"1"
 			}
 		}
 		
@@ -298,43 +298,43 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Marlett"
-				"tall"		"7"
-				"weight"	"0"
-				"yres"		"480 599"
-				"symbol"	"1"
+				"name"									"Marlett"
+				"tall"									"7"
+				"weight"								"0"
+				"yres"									"480 599"
+				"symbol"								"1"
 			}
 			"2"
 			{
-				"name"		"Marlett"
-				"tall"		"9"
-				"weight"	"0"
-				"yres"		"600 767"
-				"symbol"	"1"
+				"name"									"Marlett"
+				"tall"									"9"
+				"weight"								"0"
+				"yres"									"600 767"
+				"symbol"								"1"
 			}
 			"3"
 			{
-				"name"		"Marlett"
-				"tall"		"11"
-				"weight"	"0"
-				"yres"		"768 1023"
-				"symbol"	"1"
+				"name"									"Marlett"
+				"tall"									"11"
+				"weight"								"0"
+				"yres"									"768 1023"
+				"symbol"								"1"
 			}
 			"4"
 			{
-				"name"		"Marlett"
-				"tall"		"13"
-				"weight"	"0"
-				"yres"		"1024 1199"
-				"symbol"	"1"
+				"name"									"Marlett"
+				"tall"									"13"
+				"weight"								"0"
+				"yres"									"1024 1199"
+				"symbol"								"1"
 			}
 			"5"
 			{
-				"name"		"Marlett"
-				"tall"		"17"
-				"weight"	"0"
-				"yres"		"1200 10000"
-				"symbol"	"1"
+				"name"									"Marlett"
+				"tall"									"17"
+				"weight"								"0"
+				"yres"									"1200 10000"
+				"symbol"								"1"
 			}
 		}
 
@@ -342,47 +342,47 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana"
-				"tall"			"12"
-				"weight"		"700"
-				"yres"			"480 599"
-				"dropshadow"	"1"
+				"name"									"Verdana"
+				"tall"									"12"
+				"weight"								"700"
+				"yres"									"480 599"
+				"dropshadow"							"1"
 			}
 
 			"2"
 			{
-				"name"			"Verdana"
-				"tall"			"14"
-				"weight"		"700"
-				"yres"			"600 767"
-				"dropshadow"	"1"
+				"name"									"Verdana"
+				"tall"									"14"
+				"weight"								"700"
+				"yres"									"600 767"
+				"dropshadow"							"1"
 			}
 
 			"3"
 			{
-				"name"			"Verdana"
-				"tall"			"15"
-				"weight"		"700"
-				"yres"			"768 1023"
-				"dropshadow"	"1"
+				"name"									"Verdana"
+				"tall"									"15"
+				"weight"								"700"
+				"yres"									"768 1023"
+				"dropshadow"							"1"
 			}
 
 			"4"
 			{
-				"name"			"Verdana"
-				"tall"			"17"
-				"weight"		"700"
-				"yres"			"1024 1199"
-				"dropshadow"	"1"
+				"name"									"Verdana"
+				"tall"									"17"
+				"weight"								"700"
+				"yres"									"1024 1199"
+				"dropshadow"							"1"
 			}
 
 			"5"
 			{
-				"name"			"Verdana"
-				"tall"			"22"
-				"weight"		"700"
-				"yres"			"1200 10000"
-				"dropshadow"	"1"
+				"name"									"Verdana"
+				"tall"									"22"
+				"weight"								"700"
+				"yres"									"1200 10000"
+				"dropshadow"							"1"
 			}
 		}
 
@@ -390,78 +390,78 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana"
-				"tall"			"12"
-				"weight"		"0"
-				"range"			"0x0000 0x017F"
-				"yres"			"480 599"
+				"name"									"Verdana"
+				"tall"									"12"
+				"weight"								"0"
+				"range"									"0x0000 0x017F"
+				"yres"									"480 599"
 			}
 
 			"2"
 			{
-				"name"			"Verdana"
-				"tall"			"12"
-				"weight"		"0"
-				"range"			"0x0000 0x017F"
-				"yres"			"600 767"
+				"name"									"Verdana"
+				"tall"									"12"
+				"weight"								"0"
+				"range"									"0x0000 0x017F"
+				"yres"									"600 767"
 			}
 
 			"3"
 			{
-				"name"			"Verdana"
-				"tall"			"12"
-				"weight"		"0"
-				"range"			"0x0000 0x017F"
-				"yres"			"768 1023"
-				"antialias"		"1"
+				"name"									"Verdana"
+				"tall"									"12"
+				"weight"								"0"
+				"range"									"0x0000 0x017F"
+				"yres"									"768 1023"
+				"antialias"								"1"
 			}
 
 			"4"
 			{
-				"name"			"Verdana"
-				"tall"			"14"
-				"weight"		"0"
-				"range"			"0x0000 0x017F"
-				"yres"			"1024 1199"
-				"antialias"		"1"
+				"name"									"Verdana"
+				"tall"									"14"
+				"weight"								"0"
+				"range"									"0x0000 0x017F"
+				"yres"									"1024 1199"
+				"antialias"								"1"
 			}
 
 			"5"
 			{
-				"name"			"Verdana"
-				"tall"			"16"
-				"weight"		"0"
-				"range"			"0x0000 0x017F"
-				"yres"			"1200 6000"
-				"antialias"		"1"
+				"name"									"Verdana"
+				"tall"									"16"
+				"weight"								"0"
+				"range"									"0x0000 0x017F"
+				"yres"									"1200 6000"
+				"antialias"								"1"
 			}
 		}
 	}
 
 	Borders
 	{
-		BaseBorder			DepressedBorder
-		ButtonBorder		RaisedBorder
-		ComboBoxBorder		DepressedBorder
-		MenuBorder			RaisedBorder
-		BrowserBorder		DepressedBorder
-		PropertySheetBorder	RaisedBorder
+		BaseBorder										DepressedBorder
+		ButtonBorder									RaisedBorder
+		ComboBoxBorder									DepressedBorder
+		MenuBorder										RaisedBorder
+		BrowserBorder									DepressedBorder
+		PropertySheetBorder								RaisedBorder
 
 		FrameBorder
 		{
-			"backgroundtype"	"2"
+			"backgroundtype"							"2"
 		}
 
 		DepressedBorder
 		{
-			"inset"	"0 0 1 1"
+			"inset"										"0 0 1 1"
 
 			Left
 			{
 				"1"
 				{
-					"color" 	"Border.Dark"
-					"offset"	"0 1"
+					"color" 							"Border.Dark"
+					"offset"							"0 1"
 				}
 			}
 
@@ -469,8 +469,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Border.Bright"
-					"offset"	"1 0"
+					"color" 							"Border.Bright"
+					"offset"							"1 0"
 				}
 			}
 
@@ -478,8 +478,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Border.Dark"
-					"offset" 	"0 0"
+					"color" 							"Border.Dark"
+					"offset" 							"0 0"
 				}
 			}
 
@@ -487,22 +487,22 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Border.Bright"
-					"offset" 	"0 0"
+					"color" 							"Border.Bright"
+					"offset" 							"0 0"
 				}
 			}
 		}
 
 		RaisedBorder
 		{
-			"inset"	"0 0 1 1"
+			"inset"										"0 0 1 1"
 
 			Left
 			{
 				"1"
 				{
-					"color" 	"Border.Bright"
-					"offset"	"0 1"
+					"color" 							"Border.Bright"
+					"offset"							"0 1"
 				}
 			}
 
@@ -510,8 +510,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Border.Dark"
-					"offset" 	"0 0"
+					"color" 							"Border.Dark"
+					"offset" 							"0 0"
 				}
 			}
 
@@ -519,8 +519,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Border.Bright"
-					"offset" 	"0 1"
+					"color" 							"Border.Bright"
+					"offset" 							"0 1"
 				}
 			}
 
@@ -528,37 +528,37 @@ Scheme
 			{
 				"1"
 				{
-					"color"	 	"Border.Dark"
-					"offset" 	"0 0"
+					"color"	 							"Border.Dark"
+					"offset" 							"0 0"
 				}
 			}
 		}
 		
 		TitleButtonBorder
 		{
-			"backgroundtype"	"0"
+			"backgroundtype"							"0"
 		}
 
 		TitleButtonDisabledBorder
 		{
-			"backgroundtype"	"0"
+			"backgroundtype"							"0"
 		}
 
 		TitleButtonDepressedBorder
 		{
-			"backgroundtype"	"0"
+			"backgroundtype"							"0"
 		}
 
 		ScrollBarButtonBorder
 		{
-			"inset"	"2 2 0 0"
+			"inset"										"2 2 0 0"
 
 			Left
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"0 1"
+					"color" 							"Blank"
+					"offset" 							"0 1"
 				}
 			}
 
@@ -566,8 +566,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"1 0"
+					"color" 							"Blank"
+					"offset" 							"1 0"
 				}
 			}
 
@@ -575,8 +575,8 @@ Scheme
 			{
 				"1"
 				{
-					"color"	 	"Blank"
-					"offset" 	"0 0"
+					"color"	 							"Blank"
+					"offset" 							"0 0"
 				}
 			}
 
@@ -584,22 +584,22 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"0 0"
+					"color" 							"Blank"
+					"offset" 							"0 0"
 				}
 			}
 		}
 		
 		ScrollBarButtonDepressedBorder
 		{
-			"inset"	"2 2 0 0"
+			"inset"										"2 2 0 0"
 
 			Left
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"0 1"
+					"color" 							"Blank"
+					"offset" 							"0 1"
 				}
 			}
 
@@ -607,8 +607,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"1 0"
+					"color" 							"Blank"
+					"offset" 							"1 0"
 				}
 			}
 
@@ -616,8 +616,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"0 0"
+					"color" 							"Blank"
+					"offset" 							"0 0"
 				}
 			}
 
@@ -625,22 +625,22 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"0 0"
+					"color" 							"Blank"
+					"offset" 							"0 0"
 				}
 			}
 		}
 
 		TabBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" 									"0 0 1 1"
 
 			Left
 			{
 				"1"
 				{
-					"color" 	"Border.Bright"
-					"offset" 	"0 1"
+					"color" 							"Border.Bright"
+					"offset" 							"0 1"
 				}
 			}
 
@@ -648,8 +648,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Border.Dark"
-					"offset" 	"1 0"
+					"color" 							"Border.Dark"
+					"offset" 							"1 0"
 				}
 			}
 
@@ -657,8 +657,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Border.Bright"
-					"offset" 	"0 0"
+					"color" 							"Border.Bright"
+					"offset" 							"0 0"
 				}
 			}
 
@@ -666,14 +666,14 @@ Scheme
 
 		TabActiveBorder
 		{
-			"inset" "0 0 1 0"
+			"inset"										"0 0 1 0"
 
 			Left
 			{
 				"1"
 				{
-					"color" 	"Border.Bright"
-					"offset" 	"0 0"
+					"color" 							"Border.Bright"
+					"offset" 							"0 0"
 				}
 			}
 
@@ -681,8 +681,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Border.Dark"
-					"offset" 	"1 0"
+					"color" 							"Border.Dark"
+					"offset" 							"1 0"
 				}
 			}
 
@@ -690,8 +690,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Border.Bright"
-					"offset" 	"0 0"
+					"color" 							"Border.Bright"
+					"offset" 							"0 0"
 				}
 			}
 
@@ -700,14 +700,14 @@ Scheme
 
 		ToolTipBorder
 		{
-			"inset" "0 0 1 0"
+			"inset" 									"0 0 1 0"
 
 			Left
 			{
 				"1"
 				{
-					"color" 	"Border.Dark"
-					"offset" 	"0 0"
+					"color" 							"Border.Dark"
+					"offset" 							"0 0"
 				}
 			}
 
@@ -715,8 +715,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Border.Dark"
-					"offset" 	"1 0"
+					"color" 							"Border.Dark"
+					"offset" 							"1 0"
 				}
 			}
 
@@ -724,8 +724,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Border.Dark"
-					"offset" 	"0 0"
+					"color" 							"Border.Dark"
+					"offset" 							"0 0"
 				}
 			}
 
@@ -733,28 +733,28 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Border.Dark"
-					"offset" 	"0 0"
+					"color" 							"Border.Dark"
+					"offset" 							"0 0"
 				}
 			}
 		}
 
 		ButtonKeyFocusBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" 									"0 0 1 1"
 
 			Left
 			{
 				"1"
 				{
-					"color" 	"Border.Selection"
-					"offset" 	"0 0"
+					"color" 							"Border.Selection"
+					"offset" 							"0 0"
 				}
 
 				"2"
 				{
-					"color" 	"Border.Bright"
-					"offset" 	"0 1"
+					"color" 							"Border.Bright"
+					"offset" 							"0 1"
 				}
 			}
 
@@ -762,14 +762,14 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Border.Selection"
-					"offset" 	"0 0"
+					"color" 							"Border.Selection"
+					"offset" 							"0 0"
 				}
 
 				"2"
 				{
-					"color"		"Border.Bright"
-					"offset" 	"1 0"
+					"color"								"Border.Bright"
+					"offset" 							"1 0"
 				}
 			}
 
@@ -777,14 +777,14 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Border.Selection"
-					"offset" 	"0 0"
+					"color" 							"Border.Selection"
+					"offset" 							"0 0"
 				}
 
 				"2"
 				{
-					"color"	 	"Border.Dark"
-					"offset"	"1 0"
+					"color"	 							"Border.Dark"
+					"offset"							"1 0"
 				}
 			}
 
@@ -792,28 +792,28 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Border.Selection"
-					"offset" 	"0 0"
+					"color" 							"Border.Selection"
+					"offset" 							"0 0"
 				}
 
 				"2"
 				{
-					"color" 	"Border.Dark"
-					"offset" 	"0 0"
+					"color" 							"Border.Dark"
+					"offset" 							"0 0"
 				}
 			}
 		}
 
 		ButtonDepressedBorder
 		{
-			"inset" "2 1 1 1"
+			"inset" 									"2 1 1 1"
 
 			Left
 			{
 				"1"
 				{
-					"color" 	"Border.Dark"
-					"offset" 	"0 1"
+					"color" 							"Border.Dark"
+					"offset" 							"0 1"
 				}
 			}
 
@@ -821,8 +821,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Border.Bright"
-					"offset" 	"1 0"
+					"color" 							"Border.Bright"
+					"offset" 							"1 0"
 				}
 			}
 
@@ -830,8 +830,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Border.Dark"
-					"offset" 	"0 0"
+					"color" 							"Border.Dark"
+					"offset" 							"0 0"
 				}
 			}
 
@@ -839,8 +839,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Border.Bright"
-					"offset" 	"0 0"
+					"color" 							"Border.Bright"
+					"offset" 							"0 0"
 				}
 			}
 		}

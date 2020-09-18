@@ -38,7 +38,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabelDropshadow"
-			"font"			"GameFont18Blur"
+			"font"			"Game 18 Blur"
 			"fgcolor"		"Shadow"
 			"xpos"			"3"
 			"ypos"			"3"
@@ -64,7 +64,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabel"
-			"font"			"GameFont18"
+			"font"			"Game 18"
 			"xpos"			"2"
 			"ypos"			"2"
 			"wide"			"295"
@@ -83,7 +83,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
-		"font"			"GameFont14"
+		"font"			"Game 14"
 		"xpos"			"0"
 		"ypos"			"75"
 		"zpos"			"1"
@@ -104,7 +104,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"			"GameFont14"
+		"font"			"Game 14"
 		"xpos"			"15"
 		"ypos"			"92"
 		"zpos"			"1"
@@ -160,7 +160,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecTextLabelLoss"
-			"font"			"GameFont14"
+			"font"			"Game 14"
 			"labelText"		"#TF_PVE_Respecs"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -175,7 +175,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecCountLabel"
-			"font"			"GameFont14"
+			"font"			"Game 14"
 			"labelText"		"%respeccount%"
 			"textAlignment" "center"
 			"xpos"			"145"

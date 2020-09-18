@@ -20,7 +20,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountText"
-		"font"										"GameFont24"
+		"font"										"Game 24"
 		"labelText"									"%counttext%"
 		"textAlignment" 							"east"
 		"xpos"										"32"
@@ -35,7 +35,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountTextShadow"
-		"font"										"GameFont24Blur"
+		"font"										"Game 24 Blur"
 		"labelText"									"%counttext%"
 		"textAlignment" 							"east"
 		"xpos"										"33"
@@ -49,7 +49,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ActionText"
-		"font"										"GameFont9"
+		"font"										"Game 9"
 		"labelText"									"%actiontext%"
 		"textAlignment"							 	"east"
 		"xpos"										"0"

@@ -37,7 +37,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"MVM !"
 		"textAlignment"	"center"
-		"font"			"HudFontGiantBold"
+		"font"			"Size 44"
 		"fgcolor_override"	"White"
 		
 		"mouseinputenabled"	"0"
@@ -100,7 +100,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_MvM_MannUp"
-			"font"			"HudFontMediumBold"
+			"font"			"Size 24"
 			"AllCaps"			"1"
 			"textAlignment"	"center"
 			"dulltext"		"0"
@@ -111,7 +111,7 @@
 
 			"paintbackground"			"0"
 		
-			"border_default"			"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
 			"border_armed"				"MaterialHypno"
 
 			"defaultFgColor_override"	"White"
@@ -123,7 +123,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"PlayForBraggingRightsExplanation"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"Size 18"
 			"fgcolor_override"	"TanDark"
 			"labelText"		"#TF_MvM_BraggingRightsExplaination"
 			"textAlignment"	"center"
@@ -197,7 +197,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_MvM_BootCamp"
-			"font"			"HudFontMediumBold"
+			"font"			"Size 24"
 			"textAlignment"	"center"
 			"AllCaps"			"1"
 			"dulltext"		"0"
@@ -208,7 +208,7 @@
 
 			"paintbackground"			"0"
 		
-			"border_default"			"MaterialLightBG"
+			"border_default"			"MaterialGrayDark"
 			"border_armed"				"MaterialHypno"
 
 			"defaultFgColor_override"	"White"
@@ -220,7 +220,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"PlayOnCommunityServerExplanation"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"Size 18"
 			"fgcolor_override"	"TanDark"
 			"labelText"		"#TF_MvM_PracticeExplaination"
 			"textAlignment"	"center"

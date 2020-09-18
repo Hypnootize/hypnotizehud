@@ -24,7 +24,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"Background"
+		"bgcolor_override"		"GrayDarkest"
 		"border"				"NoBorder"
 		
 		"fixed_item"
@@ -50,7 +50,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"0"
-		"border"				"MaterialDarkBG"
+		"border"				"MaterialBlackDark"
 		
 		"fixed_item"
 		{
@@ -78,7 +78,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"0"
-		"border"				"MaterialDarkBG"
+		"border"				"MaterialBlackDark"
 		
 		"fixed_item"
 		{
@@ -358,7 +358,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -398,7 +398,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBoxValidPaintkits"
-			"Font"				"HudFontSmallest"
+			"Font"				"Size 11"
 			"wrap"				"0"
 			"xpos"				"rs1-10"
 			"ypos"				"10"
@@ -436,7 +436,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PaintkitLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#TF_ItemPreview_ItemPaintkit"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -460,7 +460,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBoxValidItems"
-			"Font"				"HudFontSmallest"
+			"Font"				"Size 11"
 			"wrap"				"0"
 			"xpos"				"rs1-10"
 			"ypos"				"30"
@@ -503,7 +503,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#TF_ItemPreview_ItemPreview"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -568,7 +568,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WearLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#TF_ItemPreview_ItemWear"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -619,7 +619,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_ItemPreview_PaintkitSeed"
-			"font"			"HudFontSmallestBold"
+			"font"			"Size 11"
 			"actionsignallevel" "2"
 			"use_proportional_insets" "1"
 			"textAlignment"	"center"
@@ -637,7 +637,7 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "White"
 			
-			"defaultBgColor_override"	"LightBG"
+			"defaultBgColor_override"	"GrayDark"
 			"armedBgColor_override"		"Main Theme"
 			"depressedBgColor_override" "Main Theme"
 			
@@ -670,7 +670,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"HudFontSmallestBold"
+			"font"			"Size 11"
 			"fgcolor_override"	"White"
 			"actionsignallevel" "2"
 			"default"		"1"

@@ -150,7 +150,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
-			"font"			"GameFont24"
+			"font"			"Game 24"
 			"fgcolor"		"TanLight"	
 			"proportionalToParent"	"1"	
 		}	
@@ -168,7 +168,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
-			"font"			"GameFont24"
+			"font"			"Game 24"
 			"fgcolor"		"Black"	
 			"proportionalToParent"	"1"	
 		}
@@ -222,7 +222,7 @@
 				"enabled"		"1"
 				"textAlignment"	"west"	
 				"labelText"		"%score%"
-				"font"			"GameFont16"
+				"font"			"Game 16"
 				"fgcolor"		"White"		
 				"proportionalToParent"	"1"
 			}	
@@ -263,7 +263,7 @@
 				"enabled"		"1"
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
-				"font"			"GameFont16"
+				"font"			"Game 16"
 				"fgcolor"		"White"	
 				"proportionalToParent"	"1"	
 			}	
@@ -351,7 +351,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%intelvalue%"
-				"font"			"GameFont16"
+				"font"			"Game 16"
 				"fgcolor"		"TanLight"		
 				"bgcolor_override"		"Blank"
 				"proportionalToParent"	"1"
@@ -370,7 +370,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%intelvalue%"
-				"font"			"GameFont16"	
+				"font"			"Game 16"	
 				"fgcolor"		"Black"
 				"proportionalToParent"	"1"
 			}
@@ -451,7 +451,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%intelvalue%"
-				"font"			"GameFont16"
+				"font"			"Game 16"
 				"fgcolor"		"TanLight"		
 				"bgcolor_override"		"Blank"
 				"proportionalToParent"	"1"
@@ -470,7 +470,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%intelvalue%"
-				"font"			"GameFont16"	
+				"font"			"Game 16"	
 				"fgcolor"		"Black"	
 				"proportionalToParent"	"1"
 			}

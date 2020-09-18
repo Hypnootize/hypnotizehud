@@ -12,14 +12,14 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"DarkBG"
+		"bgcolor_override"		"BlackDark"
 	}
 	
 	"TitleLabel"
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"xpos"			"0"
 		"ypos"			"8"
 		"zpos"			"0"
@@ -41,7 +41,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"EllipsesLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"xpos"			"0"
 		"ypos"			"42"
 		"zpos"			"0"
@@ -61,7 +61,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DurationLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"xpos"			"0"
 		"ypos"			"52"
 		"zpos"			"0"
@@ -92,7 +92,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -106,7 +106,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"MaterialLightBG"
+		"border_default"			"MaterialGrayDark"
 		"border_armed"				"MaterialHypno"
 		
 		"defaultBgColor_override"	"Blank"

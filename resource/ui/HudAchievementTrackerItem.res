@@ -27,7 +27,7 @@
 		"zpos"										"4"
 		"textinsetx"								"5"
 		"fgcolor_override"							"White"
-		"font"										"GameFont10"
+		"font"										"Game 10"
 		"textAlignment"								"north-west"
 	}
 	
@@ -42,7 +42,7 @@
 		"tall"										"10"
 		"zpos"										"4"
 		"fgcolor_override"							"White"
-		"font"										"GameFont10"
+		"font"										"Game 10"
 		"textinsetx"								"5"
 		"textAlignment"								"north-west"
 	}
