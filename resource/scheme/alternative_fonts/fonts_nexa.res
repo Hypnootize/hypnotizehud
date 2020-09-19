@@ -2,504 +2,270 @@ Scheme
 {
 	Fonts
 	{
-		GameFont8
+		"Game 8"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont9
+		"Game 9"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont10
+		"Game 10"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont11
+		"Game 11"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont12
+		"Game 12"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont14
+		"Game 14"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont15
+		"Game 16"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont16
+		"Game 18"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont18
+		"Game 20"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont20
+		"Game 22"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont21
+		"Game 24"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont22
+		"Game 26"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont24
+		"Game 28"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont26
+		"Game 30"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont28
+		"Game 32"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont30
+		"Game 36"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont32
+		"Game 38"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont36
+		"Game 40"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont40
+		"Game 44"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont44
+		"Game 72"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
-			}
-		}
-		GameFont46
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont50
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont56
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont60
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont66
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont70
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont72
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont8Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont9Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont10Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont11Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont12Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont14Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont15Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont16Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont18Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont20Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont21Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont22Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont24Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont26Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont28Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont30Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont32Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont36Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont40Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont44Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont46Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont50Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont56Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont60Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont66Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont70Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
-		}
-		GameFont72Blur
-		{
-			"1"
-			{
-				"name"										"NexaBold"
-			}
 		}
 		
-		GameFont10Shadow
+		"Game 10 Blur"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont11Shadow
+		"Game 11 Blur"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont12Shadow
+		"Game 12 Blur"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont16Shadow
+		"Game 14 Blur"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont18Shadow
+		"Game 16 Blur"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont20Shadow
+		"Game 18 Blur"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont22Shadow
+		"Game 20 Blur"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont24Shadow
+		"Game 22 Blur"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont30Shadow
+		"Game 24 Blur"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont44Shadow
+		"Game 26 Blur"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		
-		GameFont10Outline
+		"Game 28 Blur"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont11Outline
+		"Game 30 Blur"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont12Outline
+		"Game 32 Blur"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont18Outline
+		"Game 36 Blur"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont22Outline
+		"Game 38 Blur"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		GameFont24Outline
+		"Game 40 Blur"
 		{
 			"1"
 			{
 				"name"										"NexaBold"
 			}
 		}
-		
-		Respawn
+		"Game 44 Blur"
 		{
 			"1"
 			{
-				"name"										"Nexa Respawn"
+				"name"										"NexaBold"
+			}
+		}
+		"Game 72 Blur"
+		{
+			"1"
+			{
+				"name"										"NexaBold"
 			}
 		}
 	}

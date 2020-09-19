@@ -171,7 +171,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"0"
-		"border"									"MaterialBlackDark"
+		"border"									"MaterialBlackLight"
 	}
 	
 	"tool_icon"

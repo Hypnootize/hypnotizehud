@@ -2,504 +2,270 @@ Scheme
 {
 	Fonts
 	{
-		GameFont8
+		"Game 8"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont9
+		"Game 9"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont10
+		"Game 10"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont11
+		"Game 11"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont12
+		"Game 12"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont14
+		"Game 14"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont15
+		"Game 16"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont16
+		"Game 18"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont18
+		"Game 20"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont20
+		"Game 22"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont21
+		"Game 24"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont22
+		"Game 26"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont24
+		"Game 28"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont26
+		"Game 30"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont28
+		"Game 32"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont30
+		"Game 36"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont32
+		"Game 38"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont36
+		"Game 40"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont40
+		"Game 44"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont44
+		"Game 72"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont46
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont50
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont56
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont60
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont66
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont70
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont72
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont8Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont9Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont10Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont11Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont12Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont14Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont15Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont16Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont18Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont20Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont21Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont22Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont24Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont26Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont28Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont30Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont32Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont36Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont40Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont44Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont46Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont50Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont56Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont60Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont66Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont70Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
-		}
-		GameFont72Blur
-		{
-			"1"
-			{
-				"name"										"RenogareSoft-Regular"
-			}
 		}
 		
-		GameFont10Shadow
+		"Game 10 Blur"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont11Shadow
+		"Game 11 Blur"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont12Shadow
+		"Game 12 Blur"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont16Shadow
+		"Game 14 Blur"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont18Shadow
+		"Game 16 Blur"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont20Shadow
+		"Game 18 Blur"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont22Shadow
+		"Game 20 Blur"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont24Shadow
+		"Game 22 Blur"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont30Shadow
+		"Game 24 Blur"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont44Shadow
+		"Game 26 Blur"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		
-		GameFont10Outline
+		"Game 28 Blur"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont11Outline
+		"Game 30 Blur"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont12Outline
+		"Game 32 Blur"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont18Outline
+		"Game 36 Blur"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont22Outline
+		"Game 38 Blur"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		GameFont24Outline
+		"Game 40 Blur"
 		{
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
 			}
 		}
-		
-		Respawn
+		"Game 44 Blur"
 		{
 			"1"
 			{
-				"name"										"Renogare Respawn"
+				"name"										"RenogareSoft-Regular"
+			}
+		}
+		"Game 72 Blur"
+		{
+			"1"
+			{
+				"name"										"RenogareSoft-Regular"
 			}
 		}
 	}

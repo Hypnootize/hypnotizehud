@@ -598,6 +598,26 @@ Scheme
 				"antialias"									"1"
 			}
 		}
+		"Size 44"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"44"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+		"Size 46"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"46"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
 		"Size 48"
 		{
 			"1"
