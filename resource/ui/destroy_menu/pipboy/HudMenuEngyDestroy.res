@@ -1,1 +1,0 @@
-#base "../HudMenuEngyDestroy.res"

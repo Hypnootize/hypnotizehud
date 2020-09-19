@@ -1,1 +1,0 @@
-#base "../Tele_Exit_Active.res"

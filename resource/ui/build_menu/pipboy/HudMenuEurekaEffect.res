@@ -1,1 +1,0 @@
-#base "../HudMenuEurekaEffect.res"
