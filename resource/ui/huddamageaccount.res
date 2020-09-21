@@ -9,8 +9,8 @@
 		"PositiveColor"								"Heal Numbers"
 		"NegativeColor"								"Damage Numbers"
 		"delta_lifetime"							"2"
-		"delta_item_font"							"Game 22Shadow"
-		"delta_item_font_big"						"Game 22Shadow"
+		"delta_item_font"							"Game 22 Shadow"
+		"delta_item_font_big"						"Game 22 Shadow"
 	}
 	
 	"DamageAccountValue"

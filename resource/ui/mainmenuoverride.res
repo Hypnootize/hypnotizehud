@@ -228,7 +228,7 @@
 		"tall"										"49"
 		"visible"									"1"
 		"paintbackground"							"0"
-		"border"									"MaterialBlackDark"
+		"border"									"MaterialBlackLight"
 		
 		"pin_to_sibling" 							"Settings"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
@@ -346,7 +346,7 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 			
-			"border_default"						"MaterialBlackDark"
+			"border_default"						"MaterialBlackLight"
 			"border_armed"							"MaterialHypno"
 			"paintbackground"						"0"
 			
@@ -444,7 +444,7 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 			
-			"border_default"						"MaterialBlackDark"
+			"border_default"						"MaterialBlackLight"
 			"border_armed"							"MaterialHypno"
 			"paintbackground"						"0"
 			
@@ -542,7 +542,7 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 			
-			"border_default"						"MaterialBlackDark"
+			"border_default"						"MaterialBlackLight"
 			"border_armed"							"MaterialHypno"
 			"paintbackground"						"0"
 			
@@ -693,7 +693,7 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 			
-			"border_default"						"MaterialBlackDark"
+			"border_default"						"MaterialBlackLight"
 			"border_armed"							"MaterialHypno"
 			"paintbackground"						"0"
 			
@@ -790,7 +790,7 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 			
-			"border_default"						"MaterialBlackDark"
+			"border_default"						"MaterialBlackLight"
 			"border_armed"							"MaterialHypno"
 			"paintbackground"						"0"
 			
@@ -862,7 +862,7 @@
 		"wide"										"82"
 		"tall"										"49"
 		"visible"									"1"
-		"border"									"MaterialBlackDark"
+		"border"									"MaterialBlackLight"
 		
 		"pin_to_sibling" 							"FriendsContainer"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -1625,7 +1625,7 @@
 		"tall"										"80"
 		"visible"									"0"
 		"paintbackground"							"0"
-		"border"									"MaterialBlackDark"
+		"border"									"MaterialBlackLight"
 		
 		"pin_to_sibling" 							"FriendsContainer"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"

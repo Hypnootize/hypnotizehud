@@ -531,7 +531,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labelText"									"$"
+		"labelText"									"l"
 		"textAlignment"								"center"
 		"textinsety"								"0"
 		"Command"									"paintkit_preview"
