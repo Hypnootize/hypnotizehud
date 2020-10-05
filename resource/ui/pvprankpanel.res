@@ -348,7 +348,7 @@
 			"ControlName"							"EditablePanel"
 			"fieldName"								"StatsContainer"
 			"xpos"									"0"
-			"ypos"									"13"
+			"ypos"									"14"
 			"wide"									"70"
 			"tall"									"4"
 			"proportionaltoparent"					"1"

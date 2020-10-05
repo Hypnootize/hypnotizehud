@@ -179,7 +179,7 @@
 		"ControlName"								"CPvPRankPanel"
 		"fieldName"									"RankPanel"
 		"xpos"										"145"
-		"ypos"										"2"
+		"ypos"										"1"
 		"zpos"										"10003"
 		"wide"										"200"
 		"tall"										"30"
