@@ -4,14 +4,14 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ScrollableContainer"
-		"xpos"										"cs-0.5"
+		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"100"
-		"wide"										"f0"
+		"wide"										"270"
 		"tall"										"330"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"RankImage"
 		{
 			"ControlName"							"CTFLocalPlayerBadgePanel"
