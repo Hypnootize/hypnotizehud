@@ -14,6 +14,37 @@
 		"border"									"MaterialGrayDarkest"
 	}
 	
+	"ReturnButton"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"ReturnButton"
+		"xpos"										"0"
+		"labelText"									"6"
+
+		if_left
+		{
+			"xpos"									"rs1"
+			"labelText"								"5"
+		}
+
+		"ypos"										"3"
+		"zpos"										"10000"
+		"wide"										"20"
+		"tall"										"f0"
+		"visible"									"1"
+		"proportionaltoparent"						"1"
+		"command"									"nav_to"
+		"labelText"									"<"
+
+		"textAlignment"								"center"
+		"font"										"Symbols 18"
+
+		"armedBgColor_override"						"GrayDark"
+		"defaultBgColor_override"					"26 27 29 255"
+
+		"armedFgColor_override"						"White"
+	}
+	
 	"Shade"
 	{
 		"ControlName"								"EditablePanel"
@@ -42,12 +73,6 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"CloseButton"
-		"xpos"										"9999"
-	}
-	"ReturnButton"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"ReturnButton"
 		"xpos"										"9999"
 	}
 }
