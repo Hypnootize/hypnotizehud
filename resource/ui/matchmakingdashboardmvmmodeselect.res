@@ -163,7 +163,7 @@
 
 			"paintbackground"						"0"
 		
-			"border_default"						"MaterialGrayDarker"
+			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
 
 			"defaultFgColor_override"				"White"
@@ -254,7 +254,7 @@
 
 			"paintbackground"						"0"
 		
-			"border_default"						"MaterialGrayDarker"
+			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
 
 			"defaultFgColor_override"				"White"
