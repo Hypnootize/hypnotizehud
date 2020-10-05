@@ -725,15 +725,13 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"GrayDark"
+			"color"					"BlackLight"
 			
-			"image"					"replay/thumbnails/panels/material_generic"
-			//"image"					"../hud/tournament_panel_brown"
-			//"image"					"../hud/color_panel_browner"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"image"					"replay/thumbnails/panels/bg_generic"
+			"src_corner_height"		"23"
+			"src_corner_width"		"23"
+			"draw_corner_width"		"0"
+			"draw_corner_height"	"0"
 		}
 		TFFatLineBorderOpaque
 		{
@@ -751,13 +749,13 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color" 				"GrayDark"
+			"color"					"BlackLight"
 			
-			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"image"					"replay/thumbnails/panels/bg_generic"
+			"src_corner_height"		"23"
+			"src_corner_width"		"23"
+			"draw_corner_width"		"0"
+			"draw_corner_height"	"0"
 		}
 		TFFatLineBorderRedBGOpaque
 		{
@@ -785,63 +783,15 @@ Scheme
 		}
 		TFFatLineBorderRedBG
 		{
-			"bordertype"			""
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "Red"
-					"offset" "0 0"
-				}		
-				"2"
-				{
-					"color" "Red"
-					"offset" "0 0"
-				}
-				"3"
-				{
-					"color" "Red"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "blank"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "blank"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Red"
-					"offset" "0 0"
-				}		
-				"2"
-				{
-					"color" "Red"
-					"offset" "0 0"
-				}
-				"3"
-				{
-					"color" "Red"
-					"offset" "0 0"
-				}
-			}
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"Red"
+			
+			"image"					"replay/thumbnails/panels/bg_generic"
+			"src_corner_height"		"23"
+			"src_corner_width"		"23"
+			"draw_corner_width"		"0"
+			"draw_corner_height"	"0"
 		}
 		TFFatLineBorderRedBGMoreOpaque
  		{
@@ -857,63 +807,15 @@ Scheme
  		}
 		TFFatLineBorderBlueBG
 		{
-			"bordertype"			""
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "Blue"
-					"offset" "0 0"
-				}		
-				"2"
-				{
-					"color" "Blue"
-					"offset" "0 0"
-				}
-				"3"
-				{
-					"color" "Blue"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "blank"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "blank"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Blue"
-					"offset" "0 0"
-				}		
-				"2"
-				{
-					"color" "Blue"
-					"offset" "0 0"
-				}
-				"3"
-				{
-					"color" "Blue"
-					"offset" "0 0"
-				}
-			}
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"Blue"
+			
+			"image"					"replay/thumbnails/panels/bg_generic"
+			"src_corner_height"		"23"
+			"src_corner_width"		"23"
+			"draw_corner_width"		"0"
+			"draw_corner_height"	"0"
 		}
 		TFFatLineBorderBlueBGMoreOpaque
  		{
