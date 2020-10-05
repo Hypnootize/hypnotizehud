@@ -108,6 +108,17 @@ Scheme
 				"antialias"									"1"
 			}
 		}
+		"Game 22 Shadow"
+		{
+			"1"
+			{
+				"name"										"NexaBold"
+				"tall"										"22"
+				"additive"									"0"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
 		"Game 24"
 		{
 			"1"
@@ -3176,23 +3187,18 @@ Scheme
 	{
 		"20"
 		{
-			"font" 		"resource/scheme/fontfiles/Avenir Heavy.otf"
+			"font" 		"resource/scheme/fontfiles/avenir heavy.otf"
 			"name" 		"AvenirLTStd-Heavy"
 		}
 		"21"
 		{
-			"font" 		"resource/scheme/fontfiles/Avenir Black.ttf"
-			"name" 		"AvenirLTStd-Black"
+			"font" 		"resource/scheme/fontfiles/avenir heavy numbers.otf"
+			"name" 		"Avenir Heavy Numbers"
 		}
 		"22"
 		{
-			"font" 		"resource/scheme/fontfiles/Nexa Bold.otf"
+			"font" 		"resource/scheme/fontfiles/nexa bold.otf"
 			"name" 		"NexaBold"
-		}
-		"23"
-		{
-			"font" 		"resource/scheme/fontfiles/Avenir Heavy Numbers.otf"
-			"name" 		"Avenir Heavy Numbers"
 		}
 	}
 }
