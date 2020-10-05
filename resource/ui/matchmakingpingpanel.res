@@ -29,7 +29,7 @@
 		"visible"									"1"
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"0"
-		"border"									"MaterialBackground"
+		"border"									"MaterialGrayDarkest"
 		"proportionaltoparent"						"1"
 	}
 
@@ -38,7 +38,7 @@
 		"ControlName"								"Label"
 		"fieldName"									"Title"
 		"xpos"										"0"
-		"ypos"										"10"
+		"ypos"										"11"
 		"zpos"										"99"
 		"wide"										"200"
 		"tall"										"20"
