@@ -17,8 +17,7 @@
 		"autohide_scrollbar"						"1"
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
-		"bgcolor_override"							"BlackDark"
-		"border"									"NoBorder"
+		"bgcolor_override"							"BlackLight"
 
 		"HatUseHeadCheckButton"
 		{
@@ -88,18 +87,15 @@
 			"sound_released"						"UI/buttonclickrelease.wav"
 			"Command"								"set_style"
 			
-			"paintbackground"						"0"
-		
-			"defaultBgColor_override"				"Blank"
-			"armedBgColor_override"					"Blank"
-			"depressedBgColor_override"				"Blank"
-				
+			"paintbackground"						"1"
+			
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override" 				"Main Theme"
+			"armedFgColor_override" 				"White"
 			"depressedFgColor_override" 			"White"
-				
-			"border_default"						"NoBorder"
-			"border_armed"							"NoBorder"
+			
+			"defaultBgColor_override"				"GrayDark"
+			"armedBgColor_override" 				"Main Theme"
+			"depressedBgColor_override" 			"GrayDark"
 		}
 	}
 }

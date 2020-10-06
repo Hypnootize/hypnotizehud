@@ -30,7 +30,7 @@
 		
 		"modelpanelskv"	
 		{
-			"PaintBackgroundType"					"2"
+			"PaintBackgroundType"					"0"
 			"paintborder"							"1"
 			"bgcolor_override"						"Blank"
 			
@@ -60,7 +60,7 @@
 		"fieldName"									"ItemsFoundLabel"
 		"font"										"Size 24"
 		"labelText"									"#NewItemsAcquired"
-		"fgcolor_override"   						"White"
+		"fgcolor_override"   						"WhiteDark"
 		"textAlignment"								"center"
 		"xpos"										"0"
 		"ypos"										"20"
@@ -72,19 +72,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-	}
-	
-	"classimageoutline"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"classimageoutline"
-		"xpos"										"c208"
-		"ypos"										"115"
-		"zpos"										"6"
-		"wide"										"36"
-		"tall"										"0"		//36
-		"visible"									"1"
-		"bgcolor_override" 							"Black"
 	}
 	
 	"classimage"
@@ -100,6 +87,20 @@
 		"enabled"									"1"
 		"image"										"achievements/tf_medic_heal_grind"
 		"scaleImage"								"1"
+	}
+	
+	"classimageoutline"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"classimageoutline"
+		"xpos"										"1"
+		"ypos"										"1"
+		"zpos"										"6"
+		"wide"										"22"
+		"tall"										"22"
+		"visible"									"1"
+		"bgcolor_override" 							"WhiteDark"
+		"pin_to_sibling" 							"classimage"
 	}
 	
 	"SelectedItemFoundMethodLabel"
@@ -118,6 +119,7 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
+		"fgcolor_override"   						"WhiteDark"
 	}
 	
 	"ItemCountLabel"
@@ -136,6 +138,7 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
+		"fgcolor_override"   						"WhiteDark"
 	}
 	
 	"SelectedItemNumberLabel"
@@ -154,13 +157,14 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
+		"fgcolor_override"   						"WhiteDark"
 	}
 	
 	"NextButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"NextButton"
-		"xpos"										"c248"
+		"xpos"										"c250"
 		"ypos"										"208"
 		"zpos"										"1"
 		"wide"										"20"
@@ -170,8 +174,8 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labelText"									">"
-		"font"										"Size 24"
+		"labelText"									"5"
+		"font"										"Symbols 24"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -193,7 +197,7 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"PrevButton"
-		"xpos"										"c-268"
+		"xpos"										"c-270"
 		"ypos"										"208"
 		"zpos"										"1"
 		"wide"										"20"
@@ -203,8 +207,8 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labelText"									"<"
-		"font"										"Size 24"
+		"labelText"									"6"
+		"font"										"Symbols 24"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -226,18 +230,18 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"CloseButton"
-		"xpos"										"c50"
-		"ypos"										"400"
+		"xpos"										"c-253"
+		"ypos"										"c135"
 		"zpos"										"6"
-		"wide"										"200"
-		"tall"										"25"
+		"wide"										"506"
+		"tall"										"35"
 		"autoResize"								"0"
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									"#CloseItemPanel"
-		"font"										"Size 14"
+		"font"										"Size 20"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -247,16 +251,8 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
 		"paintbackground"							"0"
-		
-		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
-		
-		"border_default"							"MaterialGrayDark"
+		"border_default"							"MaterialGrayDarker"
 		"border_armed"								"MaterialHypno"
-		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override" 				"Blank"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
@@ -267,18 +263,18 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"OpenLoadoutButton"
-		"xpos"										"c-250"
-		"ypos"										"400"
+		"xpos"										"c-253"
+		"ypos"										"c170"
 		"zpos"										"6"
-		"wide"										"200"
-		"tall"										"25"
+		"wide"										"506"
+		"tall"										"20"
 		"autoResize"								"0"
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									"%loadouttext%"
-		"font"										"Size 14"
+		"font"										"Size 12"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -287,16 +283,8 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
 		"paintbackground"							"0"
-		
-		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
-		
-		"border_default"							"MaterialGrayDark"
+		"border_default"							"MaterialGrayDarker"
 		"border_armed"								"MaterialHypno"
-		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override" 				"Blank"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
@@ -317,8 +305,8 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labelText"									""
-		"font"										"Size 14"
+		"labelText"									"j"
+		"font"										"Symbols 16"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -328,36 +316,12 @@
 		
 		"paintbackground"							"0"
 		
-		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
-		
-		"border_default"							"MaterialBlackDark"
+		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialRed"
-		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override" 				"Blank"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-		
-		"SubImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"SubImage"
-			"xpos"									"cs-0.5"
-			"ypos"									"cs-0.5"
-			"zpos"									"1"
-			"wide"									"16"
-			"tall"									"16"
-			"visible"								"1"
-			"enabled"								"1"
-			"image"									"icon_trash_on"
-			"scaleImage"							"1"
-			"paintbackgroundtype" 					"0"
-			"proportionaltoparent"					"1"
-		}				
 	}
 	
 	"DiscardButtonTooltip"
@@ -412,9 +376,9 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor_override" 							"White"
-		"PaintBackgroundType"						"2"
-		"border"									"MaterialBlackDark"
+		"fgcolor_override" 							"WhiteDark"
+		"PaintBackground"							"0"
+		"border"									"MaterialGrayDark"
 	}
 	
 	"ScoreEntry"

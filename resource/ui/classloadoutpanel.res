@@ -207,7 +207,7 @@
 		"autoResize"								"1"
 		"visible"									"0"
 		"bgcolor_override"							"BlackLight"
-		"PaintBackgroundType"						"2"
+		"PaintBackgroundType"						"0"
 	}
 	
 	"CharacterLoadoutButton"
@@ -280,7 +280,65 @@
 		"depressedBgColor_override" 				"GrayDark"
 	}
 	
-	
+	"BlueButton"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"BlueButton"
+		"xpos"										"c82"
+		"ypos"										"47"
+		"zpos"										"20"
+		"wide"										"15"
+		"tall"										"15"
+		"autoResize"								"1"
+		"pinCorner"									"2"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"o"
+		"textAlignment"								"center"
+		"textinsetx"								"0"
+		"font"										"Symbols 14"
+		"scaleImage"								"1"
+		"command"									"sv_cheats 1; r_skin 1"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
+		
+		"paintbackground"							"0"
+		
+		"defaultFgColor_override" 					"Blue"
+		"armedFgColor_override" 					"Blue"
+		"depressedFgColor_override" 				"Blue"
+	} 
+
+	"RedButton"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"RedButton"
+		"xpos"										"c82"
+		"ypos"										"33"
+		"zpos"										"20"
+		"wide"										"15"
+		"tall"										"15"
+		"autoResize"								"1"
+		"pinCorner"									"2"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"o"
+		"textAlignment"								"center"
+		"textinsetx"								"0"
+		"font"										"Symbols 14"
+		"scaleImage"								"1"
+		"command"									"sv_cheats 1;r_skin 0"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
+		
+		"paintbackground"							"0"
+		
+		"defaultFgColor_override" 					"Red"
+		"armedFgColor_override" 					"Red"
+		"depressedFgColor_override" 				"Red"
+	}
 	
 	
 	

@@ -49,7 +49,7 @@
 			"visible"								"0"
 			"bgcolor_override"						"Blank"
 			"noitem_textcolor"						"White"
-			"PaintBackgroundType"					"2"
+			"PaintBackgroundType"					"0"
 			"paintborder"							"1"
 
 			"Button"
@@ -61,7 +61,7 @@
 				"visible"							"1"
 				"bgcolor_override"					"Blank"
 				"noitem_textcolor"					"White"
-				"PaintBackgroundType"				"2"
+				"PaintBackgroundType"				"0"
 				"paintborder"						"1"
 				"textAlignment"						"center"
 				"labelText"							"%page%"
@@ -89,6 +89,7 @@
 				"labelText"							"#Store_Price_New"
 				"mouseinputenabled" 				"0"
 				"paintbackground"					"0"
+				"paintbackgroundtype"				"0"
 				"proportionaltoparent"				"1"
 				"border"							"StoreNewBorder"
 				"fgcolor"							"10 10 10 255"
@@ -105,7 +106,7 @@
 			"visible"								"0"
 			"bgcolor_override"						"Blank"
 			"noitem_textcolor"						"White"
-			"PaintBackgroundType"					"2"
+			"PaintBackgroundType"					"0"
 			"paintborder"							"1"
 			
 			"model_center_x"						"1"
@@ -149,6 +150,7 @@
 				"labelText"							"#Store_Price_New"
 				"mouseinputenabled" 				"0"
 				"paintbackground"					"0"
+				"paintbackgroundtype"				"0"
 				"proportionaltoparent"				"1"
 				"border"							"StoreNewBorder"
 				"fgcolor"							"10 10 10 255"
@@ -561,7 +563,7 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"MaterialBlackDark"
+		"border_default"							"MaterialBlackLight"
 		"border_armed"								"MaterialHypno"
 	}	
 	
@@ -595,7 +597,7 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"MaterialBlackDark"
+		"border_default"							"MaterialBlackLight"
 		"border_armed"								"MaterialHypno"
 	}		
 	

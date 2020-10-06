@@ -14,7 +14,7 @@
 		"keyboardinputenabled"						"1"
 		"mouseinputenabled"							"1"
 		"border"									"NoBorder"
-		"bgcolor_override"							"BlackDark"
+		"bgcolor_override"							"BlackLight"
 
 		"log_font_small"							"Size 24"
 		"log_font_medium"							"Size 24"
@@ -63,7 +63,7 @@
 
 			"Slider"
 			{
-				"fgcolor_override"					"GrayDark"
+				"fgcolor_override"					"GrayDarker"
 			}
 		
 			"UpButton"
@@ -93,7 +93,7 @@
 		"tall"										"15"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		"bgcolor_override"							"GrayDark"
+		"bgcolor_override"							"GrayDarker"
 		"RoundedCorners"							"0"
 		"font"										"Size 11"
 		"alpha"										"0"
