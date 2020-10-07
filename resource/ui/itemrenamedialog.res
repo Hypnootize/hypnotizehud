@@ -72,7 +72,7 @@
 		"enabled"									"1"
 		"centerwrap"								"1"
 		"AllCaps"									"1"
-		"fgcolor"									"White"
+		"fgcolor"									"WhiteDark"
 	}
 	
 	"ToolBG"
@@ -224,7 +224,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor_override" 							"White"
+		"fgcolor_override" 							"WhiteDark"
 		"paintbackground" 							"0"
 		
 		"pin_to_sibling"							"OldItemNameBG"
@@ -249,7 +249,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor_override" 							"White"
+		"fgcolor_override" 							"WhiteDark"
 		"paintbackground" 							"0"
 		
 		"pin_to_sibling"							"OldItemNameBG"
@@ -294,7 +294,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor_override" 							"White"
+		"fgcolor_override" 							"WhiteDark"
 		"paintbackground" 							"0"
 		
 		"pin_to_sibling"							"NewItemNameBG"
@@ -321,7 +321,7 @@
 		"NumericInputOnly"							"0"
 		"unicode"									"0"
 		"wrap"										"0"
-		"fgcolor_override"							"White"
+		"fgcolor_override"							"WhiteDark"
 		"bgcolor_override"							"BlackDark"
 		"paintbackgroundtype" 						"0"
 		"labelText"									""

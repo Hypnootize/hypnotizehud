@@ -2,7 +2,7 @@
 {
 	"ItemRenameConfirmationDialog"
 	{
-		"fieldName"					"ItemRenameConfirmationDialog"
+		"fieldName"									"ItemRenameConfirmationDialog"
 		"visible"									"1"
 		"enabled"									"1"
 		"xpos"										"c-200"
@@ -72,7 +72,7 @@
 		"enabled"									"1"
 		"centerwrap"								"1"
 		"AllCaps"									"1"
-		"fgcolor"									"White"
+		"fgcolor"									"WhiteDark"
 	}
 	
 	"ToolBG"
@@ -225,7 +225,7 @@
 		"enabled"									"1"
 		"centerwrap"								"1"
 		"AllCaps"									"1"
-		"fgcolor_override"							"White"
+		"fgcolor_override"							"WhiteDark"
 	}
 
 	"WarningLabel"

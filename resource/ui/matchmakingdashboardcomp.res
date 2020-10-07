@@ -27,7 +27,7 @@
 		"labeltext"									"#TF_Matchmaking_HeaderCompetitive"
 		"textAlignment"								"west"
 		"font"										"Size 30"
-		"fgcolor_override"							"White"
+		"fgcolor_override"							"WhiteDark"
 		"AllCaps"									"1"
 		
 		"mouseinputenabled"							"0"

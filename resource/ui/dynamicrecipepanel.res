@@ -119,7 +119,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"White"
+			"fgcolor"								"WhiteDark"
 			"AllCaps"								"1"
 			"wrap"									"1"
 			"centerwrap"							"1"
@@ -143,7 +143,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"								"White"
+			"fgcolor"								"WhiteDark"
 		}
 		
 		"OutputLabel"
@@ -163,7 +163,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"								"White"
+			"fgcolor"								"WhiteDark"
 		}
 		
 		"UntradableLabel"
@@ -183,7 +183,7 @@
 			"visible"								"0"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"								"White"
+			"fgcolor"								"WhiteDark"
 		}
 		
 		"CraftButton"
@@ -271,7 +271,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor" 								"White"
+			"fgcolor" 								"WhiteDark"
 		}
 		
 		"NextInputPageButton"
@@ -362,7 +362,7 @@
 			"dulltext"								"0"
 			"brighttext"							"0"
 			"AllCaps"								"1"
-			"fgcolor"								"White"
+			"fgcolor"								"WhiteDark"
 			"proportionaltoparent"					"1"
 		}
 
@@ -382,7 +382,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"White"
+			"fgcolor"								"WhiteDark"
 			"wrap"									"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"

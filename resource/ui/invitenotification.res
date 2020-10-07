@@ -46,7 +46,7 @@
 		"textAlignment"								"east"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor_override"							"White"
+		"fgcolor_override"							"WhiteDark"
 
 		"fonts"
 		{
@@ -101,7 +101,7 @@
 
 		"radius"									"10"
 		"velocity"									"60"
-		"fgcolor_override"							"White"
+		"fgcolor_override"							"WhiteDark"
 	}
 
 	"AcceptButton"
@@ -113,7 +113,7 @@
 		"wide"										"80"
 		"zpos"										"100"
 		"tall"										"16"
-				
+		
 		"visible"									"1"
 
 		"enabled"									"1"
@@ -157,7 +157,7 @@
 		"wide"										"60"
 		"zpos"										"100"
 		"tall"										"16"
-				
+		
 		"visible"									"1"
 
 		"enabled"									"1"

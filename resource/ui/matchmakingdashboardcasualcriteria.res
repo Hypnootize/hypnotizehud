@@ -27,7 +27,7 @@
 		"labeltext"									"#TF_Matchmaking_HeaderCasual"
 		"textAlignment"								"west"
 		"font"										"Size 24"
-		"fgcolor_override"							"White"
+		"fgcolor_override"							"WhiteDark"
 		
 		"AllCaps"									"1"
 		

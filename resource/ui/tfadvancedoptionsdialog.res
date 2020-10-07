@@ -27,17 +27,17 @@
 	
 	"BackgroundCustom"
 	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"BackgroundCustom"
-		"xpos"					"c-310"
-		"ypos"					"85"
-		"zpos"					"1"
-		"wide"					"623"
-		"tall"					"320"
-		"visible"				"1"
-		"enabled"				"1"
-		"paintbackground"		"0"
-		"border"				"MaterialBlackDark"
+		"ControlName"								"EditablePanel"
+		"fieldName"									"BackgroundCustom"
+		"xpos"										"c-310"
+		"ypos"										"85"
+		"zpos"										"1"
+		"wide"										"623"
+		"tall"										"320"
+		"visible"									"1"
+		"enabled"									"1"
+		"paintbackground"							"0"
+		"border"									"MaterialBlackDark"
 	}
 	
 	"TitleLabel"
@@ -56,7 +56,7 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor_override" 							"White"
+		"fgcolor_override" 							"WhiteDark"
 		"AllCaps" 									"1"
 	}
 	
@@ -64,10 +64,10 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"CancelButton"
-		"xpos"										"c-310"
-		"ypos"										"410"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"100"
+		"wide"										"312"
 		"tall"										"25"
 		"autoResize"								"0"
 		"pinCorner"									"3"
@@ -75,7 +75,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									"#Cancel"
-		"font"										"Size 14"
+		"font"										"Size 16"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -88,26 +88,26 @@
 		
 		"paintbackground"							"0"
 		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-		
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
+		
+		"pin_to_sibling" 							"BackgroundCustom"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 	
 	"OkButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"OkButton"
-		"xpos"										"c213"
-		"ypos"										"410"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"100"
+		"wide"										"312"
 		"tall"										"25"
 		"autoResize"								"0"
 		"pinCorner"									"3"
@@ -115,7 +115,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									"#GameUI_Ok"
-		"font"										"Size 14"
+		"font"										"Size 16"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -128,16 +128,16 @@
 		
 		"paintbackground"							"0"
 		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-		
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
+		
+		"pin_to_sibling" 							"BackgroundCustom"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
 	}
 	
 	"PanelListPanel"
@@ -188,7 +188,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor_override"						"White"
+			"fgcolor_override"						"WhiteDark"
 			"wrap"									"1"
 			//"centerwrap"							"1"
 		}

@@ -32,7 +32,7 @@
 		"enabled"									"1"
 		"centerwrap"								"1"
 		"AllCaps"									"1"
-		"fgcolor"									"White"
+		"fgcolor"									"WhiteDark"
 	}
 	
 	"ToolBG"
@@ -184,7 +184,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor_override"							"White"
+		"fgcolor_override"							"WhiteDark"
 	}
 
 	"WarningLabel"
