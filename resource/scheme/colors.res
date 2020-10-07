@@ -310,16 +310,16 @@ Scheme
 		Button.DepressedTextColor							"GrayDark"
 		Button.DepressedBgColor								"Main Theme"
 
-		CheckButton.TextColor								"White"
-		CheckButton.SelectedTextColor						"White"
+		CheckButton.TextColor								"WhiteDark"
+		CheckButton.SelectedTextColor						"WhiteDark"
 		CheckButton.BgColor									"TransparentBlack"
-		CheckButton.Border1  								"White"
-		CheckButton.Border2  								"White"
-		CheckButton.Check									"White"
-		CheckButton.HighlightFgColor						"White"
+		CheckButton.Border1  								"WhiteDark"
+		CheckButton.Border2  								"WhiteDark"
+		CheckButton.Check									"WhiteDark"
+		CheckButton.HighlightFgColor						"WhiteDark"
 		
-		ComboBoxButton.ArrowColor							"White"
-		ComboBoxButton.ArmedArrowColor						"White"
+		ComboBoxButton.ArrowColor							"WhiteDark"
+		ComboBoxButton.ArmedArrowColor						"WhiteDark"
 		ComboBoxButton.BgColor								"Blank"
 		ComboBoxButton.DisabledBgColor						"Blank"
 
@@ -363,10 +363,10 @@ Scheme
 		ListPanel.SelectedOutOfFocusBgColor					"Red"
 		ListPanel.EmptyListInfoTextColor					"White"
 
-		Menu.TextColor										"White"
+		Menu.TextColor										"WhiteDark"
 		Menu.BgColor										"BlackDark"
-		Menu.ArmedTextColor									"TanDark"
-		Menu.ArmedBgColor									"White"
+		Menu.ArmedTextColor									"White"
+		Menu.ArmedBgColor									"GrayDarker"
 		Menu.TextInset										"6"
 
 		Chat.TypingText										"White"
@@ -451,7 +451,7 @@ Scheme
 		HudObjectives.FgColor								"HudPanelForeground"
 		HudObjectives.BgColor								"HudPanelBackground"
 		HudObjectives.BorderColor							"HudPanelBorder"
-				
+		
 		HudProgressBar.Active								"HudProgressBarActive"
 		HudProgressBar.InActive								"HudProgressBarInActive"
 		
