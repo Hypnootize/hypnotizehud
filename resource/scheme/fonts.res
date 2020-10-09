@@ -228,7 +228,7 @@ Scheme
 				"tall"										"10"
 				"additive"									"0"
 				"antialias"									"1"
-				"blur"										"2"
+				"blur"										"1"
 			}
 		}
 		"Game 11 Blur"
@@ -239,7 +239,7 @@ Scheme
 				"tall"										"11"
 				"additive"									"0"
 				"antialias"									"1"
-				"blur"										"2"
+				"blur"										"1"
 			}
 		}
 		"Game 12 Blur"
@@ -250,7 +250,7 @@ Scheme
 				"tall"										"12"
 				"additive"									"0"
 				"antialias"									"1"
-				"blur"										"2"
+				"blur"										"1"
 			}
 		}
 		"Game 14 Blur"
@@ -261,7 +261,7 @@ Scheme
 				"tall"										"14"
 				"additive"									"0"
 				"antialias"									"1"
-				"blur"										"2"
+				"blur"										"1"
 			}
 		}
 		"Game 16 Blur"
@@ -272,7 +272,7 @@ Scheme
 				"tall"										"16"
 				"additive"									"0"
 				"antialias"									"1"
-				"blur"										"2"
+				"blur"										"1"
 			}
 		}
 		"Game 18 Blur"
@@ -283,7 +283,7 @@ Scheme
 				"tall"										"18"
 				"additive"									"0"
 				"antialias"									"1"
-				"blur"										"2"
+				"blur"										"1"
 			}
 		}
 		"Game 20 Blur"
@@ -294,7 +294,7 @@ Scheme
 				"tall"										"20"
 				"additive"									"0"
 				"antialias"									"1"
-				"blur"										"2"
+				"blur"										"1"
 			}
 		}
 		"Game 22 Blur"
@@ -305,7 +305,7 @@ Scheme
 				"tall"										"22"
 				"additive"									"0"
 				"antialias"									"1"
-				"blur"										"2"
+				"blur"										"1"
 			}
 		}
 		"Game 24 Blur"
@@ -316,7 +316,7 @@ Scheme
 				"tall"										"24"
 				"additive"									"0"
 				"antialias"									"1"
-				"blur"										"2"
+				"blur"										"1"
 			}
 		}
 		"Game 26 Blur"
@@ -327,7 +327,7 @@ Scheme
 				"tall"										"26"
 				"additive"									"0"
 				"antialias"									"1"
-				"blur"										"2"
+				"blur"										"1"
 			}
 		}
 		"Game 28 Blur"
@@ -338,7 +338,7 @@ Scheme
 				"tall"										"28"
 				"additive"									"0"
 				"antialias"									"1"
-				"blur"										"2"
+				"blur"										"1"
 			}
 		}
 		"Game 30 Blur"
