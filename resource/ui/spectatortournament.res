@@ -233,7 +233,7 @@
 		"tall"										"100"
 		"visible"									"0"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 		
 		"model_ypos"								"10"
 		"model_center_x"							"1"

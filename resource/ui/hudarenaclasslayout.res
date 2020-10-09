@@ -13,10 +13,10 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"replay/thumbnails/panels/Material_Transparent"
+		"image"										"replay/thumbnails/panels/material_transparent50"
 		"scaleImage"								"1"	
-		"teambg_2"									"replay/thumbnails/panels/Material_Transparent"
-		"teambg_3"									"replay/thumbnails/panels/Material_Transparent"
+		"teambg_2"									"replay/thumbnails/panels/material_transparent50"
+		"teambg_3"									"replay/thumbnails/panels/material_transparent50"
 			
 		"src_corner_height"							"24"
 		"src_corner_width"							"24"

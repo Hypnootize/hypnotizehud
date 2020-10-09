@@ -12,7 +12,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/panels/Material_Transparent"
+		"image"			"replay/thumbnails/panels/material_transparent50"
 
 		"src_corner_height"	"24"				// pixels inside the image
 		"src_corner_width"	"24"
@@ -243,7 +243,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/panels/Material_Transparent"
+		"image"			"replay/thumbnails/panels/material_transparent50"
 
 		"src_corner_height"	"24"				// pixels inside the image
 		"src_corner_width"	"24"

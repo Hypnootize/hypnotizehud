@@ -73,7 +73,7 @@
 			
 			"paintbackground"						"0"
 
-			"border_default"						"MaterialTransparent"
+			"border_default"						"MaterialTransparent50"
 			"border_armed"							"MaterialHypno"
 			
 			"sound_armed"							"ui/item_info_mouseover.wav"

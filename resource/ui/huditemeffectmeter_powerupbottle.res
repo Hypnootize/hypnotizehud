@@ -25,7 +25,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 	}
 	
 	"ItemEffectIcon"

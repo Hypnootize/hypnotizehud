@@ -96,7 +96,7 @@
 				"pinCorner"							"0"
 				"visible"							"0"
 				"enabled"							"1"
-				"image"								"replay/thumbnails/panels/material_transparent"
+				"image"								"replay/thumbnails/panels/material_transparent50"
 
 				"src_corner_height"					"32"
 				"src_corner_width"					"32"

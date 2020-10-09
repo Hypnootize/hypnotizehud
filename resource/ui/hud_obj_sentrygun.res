@@ -36,7 +36,7 @@
 		"tall"										"42"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 	}
 	
 	"IconBackgound"
@@ -50,7 +50,7 @@
 		"tall"										"37"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 	}
 	
 	"Icon_Sentry_1"

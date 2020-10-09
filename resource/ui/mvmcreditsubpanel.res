@@ -14,7 +14,7 @@
 		"textinsety"	"1"
 		"AllCaps"		"1"
 		"fgcolor"		"White"
-		"border"		"MaterialTransparent"
+		"border"		"MaterialTransparent50"
 	}
 	
 	"TableBackground"

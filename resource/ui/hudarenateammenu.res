@@ -59,7 +59,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparentDark"
+		"border"									"MaterialTransparent90"
 		
 		"pin_to_sibling" 							"FightFrame"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"

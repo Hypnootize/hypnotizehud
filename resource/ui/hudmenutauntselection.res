@@ -13,7 +13,7 @@
 		"pinCorner"		        					"1"
 		"enabled"	          						"1"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 	}
 
 	"TitleLabel"
@@ -125,7 +125,7 @@
 		"tall"										"19"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 		
 		"pin_to_sibling" 							"TauntModelPanel1"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
@@ -202,7 +202,7 @@
 		"tall"										"19"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 		
 		"pin_to_sibling" 							"TauntModelPanel2"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
@@ -279,7 +279,7 @@
 		"tall"										"19"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 		
 		"pin_to_sibling" 							"TauntModelPanel3"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
@@ -356,7 +356,7 @@
 		"tall"										"19"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 		
 		"pin_to_sibling" 							"TauntModelPanel4"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
@@ -433,7 +433,7 @@
 		"tall"										"19"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 		
 		"pin_to_sibling" 							"TauntModelPanel5"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
@@ -510,7 +510,7 @@
 		"tall"										"19"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 		
 		"pin_to_sibling" 							"TauntModelPanel6"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
@@ -587,7 +587,7 @@
 		"tall"										"19"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 		
 		"pin_to_sibling" 							"TauntModelPanel7"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
@@ -664,7 +664,7 @@
 		"tall"										"19"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 		
 		"pin_to_sibling" 							"TauntModelPanel8"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"

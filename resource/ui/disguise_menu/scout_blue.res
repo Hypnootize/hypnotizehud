@@ -11,7 +11,7 @@
 		"tall"										"35"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 	}
 	
 	"ItemNameLabel"
@@ -46,7 +46,7 @@
 		"tall"										"19"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 	}
 	
 	"NumberLabel"

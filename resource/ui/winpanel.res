@@ -206,7 +206,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 		
 		"pin_to_sibling" 							"BlueScoreBG2"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"

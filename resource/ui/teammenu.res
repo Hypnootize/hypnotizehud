@@ -44,7 +44,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparentDark"
+		"border"									"MaterialTransparent90"
 	}
 	
 	"mapname"
@@ -278,7 +278,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparentDark"
+		"border"									"MaterialTransparent90"
 		
 		"pin_to_sibling" 							"BlueFrame"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMRIGHT"
@@ -351,7 +351,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparentDark"
+		"border"									"MaterialTransparent90"
 		
 		"pin_to_sibling" 							"RedFrame"
 	}

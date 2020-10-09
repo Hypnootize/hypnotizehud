@@ -43,7 +43,7 @@
 		"tall"			"141"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"MaterialTransparent"
+		"border"		"MaterialTransparent50"
 		
 		"pin_to_sibling"		"MvMPlayerList"
 	}
@@ -59,7 +59,7 @@
 		"tall"			"84"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"MaterialTransparent"
+		"border"		"MaterialTransparent50"
 		
 		"pin_to_sibling"		"MvMPlayerList"
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
@@ -81,7 +81,7 @@
 		"AllCaps"		"1"
 		"fgcolor"		"White"
 		
-		"border"		"MaterialTransparent"
+		"border"		"MaterialTransparent50"
 		
 		"pin_to_sibling"		"StatsBackground"
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
@@ -162,7 +162,7 @@
 			"tall"			"84"
 			"visible"		"1"
 			
-			"border"		"MaterialTransparent"
+			"border"		"MaterialTransparent50"
 		}
 		
 		"GameTotalBackground"
@@ -176,7 +176,7 @@
 			"tall"			"84"
 			"visible"		"1"
 			
-			"border"		"MaterialTransparent"
+			"border"		"MaterialTransparent50"
 		}
 		
 		"PreviousWaveCreditInfoPanel"

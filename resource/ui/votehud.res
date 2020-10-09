@@ -10,7 +10,7 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"MaterialTransparent"
+		"border"		"MaterialTransparent50"
 		
 		"PassedIcon"
 		{
@@ -76,7 +76,7 @@
 		"tall"			"144"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"MaterialTransparent"
+		"border"		"MaterialTransparent50"
 		
 		"Header"
 		{
@@ -407,7 +407,7 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"MaterialTransparent"
+		"border"		"MaterialTransparent50"
 				
 		"FailedIcon"
 		{
@@ -473,7 +473,7 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"MaterialTransparent"
+		"border"		"MaterialTransparent50"
 		
 		"FailedIcon"
 		{

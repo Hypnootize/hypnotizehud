@@ -13,7 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"MaterialTransparent"
+		"border"		"MaterialTransparent50"
 	}
 	
 	"HealthBarPanel"

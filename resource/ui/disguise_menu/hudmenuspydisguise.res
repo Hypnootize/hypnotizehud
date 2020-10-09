@@ -13,7 +13,7 @@
 		"pinCorner"		        					"1"
 		"enabled"	          						"1"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 	}
 	
 	"TitleLabel"
@@ -306,7 +306,7 @@
 		"tall"										"19"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 	}
 
 	"NumberLabel1"
@@ -341,7 +341,7 @@
 		"tall"										"19"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 	}
 
 	"NumberLabel2"
@@ -376,7 +376,7 @@
 		"tall"										"19"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 	}
 	
 	"NumberLabel3"

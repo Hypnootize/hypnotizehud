@@ -32,7 +32,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparentDark"
+		"border"									"MaterialTransparent90"
 	}
 	
 	"MapInfoTitle"
@@ -77,7 +77,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparentDark"
+		"border"									"MaterialTransparent90"
 	}
 	
 	"MapInfoText"
@@ -131,7 +131,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"border_default"							"MaterialTransparentDark"
+		"border_default"							"MaterialTransparent90"
 		"border_armed"								"MaterialHypno"
 
 		"defaultFgColor_override"					"White"
@@ -170,7 +170,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"border_default"							"MaterialTransparentDark"
+		"border_default"							"MaterialTransparent90"
 		"border_armed"								"MaterialHypno"
 
 		"defaultFgColor_override"					"White"

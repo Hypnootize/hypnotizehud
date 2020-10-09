@@ -11,7 +11,6 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"Main Theme"
-			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"24"
@@ -25,7 +24,6 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"WhiteGray"
-			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"24"
@@ -38,7 +36,6 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"WhiteGray"
-			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic_reverse"
 			"src_corner_height"		"24"
@@ -51,7 +48,6 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"GrayLight"
-			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"24"
@@ -64,7 +60,6 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"GrayLight"
-			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic_reverse"
 			"src_corner_height"		"24"
@@ -77,7 +72,6 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"GrayMedium"
-			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"24"
@@ -90,7 +84,6 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"GrayMedium"
-			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic_reverse"
 			"src_corner_height"		"24"
@@ -103,7 +96,6 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"GrayDark"
-			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"24"
@@ -116,7 +108,6 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"GrayDark"
-			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic_reverse"
 			"src_corner_height"		"24"
@@ -129,7 +120,6 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"GrayDarker"
-			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"24"
@@ -142,7 +132,6 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"GrayDarker"
-			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic_reverse"
 			"src_corner_height"		"24"
@@ -155,7 +144,6 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"GrayDarkest"
-			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"24"
@@ -168,7 +156,6 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"GrayDarkest"
-			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic_reverse"
 			"src_corner_height"		"24"
@@ -181,7 +168,6 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"BlackLight"
-			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"24"
@@ -194,7 +180,6 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"BlackLight"
-			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic_reverse"
 			"src_corner_height"		"24"
@@ -207,7 +192,6 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"BlackDark"
-			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"24"
@@ -220,7 +204,6 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"BlackDark"
-			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic_reverse"
 			"src_corner_height"		"24"
@@ -235,7 +218,6 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"Blue"
-			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"24"
@@ -249,7 +231,6 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"Red"
-			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"24"
@@ -263,7 +244,6 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"White"
-			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"24"
@@ -277,7 +257,6 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"green"
-			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"24"
@@ -291,7 +270,6 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"Purple"
-			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"24"
@@ -300,36 +278,45 @@ Scheme
 			"draw_corner_height" 	"8"	
 		}
 		
-		MaterialTransparent
+		MaterialTransparent30
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/panels/material_transparent"
+			"image"					"replay/thumbnails/panels/material_transparent30"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"	
 		}
-		
-		MaterialTransparentLight
+		MaterialTransparent50
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/panels/material_transparent_light"
+			"image"					"replay/thumbnails/panels/material_transparent50"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"	
 		}
-		
-		MaterialTransparentDark
+		MaterialTransparent70
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/panels/material_transparent_dark"
+			"image"					"replay/thumbnails/panels/material_transparent70"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"	
+		}
+		MaterialTransparent90
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/panels/material_transparent90"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -377,7 +364,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/panels/material_transparent"
+			"image"					"replay/thumbnails/panels/material_transparent50"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"

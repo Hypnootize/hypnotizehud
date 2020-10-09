@@ -99,6 +99,6 @@
 		"tall"										"0"		//21
 		"visible"									"0"
 		"enabled"									"1"
-		"border"									"MaterialTransparentLight"
+		"border"									"MaterialTransparent50"
 	}
 }

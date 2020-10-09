@@ -30,7 +30,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"alpha"										"125"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 		
 		"pin_to_sibling" 							"UBERAnchor"
 	}

@@ -33,7 +33,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparentDark"
+		"border"									"MaterialTransparent90"
 	}
 	
 	"TFMessageTitle"
@@ -78,7 +78,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparentDark"
+		"border"									"MaterialTransparent90"
 	}
 
 	"TFTextMessage"
@@ -151,7 +151,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"border_default"							"MaterialTransparentDark"
+		"border_default"							"MaterialTransparent90"
 		"border_armed"								"MaterialHypno"
 
 		"defaultFgColor_override"					"White"
@@ -174,7 +174,7 @@
 		"tall"										"22"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparentDark"
+		"border"									"MaterialTransparent90"
 		
 		"pin_to_sibling" 							"Background"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"

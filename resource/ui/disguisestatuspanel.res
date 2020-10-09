@@ -44,7 +44,7 @@
 		"enabled"									"1"
 		"image"										"../hud/color_panel_brown"
 		"scaleImage"								"1"
-		"teambg_1"									"replay/thumbnails/panels/Material_Transparent"
+		"teambg_1"									"replay/thumbnails/panels/material_transparent50"
 		"teambg_2"									"replay/thumbnails/panels/Material_Transparent_Red"
 		"teambg_3"									"replay/thumbnails/panels/Material_Transparent_Blue"
 		
@@ -55,7 +55,7 @@
 		
 		if_mvm
 		{
-			"teambg_1"								"replay/thumbnails/panels/Material_Transparent"
+			"teambg_1"								"replay/thumbnails/panels/material_transparent50"
 			"teambg_2"								"replay/thumbnails/panels/Material_Red"
 			"teambg_3"								"replay/thumbnails/panels/Material_Blue"
 		}

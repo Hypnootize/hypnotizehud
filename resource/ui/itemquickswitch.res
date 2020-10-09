@@ -26,7 +26,7 @@
 			"wide"									"210"
 			"tall"									"30"
 			"paintbackground"						"0"
-			"border"								"MaterialTransparent"
+			"border"								"MaterialTransparent50"
 			"text_forcesize" 						"2"
 			
 			"model_xpos"							"25"
@@ -67,7 +67,7 @@
 		"wide"										"242"
 		"tall"										"121"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 	}
 		
 	"itemcontainer"
