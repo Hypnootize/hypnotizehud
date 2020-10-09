@@ -11,7 +11,7 @@
 		"tall"										"240"
 		"settitlebarvisible"						"0"
 		"paintbackground"							"0"
-		"border"									"MaterialBlackDark"
+		"border"									"MaterialBlackLight"
 	}
 
 	"TitleLabel"

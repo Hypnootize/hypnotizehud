@@ -9,8 +9,9 @@
 		"ypos"										"c-200"
 		"wide"										"400"
 		"tall"										"240"
-		"paintbackground"		"0"
-		"border"				"MaterialBlackDark"
+		"settitlebarvisible"						"0"
+		"paintbackground"							"0"
+		"border"									"MaterialBlackLight"
 	}
 
 	"mouseoveritempanel"
@@ -24,7 +25,7 @@
 		"tall"										"300"
 		"visible"									"0"
 		"bgcolor_override"							"Blank"
-		"noitem_textcolor"							"NoItemText"
+		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"2"
 		"paintborder"								"1"
 		
@@ -48,7 +49,7 @@
 			"enabled"								"1"
 			"labelText"								"%attriblist%"
 			"textAlignment"							"center"
-			"fgcolor"								"117 107 94 255"
+			"fgcolor"								"White"
 			"centerwrap"							"1"
 		}
 	}
@@ -60,16 +61,18 @@
 		"font"										"Size 14"
 		"labelText"									"dynamic"
 		"textAlignment"								"center"
-		"xpos"										"100"
+		"xpos"										"95"
 		"ypos"										"10"
 		"zpos"										"0"
-		"wide"										"200"
+		"wide"										"210"
 		"tall"										"60"
 		"autoResize"								"1"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"centerwrap"								"1"
+		"AllCaps"									"1"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"ToolBG"
@@ -88,7 +91,7 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"paintbackground" 							"0"
+		"paintbackground"							"0"
 		"border"									"BackpackItemBorder_SelfMade"
 	}
 	
@@ -96,17 +99,7 @@
 	{
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"tool_icon"
-		"xpos"										"10"
-		"ypos"										"10"
-		"zpos"										"2"
-		"wide"										"16"
-		"tall"										"16"
-		"visible"									"1"
-		"enabled"									"1"
-		"image"										"backpack_jewel_modify_target_b_g"
-		"tileImage"									"0"
-		"tileVertically" 							"0"
-		"drawcolor"									"112 176 74 255"
+		"xpos"										"9999"
 	}
 	
 	"tool_modelpanel"
@@ -120,7 +113,7 @@
 		"tall"										"64"
 		"visible"									"1"
 		"bgcolor_override"							"Blank"
-		"noitem_textcolor"							"NoItemText"
+		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"2"
 		"paintborder"								"0"
 		"model_xpos"								"2"
@@ -130,14 +123,15 @@
 		"text_ypos"									"100"
 		"text_center"								"1"
 		"name_only"									"1"
-		"paint_icon_hide"							"1"
+		"paint_icon_hide" 							"1"
 		
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget"					"0"
+			"use_item_rendertarget" 				"0"
+			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
-	}	
+	}
 	
 	"SubjectBG"
 	{
@@ -163,17 +157,7 @@
 	{
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"subject_icon"
-		"xpos"										"300"
-		"ypos"										"10"
-		"zpos"										"2"
-		"wide"										"16"
-		"tall"										"16"
-		"visible"									"1"
-		"enabled"									"1"
-		"image"										"backpack_jewel_modify_target_b_g"
-		"tileImage"									"0"
-		"tileVertically"							"0"
-		"drawcolor"									"71 98 145 255"
+		"xpos"										"9999"
 	}
 	
 	"subject_modelpanel"
@@ -187,7 +171,7 @@
 		"tall"										"64"
 		"visible"									"1"
 		"bgcolor_override"							"Blank"
-		"noitem_textcolor"							"NoItemText"
+		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"2"
 		"paintborder"								"0"
 		"model_xpos"								"2"
@@ -201,9 +185,10 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" 				"0"
+			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
-	}	
+	}
 	
 	"ConfirmLabel"
 	{
@@ -221,8 +206,8 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor_override" 							"255 20 20 255"
-		"centerwrap"								"1"
+		"AllCaps"									"1"
+		"fgcolor" 									"Red"
 	}
 
 	"CancelButton"
@@ -239,9 +224,10 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labelText"									"#Cancel"
+		"labelText"									"Cancel (&Q)"
 		"font"										"Size 14"
 		"textAlignment"								"center"
+		"AllCaps"									"1"
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"default"									"0"
@@ -251,16 +237,12 @@
 		
 		"paintbackground"							"0"
 		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-				
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Main Theme"
-		"depressedFgColor_override" 				"White"
-				
-		"border_default"							"NoBorder"
-		"border_armed"								"NoBorder"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
+		
+		"border_default"							"MaterialGrayDark"
+		"border_armed"								"MaterialHypno"
 	}
 	
 	"OkButton"
@@ -280,6 +262,7 @@
 		"labelText"									"#CraftNameConfirm"
 		"font"										"Size 14"
 		"textAlignment"								"center"
+		"AllCaps"									"1"
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"default"									"1"
@@ -289,15 +272,11 @@
 		
 		"paintbackground"							"0"
 		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-				
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Main Theme"
-		"depressedFgColor_override" 				"White"
-				
-		"border_default"							"NoBorder"
-		"border_armed"								"NoBorder"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
+		
+		"border_default"							"MaterialGrayDark"
+		"border_armed"								"MaterialHypno"
 	}
 }

@@ -1762,7 +1762,7 @@
 		"tall"										"50"
 		"visible"									"0"
 		"PaintBackground"							"0"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 		
 		"TipSubLabel"
 		{
