@@ -23,8 +23,8 @@ Scheme
 		"TransparentBlack"									"0 0 0 150"
 		"TransparentLightBlack"								"0 0 0 100"
 		
-		"Red"												"255 42 50 255"
-		"Blue"												"0 170 255 255"
+		"Red"												"255 61 61 255"
+		"Blue"												"92 173 255 255"
 		"Green"												"35 185 30 255"
 		"Orangee"											"255 130 50 255"
 		"Purple"											"170 20 220 255"
@@ -107,7 +107,7 @@ Scheme
 		"PartyMember5"										"255 118 108 255"
 		"PartyMember6"										"255 133 255 255"
 		
-		"RedSolid"											"255 42 50 255"
+		"RedSolid"											"255 61 61 255"
 		"Yellow"											"255 255 255 255"
 		"TransparentYellow"									"255 255 255 255"
 		"BrightYellow"										"255 255 0 255"
@@ -115,12 +115,12 @@ Scheme
 		
 		"FooterBGBlack"										"0 0 0 255"
 		
-		"HUDBlueTeam"										"0 170 255 255"
-		"HUDRedTeam"										"255 42 50 255"
+		"HUDBlueTeam"										"92 173 255 255"
+		"HUDRedTeam"										"255 61 61 255"
 		"HUDSpectator"										"255 255 255 255"
-		"HUDBlueTeamSolid"									"0 170 255 255"
-		"HUDRedTeamSolid"									"255 42 50 255"
-		"HUDDeathWarning"									"255 42 50 255"
+		"HUDBlueTeamSolid"									"92 173 255 255"
+		"HUDRedTeamSolid"									"255 61 61 255"
+		"HUDDeathWarning"									"255 61 61 255"
 		"HudWhite"											"255 255 255 255"
 		"HudOffWhite"										"255 255 255 255"
 		"HudBlack"											"0 0 0 255"
@@ -141,8 +141,8 @@ Scheme
 
 		"HudProgressBarActive"								"255 255 255 255"
 		"HudProgressBarInActive"							"255 255 255 255"
-		"HudProgressBarActiveLow"							"255 42 50 255"
-		"HudProgressBarInActiveLow"							"255 42 50 255"	
+		"HudProgressBarActiveLow"							"255 61 61 255"
+		"HudProgressBarInActiveLow"							"255 61 61 255"	
 
 		"HudTimerProgressActive"							"255 255 255 255"
 		"HudTimerProgressInActive"							"50 50 50 255"
@@ -169,12 +169,12 @@ Scheme
 		
 		"BuildMenuActive"									"255 255 255 255"
 		
-		"DisguiseMenuIconRed"								"255 42 50 255"
-		"DisguiseMenuIconBlue"								"0 170 255 255"
+		"DisguiseMenuIconRed"								"255 61 61 255"
+		"DisguiseMenuIconBlue"								"92 173 255 255"
 
  		"MatchmakingDialogTitleColor"						"255 255 255 255"
  		"MatchmakingMenuItemBackground"						"30 30 30 255"
- 		"MatchmakingMenuItemBackgroundActive"				"0 170 255 255"	
+ 		"MatchmakingMenuItemBackgroundActive"				"92 173 255 255"	
 		"MatchmakingMenuItemTitleColor"						"255 255 255 255"
 		"MatchmakingMenuItemDescriptionColor"				"255 255 255 255"
 		
@@ -183,7 +183,7 @@ Scheme
 		"ItemAttribLevel"									"255 255 255 255"
 		"ItemAttribNeutral"									"255 255 255 255"
 		"ItemAttribPositive"								"150 200 255 255"
-		"ItemAttribNegative"								"255 42 50 255"
+		"ItemAttribNegative"								"255 61 61 255"
 
 		"ItemSetName"										"225 255 15 255"
 		"ItemSetItemEquipped"								"149 175 12 255"
@@ -246,8 +246,8 @@ Scheme
 		
 		"SaleGreen"											"35 185 30 255"
 		
-		"LightRed"											"255 42 50 255"
-		"LighterRed"										"255 42 50 255"
+		"LightRed"											"255 61 61 255"
+		"LighterRed"										"255 61 61 255"
 		"LighterDarkBrown"									"60 60 60 255"
 		"DarkBrown"											"30 30 30 255"
 		
