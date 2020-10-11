@@ -39,7 +39,7 @@
 			"text_wide"								"170"
 			"name_only"								"1"
 			
-			"noitem_textcolor"						"NoItemText"
+			"noitem_textcolor"						"White"
 		}
 	}
 	

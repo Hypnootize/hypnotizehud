@@ -50,7 +50,7 @@
 			"tall"			"300"
 			"visible"		"0"
 			"bgcolor_override"		"Blank"
-			"noitem_textcolor"		"NoItemText"
+			"noitem_textcolor"		"White"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			"border"		"MaterialBlackDark"
@@ -74,7 +74,7 @@
 				"enabled"		"1"
 				"labelText"		"%attriblist%"
 				"textAlignment"	"center"
-				"fgcolor"		"NoItemText"
+				"fgcolor"		"White"
 				"centerwrap"	"1"
 			}
 		}

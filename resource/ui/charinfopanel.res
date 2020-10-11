@@ -102,12 +102,10 @@
 		"default"									"0"
 		"Command"									"back"
 		"AllCaps"									"1"
-		
-		"paintbackground"							"0"
-		
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
+		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDarker"
 		"border_armed"								"MaterialHypno"
 
@@ -137,14 +135,11 @@
 		"brighttext"								"0"
 		"default"									"0"
 		"Command"									"close"
-		
 		"AllCaps"									"1"
-		
-		"paintbackground"							"0"
-		
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
+		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDarker"
 		"border_armed"								"MaterialHypno"
 

@@ -89,7 +89,7 @@
 		"tall"										"35"
 		"visible"									"1"
 		"bgcolor_override"							"blank"
-		"noitem_textcolor"							"NoItemText"
+		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"0"
 		"paintborder"								"1"
 			
@@ -166,7 +166,7 @@
 		"tall"										"35"
 		"visible"									"1"
 		"bgcolor_override"							"blank"
-		"noitem_textcolor"							"NoItemText"
+		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"0"
 		"paintborder"								"1"
 
@@ -243,7 +243,7 @@
 		"tall"										"35"
 		"visible"									"1"
 		"bgcolor_override"							"blank"
-		"noitem_textcolor"							"NoItemText"
+		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"0"
 		"paintborder"								"1"
 			
@@ -320,7 +320,7 @@
 		"tall"										"35"
 		"visible"									"1"
 		"bgcolor_override"							"blank"
-		"noitem_textcolor"							"NoItemText"
+		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"0"
 		"paintborder"								"1"
 			
@@ -397,7 +397,7 @@
 		"tall"										"35"
 		"visible"									"1"
 		"bgcolor_override"							"blank"
-		"noitem_textcolor"							"NoItemText"
+		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"0"
 		"paintborder"								"1"
 			
@@ -474,7 +474,7 @@
 		"tall"										"35"
 		"visible"									"1"
 		"bgcolor_override"							"blank"
-		"noitem_textcolor"							"NoItemText"
+		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"0"
 		"paintborder"								"1"
 			
@@ -551,7 +551,7 @@
 		"tall"										"35"
 		"visible"									"1"
 		"bgcolor_override"							"blank"
-		"noitem_textcolor"							"NoItemText"
+		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"0"
 		"paintborder"								"1"
 			
@@ -628,7 +628,7 @@
 		"tall"										"35"
 		"visible"									"1"
 		"bgcolor_override"							"blank"
-		"noitem_textcolor"							"NoItemText"
+		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"0"
 		"paintborder"								"1"
 			

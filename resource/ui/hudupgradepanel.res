@@ -31,7 +31,7 @@
 			"wide"			"70"
 			"tall"			"50"
 			"bgcolor_override"		"Blank"
-			"noitem_textcolor"		"NoItemText"
+			"noitem_textcolor"		"White"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			
