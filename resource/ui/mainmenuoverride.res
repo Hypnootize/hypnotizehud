@@ -125,52 +125,6 @@
 	}
 	
 	/////////////////////////////////////////////////////////////////////////////////////////////////////
-	/////////////////////////////////////////BY HYPNOTIZE LABEL//////////////////////////////////////////
-	/////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-	"By"
-	{
-		"ControlName"								"Label"
-		"fieldName"									"By"
-		"font"										"BYlabel"
-		"fgcolor_override"   						"GrayDark"
-		"xpos"										"r150"
-		"ypos"										"r115"
-		"zpos"										"5"
-		"wide"										"200"
-		"tall"										"50"
-		"textinsetx"								"15"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"wrap"										"0"
-		"labelText"									"By"
-		"textAlignment"								"west"	
-	}
-	
-	"Hypnotize"
-	{
-		"ControlName"								"Label"
-		"fieldName"									"Hypnotize"
-		"font"										"HYPNOTIZELabel"
-		"fgcolor_override"   						"GrayDark"
-		"xpos"										"r160"
-		"ypos"										"r80"
-		"zpos"										"5"
-		"wide"										"200"
-		"tall"										"50"
-		"textinsetx"								"15"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"wrap"										"0"
-		"labelText"									"Hypnotize"
-		"textAlignment"								"west"	
-	}
-	
-	/////////////////////////////////////////////////////////////////////////////////////////////////////
 	///////////////////////////////////////////RANK PANEL////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////
 	
@@ -1263,6 +1217,28 @@
 		"paintbackground"							"0"
 		"paintborder"								"1"
 		"border"									"MaterialReverseBlackLight"
+	}
+	
+	"HypnotizeHUD"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"Hypnotize"
+		"font"										"Size 20"
+		"fgcolor"   								"GrayDarker"
+		"xpos"										"-10"
+		"ypos"										"-1"
+		"zpos"										"1"
+		"wide"										"200"
+		"tall"										"30"
+		"visible"									"1"
+		"enabled"									"1"
+		"AllCaps"									"1"
+		"labelText"									"Hypnotize HUD"
+		"textAlignment"								"east"
+
+		"pin_to_sibling" 							"BottomBar"
+		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
 	}
 	
 	/////////////////////////////////////////////////////////////////////////////////////////////////////
