@@ -45,8 +45,8 @@
 		"image"										"../hud/color_panel_brown"
 		"scaleImage"								"1"
 		"teambg_1"									"replay/thumbnails/panels/material_transparent50"
-		"teambg_2"									"replay/thumbnails/panels/Material_Transparent_Red"
-		"teambg_3"									"replay/thumbnails/panels/Material_Transparent_Blue"
+		"teambg_2"									"replay/thumbnails/panels/material_red_transparent70"
+		"teambg_3"									"replay/thumbnails/panels/material_blue_transparent50"
 		
 		"src_corner_height"							"24"
 		"src_corner_width"							"24"

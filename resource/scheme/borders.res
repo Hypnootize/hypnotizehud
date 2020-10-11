@@ -278,6 +278,10 @@ Scheme
 			"draw_corner_height" 	"8"	
 		}
 		
+		////////////////////////////////////////////////////////////////////////////////////
+		////////////////////////////////TRANSPARENT MATERIALS///////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////
+		
 		MaterialTransparent30
 		{
 			"bordertype"			"scalable_image"
@@ -328,7 +332,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/panels/material_transparent_red"
+			"image"					"replay/thumbnails/panels/material_red_transparent70"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -340,7 +344,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/panels/material_transparent_blue"
+			"image"					"replay/thumbnails/panels/material_blue_transparent70"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -358,6 +362,10 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"	
 		}
+		
+		////////////////////////////////////////////////////////////////////////////////////
+		////////////////////////////////HEALTH BOX MATERIALS////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////
 		
 		HealthBorder
 		{

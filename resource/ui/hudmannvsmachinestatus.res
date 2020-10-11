@@ -230,7 +230,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"image"									"replay/thumbnails/panels/Material_Transparent_Red"
+			"image"									"replay/thumbnails/panels/material_red_transparent70"
 
 			"src_corner_height"						"24"
 			"src_corner_width"						"24"
