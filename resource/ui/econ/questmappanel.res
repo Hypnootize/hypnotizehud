@@ -187,7 +187,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"labeltext"		"1"
+				"labeltext"		"-"
 				"font"			"Symbols 16"
 				"textAlignment"	"center"
 				"dulltext"		"0"

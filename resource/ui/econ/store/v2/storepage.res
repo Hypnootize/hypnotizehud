@@ -456,7 +456,7 @@
 		"pinCorner"									"0"
 		"textAlignment"								"west"
 		"textinsetx"								"11"
-		"labeltext"									"|"
+		"labeltext"									"q"
 		"fgcolor_override"							"White"
 		"border"									"MaterialGrayDark"
 		
@@ -646,7 +646,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labelText"									"6"
+		"labelText"									"<"
 		"font"										"Symbols 18"
 		"textAlignment"								"center"
 		"dulltext"									"0"
@@ -714,7 +714,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labelText"									"5"
+		"labelText"									">"
 		"font"										"Symbols 18"
 		"textAlignment"								"center"
 		"dulltext"									"0"
@@ -789,7 +789,7 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"replay/thumbnails/store/cart"
+		"image"										"store_cart"
 		"scaleImage"								"1"
 		"Alpha"										"0"
 		"pin_to_sibling" 							"CartButton"
@@ -833,144 +833,1607 @@
 		"enabled"									"1"
 	}
 	
+	"ShowExplanationsButton"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"ShowExplanationsButton"
+		"xpos"										"r20"
+		"ypos"										"0"
+		"zpos"										"100"
+		"wide"										"20"
+		"tall"										"20"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"1"
+		"font"										"Symbols 12"
+		"textAlignment"								"center"
+		"textinsetx"								"0"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"default"									"0"
+		"Command"									"show_explanations"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
+		
+		"paintbackground"							"0"
+		"border_default"							"MaterialGrayDark"
+		"border_armed"								"MaterialHypno"
+
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override" 				"White"
+	}
+	
+	"StartExplanation"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"StartExplanation"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"250"
+		"tall"										"140"
+		"visible"									"0"
+		"PaintBackgroundType"						"2"
+		"paintbackground" 							"0"
+		"border"									"MaterialBlackDark"
+		
+		"force_close"								"1"
+		"end_x"										"c-150"
+		"end_y"										"100"
+		"end_wide"									"300"
+		"end_tall"									"155"
+		"callout_inparents_x"						"c0"
+		"callout_inparents_y"						"150"
+		"next_explanation"							"TabsExplanation"
+		
+		"TitleLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TitleLabel"
+			"font"									"Size 14"
+			"labelText"								"#StoreWelcomeExplanation_Title"
+			"textAlignment"							"north"
+			"xpos"									"20"
+			"ypos"									"10"
+			"wide"									"260"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"wrap"									"1"
+			"AllCaps"								"1"
+			"fgcolor" 								"WhiteDark"
+		}
+		
+		"TextLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TextLabel"
+			"font"									"Size 14"
+			"labelText"								"#StoreWelcomeExplanation_Text"
+			"textAlignment"							"north-west"
+			"xpos"									"20"
+			"ypos"									"45"
+			"wide"									"260"
+			"tall"									"85"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"wrap"									"1"
+			"fgcolor" 								"WhiteDark"
+		}
+		
+		"CloseButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"CloseButton"
+			"xpos"									"275"
+			"ypos"									"5"
+			"zpos"									"10"
+			"wide"									"18"
+			"tall"									"18"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"%"
+			"font"									"Symbols 18"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"0"
+			"Command"								"close"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override"					"Red"
+			"depressedFgColor_override" 			"Red"
+		}
+		
+		"PositionLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"PositionLabel"
+			"font"									"Size 14"
+			"labelText"								"%explanationnumber%"
+			"textAlignment"							"center"
+			"xpos"									"0"
+			"ypos"									"125"
+			"zpos"									"-1"
+			"wide"									"300"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"fgcolor" 								"Main Theme"
+		}
+		
+		"NextButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"NextButton"
+			"xpos"									"265"
+			"ypos"									"122"
+			"zpos"									"10"
+			"wide"									"30"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"$"
+			"font"									"Symbols 24"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"Command"								"nextexplanation"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override" 				"Main Theme"
+			"depressedFgColor_override" 			"Main Theme"
+		}	
+	}	
+	
+	"TabsExplanation"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"TabsExplanation"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"250"
+		"tall"										"160"
+		"visible"									"0"
+		"PaintBackgroundType"						"2"
+		"paintbackground" 							"0"
+		"border"									"MaterialBlackDark"
+		
+		"force_close"								"1"
+		"end_x"										"c-200"
+		"end_y"										"50"
+		"end_wide"									"300"
+		"end_tall"									"160"
+		"callout_inparents_x"						"c-180"
+		"callout_inparents_y"						"0"
+		"next_explanation"							"ItemsExplanation"
+		
+		"TitleLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TitleLabel"
+			"font"									"Size 14"
+			"labelText"								"#StoreTabsExplanation_Title"
+			"textAlignment"							"north"
+			"xpos"									"20"
+			"ypos"									"10"
+			"wide"									"260"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"wrap"									"1"
+			"AllCaps"								"1"
+			"fgcolor"								"WhiteDark"
+		}
+		
+		"TextLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TextLabel"
+			"font"									"Size 14"
+			"labelText"								"#StoreTabsExplanation_Text"
+			"textAlignment"							"north-west"
+			"xpos"									"20"
+			"ypos"									"45"
+			"wide"									"260"
+			"tall"									"85"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"wrap"									"1"
+			"fgcolor" 								"WhiteDark"
+		}
+		
+		"CloseButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"CloseButton"
+			"xpos"									"275"
+			"ypos"									"5"
+			"zpos"									"10"
+			"wide"									"18"
+			"tall"									"18"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"%"
+			"font"									"Symbols 18"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"0"
+			"Command"								"close"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override"					"Red"
+			"depressedFgColor_override" 			"Red"
+		}
+		
+		"PrevButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"PrevButton"
+			"xpos"									"5"
+			"ypos"									"122"
+			"zpos"									"10"
+			"wide"									"30"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"#"
+			"font"									"Symbols 24"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"0"
+			"Command"								"prevexplanation"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override" 				"Main Theme"
+			"depressedFgColor_override" 			"Main Theme"
+		}
+		
+		"PositionLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"PositionLabel"
+			"font"									"Size 14"
+			"labelText"								"%explanationnumber%"
+			"textAlignment"							"center"
+			"xpos"									"0"
+			"ypos"									"122"
+			"zpos"									"-1"
+			"wide"									"300"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"fgcolor" 								"Main Theme"
+		}
+		
+		"NextButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"NextButton"
+			"xpos"									"265"
+			"ypos"									"122"
+			"zpos"									"10"
+			"wide"									"30"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"$"
+			"font"									"Symbols 24"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"Command"								"nextexplanation"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override" 				"Main Theme"
+			"depressedFgColor_override"				"Main Theme"
+		}	
+	}	
+	
+	"ItemsExplanation"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"ItemsExplanation"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"250"
+		"tall"										"160"
+		"visible"									"0"
+		"PaintBackgroundType"						"2"
+		"paintbackground" 							"0"
+		"border"									"MaterialBlackDark"
+		
+		"force_close"								"1"
+		"end_x"										"c-190"
+		"end_y"										"0"
+		"end_wide"									"300"
+		"end_tall"									"140"
+		"callout_inparents_x"						"c-210"
+		"callout_inparents_y"						"60"
+		"next_explanation"							"DetailsExplanation"
+		
+		"TitleLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TitleLabel"
+			"font"									"Size 14"
+			"labelText"								"#StoreItemsExplanation_Title"
+			"textAlignment"							"north"
+			"xpos"									"20"
+			"ypos"									"10"
+			"wide"									"260"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"wrap"									"1"
+			"AllCaps"								"1"
+			"fgcolor" 								"WhiteDark"
+		}
+		
+		"TextLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TextLabel"
+			"font"									"Size 14"
+			"labelText"								"#StoreItemsExplanation_Text"
+			"textAlignment"							"north-west"
+			"xpos"									"20"
+			"ypos"									"45"
+			"wide"									"260"
+			"tall"									"135"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"wrap"									"1"
+			"fgcolor" 								"WhiteDark"
+		}
+		
+		"CloseButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"CloseButton"
+			"xpos"									"275"
+			"ypos"									"5"
+			"zpos"									"10"
+			"wide"									"18"
+			"tall"									"18"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"%"
+			"font"									"Symbols 18"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"Command"								"close"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override"					"Red"
+			"depressedFgColor_override" 			"Red"
+		}
+		
+		"PrevButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"PrevButton"
+			"xpos"									"5"
+			"ypos"									"97"
+			"zpos"									"10"
+			"wide"									"30"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"#"
+			"font"									"Symbols 24"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"0"
+			"Command"								"prevexplanation"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override" 				"Main Theme"
+			"depressedFgColor_override" 			"Main Theme"
+		}
+		
+		"NextButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"NextButton"
+			"xpos"									"265"
+			"ypos"									"97"
+			"zpos"									"10"
+			"wide"									"30"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"$"
+			"font"									"Symbols 24"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"Command"								"nextexplanation"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override" 				"Main Theme"
+			"depressedFgColor_override" 			"Main Theme"
+		}
+		
+		"PositionLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"PositionLabel"
+			"font"									"Size 14"
+			"labelText"								"%explanationnumber%"
+			"textAlignment"							"center"
+			"xpos"									"0"
+			"ypos"									"100"
+			"zpos"									"-1"
+			"wide"									"300"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"fgcolor" 								"Main Theme"
+		}
+	}
+	
+	"DetailsExplanation"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"DetailsExplanation"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"250"
+		"tall"										"140"
+		"visible"									"0"
+		"PaintBackgroundType"						"2"
+		"paintbackground" 							"0"
+		"border"									"MaterialBlackDark"
+		
+		"force_close"								"1"
+		"end_x"										"c-260"
+		"end_y"										"80"
+		"end_wide"									"300"
+		"end_tall"									"155"
+		"callout_inparents_x"						"c90"
+		"callout_inparents_y"						"160"
+		"next_explanation"							"PreviewExplanation"
+		
+		"TitleLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TitleLabel"
+			"font"									"Size 14"
+			"labelText"								"#StoreDetailsExplanation_Title"
+			"textAlignment"							"north"
+			"xpos"									"20"
+			"ypos"									"10"
+			"wide"									"260"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"wrap"									"1"
+			"AllCaps"								"1"
+			"fgcolor" 								"WhiteDark"
+		}
+		
+		"TextLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TextLabel"
+			"font"									"Size 14"
+			"labelText"								"#StoreDetailsExplanation_Text"
+			"textAlignment"							"north-west"
+			"xpos"									"20"
+			"ypos"									"45"
+			"wide"									"260"
+			"tall"									"135"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"wrap"									"1"
+			"fgcolor" 								"WhiteDark"
+		}
+		
+		"CloseButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"CloseButton"
+			"xpos"									"275"
+			"ypos"									"5"
+			"zpos"									"10"
+			"wide"									"18"
+			"tall"									"18"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"%"
+			"font"									"Symbols 18"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"Command"								"close"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override"					"Red"
+			"depressedFgColor_override" 			"Red"
+		}
+		
+		"PrevButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"PrevButton"
+			"xpos"									"5"
+			"ypos"									"117"
+			"zpos"									"10"
+			"wide"									"30"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"#"
+			"font"									"Symbols 24"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"0"
+			"Command"								"prevexplanation"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override" 				"Main Theme"
+			"depressedFgColor_override" 			"Main Theme"
+		}
+		
+		"NextButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"NextButton"
+			"xpos"									"265"
+			"ypos"									"117"
+			"zpos"									"10"
+			"wide"									"30"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"$"
+			"font"									"Symbols 24"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"Command"								"nextexplanation"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override" 				"Main Theme"
+			"depressedFgColor_override" 			"Main Theme"
+		}
+		
+		"PositionLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"PositionLabel"
+			"font"									"Size 14"
+			"labelText"								"%explanationnumber%"
+			"textAlignment"							"center"
+			"xpos"									"0"
+			"ypos"									"120"
+			"zpos"									"-1"
+			"wide"									"300"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"fgcolor" 								"Main Theme"
+		}
+	}
+	
+	"PreviewToggleExplanation"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"PreviewToggleExplanation"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"250"
+		"tall"										"160"
+		"visible"									"0"
+		"PaintBackgroundType"						"2"
+		"paintbackground" 							"0"
+		"border"									"MaterialBlackDark"
+		"next_explanation"							"AddToCartExplanation"
+		
+		"force_close"								"1"
+		"end_x"										"c0"
+		"end_y"										"80"
+		"end_wide"									"300"
+		"end_tall"									"125"
+		"callout_inparents_x"						"c200"
+		"callout_inparents_y"						"30"
+		
+		"TitleLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TitleLabel"
+			"font"									"Size 14"
+			"labelText"								"#StorePreviewToggleExplanation_Title"
+			"textAlignment"							"north"
+			"xpos"									"20"
+			"ypos"									"10"
+			"wide"									"260"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"wrap"									"1"
+			"AllCaps"								"1"
+			"fgcolor"								"WhiteDark"
+		}
+		
+		"TextLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TextLabel"
+			"font"									"Size 14"
+			"labelText"								"#StorePreviewToggleExplanation_Text"
+			"textAlignment"							"north-west"
+			"xpos"									"20"
+			"ypos"									"45"
+			"wide"									"260"
+			"tall"									"135"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"wrap"									"1"
+			"fgcolor" 								"WhiteDark"
+		}
+		
+		"CloseButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"CloseButton"
+			"xpos"									"275"
+			"ypos"									"5"
+			"zpos"									"10"
+			"wide"									"18"
+			"tall"									"18"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"%"
+			"font"									"Symbols 18"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"Command"								"close"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override"					"Red"
+			"depressedFgColor_override" 			"Red"
+		}
+		
+		"PrevButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"PrevButton"
+			"xpos"									"5"
+			"ypos"									"92"
+			"zpos"									"10"
+			"wide"									"30"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"#"
+			"font"									"Symbols 24"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"0"
+			"Command"								"prevexplanation"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override" 				"Main Theme"
+			"depressedFgColor_override" 			"Main Theme"
+		}
+		
+		"NextButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"NextButton"
+			"xpos"									"265"
+			"ypos"									"92"
+			"zpos"									"10"
+			"wide"									"30"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"$"
+			"font"									"Symbols 24"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"Command"								"nextexplanation"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override" 				"Main Theme"
+			"depressedFgColor_override" 			"Main Theme"
+		}
+		
+		"PositionLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"PositionLabel"
+			"font"									"Size 14"
+			"labelText"								"%explanationnumber%"
+			"textAlignment"							"center"
+			"xpos"									"0"
+			"ypos"									"95"
+			"zpos"									"-1"
+			"wide"									"300"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"fgcolor" 								"Main Theme"
+		}
+	}
+
+	"AddToCartExplanation"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"AddToCartExplanation"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"250"
+		"tall"										"160"
+		"visible"									"0"
+		"PaintBackgroundType"						"2"
+		"paintbackground" 							"0"
+		"border"									"MaterialBlackDark"
+		
+		"force_close"								"1"
+		"end_x"										"c-260"
+		"end_y"										"200"
+		"end_wide"									"300"
+		"end_tall"									"125"
+		"callout_inparents_x"						"c90"
+		"callout_inparents_y"						"290"
+		"next_explanation"							"CartStatusExplanation"
+	
+		"TitleLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TitleLabel"
+			"font"									"Size 14"
+			"labelText"								"#StoreAddToCartExplanation_Title"
+			"textAlignment"							"north"
+			"xpos"									"20"
+			"ypos"									"10"
+			"wide"									"260"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"wrap"									"1"
+			"AllCaps"								"1"
+			"fgcolor" 								"WhiteDark"
+		}
+		
+		"TextLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TextLabel"
+			"font"									"Size 14"
+			"labelText"								"#StoreAddToCartExplanation_Text"
+			"textAlignment"							"north-west"
+			"xpos"									"20"
+			"ypos"									"45"
+			"wide"									"260"
+			"tall"									"135"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"wrap"									"1"
+			"fgcolor" 								"WhiteDark"
+		}
+		
+		"CloseButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"CloseButton"
+			"xpos"									"275"
+			"ypos"									"5"
+			"zpos"									"10"
+			"wide"									"18"
+			"tall"									"18"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"%"
+			"font"									"Symbols 18"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"Command"								"close"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override"					"Red"
+			"depressedFgColor_override" 			"Red"
+		}
+		
+		"PrevButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"PrevButton"
+			"xpos"									"5"
+			"ypos"									"82"
+			"zpos"									"10"
+			"wide"									"30"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"#"
+			"font"									"Symbols 24"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"0"
+			"Command"								"prevexplanation"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override" 				"Main Theme"
+			"depressedFgColor_override" 			"Main Theme"
+		}
+		
+		"NextButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"NextButton"
+			"xpos"									"265"
+			"ypos"									"82"
+			"zpos"									"10"
+			"wide"									"30"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"$"
+			"font"									"Symbols 24"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"Command"								"nextexplanation"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override" 				"Main Theme"
+			"depressedFgColor_override" 			"Main Theme"
+		}
+		
+		"PositionLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"PositionLabel"
+			"font"									"Size 14"
+			"labelText"								"%explanationnumber%"
+			"textAlignment"							"center"
+			"xpos"									"0"
+			"ypos"									"85"
+			"zpos"									"-1"
+			"wide"									"300"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"fgcolor" 								"Main Theme"
+		}
+	}	
+
+	"CartStatusExplanation"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"CartStatusExplanation"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"250"
+		"tall"										"180"
+		"visible"									"0"
+		"PaintBackgroundType"						"2"
+		"paintbackground" 							"0"
+		"border"									"MaterialBlackDark"
+		
+		"force_close"								"1"
+		"end_x"										"c-150"
+		"end_y"										"170"
+		"end_wide"									"300"
+		"end_tall"									"175"
+		"callout_inparents_x"						"c-230"
+		"callout_inparents_y"						"335"
+		"next_explanation"							"CheckoutExplanation"
+	
+		"TitleLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TitleLabel"
+			"font"									"Size 14"
+			"labelText"								"#StoreCartStatusExplanation_Title"
+			"textAlignment"							"north"
+			"xpos"									"20"
+			"ypos"									"10"
+			"wide"									"260"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"wrap"									"1"
+			"AllCaps"								"1"
+			"fgcolor" 								"WhiteDark"
+		}
+		
+		"TextLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TextLabel"
+			"font"									"Size 14"
+			"labelText"								"#StoreCartStatusExplanation_Text"
+			"textAlignment"							"north-west"
+			"xpos"									"20"
+			"ypos"									"45"
+			"wide"									"260"
+			"tall"									"135"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"wrap"									"1"
+			"fgcolor" 								"WhiteDark"
+		}
+		
+		"CloseButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"CloseButton"
+			"xpos"									"275"
+			"ypos"									"5"
+			"zpos"									"10"
+			"wide"									"18"
+			"tall"									"18"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"%"
+			"font"									"Symbols 18"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"Command"								"close"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override"					"Red"
+			"depressedFgColor_override" 			"Red"
+		}
+		
+		"PrevButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"PrevButton"
+			"xpos"									"5"
+			"ypos"									"132"
+			"zpos"									"10"
+			"wide"									"30"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"#"
+			"font"									"Symbols 24"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"0"
+			"Command"								"prevexplanation"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override" 				"Main Theme"
+			"depressedFgColor_override" 			"Main Theme"
+		}
+		
+		"NextButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"NextButton"
+			"xpos"									"265"
+			"ypos"									"132"
+			"zpos"									"10"
+			"wide"									"30"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"$"
+			"font"									"Symbols 24"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"Command"								"nextexplanation"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override" 				"Main Theme"
+			"depressedFgColor_override" 			"Main Theme"
+		}
+		
+		"PositionLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"PositionLabel"
+			"font"									"Size 14"
+			"labelText"								"%explanationnumber%"
+			"textAlignment"							"center"
+			"xpos"									"0"
+			"ypos"									"135"
+			"zpos"									"-1"
+			"wide"									"300"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"fgcolor" 								"Main Theme"
+		}
+	}
+	
+	"CheckoutExplanation"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"CheckoutExplanation"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"250"
+		"tall"										"160"
+		"visible"									"0"
+		"PaintBackgroundType"						"2"
+		"paintbackground" 							"0"
+		"border"									"MaterialBlackDark"
+		"next_explanation"							"HelpExplanation"
+		
+		"force_close"								"1"
+		"end_x"										"c-160"
+		"end_y"										"200"
+		"end_wide"									"300"
+		"end_tall"									"145"
+		"callout_inparents_x"						"c190"
+		"callout_inparents_y"						"320"
+		
+		"TitleLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TitleLabel"
+			"font"									"Size 14"
+			"labelText"								"#StoreCheckoutExplanation_Title"
+			"textAlignment"							"north"
+			"xpos"									"20"
+			"ypos"									"10"
+			"wide"									"260"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"wrap"									"1"
+			"AllCaps"								"1"
+			"fgcolor" 								"WhiteDark"
+		}
+		
+		"TextLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TextLabel"
+			"font"									"Size 14"
+			"labelText"								"#StoreCheckoutExplanation_Text"
+			"textAlignment"							"north-west"
+			"xpos"									"20"
+			"ypos"									"45"
+			"wide"									"260"
+			"tall"									"135"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"wrap"									"1"
+			"fgcolor" 								"WhiteDark"
+		}
+		
+		"CloseButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"CloseButton"
+			"xpos"									"275"
+			"ypos"									"5"
+			"zpos"									"10"
+			"wide"									"18"
+			"tall"									"18"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"%"
+			"font"									"Symbols 18"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"Command"								"close"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override"					"Red"
+			"depressedFgColor_override" 			"Red"
+		}
+		
+		"PrevButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"PrevButton"
+			"xpos"									"5"
+			"ypos"									"102"
+			"zpos"									"10"
+			"wide"									"30"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"#"
+			"font"									"Symbols 24"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"0"
+			"Command"								"prevexplanation"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override" 				"Main Theme"
+			"depressedFgColor_override" 			"Main Theme"
+		}
+		
+		"NextButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"NextButton"
+			"xpos"									"265"
+			"ypos"									"102"
+			"zpos"									"10"
+			"wide"									"30"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"$"
+			"font"									"Symbols 24"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"Command"								"nextexplanation"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override" 				"Main Theme"
+			"depressedFgColor_override" 			"Main Theme"
+		}
+		
+		"PositionLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"PositionLabel"
+			"font"									"Size 14"
+			"labelText"								"%explanationnumber%"
+			"textAlignment"							"center"
+			"xpos"									"0"
+			"ypos"									"105"
+			"zpos"									"-1"
+			"wide"									"300"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"fgcolor" 								"Main Theme"
+		}
+	}
+
+	"HelpExplanation"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"HelpExplanation"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"250"
+		"tall"										"160"
+		"visible"									"0"
+		"PaintBackgroundType"						"2"
+		"paintbackground" 							"0"
+		"border"									"MaterialBlackDark"
+		
+		"force_close"								"1"
+		"end_x"										"c-150"
+		"end_y"										"80"
+		"end_wide"									"300"
+		"end_tall"									"125"
+		"callout_inparents_x"						"c60"
+		"callout_inparents_y"						"40"
+		
+		"TitleLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TitleLabel"
+			"font"									"Size 14"
+			"labelText"								"#StoreHelpExplanation_Title"
+			"textAlignment"							"north"
+			"xpos"									"20"
+			"ypos"									"10"
+			"wide"									"260"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"wrap"									"1"
+			"AllCaps"								"1"
+			"fgcolor" 								"WhiteDark"
+		}
+		
+		"TextLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TextLabel"
+			"font"									"Size 14"
+			"labelText"								"#StoreHelpExplanation_Text"
+			"textAlignment"							"north-west"
+			"xpos"									"20"
+			"ypos"									"45"
+			"wide"									"260"
+			"tall"									"135"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"wrap"									"1"
+			"fgcolor" 								"WhiteDark"
+		}
+		
+		"CloseButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"CloseButton"
+			"xpos"									"275"
+			"ypos"									"5"
+			"zpos"									"10"
+			"wide"									"18"
+			"tall"									"18"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"%"
+			"font"									"Symbols 18"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"Command"								"close"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override"					"Red"
+			"depressedFgColor_override" 			"Red"
+		}
+		
+		"PrevButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"PrevButton"
+			"xpos"									"10"
+			"ypos"									"90"
+			"zpos"									"10"
+			"wide"									"30"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"#"
+			"font"									"Symbols 24"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"0"
+			"Command"								"prevexplanation"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override" 				"Main Theme"
+			"depressedFgColor_override" 			"Main Theme"
+		}
+
+		"PositionLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"PositionLabel"
+			"font"									"Size 14"
+			"labelText"								"%explanationnumber%"
+			"textAlignment"							"center"
+			"xpos"									"0"
+			"ypos"									"90"
+			"zpos"									"-1"
+			"wide"									"300"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"fgcolor" 								"Main Theme"
+		}
+	}
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	//REMOVED STUFF
 	"NameFilterLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"NameFilterLabel"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"NameFilterLabel"
+		"xpos"										"9999"
 	}
 	"SubcategoryFiltersLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SubcategoryFiltersLabel"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"SubcategoryFiltersLabel"
+		"xpos"										"9999"
 	}
 	"SortFilterLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SortFilterLabel"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"SortFilterLabel"
+		"xpos"										"9999"
 	}
 	"ClassFilterLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ClassFilterLabel"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"ClassFilterLabel"
+		"xpos"										"9999"
 	}
 	"CartFeaturedItemSymbol"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"CartFeaturedItemSymbol"
 		"xpos"										"9999"
-	}
-	"ShowExplanationsButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ShowExplanationsButton"
-		"xpos"			"9999"
-	}
-	"StartExplanation"
-	{
-		"ControlName"	"CExplanationPopup"
-		"fieldName"		"StartExplanation"
-		"zpos"			"-50"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-	}	
-	"ItemsExplanation"
-	{
-		"ControlName"	"CExplanationPopup"
-		"fieldName"		"ItemsExplanation"
-		"zpos"			"-50"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-	}
-	"PreviewToggleExplanation"
-	{
-		"ControlName"	"CExplanationPopup"
-		"fieldName"		"PreviewToggleExplanation"
-		"zpos"			"-50"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-	}	
-	"CartStatusExplanation"
-	{
-		"ControlName"	"CExplanationPopup"
-		"fieldName"		"CartStatusExplanation"
-		"zpos"			"-50"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-	}
-	"HelpExplanation"
-	{
-		"ControlName"	"CExplanationPopup"
-		"fieldName"		"HelpExplanation"
-		"zpos"			"-50"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
 	}
 }

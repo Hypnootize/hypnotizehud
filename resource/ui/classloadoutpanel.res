@@ -82,7 +82,7 @@
 			"visible"								"0"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"labelText"								")"
+			"labelText"								"}"
 			"font"									"Symbols 12"
 			"textAlignment"							"center"
 			"dulltext"								"0"
@@ -228,7 +228,7 @@
 		"brighttext"								"0"
 		"default"									"0"
 		"textAlignment"								"center"
-		"labelText"									"G"
+		"labelText"									"L"
 		"font"										"Symbols 18"
 		"Command"									"characterloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -263,7 +263,7 @@
 		"brighttext"								"0"
 		"default"									"0"
 		"textAlignment"								"center"
-		"labelText"									"h"
+		"labelText"									"^"
 		"font"										"Symbols 18"
 		"Command"									"tauntloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -285,7 +285,7 @@
 		"ControlName"								"CExImageButton"
 		"fieldName"									"BlueButton"
 		"xpos"										"c82"
-		"ypos"										"47"
+		"ypos"										"46"
 		"zpos"										"20"
 		"wide"										"15"
 		"tall"										"15"
@@ -294,10 +294,9 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labelText"									"o"
+		"labelText"									"v"
 		"textAlignment"								"center"
-		"textinsetx"								"0"
-		"font"										"Symbols 14"
+		"font"										"Symbols 12"
 		"scaleImage"								"1"
 		"command"									"sv_cheats 1; r_skin 1"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -324,10 +323,9 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labelText"									"o"
+		"labelText"									"v"
 		"textAlignment"								"center"
-		"textinsetx"								"0"
-		"font"										"Symbols 14"
+		"font"										"Symbols 12"
 		"scaleImage"								"1"
 		"command"									"sv_cheats 1;r_skin 0"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -340,107 +338,239 @@
 		"depressedFgColor_override" 				"Red"
 	}
 	
+	"PresetsExplanation"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"PresetsExplanation"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"250"
+		"tall"										"160"
+		"visible"									"0"
+		"PaintBackgroundType"						"2"
+		"paintbackground" 							"0"
+		"border"									"MaterialBlackDark"
+		
+		"force_close"								"1"
+		"end_x"										"c-200"
+		"end_y"										"120"
+		"end_wide"									"250"
+		"end_tall"									"160"
+		"callout_inparents_x"						"c0"
+		"callout_inparents_y"						"75"
+		"next_explanation"							""
+		
+		"TitleLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TitleLabel"
+			"font"									"Size 14"
+			"labelText"								"#ItemPresetsExplanation_Title"
+			"textAlignment"							"north"
+			"xpos"									"20"
+			"ypos"									"10"
+			"wide"									"210"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"wrap"									"1"
+			"AllCaps"								"1"
+			"fgcolor" 								"WhiteDark"
+		}
+		
+		"TextLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TextLabel"
+			"font"									"Size 14"
+			"labelText"								"#ClassLoadoutItemPresetsExplanation_Text"
+			"textAlignment"							"north-west"
+			"xpos"									"20"
+			"ypos"									"35"
+			"wide"									"210"
+			"tall"									"200"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"wrap"									"1"
+			"fgcolor" 								"WhiteDark"
+		}
+		
+		"CloseButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"CloseButton"
+			"xpos"									"225"
+			"ypos"									"5"
+			"zpos"									"10"
+			"wide"									"18"
+			"tall"									"18"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"%"
+			"font"									"Symbols 18"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"0"
+			"Command"								"close"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override"					"Red"
+			"depressedFgColor_override" 			"Red"
+		}		
+	}
+
+	"TauntsExplanation"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"TauntsExplanation"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"250"
+		"tall"										"160"
+		"visible"									"0"
+		"PaintBackgroundType"						"2"
+		"paintbackground" 							"0"
+		"border"									"MaterialBlackDark"
+		
+		"force_close"								"1"
+		"end_x"										"c-200"
+		"end_y"										"120"
+		"end_wide"									"250"
+		"end_tall"									"140"
+		"callout_inparents_x"						"c13"
+		"callout_inparents_y"						"55"
+		"next_explanation"							""
+		
+		"TitleLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TitleLabel"
+			"font"									"Size 14"
+			"labelText"								"#TauntsExplanation_Title"
+			"textAlignment"							"north"
+			"xpos"									"20"
+			"ypos"									"10"
+			"wide"									"210"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"wrap"									"1"
+			"AllCaps"								"1"
+			"fgcolor" 								"WhiteDark"
+		}
+		
+		"TextLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TextLabel"
+			"font"									"Size 14"
+			"labelText"								"#ClassLoadoutTauntsExplanation_Text"
+			"textAlignment"							"north-west"
+			"xpos"									"20"
+			"ypos"									"35"
+			"wide"									"210"
+			"tall"									"200"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"wrap"									"1"
+			"fgcolor" 								"White"
+		}
+		
+		"CloseButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"CloseButton"
+			"xpos"									"225"
+			"ypos"									"5"
+			"zpos"									"10"
+			"wide"									"18"
+			"tall"									"18"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labeltext"								"%"
+			"font"									"Symbols 18"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"0"
+			"Command"								"close"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"WhiteDark"
+			"armedFgColor_override"					"Red"
+			"depressedFgColor_override" 			"Red"
+		}		
+	}
 	
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	/// REMOVED STUFF
 	"CaratLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"CaratLabel"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"CaratLabel"
+		"xpos"										"9999"
 	}
 	"ClassLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ClassLabel"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"ClassLabel"
+		"xpos"										"9999"
 	}
 	"TauntCaratLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"TauntCaratLabel"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"TauntCaratLabel"
+		"xpos"										"9999"
 	}
 	"TauntLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TauntLabel"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"TauntLabel"
+		"xpos"										"9999"
 	}
 	"TopLine"
 	{
-		"ControlName"	"ImagePanel"
-		"xpos"			"9999"
+		"ControlName"								"ImagePanel"
+		"xpos"										"9999"
 	}				
 	"PassiveAttribsLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PassiveAttribsLabel"
-		"xpos"			"9999"
-	}
-	"PresetsExplanation"
-	{
-		"ControlName"	"CExplanationPopup"
-		"fieldName"		"PresetsExplanation"
-		"xpos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
+		"ControlName"								"CExLabel"
+		"fieldName"									"PassiveAttribsLabel"
+		"xpos"										"9999"
 	}
 	"TauntHintLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TauntHintLabel"
-		"xpos"			"9999"
-	}
-	"TauntsExplanation"
-	{
-		"ControlName"	"CExplanationPopup"
-		"fieldName"		"TauntsExplanation"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"TauntHintLabel"
+		"xpos"										"9999"
 	}
 }

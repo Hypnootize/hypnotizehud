@@ -86,8 +86,6 @@
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override" 			"White"
-			
-			
 		}
 
 		"RestoreCasualSearchCriteria"
@@ -144,7 +142,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"labelText"								"T"
+			"labelText"								"1"
 			"font"									"Symbols 14"
 			"textAlignment"							"center"
 			"dulltext"								"0"

@@ -48,19 +48,19 @@
 	
 	"Vote"
 	{
-		"label"										"0"
+		"label"										"y"
 		"command"									"callvote"
 		"OnlyInGame" 								"1"
 	}
 	"Mute"
 	{
-		"label"										"k"
+		"label"										"h"
 		"command"									"OpenMutePlayerDialog"
 		"OnlyInGame" 								"1"
 	}
 	"Report"
 	{
-		"label"										","
+		"label"										"f"
 		"command"									"OpenReportPlayerDialog"
 		"OnlyInGame"								"1"
 	}
@@ -77,45 +77,51 @@
 	
 	"Contracker"
 	{
-		"label" 									"V"
+		"label" 									"_"
 		"command" 									"questlog"
 		"tooltip" 									"Contracker"
 	}
 	"Streams"
 	{
-		"label" 									"a"
+		"label" 									"0"
 		"command" 									"watch_stream"
 		"tooltip" 									"Streams"
 	}
 	"HomeServer"
 	{
-		"label" 									"A"
+		"label" 									"w"
 		"command" 									"engine map tr_walkway_rc2" 	//"engine connect *server ip*"
 		"tooltip" 									"Home Server"
 	}
 	"Achievements"
 	{
-		"label"										"K"
+		"label"										"V"
 		"command"									"OpenAchievementsDialog"
 		"tooltip" 									"Achievements"
 	}
 	"Bugs"
 	{
-		"label"										"Q"
+		"label"										"9"
 		"command"									"engine bug"
 		"tooltip" 									"Report a Bug"
 	}
 	"Replays"
 	{
-		"label"										"h"
+		"label"										"^"
 		"command"									"engine replay_reloadbrowser"
 		"tooltip" 									"Replays"
 	}
 	"Forum"
 	{
-		"label"										"C"
+		"label"										"R"
 		"command"									"view_newuser_forums"
 		"tooltip" 									"New Users Forum"
+	}
+	"Workshop"
+	{
+		"label"										"{"
+		"command"									"engine OpenSteamWorkshopDialog"
+		"tooltip" 									"Workshop"
 	}
 	
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -129,42 +135,42 @@
 	}
 	"ReloadScheme"
 	{
-		"label" 									"8"
+		"label" 									"/"
 		"command" 									"engine vgui_cache_res_files 0;hud_reloadscheme"
 		"tooltip" 									"Reload Hud"
 		"OnlyInGame"								"1"
 	}
 	"ClosedCaptionsON"
 	{
-		"label" 									"N"
+		"label" 									"3"
 		"command" 									"engine closecaption 1;cc_subtitles 0;cc_lang english;cc_predisplay_time 0;cc_emit #subtitles0"
 		"tooltip" 									"Closed Captions ON"
 		"OnlyInGame"								"1"
 	}
 	"ClosedCaptionsOFF"
 	{
-		"label" 									"N"
+		"label" 									"3"
 		"command" 									"engine closecaption 0; cc_predisplay_time 0"
 		"tooltip" 									"Closed Captions OFF"
 		"OnlyInGame"								"1"
 	}
 	"SoundFix"
 	{
-		"label" 									"w"
+		"label" 									"k"
 		"command" 									"engine snd_restart"
 		"tooltip" 									"Fix Sound"
 		"OnlyInGame"								"1"
 	}
 	"InviliblePlayersFix"
 	{
-		"label" 									"C"
+		"label" 									"P"
 		"command" 									"engine stop; record fix"
 		"tooltip" 									"Fix Invisible Players"
 		"OnlyInGame"								"1"
 	}
 	"NetgraphToggle"
 	{
-		"label" 									"P"
+		"label" 									"4"
 		"command" 									"engine toggle net_graph 1 0"
 		"tooltip" 									"Netgraph ON/OFF"
 		"OnlyInGame"								"1"

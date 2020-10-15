@@ -56,7 +56,7 @@
 		"pinCorner"									"0"
 		"textAlignment"								"west"
 		"textinsetx"								"11"
-		"labeltext"									"|"
+		"labeltext"									"q"
 		"fgcolor_override"							"White"
 		
 		"border"									"MaterialGrayDarker"

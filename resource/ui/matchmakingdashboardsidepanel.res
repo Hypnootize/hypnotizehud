@@ -19,12 +19,12 @@
 		"ControlName"								"CExButton"
 		"fieldName"									"ReturnButton"
 		"xpos"										"0"
-		"labelText"									"6"
+		"labelText"									"<"
 
 		if_left
 		{
 			"xpos"									"rs1"
-			"labelText"								"5"
+			"labelText"								">"
 		}
 
 		"ypos"										"3"
@@ -34,7 +34,7 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 		"command"									"nav_to"
-		"labelText"									"<"
+		"labelText"									">"
 
 		"textAlignment"								"center"
 		"font"										"Symbols 18"

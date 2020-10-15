@@ -6,7 +6,7 @@
 	{
 		"fieldName"									"ExpandableList"
 		"xpos"										"r0"
-		"ypos"										"r62"
+		"ypos"										"r63"
 		"zpos"										"1001"
 		"wide"										"f0"
 		"tall"										"f0"

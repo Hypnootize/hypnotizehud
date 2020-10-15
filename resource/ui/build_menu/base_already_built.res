@@ -5,7 +5,7 @@
 	"CantBuildReason"
 	{	
 		"font"			"Symbols 34"
-		"labelText"		"0"
+		"labelText"		"+"
 		"visible"		"1"
 	}
 	"MetalIcon"	
