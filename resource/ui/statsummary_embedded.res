@@ -2102,8 +2102,8 @@
 		"paintbackground" 							"0"
 		"paintborder" 								"1"
 		
-		"border"									"MaterialBlackLight"
-		"border_default"							"MaterialBlackLight"
+		"border"									"MaterialGrayDark"
+		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}
 	
