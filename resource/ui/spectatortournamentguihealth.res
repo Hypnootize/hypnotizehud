@@ -1,63 +1,21 @@
 "Resource/UI/SpectatorTournamentGUIHealth.res"
 {
-	"HealthBG"
+	"HealthBGSpec"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"HealthBG"
+		"fieldName"									"HealthBGSpec"
 		"xpos"										"0"
-		"ypos"										"2"
+		"ypos"										"0"
 		"zpos"										"1"
-		"wide"										"30"
-		"tall"	 									"18"
-		"autoResize"								"0"
-		"paintbackground"							"0"
-		"pinCorner"									"0"
+		"wide"										"f0"
+		"tall"	 									"f0"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 		"alpha"										"255"
 		
-		"border"									"HealthBorder"
-		"scaleImage"								"1"
-	}
-	
-	"HealthBuff"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"HealthBuff"
-		"xpos"										"0"
-		"ypos"										"2"
-		"zpos"										"1"
-		"wide"										"30"
-		"tall"	 									"18"
-		"autoResize"								"0"
-		"paintbackground"							"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"alpha"										"0"
-		
-		"border"									"BuffedBorder"
-		"scaleImage"								"1"
-	}
-	
-	"HealthHurt"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"HealthHurt"
-		"xpos"										"0"
-		"ypos"										"2"
-		"zpos"										"1"
-		"wide"										"30"
-		"tall"	 									"18"
-		"autoResize"								"0"
-		"paintbackground"							"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"alpha"										"0"
-		
-		"border"									"HurtBorder"
-		"scaleImage"								"1"
+		"paintbackground"							"1"
+		"bgcolor_override"							"TransparentBlack"
 	}
 	
 	"PlayerStatusHealthValueSpec"
@@ -67,14 +25,15 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"5"
-		"wide"										"31"
-		"tall"										"22"
+		"wide"										"f0"
+		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"font"										"Game 12"
 		"fgcolor"									"Health Numbers"
 		"labeltext"									"%Health%"
+		"proportionaltoparent"						"1"
 	}
 	
 	"PlayerStatusHealthValueSpecShadow"
@@ -84,15 +43,15 @@
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"5"
-		"wide"										"31"
-		"tall"										"22"
+		"wide"										"f0"
+		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"font"										"Game 12 Blur"
 		"fgcolor"									"Shadow"
 		"labeltext"									"%Health%"
-		
+		"proportionaltoparent"						"1"
 		"pin_to_sibling" 							"PlayerStatusHealthValueSpec"
 	}
 
@@ -110,8 +69,7 @@
 		"tall"										"0"
 		"visible"									"0"
 		"enabled"									"0"
-	}	
-	
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -121,7 +79,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -131,7 +88,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"								"ImagePanel"

@@ -742,15 +742,58 @@ Scheme
 		}
 		TFFatLineBorder
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"BlackLight"
-			
-			"image"					"replay/thumbnails/panels/bg_generic"
-			"src_corner_height"		"23"
-			"src_corner_width"		"23"
-			"draw_corner_width"		"0"
-			"draw_corner_height"	"0"
+			"bordertype"			""
+			"inset" 				"0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" 		"Blank"
+					"offset" 		"0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" 		"Blank"
+					"offset" 		"0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 		"Blank"
+					"offset" 		"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 		"BlackLight"
+					"offset" 		"0 0"
+				}		
+				"2"
+				{
+					"color" 		"BlackLight"
+					"offset" 		"0 0"
+				}
+				"3"
+				{
+					"color" 		"BlackLight"
+					"offset" 		"0 0"
+				}
+				"4"
+				{
+					"color" 		"BlackLight"
+					"offset" 		"0 0"
+				}
+			}
 		}
 		TFFatLineBorderRedBGOpaque
 		{
@@ -778,15 +821,58 @@ Scheme
 		}
 		TFFatLineBorderRedBG
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"Red"
-			
-			"image"					"replay/thumbnails/panels/bg_generic"
-			"src_corner_height"		"23"
-			"src_corner_width"		"23"
-			"draw_corner_width"		"0"
-			"draw_corner_height"	"0"
+			"bordertype"			""
+			"inset" 				"0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" 		"Blank"
+					"offset" 		"0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" 		"Blank"
+					"offset" 		"0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 		"Blank"
+					"offset" 		"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 		"Red"
+					"offset" 		"0 0"
+				}		
+				"2"
+				{
+					"color" 		"Red"
+					"offset" 		"0 0"
+				}
+				"3"
+				{
+					"color" 		"Red"
+					"offset" 		"0 0"
+				}
+				"4"
+				{
+					"color" 		"Red"
+					"offset" 		"0 0"
+				}
+			}
 		}
 		TFFatLineBorderRedBGMoreOpaque
  		{
@@ -802,15 +888,58 @@ Scheme
  		}
 		TFFatLineBorderBlueBG
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"Blue"
-			
-			"image"					"replay/thumbnails/panels/bg_generic"
-			"src_corner_height"		"23"
-			"src_corner_width"		"23"
-			"draw_corner_width"		"0"
-			"draw_corner_height"	"0"
+			"bordertype"			""
+			"inset" 				"0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" 		"Blank"
+					"offset" 		"0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" 		"Blank"
+					"offset" 		"0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 		"Blank"
+					"offset" 		"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 		"Blue"
+					"offset" 		"0 0"
+				}		
+				"2"
+				{
+					"color" 		"Blue"
+					"offset" 		"0 0"
+				}
+				"3"
+				{
+					"color" 		"Blue"
+					"offset" 		"0 0"
+				}
+				"4"
+				{
+					"color" 		"Blue"
+					"offset" 		"0 0"
+				}
+			}
 		}
 		TFFatLineBorderBlueBGMoreOpaque
  		{
