@@ -72,6 +72,13 @@ Scheme
 				"name"										"NexaBold"
 			}
 		}
+		"Game 22 Shadow"
+		{
+			"1"
+			{
+				"name"										"NexaBold"
+			}
+		}
 		"Game 24"
 		{
 			"1"
@@ -140,6 +147,7 @@ Scheme
 			"1"
 			{
 				"name"										"NexaBold"
+			}
 		}
 		
 		"Game 10 Blur"

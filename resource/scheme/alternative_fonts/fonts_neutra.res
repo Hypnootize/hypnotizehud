@@ -72,6 +72,13 @@ Scheme
 				"name"										"NeutraText-Bold"
 			}
 		}
+		"Game 22 Shadow"
+		{
+			"1"
+			{
+				"name"										"NeutraText-Bold"
+			}
+		}
 		"Game 24"
 		{
 			"1"
@@ -140,6 +147,7 @@ Scheme
 			"1"
 			{
 				"name"										"NeutraText-Bold"
+			}
 		}
 		
 		"Game 10 Blur"

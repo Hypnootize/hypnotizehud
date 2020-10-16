@@ -2,8 +2,6 @@ Scheme
 {
 	Fonts
 	{
-		Fonts
-	{
 		"Game 8"
 		{
 			"1"
@@ -68,6 +66,13 @@ Scheme
 			}
 		}
 		"Game 22"
+		{
+			"1"
+			{
+				"name"										"Cerbetica Bold"
+			}
+		}
+		"Game 22 Shadow"
 		{
 			"1"
 			{
@@ -142,6 +147,7 @@ Scheme
 			"1"
 			{
 				"name"										"Cerbetica Bold"
+			}
 		}
 		
 		"Game 10 Blur"

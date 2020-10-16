@@ -72,6 +72,13 @@ Scheme
 				"name"										"surface-medium"
 			}
 		}
+		"Game 22 Shadow"
+		{
+			"1"
+			{
+				"name"										"surface-medium"
+			}
+		}
 		"Game 24"
 		{
 			"1"
@@ -140,6 +147,7 @@ Scheme
 			"1"
 			{
 				"name"										"surface-medium"
+			}
 		}
 		
 		"Game 10 Blur"

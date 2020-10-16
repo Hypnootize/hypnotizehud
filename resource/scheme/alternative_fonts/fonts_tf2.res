@@ -72,6 +72,13 @@ Scheme
 				"name"										"TF2Build"
 			}
 		}
+		"Game 22 Shadow"
+		{
+			"1"
+			{
+				"name"										"TF2Build"
+			}
+		}
 		"Game 24"
 		{
 			"1"
@@ -140,6 +147,7 @@ Scheme
 			"1"
 			{
 				"name"										"TF2Build"
+			}
 		}
 		
 		"Game 10 Blur"

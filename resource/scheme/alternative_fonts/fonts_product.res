@@ -72,6 +72,13 @@ Scheme
 				"name"										"Product Sans Bold"
 			}
 		}
+		"Game 22 Shadow"
+		{
+			"1"
+			{
+				"name"										"Product Sans Bold"
+			}
+		}
 		"Game 24"
 		{
 			"1"
@@ -140,6 +147,7 @@ Scheme
 			"1"
 			{
 				"name"										"Product Sans Bold"
+			}
 		}
 		
 		"Game 10 Blur"

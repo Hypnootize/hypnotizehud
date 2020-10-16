@@ -650,6 +650,95 @@ Scheme
 			}
 		}
 		
+		"Size 10 Blur"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"10"
+				"additive"									"0"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Size 11 Blur"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"11"
+				"additive"									"0"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Size 12 Blur"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Size 14 Blur"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"14"
+				"additive"									"0"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Size 16 Blur"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Size 18 Blur"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"18"
+				"additive"									"0"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Size 20 Blur"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"20"
+				"additive"									"0"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Size 24 Blur"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		
 		"Size 10 Shadow"
 		{
 			"1"
@@ -684,6 +773,46 @@ Scheme
 			}
 		}
 		
+		"Size 7 Numbers"
+		{
+			"1"
+			{
+				"name"										"Avenir Heavy Numbers"
+				"tall"										"7"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+		"Size 8 Numbers"
+		{
+			"1"
+			{
+				"name"										"Avenir Heavy Numbers"
+				"tall"										"8"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+		"Size 10 Numbers"
+		{
+			"1"
+			{
+				"name"										"Avenir Heavy Numbers"
+				"tall"										"10"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+		"Size 11 Numbers"
+		{
+			"1"
+			{
+				"name"										"Avenir Heavy Numbers"
+				"tall"										"11"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
 		"Size 14 Numbers"
 		{
 			"1"
