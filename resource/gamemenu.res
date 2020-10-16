@@ -90,7 +90,7 @@
 	"HomeServer"
 	{
 		"label" 									"w"
-		"command" 									"engine map tr_walkway_rc2" 	//"engine connect *server ip*"
+		"command" 									"engine" 				//"engine connect *server ip*"
 		"tooltip" 									"Home Server"
 	}
 	"Achievements"
@@ -122,6 +122,18 @@
 		"label"										"{"
 		"command"									"engine OpenSteamWorkshopDialog"
 		"tooltip" 									"Workshop"
+	}
+	"Commentary"
+	{
+		"label"										"p"
+		"command"									"OpenLoadSingleplayerCommentaryDialog"
+		"tooltip" 									"Developer Commentary"
+	}
+	"Coach"
+	{
+		"label"										"l"
+		"command"									"engine cl_coach_toggle"
+		"tooltip" 									"Coach Players"
 	}
 	
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////

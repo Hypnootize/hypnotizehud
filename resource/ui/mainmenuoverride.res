@@ -1284,10 +1284,10 @@
 			"border_armed"							""
 			"paintbackground"						"0"
 
-			"FgColor" 								"WhiteDark"
-			"defaultFgColor_override" 				"WhiteDark"
+			"FgColor" 								"WhiteGray"
+			"defaultFgColor_override" 				"WhiteGray"
 			"armedFgColor_override"				 	"Main Theme"
-			"depressedFgColor_override" 			"WhiteDark"
+			"depressedFgColor_override" 			"WhiteGray"
 		}
 	}
 	
@@ -1321,7 +1321,7 @@
 			"tabPosition"							"0"
 			"textinsetx"							"0"
 			"use_proportional_insets" 				"1"
-			"font"									"Symbols 18"
+			"font"									"Symbols 16"
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
@@ -1333,10 +1333,10 @@
 			"border_armed"							""
 			"paintbackground"						"0"
 
-			"FgColor" 								"WhiteDark"
-			"defaultFgColor_override" 				"WhiteDark"
+			"FgColor" 								"WhiteGray"
+			"defaultFgColor_override" 				"WhiteGray"
 			"armedFgColor_override"				 	"Main Theme"
-			"depressedFgColor_override" 			"WhiteDark"
+			"depressedFgColor_override" 			"WhiteGray"
 		}
 	}
 	
@@ -1370,7 +1370,7 @@
 			"tabPosition"							"0"
 			"textinsetx"							"0"
 			"use_proportional_insets" 				"1"
-			"font"									"Symbols 20"
+			"font"									"Symbols 18"
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
@@ -1382,10 +1382,10 @@
 			"border_armed"							""
 			"paintbackground"						"0"
 
-			"FgColor" 								"WhiteDark"
-			"defaultFgColor_override" 				"WhiteDark"
+			"FgColor" 								"WhiteGray"
+			"defaultFgColor_override" 				"WhiteGray"
 			"armedFgColor_override"				 	"Main Theme"
-			"depressedFgColor_override" 			"WhiteDark"
+			"depressedFgColor_override" 			"WhiteGray"
 		}
 	}
 	
@@ -1419,7 +1419,7 @@
 			"tabPosition"							"0"
 			"textinsetx"							"0"
 			"use_proportional_insets" 				"1"
-			"font"									"Symbols 18"
+			"font"									"Symbols 16"
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
@@ -1431,10 +1431,10 @@
 			"border_armed"							""
 			"paintbackground"						"0"
 
-			"FgColor" 								"WhiteDark"
-			"defaultFgColor_override" 				"WhiteDark"
+			"FgColor" 								"WhiteGray"
+			"defaultFgColor_override" 				"WhiteGray"
 			"armedFgColor_override"				 	"Main Theme"
-			"depressedFgColor_override" 			"WhiteDark"
+			"depressedFgColor_override" 			"WhiteGray"
 		}
 	}
 	
@@ -1442,7 +1442,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"Bugs"
-		"xpos"										"0"
+		"xpos"										"-1"
 		"ypos"										"0"
 		"zpos"										"16"
 		"wide"										"22"
@@ -1480,10 +1480,10 @@
 			"border_armed"							""
 			"paintbackground"						"0"
 
-			"FgColor" 								"WhiteDark"
-			"defaultFgColor_override" 				"WhiteDark"
+			"FgColor" 								"WhiteGray"
+			"defaultFgColor_override" 				"WhiteGray"
 			"armedFgColor_override"				 	"Main Theme"
-			"depressedFgColor_override" 			"WhiteDark"
+			"depressedFgColor_override" 			"WhiteGray"
 		}
 	}
 	
@@ -1491,7 +1491,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"Replays"
-		"xpos"										"0"
+		"xpos"										"1"
 		"ypos"										"0"
 		"zpos"										"16"
 		"wide"										"22"
@@ -1529,10 +1529,10 @@
 			"border_armed"							""
 			"paintbackground"						"0"
 
-			"FgColor" 								"WhiteDark"
-			"defaultFgColor_override" 				"WhiteDark"
+			"FgColor" 								"WhiteGray"
+			"defaultFgColor_override" 				"WhiteGray"
 			"armedFgColor_override"				 	"Main Theme"
-			"depressedFgColor_override" 			"WhiteDark"
+			"depressedFgColor_override" 			"WhiteGray"
 		}
 	}
 	
@@ -1540,7 +1540,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"Forum"
-		"xpos"										"0"
+		"xpos"										"1"
 		"ypos"										"0"
 		"zpos"										"16"
 		"wide"										"22"
@@ -1566,7 +1566,7 @@
 			"tabPosition"							"0"
 			"textinsetx"							"0"
 			"use_proportional_insets" 				"1"
-			"font"									"Symbols 18"
+			"font"									"Symbols 16"
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
@@ -1578,10 +1578,10 @@
 			"border_armed"							""
 			"paintbackground"						"0"
 
-			"FgColor" 								"WhiteDark"
-			"defaultFgColor_override" 				"WhiteDark"
+			"FgColor" 								"WhiteGray"
+			"defaultFgColor_override" 				"WhiteGray"
 			"armedFgColor_override"				 	"Main Theme"
-			"depressedFgColor_override" 			"WhiteDark"
+			"depressedFgColor_override" 			"WhiteGray"
 		}
 	}
 	
@@ -1615,6 +1615,55 @@
 			"tabPosition"							"0"
 			"textinsetx"							"0"
 			"use_proportional_insets" 				"1"
+			"font"									"Symbols 16"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			"actionsignallevel" 					"2"
+			"border_default"						""
+			"border_armed"							""
+			"paintbackground"						"0"
+
+			"FgColor" 								"WhiteGray"
+			"defaultFgColor_override" 				"WhiteGray"
+			"armedFgColor_override"				 	"Main Theme"
+			"depressedFgColor_override" 			"WhiteGray"
+		}
+	}
+	
+	"Commentary"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"Commentary"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"16"
+		"wide"										"22"
+		"tall"										"25"
+		"visible"									"1"
+		
+		"pin_to_sibling" 							"Workshop"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"22"
+			"tall"									"25"
+			"autoResize"							"0"
+			"pinCorner"								"3"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"textinsetx"							"0"
+			"use_proportional_insets" 				"1"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
 			"dulltext"								"0"
@@ -1627,10 +1676,59 @@
 			"border_armed"							""
 			"paintbackground"						"0"
 
-			"FgColor" 								"WhiteDark"
-			"defaultFgColor_override" 				"WhiteDark"
+			"FgColor" 								"WhiteGray"
+			"defaultFgColor_override" 				"WhiteGray"
 			"armedFgColor_override"				 	"Main Theme"
-			"depressedFgColor_override" 			"WhiteDark"
+			"depressedFgColor_override" 			"WhiteGray"
+		}
+	}
+	
+	"Coach"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"Coach"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"16"
+		"wide"										"22"
+		"tall"										"25"
+		"visible"									"1"
+		
+		"pin_to_sibling" 							"Commentary"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"22"
+			"tall"									"25"
+			"autoResize"							"0"
+			"pinCorner"								"3"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"textinsetx"							"0"
+			"use_proportional_insets" 				"1"
+			"font"									"Symbols 18"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			"actionsignallevel" 					"2"
+			"border_default"						""
+			"border_armed"							""
+			"paintbackground"						"0"
+
+			"FgColor" 								"WhiteGray"
+			"defaultFgColor_override" 				"WhiteGray"
+			"armedFgColor_override"				 	"Main Theme"
+			"depressedFgColor_override" 			"WhiteGray"
 		}
 	}
 	
