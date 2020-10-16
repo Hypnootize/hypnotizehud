@@ -11,7 +11,7 @@ Scheme
 		"WhiteLight"										"255 255 255 255"
 		"White"												"227 228 230 255"
 		"WhiteDark"											"172 173 175 255"
-		"WhiteGray"											"127 128 120 255"
+		"WhiteGray"											"127 128 130 255"
 		"GrayLight"											"77 78 80 255"
 		"GrayMedium"										"62 63 65 255"
 		"GrayDark"											"47 48 50 255"
