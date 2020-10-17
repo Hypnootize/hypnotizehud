@@ -5,10 +5,10 @@
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"r55"
-		"ypos"										"r34"
-		"wide"										"200"
-		"tall"										"50"
+		"xpos"										"r52"
+		"ypos"										"r35"
+		"wide"										"50"
+		"tall"										"35"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
@@ -17,11 +17,11 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterLabel"
-		"xpos"										"0"
-		"ypos"										"13"
+		"xpos"										"rs1"
+		"ypos"										"rs1"
 		"zpos"										"2"
-		"wide"										"50"
-		"tall"										"30"
+		"wide"										"f0"
+		"tall"										"10"
 		"autoResize"								"1"
 		"pinCorner"									"2"
 		"visible"									"1"
@@ -31,7 +31,9 @@
 		"textAlignment"								"east"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"Game 9"
+		"AllCaps"									"1"
+		"proportionaltoparent"						"1"
+		"font"										"Size 8"
 		"fgcolor_override" 							"White"
 	}
 
@@ -39,11 +41,11 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterCount"
-		"xpos"										"0"
+		"xpos"										"rs1"
 		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"50"
-		"tall"										"30"	
+		"wide"										"f0"
+		"tall"										"30"
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
@@ -52,6 +54,7 @@
 		"textAlignment"								"east"
 		"dulltext"									"0"
 		"brighttext"								"0"
+		"proportionaltoparent"						"1"
 		"font"										"Game 24"
 		"fgcolor_override" 							"White"
 	}
@@ -63,8 +66,8 @@
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"2"
-		"wide"										"50"
-		"tall"										"30"	
+		"wide"										"f0"
+		"tall"										"30"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
@@ -73,6 +76,7 @@
 		"textAlignment"								"east"
 		"dulltext"									"0"
 		"brighttext"								"0"
+		"proportionaltoparent"						"1"
 		"font"										"Game 24 Blur"
 		"fgcolor_override" 							"Shadow"
 		
@@ -80,19 +84,16 @@
 	}
 	
 	
-	
-	
-	
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"9999"
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"ItemEffectMeterBG"
+		"xpos"										"9999"
 	}
 	"ItemEffectMeter"
 	{	
-		"ControlName"	"ContinuousProgressBar"
-		"fieldName"		"ItemEffectMeter"
-		"xpos"			"9999"
+		"ControlName"								"ContinuousProgressBar"
+		"fieldName"									"ItemEffectMeter"
+		"xpos"										"9999"
 	}					
 }
