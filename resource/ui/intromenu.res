@@ -25,15 +25,10 @@
 		"zpos"										"1"
 		"wide"										"867"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent90"
+		"border"									"MaterialTransparent70"
 	}
 	
 	"Title"
@@ -69,16 +64,11 @@
 		"ypos"										"c-185"
 		"zpos"										"0"
 		"wide"										"320"
-		"tall"										"245"				
-		"autoResize"								"0"
-		"pinCorner"									"0"
+		"tall"										"245"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent90"
+		"border"									"MaterialTransparent70"
 	}
 	
 	"VideoPanel"
@@ -109,16 +99,11 @@
 		"ypos"										"0"
 		"zpos"										"0"
 		"wide"										"320"
-		"tall"										"40"				
-		"autoResize"								"0"
-		"pinCorner"									"0"
+		"tall"										"40"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent90"
+		"border"									"MaterialTransparent70"
 		
 		"pin_to_sibling" 							"VideoBackground"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -179,7 +164,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"border_default"							"MaterialTransparent90"
+		"border_default"							"MaterialTransparent70"
 		"border_armed"								"MaterialHypno"
 		
 		"defaultFgColor_override"					"White"
@@ -218,7 +203,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"border_default"							"MaterialTransparent90"
+		"border_default"							"MaterialTransparent70"
 		"border_armed"								"MaterialHypno"
 
 		"defaultFgColor_override"					"White"
@@ -237,26 +222,26 @@
 	
 	"ShadedBar"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"			"9999"
+		"ControlName"								"ImagePanel"
+		"fieldName"									"ShadedBar"
+		"xpos"										"9999"
 	}
 	"MenuBG"
 	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"MenuBG"
-		"xpos"			"9999"
+		"ControlName"								"CModelPanel"
+		"fieldName"									"MenuBG"
+		"xpos"										"9999"
 	}
 	"Continue"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"Continue"
-		"xpos"			"9999"
+		"ControlName"								"CExButton"
+		"fieldName"									"Continue"
+		"xpos"										"9999"
 	}
 	"ReplayVideo"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ReplayVideo"
-		"xpos"			"9999"
+		"ControlName"								"CExButton"
+		"fieldName"									"ReplayVideo"
+		"xpos"										"9999"
 	}
 }

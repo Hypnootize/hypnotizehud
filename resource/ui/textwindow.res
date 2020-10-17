@@ -25,15 +25,10 @@
 		"zpos"										"1"
 		"wide"										"867"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent90"
+		"border"									"MaterialTransparent70"
 	}
 	
 	"TFMessageTitle"
@@ -69,16 +64,11 @@
 		"ypos"										"c-100"
 		"zpos"										"0"
 		"wide"										"400"
-		"tall"										"200"				
-		"autoResize"								"0"
-		"pinCorner"									"0"
+		"tall"										"200"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent90"
+		"border"									"MaterialTransparent70"
 	}
 
 	"TFTextMessage"
@@ -130,7 +120,7 @@
 		"ypos"										"0"
 		"zpos"										"6"
 		"wide"										"400"
-		"tall"										"22"
+		"tall"										"30"
 		"autoResize"								"0"
 		"pinCorner"									"2"
 		"visible"									"1"
@@ -144,19 +134,16 @@
 		"wrap"										"0"
 		"command"									"okay"
 		"default"									"1"
-		"font"										"Size 14"
-		
-		"paintbackground"							"0"
-		
+		"font"										"Size 16"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"border_default"							"MaterialTransparent90"
-		"border_armed"								"MaterialHypno"
-
+		"paintbackground"							"0"
+		"paintborder"								"0"		//disabled, doesn't work anyway... classic
+		
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Main Theme"
-		"depressedFgColor_override" 				"Main Theme"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override" 				"White"
 		
 		"pin_to_sibling" 							"Background"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -171,10 +158,10 @@
 		"ypos"										"0"
 		"zpos"										"5"
 		"wide"										"400"
-		"tall"										"22"
+		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent90"
+		"border"									"MaterialTransparent70"
 		
 		"pin_to_sibling" 							"Background"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -187,26 +174,26 @@
 	
 	"TextMessage"
 	{
-		"ControlName"	"TextEntry"
-		"fieldName"		"TextMessage"
-		"xpos"			"9999"
+		"ControlName"								"TextEntry"
+		"fieldName"									"TextMessage"
+		"xpos"										"9999"
 	}
 	"MenuBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"MenuBG"
-		"xpos"			"9999"
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"MenuBG"
+		"xpos"										"9999"
 	}
 	"ShadedBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBG"
-		"xpos"			"9999"
+		"ControlName"								"ImagePanel"
+		"fieldName"									"ShadedBG"
+		"xpos"										"9999"
 	}
 	"MessageTitle"
 	{
-		"ControlName"	"Label"
-		"fieldName"		"MessageTitle"
-		"xpos"			"9999"
+		"ControlName"								"Label"
+		"fieldName"									"MessageTitle"
+		"xpos"										"9999"
 	}		
 }

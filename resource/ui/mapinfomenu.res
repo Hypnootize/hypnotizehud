@@ -24,15 +24,10 @@
 		"zpos"										"1"
 		"wide"										"867"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent90"
+		"border"									"MaterialTransparent70"
 	}
 	
 	"MapInfoTitle"
@@ -63,21 +58,15 @@
 	{	
 		"ControlName"								"EditablePanel"
 		"fieldName"									"Background"
-		"font"										"Default"
 		"xpos"										"c-200"
 		"ypos"										"c-100"
 		"zpos"										"0"
 		"wide"										"400"
-		"tall"										"200"				
-		"autoResize"								"0"
-		"pinCorner"									"0"
+		"tall"										"200"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent90"
+		"border"									"MaterialTransparent70"
 	}
 	
 	"MapInfoText"
@@ -110,7 +99,7 @@
 		"ypos"										"0"
 		"zpos"										"6"
 		"wide"										"400"
-		"tall"										"22"
+		"tall"										"30"
 		"autoResize"								"0"
 		"pinCorner"									"2"
 		"visible"									"1"
@@ -124,14 +113,12 @@
 		"wrap"										"0"
 		"command"									"continue"
 		"default"									"1"
-		"font"										"Size 14"
-		
-		"paintbackground"							"0"
-		
+		"font"										"Size 16"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"border_default"							"MaterialTransparent90"
+		"paintbackground"							"0"
+		"border_default"							"MaterialTransparent70"
 		"border_armed"								"MaterialHypno"
 
 		"defaultFgColor_override"					"White"
@@ -170,7 +157,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"border_default"							"MaterialTransparent90"
+		"border_default"							"MaterialTransparent70"
 		"border_armed"								"MaterialHypno"
 
 		"defaultFgColor_override"					"White"
@@ -188,38 +175,38 @@
 
 	"MapInfoBack" 
 	{
-		"ControlName"	"CTFButton"
-		"fieldName"		"MapInfoBack"
-		"xpos"			"9999"
+		"ControlName"								"CTFButton"
+		"fieldName"									"MapInfoBack"
+		"xpos"										"9999"
 	}	
 	"MapInfoType"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"MapInfoType"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"MapInfoType"
+		"xpos"										"9999"
 	}
 	"MapInfoContinue"
 	{
-		"ControlName"	"CTFButton"
-		"fieldName"		"MapInfoContinue"
-		"xpos"			"9999"
+		"ControlName"								"CTFButton"
+		"fieldName"									"MapInfoContinue"
+		"xpos"										"9999"
 	}
 	"MenuBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"MenuBG"
-		"xpos"			"9999"
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"MenuBG"
+		"xpos"										"9999"
 	}
 	"MapImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MapImage"
-		"xpos"			"9999"
+		"ControlName"								"ImagePanel"
+		"fieldName"									"MapImage"
+		"xpos"										"9999"
 	}
 	"ShadedBar"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"			"9999"
+		"ControlName"								"ImagePanel"
+		"fieldName"									"ShadedBar"
+		"xpos"										"9999"
 	}
 }
