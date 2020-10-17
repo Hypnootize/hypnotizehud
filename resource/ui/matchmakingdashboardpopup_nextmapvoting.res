@@ -73,7 +73,7 @@
 				"image_default"						"glyph_collapse"
 
 				"image_drawcolor"					"255 255 255 255"
-				"image_armedcolor"					"255 42 50 255"
+				"image_armedcolor"					"255 61 61 255"
 
 				"SubImage"
 				{
@@ -123,7 +123,7 @@
 				"image_default"						"glyph_expand"
 
 				"image_drawcolor"					"255 255 255 255"
-				"image_armedcolor"					"255 42 50 255"
+				"image_armedcolor"					"255 61 61 255"
 
 				"SubImage"
 				{

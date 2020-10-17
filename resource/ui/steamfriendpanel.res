@@ -51,7 +51,7 @@
 		"wrap"										"0"
 		"labelText"									"%name%"
 		"proportionaltoparent"						"1"
-		"font"										"Size 10"
+		"font"										"Size 9"
 		"mouseinputenabled"							"0"
 	}
 

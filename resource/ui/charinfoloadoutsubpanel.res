@@ -39,8 +39,8 @@
 		"class_distance_min"						"7"
 		"class_distance_max"						"100"
 
-		"itemcountcolor"							"255 42 50 255"
-		"itemcountcolor_noitems"					"255 255 255 255"
+		"itemcountcolor"							"WhiteDark"
+		"itemcountcolor_noitems"					"WhiteDark"
 	}
 	
 	"CustomScout"

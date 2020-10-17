@@ -376,7 +376,7 @@
 			"depressedFgColor_override" 			"Black"
 			
 			"image_drawcolor"						"TanDark"
-			"image_armedcolor"						"255 42 50 255"
+			"image_armedcolor"						"255 61 61 2555"
 			
 			"SubImage"
 			{

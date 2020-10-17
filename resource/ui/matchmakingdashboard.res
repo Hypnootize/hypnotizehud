@@ -322,7 +322,7 @@
 				"enabled"							"1"
 				"tabPosition"						"0"
 				"labeltext"							"*"
-				"font"								"Symbols 16"
+				"font"								"Symbols 14"
 				"textAlignment"						"center"
 				"dulltext"							"0"
 				"brighttext"						"0"
@@ -744,7 +744,7 @@
 			"armedFgColor_override" "Main Theme"
 
 			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"255 42 50 255"
+			"image_armedcolor"	"80 150 255 255"
 
 			"SubImage"
 			{

@@ -20,8 +20,8 @@
 		"robot_y_step"			"0"
 		
 
-		"color_blue"				"0 170 255 255"
-		"color_red"					"255 42 50 255"
+		"color_blue"				"92 173 255 255"
+		"color_red"					"255 61 61 255"
 
 		"if_hybrid"
 		{

@@ -738,6 +738,50 @@ Scheme
 				"blur"										"1"
 			}
 		}
+		"Size 30 Blur"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"30"
+				"additive"									"0"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Size 36 Blur"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"36"
+				"additive"									"0"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Size 40 Blur"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"40"
+				"additive"									"0"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Size 50 Blur"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"50"
+				"additive"									"0"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
 		
 		"Size 10 Shadow"
 		{

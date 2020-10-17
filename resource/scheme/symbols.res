@@ -23,7 +23,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
 		"Symbols 12 Blur"
 		{
 			"1"
@@ -32,7 +31,7 @@ Scheme
 				"tall"			"12"
 				"additive"  	"0"
 				"antialias"		"1"
-				"blur"			"2"
+				"blur"			"1"
 			}
 		}
 		
@@ -68,6 +67,17 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"Symbols 18 Blur"
+		{
+			"1"
+			{
+				"name"			"Hypnotize Icons"
+				"tall"			"18"
+				"additive"  	"0"
+				"antialias"		"1"
+				"blur"			"1"
+			}
+		}
 		
 		"Symbols 20"
 		{
@@ -77,6 +87,17 @@ Scheme
 				"tall"			"20"
 				"additive"  	"0"
 				"antialias"		"1"
+			}
+		}
+		"Symbols 20 Blur"
+		{
+			"1"
+			{
+				"name"			"Hypnotize Icons"
+				"tall"			"20"
+				"additive"  	"0"
+				"antialias"		"1"
+				"blur"			"1"
 			}
 		}
 		
@@ -99,6 +120,17 @@ Scheme
 				"tall"			"24"
 				"additive"  	"0"
 				"antialias"		"1"
+			}
+		}
+		"Symbols 24 Blur"
+		{
+			"1"
+			{
+				"name"			"Hypnotize Icons"
+				"tall"			"24"
+				"additive"  	"0"
+				"antialias"		"1"
+				"blur"			"1"
 			}
 		}
 		
@@ -132,6 +164,17 @@ Scheme
 				"tall"			"30"
 				"additive"  	"0"
 				"antialias"		"1"
+			}
+		}
+		"Symbols 30 Blur"
+		{
+			"1"
+			{
+				"name"			"Hypnotize Icons"
+				"tall"			"30"
+				"additive"  	"0"
+				"antialias"		"1"
+				"blur"			"1"
 			}
 		}
 		

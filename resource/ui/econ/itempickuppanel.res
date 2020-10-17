@@ -32,7 +32,8 @@
 		{
 			"PaintBackgroundType"					"0"
 			"paintborder"							"1"
-			"bgcolor_override"						"Blank"
+			"paintbackground"						"1"
+			"border"								"MaterialBlackLight"
 			
 			"model_xpos"							"0"
 			"model_center_y"						"1"
@@ -230,10 +231,10 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"CloseButton"
-		"xpos"										"c-253"
+		"xpos"										"c-251"
 		"ypos"										"c135"
 		"zpos"										"6"
-		"wide"										"506"
+		"wide"										"502"
 		"tall"										"35"
 		"autoResize"								"0"
 		"pinCorner"									"2"
@@ -263,10 +264,10 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"OpenLoadoutButton"
-		"xpos"										"c-253"
+		"xpos"										"c-251"
 		"ypos"										"c170"
 		"zpos"										"6"
-		"wide"										"506"
+		"wide"										"502"
 		"tall"										"20"
 		"autoResize"								"0"
 		"pinCorner"									"2"
