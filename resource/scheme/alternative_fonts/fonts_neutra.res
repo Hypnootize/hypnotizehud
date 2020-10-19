@@ -282,7 +282,7 @@ Scheme
 	{
 		"10"
 		{
-			"font" 		"resource/scheme/fontfiles/Neutra Bold.ttf"
+			"font" 		"resource/scheme/fontfiles/Neutra.ttf"
 			"name" 		"NeutraText-Bold"
 		}
 	}

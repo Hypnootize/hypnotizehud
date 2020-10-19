@@ -282,7 +282,7 @@ Scheme
 	{
 		"10"
 		{
-			"font" 		"resource/scheme/fontfiles/Nexa Bold.otf"
+			"font" 		"resource/scheme/fontfiles/Nexa.otf"
 			"name" 		"NexaBold"
 		}
 	}

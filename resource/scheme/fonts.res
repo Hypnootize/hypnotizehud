@@ -12,7 +12,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"8"
 				"additive"									"0"
 				"antialias"									"1"
@@ -22,7 +22,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"9"
 				"additive"									"0"
 				"antialias"									"1"
@@ -32,7 +32,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"10"
 				"additive"									"0"
 				"antialias"									"1"
@@ -42,7 +42,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"11"
 				"additive"									"0"
 				"antialias"									"1"
@@ -52,7 +52,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"12"
 				"additive"									"0"
 				"antialias"									"1"
@@ -62,7 +62,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"14"
 				"additive"									"0"
 				"antialias"									"1"
@@ -72,7 +72,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"16"
 				"additive"									"0"
 				"antialias"									"1"
@@ -82,7 +82,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"18"
 				"additive"									"0"
 				"antialias"									"1"
@@ -92,7 +92,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"20"
 				"additive"									"0"
 				"antialias"									"1"
@@ -102,7 +102,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"22"
 				"additive"									"0"
 				"antialias"									"1"
@@ -112,7 +112,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"22"
 				"additive"									"0"
 				"antialias"									"1"
@@ -123,17 +123,28 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"24"
 				"additive"									"0"
 				"antialias"									"1"
+			}
+		}
+		"Game 24 Shadow"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Black"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		"Game 26"
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"26"
 				"additive"									"0"
 				"antialias"									"1"
@@ -143,7 +154,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"28"
 				"additive"									"0"
 				"antialias"									"1"
@@ -153,7 +164,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"30"
 				"additive"									"0"
 				"antialias"									"1"
@@ -163,7 +174,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"32"
 				"additive"									"0"
 				"antialias"									"1"
@@ -173,7 +184,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"36"
 				"additive"									"0"
 				"antialias"									"1"
@@ -183,7 +194,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"38"
 				"additive"									"0"
 				"antialias"									"1"
@@ -193,7 +204,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"40"
 				"additive"									"0"
 				"antialias"									"1"
@@ -203,7 +214,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"44"
 				"additive"									"0"
 				"antialias"									"1"
@@ -213,7 +224,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"72"
 				"additive"									"0"
 				"antialias"									"1"
@@ -224,7 +235,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"10"
 				"additive"									"0"
 				"antialias"									"1"
@@ -235,7 +246,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"11"
 				"additive"									"0"
 				"antialias"									"1"
@@ -246,7 +257,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"12"
 				"additive"									"0"
 				"antialias"									"1"
@@ -257,7 +268,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"14"
 				"additive"									"0"
 				"antialias"									"1"
@@ -268,7 +279,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"16"
 				"additive"									"0"
 				"antialias"									"1"
@@ -279,7 +290,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"18"
 				"additive"									"0"
 				"antialias"									"1"
@@ -290,7 +301,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"20"
 				"additive"									"0"
 				"antialias"									"1"
@@ -301,7 +312,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"22"
 				"additive"									"0"
 				"antialias"									"1"
@@ -312,7 +323,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"24"
 				"additive"									"0"
 				"antialias"									"1"
@@ -323,7 +334,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"26"
 				"additive"									"0"
 				"antialias"									"1"
@@ -334,7 +345,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"28"
 				"additive"									"0"
 				"antialias"									"1"
@@ -345,7 +356,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"30"
 				"additive"									"0"
 				"antialias"									"1"
@@ -356,7 +367,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"32"
 				"additive"									"0"
 				"antialias"									"1"
@@ -367,7 +378,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"36"
 				"additive"									"0"
 				"antialias"									"1"
@@ -378,7 +389,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"38"
 				"additive"									"0"
 				"antialias"									"1"
@@ -389,7 +400,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"40"
 				"additive"									"0"
 				"antialias"									"1"
@@ -400,7 +411,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"44"
 				"additive"									"0"
 				"antialias"									"1"
@@ -411,7 +422,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"72"
 				"additive"									"0"
 				"antialias"									"1"
@@ -893,6 +904,18 @@ Scheme
 			{
 				"name"										"Avenir Heavy Numbers"
 				"tall"										"24"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+		
+		"UltraSmall"
+		{
+			"1"
+			{
+				"name"										"Verdana"
+				"tall"										"6"
+				"weight"									"0"
 				"additive"									"0"
 				"antialias"									"1"
 			}
@@ -3370,8 +3393,8 @@ Scheme
 		}
 		"22"
 		{
-			"font" 		"resource/scheme/fontfiles/nexa bold.otf"
-			"name" 		"NexaBold"
+			"font" 		"resource/scheme/fontfiles/avenir black.ttf"
+			"name" 		"AvenirLTStd-Black"
 		}
 	}
 }

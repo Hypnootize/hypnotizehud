@@ -10,10 +10,13 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 
+//#base "../resource/scheme/alternative_fonts/Fonts_Archive.res"
 #base "../resource/scheme/alternative_fonts/Fonts_Avenir.res"
 //#base "../resource/scheme/alternative_fonts/Fonts_Cerbetica.res"
+//#base "../resource/scheme/alternative_fonts/Fonts_Futura.res"
+//#base "../resource/scheme/alternative_fonts/Fonts_Lato.res"
 //#base "../resource/scheme/alternative_fonts/Fonts_Neutra.res"
-//#base "../resource/scheme/alternative_fonts/Fonts_Nexa.res"			//DEFAULT HYPNOTIZE HUD FONT
+//#base "../resource/scheme/alternative_fonts/Fonts_Nexa.res"
 //#base "../resource/scheme/alternative_fonts/Fonts_Product.res"
 //#base "../resource/scheme/alternative_fonts/Fonts_Quake.res"
 //#base "../resource/scheme/alternative_fonts/Fonts_Renogare.res"

@@ -2,6 +2,17 @@ Scheme
 {
 	Fonts
 	{
+		"Symbols 8"
+		{
+			"1"
+			{
+				"name"			"Hypnotize Icons"
+				"tall"			"8"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
+		
 		"Symbols 10"
 		{
 			"1"
@@ -43,6 +54,28 @@ Scheme
 				"tall"			"14"
 				"additive"  	"0"
 				"antialias"		"1"
+			}
+		}
+		
+		"Symbols 15"			//CLOCK
+		{
+			"1"
+			{
+				"name"			"Hypnotize Icons"
+				"tall"			"15"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
+		"Symbols 15 Blur"		//CLOCK
+		{
+			"1"
+			{
+				"name"			"Hypnotize Icons"
+				"tall"			"15"
+				"additive"  	"0"
+				"antialias"		"1"
+				"blur"			"1"
 			}
 		}
 		
