@@ -4,12 +4,11 @@
 	{	
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter"
-		"xpos"										"c-70"
-		"xpos_minmode"								"c-50"
+		"xpos"										"cs-0.5"
 		"ypos"										"c108"
 		"ypos_minmode"								"c64"
 		"zpos"										"2"
-		"wide"										"140"
+		"wide"										"120"
 		"wide_minmode"								"100"
 		"tall"										"2"				
 		"tall_minmode"								"1"				
@@ -20,6 +19,7 @@
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
+		"proportionaltoparent"						"1"
 	}
 	
 	"ChargeLabel"
@@ -31,7 +31,7 @@
 		"ypos"										"0"
 		"ypos_minmode"								"0"
 		"zpos"										"2"
-		"wide"										"140"
+		"wide"										"120"
 		"wide_minmode"								"100"
 		"tall"										"8"
 		"tall_minmode"								"6"
@@ -44,7 +44,8 @@
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"ItemFontNameSmallest"
+		"proportionaltoparent"						"1"
+		"font"										"Size 8"
 		"font_minmode"								"DefaultVerySmall"
 		"fgcolor_override"							"White"
 		
@@ -57,13 +58,14 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"PipesPresentPanel"
-		"xpos"										"c-15"
+		"xpos"										"cs-0.5"
 		"ypos"										"c123"
 		"ypos_minmode"								"c50"
 		"zpos"										"1"
-		"wide"										"f0"
-		"tall"										"480"
+		"wide"										"30"
+		"tall"										"20"
 		"visible"									"1"
+		"proportionaltoparent"						"1"
 		
 		"NumPipesLabel"
 		{
@@ -86,6 +88,7 @@
 			"font"									"Game 22"
 			"font_minmode"							"Game 16"
 			"fgcolor"   							"White"
+			"proportionaltoparent"					"1"
 		}
 		
 		"NumPipesLabelDropshadow"
@@ -109,6 +112,7 @@
 			"font"									"Game 22 Blur"
 			"font_minmode"							"Game 16 Blur"
 			"fgcolor"								"Shadow"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"NumPipesLabel"
 		}
@@ -117,27 +121,21 @@
 		{
 			"ControlName"							"CTFImagePanel"
 			"fieldName"								"PipeIcon"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
+			"xpos"									"9999"
 		}
 	}
 	
 	
-	
-	
-	
 	"background"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"background"
-		"xpos"			"9999"	
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"background"
+		"xpos"										"9999"
 	}
 	"NoPipesPresentPanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"NoPipesPresentPanel"
-		"xpos"			"9999"
+		"ControlName"								"EditablePanel"
+		"fieldName"									"NoPipesPresentPanel"
+		"xpos"										"9999"
 	}
 }
