@@ -1,33 +1,43 @@
 "Resource/UI/HudObjectiveTimePanel.res"
 {	
-	"TimeBG"
+	"ClockIcon"
 	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"TimeBG"
-		"xpos"										"-11"
-		"ypos"										"-1"
-		"zpos"										"2"
-		"wide"										"16"
-		"tall"										"22"
+		"controlName"								"CExLabel"
+		"fieldName"	 								"ClockIcon"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"20"
+		"tall"										"20"
+		"zpos"										"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"replay/thumbnails/panels/material_transparent50"
-		"scaleImage"								"1"
-		"teambg_1"									"replay/thumbnails/panels/material_transparent50"
-		"teambg_2"									"replay/thumbnails/panels/material_red"
-		"teambg_3"									"replay/thumbnails/panels/material_blue"
-		
-		"src_corner_height"							"24"
-		"src_corner_width"							"24"
-		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"font"										"Symbols 15"
+		"labelText"									"t"
+		"textAlignment"								"center"	
+		"fgcolor"									"White"
+	}
+	"ClockIconShadow"
+	{
+		"controlName"								"CExLabel"
+		"fieldName"	 								"ClockIconShadow"
+		"xpos"										"1"
+		"ypos"										"1"
+		"wide"										"20"
+		"tall"										"20"
+		"zpos"										"2"
+		"visible"									"1"
+		"enabled"									"1"
+		"font"										"Symbols 15 Blur"
+		"labelText"									"t"
+		"textAlignment"								"center"	
+		"fgcolor"									"Shadow"
 	}
 	
 	"ServerTimeLimitLabel"
 	{
 		"ControlName" 								"CExLabel"
 		"fieldName" 								"ServerTimeLimitLabel"
-		"xpos" 										"8"
+		"xpos" 										"11"
 		"ypos" 										"20"
 		"zpos" 										"3"
 		"wide" 										"50"
@@ -35,11 +45,11 @@
 		"visible" 									"1"
 		"enabled" 									"1"
 		"labelText"									"%servertimeleft%"
-		"textAlignment"								"west"
+		"textAlignment"								"center"
 		"dulltext" 									"0"
 		"brighttext" 								"0"
 		"wrap" 										"0"
-		"font" 										"Game 12"
+		"font" 										"Game 10"
 		"fgcolor"									"White"
 		
 		if_mvm
@@ -48,33 +58,8 @@
 		}
 	}
 	
-	"ServerTimeLimitLabelBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"ServerTimeLimitLabelBG"
-		"xpos"										"-11"
-		"ypos"										"19"
-		"zpos"										"2"
-		"wide"										"16"
-		"tall"										"16"
-		"visible"									"1"
-		"enabled"									"1"
-		"image"										"replay/thumbnails/panels/material_transparent50"
-		"scaleImage"								"1"
-		"teambg_1"									"replay/thumbnails/panels/material_transparent50"
-		"teambg_2"									"replay/thumbnails/panels/material_transparent50"
-		"teambg_3"									"replay/thumbnails/panels/material_transparent50"
-		
-		"src_corner_height"							"32"
-		"src_corner_width"							"32"
-		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
-	}
 	
-	
-	
-	
-	
+	//REMOVED
 	"TimePanelBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -134,5 +119,11 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"SetupBG"
 		"xpos"			"9999"
+	}
+	"ServerTimeLimitLabelBG"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"ServerTimeLimitLabelBG"
+		"xpos"										"9999"
 	}	
 }
