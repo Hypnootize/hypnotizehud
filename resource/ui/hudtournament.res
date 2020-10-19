@@ -17,17 +17,17 @@
 		"team1_player_delta_y"						"0"
 		"team2_player_base_offset_x"				"25"
 		"team2_player_base_y"						"0"
-		"team2_player_delta_x"						"45"
+		"team2_player_delta_x"						"38"
 		"team2_player_delta_y"						"0"
-		"teams_player_delta_x_comp"					"45"
+		"teams_player_delta_x_comp"					"38"
 		
 		if_competitive
 		{
-			"team1_player_base_y"					"32"
+			"team1_player_base_y"					"30"
 		}
 		if_readymode
 		{
-			"team1_player_base_y"					"32"
+			"team1_player_base_y"					"30"
 		}
 		if_mvm
 		{
@@ -42,38 +42,85 @@
 		"playerpanels_kv"
 		{
 			"visible"								"0"
-			"wide"									"50"
-			"tall"									"33"
+			"wide"									"37"
+			"tall"									"25"
 			"zpos"									"1"
 			
 			"color_ready"							"0 255 0 220"
 			"color_notready"						"0 0 0 220"
 			
+			"Background"
+			{
+				"ControlName"						"EditablePanel"
+				"fieldName"							"Background"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"0"
+				"wide"								"f0"
+				"tall"								"f0"
+				"visible"							"1"
+				"enabled"							"1"
+				"proportionaltoparent"				"1"
+				"bgcolor_override"					"TransparentBlack"
+			}
+			
 			"PlayerName"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"playername"
-				"font"								"DefaultVerySmall"
-				"xpos"								"5"
-				"ypos"								"22"
+				"font"								"UltraSmall"
+				"xpos"								"1"
+				"ypos"								"rs1-2"
 				"zpos"								"5"
-				"wide"								"40"
-				"tall"								"9"
+				"wide"								"f2"
+				"tall"								"6"
 				"autoResize"						"0"
 				"pinCorner"							"0"
 				"visible"							"1"
 				"labelText"							"%playername%"
 				"textAlignment"						"west"
 				"AllCaps"							"1"
+				"proportionaltoparent"				"1"
 				"fgcolor_override"					"White"
 			}
+			"PlayerNameBG"
+			{
+				"ControlName"						"EditablePanel"
+				"fieldName"							"PlayerNameBG"
+				"xpos"								"0"
+				"ypos"								"rs1-2"
+				"zpos"								"1"
+				"wide"								"f0"
+				"tall"								"6"
+				"visible"							"1"
+				"enabled"							"1"
+				"proportionaltoparent"				"1"
+				"bgcolor_override"					"TransparentBlack"
+			}
 			
+			"ClassImageBG"
+			{
+				"ControlName"						"EditablePanel"
+				"fieldName"							"ClassImageBG"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"1"
+				"wide"								"18"
+				"tall"								"18"
+				"visible"							"0"
+				"enabled"							"1"
+				"proportionaltoparent"				"1"
+				"bgcolor_override"					"TransparentBlack"
+				"pin_to_sibling" 					"PlayerNameBG"
+				"pin_corner_to_sibling" 			"PIN_BOTTOMLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPLEFT"
+			}
 			"ClassImage"
 			{
 				"ControlName"						"CTFClassImage"
 				"fieldName"							"ClassImage"
-				"xpos"								"5"
-				"ypos"								"5"
+				"xpos"								"0"
+				"ypos"								"0"
 				"zpos"								"2"
 				"wide"								"18"
 				"tall"								"18"
@@ -81,35 +128,42 @@
 				"enabled"							"1"
 				"image"								"../hud/class_scoutred"
 				"scaleImage"						"1"	
+				"proportionaltoparent"				"1"
+				"pin_to_sibling"					"ClassImageBG"
 			}
 			
 			"ReadyBG"
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"ReadyBG"
-				"xpos"								"25"
-				"ypos"								"4"
-				"zpos"								"-1"
-				"wide"								"20"
-				"tall"								"20"
+				"xpos"								"2"
+				"ypos"								"0"
+				"zpos"								"1"
+				"wide"								"18"
+				"tall"								"18"
 				"autoResize"						"0"
 				"pinCorner"							"0"
 				"visible"							"0"
 				"enabled"							"1"
+				"proportionaltoparent"				"1"
 				"image"								"replay/thumbnails/panels/material_transparent50"
+				"alpha"								"0"
 
 				"src_corner_height"					"32"
 				"src_corner_width"					"32"
-				"draw_corner_width"					"8"
-				"draw_corner_height" 				"8"	
+				"draw_corner_width"					"0"
+				"draw_corner_height" 				"0"
+				
+				"pin_to_sibling" 					"ClassImageBG"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
-			
 			"ReadyImage"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"ReadyImage"
-				"xpos"								"28"
-				"ypos"								"7"
+				"xpos"								"-1"
+				"ypos"								"-2"
 				"zpos"								"10"
 				"wide"								"15"
 				"tall"								"15"
@@ -119,14 +173,10 @@
 				"enabled"							"1"
 				"image"								"hud/checkmark"
 				"scaleImage"						"1"
+				"proportionaltoparent"				"1"
+				"pin_to_sibling"					"ReadyBG"
 			}
 			
-			"classimagebg"
-			{
-				"ControlName"						"Panel"
-				"fieldName"							"classimagebg"
-				"xpos"								"9999"
-			}
 			"HealthIcon"
 			{
 				"ControlName"						"EditablePanel"
@@ -154,20 +204,51 @@
 		}
 	}
 	
-	"HudTournamentBLUEBG"
+	"BlueTeamIcon"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"HudTournamentBLUEBG"
-		"xpos"										"-11"
-		"ypos"										"-1"
+		"fieldName"									"BlueTeamIcon"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"1"
-		"wide"										"16"
-		"tall"										"22"
+		"wide"										"23"
+		"tall"										"23"
 		"visible"									"1"
 		"enabled"									"1"
-		"PaintBackgroundType"						"0"
 		"paintbackground"							"0"
-		"border"									"MaterialBlue"
+		
+		"TeamIcon"
+		{
+			"controlName"							"CExLabel"
+			"fieldName"	 							"TeamIcon"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"20"
+			"tall"									"20"
+			"zpos"									"3"
+			"visible"								"1"
+			"enabled"								"1"
+			"font"									"Symbols 15"
+			"labelText"								"R"
+			"textAlignment"							"center"	
+			"fgcolor"								"Blue"
+		}
+		"TeamIconShadow"
+		{
+			"controlName"							"CExLabel"
+			"fieldName"	 							"TeamIconShadow"
+			"xpos"									"1"
+			"ypos"									"1"
+			"wide"									"20"
+			"tall"									"20"
+			"zpos"									"2"
+			"visible"								"1"
+			"enabled"								"1"
+			"font"									"Symbols 15 Blur"
+			"labelText"								"R"
+			"textAlignment"							"center"	
+			"fgcolor"								"Shadow"
+		}
 		
 		if_competitive
 		{
@@ -183,24 +264,51 @@
 		}
 	}
 	
-	"HudTournamentREDBG"
+	"RedTeamIcon"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"HudTournamentREDBG"
+		"fieldName"									"RedTeamIcon"
 		"xpos"										"0"
-		"ypos"										"-2"
+		"ypos"										"20"
 		"zpos"										"1"
-		"wide"										"16"
-		"tall"										"22"
+		"wide"										"23"
+		"tall"										"23"
 		"visible"									"1"
 		"enabled"									"1"
-		"PaintBackgroundType"						"0"
-		"paintbackground"							"1"
-		"border"									"MaterialRed"
+		"paintbackground"							"0"
 		
-		"pin_to_sibling" 							"HudTournamentBLUEBG"
-		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		"TeamIcon"
+		{
+			"controlName"							"CExLabel"
+			"fieldName"	 							"TeamIcon"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"20"
+			"tall"									"20"
+			"zpos"									"3"
+			"visible"								"1"
+			"enabled"								"1"
+			"font"									"Symbols 15"
+			"labelText"								"R"
+			"textAlignment"							"center"	
+			"fgcolor"								"Red"
+		}
+		"TeamIconShadow"
+		{
+			"controlName"							"CExLabel"
+			"fieldName"	 							"TeamIconShadow"
+			"xpos"									"1"
+			"ypos"									"1"
+			"wide"									"20"
+			"tall"									"20"
+			"zpos"									"2"
+			"visible"								"1"
+			"enabled"								"1"
+			"font"									"Symbols 15 Blur"
+			"labelText"								"R"
+			"textAlignment"							"center"	
+			"fgcolor"								"Shadow"
+		}
 		
 		if_competitive
 		{
@@ -220,7 +328,7 @@
 	{	
 		"ControlName"								"Label"
 		"fieldName"									"TournamentBLUEStateLabel"
-		"font"										"ReadyUp 26"
+		"font"										"ReadyUp 24"
 		"fgcolor_override" 							"White"
 		"xpos"										"0"
 		"ypos"										"7"
@@ -235,7 +343,7 @@
 		"labelText"									"%bluestate%"
 		"textAlignment"								"west"
 		
-		"pin_to_sibling" 							"HudTournamentBLUEBG"
+		"pin_to_sibling" 							"BlueTeamIcon"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 		
@@ -257,7 +365,7 @@
 	{	
 		"ControlName"								"Label"
 		"fieldName"									"TournamentBLUEStateLabelShadow"
-		"font"										"ReadyUp 26 Blur"
+		"font"										"ReadyUp 24 Blur"
 		"fgcolor_override" 							"Shadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
@@ -292,7 +400,7 @@
 	{	
 		"ControlName"								"Label"
 		"fieldName"									"TournamentREDStateLabel"
-		"font"										"ReadyUp 26"
+		"font"										"ReadyUp 24"
 		"fgcolor_override" 							"White"
 		"xpos"										"0"
 		"ypos"										"7"
@@ -307,7 +415,7 @@
 		"labelText"									"%redstate%"
 		"textAlignment"								"west"
 		
-		"pin_to_sibling" 							"HudTournamentREDBG"
+		"pin_to_sibling" 							"RedTeamIcon"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 		
@@ -329,7 +437,7 @@
 	{	
 		"ControlName"								"Label"
 		"fieldName"									"TournamentREDStateLabelShadow"
-		"font"										"ReadyUp 26 Blur"
+		"font"										"ReadyUp 24 Blur"
 		"fgcolor_override" 							"Shadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
@@ -364,13 +472,13 @@
 	{	
 		"ControlName"		          				"CExLabel"
 		"fieldName"		           					"TournamentConditionLabel"
-		"font"			              				"Game 9"
+		"font"			              				"Size 9"
 		"fgcolor"                					"White"
 		"xpos"			              				"r207"
 		"ypos"	              						"0"
 		"zpos"			              				"1"
 		"wide"			              				"200"
-		"tall"			              				"10"
+		"tall"			              				"0"
 		"autoResize"	          					"0"
 		"pinCorner"	            					"0"
 		"visible"		              				"0"
@@ -432,44 +540,57 @@
 	
 	"HudTournamentBGHelp"
 	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"HudTournamentBGHelp"
-		"wide"			"0"
+		"ControlName"								"ScalableImagePanel"
+		"fieldName"									"HudTournamentBGHelp"
+		"wide"										"0"
 	}
 	"TournamentLabel"
 	{	
-		"ControlName"	"Label"
-		"fieldName"		"TournamentLabel"
-		"wide"			"0"
+		"ControlName"								"Label"
+		"fieldName"									"TournamentLabel"
+		"wide"										"0"
 	}
 	"HudTournamentBG"
 	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"HudTournamentBG"
-		"wide"			"0"
+		"ControlName"								"ScalableImagePanel"
+		"fieldName"									"HudTournamentBG"
+		"wide"										"0"
+	}
+	"HudTournamentBLUEBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"HudTournamentBLUEBG"
+		"wide"										"0"
+	}
+	
+	"HudTournamentREDBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"HudTournamentREDBG"
+		"wide"										"0"
 	}
 	"TournamentBLUELabel"
 	{	
-		"ControlName"	"Label"
-		"fieldName"		"TournamentBLUELabel"
-		"wide"			"0"
+		"ControlName"								"Label"
+		"fieldName"									"TournamentBLUELabel"
+		"wide"										"0"
 	}
 	"TournamentREDLabel"
 	{	
-		"ControlName"	"Label"
-		"fieldName"		"TournamentREDLabel"
-		"wide"			"0"
+		"ControlName"								"Label"
+		"fieldName"									"TournamentREDLabel"
+		"wide"										"0"
 	}
 	"TournamentInstructionsLabel"
 	{	
-		"ControlName"	"Label"
-		"fieldName"		"TournamentInstructionsLabel"
-		"wide"			"0"
+		"ControlName"								"Label"
+		"fieldName"									"TournamentInstructionsLabel"
+		"wide"										"0"
 	}
 	"CountdownBG"
 	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"CountdownBG"
-		"wide"			"0"
+		"ControlName"								"ScalableImagePanel"
+		"fieldName"									"CountdownBG"
+		"wide"										"0"
 	}
 }

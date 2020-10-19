@@ -31,14 +31,14 @@ event HudSpyDisguiseChanged
 
 event HudTournamentSetupPanelOpen
 {
-	Animate HudTournamentSetup					Position	"c-61 -50"							Linear 	0.0 	0.001
-	Animate HudTournamentSetup					Position	"c-61 25"							Spline 	0.001 	0.1
+	Animate HudTournamentSetup					Position	"0 -50"								Linear 	0.0 	0.001
+	Animate HudTournamentSetup					Position	"0 40"								Spline 	0.001 	0.1
 }
 
 event HudTournamentSetupPanelClose
 {
-	Animate HudTournamentSetup					Position	"c-61 25"							Linear 	0.0 	0.001
-	Animate HudTournamentSetup					Position	"c-61 -50"							Spline 	0.001 	0.6
+	Animate HudTournamentSetup					Position	"0 40"								Linear 	0.0 	0.001
+	Animate HudTournamentSetup					Position	"0 -50"								Spline 	0.001 	0.6
 }
 
 //====================================================================================================================

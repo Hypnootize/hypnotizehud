@@ -4,11 +4,11 @@
 	{
 		"ControlName"								"TextEntry"
 		"fieldName"									"TournamentNameEdit"
-		"xpos"										"32"
-		"ypos"										"0"
+		"xpos"										"3"
+		"ypos"										"3"
 		"zpos"										"5"
-		"wide"										"84"
-		"tall"										"18"
+		"wide"										"44"
+		"tall"										"12"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
@@ -31,17 +31,16 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"TournamentNameEditBG"
-		"xpos"										"30"
+		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"0"
-		"wide"										"66"
+		"wide"										"50"
 		"tall"										"18"
 		"autoResize"								"0"
 		"paintbackground"							"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		
 		"border"									"MaterialTransparent50"
 	}
 	
@@ -49,47 +48,53 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"TournamentReadyBG"
-		"xpos"										"30"
-		"ypos"										"15"
+		"xpos"										"0"
+		"ypos"										"-4"
 		"zpos"										"0"
-		"wide"										"34"
-		"tall"										"17"
+		"wide"										"27"
+		"tall"										"16"
 		"autoResize"								"0"
 		"paintbackground"							"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		
 		"border"									"MaterialGreen"
+		
+		"pin_to_sibling" 							"TournamentNameEditBG"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 	
 	"TournamentNotReadyBG"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"TournamentNotReadyBG"
-		"xpos"										"62"
-		"ypos"										"15"
+		"xpos"										"0"
+		"ypos"										"-4"
 		"zpos"										"0"
-		"wide"										"34"
-		"tall"										"17"
+		"wide"										"27"
+		"tall"										"16"
 		"autoResize"								"0"
 		"paintbackground"							"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		
 		"border"									"MaterialRed"
+		
+		"pin_to_sibling" 							"TournamentNameEditBG"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
 	}
 	
 	"TournamentReadyButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"TournamentReadyButton"
-		"xpos"										"30"
-		"ypos"										"15"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"34"
-		"tall"										"17"
+		"wide"										"27"
+		"tall"										"16"
 		"zpos"										"0"
 		"visible"									"1"
 		"enabled"									"1"
@@ -97,7 +102,7 @@
 		"textAlignment"								"center"
 		"command"									"teamready"
 		"default"									"1"
-		"font"										"Symbols 12"
+		"font"										"Symbols 10"
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"White"
@@ -105,17 +110,18 @@
 		"selectedFgColor_override" 					"White"
 		"paintbackground"							"0"
 		"border"									"MaterialGreen"
+		"pin_to_sibling" 							"TournamentReadyBG"
 	}
 	
 	"TournamentNotReadyButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"TournamentNotReadyButton"
-		"xpos"										"62"
-		"ypos"										"15"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"34"
-		"tall"										"17"
+		"wide"										"27"
+		"tall"										"16"
 		"zpos"										"0"
 		"visible"									"1"
 		"enabled"									"1"
@@ -123,13 +129,14 @@
 		"textAlignment"								"center"
 		"command"									"teamnotready"
 		"default"									"1"
-		"font"										"Symbols 12"
+		"font"										"Symbols 10"
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		"selectedFgColor_override" 					"White"
 		"paintbackground"							"0"
+		"pin_to_sibling" 							"TournamentNotReadyBG"
 	}
 	
 	
@@ -138,26 +145,26 @@
 	
 	"HudTournamentSetupBG"
 	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"HudTournamentSetupBG"
-		"xpos"			"9999"
+		"ControlName"								"ScalableImagePanel"
+		"fieldName"									"HudTournamentSetupBG"
+		"xpos"										"9999"
 	}
 	"TournamentSetupLabel"
 	{	
-		"ControlName"	"Label"
-		"fieldName"		"TournamentLabel"
-		"xpos"			"9999"
+		"ControlName"								"Label"
+		"fieldName"									"TournamentLabel"
+		"xpos"										"9999"
 	}
 	"TournamentTeamNameLabel"
 	{	
-		"ControlName"	"Label"
-		"fieldName"		"TournamentTeamNameLabel"
-		"xpos"			"9999"
+		"ControlName"								"Label"
+		"fieldName"									"TournamentTeamNameLabel"
+		"xpos"										"9999"
 	}
 	"HudTournamentNameBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"HudTournamentNameBG"
-		"xpos"			"9999"
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"HudTournamentNameBG"
+		"xpos"										"9999"
 	}
 }
