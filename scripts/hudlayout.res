@@ -50,11 +50,11 @@
 	
 	CHudAccountPanel
 	{
-		"xpos"         								"c-98"
-		"ypos"										"c80"
-		"ypos_minmode"								"c53"
+		"xpos"         								"cs-0.5"
+		"ypos"										"c75"
+		"ypos_minmode"								"c48"
 		"wide"										"200"
-		"tall"  									"50"
+		"tall"  									"30"
 	}
 	
 	CHealthAccountPanel
@@ -184,8 +184,8 @@
 	
 	HudControlPointIcons
 	{
-		"separator_width"							"5"
-		"separator_height"							"5"
+		"separator_width"							"3"
+		"separator_height"							"3"
 		"height_offset"								"0"
 	}
 
@@ -293,17 +293,17 @@
 
 	HudTournamentSetup
 	{
-		"xpos"										"c-70"
-		"ypos"										"-36"
-		"wide"										"140"
-		"tall"										"65"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"480"
 	}
 
 	HudStopWatch
 	{
-		"xpos"										"-20"
-		"ypos"										"-2"
-		"ypos_minmode"								"-2"
+		"xpos"										"0"
+		"ypos"										"0"
+		"ypos_minmode"								"0"
 		"wide"										"f0"
 		"tall"										"480"
 	}
