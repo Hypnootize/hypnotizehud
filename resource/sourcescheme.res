@@ -7,13 +7,13 @@ Scheme
 		// custom
 		"Main Theme"										"80 150 255 255"
 		
-		"DarkBG"											"15 15 15 255"
-		"DarkBGInactive"									"15 15 15 125"
-		"LightBG"											"50 50 50 255"
-		"LightBGInactive"									"50 50 50 125"
+		"DarkBG"											"20 21 23 255"
+		"DarkBGInactive"									"20 21 23 125"
+		"LightBG"											"47 48 50 255"
+		"LightBGInactive"									"47 48 50 125"
 		
-		"White"												"255 255 255 255"
-		"Black"												"10 10 10 255" 
+		"White"												"227 228 230 255"
+		"Black"												"15 16 18 255"
 		"Blank"												"0 0 0 0"
 		
 		"OffWhite"											"200 200 200 255"
