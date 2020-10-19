@@ -43,17 +43,17 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"MainBackground"
 		"xpos"										"cs-0.5"
-		"ypos"										"c-60"
+		"ypos"										"180"
 		"zpos"										"2"
-		"wide"										"580"
-		"tall"										"172"
+		"wide"										"508"
+		"tall"										"173"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 		
 		if_mvm
 		{
@@ -65,17 +65,17 @@
 	{
 		"ControlName"	        					"SectionedListPanel"
 		"fieldName"		        					"BluePlayerList"
-		"xpos"			          					"c-288"
-		"ypos"			          					"c-60"
-		"wide"			          					"290"
-		"tall"			          					"168"
+		"xpos"			          					"c-252"
+		"ypos"			          					"c-58"
+		"wide"			          					"254"
+		"tall"			          					"167"
 		"zpos"			          					"20"
 		"pinCorner"		        					"0"
 		"visible"		          					"1"
 		"enabled"		          					"1"
 		"tabPosition"	       						"0"
 		"autoresize"	        					"3"
-		"linespacing"       						"12"
+		"linespacing"       						"13"
 		"fgcolor"		          					"blue"
 	}
 	
@@ -84,16 +84,16 @@
 		"ControlName"								"SectionedListPanel"
 		"fieldName"									"RedPlayerList"
 		"xpos"			         					"c-2"
-		"ypos"			          					"c-60"
-		"wide"			          					"290"
-		"tall"			          					"168"
+		"ypos"			          					"c-58"
+		"wide"			          					"254"
+		"tall"			          					"167"
 		"zpos"			          					"20"
 		"pinCorner"		        					"0"
 		"visible"		          					"1"
 		"enabled"		          					"1"
 		"tabPosition"	        					"0"
 		"autoresize"	        					"3"
-		"linespacing"       						"12"
+		"linespacing"       						"13"
 		"textcolor"									"red"
 	}
 	
@@ -102,10 +102,10 @@
 		"ControlName"								"EditablePanel"  
 		"fieldName"									"BlueScoreBG"
 		"xpos"										"0"
-		"ypos"										"-4"
+		"ypos"										"-8"
 		"zpos"										"22"
-		"wide"										"292"
-		"tall"										"20"
+		"wide"										"257"
+		"tall"										"26"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
@@ -128,10 +128,10 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"RedScoreBG"
 		"xpos"										"0"
-		"ypos"										"-4"
+		"ypos"										"-8"
 		"zpos"										"22"
-		"wide"										"292"
-		"tall"										"20"
+		"wide"										"258"
+		"tall"										"26"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
@@ -153,13 +153,13 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueTeamScore"
-		"font"										"Game 16"
+		"font"										"Game 24"
 		"fgcolor"  									"White"
 		"labelText"									"%blueteamscore%"
 		"textAlignment"								"east"
-		"xpos"										"-7"
+		"xpos"										"-10"
 		"ypos"										"0" 
-		"zpos"										"23"
+		"zpos"										"24"
 		"wide"										"100"
 		"tall"										"21"
 		"autoResize"								"0"
@@ -168,8 +168,32 @@
 		"enabled"									"1"
 		
 		"pin_to_sibling" 							"BlueScoreBG"
-		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
+		
+		if_mvm
+		{
+			"visible"								"0"
+		}
+	}
+	"BlueTeamScoreShadow"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"BlueTeamScoreShadow"
+		"font"										"Game 24 Blur"
+		"fgcolor"  									"Shadow"
+		"labelText"									"%blueteamscore%"
+		"textAlignment"								"east"
+		"xpos"										"-1"
+		"ypos"										"-1" 
+		"zpos"										"23"
+		"wide"										"100"
+		"tall"										"21"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"pin_to_sibling" 							"BlueTeamScore"
 		
 		if_mvm
 		{
@@ -186,10 +210,10 @@
 		"labelText"									"%blueteamplayercount%"
 		"textAlignment"								"west"
 		"xpos"										"-5"
-		"ypos"										"1"
-		"zpos"										"23"
+		"ypos"										"0"
+		"zpos"										"24"
 		"wide"										"70"
-		"tall"										"22"
+		"tall"										"20"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
@@ -197,6 +221,33 @@
 		"AllCaps"									"1"
 		
 		"pin_to_sibling" 							"BlueScoreBG"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		
+		if_mvm
+		{
+			"visible"								"0"
+		}
+	}
+	"BlueTeamPlayerCountShadow"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"BlueTeamPlayerCountShadow"
+		"font"										"Game 11 Blur"
+		"fgcolor"  									"Shadow"
+		"labelText"									"%blueteamplayercount%"
+		"textAlignment"								"west"
+		"xpos"										"-1"
+		"ypos"										"-1"
+		"zpos"										"23"
+		"wide"										"70"
+		"tall"										"20"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"AllCaps"									"1"
+		"pin_to_sibling" 							"BlueTeamPlayerCount"
 		
 		if_mvm
 		{
@@ -208,13 +259,13 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedTeamScore"
-		"font"										"Game 16"
+		"font"										"Game 24"
 		"fgcolor"  									"White"
 		"labelText"									"%redteamscore%"
 		"textAlignment"								"west"
-		"xpos"										"-7"
+		"xpos"										"-10"
 		"ypos"										"0" 
-		"zpos"										"23"
+		"zpos"										"24"
 		"wide"										"100"
 		"tall"										"21"
 		"autoResize"								"0"
@@ -223,6 +274,32 @@
 		"enabled"									"1"
 		
 		"pin_to_sibling" 							"RedScoreBG"
+		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
+		
+		if_mvm
+		{
+			"visible"								"0"
+		}
+	}
+	"RedTeamScoreShadow"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"RedTeamScoreShadow"
+		"font"										"Game 24 Blur"
+		"fgcolor"  									"Shadow"
+		"labelText"									"%redteamscore%"
+		"textAlignment"								"west"
+		"xpos"										"-1"
+		"ypos"										"-1" 
+		"zpos"										"23"
+		"wide"										"100"
+		"tall"										"21"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"pin_to_sibling" 							"RedTeamScore"
 		
 		if_mvm
 		{
@@ -233,14 +310,14 @@
 	"RedTeamPlayerCount"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"redTeamPlayerCount"
+		"fieldName"									"RedTeamPlayerCount"
 		"font"										"Game 11"
 		"fgcolor"   								"White"
 		"labelText"									"%redteamplayercount%"
 		"textAlignment"								"east"
 		"xpos"										"-5"
 		"ypos"										"1"
-		"zpos"										"23"
+		"zpos"										"24"
 		"wide"										"70"
 		"tall"										"22"
 		"autoResize"								"0"
@@ -258,29 +335,69 @@
 			"visible"								"0"
 		}
 	}
-	
-	"TimeBG"
+	"RedTeamPlayerCountShadow"
 	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"TimeBG"
-		"xpos"										"-11"
+		"ControlName"								"CExLabel"
+		"fieldName"									"RedTeamPlayerCountShadow"
+		"font"										"Game 11 Blur"
+		"fgcolor"   								"Shadow"
+		"labelText"									"%redteamplayercount%"
+		"textAlignment"								"east"
+		"xpos"										"-1"
 		"ypos"										"-1"
-		"zpos"										"2"
-		"wide"										"16"
+		"zpos"										"23"
+		"wide"										"70"
 		"tall"										"22"
+		"autoResize"								"0"
+		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"replay/thumbnails/panels/material_transparent"
-		"scaleImage"								"1"
-		"teambg_1"									"replay/thumbnails/panels/material_transparent"
-		"teambg_2"									"replay/thumbnails/panels/material_red"
-		"teambg_3"									"replay/thumbnails/panels/material_blue"
+		"AllCaps"									"1"
+		"pin_to_sibling" 							"RedTeamPlayerCount"
 		
-		"src_corner_height"							"24"
-		"src_corner_width"							"24"
-		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"	
-
+		if_mvm
+		{
+			"visible"								"0"
+		}
+	}
+	
+	"ClockIcon"
+	{
+		"controlName"								"CExLabel"
+		"fieldName"	 								"ClockIcon"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"20"
+		"tall"										"20"
+		"zpos"										"3"
+		"visible"									"1"
+		"enabled"									"1"
+		"font"										"Symbols 15"
+		"labelText"									"t"
+		"textAlignment"								"center"	
+		"fgcolor"									"White"
+		
+		if_mvm
+		{
+			"visible"								"0"
+		}
+	}
+	"ClockIconShadow"
+	{
+		"controlName"								"CExLabel"
+		"fieldName"	 								"ClockIconShadow"
+		"xpos"										"1"
+		"ypos"										"1"
+		"wide"										"20"
+		"tall"										"20"
+		"zpos"										"2"
+		"visible"									"1"
+		"enabled"									"1"
+		"font"										"Symbols 15 Blur"
+		"labelText"									"t"
+		"textAlignment"								"center"	
+		"fgcolor"									"Shadow"
+		
 		if_mvm
 		{
 			"visible"								"0"
@@ -295,20 +412,40 @@
 		"fgcolor"               					"White"
 		"labelText"		        					"%servertimeleft%"
 		"textAlignment"								"west"
-		"xpos"          							"2"
-		"ypos" 		     							"-4"
+		"xpos"          							"20"
+		"ypos" 		     							"0"
 		"zpos"										"1"
 		"wide"			            				"f0"
-		"tall"			           					"15"
+		"tall"			           					"20"
 		"autoResize"	          					"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
 		
-		"pin_to_sibling" 							"TimeBG"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		if_mvm
+		{
+			"visible"								"0"
+		}
+	}
+	"ServerTimeLeftShadow"
+	{
+		"ControlName"		       					"CExLabel"
+		"fieldName"		          					"ServerTimeLeftShadow"
+		"font"			            				"Game 20 Blur"
+		"fgcolor"               					"Shadow"
+		"labelText"		        					"%servertimeleft%"
+		"textAlignment"								"west"
+		"xpos"          							"21"
+		"ypos" 		     							"1"
+		"zpos"										"0"
+		"wide"			            				"f0"
+		"tall"			           					"20"
+		"autoResize"	          					"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"AllCaps"									"1"
 		
 		if_mvm
 		{
@@ -320,7 +457,7 @@
 	{
 		"ControlName"	  	     					"CExLabel"
 		"fieldName"	    	      					"Spectators"
-		"font"		            					"SpectatorKeyHints"
+		"font"		            					"Size 8"
 		"fgcolor"              						"White"
 		"labelText"		          					"%spectators%"
 		"textAlignment"								"west"
@@ -346,7 +483,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SpectatorsInQueue"
-		"font"		            					"SpectatorKeyHints"
+		"font"		            					"Size 8"
 		"fgcolor"              						"White"
 		"labelText"		          					"%waitingtoplay%"
 		"textAlignment"								"west"
@@ -372,7 +509,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ServerLabel"
-		"font"										"SpectatorKeyHints"
+		"font"										"Size 8"
 		"fgcolor"									"White"
 		"labelText"									"%server%"
 		"textAlignment"								"east"
@@ -404,7 +541,7 @@
 		"ypos"										"0"
 		"zpos"										"4"
 		"wide"										"130"
-		"tall"										"22"
+		"tall"										"20"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
@@ -434,7 +571,7 @@
 		"xpos"										"0"
 		"ypos"										"-4"
 		"zpos"										"3"
-		"wide"										"580"
+		"wide"										"508"
 		"tall"										"20"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -442,7 +579,7 @@
 		"enabled"									"1"
 		
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 		
 		"pin_to_sibling" 							"MainBackground"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -471,11 +608,11 @@
 			"fgcolor" 								"White"
 			"labelText"								"kills :"
 			"textAlignment"							"east"
-			"xpos"									"0"
+			"xpos"									"3"
 			"ypos"									"0"
 			"zpos"									"3"
 			"wide"									"45"
-			"tall"									"22"
+			"tall"									"20"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
@@ -500,7 +637,7 @@
 			"ypos"									"0"
 			"zpos"									"3"
 			"wide"									"40"
-			"tall"									"22"
+			"tall"									"20"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
@@ -528,7 +665,7 @@
 			"ypos"									"0"
 			"zpos"									"3"
 			"wide"									"61"
-			"tall"									"22"
+			"tall"									"20"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
@@ -553,7 +690,7 @@
 			"ypos"									"0"
 			"zpos"									"3"
 			"wide"									"40"
-			"tall"									"22"
+			"tall"									"20"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
@@ -581,7 +718,7 @@
 			"ypos"									"0"
 			"zpos"									"3"
 			"wide"									"67"
-			"tall"									"22"
+			"tall"									"20"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
@@ -606,7 +743,7 @@
 			"ypos"									"0"
 			"zpos"									"3"
 			"wide"									"40"
-			"tall"									"22"
+			"tall"									"20"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
@@ -964,12 +1101,6 @@
 			}
 		}
 		
-		
-		
-		
-		
-		
-		
 		"Kills"
 		{
 			"ControlName"							"CExLabel"
@@ -995,9 +1126,9 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"LocalPlayerDuelStatsPanel"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"-4"
 		"zpos"										"3"
-		"wide"										"580"
+		"wide"										"508"
 		"tall"										"50"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -1005,7 +1136,7 @@
 		"enabled"									"1"
 		
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent"
+		"border"									"MaterialTransparent50"
 		
 		"pin_to_sibling" 							"LocalPlayerStatsPanel"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -1015,7 +1146,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DuelingLabel"
-			"font"									"Game 14"
+			"font"									"Size 14"
 			"labelText"								"#TF_ScoreBoard_Dueling"
 			"textAlignment"							"center"
 			"xpos"									"cs-0.5"
@@ -1053,7 +1184,7 @@
 			"fieldName"								"LocalPlayerData"
 			"xpos"									"6"
 			"ypos"									"cs-0.5"
-			"wide"									"240"
+			"wide"									"200"
 			"tall"									"40"
 			"autoResize"							"0"
 			"pinCorner"								"0"
@@ -1110,7 +1241,7 @@
 				"wrap"								"0"
 				"labelText"							"%playername%"
 				"textAlignment"						"east"
-				"font"								"Game 12"
+				"font"								"Size 12"
 				"proportionaltoparent"				"1"
 				
 				"pin_to_sibling" 					"AvatarImage"
@@ -1148,7 +1279,7 @@
 			"fieldName"								"OpponentData"
 			"xpos"									"rs1-6"
 			"ypos"									"cs-0.5"
-			"wide"									"240"
+			"wide"									"200"
 			"tall"									"40"
 			"autoResize"							"0"
 			"pinCorner"								"0"
@@ -1205,7 +1336,7 @@
 				"wrap"								"0"
 				"labelText"							"%playername%"
 				"textAlignment"						"west"
-				"font"								"Game 12"
+				"font"								"Size 12"
 				"proportionaltoparent"				"1"
 				
 				"pin_to_sibling" 					"AvatarImage"
@@ -1235,7 +1366,7 @@
 				"pin_corner_to_sibling" 			"PIN_BOTTOMLEFT"
 				"pin_to_sibling_corner" 			"PIN_BOTTOMRIGHT"
 			}
-		}
+		}		
 	}
 
 	"MvMScoreboard"
