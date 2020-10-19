@@ -93,6 +93,12 @@
 		"command" 									"engine" 				//"engine connect *server ip*"
 		"tooltip" 									"Home Server"
 	}
+	"DemoUI"
+	{
+		"label" 									"F"
+		"command" 									"engine demoui"
+		"tooltip" 									"DemoUI"
+	}
 	"Achievements"
 	{
 		"label"										"V"
@@ -170,7 +176,7 @@
 	{
 		"label" 									"k"
 		"command" 									"engine snd_restart"
-		"tooltip" 									"Fix Sound"
+		"tooltip" 									"Reload Sound"
 		"OnlyInGame"								"1"
 	}
 	"InviliblePlayersFix"
@@ -185,6 +191,56 @@
 		"label" 									"4"
 		"command" 									"engine toggle net_graph 1 0"
 		"tooltip" 									"Netgraph ON/OFF"
+		"OnlyInGame"								"1"
+	}
+	"MatchStatusToggle"
+	{
+		"label" 									"M"
+		"command" 									"engine toggle tf_use_match_hud"
+		"tooltip" 									"MatchStatus ON/OFF"
+		"OnlyInGame"								"1"
+	}
+	"ChatToggle"
+	{
+		"label" 									"Z"
+		"command" 									"engine toggle hud_saytext_time 6 0"
+		"tooltip" 									"Chat ON/OFF"
+		"OnlyInGame"								"1"
+	}
+	"DamageWhite"
+	{
+		"label" 									"v"
+		"command" 									"engine hud_combattext 1; hud_combattext_red 227; hud_combattext_green 228; hud_combattext_blue 230"
+		"OnlyInGame"								"1"
+	}
+	"DamageYellow"
+	{
+		"label" 									"v"
+		"command" 									"engine hud_combattext 1; hud_combattext_red 255; hud_combattext_green 230; hud_combattext_blue 60"
+		"OnlyInGame"								"1"
+	}
+	"DamageRed"
+	{
+		"label" 									"v"
+		"command" 									"engine hud_combattext 1; hud_combattext_red 255; hud_combattext_green 61; hud_combattext_blue 61"
+		"OnlyInGame"								"1"
+	}
+	"DamageGreen"
+	{
+		"label" 									"v"
+		"command" 									"engine hud_combattext 1; hud_combattext_red 139; hud_combattext_green 229; hud_combattext_blue 36"
+		"OnlyInGame"								"1"
+	}
+	"DamageBlue"
+	{
+		"label" 									"v"
+		"command" 									"engine hud_combattext 1; hud_combattext_red 150; hud_combattext_green 200; hud_combattext_blue 220"
+		"OnlyInGame"								"1"
+	}
+	"DamageBlu"
+	{
+		"label" 									"v"
+		"command" 									"engine hud_combattext 1; hud_combattext_red 80; hud_combattext_green 150; hud_combattext_blue 255"
 		"OnlyInGame"								"1"
 	}
 }
