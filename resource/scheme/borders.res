@@ -2,9 +2,9 @@ Scheme
 {
 	Borders
 	{
-		///////////////////////////////////////////////////////////////////////////////
-		/////////////////////////////////CUSTOM BORDERS////////////////////////////////
-		///////////////////////////////////////////////////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////
+		/////////////////////////////////MATERIAL MAIN THEME////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////
 		
 		MaterialHypno
 		{
@@ -18,6 +18,161 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"	
 		}
+		
+		////////////////////////////////////////////////////////////////////////////////////
+		////////////////////////////////////MATERIAL BLUE///////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////
+		
+		MaterialBlue
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 				"Blue"
+			
+			"image"					"replay/thumbnails/panels/material_generic"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"	
+		}
+		MaterialTransparentBlue50
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/panels/material_blue_transparent50"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"	
+		}
+		MaterialTransparentBlue70
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/panels/material_blue_transparent70"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"	
+		}
+		
+		////////////////////////////////////////////////////////////////////////////////////
+		////////////////////////////////////MATERIAL RED////////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////
+		
+		MaterialRed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 				"Red"
+			
+			"image"					"replay/thumbnails/panels/material_generic"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"	
+		}
+		MaterialTransparentRed50
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/panels/material_red_transparent50"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"	
+		}
+		MaterialTransparentRed70
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/panels/material_red_transparent70"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"	
+		}
+		
+		////////////////////////////////////////////////////////////////////////////////////
+		///////////////////////////////////MATERIAL WHITE///////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////
+		
+		MaterialWhite
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 				"White"
+			
+			"image"					"replay/thumbnails/panels/material_generic"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"	
+		}
+		
+		////////////////////////////////////////////////////////////////////////////////////
+		///////////////////////////////////MATERIAL GREEN///////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////
+		
+		MaterialGreen
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 				"green"
+			
+			"image"					"replay/thumbnails/panels/material_generic"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"	
+		}
+		MaterialTransparentGreen50
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/panels/material_green_transparent50"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"	
+		}
+		MaterialTransparentGreen70
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/panels/material_green_transparent70"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"	
+		}
+		
+		////////////////////////////////////////////////////////////////////////////////////
+		///////////////////////////////////MATERIAL PURPLE//////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////
+		
+		MaterialPurple
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 				"Purple"
+			
+			"image"					"replay/thumbnails/panels/material_generic"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"	
+		}
+		
+		////////////////////////////////////////////////////////////////////////////////////
+		/////////////////////////////////MATERIAL WHITEGRAY/////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////
 		
 		MaterialWhiteGray
 		{
@@ -43,6 +198,11 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"	
 		}
+		
+		////////////////////////////////////////////////////////////////////////////////////
+		/////////////////////////////////MATERIAL GRAYLIGHT/////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////
+		
 		MaterialGrayLight
 		{
 			"bordertype"			"scalable_image"
@@ -67,6 +227,11 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"	
 		}
+		
+		////////////////////////////////////////////////////////////////////////////////////
+		////////////////////////////////MATERIAL GRAYMEDIUM/////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////
+		
 		MaterialGrayMedium
 		{
 			"bordertype"			"scalable_image"
@@ -91,6 +256,11 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"	
 		}
+		
+		////////////////////////////////////////////////////////////////////////////////////
+		/////////////////////////////////MATERIAL GRAYDARK//////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////
+		
 		MaterialGrayDark
 		{
 			"bordertype"			"scalable_image"
@@ -115,6 +285,11 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"	
 		}
+		
+		////////////////////////////////////////////////////////////////////////////////////
+		////////////////////////////////MATERIAL GRAYDARKER/////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////
+		
 		MaterialGrayDarker
 		{
 			"bordertype"			"scalable_image"
@@ -139,6 +314,11 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"	
 		}
+		
+		////////////////////////////////////////////////////////////////////////////////////
+		////////////////////////////////MATERIAL GRAYDARKEST////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////
+		
 		MaterialGrayDarkest
 		{
 			"bordertype"			"scalable_image"
@@ -163,6 +343,11 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"	
 		}
+		
+		////////////////////////////////////////////////////////////////////////////////////
+		/////////////////////////////////MATERIAL BLACKLIGHT////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////
+		
 		MaterialBlackLight
 		{
 			"bordertype"			"scalable_image"
@@ -187,6 +372,11 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"	
 		}
+		
+		////////////////////////////////////////////////////////////////////////////////////
+		/////////////////////////////////MATERIAL BLACKDARK/////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////
+		
 		MaterialBlackDark
 		{
 			"bordertype"			"scalable_image"
@@ -211,77 +401,6 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"	
 		}
-		
-		
-		MaterialBlue
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color" 				"Blue"
-			
-			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"	
-		}
-		
-		MaterialRed
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color" 				"Red"
-			
-			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"	
-		}
-		
-		MaterialWhite
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color" 				"White"
-			
-			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"	
-		}
-		
-		MaterialGreen
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color" 				"green"
-			
-			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"	
-		}
-		
-		MaterialPurple
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color" 				"Purple"
-			
-			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"	
-		}
-		
-		////////////////////////////////////////////////////////////////////////////////////
-		////////////////////////////////TRANSPARENT MATERIALS///////////////////////////////
-		////////////////////////////////////////////////////////////////////////////////////
-		
 		MaterialTransparent30
 		{
 			"bordertype"			"scalable_image"
@@ -327,42 +446,6 @@ Scheme
 			"draw_corner_height" 	"8"	
 		}
 		
-		MaterialTransparentRed
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"replay/thumbnails/panels/material_red_transparent70"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"	
-		}
-		
-		MaterialTransparentBlue
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"replay/thumbnails/panels/material_blue_transparent70"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"	
-		}
-		
-		MaterialTransparentGreen
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"replay/thumbnails/panels/material_transparent_green"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"	
-		}
-		
 		////////////////////////////////////////////////////////////////////////////////////
 		////////////////////////////////HEALTH BOX MATERIALS////////////////////////////////
 		////////////////////////////////////////////////////////////////////////////////////
@@ -378,7 +461,6 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"	
 		}
-		
 		BuffedBorder
 		{
 			"bordertype"			"scalable_image"
@@ -391,7 +473,6 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"	
 		}
-		
 		HurtBorder
 		{
 			"bordertype"			"scalable_image"
@@ -405,11 +486,9 @@ Scheme
 			"draw_corner_height" 	"8"	
 		}
 		
-		
 		///////////////////////////////////////////////////////////////////////////////
 		////////////////////////////////DEFAULT BORDERS////////////////////////////////
 		///////////////////////////////////////////////////////////////////////////////
-		
 		
 		NoBorder
 		{
