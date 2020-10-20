@@ -661,6 +661,17 @@ Scheme
 			}
 		}
 		
+		"Size 9 Blur"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"9"
+				"additive"									"0"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
 		"Size 10 Blur"
 		{
 			"1"

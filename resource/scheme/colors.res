@@ -8,7 +8,7 @@ Scheme
 		
 		"Main Theme"										"80 150 255 255"
 		
-		"WhiteLight"										"255 255 255 255"
+		"WhiteLight"										"227 228 230 255"
 		"White"												"227 228 230 255"
 		"WhiteDark"											"172 173 175 255"
 		"WhiteGray"											"127 128 130 255"
@@ -25,7 +25,7 @@ Scheme
 		
 		"Red"												"255 61 61 255"
 		"Blue"												"92 173 255 255"
-		"Green"												"139 229 36 255"
+		"Green"												"75 210 75 255"
 		"Orangee"											"255 130 50 255"
 		"Purple"											"170 20 220 255"
 		
@@ -108,8 +108,8 @@ Scheme
 		"PartyMember6"										"255 133 255 255"
 		
 		"RedSolid"											"255 61 61 255"
-		"Yellow"											"255 255 255 255"
-		"TransparentYellow"									"255 255 255 255"
+		"Yellow"											"227 228 230 255"
+		"TransparentYellow"									"227 228 230 255"
 		"BrightYellow"										"255 255 0 255"
 		"GreenSolid"										"76 107 34 255"
 		
@@ -117,34 +117,34 @@ Scheme
 		
 		"HUDBlueTeam"										"92 173 255 255"
 		"HUDRedTeam"										"255 61 61 255"
-		"HUDSpectator"										"255 255 255 255"
+		"HUDSpectator"										"227 228 230 255"
 		"HUDBlueTeamSolid"									"92 173 255 255"
 		"HUDRedTeamSolid"									"255 61 61 255"
 		"HUDDeathWarning"									"255 61 61 255"
-		"HudWhite"											"255 255 255 255"
-		"HudOffWhite"										"255 255 255 255"
+		"HudWhite"											"227 228 230 255"
+		"HudOffWhite"										"227 228 230 255"
 		"HudBlack"											"0 0 0 255"
 		"ProgressBarBlue"									"90 125 140 255"
 		
 		"CreditsGreen"										"95 150 50 255"
 		
-		"Gray"												"255 255 255 255"
+		"Gray"												"227 228 230 255"
 
 		"Blank"												"0 0 0 0"
 		"ForTesting"										"255 0 0 32"
 		"ForTesting_Magenta"								"255 0 255 255"
 		"ForTesting_MagentaDim"								"255 0 255 120"
 
-		"HudPanelForeground"								"255 255 255 255"
-		"HudPanelBackground"								"255 255 255 255"
-		"HudPanelBorder"									"255 255 255 255"
+		"HudPanelForeground"								"227 228 230 255"
+		"HudPanelBackground"								"227 228 230 255"
+		"HudPanelBorder"									"227 228 230 255"
 
-		"HudProgressBarActive"								"255 255 255 255"
-		"HudProgressBarInActive"							"255 255 255 255"
+		"HudProgressBarActive"								"227 228 230 255"
+		"HudProgressBarInActive"							"227 228 230 255"
 		"HudProgressBarActiveLow"							"255 61 61 255"
 		"HudProgressBarInActiveLow"							"255 61 61 255"	
 
-		"HudTimerProgressActive"							"255 255 255 255"
+		"HudTimerProgressActive"							"227 228 230 255"
 		"HudTimerProgressInActive"							"50 50 50 255"
 		"HudTimerProgressWarning"							"240 30 30 255"
 
@@ -158,30 +158,30 @@ Scheme
 		"StoreGreen"										"35 185 30 255"
 		
 		"LowHealthRed"										"255 0 0 255"
-		"ProgressOffWhite"									"255 255 255 255"
+		"ProgressOffWhite"									"227 228 230 255"
 		"ProgressBackground"								"0 0 0 50"
 		"HealthBgGrey"										"60 60 60 255"
 		
-		"ProgressOffWhiteTransparent"						"255 255 255 255"
+		"ProgressOffWhiteTransparent"						"227 228 230 255"
 		
 		"LabelDark"											"0 0 0 255"
 		"LabelTransparent"									"0 0 0 100"
 		
-		"BuildMenuActive"									"255 255 255 255"
+		"BuildMenuActive"									"227 228 230 255"
 		
 		"DisguiseMenuIconRed"								"255 61 61 255"
 		"DisguiseMenuIconBlue"								"92 173 255 255"
 
- 		"MatchmakingDialogTitleColor"						"255 255 255 255"
+ 		"MatchmakingDialogTitleColor"						"227 228 230 255"
  		"MatchmakingMenuItemBackground"						"30 30 30 255"
  		"MatchmakingMenuItemBackgroundActive"				"92 173 255 255"	
-		"MatchmakingMenuItemTitleColor"						"255 255 255 255"
-		"MatchmakingMenuItemDescriptionColor"				"255 255 255 255"
+		"MatchmakingMenuItemTitleColor"						"227 228 230 255"
+		"MatchmakingMenuItemDescriptionColor"				"227 228 230 255"
 		
 		"HTMLBackground"									"30 30 30 255"
 		
-		"ItemAttribLevel"									"255 255 255 255"
-		"ItemAttribNeutral"									"255 255 255 255"
+		"ItemAttribLevel"									"227 228 230 255"
+		"ItemAttribNeutral"									"227 228 230 255"
 		"ItemAttribPositive"								"150 200 255 255"
 		"ItemAttribNegative"								"255 61 61 255"
 
@@ -251,9 +251,9 @@ Scheme
 		"LighterDarkBrown"									"60 60 60 255"
 		"DarkBrown"											"30 30 30 255"
 		
-		"UpgradeDefaultFg"									"255 255 255 255"
+		"UpgradeDefaultFg"									"227 228 230 255"
 		"UpgradeDefaultBg"									"60 60 60 2555"
-		"UpgradeArmedFg"									"255 255 255 255"
+		"UpgradeArmedFg"									"227 228 230 255"
 		"UpgradeArmedBg"									"80 150 255 255"
 		"UpgradeDepressedFg"								"60 60 60 255"
 		"UpgradeDepressedBg"								"80 150 255 255"
@@ -482,7 +482,7 @@ Scheme
 		"SelectionBoxBg" 									"0 0 0 80"
 		"SelectionSelectedBoxBg"							"0 0 0 190"
 
-		"HintMessageFg"										"255 255 255 255"
+		"HintMessageFg"										"227 228 230 255"
 		"HintMessageBg" 									"0 0 0 60"
 
 		"ProgressBarFg"										"255 30 13 255"
