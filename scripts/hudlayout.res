@@ -94,7 +94,7 @@
 		"wide"										"f0"
 		"tall"										"480"
 	}
-
+	
 	CMainTargetID
 	{
 		"ypos"										"240"
@@ -129,7 +129,7 @@
 		"tall"										"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"bgcolor_override"							"Blank"
+		"paintbackground"							"0"
 	}
 	
 	BuildingStatus_Engineer
@@ -137,7 +137,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
-		"tall"										"f0"
+		"tall"										"480"
 		
 		"pin_to_sibling"							"BuildingAnchor"
 	}
@@ -257,20 +257,20 @@
 	
 	"HudMenuSpyDisguise"
 	{
-		"xpos"										"r63"
-		"ypos"										"c-105"
+		"xpos"										"0"
+		"ypos"										"c-90"
 		"zpos"										"20"
-		"wide"										"f0"
-		"tall"										"480"
+		"wide"										"120"
+		"tall"										"180"
 	}
 	
 	"HudMenuTauntSelection"
 	{
-		"xpos"										"r75"
-		"ypos"										"c-105"
+		"xpos"										"r86"
+		"ypos"										"c-90"
 		"zpos"										"20"
-		"wide"										"f0"
-		"tall"										"480"
+		"wide"										"300"
+		"tall"										"300"
 	}
 	
 	HudDemomanPipes
