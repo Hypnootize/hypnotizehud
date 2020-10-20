@@ -65,7 +65,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayerStatusHealthValueKiller"
 		"xpos"										"0"
-		"ypos"										"-1"
+		"ypos"										"0"
 		"zpos"										"6"
 		"wide"										"50"
 		"tall"										"31"
@@ -101,7 +101,7 @@
 	
 	
 	
-	
+	//RIP
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"								"ImagePanel"
