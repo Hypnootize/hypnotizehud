@@ -1,54 +1,11 @@
 "Resource/UI/SpectatorGUIHealth.res"
 {
-	"PlayerStatusHealthValueSpec"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusHealthValueSpec"
-		"xpos"										"0"
-		"ypos"										"4"
-		"ypos_minmode"								"5"
-		"zpos"										"5"
-		"wide"										"44"
-		"wide_minmode"								"40"
-		"tall"										"23"
-		"tall_minmode"								"19"
-		"visible"									"1"
-		"enabled"									"1"
-		"textAlignment"								"center"
-		"font"										"Game 18"
-		"font_minmode"								"Game 14"
-		"fgcolor"									"Health Numbers"
-		"labeltext"									"%Health%"
-	}
-	
-	"PlayerStatusHealthValueSpecShadow"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusHealthValueSpecShadow"
-		"xpos"										"-1"
-		"ypos"										"-1"
-		"zpos"										"5"
-		"wide"										"44"
-		"wide_minmode"								"40"
-		"tall"										"23"
-		"tall_minmode"								"19"
-		"visible"									"1"
-		"enabled"									"1"
-		"textAlignment"								"center"
-		"font"										"Game 18 Blur"
-		"font_minmode"								"Game 14 Blur"
-		"fgcolor"									"Shadow"
-		"labeltext"									"%Health%"
-		
-		"pin_to_sibling" 							"PlayerStatusHealthValueSpec"
-	}
-	
 	"HealthBG"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HealthBG"
-		"xpos"										"-2"
-		"xpos_minmode"								"-4"
+		"xpos"										"0"
+		"xpos_minmode"								"0"
 		"ypos"										"0"
 		"ypos_minmode"								"1"
 		"zpos"										"1"
@@ -65,8 +22,6 @@
 		
 		"border"									"HealthBorder"
 		"scaleImage"								"1"
-		
-		"pin_to_sibling" 							"PlayerStatusHealthValueSpec"
 	}
 	
 	"HealthBuff"
@@ -115,6 +70,50 @@
 		"scaleImage"								"1"
 		
 		"pin_to_sibling" 							"HealthBG"
+	}
+	
+	"PlayerStatusHealthValueSpec"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"PlayerStatusHealthValueSpec"
+		"xpos"										"0"
+		"ypos"										"0"
+		"ypos_minmode"								"0"
+		"zpos"										"5"
+		"wide"										"40"
+		"wide_minmode"								"32"
+		"tall"										"22"
+		"tall_minmode"								"19"
+		"visible"									"1"
+		"enabled"									"1"
+		"textAlignment"								"center"
+		"font"										"Game 18"
+		"font_minmode"								"Game 14"
+		"fgcolor"									"Health Numbers"
+		"labeltext"									"%Health%"
+		"pin_to_sibling" 							"HealthBG"
+	}
+	
+	"PlayerStatusHealthValueSpecShadow"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"PlayerStatusHealthValueSpecShadow"
+		"xpos"										"-1"
+		"ypos"										"-1"
+		"zpos"										"5"
+		"wide"										"40"
+		"wide_minmode"								"32"
+		"tall"										"22"
+		"tall_minmode"								"19"
+		"visible"									"1"
+		"enabled"									"1"
+		"textAlignment"								"center"
+		"font"										"Game 18 Blur"
+		"font_minmode"								"Game 14 Blur"
+		"fgcolor"									"Shadow"
+		"labeltext"									"%Health%"
+		
+		"pin_to_sibling" 							"PlayerStatusHealthValueSpec"
 	}
 	
 	

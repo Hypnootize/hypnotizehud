@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"StopWatchAnchor"
-		"xpos"										"cs-0.5"
+		"xpos"										"cs-0.5-10"
 		"ypos"										"0"
 		"zpos"										"0"
 		"wide"										"1"
@@ -15,7 +15,7 @@
 		
 		if_comp
 		{
-			"ypos"									"30"
+			"ypos"									"28"
 		}
 	}
 	
@@ -23,7 +23,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StopWatchPointsLabel"
-		"font"										"Game 14"
+		"font"										"Game 12"
 		"fgcolor"									"White"
 		"labelText"									"%pointslabel%"
 		"textAlignment"								"center"
@@ -48,7 +48,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StopWatchScoreToBeat"
-		"font"										"Game 14"
+		"font"										"Game 12"
 		"fgcolor"									"White"
 		"labelText"									"%scoretobeat%"
 		"textAlignment"								"east"
@@ -101,7 +101,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"Game 14"
+			"font"									"Game 12"
 			"fgcolor"								"White"
 			"xpos"									"0"
 			"ypos"									"0"

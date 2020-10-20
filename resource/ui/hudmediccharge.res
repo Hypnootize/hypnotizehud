@@ -29,7 +29,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"alpha"										"125"
 		"border"									"MaterialTransparent50"
 		
 		"pin_to_sibling" 							"UBERAnchor"
@@ -64,12 +63,12 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ChargeLabel"
-		"xpos"										"-5"
-		"ypos"										"-6"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"3"
-		"wide"										"100"
-		"tall"										"12"
-		"tall_minmode"								"9"
+		"wide"										"110"
+		"tall"										"22"
+		"tall_minmode"								"20"
 		"autoResize"								"1"
 		"pinCorner"									"2"
 		"visible"									"1"
@@ -84,6 +83,8 @@
 		"fgcolor"   								"White"
 		
 		"pin_to_sibling" 							"ChargeMeterBG"
+		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
 	}
 
 	"ResistIconAnchor"
@@ -226,20 +227,20 @@
 	
 	"Background"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"Background"
-		"xpos"			"9999"
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"Background"
+		"xpos"										"9999"
 	}
 	"IndividualChargesLabel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"9999"
+		"ControlName"								"EditablePanel"
+		"fieldName"									"IndividualChargesLabel"
+		"xpos"										"9999"
 	}
 	"HealthClusterIcon"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HealthClusterIcon"
-		"xpos"			"9999"
+		"ControlName"								"ImagePanel"
+		"fieldName"									"HealthClusterIcon"
+		"xpos"										"9999"
 	}
 }
