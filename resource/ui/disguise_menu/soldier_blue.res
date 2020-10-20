@@ -4,17 +4,17 @@
 {
 	"ItemNameLabel"
 	{	
-		"labelText"			"2"
-		"fgcolor_override"	"Blue"
+		"labelText"									"2"
+		"fgcolor_override"							"Blue"
 	}
 	
 	"NumberLabel"
 	{	
-		"labelText"			"2"
+		"labelText"									"2"
 	}
 	
 	"NewNumberLabel"
 	{	
-		"labelText"			"2"
+		"labelText"									"2"
 	}
 }

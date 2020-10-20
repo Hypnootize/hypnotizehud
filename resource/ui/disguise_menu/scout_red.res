@@ -4,6 +4,6 @@
 {
 	"ItemNameLabel"
 	{	
-		"fgcolor_override"	"Red"
+		"fgcolor_override"							"Red"
 	}
 }
