@@ -6,7 +6,7 @@
 		"fieldName"									"BuildingStatusItem"
 		"xpos"										"0"
 		"ypos"										"0"
-		"wide"										"110"
+		"wide"										"102"
 		"tall"										"40"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -102,24 +102,21 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"NotBuiltPanel"
-		"xpos"										"37"
-		"ypos"										"0"
-		"wide"										"110"
-		"tall"										"40"
+		"xpos"										"45"
+		"ypos"										"2"
+		"wide"										"55"
+		"tall"										"36"
 		"visible"									"1"
+		"proportionaltoparent"						"1"
 		
 		"NotBuiltBG"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"NotBuiltBG"
-			"xpos"									"0"
-			"ypos"									"4"
-			"zpos"									"-1"
-			"wide"									"62"
-			"tall"									"32"
+			"wide"									"0"
+			"tall"									"0"
 			"visible"								"0"
-			"enabled"								"1"
-			"border"								"MaterialTransparentRed"
+			"enabled"								"0"
 		}
 
 		"NotBuiltLabel"
@@ -127,19 +124,20 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"NotBuiltLabel"
 			"font"									"Game 10"
-			"xpos"									"9"
-			"ypos"									"0"
-			"wide"									"110"
-			"tall"									"42"
+			"xpos"									"0"
+			"ypos"									"1"
+			"wide"									"f0"
+			"tall"									"f0"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#Building_hud_sentry_not_built"
-			"textAlignment"							"Left"
+			"textAlignment"							"west"
 			"dulltext"								"0"
 			"brighttext"							"0"
 			"AllCaps"								"1"
+			"proportionaltoparent"					"1"
 		}
 	}
 	
@@ -147,18 +145,20 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BuiltPanel"
-		"xpos"										"0"
-		"ypos"										"0"
-		"wide"										"110"
-		"tall"										"40"
+		"xpos"										"2"
+		"ypos"										"2"
+		"zpos"										"2"
+		"wide"										"98"
+		"tall"										"36"
 		"visible"									"0"
+		"proportionaltoparent"						"1"
 		
 		"Icon_Upgrade_1"
 		{
 			"ControlName"							"CIconPanel"
 			"fieldName"								"Icon_Upgrade_1"
-			"xpos"									"30"
-			"ypos"									"29"
+			"xpos"									"27"
+			"ypos"									"26"
 			"zpos"									"1"
 			"wide"									"8"
 			"tall"									"8"
@@ -167,14 +167,16 @@
 			"scaleImage"							"1"	
 			"icon"									"obj_status_upgrade_1"
 			"iconColor"								"Main Theme"
+			"proportionaltoparent"					"1"
+			"alpha"									"150"
 		}
 
 		"Icon_Upgrade_2"
 		{
 			"ControlName"							"CIconPanel"
 			"fieldName"								"Icon_Upgrade_2"
-			"xpos"									"30"
-			"ypos"									"29"
+			"xpos"									"27"
+			"ypos"									"26"
 			"zpos"									"1"
 			"wide"									"8"
 			"tall"									"8"
@@ -183,14 +185,16 @@
 			"scaleImage"							"1"	
 			"icon"									"obj_status_upgrade_2"
 			"iconColor"								"Main Theme"
+			"proportionaltoparent"					"1"
+			"alpha"									"150"
 		}
 
 		"Icon_Upgrade_3"
 		{
 			"ControlName"							"CIconPanel"
 			"fieldName"								"Icon_Upgrade_3"
-			"xpos"									"30"
-			"ypos"									"29"
+			"xpos"									"27"
+			"ypos"									"26"
 			"zpos"									"1"
 			"wide"									"8"
 			"tall"									"8"
@@ -199,6 +203,8 @@
 			"scaleImage"							"1"	
 			"icon"									"obj_status_upgrade_3"
 			"iconColor"								"Main Theme"
+			"proportionaltoparent"					"1"
+			"alpha"									"150"
 		}
 		
 		"AlertTray"
@@ -219,8 +225,8 @@
 		{
 			"ControlName"							"CIconPanel"
 			"fieldName"								"SapperIcon"
-			"xpos"									"0"
-			"ypos"									"3"
+			"xpos"									"4"
+			"ypos"									"4"
 			"zpos"									"10"
 			"wide"									"30"
 			"tall"									"30"
@@ -228,7 +234,10 @@
 			"enabled"								"1"
 			"scaleImage"							"1"	
 			"icon"									"obj_status_icon_sapper"
-			"iconColor"								"Red"
+			"iconColor"								"Black"
+			"paintbackground"						"1"
+			"bgcolor_override"						"Red"
+			"proportionaltoparent"					"1"
 		}
 		
 		"Health"
@@ -236,8 +245,8 @@
 			"ControlName"							"CBuildingHealthBar"
 			"fieldName"								"Health"
 			"font"									"Default"
-			"xpos"									"90"
-			"ypos"									"3"
+			"xpos"									"rs1-2"
+			"ypos"									"1"
 			"wide"									"8"
 			"tall"									"34"
 			"autoResize"							"0"
@@ -247,6 +256,7 @@
 			"textAlignment"							"Left"
 			"dulltext"								"0"
 			"brighttext"							"0"
+			"proportionaltoparent"					"1"
 		}
 		
 		"BuildingPanel"
@@ -262,18 +272,19 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"RunningPanel"
-			"xpos"									"42"
+			"xpos"									"41"
 			"ypos"									"0"
-			"wide"									"110"
-			"tall"									"40"
+			"wide"									"48"
+			"tall"									"36"
 			"visible"								"0"
+			"proportionaltoparent"					"1"
 			
 			"KillIcon"	
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"KillIcon"
 				"xpos"								"0"
-				"ypos"								"4"
+				"ypos"								"3"
 				"zpos"								"1"
 				"wide"								"9"
 				"tall"								"9"
@@ -282,15 +293,16 @@
 				"scaleImage"						"1"
 				"image"								"../hud/hud_obj_status_kill_64"
 				"drawcolor"							"White"
+				"proportionaltoparent"				"1"
 			}
 			
 			"KillsLabel"
 			{	
 				"ControlName"						"CExLabel"
 				"fieldName"							"KillsLabel"
-				"font"								"Game 11"
+				"font"								"Size 12"
 				"xpos"								"13"
-				"ypos"								"4"
+				"ypos"								"3"
 				"wide"								"200"
 				"tall"								"10"
 				"autoResize"						"0"
@@ -302,6 +314,7 @@
 				"dulltext"							"0"
 				"brighttext"						"0"
 				"drawcolor"							"White"
+				"proportionaltoparent"				"1"
 			}
 			
 			"ShellIcon"	
@@ -309,7 +322,7 @@
 				"ControlName"						"ImagePanel"
 				"fieldName"							"ShellIcon"
 				"xpos"								"0"
-				"ypos"								"16"
+				"ypos"								"15"
 				"zpos"								"1"
 				"wide"								"9"
 				"tall"								"9"
@@ -318,6 +331,7 @@
 				"scaleImage"						"1"
 				"image"								"../hud/hud_obj_status_ammo_64"
 				"drawcolor"							"White"
+				"proportionaltoparent"				"1"
 			}
 			
 			"Shells"
@@ -326,7 +340,7 @@
 				"fieldName"							"Shells"
 				"font"								"Default"
 				"xpos"								"12"
-				"ypos"								"18"
+				"ypos"								"16"
 				"wide"								"30"
 				"tall"								"6"				
 				"autoResize"						"0"
@@ -336,6 +350,7 @@
 				"textAlignment"						"Left"
 				"dulltext"							"0"
 				"brighttext"						"0"
+				"proportionaltoparent"				"1"
 			}
 			
 			"RocketIcon"	
@@ -343,7 +358,7 @@
 				"ControlName"						"ImagePanel"
 				"fieldName"							"RocketIcon"
 				"xpos"								"0"
-				"ypos"								"28"
+				"ypos"								"26"
 				"zpos"								"1"
 				"wide"								"9"
 				"tall"								"9"
@@ -352,6 +367,7 @@
 				"scaleImage"						"1"
 				"image"								"../hud/hud_obj_status_rockets_64"
 				"drawcolor"							"White"
+				"proportionaltoparent"				"1"
 			}
 			
 			"Rockets"
@@ -360,7 +376,7 @@
 				"fieldName"							"Rockets"
 				"font"								"Default"
 				"xpos"								"12"
-				"ypos"								"30"
+				"ypos"								"28"
 				"wide"								"30"
 				"tall"								"6"
 				"autoResize"						"0"
@@ -370,6 +386,7 @@
 				"textAlignment"						"Left"
 				"dulltext"							"0"
 				"brighttext"						"0"
+				"proportionaltoparent"				"1"
 			}
 
 			"UpgradeIcon"
@@ -377,7 +394,7 @@
 				"ControlName"						"CIconPanel"
 				"fieldName"							"UpgradeIcon"
 				"xpos"								"0"
-				"ypos"								"28"
+				"ypos"								"26"
 				"zpos"								"1"
 				"wide"								"9"
 				"tall"								"9"
@@ -386,6 +403,7 @@
 				"scaleImage"						"1"	
 				"icon"								"ico_metal"
 				"iconColor"							"White"
+				"proportionaltoparent"				"1"
 			}			
 			
 			"Upgrade"
@@ -394,7 +412,7 @@
 				"fieldName"							"Upgrade"
 				"font"								"Default"
 				"xpos"								"12"
-				"ypos"								"30"
+				"ypos"								"28"
 				"wide"								"30"
 				"tall"								"6"
 				"autoResize"						"0"
@@ -404,6 +422,7 @@
 				"textAlignment"						"Left"
 				"dulltext"							"0"
 				"brighttext"						"0"
+				"proportionaltoparent"				"1"
 			}
 		}
 	}
