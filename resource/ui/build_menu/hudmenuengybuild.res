@@ -4,7 +4,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"CancelLabel"
-		"font"										"Gamefont9"
+		"font"										"Size 9"
 		"fgcolor" 									"White"
 		"xpos"										"2"
 		"ypos"										"1"
@@ -214,20 +214,6 @@
 		"tall"										"42"
 		"visible"									"0"
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	

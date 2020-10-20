@@ -4,21 +4,31 @@
 {
 	"Background"
 	{
-		"border"		"MaterialTransparentRed"
+		"border"									"MaterialTransparentRed50"
 	}
 	"CantBuildReason"
 	{	
-		"font"			"Symbols 30"
-		"ypos"			"-7"
-		"labelText"		"-"
-		"visible"		"1"
+		"font"										"Symbols 30"
+		"ypos"										"-6"
+		"labelText"									"-"
+		"visible"									"1"
 	}
-	"MetalIcon"	
+	"Metal"	
 	{
-		"visible"		"0"
+		"visible"									"0"
+	}
+	"CostLabel"
+	{	
+		"xpos"										"2"
+		"ypos"										"25"
+		"textAlignment"								"center"	
+	}
+	"NumberLabelBG"
+	{	
+		"visible"									"0"
 	}
 	"NumberLabel"
 	{	
-		"visible"		"0"
+		"visible"									"0"
 	}
 }
