@@ -1,36 +1,27 @@
 "Resource/UI/HudObjectiveTimePanel.res"
 {	
-	"ClockIcon"
+	"TimePanelBG"
 	{
-		"controlName"								"CExLabel"
-		"fieldName"	 								"ClockIcon"
-		"xpos"										"0"
-		"ypos"										"0"
-		"wide"										"20"
-		"tall"										"20"
-		"zpos"										"3"
-		"visible"									"1"
-		"enabled"									"1"
-		"font"										"Symbols 18"
-		"labelText"									"t"
-		"textAlignment"								"center"	
-		"fgcolor"									"White"
-	}
-	"ClockIconShadow"
-	{
-		"controlName"								"CExLabel"
-		"fieldName"	 								"ClockIconShadow"
-		"xpos"										"1"
-		"ypos"										"1"
-		"wide"										"20"
-		"tall"										"20"
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"TimePanelBG"
+		"xpos"										"2"
+		"ypos"										"3"
 		"zpos"										"2"
+		"wide"										"15"
+		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Symbols 18 Blur"
-		"labelText"									"t"
-		"textAlignment"								"center"	
-		"fgcolor"									"Shadow"
+		
+		"image"										"replay/thumbnails/game/clock_white"
+		"scaleImage"								"1"
+		"teambg_1"									"replay/thumbnails/game/clock_white"
+		"teambg_2"									"replay/thumbnails/game/clock_red"
+		"teambg_3"									"replay/thumbnails/game/clock_blue"
+		
+		"src_corner_height"							"0"
+		"src_corner_width"							"0"
+		"draw_corner_width"							"0"
+		"draw_corner_height" 						"0"
 	}
 	
 	"ServerTimeLimitLabel"
@@ -60,65 +51,59 @@
 	
 	
 	//REMOVED
-	"TimePanelBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TimePanelBG"
-		"xpos"			"9999"
-	}
 	"TimePanelProgressBar"
 	{
-		"ControlName"	"CTFProgressBar"
-		"fieldName"		"TimePanelProgressBar"
-		"xpos"			"9999"
+		"ControlName"								"CTFProgressBar"
+		"fieldName"									"TimePanelProgressBar"
+		"xpos"										"9999"
 	}
 	"WaitingForPlayersLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"WaitingForPlayersLabel"
+		"xpos"										"9999"
 	}
 	"WaitingForPlayersBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"WaitingForPlayersBG"
-		"xpos"			"9999"
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"WaitingForPlayersBG"
+		"xpos"										"9999"
 	}
 	"OvertimeLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"OvertimeLabel"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"OvertimeLabel"
+		"xpos"										"9999"
 	}
 	"OvertimeBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"OvertimeBG"
-		"xpos"			"9999"
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"OvertimeBG"
+		"xpos"										"9999"
 	}
 	"SuddenDeathLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SuddenDeathLabel"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"SuddenDeathLabel"
+		"xpos"										"9999"
 	}	
 	"SuddenDeathBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"SuddenDeathBG"
-		"xpos"			"9999"
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"SuddenDeathBG"
+		"xpos"										"9999"
 	}	
 	"SetupLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SetupLabel"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"SetupLabel"
+		"xpos"										"9999"
 	}	
 	"SetupBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"SetupBG"
-		"xpos"			"9999"
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"SetupBG"
+		"xpos"										"9999"
 	}
 	"ServerTimeLimitLabelBG"
 	{

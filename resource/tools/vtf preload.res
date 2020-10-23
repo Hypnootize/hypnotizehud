@@ -848,4 +848,24 @@
 		"enabled"			"1"
 		"image"				"../hud/objectives_flagpanel_ico_flag_moving_alt"
 	}
+	
+	///TIMER CLOCK///
+	"TimerRed"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"TimerRed"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/objectives_timepanel_red_bg"
+	}
+	"TimerBlue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"TimerBlue"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/objectives_timepanel_blue_bg"
+	}
 }
