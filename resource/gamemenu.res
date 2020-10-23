@@ -91,7 +91,7 @@
 	{
 		"label" 									"w"
 		"command" 									"engine" 				//"engine connect *server ip*"
-		"tooltip" 									"Home Server"
+		"tooltip" 									"Favourite Server"
 	}
 	"DemoUI"
 	{
@@ -105,41 +105,17 @@
 		"command"									"OpenAchievementsDialog"
 		"tooltip" 									"Achievements"
 	}
-	"Bugs"
-	{
-		"label"										"9"
-		"command"									"engine bug"
-		"tooltip" 									"Report a Bug"
-	}
 	"Replays"
 	{
 		"label"										"^"
 		"command"									"engine replay_reloadbrowser"
 		"tooltip" 									"Replays"
 	}
-	"Forum"
-	{
-		"label"										"R"
-		"command"									"view_newuser_forums"
-		"tooltip" 									"New Users Forum"
-	}
 	"Workshop"
 	{
 		"label"										"{"
 		"command"									"engine OpenSteamWorkshopDialog"
 		"tooltip" 									"Workshop"
-	}
-	"Commentary"
-	{
-		"label"										"p"
-		"command"									"OpenLoadSingleplayerCommentaryDialog"
-		"tooltip" 									"Developer Commentary"
-	}
-	"Coach"
-	{
-		"label"										"l"
-		"command"									"engine cl_coach_toggle"
-		"tooltip" 									"Coach Players"
 	}
 	
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
