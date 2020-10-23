@@ -7,8 +7,8 @@
 		"xpos"										"40"
 		"ypos"										"-5"
 		"zpos"										"1"
-		"wide"										"30"
-		"tall"										"30"
+		"wide"										"35"
+		"tall"										"35"
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"
@@ -54,8 +54,8 @@
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"StatusIcon"
-		"xpos"										"46"
-		"ypos"										"1"
+		"xpos"										"0"
+		"ypos"										"-8"
 		"zpos"										"3"
 		"wide"										"18"
 		"tall"										"18"
@@ -63,6 +63,9 @@
 		"enabled"									"1"
 		"image"										"../hud/objectives_flagpanel_ico_flag_home"
 		"scaleImage"								"1"
+		"pin_to_sibling"							"Arrow"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 
 		"if_mvm"
 		{
