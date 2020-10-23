@@ -37,7 +37,7 @@
 		"labelText"									">"
 
 		"textAlignment"								"center"
-		"font"										"Symbols 18"
+		"font"										"Symbols 20"
 
 		"armedBgColor_override"						"GrayDark"
 		"defaultBgColor_override"					"26 27 29 255"

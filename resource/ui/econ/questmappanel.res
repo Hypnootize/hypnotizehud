@@ -188,7 +188,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labeltext"		"-"
-				"font"			"Symbols 16"
+				"font"			"Symbols 18"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"

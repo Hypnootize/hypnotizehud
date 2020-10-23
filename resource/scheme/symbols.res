@@ -89,6 +89,39 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"Symbols 16 Blur"
+		{
+			"1"
+			{
+				"name"			"Hypnotize Icons"
+				"tall"			"16"
+				"additive"  	"0"
+				"antialias"		"1"
+				"blur"			"1"
+			}
+		}
+		
+		"Symbols 17"
+		{
+			"1"
+			{
+				"name"			"Hypnotize Icons"
+				"tall"			"17"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
+		"Symbols 17 Blur"
+		{
+			"1"
+			{
+				"name"			"Hypnotize Icons"
+				"tall"			"17"
+				"additive"  	"0"
+				"antialias"		"1"
+				"blur"			"1"
+			}
+		}
 		
 		"Symbols 18"
 		{
@@ -142,6 +175,17 @@ Scheme
 				"tall"			"22"
 				"additive"  	"0"
 				"antialias"		"1"
+			}
+		}
+		"Symbols 22 Blur"
+		{
+			"1"
+			{
+				"name"			"Hypnotize Icons"
+				"tall"			"22"
+				"additive"  	"0"
+				"antialias"		"1"
+				"blur"			"1"
 			}
 		}
 		
@@ -716,6 +760,39 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"ReadyUp 22 Blur"
+		{
+			"1"
+			{
+				"name"			"ReadyUp Symbols"
+				"tall"			"22"
+				"additive"  	"0"
+				"antialias"		"1"
+				"blur"			"2"
+			}
+		}
+		
+		"ReadyUp 23"
+		{
+			"1"
+			{
+				"name"			"ReadyUp Symbols"
+				"tall"			"23"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
+		"ReadyUp 23 Blur"
+		{
+			"1"
+			{
+				"name"			"ReadyUp Symbols"
+				"tall"			"23"
+				"additive"  	"0"
+				"antialias"		"1"
+				"blur"			"2"
+			}
+		}
 		
 		"ReadyUp 24"
 		{
@@ -944,7 +1021,7 @@ Scheme
 	{
 		"30"
 		{
-			"font" "resource/scheme/fontfiles/Hypnotize Icons.otf"
+			"font" "resource/scheme/fontfiles/Hypnotize Icons.ttf"
 			"name" "Hypnotize Icons"
 		}
 		

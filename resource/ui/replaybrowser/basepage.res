@@ -44,7 +44,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NameFilterBG"
-		"font"										"Symbols 16"
+		"font"										"Symbols 18"
 		"xpos"										"20"
 		"ypos"										"5"
 		"zpos"										"0"

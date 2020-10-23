@@ -2090,7 +2090,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									"D"
-		"font"										"Symbols 14"
+		"font"										"Symbols 16"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"

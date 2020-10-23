@@ -20,7 +20,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"Metal"
-		"font"										"Symbols 14"
+		"font"										"Symbols 18"
 		"fgcolor"									"White"
 		"xpos"										"3"
 		"ypos"										"1"

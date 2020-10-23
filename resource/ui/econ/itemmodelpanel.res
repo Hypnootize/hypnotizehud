@@ -122,7 +122,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"equippedlabel"
-			"font"									"Symbols 12"
+			"font"									"Symbols 14"
 			"xpos"									"35"
 			"ypos"									"28"
 			"zpos"									"2"
@@ -245,7 +245,7 @@
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"wide"									"14"
-			"tall"									"0"		//14
+			"tall"									"14"
 			"visible"								"0"
 			"enabled"								"1"
 			"scaleImage"							"1"

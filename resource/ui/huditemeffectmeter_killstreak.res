@@ -31,7 +31,7 @@
 		"textAlignment"								"west"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"Symbols 12"
+		"font"										"Symbols 18"
 		"fgcolor"									"White"
 	}
 	
@@ -53,7 +53,7 @@
 		"textAlignment"								"west"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"Symbols 12 Blur"
+		"font"										"Symbols 18 Blur"
 		"fgcolor"									"Shadow"
 		
 		"pin_to_sibling" 							"Killstreaklabel"

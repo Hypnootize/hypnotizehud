@@ -57,7 +57,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labeltext"									"%"
-		"font"										"Symbols 18"
+		"font"										"Symbols 20"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
