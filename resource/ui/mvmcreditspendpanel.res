@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HeaderLabel"
-		"font"			"Game 10"
+		"font"			"Size 10"
 		"labelText"		"%header%"
 		"textAlignment" "center"
 		"xpos"			"5"
@@ -28,7 +28,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"UpgradesLabel"
-		"font"			"Game 10"
+		"font"			"Size 10"
 		"labelText"		"#TF_PVE_Upgrades"
 		"textAlignment" "west"
 		"xpos"			"8"
@@ -43,7 +43,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"UpgradesCountLabel"
-		"font"			"Game 10"
+		"font"			"Size 10"
 		"labelText"		"%upgrades%"
 		"textAlignment" "east"
 		"xpos"			"0"
@@ -62,7 +62,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
-		"font"			"Game 10"
+		"font"			"Size 10"
 		"labelText"		"#TF_PVE_Buybacks"
 		"textAlignment" "west"
 		"xpos"			"8"
@@ -77,7 +77,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackCountLabel"
-		"font"			"Game 10"
+		"font"			"Size 10"
 		"labelText"		"%buybacks%"
 		"textAlignment" "east"
 		"xpos"			"0"
@@ -96,7 +96,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BottleLabel"
-		"font"			"Game 10"
+		"font"			"Size 10"
 		"labelText"		"#TF_PVE_Bottles"
 		"textAlignment" "west"
 		"xpos"			"8"
@@ -111,7 +111,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BottleCountLabel"
-		"font"			"Game 10"
+		"font"			"Size 10"
 		"labelText"		"%bottles%"
 		"textAlignment" "east"
 		"xpos"			"0"

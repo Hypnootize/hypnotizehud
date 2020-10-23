@@ -205,7 +205,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueTeamPlayerCount"
-		"font"										"Game 11"
+		"font"										"Size 11"
 		"fgcolor"  									"White"
 		"labelText"									"%blueteamplayercount%"
 		"textAlignment"								"west"
@@ -233,7 +233,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueTeamPlayerCountShadow"
-		"font"										"Game 11 Blur"
+		"font"										"Size 11 Blur"
 		"fgcolor"  									"Shadow"
 		"labelText"									"%blueteamplayercount%"
 		"textAlignment"								"west"
@@ -311,7 +311,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedTeamPlayerCount"
-		"font"										"Game 11"
+		"font"										"Size 11"
 		"fgcolor"   								"White"
 		"labelText"									"%redteamplayercount%"
 		"textAlignment"								"east"
@@ -339,7 +339,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedTeamPlayerCountShadow"
-		"font"										"Game 11 Blur"
+		"font"										"Size 11 Blur"
 		"fgcolor"   								"Shadow"
 		"labelText"									"%redteamplayercount%"
 		"textAlignment"								"east"
@@ -372,7 +372,7 @@
 		"zpos"										"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Symbols 15"
+		"font"										"Symbols 18"
 		"labelText"									"t"
 		"textAlignment"								"center"	
 		"fgcolor"									"White"
@@ -393,7 +393,7 @@
 		"zpos"										"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Symbols 15 Blur"
+		"font"										"Symbols 18 Blur"
 		"labelText"									"t"
 		"textAlignment"								"center"	
 		"fgcolor"									"Shadow"

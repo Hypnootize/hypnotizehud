@@ -19,7 +19,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInClip"
-		"font"										"Game 44"
+		"font"										"Game 45"
 		"font_minmode"								"Game 32"
 		"fgcolor"									"Ammo In Clip"
 		"xpos"										"0"
@@ -43,7 +43,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInClipShadow"
-		"font"										"Game 44 Blur"
+		"font"										"Game 45 Blur"
 		"font_minmode"								"Game 32 Blur"
 		"fgcolor"									"Shadow"
 		"xpos"										"-1"
@@ -109,7 +109,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmonoClip"
-		"font"										"Game 44"
+		"font"										"Game 45"
 		"font_minmode"								"Game 32"
 		"fgcolor"									"Ammo No Clip"
 		"xpos"										"0"
@@ -133,7 +133,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmonoClipshadow"
-		"font"										"Game 44 Blur"
+		"font"										"Game 45 Blur"
 		"font_minmode"								"Game 32 Blur"
 		"fgcolor"									"Shadow"
 		"xpos"										"-1"

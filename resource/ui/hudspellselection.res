@@ -49,7 +49,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ActionText"
-		"font"										"Game 9"
+		"font"										"Size 9"
 		"labelText"									"%actiontext%"
 		"textAlignment"							 	"east"
 		"xpos"										"0"

@@ -88,7 +88,7 @@
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"font"										"Game 18"
-		"font_minmode"								"Game 14"
+		"font_minmode"								"Game 15"
 		"fgcolor"									"Health Numbers"
 		"labeltext"									"%Health%"
 		"pin_to_sibling" 							"HealthBG"
@@ -109,7 +109,7 @@
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"font"										"Game 18 Blur"
-		"font_minmode"								"Game 14 Blur"
+		"font_minmode"								"Game 15 Blur"
 		"fgcolor"									"Shadow"
 		"labeltext"									"%Health%"
 		

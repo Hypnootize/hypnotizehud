@@ -47,7 +47,7 @@
 		"enabled"	  		         				"1"
 		"labelText" 		         				"%Health%"
 		"textAlignment"         				 	"center"	
-		"font"                   				 	"Game 44"
+		"font"                   				 	"Game 45"
 		"font_minmode"                   			"Game 32"
 		"fgcolor"	    	         				"Health Numbers"
 		
@@ -71,7 +71,7 @@
 		"enabled"	    	         				"1"
 		"labelText"	  	         				 	"%Health%"
 		"textAlignment"	         				 	"center"	
-		"font"                   				 	"Game 44 Blur"
+		"font"                   				 	"Game 45 Blur"
 		"font_minmode"                   			"Game 32 Blur"
 		"fgcolor"	     	         				"Shadow"
 		

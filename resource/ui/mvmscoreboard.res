@@ -70,7 +70,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"Game 10"
+		"font"			"Size 10"
 		"labelText"		"%popfile%"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -106,7 +106,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyLabel"
-			"font"			"Game 12"
+			"font"			"Size 12"
 			"labelText"		"difficulty :"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -121,7 +121,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"Game 14"
+			"font"			"Size 14"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -227,7 +227,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecStatusLabel"
-			"font"			"Game 14"
+			"font"			"Size 14"
 			"labelText"		"%respecstatus%"
 			"textAlignment" "north-east"
 			"xpos"			"115"

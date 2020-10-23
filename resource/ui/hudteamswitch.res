@@ -4,7 +4,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"SwitchLabel"
-		"font"										"Game 10"
+		"font"										"Size 10"
 		"xpos"										"cs-0.5"
 		"ypos"										"80"
 		"zpos"										"1"

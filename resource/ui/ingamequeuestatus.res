@@ -45,7 +45,7 @@
 		"tall"										"f0"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"Game 12"
+		"font"										"Size 12"
 		"AllCaps"									"1"
 		"fgcolor_override"							"White"
 		"textAlignment"								"east"

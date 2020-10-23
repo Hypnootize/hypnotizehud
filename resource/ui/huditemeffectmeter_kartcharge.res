@@ -75,7 +75,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"proportionaltoparent"						"1"
-		"font"										"Game 12"
+		"font"										"Size 12"
 	}
 	
 	"ItemEffectMeterBG"

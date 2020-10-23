@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HeaderLabel"
-		"font"			"Game 10"
+		"font"			"Size 10"
 		"labelText"		"%header%"
 		"textAlignment" "center"
 		"xpos"			"5"
@@ -28,7 +28,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedTextLabel"
-		"font"			"Game 10"
+		"font"			"Size 10"
 		"labelText"		"#TF_PVE_Collected"
 		"textAlignment" "west"
 		"xpos"			"8"
@@ -43,7 +43,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedCountLabel"
-		"font"			"Game 10"
+		"font"			"Size 10"
 		"labelText"		"%creditscollected%"
 		"textAlignment" "east"
 		"xpos"			"0"
@@ -62,7 +62,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditMissedTextLabel"
-		"font"			"Game 10"
+		"font"			"Size 10"
 		"labelText"		"#TF_PVE_Missed"
 		"textAlignment" "west"
 		"xpos"			"8"
@@ -77,7 +77,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditMissedCountLabel"
-		"font"			"Game 10"
+		"font"			"Size 10"
 		"labelText"		"%creditsmissed%"
 		"textAlignment" "east"
 		"xpos"			"0"
@@ -96,7 +96,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditBonusTextLabel"
-		"font"			"Game 10"
+		"font"			"Size 10"
 		"labelText"		"#TF_PVE_Bonus"
 		"textAlignment" "west"
 		"xpos"			"8"
@@ -111,7 +111,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditBonusCountLabel"
-		"font"			"Game 10"
+		"font"			"Size 10"
 		"labelText"		"%creditbonus%"
 		"textAlignment" "east"
 		"xpos"			"0"
@@ -130,7 +130,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditRatingLabelShadow"
-		"font"			"Game 24 Blur"
+		"font"			"Size 24 Blur"
 		"labelText"		"%ratingshadow%"
 		"textAlignment" "center"
 		"xpos"			"126"
@@ -145,7 +145,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditRatingLabel"
-		"font"			"Game 24"
+		"font"			"Size 24"
 		"labelText"		"%rating%"
 		"textAlignment" "center"
 		"xpos"			"125"

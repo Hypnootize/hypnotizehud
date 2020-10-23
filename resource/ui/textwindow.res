@@ -134,7 +134,7 @@
 		"wrap"										"0"
 		"command"									"okay"
 		"default"									"1"
-		"font"										"Size 16"
+		"font"										"Size 18"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		

@@ -205,7 +205,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueTeamPlayerCount"
-		"font"										"Game 11"
+		"font"										"Size 11"
 		"fgcolor"  									"White"
 		"labelText"									"%blueteamplayercount%"
 		"textAlignment"								"west"
@@ -233,7 +233,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueTeamPlayerCountShadow"
-		"font"										"Game 11 Blur"
+		"font"										"Size 11 Blur"
 		"fgcolor"  									"Shadow"
 		"labelText"									"%blueteamplayercount%"
 		"textAlignment"								"west"
@@ -311,7 +311,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedTeamPlayerCount"
-		"font"										"Game 11"
+		"font"										"Size 11"
 		"fgcolor"   								"White"
 		"labelText"									"%redteamplayercount%"
 		"textAlignment"								"east"
@@ -339,7 +339,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedTeamPlayerCountShadow"
-		"font"										"Game 11 Blur"
+		"font"										"Size 11 Blur"
 		"fgcolor"   								"Shadow"
 		"labelText"									"%redteamplayercount%"
 		"textAlignment"								"east"
@@ -372,7 +372,7 @@
 		"zpos"										"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Symbols 15"
+		"font"										"Symbols 18"
 		"labelText"									"t"
 		"textAlignment"								"center"	
 		"fgcolor"									"White"
@@ -393,7 +393,7 @@
 		"zpos"										"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Symbols 15 Blur"
+		"font"										"Symbols 18 Blur"
 		"labelText"									"t"
 		"textAlignment"								"center"	
 		"fgcolor"									"Shadow"
@@ -767,7 +767,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MvMKillsLabel"
-			"font"									"Game 10"
+			"font"									"Size 10"
 			"fgcolor" 								"White"
 			"labelText"								"#TF_ScoreBoard_KillsLabel"
 			"textAlignment"							"west"
@@ -792,7 +792,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MvMKills"
-			"font"									"Game 10"
+			"font"									"Size 10"
 			"fgcolor" 								"White"
 			"labelText"								"%kills%"
 			"textAlignment"							"east"
@@ -820,7 +820,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MvMDeathsLabel"
-			"font"									"Game 10"
+			"font"									"Size 10"
 			"fgcolor" 								"White"
 			"labelText"								"#TF_ScoreBoard_DeathsLabel"
 			"textAlignment"							"west"
@@ -849,7 +849,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MvMDeaths"
-			"font"									"Game 10"
+			"font"									"Size 10"
 			"fgcolor" 								"White"
 			"labelText"								"%deaths%"
 			"textAlignment"							"east"
@@ -877,7 +877,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MvMAssistsLabel"
-			"font"									"Game 10"
+			"font"									"Size 10"
 			"fgcolor" 								"White"
 			"labelText"								"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"							"west"
@@ -906,7 +906,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MvMAssists"
-			"font"									"Game 10"
+			"font"									"Size 10"
 			"fgcolor" 								"White"
 			"labelText"								"%assists%"
 			"textAlignment"							"east"
@@ -934,7 +934,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MvMTeleportsLabel"
-			"font"									"Game 10"
+			"font"									"Size 10"
 			"fgcolor" 								"White"
 			"labelText"								"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"							"west"
@@ -963,7 +963,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MvMTeleports"
-			"font"									"Game 10"
+			"font"									"Size 10"
 			"fgcolor" 								"White"
 			"labelText"								"%teleports%"
 			"textAlignment"							"east"
@@ -991,7 +991,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MvMHeadshotsLabel"
-			"font"									"Game 10"
+			"font"									"Size 10"
 			"fgcolor" 								"White"
 			"labelText"								"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"							"west"
@@ -1020,7 +1020,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MvMHeadshots"
-			"font"									"Game 10"
+			"font"									"Size 10"
 			"fgcolor" 								"White"
 			"labelText"								"%headshots%"
 			"textAlignment"							"east"
@@ -1048,7 +1048,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MvMInvulnLabel"
-			"font"									"Game 10"
+			"font"									"Size 10"
 			"fgcolor" 								"White"
 			"labelText"								"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"							"west"
@@ -1077,7 +1077,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MvMInvuln"
-			"font"									"Game 10"
+			"font"									"Size 10"
 			"fgcolor" 								"White"
 			"labelText"								"%Invulns%"
 			"textAlignment"							"east"

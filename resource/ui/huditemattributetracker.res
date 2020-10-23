@@ -39,7 +39,7 @@
 			"zpos"			"4"
 			"textinsetx"	"5"
 			"fgcolor_override"		"White"
-			"font"			"Game 10"
+			"font"			"Size 10"
 			//"wrap"			"1"
 			"TextAlignment"		"north-east"
 			"proportionaltoparent" "1"
