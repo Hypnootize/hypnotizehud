@@ -60,9 +60,9 @@
 	CHealthAccountPanel
 	{
 		"xpos"										"c-153"
-		"xpos_minmode"								"c-107"
-		"ypos"										"r110"
-		"ypos_minmode"								"r160"
+		"xpos_minmode"								"c-109"
+		"ypos"										"r116"
+		"ypos_minmode"								"r165"
 		"wide"										"f0"
 		"tall"  									"24"
 	}
@@ -154,7 +154,7 @@
 		"CornerRadius"	  							"1"
 		"RightJustify"	  							"1"
 		
-		"TextFont"									"Size 11"
+		"TextFont"									"Game 11"
 		
 		"TeamBlue"									"Blue"
 		"TeamRed"									"Red"
@@ -191,11 +191,11 @@
 
 	WinPanel
 	{
-		"xpos"										"c-87"
-		"ypos"										"r53"
+		"xpos"										"cs-0.5"
+		"ypos"										"r82"
 		"zpos"										"20"
-		"wide"										"f0"
-		"tall"										"f0"
+		"wide"										"175"
+		"tall"										"82"
 	}
 	
 	ArenaWinPanel
@@ -204,7 +204,7 @@
 		"ypos"										"r62"
 		"zpos"										"20"
 		"wide"										"f0"
-		"tall"										"f0"
+		"tall"										"480"
 	}
 	
 	"HudAlert"
