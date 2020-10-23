@@ -214,7 +214,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"Size 14"
-			"fgcolor_override"						"White"
+			"fgcolor_override"						"WhiteGray"
 			"textAlignment"							"west"
 			"labelText"								"%name%"
 			"proportionaltoparent"					"1"
@@ -237,7 +237,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"Size 14"
-			"fgcolor"								"White"
+			"fgcolor"								"WhiteGray"
 			"textAlignment"							"west"
 			"labelText"								"LEVEL"
 			"proportionaltoparent"					"1"
@@ -260,7 +260,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"Size 14 Numbers"
-			"fgcolor_override"						"White"
+			"fgcolor_override"						"WhiteGray"
 			"textAlignment"							"west"
 			"labelText"								"%desc2%"
 			"proportionaltoparent"					"1"
@@ -476,7 +476,7 @@
 						"proportionaltoparent"		"1"
 						"progress"					"0"
 
-						"fgcolor_override"			"Main Theme"
+						"fgcolor_override"			"WhiteGray"
 						
 						if_mini
 						{
@@ -485,6 +485,7 @@
 							"zpos"					"6"
 							"wide"					"f2"
 							"tall"					"f2"
+							"fgcolor_override"		"Main Theme"
 						}
 					}
 
