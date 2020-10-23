@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
         "$translucent" "1"
-        "$baseTexture" "vgui\replay\thumbnails\filters\filter_engineer_on"
+        "$baseTexture" "vgui\replay\thumbnails\store\filter_soldier"
         "$alpha" "1"
         "$vertexalpha" "1"     
         "$vertexcolor" "1"
