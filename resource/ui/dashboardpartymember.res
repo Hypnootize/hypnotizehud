@@ -26,7 +26,7 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 		"scaleImage"								"1"
-		"image"										"class_portraits/silhouette_alpha"
+		"image"										"replay\thumbnails\menu\silhouette"
 		"mouseinputenabled"							"0"
 	}
 
