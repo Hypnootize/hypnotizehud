@@ -32,27 +32,20 @@
 		"alpha"										"0"
 	}
 	
-	"classmodelpanelBG"
+	"PlayerStatusSpyOutlineImage"
 	{
 		"ControlName"								"CTFImagePanel"
-		"fieldName"									"classmodelpanelBG"
-		"xpos"										"-1"	
-		"ypos"										"r20"
-		"zpos"										"1"		
-		"wide"										"70"
-		"tall"										"0"	//21
-		"visible"									"1"
+		"fieldName"									"PlayerStatusSpyOutlineImage"
+		"xpos"										"3"
+		"ypos"										"r67"
+		"zpos"										"7"
+		"wide"										"55"
+		"tall"										"55"
+		"visible"									"0"
 		"enabled"									"1"
+		"image"										"../hud/class_spy_outline"
 		"scaleImage"								"1"
-		"image"										"replay/thumbnails/panels/material_transparent90"
-		"teambg_1"									"replay/thumbnails/panels/material_transparent90"
-		"teambg_2"									"replay/thumbnails/panels/material_transparent90"
-		"teambg_3"									"replay/thumbnails/panels/material_transparent90"
-		
-		"src_corner_height"							"32"
-		"src_corner_width"							"32"
-		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"	
+		"alpha"										"0"
 	}
 	
 	"classmodelpanel"
@@ -190,26 +183,23 @@
 		}
 	}
 	
-	
-	
-	
-	
+	//REMOVED
+	"classmodelpanelBG"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"classmodelpanelBG"
+		"xpos"										"9999"
+	}
 	"PlayerStatusSpyImage"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"9999"
-	}	
-	"PlayerStatusSpyOutlineImage"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusSpyOutlineImage"
-		"xpos"			"9999"
-	}		
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"PlayerStatusSpyImage"
+		"xpos"										"9999"
+	}
 	"PlayerStatusClassImageBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"9999"
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"PlayerStatusClassImageBG"
+		"xpos"										"9999"
 	}
 }

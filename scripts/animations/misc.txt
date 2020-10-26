@@ -2,29 +2,14 @@
 
 event FlagOutline
 {
-	RunEvent FlagOutlineHide 					0.0
-	Animate OutlineImage						Alpha		"0"									Linear 	0.1 0.2
-	
-	Animate OutlineImage						Position	"c-200 140"							Linear 	0.1 0.2
-	Animate OutlineImage						Size		"400 200"							Linear 	0.1 0.2
-
-	Animate OutlineImage						Position	"c-50 r137"							Linear 	0.7 0.2
-	Animate OutlineImage						Position	"c-50 r158"							Linear 	0.7 0.2
-	Animate OutlineImage						Size		"100 50"							Linear 	0.7 0.2
-	
-	Animate OutlineImage						Alpha		"0"									Linear 	0.9 0.1
+	Animate OutlineImage						Alpha		"0"									Linear 	0.0 0.0
 }
 
 //====================================================================================================================
 
 event HudSpyDisguiseChanged
 {
-	Animate PlayerStatusSpyOutlineImage			Alpha		"0"									Linear 	0.0 0.2
-	
-	Animate PlayerStatusSpyOutlineImage			Position	"c-200 c-200"						Linear 	0.0 0.2
-	Animate PlayerStatusSpyOutlineImage			Size		"400 400"							Linear 	0.0 0.2
-
-	RunEvent HudSpyDisguiseHide					0.7
+	Animate PlayerStatusSpyOutlineImage			Alpha		"0"									Linear 	0.0 0.0
 }
 
 //====================================================================================================================
