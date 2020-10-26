@@ -334,6 +334,7 @@
 		"if_specialdelivery"
 		{
 			"visible"								"1"
+			"ypos"									"r35"
 		}
 	}
 	
@@ -348,7 +349,7 @@
 		"tall"										"90"
 		"visible"									"1"
 		"enabled"									"1"
-				
+		
 		"if_hybrid"
 		{
 			"visible"								"0"
@@ -398,7 +399,10 @@
 
 		"if_specialdelivery"
 		{
-			"visible"								"0"
+			"visible"								"1"
+			"ypos"									"r43"
+			"wide"									"38"
+			"tall"									"38"
 		}
 	}
 	"CarriedImage"

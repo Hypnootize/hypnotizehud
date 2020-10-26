@@ -26,18 +26,6 @@
 		"killstreak_image_width" 					"12"
 	}
 	
-	"MvMAnchor"										//Yeeeeah I'm dumb... 
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"MvMAnchor"
-		"xpos"										"c-268"
-		"ypos"										"r223"
-		"zpos"										"-2"
-		"wide"										"536"
-		"tall"										"141"
-		"visible"									"0"
-	}
-	
 	"MainBackground"								//This moves the whole scoreboard
 	{
 		"ControlName"								"EditablePanel"
@@ -555,6 +543,7 @@
 		
 		if_mvm
 		{
+			"visible"								"0"
 			"xpos"									"-12"
 			"ypos"									"-22"
 			"zpos"									"20"
@@ -582,6 +571,7 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 		
 		"paintbackground"							"0"
 		"border"									"MaterialTransparent50"
@@ -592,17 +582,12 @@
 		
 		if_mvm
 		{
-			"xpos"									"0"
-			"ypos"									"-4"
+			"xpos"									"cs-0.5"
+			"ypos"									"r43"
 			"zpos"									"20"
-			"wide"									"255"
-			"tall"									"84"
-			
-			"border"								"NoBorder"
-			
-			"pin_to_sibling" 						"MvMAnchor"
-			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
-			"pin_to_sibling_corner"					"PIN_CENTER_BOTTOM"
+			"wide"									"536"
+			"tall"									"43"
+			"pin_to_sibling" 						""
 		}
 		
 		"Separator"
@@ -629,6 +614,31 @@
 				"visible"							"0"
 			}
 		}
+		
+		"KillsLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"KillsLabel"
+			"font"									"Size 10"
+			"labelText"								"#TF_ScoreBoard_KillsLabel"
+			"textAlignment"							"west"
+			"xpos"									"32"
+			"ypos"									"6"
+			"zpos"									"3"
+			"wide"									"50"
+			"tall"									"11"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"0"
+			"enabled"								"1"
+			"AllCaps"								"1"
+			"proportionaltoparent"					"1"
+			
+			if_mvm
+			{
+				"visible"							"1"
+			}
+		}
 
 		"KillsWhite"
 		{
@@ -647,6 +657,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"Separator"
 			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
@@ -654,7 +665,45 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"font"								"Size 10"
+				"textAlignment"						"west"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"40"
+				"tall"								"11"
+				"pin_to_sibling" 					"KillsLabel"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
+			}
+		}
+		
+		"DeathsLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"DeathsLabel"
+			"font"									"Size 10"
+			"labelText"								"#TF_ScoreBoard_DeathsLabel"
+			"textAlignment"							"west"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"3"
+			"wide"									"50"
+			"tall"									"11"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"0"
+			"enabled"								"1"
+			"AllCaps"								"1"
+			"proportionaltoparent"					"1"
+			
+			if_mvm
+			{
+				"visible"							"1"
+				
+				"pin_to_sibling" 					"KillsLabel"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
 			}
 		}
 		
@@ -675,6 +724,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"Separator"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -682,7 +732,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"font"								"Size 10"
+				"textAlignment"						"west"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"40"
+				"tall"								"11"
+				"pin_to_sibling" 					"DeathsLabel"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -703,10 +762,20 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
+			"proportionaltoparent"					"1"
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"50"
+				"tall"								"11"
+				"font"								"Size 10"
+				"textAlignment"						"west"
+				"pin_to_sibling" 					"DeathsLabel"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
 			}
 		}
 		
@@ -726,6 +795,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"AssistsLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -733,7 +803,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"font"								"Size 10"
+				"textAlignment"						"west"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"40"
+				"tall"								"11"
+				"pin_to_sibling" 					"AssistsLabel"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -754,6 +833,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"AssistsLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -761,7 +841,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"70"
+				"tall"								"11"
+				"textAlignment"						"west"
+				"font"								"Size 10"
+				"pin_to_sibling" 					"KillsWhite"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -781,6 +870,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"DestructionLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -788,7 +878,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"font"								"Size 10"
+				"textAlignment"						"west"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"40"
+				"tall"								"11"
+				"pin_to_sibling" 					"DestructionLabel"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -809,6 +908,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"DestructionLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -816,7 +916,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"70"
+				"tall"								"11"
+				"textAlignment"						"west"
+				"font"								"Size 10"
+				"pin_to_sibling" 					"DeathsWhite"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -836,6 +945,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"CapturesLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -843,7 +953,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"font"								"Size 10"
+				"textAlignment"						"west"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"40"
+				"tall"								"11"
+				"pin_to_sibling" 					"CapturesLabel"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -864,6 +983,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"CapturesLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -871,7 +991,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"70"
+				"tall"								"11"
+				"textAlignment"						"west"
+				"font"								"Size 10"
+				"pin_to_sibling" 					"AssistsWhite"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -891,6 +1020,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"DefensesLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -898,7 +1028,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"font"								"Size 10"
+				"textAlignment"						"west"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"40"
+				"tall"								"11"
+				"pin_to_sibling" 					"DefensesLabel"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -919,6 +1058,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"DefensesLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -926,7 +1066,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"60"
+				"tall"								"11"
+				"textAlignment"						"west"
+				"font"								"Size 10"
+				"pin_to_sibling" 					"DestructionWhite"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -946,6 +1095,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"DominationLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -953,7 +1103,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"font"								"Size 10"
+				"textAlignment"						"west"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"40"
+				"tall"								"11"
+				"pin_to_sibling" 					"DominationLabel"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -974,6 +1133,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"DominationLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -981,7 +1141,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"60"
+				"tall"								"11"
+				"textAlignment"						"west"
+				"font"								"Size 10"
+				"pin_to_sibling" 					"CapturesWhite"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -1001,6 +1170,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"RevengeLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1008,7 +1178,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"font"								"Size 10"
+				"textAlignment"						"west"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"40"
+				"tall"								"11"
+				"pin_to_sibling" 					"RevengeLabel"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -1029,6 +1208,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"RevengeLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1036,7 +1216,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"60"
+				"tall"								"11"
+				"textAlignment"						"west"
+				"font"								"Size 10"
+				"pin_to_sibling" 					"DefensesWhite"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -1056,6 +1245,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"HealingLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1063,7 +1253,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"font"								"Size 10"
+				"textAlignment"						"west"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"40"
+				"tall"								"11"
+				"pin_to_sibling" 					"HealingLabel"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -1084,6 +1283,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"HealingLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1091,7 +1291,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"60"
+				"tall"								"11"
+				"textAlignment"						"west"
+				"font"								"Size 10"
+				"pin_to_sibling" 					"DominationWhite"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -1111,6 +1320,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"InvulnLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1118,7 +1328,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"font"								"Size 10"
+				"textAlignment"						"west"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"40"
+				"tall"								"11"
+				"pin_to_sibling" 					"InvulnLabel"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -1139,6 +1358,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"InvulnLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1146,7 +1366,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"60"
+				"tall"								"11"
+				"textAlignment"						"west"
+				"font"								"Size 10"
+				"pin_to_sibling" 					"RevengeWhite"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -1166,6 +1395,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"TeleportsLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1173,7 +1403,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"font"								"Size 10"
+				"textAlignment"						"west"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"40"
+				"tall"								"11"
+				"pin_to_sibling" 					"TeleportsLabel"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -1194,6 +1433,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"TeleportsLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1201,7 +1441,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"60"
+				"tall"								"11"
+				"textAlignment"						"west"
+				"font"								"Size 10"
+				"pin_to_sibling" 					"HealingWhite"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -1221,6 +1470,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"HeadshotsLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1228,7 +1478,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"font"								"Size 10"
+				"textAlignment"						"west"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"40"
+				"tall"								"11"
+				"pin_to_sibling" 					"HeadshotsLabel"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -1249,6 +1508,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"HeadshotsLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1256,7 +1516,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"60"
+				"tall"								"11"
+				"textAlignment"						"west"
+				"font"								"Size 10"
+				"pin_to_sibling" 					"InvulnWhite"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -1276,6 +1545,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"BackstabsLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1283,7 +1553,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"font"								"Size 10"
+				"textAlignment"						"west"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"40"
+				"tall"								"11"
+				"pin_to_sibling" 					"BackstabsLabel"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -1304,6 +1583,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"BackstabsLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1312,6 +1592,15 @@
 			if_mvm
 			{
 				"visible"							"0"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"60"
+				"tall"								"11"
+				"textAlignment"						"west"
+				"font"								"Size 10"
+				"pin_to_sibling" 					"TeleportsWhite"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -1331,6 +1620,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"BonusLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1339,6 +1629,15 @@
 			if_mvm
 			{
 				"visible"							"0"
+				"font"								"Size 10"
+				"textAlignment"						"west"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"40"
+				"tall"								"11"
+				"pin_to_sibling" 					"BonusLabel"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -1359,6 +1658,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"BonusLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1366,7 +1666,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"60"
+				"tall"								"11"
+				"textAlignment"						"west"
+				"font"								"Size 10"
+				"pin_to_sibling" 					"TeleportsWhite"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -1386,6 +1695,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"SupportLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1393,7 +1703,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"font"								"Size 10"
+				"textAlignment"						"west"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"40"
+				"tall"								"11"
+				"pin_to_sibling" 					"SupportLabel"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -1414,6 +1733,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"SupportLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1421,7 +1741,16 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
+				"visible"							"1"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"60"
+				"tall"								"11"
+				"textAlignment"						"west"
+				"font"								"Size 10"
+				"pin_to_sibling" 					"HeadshotsWhite"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 		
@@ -1441,6 +1770,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling" 						"DamageLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1448,356 +1778,18 @@
 			
 			if_mvm
 			{
-				"visible"							"0"
-			}
-		}
-		
-		/////////////////////////////////////////////////////////////////
-		///////////////////////////////MVM///////////////////////////////
-		/////////////////////////////////////////////////////////////////
-		
-		"MvMKillsLabel"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"MvMKillsLabel"
-			"font"									"Size 10"
-			"fgcolor" 								"White"
-			"labelText"								"#TF_ScoreBoard_KillsLabel"
-			"textAlignment"							"west"
-			"xpos"									"13"
-			"ypos"									"21"
-			"zpos"									"3"
-			"wide"									"70"
-			"tall"									"10"
-			"autoResize"							"0"
-			"pinCorner"								"0"
-			"visible"								"0"
-			"enabled"								"1"
-			"AllCaps"								"1"
-			
-			if_mvm
-			{
 				"visible"							"1"
+				"font"								"Size 10"
+				"textAlignment"						"west"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"40"
+				"tall"								"11"
+				"pin_to_sibling" 					"DamageLabel"
+				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
-		
-		"MvMKills"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"MvMKills"
-			"font"									"Size 10"
-			"fgcolor" 								"White"
-			"labelText"								"%kills%"
-			"textAlignment"							"east"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"3"
-			"wide"									"30"
-			"tall"									"10"
-			"autoResize"							"0"
-			"pinCorner"								"0"
-			"visible"								"0"
-			"enabled"								"1"
-			
-			"pin_to_sibling" 						"MvMKillsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
-			
-			if_mvm
-			{
-				"visible"							"1"
-			}
-		}
-		
-		"MvMDeathsLabel"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"MvMDeathsLabel"
-			"font"									"Size 10"
-			"fgcolor" 								"White"
-			"labelText"								"#TF_ScoreBoard_DeathsLabel"
-			"textAlignment"							"west"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"3"
-			"wide"									"70"
-			"tall"									"10"
-			"autoResize"							"0"
-			"pinCorner"								"0"
-			"visible"								"0"
-			"enabled"								"1"
-			"AllCaps"								"1"
-			
-			"pin_to_sibling" 						"MvMKillsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
-			
-			if_mvm
-			{
-				"visible"							"1"
-			}
-		}
-		
-		"MvMDeaths"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"MvMDeaths"
-			"font"									"Size 10"
-			"fgcolor" 								"White"
-			"labelText"								"%deaths%"
-			"textAlignment"							"east"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"3"
-			"wide"									"30"
-			"tall"									"10"
-			"autoResize"							"0"
-			"pinCorner"								"0"
-			"visible"								"0"
-			"enabled"								"1"
-			
-			"pin_to_sibling" 						"MvMDeathsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
-			
-			if_mvm
-			{
-				"visible"							"1"
-			}
-		}
-		
-		"MvMAssistsLabel"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"MvMAssistsLabel"
-			"font"									"Size 10"
-			"fgcolor" 								"White"
-			"labelText"								"#TF_ScoreBoard_AssistsLabel"
-			"textAlignment"							"west"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"3"
-			"wide"									"70"
-			"tall"									"10"
-			"autoResize"							"0"
-			"pinCorner"								"0"
-			"visible"								"0"
-			"enabled"								"1"
-			"AllCaps"								"1"
-			
-			"pin_to_sibling" 						"MvMDeathsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
-			
-			if_mvm
-			{
-				"visible"							"1"
-			}
-		}
-		
-		"MvMAssists"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"MvMAssists"
-			"font"									"Size 10"
-			"fgcolor" 								"White"
-			"labelText"								"%assists%"
-			"textAlignment"							"east"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"3"
-			"wide"									"30"
-			"tall"									"10"
-			"autoResize"							"0"
-			"pinCorner"								"0"
-			"visible"								"0"
-			"enabled"								"1"
-			
-			"pin_to_sibling" 						"MvMAssistsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
-			
-			if_mvm
-			{
-				"visible"							"1"
-			}
-		}
-		
-		"MvMTeleportsLabel"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"MvMTeleportsLabel"
-			"font"									"Size 10"
-			"fgcolor" 								"White"
-			"labelText"								"#TF_ScoreBoard_TeleportsLabel"
-			"textAlignment"							"west"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"3"
-			"wide"									"70"
-			"tall"									"10"
-			"autoResize"							"0"
-			"pinCorner"								"0"
-			"visible"								"0"
-			"enabled"								"1"
-			"AllCaps"								"1"
-			
-			"pin_to_sibling" 						"MvMAssistsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
-			
-			if_mvm
-			{
-				"visible"							"1"
-			}
-		}
-		
-		"MvMTeleports"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"MvMTeleports"
-			"font"									"Size 10"
-			"fgcolor" 								"White"
-			"labelText"								"%teleports%"
-			"textAlignment"							"east"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"3"
-			"wide"									"30"
-			"tall"									"10"
-			"autoResize"							"0"
-			"pinCorner"								"0"
-			"visible"								"0"
-			"enabled"								"1"
-			
-			"pin_to_sibling" 						"MvMTeleportsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
-			
-			if_mvm
-			{
-				"visible"							"1"
-			}
-		}
-		
-		"MvMHeadshotsLabel"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"MvMHeadshotsLabel"
-			"font"									"Size 10"
-			"fgcolor" 								"White"
-			"labelText"								"#TF_ScoreBoard_HeadshotsLabel"
-			"textAlignment"							"west"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"3"
-			"wide"									"70"
-			"tall"									"10"
-			"autoResize"							"0"
-			"pinCorner"								"0"
-			"visible"								"0"
-			"enabled"								"1"
-			"AllCaps"								"1"
-			
-			"pin_to_sibling" 						"MvMTeleportsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
-			
-			if_mvm
-			{
-				"visible"							"1"
-			}
-		}
-		
-		"MvMHeadshots"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"MvMHeadshots"
-			"font"									"Size 10"
-			"fgcolor" 								"White"
-			"labelText"								"%headshots%"
-			"textAlignment"							"east"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"3"
-			"wide"									"30"
-			"tall"									"10"
-			"autoResize"							"0"
-			"pinCorner"								"0"
-			"visible"								"0"
-			"enabled"								"1"
-			
-			"pin_to_sibling" 						"MvMHeadshotsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
-			
-			if_mvm
-			{
-				"visible"							"1"
-			}
-		}
-		
-		"MvMInvulnLabel"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"MvMInvulnLabel"
-			"font"									"Size 10"
-			"fgcolor" 								"White"
-			"labelText"								"#TF_ScoreBoard_InvulnLabel"
-			"textAlignment"							"west"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"3"
-			"wide"									"70"
-			"tall"									"10"
-			"autoResize"							"0"
-			"pinCorner"								"0"
-			"visible"								"0"
-			"enabled"								"1"
-			"AllCaps"								"1"
-			
-			"pin_to_sibling" 						"MvMHeadshotsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
-			
-			if_mvm
-			{
-				"visible"							"1"
-			}
-		}
-		
-		"MvMInvuln"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"MvMInvuln"
-			"font"									"Size 10"
-			"fgcolor" 								"White"
-			"labelText"								"%Invulns%"
-			"textAlignment"							"east"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"3"
-			"wide"									"30"
-			"tall"									"10"
-			"autoResize"							"0"
-			"pinCorner"								"0"
-			"visible"								"0"
-			"enabled"								"1"
-			
-			"pin_to_sibling" 						"MvMInvulnLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
-			
-			if_mvm
-			{
-				"visible"							"1"
-			}
-		}
-		
-		
-		
-		
-		
 		
 		
 		"Kills"

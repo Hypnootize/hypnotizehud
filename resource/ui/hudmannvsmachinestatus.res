@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"CWaveStatusPanel"
 		"fieldName"									"WaveStatusPanel"
-		"xpos"										"c-300"
+		"xpos"										"cs-0.5"
 		"ypos"										"0"
 		"zpos"										"0"
 		"wide"										"600"
@@ -230,7 +230,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"image"									"replay/thumbnails/panels/material_red_transparent70"
+			"image"									"replay/thumbnails/panels/material_red_transparent50"
 
 			"src_corner_height"						"24"
 			"src_corner_width"						"24"
@@ -243,7 +243,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ServerChangeLabel"
-			"font"									"Size 12"
+			"font"									"Size 10"
 			"textAlignment"							"center"
 			"labelText"								"%servermessage%"
 			"xpos"									"c-90"

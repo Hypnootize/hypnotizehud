@@ -1,7 +1,7 @@
 "Resource/UI/MainMenuOverride.res"
 {
 	///HEALTH CROSS///
-	"HealthColor"
+	"HealthColor"			//DOESN'T EVEN WORK :(
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"HealthColor"
@@ -867,5 +867,88 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"../hud/objectives_timepanel_blue_bg"
+	}
+	
+	///MVM BUY BUTTONS///
+	"BuyDisabled"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BuyDisabled"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"pve/buy_disabled"
+	}
+	"BuyEnabled"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BuyEnabled"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"pve/buy_enabled"
+	}
+	"BuySelected"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BuySelected"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"pve/buy_selected"
+	}
+	"SellDisabled"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"SellDisabled"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"pve/sell_disabled"
+	}
+	"SellEnabled"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"SellEnabled"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"pve/sell_enabled"
+	}
+	"SellSelected"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"SellSelected"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"pve/sell_selected"
+	}
+	"UpgradeOwned"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"UpgradeOwned"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"pve/upgrade_owned"
+	}
+	"UpgradePurchased"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"UpgradePurchased"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"pve/upgrade_purchased"
+	}
+	"UpgradeUnowned"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"UpgradeUnowned"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"pve/upgrade_unowned"
 	}
 }
