@@ -10,5 +10,5 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 
-#base "../resource/ui/PauseMenuGrey.res"				// DEFAULT GREY BACKGROUND
-//#base "../resource/ui/PauseMenuTransparent.res"		// TRANSPARENT BACKGROUND
+#base "../resource/ui/pausemenugrey.res"				// DEFAULT GREY BACKGROUND
+//#base "../resource/ui/pausemenutransparent.res"		// TRANSPARENT BACKGROUND

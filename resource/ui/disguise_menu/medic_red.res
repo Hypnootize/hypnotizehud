@@ -1,4 +1,4 @@
-#base "Medic_Blue.res"
+#base "medic_blue.res"
 
 "Resource/UI/disguise_menu/medic_red.res"
 {

@@ -10,5 +10,5 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 
-//#base "../resource/ui/Scoreboard_NoStats.res"			// SHORT STATS SCOREBOARD
-#base "../resource/ui/Scoreboard_FullStats.res"			// FULL STATS SCOREBOARD
+//#base "../resource/ui/scoreboard_nostats.res"			// SHORT STATS SCOREBOARD
+#base "../resource/ui/scoreboard_fullstats.res"			// FULL STATS SCOREBOARD

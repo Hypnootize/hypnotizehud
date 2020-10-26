@@ -1,4 +1,4 @@
-#base "Spy_Blue.res"
+#base "spy_blue.res"
 
 "Resource/UI/disguise_menu/spy_red.res"
 {

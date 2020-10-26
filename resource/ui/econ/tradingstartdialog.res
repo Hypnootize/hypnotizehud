@@ -1,4 +1,4 @@
-#base "../../../resource/tools/ReloadSchemeButton.res"
+#base "../../../resource/tools/reloadschemebutton.res"
 
 "Resource/UI/TradingStartDialog.res"
 {

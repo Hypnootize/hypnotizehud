@@ -1,4 +1,4 @@
-#base "Heavy_Blue.res"
+#base "heavy_blue.res"
 
 "Resource/UI/disguise_menu/heavy_red.res"
 {

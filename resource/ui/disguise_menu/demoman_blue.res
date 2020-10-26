@@ -1,4 +1,4 @@
-#base "Scout_Blue.res"
+#base "scout_blue.res"
 
 "Resource/UI/disguise_menu/demoman_blue.res"
 {

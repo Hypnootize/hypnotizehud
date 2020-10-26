@@ -1,4 +1,4 @@
-#base "Sniper_Blue.res"
+#base "sniper_blue.res"
 
 "Resource/UI/disguise_menu/sniper_red.res"
 {

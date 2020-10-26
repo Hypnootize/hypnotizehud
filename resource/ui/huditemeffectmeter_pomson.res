@@ -1,1 +1,1 @@
-#base "HudItemEffectMeter_scout.res"
+#base "huditemeffectmeter_scout.res"

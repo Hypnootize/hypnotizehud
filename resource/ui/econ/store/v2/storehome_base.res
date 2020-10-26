@@ -1,4 +1,4 @@
-#base "../../../../../resource/tools/ReloadSchemeButton.res"
+#base "../../../../../resource/tools/reloadschemebutton.res"
 
 "Resource/UI/StoreHome_Base.res"
 {
@@ -333,6 +333,8 @@
 		"labelText"									"&A"
 		"Command"									"prevpage"
 		"visible"									"1"
+		"sound_depressed"    						"UI/buttonclick.wav"
+		"sound_released"     						"UI/buttonclickrelease.wav"
 	}
 	
 	"CurPageLabel"
@@ -401,6 +403,8 @@
 		"labelText"									"&D"
 		"Command"									"nextpage"
 		"visible"									"1"
+		"sound_depressed"    						"UI/buttonclick.wav"
+		"sound_released"     						"UI/buttonclickrelease.wav"
 	}
 	
 	"CartButton"

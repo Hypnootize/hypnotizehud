@@ -1,1 +1,1 @@
-#base "../../customizations/Team Status.res"
+#base "../../customizations/team status.res"

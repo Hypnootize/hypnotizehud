@@ -6,26 +6,26 @@
 ///////////////////COLORS//////////////////
 ///////////////////////////////////////////
 
-#base "../resource/scheme/Colors.res"
-#base "../customizations/Colors.res"
+#base "../resource/scheme/colors.res"
+#base "../customizations/colors.res"
 
 ///////////////////////////////////////////
 ////////////////////FONTS//////////////////
 ///////////////////////////////////////////
 
-#base "../customizations/Alternative Fonts.res"
-#base "../resource/scheme/Fonts.res"
-#base "../resource/scheme/Symbols.res"
+#base "../customizations/alternative fonts.res"
+#base "../resource/scheme/fonts.res"
+#base "../resource/scheme/symbols.res"
 
 ///////////////////////////////////////////
 //////////////////BORDERS//////////////////
 ///////////////////////////////////////////
 
-#base "../resource/scheme/Borders.res"
+#base "../resource/scheme/borders.res"
 
 ///////////////////////////////////////////
 ////////////////CROSSHAIRS/////////////////
 ///////////////////////////////////////////
 
-#base "../resource/scheme/Crosshairs.res"
-//#base "../resource/scheme/Crosshairs_Blur.res"
+#base "../resource/scheme/crosshairs.res"
+//#base "../resource/scheme/crosshairs_blur.res"
