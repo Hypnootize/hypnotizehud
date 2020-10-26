@@ -248,7 +248,7 @@
 
 				"Slider"
 				{
-					"fgcolor_override"				"White"
+					"fgcolor_override"				"WhiteDark"
 				}
 		
 				"UpButton"

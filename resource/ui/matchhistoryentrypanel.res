@@ -39,8 +39,8 @@
 			"labeltext"								""
 			
 			"paintborder"							"1"
-			"defaultBgColor_override"				"GrayDarker"
-			"armedBgColor_override"					"GrayLight"
+			"defaultBgColor_override"				"GrayDark"
+			"armedBgColor_override"					"GrayMedium"
 
 			"sound_armed"							"ui/item_info_mouseover.wav"
 			"sound_depressed"						"UI/buttonclick.wav"

@@ -202,9 +202,9 @@
 					"paintbackground"				"1"
 					
 					"defaultBgColor_override"		"GrayDarker"
-					"armedBgColor_override"			"GrayLight"
-					"selectedBgColor_override"		"GrayLight"
-					"depressedBgColor_override" 	"GrayLight"
+					"armedBgColor_override"			"GrayMedium"
+					"selectedBgColor_override"		"GrayMedium"
+					"depressedBgColor_override" 	"GrayMedium"
 
 					"defaultFgColor_override"		"White"
 					"armedFgColor_override"			"White"
@@ -235,9 +235,9 @@
 					"paintbackground"				"1"
 					
 					"defaultBgColor_override"		"GrayDarker"
-					"armedBgColor_override"			"GrayLight"
-					"selectedBgColor_override"		"GrayLight"
-					"depressedBgColor_override" 	"GrayLight"
+					"armedBgColor_override"			"GrayMedium"
+					"selectedBgColor_override"		"GrayMedium"
+					"depressedBgColor_override" 	"GrayMedium"
 
 					"defaultFgColor_override"		"White"
 					"armedFgColor_override"			"White"
@@ -268,12 +268,12 @@
 					"paintbackground"				"1"
 					
 					"defaultBgColor_override"		"GrayDarker"
-					"armedBgColor_override"			"GrayLight"
-					"depressedBgColor_override" 	"GrayLight"
+					"armedBgColor_override"			"GrayMedium"
+					"depressedBgColor_override" 	"GrayMedium"
 
 					"defaultFgColor_override"		"White"
 					"armedFgColor_override"			"White"
-					"selectedBgColor_override"		"GrayLight"
+					"selectedBgColor_override"		"GrayMedium"
 					"depressedFgColor_override" 	"White"
 					
 					"command"						"sort2"
@@ -300,9 +300,9 @@
 					"paintbackground"				"1"
 					
 					"defaultBgColor_override"		"GrayDarker"
-					"armedBgColor_override"			"GrayLight"
-					"selectedBgColor_override"		"GrayLight"
-					"depressedBgColor_override" 	"GrayLight"
+					"armedBgColor_override"			"GrayMedium"
+					"selectedBgColor_override"		"GrayMedium"
+					"depressedBgColor_override" 	"GrayMedium"
 
 					"defaultFgColor_override"		"White"
 					"armedFgColor_override"			"White"
@@ -339,7 +339,7 @@
 
 					"Slider"
 					{
-						"fgcolor_override"			"White"
+						"fgcolor_override"			"WhiteDark"
 					}
 		
 					"UpButton"

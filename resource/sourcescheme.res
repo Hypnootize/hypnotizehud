@@ -9,8 +9,8 @@ Scheme
 		
 		"DarkBG"											"20 21 23 255"
 		"DarkBGInactive"									"20 21 23 125"
-		"LightBG"											"47 48 50 255"
-		"LightBGInactive"									"47 48 50 125"
+		"LightBG"											"46 47 50 255"
+		"LightBGInactive"									"46 47 50 125"
 		
 		"White"												"227 228 230 255"
 		"Black"												"15 16 18 255"
