@@ -2027,7 +2027,7 @@
 				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Game 18"
+				"font"								"Size 18"
 				"proportionaltoparent"				"1"
 				
 				"pin_to_sibling" 					"AvatarImage"
@@ -2122,7 +2122,7 @@
 				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Game 18"
+				"font"								"Size 18"
 				"proportionaltoparent"				"1"
 				
 				"pin_to_sibling" 					"AvatarImage"
