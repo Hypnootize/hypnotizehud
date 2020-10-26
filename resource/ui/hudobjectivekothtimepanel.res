@@ -16,7 +16,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"Game 20"
+			"font"									"Size 20"
 			"fgcolor"								"White"
 			"xpos"									"20"
 			"ypos"									"0"
@@ -46,7 +46,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"Game 20"
+			"font"									"Size 20"
 			"fgcolor"								"White"
 			"xpos"									"20"
 			"ypos"									"0"

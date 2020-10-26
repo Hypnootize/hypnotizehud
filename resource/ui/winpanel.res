@@ -90,7 +90,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BlueTeamScore"
-			"font"									"Game 20"
+			"font"									"Size 20"
 			"fgcolor"								"White"
 			"labelText"								"%blueteamscore%"
 			"textAlignment"							"east"
@@ -112,7 +112,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BlueTeamScoreShadow"
-			"font"									"Game 20 Blur"
+			"font"									"Size 20 Blur"
 			"fgcolor"								"Shadow"
 			"labelText"								"%blueteamscore%"
 			"textAlignment"							"east"
@@ -174,7 +174,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RedTeamScore"
-			"font"									"Game 20"
+			"font"									"Size 20"
 			"fgcolor"								"White"
 			"labelText"								"%redteamscore%"
 			"textAlignment"							"west"
@@ -196,7 +196,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RedTeamScoreShadow"
-			"font"									"Game 20 Blur"
+			"font"									"Size 20 Blur"
 			"fgcolor"								"Shadow"
 			"labelText"								"%redteamscore%"
 			"textAlignment"							"west"

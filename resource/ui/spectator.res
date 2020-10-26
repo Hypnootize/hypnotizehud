@@ -30,7 +30,7 @@
 		"enabled"									"1"
 		"labelText"									"#game_respawntime_in_secs"
 		"textAlignment"								"center"
-		"font"										"Game 12"
+		"font"										"Size 12"
 		"fgcolor_override"   						"White"
 		"AllCaps"   								"1"
 		"proportionaltoparent"   					"1"
@@ -42,22 +42,17 @@
 		"fieldName"									"BuyBackLabel"
 		"xpos"										"0"
 		"ypos"										"0"
-		"wide"										"320"
-		"tall"										"30"
+		"wide"										"400"
+		"tall"										"f0"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									""
 		"textAlignment"								"center"
-		"font"										"Game 16"
+		"font"										"Size 14"
 		"wrap"										"1"
 		"centerwrap"								"1"
-		
-		if_mvm
-		{
-			"visible"								"1"
-		}
 	}
 	
 	"itempanel"
@@ -133,120 +128,103 @@
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	//BIN
 	"topbar"
 	{
-		"ControlName"	"Panel"
-		"fieldName"		"TopBar"
-		"xpos"			"0"
-		"ypos"			"0"
-		"tall"			"0"
-		"wide"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
+		"ControlName"								"Panel"
+		"fieldName"									"TopBar"
+		"xpos"										"0"
+		"ypos"										"0"
+		"tall"										"0"
+		"wide"										"f0"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"0"
+		"enabled"									"1"
+		"tabPosition"								"0"
 	}
 	
 	"BottomBar"
 	{
-		"ControlName"	"Frame"
-		"fieldName"		"BottomBar"
-		"xpos"			"0"
-		"ypos"			"r0"
-		"tall"			"0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"0"
-		"tabPosition"	"0"
+		"ControlName"								"Frame"
+		"fieldName"									"BottomBar"
+		"xpos"										"0"
+		"ypos"										"r0"
+		"tall"										"0"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"0"
+		"tabPosition"								"0"
 	}
 	
 	"bottombarblank"
 	{
-		"ControlName"	"Panel"
-		"fieldName"		"bottombarblank"
-		"xpos"			"0"
-		"ypos"			"r0"
-		"tall"			"0"
-		"wide"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
+		"ControlName"								"Panel"
+		"fieldName"									"bottombarblank"
+		"xpos"										"0"
+		"ypos"										"r0"
+		"tall"										"0"
+		"wide"										"f0"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"0"
+		"enabled"									"1"
+		"tabPosition"								"0"
 	}
 	
 	"MapLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"MapLabel"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"MapLabel"
+		"xpos"										"9999"
 	}
 	"ClassOrTeamLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ClassOrTeamLabel"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"ClassOrTeamLabel"
+		"xpos"										"9999"
 	}
 	"SwitchCamModeKeyLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SwitchCamModeKeyLabel"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"SwitchCamModeKeyLabel"
+		"xpos"										"9999"
 	}
 	"SwitchCamModeLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SwitchCamModeLabel"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"SwitchCamModeLabel"
+		"xpos"										"9999"
 	}
 	"CycleTargetFwdKeyLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CycleTargetFwdKeyLabel"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"CycleTargetFwdKeyLabel"
+		"xpos"										"9999"
 	}
 	"CycleTargetFwdLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CycleTargetFwdLabel"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"CycleTargetFwdLabel"
+		"xpos"										"9999"
 	}
 	"CycleTargetRevKeyLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CycleTargetRevKeyLabel"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"CycleTargetRevKeyLabel"
+		"xpos"										"9999"
 	}
 	"CycleTargetRevLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CycleTargetRevLabel"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"CycleTargetRevLabel"
+		"xpos"										"9999"
 	}
 	"TipLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TipLabel"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"TipLabel"
+		"xpos"										"9999"
 	}
 }

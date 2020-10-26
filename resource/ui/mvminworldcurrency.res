@@ -19,7 +19,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurrencyGood"
-		"font"										"Game 12"
+		"font"										"Size 12"
 		"fgcolor"									"White"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -36,7 +36,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurrencyBad"
-		"font"										"Game 12"
+		"font"										"Size 12"
 		"fgcolor"									"White"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -53,7 +53,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurrencyShadow"
-		"font"										"Game 12 Blur"
+		"font"										"Size 12 Blur"
 		"fgcolor"									"Shadow"
 		"xpos"										"1"
 		"ypos"										"1"

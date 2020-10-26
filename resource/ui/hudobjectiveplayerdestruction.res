@@ -158,7 +158,7 @@
 			"enabled"								"1"
 			"textAlignment"							"east"	
 			"labelText"								"%flagvalue%"
-			"font"									"Game 14"
+			"font"									"Size 14"
 			"fgcolor"								"White"	
 			"proportionalToParent"					"1"	
 		}
@@ -257,7 +257,7 @@
 				"enabled"							"1"
 				"textAlignment"						"west"	
 				"labelText"							"%blue_escrow%"
-				"font"								"Game 16"
+				"font"								"Size 16"
 				"fgcolor"							"White"		
 				"proportionalToParent"				"1"
 				
@@ -279,7 +279,7 @@
 				"enabled"							"1"
 				"textAlignment"						"west"	
 				"labelText"							"%blue_escrow%"
-				"font"								"Game 16 Blur"
+				"font"								"Size 16 Blur"
 				"fgcolor"							"Shadow"		
 				"proportionalToParent"				"1"
 				
@@ -315,7 +315,7 @@
 				"enabled"							"1"
 				"textAlignment"						"east"	
 				"labelText"							"%red_escrow%"
-				"font"								"Game 16"
+				"font"								"Size 16"
 				"fgcolor"							"White"		
 				"proportionalToParent"				"1"
 				
@@ -337,7 +337,7 @@
 				"enabled"							"1"
 				"textAlignment"						"east"	
 				"labelText"							"%red_escrow%"
-				"font"								"Game 16 Blur"
+				"font"								"Size 16 Blur"
 				"fgcolor"							"Shadow"		
 				"proportionalToParent"				"1"
 				
@@ -370,7 +370,7 @@
 					"enabled"						"1"
 					"textAlignment"					"west"
 					"labelText"						"WIN:"
-					"font"							"Game 12"
+					"font"							"Size 12"
 					"fgcolor"						"White"
 					"proportionalToParent"			"1"
 				}
@@ -388,7 +388,7 @@
 					"enabled"						"1"
 					"textAlignment"					"east"	
 					"labelText"						"%victorytime%"
-					"font"							"Game 14"
+					"font"							"Size 14"
 					"fgcolor"						"White"		
 					"proportionalToParent"			"1"
 					
@@ -461,7 +461,7 @@
 					"enabled"						"1"
 					"textAlignment"					"west"
 					"labelText"						"WIN:"
-					"font"							"Game 12"
+					"font"							"Size 12"
 					"fgcolor"						"White"
 					"proportionalToParent"			"1"
 				}
@@ -479,7 +479,7 @@
 					"enabled"						"1"
 					"textAlignment"					"east"
 					"labelText"						"%victorytime%"
-					"font"							"Game 14"
+					"font"							"Size 14"
 					"fgcolor"						"White"		
 					"proportionalToParent"			"1"
 					
@@ -553,7 +553,7 @@
 				"enabled"							"1"
 				"textAlignment"						"west"	
 				"labelText"							"%score%"
-				"font"								"Game 16"
+				"font"								"Size 16"
 				"fgcolor"							"White"		
 				"proportionalToParent"				"1"
 			}	
@@ -605,7 +605,7 @@
 				"enabled"							"1"
 				"textAlignment"						"east"	
 				"labelText"							"%score%"
-				"font"								"Game 16"
+				"font"								"Size 16"
 				"fgcolor"							"White"	
 				"proportionalToParent"				"1"	
 			}	
@@ -704,7 +704,7 @@
 				"enabled"							"1"
 				"textAlignment"						"center"	
 				"labelText"							"%intelvalue%"
-				"font"								"Game 16"
+				"font"								"Size 16"
 				"fgcolor"							"White"		
 				"bgcolor_override"					"Blank"
 				"proportionalToParent"				"1"
@@ -723,7 +723,7 @@
 				"enabled"							"1"
 				"textAlignment"						"center"	
 				"labelText"							"%intelvalue%"
-				"font"								"Game 16 Blur"	
+				"font"								"Size 16 Blur"	
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
 				
@@ -806,7 +806,7 @@
 				"enabled"							"1"
 				"textAlignment"						"center"	
 				"labelText"							"%intelvalue%"
-				"font"								"Game 16"
+				"font"								"Size 16"
 				"fgcolor"							"White"		
 				"bgcolor_override"					"Blank"
 				"proportionalToParent"				"1"
@@ -825,7 +825,7 @@
 				"enabled"							"1"
 				"textAlignment"						"center"	
 				"labelText"							"%intelvalue%"
-				"font"								"Game 16 Blur"	
+				"font"								"Size 16 Blur"	
 				"fgcolor"							"Shadow"	
 				"proportionalToParent"				"1"
 				
@@ -879,7 +879,7 @@
 			"enabled"								"1"
 			"textAlignment"							"center"	
 			"labelText"								"%countdowntime%"
-			"font"									"Game 16"
+			"font"									"Size 16"
 			"fgcolor"								"White"
 			"proportionalToParent"					"1"
 		}
@@ -897,7 +897,7 @@
 			"enabled"								"1"
 			"textAlignment"							"center"	
 			"labelText"								"%countdowntime%"
-			"font"									"Game 16 Blur"
+			"font"									"Size 16 Blur"
 			"fgcolor"								"Shadow"		
 			"proportionalToParent"					"1"
 			

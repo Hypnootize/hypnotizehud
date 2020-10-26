@@ -60,7 +60,7 @@
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"Game 12"
+		"font"										"Size 12"
 		"fgcolor_override"							"White"
 	}
 	
@@ -81,7 +81,7 @@
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"Game 12 Blur"
+		"font"										"Size 12 Blur"
 		"fgcolor_override"							"Shadow"
 	}
 	

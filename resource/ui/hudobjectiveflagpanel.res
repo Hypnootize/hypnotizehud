@@ -23,10 +23,10 @@
 		}
 	}
 	
-	"PlayingToBG"
+	"BlackTransparentBG"
 	{
 		"ControlName"								"CExImageButton"
-		"fieldName"									"PlayingToBG"
+		"fieldName"									"BlackTransparentBG"
 		"xpos"										"cs-0.5"
 		"ypos"										"r18"
 		"zpos"										"1"
@@ -73,7 +73,7 @@
 		"font"										"Size 8"
 		"fgcolor"									"White"
 		
-		"pin_to_sibling"							"PlayingToBG"
+		"pin_to_sibling"							"BlackTransparentBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 		
@@ -107,7 +107,7 @@
 		"PaintBackground"							"0"
 		"border_default"							"MaterialBlue"
         "textinsety" 								"99"
-		"pin_to_sibling"							"PlayingToBG"
+		"pin_to_sibling"							"BlackTransparentBG"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 
@@ -140,7 +140,7 @@
 		"enabled"									"1"
 		"textAlignment"								"west"	
 		"labelText"									"%bluescore%"
-		"font"										"Game 18"
+		"font"										"Size 18"
 		"fgcolor"									"White"
 		"pin_to_sibling"							"BlueScoreBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
@@ -174,7 +174,7 @@
 		"enabled"									"1"
 		"textAlignment"								"west"	
 		"labelText"									"%bluescore%"
-		"font"										"Game 18 Blur"
+		"font"										"Size 18 Blur"
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"BlueScore"
 		
@@ -210,7 +210,7 @@
 		"PaintBackground"							"0"
 		"border_default"							"MaterialRed"
         "textinsety" 								"99"
-		"pin_to_sibling"							"PlayingToBG"
+		"pin_to_sibling"							"BlackTransparentBG"
 		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
@@ -243,7 +243,7 @@
 		"enabled"									"1"
 		"textAlignment"								"east"	
 		"labelText"									"%redscore%"
-		"font"										"Game 18"
+		"font"										"Size 18"
 		"fgcolor"									"White"
 		"pin_to_sibling"							"RedScoreBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
@@ -277,7 +277,7 @@
 		"enabled"									"1"
 		"textAlignment"								"east"	
 		"labelText"									"%redscore%"
-		"font"										"Game 18 Blur"
+		"font"										"Size 18 Blur"
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"RedScore"
 		
@@ -309,32 +309,24 @@
 		"visible"									"1"
 		"enabled"									"1"
 		
-		"if_hybrid"
-		{
-			"visible"								"0"
-			"ypos"									"r100"
-		}
-		
 		"if_hybrid_single"
 		{
 			"xpos"									"c-55"
-			"ypos"									"r25"
+			"ypos"									"r39"
 		}
 		
-		"if_hybrid_double"
+		"if_specialdelivery"
 		{
-			"xpos"									"c-115"
+			"ypos"									"r35"
 		}
 		
 		"if_no_flags"
 		{
 			"visible"								"0"
 		}
-
-		"if_specialdelivery"
+		"if_hybrid"
 		{
-			"visible"								"1"
-			"ypos"									"r35"
+			"visible"								"0"
 		}
 	}
 	
@@ -350,32 +342,23 @@
 		"visible"									"1"
 		"enabled"									"1"
 		
-		"if_hybrid"
-		{
-			"visible"								"0"
-			"ypos"									"r100"
-		}
-		
 		"if_hybrid_single"
 		{
 			"xpos"									"c-55"
-			"ypos"									"r25"
+			"ypos"									"r39"
 		}
 		
-		"if_hybrid_double"
-		{
-			"xpos"									"c-45"
-		}
-		
-		"if_no_flags"
-		{
-			"visible"								"0"
-		}
-
 		"if_specialdelivery"
 		{
 			"visible"								"0"
-			"ypos" 									"9999"
+		}
+		"if_hybrid"
+		{
+			"visible"								"0"
+		}
+		"if_no_flags"
+		{
+			"visible"								"0"
 		}
 	}	
 	
@@ -394,7 +377,7 @@
 		
 		"if_hybrid"
 		{
-			"ypos"									"r100"
+			"ypos"									"r43"
 		}
 
 		"if_specialdelivery"
@@ -405,6 +388,7 @@
 			"tall"									"38"
 		}
 	}
+	
 	"CarriedImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -422,7 +406,7 @@
 		
 		"if_hybrid"
 		{
-			"ypos"									"r142"
+			"ypos"									"r35"
 		}
 
 		"if_specialdelivery"
@@ -458,7 +442,7 @@
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"labelText"									"%redscore%"
-		"font"										"Game 24"
+		"font"										"Size 24"
 		"fgcolor"									"White"
 	}
 	"PoisonTimeLabelShadow"
@@ -474,7 +458,7 @@
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"labelText"									"%redscore%"
-		"font"										"Game 24 Blur"
+		"font"										"Size 24 Blur"
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"PoisonTimeLabel"
 	}
@@ -506,6 +490,12 @@
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"OutlineImage"
+		"xpos"										"9999"
+	}
+	"PlayingToBG"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"PlayingToBG"
 		"xpos"										"9999"
 	}
 }

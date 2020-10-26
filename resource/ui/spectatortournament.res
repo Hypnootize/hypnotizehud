@@ -111,7 +111,7 @@
 				"enabled"			     	       	"1"					
 				"HealthBonusPosAdj"	     			"10"
 				"HealthDeathWarning"		 		"0.49"
-				"TFFont"					        "Game 11"
+				"TFFont"					        "Size 11"
 				"HealthDeathWarningColor"	        "HUDDeathWarning"
 				"TextColor"					        "HudOffWhite"
 				"proportionaltoparent"				"1"
@@ -121,7 +121,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"RespawnTime"
-				"font"								"Game 12"
+				"font"								"Size 12"
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"6"
@@ -140,7 +140,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"RespawnTimeShadow"
-				"font"								"Game 12 Blur"
+				"font"								"Size 12 Blur"
 				"xpos"								"-1"
 				"ypos"								"-1"
 				"zpos"								"5"
@@ -235,7 +235,7 @@
 		"enabled"									"1"
 		"labelText"									"#game_respawntime_in_secs"
 		"textAlignment"								"center"
-		"font"										"Game 12"
+		"font"										"Size 12"
 		"fgcolor_override"   						"White"
 		"AllCaps"   								"1"
 		"proportionaltoparent"   					"1"
@@ -245,7 +245,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BuyBackLabel"
-		"xpos"										"c-190"
+		"xpos"										"cs-0.5"
 		"ypos"										"16"
 		"wide"										"380"
 		"tall"										"14"
@@ -258,7 +258,8 @@
 		"font"										"Size 14"
 		"wrap"										"1"
 		"centerwrap"								"1"
-
+		"proportionaltoparent"   					"1"
+	
 		if_mvm
 		{
 			"visible"								"1"

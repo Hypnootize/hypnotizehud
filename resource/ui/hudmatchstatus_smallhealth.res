@@ -13,7 +13,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabel"
-		"font"										"Game 24 Shadow"
+		"font"										"Size 24 Shadow"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.1"
 		"wide"										"40"
@@ -128,7 +128,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"RankUpLabel"
-		"font"										"Game 18"
+		"font"										"Size 18"
 		"xpos"										"cs-0.5"
 		"ypos"										"80"
 		"wide"										"600"
@@ -152,7 +152,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"RankUpShadowLabel"
-		"font"										"Game 18 Blur"
+		"font"										"Size 18 Blur"
 		"xpos"										"cs-0.5+1"
 		"ypos"										"80+1"
 		"wide"										"600"
@@ -189,13 +189,13 @@
 		"PositiveColor"								"Green"
 		"NegativeColor"								"Red"
 		"delta_lifetime"							"2"
-		"delta_item_font"							"Game 16"
+		"delta_item_font"							"Size 16"
 		
 		"TimePanelValue"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"Game 20"
+			"font"									"Size 20"
 			"fgcolor"								"White"
 			"xpos"									"20"
 			"ypos"									"0"

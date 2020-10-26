@@ -61,15 +61,15 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"CustomBG"
-		"xpos"										"0"
+		"xpos"										"-2"
 		"ypos"										"0"
 		"zpos"										"-1"
-		"wide"										"242"
+		"wide"										"244"
 		"tall"										"121"
 		"paintbackground"							"0"
 		"border"									"MaterialTransparent50"
 	}
-		
+	
 	"itemcontainer"
 	{
 		"ControlName"								"EditablePanel"

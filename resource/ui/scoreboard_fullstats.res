@@ -141,7 +141,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueTeamScore"
-		"font"										"Game 24"
+		"font"										"Size 24"
 		"fgcolor"  									"White"
 		"labelText"									"%blueteamscore%"
 		"textAlignment"								"east"
@@ -168,7 +168,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueTeamScoreShadow"
-		"font"										"Game 24 Blur"
+		"font"										"Size 24 Blur"
 		"fgcolor"  									"Shadow"
 		"labelText"									"%blueteamscore%"
 		"textAlignment"								"east"
@@ -247,7 +247,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedTeamScore"
-		"font"										"Game 24"
+		"font"										"Size 24"
 		"fgcolor"  									"White"
 		"labelText"									"%redteamscore%"
 		"textAlignment"								"west"
@@ -274,7 +274,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedTeamScoreShadow"
-		"font"										"Game 24 Blur"
+		"font"										"Size 24 Blur"
 		"fgcolor"  									"Shadow"
 		"labelText"									"%redteamscore%"
 		"textAlignment"								"west"
@@ -396,7 +396,7 @@
 	{
 		"ControlName"		       					"CExLabel"
 		"fieldName"		          					"ServerTimeLeft"
-		"font"			            				"Game 20"
+		"font"			            				"Size 20"
 		"fgcolor"               					"White"
 		"labelText"		        					"%servertimeleft%"
 		"textAlignment"								"west"
@@ -420,7 +420,7 @@
 	{
 		"ControlName"		       					"CExLabel"
 		"fieldName"		          					"ServerTimeLeftShadow"
-		"font"			            				"Game 20 Blur"
+		"font"			            				"Size 20 Blur"
 		"fgcolor"               					"Shadow"
 		"labelText"		        					"%servertimeleft%"
 		"textAlignment"								"west"
@@ -550,7 +550,7 @@
 			"wide"									"120"
 			"tall"									"20"
 			"textAlignment"							"center"
-			"font"									"Game 14"
+			"font"									"Size 14"
 			
 			"pin_to_sibling" 						"LocalPlayerStatsPanel"
 			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
@@ -594,7 +594,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"Separator"
-			"font"									"Game 20"
+			"font"									"Size 20"
 			"fgcolor" 								"White"
 			"labelText"								":"
 			"textAlignment"							"center"
@@ -644,7 +644,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"KillsWhite"
-			"font"									"Game 20"
+			"font"									"Size 20"
 			"fgcolor" 								"White"
 			"labelText"								"%kills%"
 			"textAlignment"							"east"
@@ -711,7 +711,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DeathsWhite"
-			"font"									"Game 20"
+			"font"									"Size 20"
 			"fgcolor" 								"White"
 			"labelText"								"%deaths%"
 			"textAlignment"							"west"
@@ -749,7 +749,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"AssistsLabel"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"							"west"
 			"xpos"									"10"
@@ -783,7 +783,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"AssistsWhite"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"%assists%"
 			"textAlignment"							"east"
 			"xpos"									"-20"
@@ -820,7 +820,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DestructionLabel"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"							"west"
 			"xpos"									"0"
@@ -858,7 +858,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DestructionWhite"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"%destruction%"
 			"textAlignment"							"east"
 			"xpos"									"-20"
@@ -895,7 +895,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CapturesLabel"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"							"west"
 			"xpos"									"0"
@@ -933,7 +933,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CapturesWhite"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"%captures%"
 			"textAlignment"							"east"
 			"xpos"									"-20"
@@ -970,7 +970,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DefensesLabel"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"							"west"
 			"xpos"									"0"
@@ -1008,7 +1008,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DefensesWhite"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"%defenses%"
 			"textAlignment"							"east"
 			"xpos"									"-20"
@@ -1045,7 +1045,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DominationLabel"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"							"west"
 			"xpos"									"0"
@@ -1083,7 +1083,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DominationWhite"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"%dominations%"
 			"textAlignment"							"east"
 			"xpos"									"-20"
@@ -1120,7 +1120,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RevengeLabel"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"							"west"
 			"xpos"									"0"
@@ -1158,7 +1158,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RevengeWhite"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"%revenge%"
 			"textAlignment"							"east"
 			"xpos"									"-20"
@@ -1195,7 +1195,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"HealingLabel"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"							"west"
 			"xpos"									"0"
@@ -1233,7 +1233,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"HealingWhite"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"%healing%"
 			"textAlignment"							"east"
 			"xpos"									"-20"
@@ -1270,7 +1270,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"InvulnLabel"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"							"west"
 			"xpos"									"0"
@@ -1308,7 +1308,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"InvulnWhite"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"%invulns%"
 			"textAlignment"							"east"
 			"xpos"									"-20"
@@ -1345,7 +1345,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TeleportsLabel"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"							"west"
 			"xpos"									"0"
@@ -1383,7 +1383,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TeleportsWhite"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"%teleports%"
 			"textAlignment"							"east"
 			"xpos"									"-20"
@@ -1420,7 +1420,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"HeadshotsLabel"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"							"west"
 			"xpos"									"0"
@@ -1458,7 +1458,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"HeadshotsWhite"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"%headshots%"
 			"textAlignment"							"east"
 			"xpos"									"-20"
@@ -1495,7 +1495,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BackstabsLabel"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"							"west"
 			"xpos"									"0"
@@ -1533,7 +1533,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BackstabsWhite"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"%backstabs%"
 			"textAlignment"							"east"
 			"xpos"									"-20"
@@ -1570,7 +1570,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BonusLabel"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"							"west"
 			"xpos"									"0"
@@ -1608,7 +1608,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BonusWhite"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"%bonus%"
 			"textAlignment"							"east"
 			"xpos"									"-20"
@@ -1645,7 +1645,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"SupportLabel"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"#TF_ScoreBoard_Support"
 			"textAlignment"							"west"
 			"xpos"									"0"
@@ -1683,7 +1683,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"SupportWhite"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"%teleports%"
 			"textAlignment"							"east"
 			"xpos"									"-20"
@@ -1720,7 +1720,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DamageLabel"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"#TF_ScoreBoard_DamageLabel"
 			"textAlignment"							"west"
 			"xpos"									"0"
@@ -1758,7 +1758,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DamageWhite"
-			"font"									"Size 9"
+			"font"									"Size 10"
 			"labelText"								"%damage%"
 			"textAlignment"							"east"
 			"xpos"									"-20"

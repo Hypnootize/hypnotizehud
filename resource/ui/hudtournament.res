@@ -469,7 +469,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabel"
-		"font"										"Game 24"
+		"font"										"Size 24"
 		"xpos"										"c-16"
 		"ypos"										"r40"
 		"wide"										"40"
@@ -489,7 +489,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabelShadow"
-		"font"										"Game 24 Blur"
+		"font"										"Size 24 Blur"
 		"xpos"										"c-15"
 		"ypos"										"r39"
 		"wide"										"40"

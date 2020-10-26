@@ -20,7 +20,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountText"
-		"font"										"Game 24"
+		"font"										"Size 24"
 		"labelText"									"%counttext%"
 		"textAlignment" 							"east"
 		"xpos"										"32"
@@ -35,7 +35,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountTextShadow"
-		"font"										"Game 24 Blur"
+		"font"										"Size 24 Blur"
 		"labelText"									"%counttext%"
 		"textAlignment" 							"east"
 		"xpos"										"33"

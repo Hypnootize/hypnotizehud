@@ -40,7 +40,7 @@
 		"dulltext" 									"0"
 		"brighttext" 								"0"
 		"wrap" 										"0"
-		"font" 										"Game 10"
+		"font" 										"Size 10"
 		"fgcolor"									"White"
 		
 		if_mvm

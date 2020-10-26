@@ -141,7 +141,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueTeamScore"
-		"font"										"Game 24"
+		"font"										"Size 24"
 		"fgcolor"  									"White"
 		"labelText"									"%blueteamscore%"
 		"textAlignment"								"east"
@@ -168,7 +168,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueTeamScoreShadow"
-		"font"										"Game 24 Blur"
+		"font"										"Size 24 Blur"
 		"fgcolor"  									"Shadow"
 		"labelText"									"%blueteamscore%"
 		"textAlignment"								"east"
@@ -247,7 +247,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedTeamScore"
-		"font"										"Game 24"
+		"font"										"Size 24"
 		"fgcolor"  									"White"
 		"labelText"									"%redteamscore%"
 		"textAlignment"								"west"
@@ -274,7 +274,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedTeamScoreShadow"
-		"font"										"Game 24 Blur"
+		"font"										"Size 24 Blur"
 		"fgcolor"  									"Shadow"
 		"labelText"									"%redteamscore%"
 		"textAlignment"								"west"
@@ -396,7 +396,7 @@
 	{
 		"ControlName"		       					"CExLabel"
 		"fieldName"		          					"ServerTimeLeft"
-		"font"			            				"Game 20"
+		"font"			            				"Size 20"
 		"fgcolor"               					"White"
 		"labelText"		        					"%servertimeleft%"
 		"textAlignment"								"west"
@@ -420,7 +420,7 @@
 	{
 		"ControlName"		       					"CExLabel"
 		"fieldName"		          					"ServerTimeLeftShadow"
-		"font"			            				"Game 20 Blur"
+		"font"			            				"Size 20 Blur"
 		"fgcolor"               					"Shadow"
 		"labelText"		        					"%servertimeleft%"
 		"textAlignment"								"west"
@@ -777,7 +777,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"KillsWhite"
-			"font"									"Game 20"
+			"font"									"Size 20"
 			"fgcolor" 								"White"
 			"labelText"								"%kills%"
 			"textAlignment"							"east"
@@ -845,7 +845,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DeathsWhite"
-			"font"									"Game 20"
+			"font"									"Size 20"
 			"fgcolor" 								"White"
 			"labelText"								"%deaths%"
 			"textAlignment"							"west"
