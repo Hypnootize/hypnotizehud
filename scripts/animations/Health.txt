@@ -8,8 +8,6 @@ event HudHealthBonusPulse
 	Animate HealthBG							Alpha 		"0"									Accel 	0.0 	0.0
 	Animate HealthBuff							Alpha 		"255"								Accel 	0.0 	0.0
 	
-	Animate HealthBGSpec						BgColor 	"Buffed Health Spec"				Linear 	0.0 	0.0
-	
 	RunEvent HudHealthBonusPulseLoop			0.7
 }
 
@@ -27,8 +25,6 @@ event HudHealthBonusPulseStop
 	
 	Animate HealthBG							Alpha 		"255"								Accel 	0.0 	0.0
 	Animate HealthBuff							Alpha 		"0"									Accel 	0.0 	0.0
-	
-	Animate HealthBGSpec						BgColor 	"TransparentBlack"					Linear 	0.0 	0.0
 }
 
 //====================================================================================================================
@@ -40,8 +36,6 @@ event HudHealthDyingPulse
 	
 	Animate HealthBG							Alpha 		"0"									Accel 	0.0 	0.0
 	Animate HealthHurt							Alpha 		"255"								Accel 	0.0 	0.0
-	
-	Animate HealthBGSpec						BgColor 	"Low Health Spec"					Linear 	0.0 	0.0
 
 	RunEvent HudHealthDyingPulseLoop			0.4
 }
@@ -60,8 +54,6 @@ event HudHealthDyingPulseStop
 	
 	Animate HealthBG							Alpha 		"255"								Accel 	0.0 	0.0
 	Animate HealthHurt							Alpha 		"0"									Accel 	0.0 	0.0
-	
-	Animate HealthBGSpec						BgColor 	"TransparentBlack"					Linear 	0.0 	0.0
 }
 
 //====================================================================================================================

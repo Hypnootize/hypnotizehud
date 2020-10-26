@@ -447,7 +447,7 @@ Scheme
 		}
 		
 		////////////////////////////////////////////////////////////////////////////////////
-		////////////////////////////////HEALTH BOX MATERIALS////////////////////////////////
+		////////////////////HEALTH BOX MATERIALS FOR TARGETID AND KILLCAM///////////////////
 		////////////////////////////////////////////////////////////////////////////////////
 		
 		HealthBorder
@@ -478,6 +478,47 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"Low Health Pulse"
+			
+			"image"					"replay/thumbnails/panels/material_generic"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"	
+		}
+		
+		////////////////////////////////////////////////////////////////////////////////////
+		////////////////////////HEALTH BOX MATERIALS FOR SPECTATOR UI///////////////////////
+		////////////////////////////////////////////////////////////////////////////////////
+		
+		SpectatorHealthBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 				"GrayDark"
+			
+			"image"					"replay/thumbnails/panels/material_generic"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"	
+		}
+		SpectatorBuffedBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 				"Buffed Health Spec"
+			
+			"image"					"replay/thumbnails/panels/material_generic"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"	
+		}
+		SpectatorHurtBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 				"Low Health Spec"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"24"
@@ -821,58 +862,14 @@ Scheme
 		}
 		TFFatLineBorder
 		{
-			"bordertype"			""
-			"inset" 				"0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" 		"Blank"
-					"offset" 		"0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" 		"Blank"
-					"offset" 		"0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" 		"Blank"
-					"offset" 		"0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" 		"BlackLight"
-					"offset" 		"0 0"
-				}		
-				"2"
-				{
-					"color" 		"BlackLight"
-					"offset" 		"0 0"
-				}
-				"3"
-				{
-					"color" 		"BlackLight"
-					"offset" 		"0 0"
-				}
-				"4"
-				{
-					"color" 		"BlackLight"
-					"offset" 		"0 0"
-				}
-			}
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/panels/material_transparent50"
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
 		}
 		TFFatLineBorderRedBGOpaque
 		{
@@ -900,58 +897,15 @@ Scheme
 		}
 		TFFatLineBorderRedBG
 		{
-			"bordertype"			""
-			"inset" 				"0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" 		"Blank"
-					"offset" 		"0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" 		"Blank"
-					"offset" 		"0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" 		"Blank"
-					"offset" 		"0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" 		"Red"
-					"offset" 		"0 0"
-				}		
-				"2"
-				{
-					"color" 		"Red"
-					"offset" 		"0 0"
-				}
-				"3"
-				{
-					"color" 		"Red"
-					"offset" 		"0 0"
-				}
-				"4"
-				{
-					"color" 		"Red"
-					"offset" 		"0 0"
-				}
-			}
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 				"Red"
+			
+			"image"					"replay/thumbnails/panels/material_generic"
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
 		}
 		TFFatLineBorderRedBGMoreOpaque
  		{
@@ -967,58 +921,15 @@ Scheme
  		}
 		TFFatLineBorderBlueBG
 		{
-			"bordertype"			""
-			"inset" 				"0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" 		"Blank"
-					"offset" 		"0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" 		"Blank"
-					"offset" 		"0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" 		"Blank"
-					"offset" 		"0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" 		"Blue"
-					"offset" 		"0 0"
-				}		
-				"2"
-				{
-					"color" 		"Blue"
-					"offset" 		"0 0"
-				}
-				"3"
-				{
-					"color" 		"Blue"
-					"offset" 		"0 0"
-				}
-				"4"
-				{
-					"color" 		"Blue"
-					"offset" 		"0 0"
-				}
-			}
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 				"Blue"
+			
+			"image"					"replay/thumbnails/panels/material_generic"
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
 		}
 		TFFatLineBorderBlueBGMoreOpaque
  		{

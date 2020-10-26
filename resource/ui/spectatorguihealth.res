@@ -13,15 +13,12 @@
 		"wide_minmode"								"32"
 		"tall"	 									"22"
 		"tall_minmode"	 							"19"
-		"autoResize"								"0"
-		"paintbackground"							"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"alpha"										"255"
-		
+		"paintbackground"							"0"
 		"border"									"HealthBorder"
-		"scaleImage"								"1"
+		
+		"alpha"										"255"
 	}
 	
 	"HealthBuff"
@@ -35,15 +32,12 @@
 		"wide_minmode"								"32"
 		"tall"	 									"22"
 		"tall_minmode"	 							"19"
-		"autoResize"								"0"
-		"paintbackground"							"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"alpha"										"0"
-		
+		"paintbackground"							"0"
 		"border"									"BuffedBorder"
-		"scaleImage"								"1"
+		
+		"alpha"										"0"
 		
 		"pin_to_sibling" 							"HealthBG"
 	}
@@ -59,15 +53,13 @@
 		"wide_minmode"								"32"
 		"tall"	 									"22"
 		"tall_minmode"	 							"19"
-		"autoResize"								"0"
-		"paintbackground"							"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"alpha"										"0"
-		
+		"paintbackground"							"0"
 		"border"									"HurtBorder"
-		"scaleImage"								"1"
+		
+		"alpha"										"0"
 		
 		"pin_to_sibling" 							"HealthBG"
 	}

@@ -1,32 +1,31 @@
 "Resource/UI/SpectatorTournamentGUIHealth.res"
 {
-	"HealthBGSpec"
+	"SpectatorHealthBG"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"HealthBGSpec"
+		"fieldName"									"SpectatorHealthBG"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
-		"wide"										"f0"
-		"tall"	 									"f0"
+		"wide"										"30"
+		"tall"	 									"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"alpha"										"255"
+		"paintbackground"							"0"
+		"border"									"MaterialTransparent90"
 		
-		"paintbackground"							"1"
-		"bgcolor_override"							"TransparentBlack"
+		"alpha"										"255"
 	}
 	
-	"PlayerStatusHealthValueSpec"
+	"PlayerStatusHealthValue"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusHealthValueSpec"
+		"fieldName"									"PlayerStatusHealthValue"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"5"
-		"wide"										"f0"
-		"tall"										"f0"
+		"wide"										"30"
+		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"center"
@@ -36,15 +35,15 @@
 		"proportionaltoparent"						"1"
 	}
 	
-	"PlayerStatusHealthValueSpecShadow"
+	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusHealthValueSpecShadow"
+		"fieldName"									"PlayerStatusHealthValueShadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"5"
-		"wide"										"f0"
-		"tall"										"f0"
+		"wide"										"30"
+		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"center"
@@ -52,49 +51,32 @@
 		"fgcolor"									"Shadow"
 		"labeltext"									"%Health%"
 		"proportionaltoparent"						"1"
-		"pin_to_sibling" 							"PlayerStatusHealthValueSpec"
+		"pin_to_sibling" 							"PlayerStatusHealthValue"
 	}
 
-	
-	
-	
-	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-	
+	//REMOVED STUFF
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthImage"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthImageBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"BuildingStatusHealthImageBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthBonusImage"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 }
