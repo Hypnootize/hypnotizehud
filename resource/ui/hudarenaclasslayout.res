@@ -17,22 +17,22 @@
 		"scaleImage"								"1"	
 		"teambg_2"									"replay/thumbnails/panels/material_transparent50"
 		"teambg_3"									"replay/thumbnails/panels/material_transparent50"
-			
+		
 		"src_corner_height"							"24"
 		"src_corner_width"							"24"
-				
+		
 		"draw_corner_width"							"8"
 		"draw_corner_height" 						"8"	
 	}
 	
-	"title"
+	"Title"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"title"
-		"xpos"										"c-200"
+		"fieldName"									"Title"
+		"xpos"										"cs-0.5"
 		"ypos"										"112"
 		"zpos"										"6"
-		"wide"										"400"
+		"wide"										"f0"
 		"tall"										"20"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -42,17 +42,18 @@
 		"labelText"									"#TF_Arena_Team_Layout"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
-		"Allcaps"									"1"
+		"Allcaps"									"0"
+		"proportionaltoparent"						"1"
 	}
 	
-	"titleShadow"
+	"TitleShadow"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"titleShadow"
-		"xpos"										"c-199"
-		"ypos"										"113"
-		"zpos"										"5"
-		"wide"										"400"
+		"fieldName"									"TitleShadow"
+		"xpos"										"-1"
+		"ypos"										"-1"
+		"zpos"										"4"
+		"wide"										"f0"
 		"tall"										"20"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -62,9 +63,11 @@
 		"labelText"									"#TF_Arena_Team_Layout"
 		"textAlignment"								"center"
 		"fgcolor"									"Shadow"
-		"AllCaps"									"1"
+		"AllCaps"									"0"
+		"proportionaltoparent"						"1"
+		"pin_to_sibling" 							"Title"
 	}
-		
+	
 	"changeLabel"
 	{
 		"ControlName"								"CExLabel"

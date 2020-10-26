@@ -46,24 +46,16 @@
 	{
 		"ControlName"     		  					"EditablePanel"
 		"fieldName"	        	  					"MapFrame"
-		"xpos"										"0"
-		"ypos"										"-3"
+		"xpos"										"cs-0.5"
+		"ypos"										"-5"
 		"zpos"										"1"
-		"wide"										"228"
-		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
+		"wide"										"p1.02"
+		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
+		"proportionaltoparent"						"1"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent90"
-		
-		"pin_to_sibling" 							"FightFrame"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		"border"									"MaterialTransparent70"
 	}
 	
 	"mapname"
@@ -71,10 +63,10 @@
 		"ControlName"								"Label"
 		"fieldName"									"mapname"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"-2"
 		"zpos"										"2"
-		"wide"										"228"
-		"tall"										"20"
+		"wide"										"f0"
+		"tall"										"25"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
@@ -83,12 +75,13 @@
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"dulltext"									"0"
-		"brighttext"								"1"
+		"brighttext"								"0"
 		"font"										"Size 14"
-		"fgcolor"									"White"
 		"fgcolor_override"							"White"
 		
 		"pin_to_sibling" 							"MapFrame"
+		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
 	}
 	
 	"FightFrame"
@@ -119,7 +112,7 @@
 		"fieldName"		  							"teambutton2"
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"5"
+		"zpos"										"10"
 		"wide"										"115"
 		"tall"										"60"
 		"pinCorner"		  							"0"
@@ -145,7 +138,7 @@
 		"fieldName"		  							"Fight"
 		"xpos"			  							"-6"
 		"ypos"			  							"0"
-		"zpos"			  							"3"
+		"zpos"			  							"4"
 		"wide"			  							"115"
 		"tall"			  							"60"
 		"autoResize"	  							"0"
@@ -161,6 +154,25 @@
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
+	"FightShadow"
+	{
+		"ControlName"	  							"CExLabel"
+		"fieldName"		  							"FightShadow"
+		"xpos"			  							"-1"
+		"ypos"			  							"-1"
+		"zpos"			  							"3"
+		"wide"			  							"115"
+		"tall"			  							"60"
+		"autoResize"	  							"0"
+		"pinCorner"		  							"0"
+		"visible"		  							"1"
+		"enabled"		  							"1"
+		"labelText"		  							"Fight"
+		"textAlignment"	  							"east"
+		"font"			  							"Size 18 Blur"
+		"fgcolor"		  							"Shadow"
+		"pin_to_sibling" 							"Fight"
+	}
 	
 	"FightNumber"
 	{
@@ -168,7 +180,7 @@
 		"fieldName"		  							"FightNumber"
 		"xpos"			  							"15"
 		"ypos"			  							"0"
-		"zpos"			  							"3"
+		"zpos"			  							"4"
 		"wide"			  							"115"
 		"tall"			  							"60"
 		"autoResize"	  							"0"
@@ -179,8 +191,26 @@
 		"textAlignment"	  							"center"
 		"font"			  							"Size 30"
 		"fgcolor"		  							"White"
-		
 		"pin_to_sibling" 							"FightFrame"
+	}
+	"FightNumberShadow"
+	{
+		"ControlName"	  							"CExLabel"
+		"fieldName"		  							"FightNumberShadow"
+		"xpos"			  							"-1"
+		"ypos"			  							"-1"
+		"zpos"			  							"3"
+		"wide"			  							"115"
+		"tall"			  							"60"
+		"autoResize"	  							"0"
+		"pinCorner"		  							"0"
+		"visible"		  							"1"
+		"enabled"		  							"1"
+		"labelText"		  							"1"
+		"textAlignment"	  							"center"
+		"font"			  							"Size 30 Blur"
+		"fgcolor"		  							"Shadow"
+		"pin_to_sibling" 							"FightNumber"
 	}
 	
 	"SpectateFrame"
@@ -213,7 +243,7 @@
 		"fieldName"		  							"teambutton3"
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"5"
+		"zpos"										"10"
 		"wide"										"115"
 		"tall"										"60"
 		"autoResize"	  							"0"
@@ -240,7 +270,7 @@
 		"fieldName"		  							"Spec"
 		"xpos"			  							"-6"
 		"ypos"			  							"0"
-		"zpos"			  							"3"
+		"zpos"			  							"4"
 		"wide"			  							"115"
 		"tall"			  							"60"
 		"autoResize"	  							"0"
@@ -253,7 +283,27 @@
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling" 							"SpectateFrame"
-	}	
+	}
+	"SpecShadow"
+	{
+		"ControlName"	  							"CExLabel"
+		"fieldName"		  							"SpecShadow"
+		"xpos"			  							"-1"
+		"ypos"			  							"-1"
+		"zpos"			  							"3"
+		"wide"			  							"115"
+		"tall"			  							"60"
+		"autoResize"	  							"0"
+		"pinCorner"		  							"0"
+		"visible"		  							"1"
+		"enabled"		  							"1"
+		"labelText"		  							"Spec"
+		"textAlignment"	  							"west"
+		"font"			  							"Size 18 Blur"
+		"fgcolor"		  							"Shadow"
+		
+		"pin_to_sibling" 							"Spec"
+	}
 	
 	"SpectateNumber"
 	{
@@ -261,7 +311,7 @@
 		"fieldName"		  							"SpectateNumber"
 		"xpos"			  							"15"
 		"ypos"			  							"0"
-		"zpos"			  							"3"
+		"zpos"			  							"4"
 		"wide"			  							"115"
 		"tall"			  							"60"
 		"visible"		  							"1"
@@ -275,7 +325,23 @@
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
-	
+	"SpectateNumberShadow"
+	{
+		"ControlName"	  							"CExLabel"
+		"fieldName"		  							"SpectateNumberShadow"
+		"xpos"			  							"-1"
+		"ypos"			  							"-1"
+		"zpos"			  							"3"
+		"wide"			  							"115"
+		"tall"			  							"60"
+		"visible"		  							"1"
+		"enabled"		  							"1"
+		"labelText"		  							"2"
+		"textAlignment"	  							"center"
+		"font"			  							"Size 30 Blur"
+		"fgcolor"		  							"Shadow"
+		"pin_to_sibling" 							"SpectateNumber"
+	}
 	
 	
 	
@@ -422,29 +488,23 @@
 		}
 	}
 	
-	
-	
-	
-	
-	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-
+	//REMOVED STUFF
 	"MapInfo"
 	{
-		"ControlName"	"HTML"
-		"fieldName"		"MapInfo"
-		"xpos"			"9999"
+		"ControlName"								"HTML"
+		"fieldName"									"MapInfo"
+		"xpos"										"9999"
 	}
 	"ShadedBar"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"			"9999"
+		"ControlName"								"ImagePanel"
+		"fieldName"									"ShadedBar"
+		"xpos"										"9999"
 	}
 	"CancelButton"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CancelButton"
-		"xpos"			"9999"
+		"ControlName"								"CExButton"
+		"fieldName"									"CancelButton"
+		"xpos"										"9999"
 	}
 }

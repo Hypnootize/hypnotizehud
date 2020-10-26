@@ -1,4 +1,4 @@
-#base "HudLayout_Base.res"
+#base "hudlayout_base.res"
 
 "Resource/HudLayout.res"
 {
@@ -46,6 +46,13 @@
 		"wide"										"f0"
 		"wide_minmode"								"f0"
 		"tall"										"480"
+	}
+	
+	HudBossHealth
+	{
+		"xpos"										"cs-0.5"
+		"wide"										"178"
+		"tall"										"22"
 	}
 	
 	CHudAccountPanel
@@ -200,11 +207,11 @@
 	
 	ArenaWinPanel
 	{
-		"xpos"										"c-218"
-		"ypos"										"r62"
+		"xpos"										"cs-0.5"
+		"ypos"										"r70"
 		"zpos"										"20"
-		"wide"										"f0"
-		"tall"										"480"
+		"wide"										"400"
+		"tall"										"70"
 	}
 	
 	"HudAlert"
@@ -281,7 +288,12 @@
 		"ypos_minmode"								"0"
 		"wide"										"f0"
 		"tall"										"480"
-	}		
+	}
+	
+	HudArenaCapPointCountdown
+	{
+		"ypos"										"r30"
+	}
 
 	HudTournament
 	{
@@ -331,46 +343,25 @@
 		"alpha"										"255"
 	}
 	
-	/////////////////////////////REMOVED STUFF/////////////////////////////
-	
+	//REMOVED STUFF
 	HudBowCharge
 	{
-		"fieldName"									"HudBowCharge"
-		"visible"									"0"
-		"enabled"									"0"
 		"wide"										"0"
-		"tall"										"0"
 	}
 	StatPanel
 	{
-		"fieldName"									"StatPanel"
-		"visible"									"0"
-		"enabled"									"0"
 		"wide"										"0"
-		"tall"										"0"
 	}
 	HudArenaNotification
 	{
-		"fieldName"									"HudArenaNotification"
-		"visible"									"0"
-		"enabled"									"0"
 		"wide"										"0"
-		"tall"										"0"
 	}
 	HudTeamGoal
 	{
-		"fieldName"									"HudTeamGoal"
-		"visible"									"0"
-		"enabled"									"0"
 		"wide"										"0"
-		"tall"										"0"
 	}
 	HudTeamGoalTournament
 	{
-		"fieldName"									"HudTeamGoalTournament"
-		"visible"									"0"
-		"enabled"									"0"
 		"wide"										"0"
-		"tall"										"0"
 	}
 }
