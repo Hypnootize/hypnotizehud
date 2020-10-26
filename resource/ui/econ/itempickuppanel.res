@@ -1,4 +1,4 @@
-#base "../../../resource/tools/ReloadSchemeButton.res"
+#base "../../../resource/tools/reloadschemebutton.res"
 
 "Resource/UI/ItemPickupPanel.res"
 {
@@ -193,6 +193,17 @@
 		"armedFgColor_override"						"Main Theme"
 		"depressedFgColor_override" 				"White"
 	}
+	"NextButtonShortCut"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"NextButtonShortCut"
+		"xpos"										"9999"
+		"labelText"									"&D"
+		"Command"									"nextitem"
+		"visible"									"1"
+		"sound_depressed"    						"UI/buttonclick.wav"
+		"sound_released"     						"UI/buttonclickrelease.wav"
+	}
 	
 	"PrevButton"
 	{
@@ -225,6 +236,17 @@
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"Main Theme"
 		"depressedFgColor_override" 				"White"
+	}
+	"PrevButtonShortCut"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"PrevButtonShortCut"
+		"xpos"										"9999"
+		"labelText"									"&A"
+		"Command"									"previtem"
+		"visible"									"1"
+		"sound_depressed"    						"UI/buttonclick.wav"
+		"sound_released"     						"UI/buttonclickrelease.wav"
 	}
 	
 	"CloseButton"
