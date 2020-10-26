@@ -15,11 +15,11 @@
 
 		"if_mvm"
 		{
-			"xpos"									"40"
-			"ypos"									"-13"
-			"wide"									"40"
-			"tall"									"40"
-		}		
+			"xpos"									"38"
+			"ypos"									"-15"
+			"wide"									"45"
+			"tall"									"45"
+		}
 	}
 	
 	"Briefcase"
@@ -38,18 +38,19 @@
 
 		"if_mvm"
 		{
-			"xpos"									"51"
+			"xpos"									"50"
 			"ypos"									"-2"
 			"zpos"     								"2"
-			"wide"									"18"
-			"tall"									"18"
+			"wide"									"22"
+			"tall"									"22"
 		}
 		
 		"if_specialdelivery"
 		{
 			"visible"								"0"
 		}
-	}				
+	}
+	
 	"StatusIcon"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -73,10 +74,5 @@
 			"ypos"      							"13"
 			"visible"								"0"
 		}
-		
-		"if_specialdelivery"
-		{
-			"visible"								"0"
-		}
-	}	
+	}
 }
