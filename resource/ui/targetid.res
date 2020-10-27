@@ -73,8 +73,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"KillAnchor"
-		"xpos"										"-4"
-		"ypos"										"38"
+		"xpos"										"-3"
+		"ypos"										"39"
 		"wide"										"8"
 		"tall"										"8"
 		"visible"									"1"
@@ -92,7 +92,7 @@
 		"tall"										"11"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										"../hud/leaderboard_streak"
+		"image"										"replay/thumbnails/game/streak"
 		"scaleImage"								"1"
 		
 		"pin_to_sibling" 							"KillAnchor"
@@ -103,7 +103,7 @@
 	
 	
 	
-	
+	//REMOVED
 	"TargetIDBG"
 	{
 		"ControlName"								"CTFImagePanel"
