@@ -174,11 +174,11 @@
 	
 	HudSpellMenu
 	{
-		"xpos"										"r100"
-		"ypos"										"r35"
+		"xpos"										"c122"
+		"ypos"										"r30"
 		"zpos" 										"2"
-		"wide"	 									"f0"
-		"tall"	 									"480"
+		"wide"	 									"45"
+		"tall"	 									"30"
 	}
 	
 	HudCloseCaption

@@ -4,11 +4,11 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"SpellIcon"
-		"xpos"										"18"
-		"ypos"										"4"
+		"xpos"										"5"
+		"ypos"										"2"
 		"zpos"										"7"
-		"wide"										"18"
-		"tall"										"18"
+		"wide"										"15"
+		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"	
@@ -20,29 +20,33 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountText"
-		"font"										"Size 24"
+		"font"										"Size 20"
 		"labelText"									"%counttext%"
-		"textAlignment" 							"east"
-		"xpos"										"32"
-		"ypos"										"5"
+		"textAlignment" 							"west"
+		"xpos"										"4"
+		"ypos"										"1"
 		"zpos"										"1"
 		"wide"										"20"
-		"tall"										"19"
+		"tall"										"20"
 		"fgcolor"									"White"
+		
+		"pin_to_sibling" 							"SpellIcon"
+		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
 	}
-	
 	"CountTextShadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountTextShadow"
-		"font"										"Size 24 Blur"
+		"font"										"Size 20 Blur"
 		"labelText"									"%counttext%"
-		"textAlignment" 							"east"
-		"xpos"										"33"
-		"ypos"										"6"
+		"textAlignment" 							"west"
+		"xpos"										"-1"
+		"ypos"										"-1"
 		"wide"										"20"
-		"tall"										"19"
+		"tall"										"20"
 		"fgcolor"									"Shadow"
+		"pin_to_sibling" 							"CountText"
 	}
 	
 	"ActionText"
@@ -51,36 +55,37 @@
 		"fieldName"									"ActionText"
 		"font"										"Size 9"
 		"labelText"									"%actiontext%"
-		"textAlignment"							 	"east"
+		"textAlignment"							 	"center"
 		"xpos"										"0"
-		"ypos"										"24"
-		"wide"										"54"
+		"ypos"										"20"
+		"wide"										"40"
 		"tall"										"10"
 		"fgcolor"									"White"
 		"visible"									"1"
+		"visible_minmode"							"1"
 		"AllCaps"									"1"
 	}
 	
 	
 	
 	
-	
+	//REMOVED
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"9999"
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"ItemEffectMeterBG"
+		"xpos"										"9999"
 	}
 	"Spellbook"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"Spellbook"
-		"xpos"			"9999"
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"Spellbook"
+		"xpos"										"9999"
 	}
 	"SpellText"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SpellText"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"SpellText"
+		"xpos"										"9999"
 	}
 }
