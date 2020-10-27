@@ -49,6 +49,23 @@
 		}
 	}
 	
+	"OvertimeLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"OvertimeLabel"
+		"xpos"										"20"
+		"ypos"										"14"
+		"zpos"										"5"
+		"wide"										"78"
+		"tall"										"19"
+		"visible"									"0"
+		"enabled"									"1"
+		"AllCaps"									"1"
+		"labelText"									"#game_Overtime"
+		"textAlignment"								"west"
+		"font"										"Size 10"
+	}
+	
 	
 	//REMOVED
 	"TimePanelProgressBar"
@@ -67,12 +84,6 @@
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"WaitingForPlayersBG"
-		"xpos"										"9999"
-	}
-	"OvertimeLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"OvertimeLabel"
 		"xpos"										"9999"
 	}
 	"OvertimeBG"

@@ -4,7 +4,7 @@
 {
 	HudItemEffectMeter
 	{
-		"ypos"										"c108"
+		"ypos"										"c106"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -30,8 +30,7 @@
 		"zpos"										"2"
 		"wide"										"59"
 		"wide_minmode"								"49"
-		"tall"										"2"				
-		"tall_minmode"								"1"				
+		"tall"										"2"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"

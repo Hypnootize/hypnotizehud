@@ -7,10 +7,10 @@
 		"enabled"									"1"
 		"xpos"										"cs-0.5"
 		"ypos"										"c108"
-		"ypos_minmode"								"c66"
+		"ypos_minmode"								"c64"
 		"wide"										"120"
 		"tall"										"10"
-		"tall_minmode"								"8"
+		"tall_minmode"								"9"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
@@ -37,7 +37,7 @@
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 		"font"										"Size 8"
-		"font_minmode"								"DefaultVerySmall"
+		"font_minmode"								"Size 7"
 		"fgcolor_override"							"White"
 	}
 
@@ -52,7 +52,6 @@
 		"wide"										"120"
 		"wide_minmode"								"100"
 		"tall"										"2"
-		"tall_minmode"								"1"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"

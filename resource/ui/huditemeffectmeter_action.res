@@ -3,8 +3,8 @@
 	//ADDED FOR TESTING PURPOSES
 	"ItemEffectMeter"
 	{	
-		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ItemEffectMeter"
-		"xpos"					"9999"
+		"ControlName"								"ContinuousProgressBar"
+		"fieldName"									"ItemEffectMeter"
+		"xpos"										"9999"
 	}
 }

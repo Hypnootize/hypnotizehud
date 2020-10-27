@@ -8,7 +8,7 @@
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"100"
-		"tall"										"22"
+		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
 		
@@ -35,10 +35,10 @@
 		"ControlName"								"CTFHudTimeStatus"
 		"fieldName"									"RedTimer"
 		"xpos"										"0"
-		"ypos"										"22"
+		"ypos"										"24"
 		"zpos"										"2"
 		"wide"										"100"
-		"tall"										"22"
+		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
 		
