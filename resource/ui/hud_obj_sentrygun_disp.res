@@ -128,14 +128,13 @@
 			"xpos"									"27"
 			"ypos"									"26"
 			"zpos"									"1"
-			"wide"									"8"
-			"tall"									"8"
+			"wide"									"7"
+			"tall"									"7"
 			"visible"								"0"
 			"enabled"								"1"
 			"scaleImage"							"1"	
 			"icon"									"obj_status_upgrade_1"
-			"iconColor"								"Main Theme"
-			"alpha"									"150"
+			"iconColor"								"White"
 		}
 
 		"AlertTray"
