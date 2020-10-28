@@ -163,7 +163,7 @@
 			"tabPosition"							"0"
 			"PaintBackground"						"1"
 			"PaintBackgroundtype"					"0"
-			"bgcolor_override"						"BlackDark"
+			"bgcolor_override"						"GrayDark"
 		}
 		
 		"MouseOverTabPanel"
@@ -216,7 +216,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"bgcolor_override"						"GrayDark"
+			"bgcolor_override"						"BlackLight"
 			"PaintBackgroundType"					"0"
 		}
 		
@@ -234,7 +234,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"bgcolor_override"						"GrayDark"
+			"bgcolor_override"						"BlackLight"
 			"PaintBackgroundType"					"0"
 		}
 		
@@ -252,7 +252,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"bgcolor_override"						"GrayDark"
+			"bgcolor_override"						"BlackLight"
 			"PaintBackgroundType"					"0"
 		}
 		
@@ -270,7 +270,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"bgcolor_override"						"GrayDark"
+			"bgcolor_override"						"BlackLight"
 			"PaintBackgroundType"					"0"
 		}
 		
@@ -288,7 +288,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"bgcolor_override"						"GrayDark"
+			"bgcolor_override"						"BlackLight"
 			"PaintBackgroundType"					"0"
 		}
 		
@@ -306,7 +306,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"bgcolor_override"						"GrayDark"
+			"bgcolor_override"						"BlackLight"
 			"PaintBackgroundType"					"0"
 		}
 		
