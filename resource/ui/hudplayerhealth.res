@@ -84,7 +84,7 @@
 		"fieldName"				         			"PlayerStatusAnchor"
 		"xpos"					         			"-5"
 		"xpos_minmode"					         	"-10"
-		"ypos"					         			"-11"
+		"ypos"					         			"-12"
 		"ypos_minmode"					         	"-16"
 		"wide"					         			"30"
 		"tall"					         			"30"

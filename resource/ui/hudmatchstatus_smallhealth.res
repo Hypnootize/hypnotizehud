@@ -13,7 +13,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabel"
-		"font"										"Size 24 Shadow"
+		"font"										"Game 24 Shadow"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.1"
 		"wide"										"40"

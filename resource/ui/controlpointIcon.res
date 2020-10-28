@@ -83,9 +83,9 @@
 		"fieldName"		 							"CPTimerLabel"
 		"xpos"			   							"0"
 		"ypos"			    						"0"
-		"zpos"			    						"0"
-		"wide"			    						"9"
-		"tall"			    						"20"
+		"zpos"			    						"4"
+		"wide"			    						"24"
+		"tall"			    						"24"
 		"visible"		    						"0"
 		"enabled"		    						"1"
 		"labelText"		  							"60"
@@ -93,8 +93,7 @@
 		"dulltext"		  							"0"
 		"brighttext"	  							"0"
 		"wrap"			    						"0"
-		"font"			    						"ControlPointTimer"
-		"font_minmode"								"ControlPointTimerSmaller"
+		"font"			    						"Size 12"
 		
 		if_mvm
 		{
@@ -106,19 +105,9 @@
 	{
 		"ControlName"	  							"Panel"
 		"fieldName"		  							"CPTimerBG"
-		"xpos"			   					 		"0"
-		"ypos"			    						"0"
-		"zpos"			 							"-1"
-		"wide"		     					 		"66"
-		"tall"		      							"33"
+		"wide"		     					 		"0"
+		"tall"		      							"0"
 		"visible"		    						"0"
-		"enabled"		    						"1"
-		"image"			    						"../sprites/obj_icons/icon_obj_timer"
-		"scaleImage"	  							"1"
-		
-		if_mvm
-		{
-			"visible"								"0"
-		}
+		"enabled"		    						"0"
 	}
 }
