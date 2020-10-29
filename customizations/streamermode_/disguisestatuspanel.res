@@ -2,6 +2,10 @@
 {
 	"DisguiseNameLabel"
 	{
-		"alpha"				"0"
+		"alpha"										"0"
+	}
+	"DisguiseNameLabelShadow"
+	{
+		"alpha"										"0"
 	}
 }

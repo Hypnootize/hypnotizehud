@@ -2,6 +2,10 @@
 {
 	"TargetNameLabel"
 	{
-		"labeltext"		""
+		"labeltext"									""
+	}
+	"TargetNameLabelShadow"
+	{
+		"alpha"										"0"
 	}
 }

@@ -65,6 +65,7 @@
 		"autoresize"	        					"3"
 		"linespacing"       						"13"
 		"fgcolor"		          					"blue"
+		"alpha"										"255"
 	}
 	
 	"RedPlayerList"
@@ -83,6 +84,7 @@
 		"autoresize"	        					"3"
 		"linespacing"       						"13"
 		"textcolor"									"red"
+		"alpha"										"255"
 	}
 	
 	"BlueScoreBG"

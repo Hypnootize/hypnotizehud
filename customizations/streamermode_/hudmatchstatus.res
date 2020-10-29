@@ -6,18 +6,18 @@
 		{
 			"playername"
 			{
-				"alpha"		"0"
+				"alpha"								"0"
 			}
 		}
 	}
 
 	"BlueTeamPanel"
 	{
-		"alpha"		"0"
+		"alpha"										"0"
 	}
 
 	"RedTeamPanel"
 	{
-		"alpha"		"0"
+		"alpha"										"0"
 	}
 }

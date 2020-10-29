@@ -2,16 +2,16 @@
 {
 	HudDeathNotice
 	{
-		"TextFont"			""
+		"TextFont"									""
 	}
 
 	HudVoiceStatus
 	{
-		"text_xpos"			"9999"
+		"text_xpos"									"9999"
 	}
 	
 	HudSpectatorExtras
 	{
-		"player_name_font"	""
+		"player_name_font"							""
 	}
 }
