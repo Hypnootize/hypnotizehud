@@ -2,7 +2,7 @@
 {
 	"ModeButton"
 	{
-		"wide"									"140"
-		"font"									"Size 22"
+		"wide"										"105"
+		"font"										"Size 18"
 	}
 }

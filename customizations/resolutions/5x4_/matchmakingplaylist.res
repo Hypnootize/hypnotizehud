@@ -2,27 +2,27 @@
 {
 	"EventEntry"
 	{
-		"wide"										"115"
+		"wide"										"105"
 	}
 
 	"CasualEntry"
 	{
-		"xpos"										"r120"
-		"wide"										"115"
+		"xpos"										"r110"
+		"wide"										"105"
 	}
 
 	"CompetitiveEntry"
 	{
-		"wide"										"115"
+		"wide"										"105"
 	}
 
 	"MvMEntry"
 	{
-		"wide"										"115"
+		"wide"										"105"
 	}
 	
 	"TrainingEntry"
 	{
-		"wide"										"115"
+		"wide"										"105"
 	}
 }
