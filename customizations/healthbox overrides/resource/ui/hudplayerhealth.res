@@ -33,10 +33,10 @@
 		"enabled"									"1"
 	}
 	
-	"PlayerStatusHealthValue"
+	"PlayerStatusHealthValueBox"
 	{
 		"ControlName"	           				 	"CExLabel"
-		"fieldName"	  	         				 	"PlayerStatusHealthValue"
+		"fieldName"	  	         				 	"PlayerStatusHealthValueBox"
 		"xpos"		    	         				"0"
 		"xpos_minmode"		    	         		"0"
 		"ypos"		    	         				"0"	
@@ -47,8 +47,8 @@
 		"enabled"	  		         				"1"
 		"labelText" 		         				"%Health%"
 		"textAlignment"         				 	"center"	
-		"font"                   				 	"GameFont44"
-		"font_minmode"                   			"GameFont32"
+		"font"                   				 	"Game 45"
+		"font_minmode"                   			"Game 32"
 		"fgcolor"	    	         				"Health Numbers"
 		
 		"pin_to_sibling"							"HealthAnchor"
@@ -71,20 +71,20 @@
 		"enabled"	    	         				"1"
 		"labelText"	  	         				 	"%Health%"
 		"textAlignment"	         				 	"center"	
-		"font"                   				 	"GameFont44Blur"
-		"font_minmode"                   			"GameFont32Blur"
+		"font"                   				 	"Game 45 Blur"
+		"font_minmode"                   			"Game 32 Blur"
 		"fgcolor"	     	         				"Shadow"
 		
-		"pin_to_sibling" 							"PlayerStatusHealthValue"
+		"pin_to_sibling" 							"PlayerStatusHealthValueBox"
 	}
 	
 	"HealthBuff"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HealthBuff"
-		"xpos"										"-29"
+		"xpos"										"-30"
 		"xpos_minmode"								"-40"
-		"ypos"										"-4"
+		"ypos"										"-6"
 		"ypos_minmode"								"-8"
 		"zpos"										"1"
 		"wide"										"90"
@@ -101,16 +101,16 @@
 		"border"									"BuffedBorder"
 		"scaleImage"								"1"
 		
-		"pin_to_sibling" 							"PlayerStatusHealthValue"
+		"pin_to_sibling" 							"PlayerStatusHealthValueBox"
 	}
 	
 	"HealthHurt"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HealthHurt"
-		"xpos"										"-29"
+		"xpos"										"-30"
 		"xpos_minmode"								"-40"
-		"ypos"										"-4"
+		"ypos"										"-6"
 		"ypos_minmode"								"-8"
 		"zpos"										"1"
 		"wide"										"90"
@@ -127,7 +127,7 @@
 		"border"									"HurtBorder"
 		"scaleImage"								"1"
 		
-		"pin_to_sibling" 							"PlayerStatusHealthValue"
+		"pin_to_sibling" 							"PlayerStatusHealthValueBox"
 	}
 	
 	"PlayerStatusAnchor"

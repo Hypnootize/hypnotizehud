@@ -19,8 +19,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInClip"
-		"font"										"GameFont44"
-		"font_minmode"								"GameFont32"
+		"font"										"Game 45"
+		"font_minmode"								"Game 32"
 		"fgcolor"									"Ammo In Clip"
 		"xpos"										"0"
 		"xpos_minmode"								"0"
@@ -43,8 +43,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInClipShadow"
-		"font"										"GameFont44Blur"
-		"font_minmode"								"GameFont32Blur"
+		"font"										"Game 45 Blur"
+		"font_minmode"								"Game 32 Blur"
 		"fgcolor"									"Shadow"
 		"xpos"										"-2"
 		"ypos"										"-2"
@@ -65,8 +65,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInReserve"
-		"font"										"GameFont20"
-		"font_minmode"								"GameFont18"
+		"font"										"Game 20"
+		"font_minmode"								"Game 18"
 		"fgcolor"									"Ammo In Reserve"
 		"xpos"										"5"
 		"xpos_minmode"								"3"
@@ -89,8 +89,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInReserveshadow"
-		"font"										"GameFont20Blur"
-		"font_minmode"								"GameFont18Blur"
+		"font"										"Game 20 Blur"
+		"font_minmode"								"Game 18 Blur"
 		"fgcolor"									"Shadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
@@ -109,8 +109,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmonoClip"
-		"font"										"GameFont44"
-		"font_minmode"								"GameFont32"
+		"font"										"Game 45"
+		"font_minmode"								"Game 32"
 		"fgcolor"									"Ammo No Clip"
 		"xpos"										"0"
 		"xpos_minmode"								"0"
@@ -133,8 +133,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmonoClipshadow"
-		"font"										"GameFont44Blur"
-		"font_minmode"								"GameFont32Blur"
+		"font"										"Game 45 Blur"
+		"font_minmode"								"Game 32 Blur"
 		"fgcolor"									"Shadow"
 		"xpos"										"-2"
 		"ypos"										"-2"
@@ -155,9 +155,9 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"LowAmmoBG"
-		"xpos"										"-29"
+		"xpos"										"-30"
 		"xpos_minmode"								"-40"
-		"ypos"										"-4"
+		"ypos"										"-6"
 		"ypos_minmode"								"-8"
 		"zpos"										"1"
 		"wide"										"93"
@@ -181,14 +181,14 @@
 	
 	"HudWeaponAmmoBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"HudWeaponAmmoBG"
-		"xpos"			"9999"
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"HudWeaponAmmoBG"
+		"xpos"										"9999"
 	}
 	"HudWeaponLowAmmoImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HudWeaponLowAmmoImage"
-		"xpos"			"9999"
+		"ControlName"								"ImagePanel"
+		"fieldName"									"HudWeaponLowAmmoImage"
+		"xpos"										"9999"
 	}
 }
