@@ -37,7 +37,7 @@
 			"text_forcesize"						"2"
 			"text_center"							"0"
 			"text_yoffset"							"4"
-			"inset_eq_y"							"55"
+			"inset_eq_y"							"3"
 
 			"deferred_description"					"1"
 			"deferred_icon"							"1"

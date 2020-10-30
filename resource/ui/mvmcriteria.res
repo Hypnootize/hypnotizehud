@@ -567,7 +567,7 @@
 		{
 			"ControlName"							"Label"
 			"fieldName"								"ChallengeLabel"
-			"font"									"HudFontMediumSmallBold"
+			"font"									"Size 14"
 			"labelText"								"%tour_name%"
 			"textAlignment"							"south-west"
 			"xpos"									"0"
@@ -615,7 +615,7 @@
 		{
 			"ControlName"							"Label"
 			"fieldName"								"TourLevelLabel"
-			"font"									"HudFontMediumSmallBold"
+			"font"									"Size 14"
 			"labelText"								"%tour_level%"
 			"textAlignment"							"south"
 			"xpos"									"357"
