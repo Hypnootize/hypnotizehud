@@ -12,7 +12,6 @@
 
 #base "../resource/scheme/alternative_fonts/fonts_rubik.res"			//DEFAULT HYPNOTIZE HUD FONT
 
-//#base "../resource/scheme/alternative_fonts/fonts_archive.res"		// ARCHIVE
 //#base "../resource/scheme/alternative_fonts/fonts_avenir.res"			// AVENIR
 //#base "../resource/scheme/alternative_fonts/fonts_cerbetica.res"		// CERBETICA
 //#base "../resource/scheme/alternative_fonts/fonts_futura.res"			// FUTURA

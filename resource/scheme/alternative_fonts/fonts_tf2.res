@@ -6,84 +6,84 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"TF2Build"
+				"name"										"TF2 Build"
 			}
 		}
 		"Game 14"
 		{
 			"1"
 			{
-				"name"										"TF2Build"
+				"name"										"TF2 Build"
 			}
 		}
 		"Game 15"
 		{
 			"1"
 			{
-				"name"										"TF2Build"
+				"name"										"TF2 Build"
 			}
 		}
 		"Game 16"
 		{
 			"1"
 			{
-				"name"										"TF2Build"
+				"name"										"TF2 Build"
 			}
 		}
 		"Game 18"
 		{
 			"1"
 			{
-				"name"										"TF2Build"
+				"name"										"TF2 Build"
 			}
 		}
 		"Game 20"
 		{
 			"1"
 			{
-				"name"										"TF2Build"
+				"name"										"TF2 Build"
 			}
 		}
 		"Game 22"
 		{
 			"1"
 			{
-				"name"										"TF2Build"
+				"name"										"TF2 Build"
 			}
 		}
 		"Game 22 Shadow"
 		{
 			"1"
 			{
-				"name"										"TF2Build"
+				"name"										"TF2 Build"
 			}
 		}
 		"Game 24"
 		{
 			"1"
 			{
-				"name"										"TF2Build"
+				"name"										"TF2 Build"
 			}
 		}
 		"Game 24 Shadow"
 		{
 			"1"
 			{
-				"name"										"TF2Build"
+				"name"										"TF2 Build"
 			}
 		}
 		"Game 32"
 		{
 			"1"
 			{
-				"name"										"TF2Build"
+				"name"										"TF2 Build"
 			}
 		}
 		"Game 45"
 		{
 			"1"
 			{
-				"name"										"TF2Build"
+				"name"										"TF2 Build"
 			}
 		}
 		
@@ -91,56 +91,56 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"TF2Build"
+				"name"										"TF2 Build"
 			}
 		}
 		"Game 16 Blur"
 		{
 			"1"
 			{
-				"name"										"TF2Build"
+				"name"										"TF2 Build"
 			}
 		}
 		"Game 18 Blur"
 		{
 			"1"
 			{
-				"name"										"TF2Build"
+				"name"										"TF2 Build"
 			}
 		}
 		"Game 20 Blur"
 		{
 			"1"
 			{
-				"name"										"TF2Build"
+				"name"										"TF2 Build"
 			}
 		}
 		"Game 22 Blur"
 		{
 			"1"
 			{
-				"name"										"TF2Build"
+				"name"										"TF2 Build"
 			}
 		}
 		"Game 24 Blur"
 		{
 			"1"
 			{
-				"name"										"TF2Build"
+				"name"										"TF2 Build"
 			}
 		}
 		"Game 32 Blur"
 		{
 			"1"
 			{
-				"name"										"TF2Build"
+				"name"										"TF2 Build"
 			}
 		}
 		"Game 45 Blur"
 		{
 			"1"
 			{
-				"name"										"TF2Build"
+				"name"										"TF2 Build"
 			}
 		}
 	}
@@ -150,7 +150,7 @@ Scheme
 		"10"
 		{
 			"font" 		"resource/scheme/fontfiles/TF2Build.ttf"
-			"name" 		"TF2Build"
+			"name" 		"TF2 Build"
 		}
 	}
 }
