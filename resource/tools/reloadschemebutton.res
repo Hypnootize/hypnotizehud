@@ -16,7 +16,7 @@
 		"tall"				"15"
 		"autoResize"		"1"
 		"pinCorner"			"0"
-		"visible"			"1"				//1 to enable
+		"visible"			"0"				//1 to enable
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"RS"

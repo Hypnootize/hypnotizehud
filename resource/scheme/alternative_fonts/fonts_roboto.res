@@ -2,34 +2,6 @@ Scheme
 {
 	Fonts
 	{
-		"Game 8"
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-			}
-		}
-		"Game 9"
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-			}
-		}
-		"Game 10"
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-			}
-		}
-		"Game 11"
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-			}
-		}
 		"Game 12"
 		{
 			"1"
@@ -38,6 +10,13 @@ Scheme
 			}
 		}
 		"Game 14"
+		{
+			"1"
+			{
+				"name"										"Roboto Bold"
+			}
+		}
+		"Game 15"
 		{
 			"1"
 			{
@@ -86,21 +65,7 @@ Scheme
 				"name"										"Roboto Bold"
 			}
 		}
-		"Game 26"
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-			}
-		}
-		"Game 28"
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-			}
-		}
-		"Game 30"
+		"Game 24 Shadow"
 		{
 			"1"
 			{
@@ -114,35 +79,7 @@ Scheme
 				"name"										"Roboto Bold"
 			}
 		}
-		"Game 36"
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-			}
-		}
-		"Game 38"
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-			}
-		}
-		"Game 40"
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-			}
-		}
-		"Game 44"
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-			}
-		}
-		"Game 72"
+		"Game 45"
 		{
 			"1"
 			{
@@ -150,28 +87,7 @@ Scheme
 			}
 		}
 		
-		"Game 10 Blur"
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-			}
-		}
-		"Game 11 Blur"
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-			}
-		}
-		"Game 12 Blur"
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-			}
-		}
-		"Game 14 Blur"
+		"Game 15 Blur"
 		{
 			"1"
 			{
@@ -213,27 +129,6 @@ Scheme
 				"name"										"Roboto Bold"
 			}
 		}
-		"Game 26 Blur"
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-			}
-		}
-		"Game 28 Blur"
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-			}
-		}
-		"Game 30 Blur"
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-			}
-		}
 		"Game 32 Blur"
 		{
 			"1"
@@ -241,35 +136,7 @@ Scheme
 				"name"										"Roboto Bold"
 			}
 		}
-		"Game 36 Blur"
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-			}
-		}
-		"Game 38 Blur"
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-			}
-		}
-		"Game 40 Blur"
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-			}
-		}
-		"Game 44 Blur"
-		{
-			"1"
-			{
-				"name"										"Roboto Bold"
-			}
-		}
-		"Game 72 Blur"
+		"Game 45 Blur"
 		{
 			"1"
 			{

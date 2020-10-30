@@ -159,7 +159,7 @@
 		"CornerRadius"	  							"1"
 		"RightJustify"	  							"1"
 		
-		"TextFont"									"Game 11"
+		"TextFont"									"Size 11"
 		
 		"TeamBlue"									"Blue"
 		"TeamRed"									"Red"

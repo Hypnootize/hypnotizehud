@@ -8,501 +8,6 @@ Scheme
 	
 	Fonts
 	{
-		"Game 8"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"8"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 9"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"9"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 10"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"10"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 11"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"11"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 12"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"12"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 14"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"14"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 15"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"15"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 16"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"16"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 18"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"18"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 20"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"20"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 22"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"22"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 22 Shadow"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"22"
-				"additive"									"0"
-				"antialias"									"1"
-				"dropshadow"								"1"
-			}
-		}
-		"Game 24"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"24"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 24 Shadow"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"24"
-				"additive"									"0"
-				"antialias"									"1"
-				"dropshadow"								"1"
-			}
-		}
-		"Game 26"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"26"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 28"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"28"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 30"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"30"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 32"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"32"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 36"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"36"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 38"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"38"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 40"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"40"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 42"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"42"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 45"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"45"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 46"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"46"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 72"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"72"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		
-		"Game 10 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"10"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Game 11 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"11"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Game 12 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"12"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Game 14 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"14"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Game 15 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"15"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Game 16 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"16"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Game 18 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"18"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Game 20 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"20"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Game 22 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"22"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Game 24 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"24"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Game 26 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"26"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Game 28 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"28"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Game 30 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"30"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"2"
-			}
-		}
-		"Game 32 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"32"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"2"
-			}
-		}
-		"Game 36 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"36"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"2"
-			}
-		}
-		"Game 38 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"38"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"2"
-			}
-		}
-		"Game 40 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"40"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"2"
-			}
-		}
-		"Game 42 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"42"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"2"
-			}
-		}
-		"Game 45 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"45"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"2"
-			}
-		}
-		"Game 46 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"46"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"2"
-			}
-		}
-		"Game 72 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"72"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"2"
-			}
-		}
-		
-		"Size 6"
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Heavy"
-				"tall"										"6"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
 		"Size 7"
 		{
 			"1"
@@ -653,16 +158,6 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		"Size 34"
-		{
-			"1"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"34"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
 		"Size 36"
 		{
 			"1"
@@ -693,70 +188,7 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		"Size 46"
-		{
-			"1"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"46"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Size 48"
-		{
-			"1"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"48"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Size 72"
-		{
-			"1"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"72"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
 		
-		"Size 6 Blur"
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Heavy"
-				"tall"										"6"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Size 7 Blur"
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Heavy"
-				"tall"										"7"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Size 8 Blur"
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Heavy"
-				"tall"										"8"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
 		"Size 9 Blur"
 		{
 			"1"
@@ -812,17 +244,6 @@ Scheme
 				"blur"										"1"
 			}
 		}
-		"Size 15 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"15"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
 		"Size 16 Blur"
 		{
 			"1"
@@ -856,17 +277,6 @@ Scheme
 				"blur"										"2"
 			}
 		}
-		"Size 22 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"22"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"2"
-			}
-		}
 		"Size 24 Blur"
 		{
 			"1"
@@ -878,34 +288,12 @@ Scheme
 				"blur"										"2"
 			}
 		}
-		"Size 28 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"28"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"2"
-			}
-		}
 		"Size 30 Blur"
 		{
 			"1"
 			{
 				"name"										"Rubik Medium"
 				"tall"										"30"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"2"
-			}
-		}
-		"Size 34 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"34"
 				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
@@ -933,50 +321,7 @@ Scheme
 				"blur"										"2"
 			}
 		}
-		"Size 44 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"44"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"2"
-			}
-		}
-		"Size 46 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"46"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"2"
-			}
-		}
-		"Size 48 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"48"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"2"
-			}
-		}
-		"Size 72 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"72"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"2"
-			}
-		}
+		
 		
 		"Size 10 Shadow"
 		{
@@ -984,17 +329,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"10"
-				"additive"									"0"
-				"antialias"									"1"
-				"dropshadow"								"1"
-			}
-		}
-		"Size 11 Shadow"
-		{
-			"1"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"11"
 				"additive"									"0"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -1012,26 +346,6 @@ Scheme
 			}
 		}
 		
-		"Size 7 Numbers"
-		{
-			"1"
-			{
-				"name"										"Rubik Numbers"
-				"tall"										"7"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Size 8 Numbers"
-		{
-			"1"
-			{
-				"name"										"Rubik Numbers"
-				"tall"										"8"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
 		"Size 10 Numbers"
 		{
 			"1"
@@ -1042,52 +356,12 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		"Size 11 Numbers"
-		{
-			"1"
-			{
-				"name"										"Rubik Numbers"
-				"tall"										"11"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
 		"Size 14 Numbers"
 		{
 			"1"
 			{
 				"name"										"Rubik Numbers"
 				"tall"										"14"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Size 18 Numbers"
-		{
-			"1"
-			{
-				"name"										"Rubik Numbers"
-				"tall"										"18"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Size 22 Numbers"
-		{
-			"1"
-			{
-				"name"										"Rubik Numbers"
-				"tall"										"22"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Size 24 Numbers"
-		{
-			"1"
-			{
-				"name"										"Rubik Numbers"
-				"tall"										"24"
 				"additive"									"0"
 				"antialias"									"1"
 			}
