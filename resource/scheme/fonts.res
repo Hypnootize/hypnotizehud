@@ -8,6 +8,218 @@ Scheme
 	
 	Fonts
 	{
+		"Game 12"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+		"Game 14"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"14"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+		"Game 15"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"15"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+		"Game 16"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+		"Game 18"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"18"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+		"Game 20"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"20"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+		"Game 22"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"22"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+		"Game 22 Shadow"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"22"
+				"additive"									"0"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
+		"Game 24"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+		"Game 24 Shadow"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
+		"Game 32"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"32"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+		"Game 45"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"45"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+		
+		"Game 15 Blur"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"15"
+				"additive"									"0"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Game 16 Blur"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Game 18 Blur"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"18"
+				"additive"									"0"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Game 20 Blur"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"20"
+				"additive"									"0"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Game 22 Blur"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"22"
+				"additive"									"0"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Game 24 Blur"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Game 32 Blur"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"32"
+				"additive"									"0"
+				"antialias"									"1"
+				"blur"										"2"
+			}
+		}
+		"Game 45 Blur"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"45"
+				"additive"									"0"
+				"antialias"									"1"
+				"blur"										"2"
+			}
+		}
+		
 		"Size 7"
 		{
 			"1"
