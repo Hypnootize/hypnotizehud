@@ -154,7 +154,7 @@
 		"ControlName"								"CImageButton"
 		"fieldName"									"IncrementButton"
 		"xpos"										"135"
-		"ypos"										"2"
+		"ypos"										"0"
 		"wide"										"20"
 		"tall"										"20"
 		"zpos"										"20"
