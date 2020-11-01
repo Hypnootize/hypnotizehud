@@ -1,1 +1,0 @@
-#base "../HudMenuEngyBuild.res"
