@@ -1,0 +1,1 @@
+#base "../Tele_Entrance_Inactive.res"
