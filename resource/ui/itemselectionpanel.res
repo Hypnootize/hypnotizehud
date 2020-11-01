@@ -1,0 +1,5 @@
+#base	"../../customizations/resolutions/4x3/itemselectionpanel.res"
+#base	"../../customizations/resolutions/5x4/itemselectionpanel.res"
+#base	"../../customizations/resolutions/16x10/itemselectionpanel.res"
+#base	"../../customizations/resolutions/16x9/itemselectionpanel.res"
+#base	"itemselectionpanel_base.res"
