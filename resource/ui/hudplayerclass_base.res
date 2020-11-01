@@ -183,6 +183,96 @@
 		}
 	}
 	
+	"CarryingWeapon"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"CarryingWeapon"
+		"xpos"										"0"
+		"ypos"										"r25"
+		"zpos"										"100"
+		"wide"										"500"
+		"tall"	 									"28"
+
+		"CarryingBackground"
+		{
+			"ControlName"							"CTFImagePanel"
+			"fieldName"								"CarryingBackground"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"0"
+			"wide"									"p1"
+			"tall"	 								"f0"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"image"									"replay/thumbnails/panels/bg_black"
+			"scaleImage"							"1"
+			"teambg_1"								"replay/thumbnails/panels/bg_black"
+			"teambg_2"								"replay/thumbnails/panels/bg_red"
+			"teambg_3"								"replay/thumbnails/panels/bg_blue"
+			"proportionaltoparent"					"1"
+		
+			"src_corner_height"						"32"
+			"src_corner_width"						"32"
+			
+			"draw_corner_width"						"0"
+			"draw_corner_height" 					"0"
+
+			"alpha"									"255"			
+		}
+
+		"CarryingLabel"
+		{	
+			"ControlName"							"CExLabel"
+			"fieldName"								"CarryingLabel"
+			"font"									"Size 11"
+			"xpos"									"5"
+			"ypos"									"2"
+			"zpos"									"1"
+			"wide"									"200"
+			"tall"	 								"f0"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"textAlignment"							"North-West"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"proportionaltoparent"					"1"
+			"auto_wide_tocontents"					"1"
+			"labelText"								"%carrying%"
+		}
+
+		"CarryingLabelDropShadow"
+		{	
+			"ControlName"							"CExLabel"
+			"fieldName"								"CarryingLabelDropShadow"
+			"xpos"									"9999"
+		}
+
+		"OwnerLabel"
+		{	
+			"ControlName"							"Label"
+			"fieldName"								"OwnerLabel"
+			"font"									"Size 9"
+			"xpos"									"5"
+			"ypos"									"11"
+			"zpos"									"0"
+			"wide"									"200"
+			"tall"	 								"f0"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"textAlignment"							"North-West"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"proportionaltoparent"					"1"
+			"auto_wide_tocontents"					"1"
+		}
+	}
+	
 	//REMOVED
 	"classmodelpanelBG"
 	{

@@ -10,28 +10,28 @@
 		"xpos"										"4"
 		"wide"										"75"
 		"tall"										"75"
-		"font"										"Class Symbols 54"
+		"font"										"Class Symbols 56"
 	}
 	"CustomSoldier"
 	{
 		"xpos"										"4"
 		"wide"										"75"
 		"tall"										"75"
-		"font"										"Class Symbols 54"
+		"font"										"Class Symbols 56"
 	}
 	"CustomPyro"
 	{
 		"xpos"										"4"
 		"wide"										"75"
 		"tall"										"75"
-		"font"										"Class Symbols 54"
+		"font"										"Class Symbols 56"
 	}
 	"CustomDemoman"
 	{
 		"xpos"										"4"
 		"wide"										"75"
 		"tall"										"75"
-		"font"										"Class Symbols 54"
+		"font"										"Class Symbols 56"
 	}
 	"CustomHeavy"
 	{
@@ -39,35 +39,35 @@
 		"ypos"										"165"
 		"wide"										"75"
 		"tall"										"75"
-		"font"										"Class Symbols 54"
+		"font"										"Class Symbols 56"
 	}
 	"CustomEngineer"
 	{
 		"xpos"										"4"
 		"wide"										"75"
 		"tall"										"75"
-		"font"										"Class Symbols 54"
+		"font"										"Class Symbols 56"
 	}
 	"CustomMedic"
 	{
 		"xpos"										"4"
 		"wide"										"75"
 		"tall"										"75"
-		"font"										"Class Symbols 54"
+		"font"										"Class Symbols 56"
 	}
 	"CustomSniper"
 	{
 		"xpos"										"4"
 		"wide"										"75"
 		"tall"										"75"
-		"font"										"Class Symbols 54"
+		"font"										"Class Symbols 56"
 	}
 	"CustomSpy"
 	{
 		"xpos"										"4"
 		"wide"										"75"
 		"tall"										"75"
-		"font"										"Class Symbols 54"
+		"font"										"Class Symbols 56"
 	}
 	
 	"Backpack"

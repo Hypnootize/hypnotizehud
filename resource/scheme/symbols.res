@@ -190,42 +190,42 @@ Scheme
 			}
 		}
 		
-		"Class Symbols 16"
+		"Class Symbols 18"
 		{
 			"1"
 			{
 				"name"			"TF2 Class Icons"
-				"tall"			"16"
+				"tall"			"18"
 				"additive"  	"0"
 				"antialias"		"1"
 			}
 		}
-		"Class Symbols 26"
+		"Class Symbols 28"
 		{
 			"1"
 			{
 				"name"			"TF2 Class Icons"
-				"tall"			"26"
+				"tall"			"28"
 				"additive"  	"0"
 				"antialias"		"1"
 			}
 		}
-		"Class Symbols 46"
+		"Class Symbols 48"
 		{
 			"1"
 			{
 				"name"			"TF2 Class Icons"
-				"tall"			"46"
+				"tall"			"48"
 				"additive"  	"0"
 				"antialias"		"1"
 			}
 		}
-		"Class Symbols 54"
+		"Class Symbols 56"
 		{
 			"1"
 			{
 				"name"			"TF2 Class Icons"
-				"tall"			"54"
+				"tall"			"56"
 				"additive"  	"0"
 				"antialias"		"1"
 			}
@@ -275,7 +275,7 @@ Scheme
 		
 		"31"
 		{
-			"font" "resource/scheme/fontfiles/TF2 Class Icons.otf"
+			"font" "resource/scheme/fontfiles/TF2 Class Icons.ttf"
 			"name" "TF2 Class Icons"
 		}
 		

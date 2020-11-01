@@ -28,7 +28,7 @@
 		"ControlName"								"CExImageButton"
 		"fieldName"									"BlackTransparentBG"
 		"xpos"										"cs-0.5"
-		"ypos"										"r18"
+		"ypos"										"r19"
 		"zpos"										"1"
 		"wide"										"120"
 		"tall"										"22"
@@ -302,7 +302,7 @@
 		"ControlName"								"CTFFlagStatus"
 		"fieldName"									"BlueFlag"
 		"xpos"										"c-74"
-		"ypos"										"r39"
+		"ypos"										"r40"
 		"zpos"										"5"
 		"wide"										"160"
 		"tall"										"90"
@@ -312,7 +312,7 @@
 		"if_hybrid_single"
 		{
 			"xpos"									"c-55"
-			"ypos"									"r39"
+			"ypos"									"r40"
 		}
 		
 		"if_specialdelivery"
@@ -335,7 +335,7 @@
 		"ControlName"								"CTFFlagStatus"
 		"fieldName"									"RedFlag"
 		"xpos"										"c-36"
-		"ypos"										"r39"
+		"ypos"										"r40"
 		"zpos"										"5"
 		"wide"										"160"
 		"tall"										"90"
@@ -345,7 +345,7 @@
 		"if_hybrid_single"
 		{
 			"xpos"									"c-55"
-			"ypos"									"r39"
+			"ypos"									"r40"
 		}
 		
 		"if_specialdelivery"
@@ -367,7 +367,7 @@
 		"ControlName"								"CTFArrowPanel"
 		"fieldName"									"CaptureFlag"
 		"xpos"										"cs-0.5"
-		"ypos"										"r43"	
+		"ypos"										"r44"	
 		"zpos"										"5"
 		"wide"										"35"
 		"tall"										"35"
@@ -377,13 +377,13 @@
 		
 		"if_hybrid"
 		{
-			"ypos"									"r43"
+			"ypos"									"r44"
 		}
 
 		"if_specialdelivery"
 		{
 			"visible"								"1"
-			"ypos"									"r43"
+			"ypos"									"r44"
 			"wide"									"38"
 			"tall"									"38"
 		}
@@ -394,7 +394,7 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"CarriedImage"
 		"xpos"										"cs-.5"
-		"ypos"										"r35"
+		"ypos"										"r36"
 		"zpos"										"10"
 		"wide"										"18"
 		"tall"										"18"
@@ -406,7 +406,7 @@
 		
 		"if_hybrid"
 		{
-			"ypos"									"r35"
+			"ypos"									"r36"
 		}
 
 		"if_specialdelivery"
@@ -470,8 +470,8 @@
 		"xpos"										"cs-0.5"
 		"ypos"										"r95"
 		"zpos"										"10"
-		"wide"										"40"
-		"tall"										"40"
+		"wide"										"30"
+		"tall"										"30"
 		"visible"									"0"
 		"enabled"									"1"
 		"image"										"../hud/objectives_flagpanel_carried_red"

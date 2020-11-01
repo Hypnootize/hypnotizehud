@@ -10,7 +10,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 
-#base "../resource/scheme/alternative_fonts/fonts_rubik.res"			//DEFAULT HYPNOTIZE HUD FONT
+#base "../resource/scheme/alternative_fonts/fonts_rubik.res"			// RUBIK		[DEFAULT HYPNOTIZE HUD FONT]
 
 //#base "../resource/scheme/alternative_fonts/fonts_avenir.res"			// AVENIR
 //#base "../resource/scheme/alternative_fonts/fonts_cerbetica.res"		// CERBETICA

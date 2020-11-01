@@ -187,6 +187,23 @@
 		"BgAlpha"									"0"
 	}
 	
+	HudVoiceStatus
+	{
+		"show_avatar"								"1"
+        
+        "avatar_xpos"  							 	"-12"
+        "avatar_ypos"  							 	"-1"
+        "avatar_wide"  							 	"17"
+        "avatar_tall"  								"17"
+		
+		"icon_ypos"									"2"
+		"icon_xpos"									"17"
+		"icon_tall"									"12"
+		"icon_wide"									"12"
+		
+		"text_xpos"									"33"
+	}
+	
 	HudControlPointIcons
 	{
 		"separator_width"							"3"

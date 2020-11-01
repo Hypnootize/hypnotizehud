@@ -1,16 +1,5 @@
 "Resource/UI/MainMenuOverride.res"
 {
-	///HEALTH CROSS///
-	"HealthColor"			//DOESN'T EVEN WORK :(
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"HealthColor"
-		"xpos"				"9999"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../hud/health_color"
-	}
-	
 	///CONTROL POINT ICONS///
 	"CPCapMask"
 	{
@@ -950,5 +939,128 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"pve/upgrade_unowned"
+	}
+	
+	///BACKPACK ICONS///
+	"BackPackPaint"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BackPackPaint"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"backpack_jewel_paint_splatter"
+	}
+	"BackPackLoaner"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BackPackLoaner"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"viewmode_loaner"
+	}
+	"BackPackSpooky"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BackPackSpooky"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"viewmode_spooky"
+	}
+	"BackPackSpookyOff"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BackPackSpookyOff"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"viewmode_spooky_off"
+	}
+	"BackPackStatClock"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BackPackStatClock"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"viewmode_statclock"
+	}
+	"BackPackStrange"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BackPackStrange"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"viewmode_strange"
+	}
+	"BackPackUnusual"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BackPackUnusual"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"viewmode_unusual"
+	}
+	
+	///SCROLL BAR///
+	"ScrollBarBox"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"ScrollBarBox"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"chalkboard_scroll_box"
+	}
+	"ScrollBarDown"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"ScrollBarDown"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"chalkboard_scroll_down"
+	}
+	"ScrollBarLine"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"ScrollBarLine"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"chalkboard_scroll_line"
+	}
+	"ScrollBarUp"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"ScrollBarUp"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"chalkboard_scroll_up"
+	}
+	
+	///GLYPH///
+	"Expand"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Expand"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"glyph_expand"
+	}
+	"Collapse"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Collapse"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"glyph_collapse"
 	}
 }

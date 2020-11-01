@@ -5,7 +5,7 @@
 		"ControlName"								"CExImageButton"
 		"fieldName"									"BlackTransparentBG"
 		"xpos"										"cs-0.5"
-		"ypos"										"r18"
+		"ypos"										"r19"
 		"zpos"										"1"
 		"wide"										"120"
 		"tall"										"22"

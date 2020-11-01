@@ -18,7 +18,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemName"
-		"font"										"Class Symbols 26"
+		"font"										"Class Symbols 28"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"2"

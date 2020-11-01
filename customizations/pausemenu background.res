@@ -5,10 +5,8 @@
 //																							//
 // 						***IMPORTANT: ONLY 1 LINE CAN BE UNCOMMENTED***						//
 //																							//
-//			CHECKOUT THE EXAMPLES IN THE SCREENSHOT TO SEE WHAT THE FONTS LOOK LIKE!		//
-//																							//
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 
-#base "../resource/ui/pausemenugrey.res"				// DEFAULT GREY BACKGROUND
-//#base "../resource/ui/pausemenutransparent.res"		// TRANSPARENT BACKGROUND
+#base "../resource/ui/pausemenugrey.res"				// DEFAULT GREY PAUSE MENU BACKGROUND
+//#base "../resource/ui/pausemenutransparent.res"		// TRANSPARENT PAUSE MENU BACKGROUND

@@ -1,4 +1,4 @@
-#base "../customizations/pause menu background.res"
+#base "../customizations/pausemenu background.res"
 
 "GameMenu"
 {

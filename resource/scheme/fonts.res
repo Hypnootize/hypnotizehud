@@ -826,10 +826,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Trebuchet MS" 	[!$OSX]
-				"name"										"Helvetica" 	[$OSX]
+				"name"										"Rubik Medium" 	[!$OSX]
+				"name"										"Rubik Medium" 	[$OSX]
 				"tall"										"18"
-				"weight"									"900"
+				"weight"									"0"
 				"antialias" 								"1"
 				"additive"									"1"
 			}
@@ -849,38 +849,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Rubik Medium"
-				"tall"										"12"
-				"weight"									"700"
-				"yres"										"480 599"
-			}
-			"2"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"13"
-				"weight"									"700"
-				"yres"										"600 767"
-			}
-			"3"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"14"
-				"weight"									"700"
-				"yres"										"768 1023"
-			}
-			"4"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"20"
-				"weight"									"700"
-				"yres"										"1024 1199"
-			}
-			"5"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"24"
-				"weight"									"700"
-				"yres"										"1200 10000"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"10"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"HudFontGiant"
