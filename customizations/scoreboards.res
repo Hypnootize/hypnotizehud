@@ -5,7 +5,7 @@
 //																							//
 // 						***IMPORTANT: ONLY 1 LINE CAN BE UNCOMMENTED***						//
 //																							//
-//			CHECKOUT THE EXAMPLES IN THE SCREENSHOT TO SEE WHAT THE FONTS LOOK LIKE!		//
+//		CHECKOUT https://i.imgur.com/38tmyB5.png TO SEE WHAT THE SCOREBOARDS LOOK LIKE!		//
 //																							//
 //////////////////////////////////////////////////////////////////////////////////////////////
 

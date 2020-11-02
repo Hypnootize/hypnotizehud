@@ -5,7 +5,7 @@
 //																							//
 // 						***IMPORTANT: ONLY 1 LINE CAN BE UNCOMMENTED***						//
 //																							//
-//			CHECKOUT THE EXAMPLES IN THE SCREENSHOT TO SEE WHAT THE FONTS LOOK LIKE!		//
+//		CHECKOUT https://i.imgur.com/BqTaeFg.png TO SEE WHAT THE MATCHSTATUS LOOK LIKE!		//
 //																							//
 //////////////////////////////////////////////////////////////////////////////////////////////
 
