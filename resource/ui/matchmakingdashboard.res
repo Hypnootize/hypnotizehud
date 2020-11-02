@@ -231,7 +231,7 @@
 			"ControlName"							"EditablePanel"
 			"fieldName"								"QueueContainer"
 			"xpos"									"cs-0.5"
-			"ypos"									"0"
+			"ypos"									"-50"
 			"zpos"									"111"
 			"wide"									"220"
 			"tall"									"f0"
