@@ -240,10 +240,10 @@
 		"image"			"../sprites/obj_icons/icon_obj_3_blu"
 	}
 	
-	"CPIconBlu2Locked"
+	"CPIconBlu3Locked"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconBlu2Locked"
+		"fieldName"		"CPIconBlu3Locked"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
