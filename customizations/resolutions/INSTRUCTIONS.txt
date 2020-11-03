@@ -1,0 +1,5 @@
+In order to activate the resolution fixes remove the underscore from the folder name that matches your aspect ratio!
+EX: if you use a 4:3 aspect ration you will rename 4x3_ to 4x3.
+
+VERY IMPORTANT!!! ONLY ONE FOLDER CAN STAY WITHOUT UNDERSCORE!!!
+as you remove the underscore from one folder make sure to add it to any folder that was previously active!

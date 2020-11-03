@@ -1,0 +1,2 @@
+To activate the health box style copy both resource and scripts folder and paste them over the default hypnotizehud resource and scripts folder.
+When your system asks you if you want to replace the files you want to select yes!
