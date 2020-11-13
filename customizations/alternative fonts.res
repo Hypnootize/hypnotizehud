@@ -5,7 +5,7 @@
 //																							//
 // 						***IMPORTANT: ONLY 1 LINE CAN BE UNCOMMENTED***						//
 //																							//
-//			CHECKOUT https://i.imgur.com/P6hGhB6.png TO SEE WHAT THE FONTS LOOK LIKE!		//
+//			CHECKOUT https://i.imgur.com/saYjaoL.png TO SEE WHAT THE FONTS LOOK LIKE!		//
 //																							//
 //////////////////////////////////////////////////////////////////////////////////////////////
 
