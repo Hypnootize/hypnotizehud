@@ -1,11 +1,9 @@
-//////////////////////////////////////////////////////////////////////////////////////////////
-//****************************************INSTRUCTIONS**************************************//
-//																							//
-//	UNCOMMENT (REMOVE THE // BEFORE #BASE) FROM THE CUSTOMIZATION LINE YOU WANT TO ACTIVATE	//
-//																							//
-// 						***IMPORTANT: ONLY 1 LINE CAN BE UNCOMMENTED***						//
-//																							//
-//////////////////////////////////////////////////////////////////////////////////////////////
+//=========================================================================================
+// MENU BACKGROUND
+//=========================================================================================
+// Uncomment (by removing the // before #base) the customization line you want to activate
+// IMPORTANT: MAKE SURE ONLY ONE LINE STAYS UNCOMMENTED!!
+//=========================================================================================
 
 
 #base "../resource/ui/pausemenugrey.res"				// DEFAULT GREY PAUSE MENU BACKGROUND
