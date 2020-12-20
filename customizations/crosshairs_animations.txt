@@ -1,15 +1,11 @@
-/////////////////////////////////////////////INSTRUCTIONS/////////////////////////////////////////////
-//																									//
-//   Uncomment both Animate lines by removing the // to activate the crosshair flashing on damage	//
-//																									//
-/////////////////////////////////////////////CUSTOMIZATION////////////////////////////////////////////
-//																									//
-// 					The first fgcolor is the damage flash color (red by default)					//
-//																									//
-// 						The second fgcolor is the normal crosshair color! 							//
-//					Be sure to set the color to match the one on "Crosshair.res"					//
-//																									//
-//////////////////////////////////////////////////////////////////////////////////////////////////////
+//=======================================================================================================
+// CROSSHAIR ANIMATION
+//=======================================================================================================
+// Uncomment (by removing the // before Animate) both lines to activate the crosshair flashing on damage
+// You can change the Crosshair and Crosshair flashing color from the customizations/colors.res
+//=======================================================================================================
+// For more instructions: https://github.com/Hypnootize/Hypnotize-Hud/wiki/Crosshairs
+//=======================================================================================================
 
 event DamagedPlayer
 {
