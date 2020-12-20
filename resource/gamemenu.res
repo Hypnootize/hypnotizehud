@@ -77,7 +77,7 @@
 	
 	"Contracker"
 	{
-		"label" 									"_"
+		"label" 									"B"
 		"command" 									"questlog"
 		"tooltip" 									"Contracker"
 	}
