@@ -247,7 +247,7 @@
 			"color_portrait_bg_red_dead"			"BlackLight"
 			"color_portrait_bg_blue_dead"			"BlackLight"
 			"color_bar_health_high"					"Green"
-			"color_bar_health_med"					"Orangee"
+			"color_bar_health_med"					"255 130 50 255"
 			"percentage_health_med"					"0.6"
 			"color_bar_health_low"					"Red"
 			"percentage_health_low"					"0.3"
