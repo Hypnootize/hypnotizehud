@@ -136,14 +136,14 @@
 		"fieldName"				         			"PlayerStatusAnchor"
 		"xpos"					         			"-5"
 		"xpos_minmode"					         	"-10"
-		"ypos"					         			"-11"
-		"ypos_minmode"					         	"-16"
+		"ypos"					         			"-13"
+		"ypos_minmode"					         	"-17"
 		"wide"					         			"30"
 		"tall"					         			"30"
 		"visible"				         			"1"
 		"enabled"				         			"1"
 		
-		"pin_to_sibling"							"PlayerStatusHealthValue"
+		"pin_to_sibling"							"PlayerStatusHealthValueBox"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
