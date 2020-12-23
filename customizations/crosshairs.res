@@ -34,7 +34,7 @@
 
 	"CustomCrosshairBlurShadow"
 	{
-		"visible"	"0"																																																																			"ControlName" "CExLabel" "fieldName" "CustomCrosshairBlurShadow" "enabled" "1" "xpos" "0" "ypos" "0" "zpos" "-1" "wide" "101" "tall" "101" "textAlignment" "center" "pin_to_sibling" "CustomCrosshair"
+		"visible"	"0"																																																																			"ControlName" "CExLabel" "fieldName" "CustomCrosshairBlurShadow" "enabled" "1" "xpos" "0" "ypos" "0" "zpos" "-1" "wide" "f0" "tall" "f0" "textAlignment" "center" "pin_to_sibling" "CustomCrosshair"
 		
 		"labelText"	"?"
 		
