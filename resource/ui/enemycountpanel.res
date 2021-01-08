@@ -48,7 +48,7 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"EnemyCountCritImageBG"
 		"xpos"										"1"
-		"ypos"										"3"
+		"ypos"										"2"
 		"zpos"										"1"
 		"wide"										"18"
 		"tall"										"18"
