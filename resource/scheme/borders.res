@@ -3151,13 +3151,13 @@ Scheme
 
 		FriendHighlightBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
-					"offset" "0 1"
+					"color" "Main Theme"
+					"offset" "0 0"
 				}
 
 			}
@@ -3166,8 +3166,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
-					"offset" "1 0"
+					"color" "Main Theme"
+					"offset" "0 0"
 				}
 			}
 
@@ -3175,7 +3175,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
+					"color" "Main Theme"
 					"offset" "0 0"
 				}
 			}
@@ -3184,7 +3184,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
+					"color" "Main Theme"
 					"offset" "0 0"
 				}
 			}
@@ -3192,18 +3192,23 @@ Scheme
 
 		FriendHighlightBorderThick
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
-					"offset" "0 1"
+					"color" "Main Theme"
+					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "CreditsGreen"
-					"offset" "0 1"
+					"color" "Main Theme"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "Main Theme"
+					"offset" "0 0"
 				}
 			}
 
@@ -3211,13 +3216,18 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
-					"offset" "1 0"
+					"color" "Main Theme"
+					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "CreditsGreen"
-					"offset" "1 0"
+					"color" "Main Theme"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "Main Theme"
+					"offset" "0 0"
 				}
 			}
 
@@ -3225,12 +3235,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
+					"color" "Main Theme"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "CreditsGreen"
+					"color" "Main Theme"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "Main Theme"
 					"offset" "0 0"
 				}
 			}
@@ -3239,12 +3254,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
+					"color" "Main Theme"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "CreditsGreen"
+					"color" "Main Theme"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "Main Theme"
 					"offset" "0 0"
 				}
 			}
