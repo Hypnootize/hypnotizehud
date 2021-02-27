@@ -6,7 +6,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Hypnotize Icons V3"
+				"name"			"Hypnotize Icons V4"
 				"tall"			"10"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -16,7 +16,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Hypnotize Icons V3"
+				"name"			"Hypnotize Icons V4"
 				"tall"			"12"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -26,17 +26,28 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Hypnotize Icons V3"
+				"name"			"Hypnotize Icons V4"
 				"tall"			"14"
 				"additive"  	"0"
 				"antialias"		"1"
+			}
+		}
+		"Symbols 14 Blur"
+		{
+			"1"
+			{
+				"name"			"Hypnotize Icons V4"
+				"tall"			"14"
+				"additive"  	"0"
+				"antialias"		"1"
+				"blur"			"1"
 			}
 		}
 		"Symbols 16"
 		{
 			"1"
 			{
-				"name"			"Hypnotize Icons V3"
+				"name"			"Hypnotize Icons V4"
 				"tall"			"16"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -46,7 +57,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Hypnotize Icons V3"
+				"name"			"Hypnotize Icons V4"
 				"tall"			"16"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -57,7 +68,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Hypnotize Icons V3"
+				"name"			"Hypnotize Icons V4"
 				"tall"			"18"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -67,7 +78,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Hypnotize Icons V3"
+				"name"			"Hypnotize Icons V4"
 				"tall"			"18"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -78,7 +89,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Hypnotize Icons V3"
+				"name"			"Hypnotize Icons V4"
 				"tall"			"20"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -88,7 +99,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Hypnotize Icons V3"
+				"name"			"Hypnotize Icons V4"
 				"tall"			"20"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -99,7 +110,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Hypnotize Icons V3"
+				"name"			"Hypnotize Icons V4"
 				"tall"			"22"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -109,7 +120,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Hypnotize Icons V3"
+				"name"			"Hypnotize Icons V4"
 				"tall"			"22"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -120,7 +131,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Hypnotize Icons V3"
+				"name"			"Hypnotize Icons V4"
 				"tall"			"24"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -130,7 +141,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Hypnotize Icons V3"
+				"name"			"Hypnotize Icons V4"
 				"tall"			"24"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -141,7 +152,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Hypnotize Icons V3"
+				"name"			"Hypnotize Icons V4"
 				"tall"			"26"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -152,7 +163,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Hypnotize Icons V3"
+				"name"			"Hypnotize Icons V4"
 				"tall"			"30"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -163,7 +174,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Hypnotize Icons V3"
+				"name"			"Hypnotize Icons V4"
 				"tall"			"34"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -173,7 +184,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Hypnotize Icons V3"
+				"name"			"Hypnotize Icons V4"
 				"tall"			"46"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -183,7 +194,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Hypnotize Icons V3"
+				"name"			"Hypnotize Icons V4"
 				"tall"			"50"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -270,7 +281,7 @@ Scheme
 		"30"
 		{
 			"font" "resource/scheme/fontfiles/Hypnotize Icons.ttf"
-			"name" "Hypnotize Icons V3"
+			"name" "Hypnotize Icons V4"
 		}
 		
 		"31"
