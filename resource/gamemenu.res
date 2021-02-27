@@ -91,7 +91,7 @@
 	{
 		"label" 									"w"
 		"command" 									"engine" 				//"engine connect *server ip*"
-		"tooltip" 									"Favourite Server"
+		"tooltip" 									"Favorite Server"
 	}
 	"DemoUI"
 	{

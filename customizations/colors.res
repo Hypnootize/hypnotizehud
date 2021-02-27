@@ -5,7 +5,7 @@
 // TF2 uses the R(red) G(green) B(blu) A(alpha) color code
 // The color values can from 0 to 255
 //=====================================================================================
-// For more in depth information checkout the wiki:
+// For more in depth information check out the wiki:
 // https://github.com/Hypnootize/Hypnotize-Hud/wiki/Colors
 //=====================================================================================
 

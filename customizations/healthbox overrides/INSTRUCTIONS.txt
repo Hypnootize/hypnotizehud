@@ -4,6 +4,6 @@
 // Copy the RESOURCE & SCRIPTS folders and paste them over the default HypnotizeHUD RESOURCE & SCRIPTS folders
 // When your system asks you if you want to replace the files you want to select yes!
 //=============================================================================================================
-// If you want to see what the customization looks like and get more in depth information checkout the wiki:
+// If you want to see what the customization looks like and get more in depth information check out the wiki:
 // https://github.com/Hypnootize/Hypnotize-Hud/wiki/Health-Box
 //=============================================================================================================
