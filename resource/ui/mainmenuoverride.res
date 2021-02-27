@@ -1662,7 +1662,7 @@
 		"ControlName"								"URLLabel"
 		"fieldname"									"HUDRepository"
 		"xpos"										"-10"
-		"ypos"										"-1"
+		"ypos"										"-2"
 		"zpos"										"16"
 		"wide"										"22"
 		"tall"										"25"
@@ -1677,6 +1677,29 @@
 		"pin_to_sibling" 							"BottomBar"
 	}
 
+	"HUDS.TF"
+	{
+		"ControlName"								"URLLabel"
+		"fieldname"									"HUDS.TF"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"16"
+		"wide"										"22"
+		"tall"										"25"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"labelText"									"Q"
+		"font"										"Symbols 22"
+		"textAlignment"								"center"
+		"urlText"									"https://huds.tf/site/s-Hypnotize-Hud"
+		"FgColor_override" 							"WhiteGray"
+
+		"pin_to_sibling" 							"HUDRepository"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
+
 	"Streams"
 	{
 		"ControlName"								"EditablePanel"
@@ -1688,7 +1711,7 @@
 		"tall"										"25"
 		"visible"									"1"
 		
-		"pin_to_sibling" 							"HUDRepository"
+		"pin_to_sibling" 							"HUDS.TF"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
