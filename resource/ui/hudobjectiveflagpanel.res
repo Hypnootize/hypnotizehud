@@ -16,6 +16,7 @@
 		{
 			"zpos"									"-1"
 		}
+
 		"if_mvm"
 		{
 			"xpos"									"-7"	
@@ -462,6 +463,22 @@
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"PoisonTimeLabel"
 	}
+
+	"OutlineImage"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"OutlineImage"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"9"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"../hud/objectives_flagpanel_carried_outline"
+		"scaleImage"								"1"
+		"proportionaltoparent"						"1"
+	}
 	
 	"SpecCarriedImage"
 	{
@@ -484,12 +501,6 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"OutlineBG"
-		"xpos"										"9999"
-	}
-	"OutlineImage"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"OutlineImage"
 		"xpos"										"9999"
 	}
 	"PlayingToBG"
