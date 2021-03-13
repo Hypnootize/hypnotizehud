@@ -128,8 +128,8 @@
 			"xpos"									"27"
 			"ypos"									"26"
 			"zpos"									"1"
-			"wide"									"7"
-			"tall"									"7"
+			"wide"									"14"
+			"tall"									"14"
 			"visible"								"0"
 			"enabled"								"1"
 			"scaleImage"							"1"	
@@ -145,8 +145,8 @@
 			"xpos"									"27"
 			"ypos"									"26"
 			"zpos"									"1"
-			"wide"									"7"
-			"tall"									"7"
+			"wide"									"14"
+			"tall"									"14"
 			"visible"								"0"
 			"enabled"								"1"
 			"scaleImage"							"1"	
@@ -162,8 +162,8 @@
 			"xpos"									"27"
 			"ypos"									"26"
 			"zpos"									"1"
-			"wide"									"7"
-			"tall"									"7"
+			"wide"									"14"
+			"tall"									"14"
 			"visible"								"0"
 			"enabled"								"1"
 			"scaleImage"							"1"	
@@ -249,15 +249,16 @@
 				"ControlName"						"ImagePanel"
 				"fieldName"							"TeleportedIcon"
 				"xpos"								"0"
-				"ypos"								"15"
+				"ypos"								"cs-0.5"
 				"zpos"								"1"
-				"wide"								"9"
-				"tall"								"9"
+				"wide"								"8"
+				"tall"								"8"
 				"visible"							"1"
 				"enabled"							"1"
-				"image"								"../hud/hud_obj_status_teleport_64"
+				"image"								"replay/thumbnails/game/teleport"
 				"drawcolor"							"White"
 				"scaleImage"						"1"
+				"proportionaltoparent"				"1"
 			}
 			
 			"ChargingPanel"
@@ -269,6 +270,7 @@
 				"wide"								"48"
 				"tall"								"36"
 				"visible"							"0"
+				"proportionaltoparent"				"1"
 				
 				"Recharge"
 				{	
@@ -276,9 +278,9 @@
 					"fieldName"						"Recharge"
 					"font"							"Default"
 					"xpos"							"12"
-					"ypos"							"16"
+					"ypos"							"cs-0.5"
 					"wide"							"30"
-					"tall"							"6"
+					"tall"							"8"
 					"autoResize"					"0"
 					"pinCorner"						"0"
 					"visible"						"1"
@@ -286,6 +288,7 @@
 					"textAlignment"					"Left"
 					"dulltext"						"0"
 					"brighttext"					"0"
+					"proportionaltoparent"			"1"
 				}	
 			}
 			
@@ -298,6 +301,7 @@
 				"wide"								"48"
 				"tall"								"36"
 				"visible"							"0"
+				"proportionaltoparent"				"1"
 				
 				"Used"
 				{	
@@ -318,6 +322,7 @@
 					"brighttext"					"0"
 					"drawcolor"						"White"
 					"AllCaps"						"1"
+					"proportionaltoparent"			"1"
 				}
 				
 				"TimesUsedLabel"
@@ -338,6 +343,7 @@
 					"dulltext"						"0"
 					"brighttext"					"0"
 					"drawcolor"						"White"
+					"proportionaltoparent"			"1"
 				}
 			}	
 			
@@ -346,15 +352,16 @@
 				"ControlName"						"CIconPanel"
 				"fieldName"							"UpgradeIcon"
 				"xpos"								"0"
-				"ypos"								"26"
+				"ypos"								"25"
 				"zpos"								"1"
-				"wide"								"9"
-				"tall"								"9"
+				"wide"								"8"
+				"tall"								"8"
 				"visible"							"1"
 				"enabled"							"1"
 				"scaleImage"						"1"	
 				"icon"								"ico_metal"
 				"iconColor"							"White"
+				"proportionaltoparent"				"1"
 			}
 			
 			"Upgrade"
@@ -363,9 +370,9 @@
 				"fieldName"							"Upgrade"
 				"font"								"Default"
 				"xpos"								"12"
-				"ypos"								"28"
+				"ypos"								"25"
 				"wide"								"30"
-				"tall"								"6"
+				"tall"								"8"
 				"autoResize"						"0"
 				"pinCorner"							"0"
 				"visible"							"1"
@@ -373,6 +380,7 @@
 				"textAlignment"						"Left"
 				"dulltext"							"0"
 				"brighttext"						"0"
+				"proportionaltoparent"				"1"
 			}
 		}
 	}

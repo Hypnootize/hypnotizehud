@@ -2066,11 +2066,11 @@
 		
 		"ico_metal"
 		{	
-			"file"		"hud/ico_metal_mask"
+			"file"		"vgui\logos\build icons\metal"
 			"x"		"0"
 			"y"		"0"
-			"width"		"128"
-			"height"	"128"
+			"width"		"32"
+			"height"	"32"
 		}
 		
 		"ico_demolish"
