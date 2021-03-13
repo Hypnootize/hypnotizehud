@@ -136,6 +136,16 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 	}
+
+	BuildingStatus_Spy
+	{
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"480"
+
+		"pin_to_sibling"							"BuildingAnchor"
+	}
 	
 	BuildingStatus_Engineer
 	{
@@ -376,6 +386,10 @@
 		"wide"										"0"
 	}
 	HudTeamGoalTournament
+	{
+		"wide"										"0"
+	}
+	FreezePanelCallout
 	{
 		"wide"										"0"
 	}
