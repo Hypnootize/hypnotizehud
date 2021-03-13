@@ -2227,6 +2227,7 @@ Scheme
 				"weight"									"400"
 				"additive"									"0"
 				"antialias" 								"1"
+				"dropshadow" 								"1"
 			}
 		}
 		
