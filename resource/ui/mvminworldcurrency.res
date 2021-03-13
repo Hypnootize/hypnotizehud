@@ -1,9 +1,9 @@
 "Resource/UI/MvMInWorldCurrency.res"
 {
-	"RedBG"
+	"BlackBG"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"RedBG"
+		"fieldName"									"BlackBG"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -12,7 +12,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
-		"border"									"MaterialTransparentRed50"
+		"border"									"MaterialTransparent50"
 	}
 	
 	"CurrencyGood"
@@ -20,7 +20,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurrencyGood"
 		"font"										"Size 12"
-		"fgcolor"									"White"
+		"fgcolor"									"Green"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"4"
@@ -37,7 +37,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurrencyBad"
 		"font"										"Size 12"
-		"fgcolor"									"White"
+		"fgcolor"									"Red"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"4"
