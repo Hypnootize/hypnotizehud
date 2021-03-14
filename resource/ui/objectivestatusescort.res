@@ -136,10 +136,10 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		
-		"EscortItemImage"
+		"EscortItemImageCustom"
 		{
 			"ControlName"							"ImagePanel"
-			"fieldName"								"EscortItemImage"
+			"fieldName"								"EscortItemImageCustom"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"23"
@@ -250,6 +250,12 @@
 			"scaleImage"							"1"
 		}
 		
+		"EscortItemImage"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"EscortItemImage"	
+			"xpos"									"9999"
+		}
 		"EscortItemImageBottom"
 		{
 			"ControlName"							"ImagePanel"
