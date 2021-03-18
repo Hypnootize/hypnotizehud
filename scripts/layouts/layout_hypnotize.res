@@ -349,6 +349,7 @@
 	{
 		"xpos"										"2"
 		"NormalY"									"30"
+		"EngineerY"									"30"
 	}
 	
 	ItemQuickSwitchPanel
