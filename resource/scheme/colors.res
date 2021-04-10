@@ -132,7 +132,7 @@ Scheme
 		"QualityColorPaintkitWeapon"						"250 250 250 255"
 
 		"ItemRarityDefault"									"131 126 119 255"
-		"ItemRarityCommon"									"176 195 217 255"
+		"ItemRarityCommon"									"135 160 205 255"
 		"ItemRarityUncommon"								"94 152 217 255"
 		"ItemRarityRare"									"50 80 230 255"
 		"ItemRarityMythical"								"136 71 255 255"
