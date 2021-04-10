@@ -475,6 +475,7 @@
 		"enabled"									"1"
 		"paintbackground"							"1"
 		"bgcolor_override"							"WhiteDark"
+		"alpha"										"25"
 		"proportionaltoparent"						"1"
 		"pin_to_sibling" 							"NameFilterTextEntry"
 		"pin_corner_to_sibling"					 	"PIN_BOTTOMRIGHT"

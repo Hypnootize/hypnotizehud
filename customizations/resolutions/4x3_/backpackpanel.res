@@ -23,28 +23,51 @@
 		"tall"										"219"
 	}
 	
+	"NameFilterTextEntry"
+	{
+		"wide"										"83"
+	}
+	"NameFilterBG"
+	{
+		"wide"										"108"
+	}
+	"NameFilterLine"
+	{
+		"wide"										"81"
+	}
+	
+	"ShowBaseItemsCheckbox"
+	{
+		"labelText"									"Stock Items"
+		"wide"										"80"
+	}
+	"ShowBaseItemsBG"
+	{
+		"wide"										"85"
+	}
+	
 	"CurPageLabel"
 	{
-		"xpos"										"-82"
+		"xpos"										"-45"
 		"wide"										"50"
 	}
 
 	"ShowRarityComboBox"
 	{
-		"wide"										"170"
+		"wide"										"155"
 	}
 	"ShowRarityBG"
 	{
-		"wide"										"176"
+		"wide"										"161"
 	}
 	
 	"SortByComboBox"
 	{
-		"wide"										"130"
+		"wide"										"115"
 	}
 	"SortByBG"
 	{
-		"wide"										"136"
+		"wide"										"121"
 	}
 	
 	"CancelApplyToolButton"

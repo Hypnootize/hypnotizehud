@@ -22,29 +22,52 @@
 		"wide"										"712"
 		"tall"										"286"
 	}
+
+	"NameFilterTextEntry"
+	{
+		"wide"										"149"
+	}
+	"NameFilterBG"
+	{
+		"wide"										"174"
+	}
+	"NameFilterLine"
+	{
+		"wide"										"146"
+	}
 	
+	"ShowBaseItemsCheckbox"
+	{
+		"labelText"									"Show TF2 Stock Items"
+		"wide"										"120"
+	}
+	"ShowBaseItemsBG"
+	{
+		"wide"										"130"
+	}
+
 	"CurPageLabel"
 	{
-		"xpos"										"-140"
+		"xpos"										"0"
 		"wide"										"60"
 	}
 	
 	"ShowRarityComboBox"
 	{
-		"wide"										"207"
+		"wide"										"160"
 	}
 	"ShowRarityBG"
 	{
-		"wide"										"213"
+		"wide"										"166"
 	}
 	
 	"SortByComboBox"
 	{
-		"wide"										"210"
+		"wide"										"132"
 	}
 	"SortByBG"
 	{
-		"wide"										"216"
+		"wide"										"138"
 	}
 	
 	"CancelApplyToolButton"
