@@ -3027,22 +3027,22 @@ Scheme
 	{
 		"20"
 		{
-			"font" 		"resource/scheme/fontfiles/rubik-medium.otf"
+			"font" 		"resource/scheme/fonts/rubik-medium.otf"
 			"name" 		"Rubik Medium"
 		}
 		"21"
 		{
-			"font" 		"resource/scheme/fontfiles/rubik-numbers.otf"
+			"font" 		"resource/scheme/fonts/rubik-numbers.otf"
 			"name" 		"Rubik Numbers"
 		}
 		"22"
 		{
-			"font" 		"resource/scheme/fontfiles/rubik-semibold.otf"
+			"font" 		"resource/scheme/fonts/rubik-semibold.otf"
 			"name" 		"Rubik SemiBold"
 		}
 		"23"
 		{
-			"font" 		"resource/scheme/fontfiles/avenir heavy.otf"
+			"font" 		"resource/scheme/fonts/avenir heavy.otf"
 			"name" 		"AvenirLTStd-Heavy"
 		}
 	}

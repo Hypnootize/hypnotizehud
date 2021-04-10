@@ -149,7 +149,7 @@ Scheme
 	{
 		"10"
 		{
-			"font" 		"resource/scheme/fontfiles/Nexa.otf"
+			"font" 		"resource/scheme/fonts/Nexa.otf"
 			"name" 		"NexaBold"
 		}
 	}

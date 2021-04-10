@@ -149,7 +149,7 @@ Scheme
 	{
 		"10"
 		{
-			"font" 		"resource/scheme/fontfiles/lato.ttf"
+			"font" 		"resource/scheme/fonts/lato.ttf"
 			"name" 		"Lato Bold"
 		}
 	}

@@ -149,7 +149,7 @@ Scheme
 	{
 		"10"
 		{
-			"font" 		"resource/scheme/fontfiles/Cerbetica.ttf"
+			"font" 		"resource/scheme/fonts/Cerbetica.ttf"
 			"name" 		"Cerbetica Bold"
 		}
 	}

@@ -149,7 +149,7 @@ Scheme
 	{
 		"10"
 		{
-			"font" 		"resource/scheme/fontfiles/Neutra.ttf"
+			"font" 		"resource/scheme/fonts/Neutra.ttf"
 			"name" 		"NeutraText-Bold"
 		}
 	}

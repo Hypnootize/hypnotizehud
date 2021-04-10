@@ -149,7 +149,7 @@ Scheme
 	{
 		"10"
 		{
-			"font" 		"resource/scheme/fontfiles/Renogare.ttf"
+			"font" 		"resource/scheme/fonts/Renogare.ttf"
 			"name" 		"RenogareSoft-Regular"
 		}
 	}

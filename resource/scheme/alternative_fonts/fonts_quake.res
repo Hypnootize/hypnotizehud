@@ -149,7 +149,7 @@ Scheme
 	{
 		"10"
 		{
-			"font" 		"resource/scheme/fontfiles/Handel Gothic.ttf"
+			"font" 		"resource/scheme/fonts/Handel Gothic.ttf"
 			"name" 		"Handel Gothic BT"
 		}
 	}

@@ -149,7 +149,7 @@ Scheme
 	{
 		"10"
 		{
-			"font" 		"resource/scheme/fontfiles/Avenir Black.ttf"
+			"font" 		"resource/scheme/fonts/Avenir Black.ttf"
 			"name" 		"AvenirLTStd-Black"
 		}
 	}

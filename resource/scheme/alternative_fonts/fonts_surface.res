@@ -149,7 +149,7 @@ Scheme
 	{
 		"10"
 		{
-			"font" 		"resource/scheme/fontfiles/Surface Medium.otf"
+			"font" 		"resource/scheme/fonts/Surface Medium.otf"
 			"name" 		"surface-medium"
 		}
 	}

@@ -149,7 +149,7 @@ Scheme
 	{
 		"10"
 		{
-			"font" 		"resource/scheme/fontfiles/Product.ttf"
+			"font" 		"resource/scheme/fonts/Product.ttf"
 			"name" 		"Product Sans Bold"
 		}
 	}

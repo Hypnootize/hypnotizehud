@@ -149,7 +149,7 @@ Scheme
 	{
 		"10"
 		{
-			"font" 		"resource/scheme/fontfiles/rubik-semibold.otf"
+			"font" 		"resource/scheme/fonts/rubik-semibold.otf"
 			"name" 		"Rubik SemiBold"
 		}
 	}

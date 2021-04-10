@@ -149,7 +149,7 @@ Scheme
 	{
 		"10"
 		{
-			"font" 		"resource/scheme/fontfiles/TF2Build.ttf"
+			"font" 		"resource/scheme/fonts/TF2Build.ttf"
 			"name" 		"TF2 Build"
 		}
 	}

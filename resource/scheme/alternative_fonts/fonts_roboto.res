@@ -149,7 +149,7 @@ Scheme
 	{
 		"10"
 		{
-			"font" 		"resource/scheme/fontfiles/Roboto.ttf"
+			"font" 		"resource/scheme/fonts/Roboto.ttf"
 			"name" 		"Roboto Bold"
 		}
 	}
