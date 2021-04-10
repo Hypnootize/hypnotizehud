@@ -1567,6 +1567,7 @@
 			"enabled"								"1"
 			"fgcolor_override"						"White"
 			"border"								"MaterialGrayLight"
+			"mouseinputenabled" 					"0"
 		}
 	
 		"Notifications_ShowButtonPanel_SB"
