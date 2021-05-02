@@ -19,10 +19,10 @@
 	{
 		"ControlName"     		  					"EditablePanel"
 		"fieldName"	        	  					"ClassSelectFrame"
-		"xpos"										"-5"
+		"xpos"										"cs-0.5"
 		"ypos"										"-5"
 		"zpos"										"1"
-		"wide"										"867"
+		"wide"										"p1.02"
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
@@ -33,10 +33,10 @@
 	{
 		"ControlName"								"Label"
 		"fieldName"									"ClassSelect"
-		"xpos"										"-5"
+		"xpos"										"0"
 		"ypos"										"-4"
 		"zpos"										"2"
-		"wide"										"867"
+		"wide"										"f0"
 		"tall"										"20"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -51,6 +51,8 @@
 		"fgcolor_override"							"White"
 		
 		"pin_to_sibling" 							"ClassSelectFrame"
+		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
 	}
 	
 	"ClassSelectionBG"
