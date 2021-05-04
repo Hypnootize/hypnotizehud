@@ -1,6 +1,3 @@
-#base "../../customizations/crosshairs.res"
-#base "../../customizations/hitMarkers.res"
-
 "Resource/UI/HudPlayerClass.res"
 {
 	"HudPlayerClass"
