@@ -20,10 +20,10 @@
 	{
 		"ControlName"     		  					"EditablePanel"
 		"fieldName"	        	  					"TitleFrame"
-		"xpos"										"-5"
+		"xpos"										"cs-0.5"
 		"ypos"										"-5"
 		"zpos"										"1"
-		"wide"										"867"
+		"wide"										"p1.02"
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
@@ -35,10 +35,10 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TFMessageTitle"
-		"xpos"										"-5"
+		"xpos"										"0"
 		"ypos"										"-4"
 		"zpos"										"2"
-		"wide"										"867"
+		"wide"										"f0"
 		"tall"										"20"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -53,6 +53,8 @@
 		"fgcolor_override"							"White"
 		
 		"pin_to_sibling" 							"TitleFrame"
+		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
 	}
 	
 	"Background"
@@ -126,7 +128,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labelText"									"CONTINUE (&E) "
+		"labelText"									" CONTINUE (&E)"
 		"textAlignment"								"center"
 		"textinsety"								"1"
 		"dulltext"									"0"
