@@ -89,7 +89,7 @@
 	}
 	"HomeServer"
 	{
-		"label" 									"w"
+		"label" 									"n"
 		"command" 									"engine" 				//"engine connect *server ip*"
 		"tooltip" 									"Favorite Server"
 	}
