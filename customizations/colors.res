@@ -18,6 +18,7 @@ Scheme
 		//=============================================================================
 
 		"Crosshair"											"227 228 230 255"
+		"Crosshair Shadow"									"0 0 0 175"
 		"Crosshair Pulse"									"255 0 0 255"
 		
 		"HitMarker"											"255 0 0 255"
@@ -50,6 +51,9 @@ Scheme
 
 		"Heal Numbers"										"0 255 0 255"
 		"Last Damage Done"									"227 228 230 255"
+
+		"Health Gained"										"75 210 75 255"
+		"Health Lost"										"255 50 50 255"
 
 		"Red"												"255 61 61 255"
 		"Blue"												"92 173 255 255"
