@@ -1686,7 +1686,7 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"SupportWhite"
 			"font"									"Size 10"
-			"labelText"								"%teleports%"
+			"labelText"								"%support%"
 			"textAlignment"							"east"
 			"xpos"									"-20"
 			"ypos"									"0"

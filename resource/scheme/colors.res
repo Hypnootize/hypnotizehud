@@ -172,7 +172,7 @@ Scheme
 		"DarkBrown"											"30 30 30 255"
 		
 		"UpgradeDefaultFg"									"227 228 230 255"
-		"UpgradeDefaultBg"									"60 60 60 2555"
+		"UpgradeDefaultBg"									"60 60 60 255"
 		"UpgradeArmedFg"									"227 228 230 255"
 		"UpgradeArmedBg"									"80 150 255 255"
 		"UpgradeDepressedFg"								"60 60 60 255"
