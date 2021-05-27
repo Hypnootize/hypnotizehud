@@ -5,7 +5,6 @@ hudanimations_manifest
 	"file" "scripts/animations/health.txt"
 	"file" "scripts/animations/ammo.txt"
 	"file" "scripts/animations/ubercharge.txt"
-	"file" "customizations/crosshairs_animations.txt"
-	"file" "scripts/animations/hitmarkers.txt"
+	"file" "customizations/crosshairs and hitmarker animation.txt"
 	"file" "scripts/hudanimations_tf.txt"
 }

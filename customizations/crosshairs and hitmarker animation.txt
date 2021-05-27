@@ -1,0 +1,25 @@
+//=========================================================================================================================
+// CROSSHAIR AND HITMARKER ANIMATION
+//=========================================================================================================================
+// Uncomment both lines, by removing the // before Animate "CustomCrosshair", to activate the crosshair flashing on damage
+// You can change the Crosshair and Crosshair flashing color from the customizations/colors.res
+//-------------------------------------------------------------------------------------------------------------------------
+// Uncomment both lines, by removing the // before Animate "Hitmarker", to activate the hitmarker
+// You can change the Hitmarker color from the customizations/colors.res
+//=========================================================================================================================
+// For more instructions:
+// https://github.com/Hypnootize/Hypnotize-Hud/wiki/Crosshairs
+// https://github.com/Hypnootize/Hypnotize-Hud/wiki/Hitmarkers
+//=========================================================================================================================
+
+event DamagedPlayer
+{
+    StopEvent	HitMarker				0.0
+	RunEvent	HitMarker				0.01
+	
+	//Animate 	"CustomCrosshair"		FgColor     "Crosshair Pulse"		Linear 	0.0 	0.00001
+    //Animate 	"CustomCrosshair"		FgColor     "Crosshair"				Linear 	0.10 	0.10001
+
+	//Animate 	"Hitmarker"    	 		Alpha     	"255"					Linear 	0.0 	0.0
+    //Animate 	"Hitmarker"    			Alpha     	"0"						Linear 	0.0 	0.35
+}
