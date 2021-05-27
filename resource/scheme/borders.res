@@ -3159,6 +3159,11 @@ Scheme
 					"color" "Main Theme"
 					"offset" "0 0"
 				}
+				"2"
+				{
+					"color" "Main Theme"
+					"offset" "0 0"
+				}
 
 			}
 
@@ -3169,62 +3174,7 @@ Scheme
 					"color" "Main Theme"
 					"offset" "0 0"
 				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Main Theme"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Main Theme"
-					"offset" "0 0"
-				}
-			}
-		}
-
-		FriendHighlightBorderThick
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "Main Theme"
-					"offset" "0 0"
-				}
 				"2"
-				{
-					"color" "Main Theme"
-					"offset" "0 0"
-				}
-				"3"
-				{
-					"color" "Main Theme"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "Main Theme"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "Main Theme"
-					"offset" "0 0"
-				}
-				"3"
 				{
 					"color" "Main Theme"
 					"offset" "0 0"
@@ -3243,11 +3193,6 @@ Scheme
 					"color" "Main Theme"
 					"offset" "0 0"
 				}
-				"3"
-				{
-					"color" "Main Theme"
-					"offset" "0 0"
-				}
 			}
 
 			Bottom
@@ -3258,11 +3203,6 @@ Scheme
 					"offset" "0 0"
 				}
 				"2"
-				{
-					"color" "Main Theme"
-					"offset" "0 0"
-				}
-				"3"
 				{
 					"color" "Main Theme"
 					"offset" "0 0"

@@ -147,7 +147,7 @@
 		"armedBgColor_override"						"Blank"
 
 		"border_default"							"NoBorder"
-		"border_armed"								"FriendHighlightBorderThick"
+		"border_armed"								"FriendHighlightBorder"
 	}
 
 	"Spinner"
