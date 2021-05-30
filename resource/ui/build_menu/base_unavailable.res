@@ -8,13 +8,9 @@
 	}
 	"CantBuildReason"
 	{	
-		"font"										"Symbols 34"
+		"font"										"Symbols 24"
 		"visible"									"1"
 		"labelText"									"-"
-	}
-	"Metal"	
-	{
-		"visible"									"0"
 	}
 	"CostLabel"
 	{	

@@ -8,20 +8,14 @@
 	}
 	"CantBuildReason"
 	{	
-		"font"										"Symbols 30"
+		"font"										"Symbols 24"
 		"ypos"										"-6"
 		"labelText"									"-"
 		"visible"									"1"
 	}
-	"Metal"	
-	{
-		"visible"									"0"
-	}
 	"CostLabel"
 	{	
-		"xpos"										"2"
-		"ypos"										"25"
-		"textAlignment"								"center"	
+		"ypos"										"-17"
 	}
 	"NumberLabelBG"
 	{	

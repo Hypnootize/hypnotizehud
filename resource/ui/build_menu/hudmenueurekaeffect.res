@@ -27,11 +27,11 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"available_target_1"
-		"xpos"										"100"
+		"xpos"										"77"
 		"ypos"										"10"
 		"zpos"										"10"
-		"wide"										"42"
-		"tall"										"124"
+		"wide"										"34"
+		"tall"										"66"
 		"visible"									"1"
 	}	
 	
@@ -39,11 +39,11 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"available_target_2"
-		"xpos"										"100"
-		"ypos"										"90"
+		"xpos"										"77"
+		"ypos"										"74"
 		"zpos"										"1"
-		"wide"										"42"
-		"tall"										"124"
+		"wide"										"34"
+		"tall"										"66"
 		"visible"									"1"
 	}	
 
@@ -51,11 +51,11 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"unavailable_target_1"
-		"xpos"										"100"
+		"xpos"										"77"
 		"ypos"										"10"
 		"zpos"										"1"
-		"wide"										"42"
-		"tall"										"124"
+		"wide"										"34"
+		"tall"										"66"
 		"visible"									"0"
 	}	
 	
@@ -63,11 +63,11 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"unavailable_target_2"
-		"xpos"										"100"
-		"ypos"										"90"
+		"xpos"										"77"
+		"ypos"										"74"
 		"zpos"										"1"
-		"wide"										"42"
-		"tall"										"124"
+		"wide"										"34"
+		"tall"										"66"
 		"visible"									"0"
 	}
 

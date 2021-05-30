@@ -27,11 +27,11 @@
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
 		"fieldName"									"active_item_1"
-		"xpos"										"100"
+		"xpos"										"77"
 		"ypos"										"10"
 		"zpos"										"1"
-		"wide"										"42"
-		"tall"										"42"
+		"wide"										"34"
+		"tall"										"34"
 		"visible"									"0"
 	}	
 	
@@ -39,11 +39,11 @@
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
 		"fieldName"									"active_item_2"
-		"xpos"										"100"
-		"ypos"										"50"
+		"xpos"										"77"
+		"ypos"										"42"
 		"zpos"										"1"
-		"wide"										"42"
-		"tall"										"42"
+		"wide"										"34"
+		"tall"										"34"
 		"visible"									"0"
 	}	
 	
@@ -51,11 +51,11 @@
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
 		"fieldName"									"active_item_3"
-		"xpos"										"100"
-		"ypos"										"90"
+		"xpos"										"77"
+		"ypos"										"74"
 		"zpos"										"1"
-		"wide"										"42"
-		"tall"										"42"
+		"wide"										"34"
+		"tall"										"34"
 		"visible"									"0"
 	}	
 	
@@ -63,11 +63,11 @@
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
 		"fieldName"									"active_item_4"
-		"xpos"										"100"
-		"ypos"										"130"
+		"xpos"										"77"
+		"ypos"										"106"
 		"zpos"										"1"
-		"wide"										"42"
-		"tall"										"42"
+		"wide"										"34"
+		"tall"										"34"
 		"visible"									"0"
 	}
 	
@@ -75,11 +75,11 @@
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
 		"fieldName"									"inactive_item_1"
-		"xpos"										"100"
+		"xpos"										"77"
 		"ypos"										"10"
 		"zpos"										"1"
-		"wide"										"42"
-		"tall"										"42"
+		"wide"										"34"
+		"tall"										"34"
 		"visible"									"1"
 	}	
 	
@@ -87,11 +87,11 @@
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
 		"fieldName"									"inactive_item_2"
-		"xpos"										"100"
-		"ypos"										"50"
+		"xpos"										"77"
+		"ypos"										"42"
 		"zpos"										"1"
-		"wide"										"42"
-		"tall"										"42"
+		"wide"										"34"
+		"tall"										"34"
 		"visible"									"1"
 	}	
 	
@@ -99,11 +99,11 @@
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
 		"fieldName"									"inactive_item_3"
-		"xpos"										"100"
-		"ypos"										"90"
+		"xpos"										"77"
+		"ypos"										"74"
 		"zpos"										"1"
-		"wide"										"42"
-		"tall"										"42"
+		"wide"										"34"
+		"tall"										"34"
 		"visible"									"1"
 	}	
 	
@@ -111,11 +111,11 @@
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
 		"fieldName"									"inactive_item_4"
-		"xpos"										"100"
-		"ypos"										"130"
+		"xpos"										"77"
+		"ypos"										"106"
 		"zpos"										"1"
-		"wide"										"42"
-		"tall"										"42"
+		"wide"										"34"
+		"tall"										"34"
 		"visible"									"1"
 	}	
 
@@ -123,11 +123,11 @@
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
 		"fieldName"									"unavailable_item_1"
-		"xpos"										"100"
+		"xpos"										"77"
 		"ypos"										"10"
 		"zpos"										"1"
-		"wide"										"42"
-		"tall"										"42"
+		"wide"										"34"
+		"tall"										"34"
 		"visible"									"1"
 	}	
 	
@@ -135,11 +135,11 @@
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
 		"fieldName"									"unavailable_item_2"
-		"xpos"										"100"
-		"ypos"										"50"
+		"xpos"										"77"
+		"ypos"										"42"
 		"zpos"										"1"
-		"wide"										"42"
-		"tall"										"42"
+		"wide"										"34"
+		"tall"										"34"
 		"visible"									"1"
 	}	
 	
@@ -147,11 +147,11 @@
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
 		"fieldName"									"unavailable_item_3"
-		"xpos"										"100"
-		"ypos"										"90"
+		"xpos"										"77"
+		"ypos"										"74"
 		"zpos"										"1"
-		"wide"										"42"
-		"tall"										"42"
+		"wide"										"34"
+		"tall"										"34"
 		"visible"									"1"
 	}	
 	
@@ -159,11 +159,11 @@
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
 		"fieldName"									"unavailable_item_4"
-		"xpos"										"100"
-		"ypos"										"130"
+		"xpos"										"77"
+		"ypos"										"106"
 		"zpos"										"1"
-		"wide"										"42"
-		"tall"										"42"
+		"wide"										"34"
+		"tall"										"34"
 		"visible"									"1"
 	}
 	
