@@ -50,15 +50,6 @@ event HudTournamentSetupPanelClose
 
 //====================================================================================================================
 
-event HasNotificationsBlink
-{
-}
-event HasNotificationsBlinkStop
-{
-}
-
-//===========================================================================================================================
-
 event ActiveTimerHighlight
 {
 	Animate TimePanelValue 						FgColor		"180 255 180 255"					Linear 	0.0 	0.0
@@ -81,6 +72,15 @@ event RDNegativeScorePulse
 {
 	Animate Score 								FgColor		"Low Health Pulse"					Linear 	0.0 	0.0
 	Animate Score 								FgColor		"White"								Linear 	0.1 	0.2
+}
+
+//====================================================================================================================
+
+event HasNotificationsBlink
+{
+}
+event HasNotificationsBlinkStop
+{
 }
 
 //====================================================================================================================

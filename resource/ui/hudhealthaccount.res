@@ -9,7 +9,6 @@
 		"PositiveColor"								"Health Gained"
 		"NegativeColor"								"Health Lost"
 		"delta_lifetime"							"1"
-		"delta_item_font"							"Game 16"
-		"delta_item_font_minmode"					"Game 14"
+		"delta_item_font"							"Game 12"
 	}
 }

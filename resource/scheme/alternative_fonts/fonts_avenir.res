@@ -51,13 +51,6 @@ Scheme
 				"name"										"AvenirLTStd-Black"
 			}
 		}
-		"Game 22 Shadow"
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-			}
-		}
 		"Game 24"
 		{
 			"1"
@@ -65,21 +58,14 @@ Scheme
 				"name"										"AvenirLTStd-Black"
 			}
 		}
-		"Game 24 Shadow"
+		"Game 30"
 		{
 			"1"
 			{
 				"name"										"AvenirLTStd-Black"
 			}
 		}
-		"Game 32"
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-			}
-		}
-		"Game 45"
+		"Game 40"
 		{
 			"1"
 			{
@@ -87,6 +73,20 @@ Scheme
 			}
 		}
 		
+		"Game 12 Blur"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Black"
+			}
+		}
+		"Game 14 Blur"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Black"
+			}
+		}
 		"Game 15 Blur"
 		{
 			"1"
@@ -129,14 +129,65 @@ Scheme
 				"name"										"AvenirLTStd-Black"
 			}
 		}
-		"Game 32 Blur"
+		"Game 30 Blur"
 		{
 			"1"
 			{
 				"name"										"AvenirLTStd-Black"
 			}
 		}
-		"Game 45 Blur"
+		"Game 40 Blur"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Black"
+			}
+		}
+
+		"Game 18 Shadow"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Black"
+			}
+		}
+		"Game 22 Shadow"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Black"
+			}
+		}
+		"Game 24 Shadow"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Black"
+			}
+		}
+		"Game 30 Shadow"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Black"
+			}
+		}
+
+		"Game 18 Outline"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Black"
+			}
+		}
+		"Game 22 Outline"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Black"
+			}
+		}
+		"Game 30 Outline"
 		{
 			"1"
 			{

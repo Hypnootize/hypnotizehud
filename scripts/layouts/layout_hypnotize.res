@@ -56,7 +56,7 @@
 	CHudAccountPanel
 	{
 		"xpos"         								"cs-0.5"
-		"ypos"										"c75"
+		"ypos"										"c80"
 		"ypos_minmode"								"c48"
 		"wide"										"200"
 		"tall"  									"30"
@@ -64,10 +64,10 @@
 	
 	CHealthAccountPanel
 	{
-		"xpos"										"c-151"
-		"xpos_minmode"								"c-109"
-		"ypos"										"r115"
-		"ypos_minmode"								"r165"
+		"xpos"										"c-149"
+		"xpos_minmode"								"c-105"
+		"ypos"										"r112"
+		"ypos_minmode"								"r167"
 		"wide"										"f0"
 		"tall"  									"24"
 	}
@@ -103,7 +103,7 @@
 	CMainTargetID
 	{
 		"ypos"										"240"
-		"ypos_minmode"								"245"
+		"ypos_minmode"								"240"
 		"tall"	 									"50"
 		"tall_minmode"	 							"50"
 	}

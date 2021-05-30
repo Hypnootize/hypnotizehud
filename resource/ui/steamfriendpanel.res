@@ -40,7 +40,7 @@
 		"ControlName"								"Label"
 		"fieldName"									"NameLabel"
 		"xpos"										"rs1"
-		"ypos"										"0"
+		"ypos"										"1"
 		"zpos"										"100"
 		"wide"										"f22"
 		"tall"										"10"
@@ -51,7 +51,7 @@
 		"wrap"										"0"
 		"labelText"									"%name%"
 		"proportionaltoparent"						"1"
-		"font"										"Size 9"
+		"font"										"Size 8"
 		"mouseinputenabled"							"0"
 	}
 
@@ -59,7 +59,7 @@
 	{
 		"fieldName"									"StatusLabel"
 		"xpos"										"rs1"
-		"ypos"										"10"
+		"ypos"										"11"
 		"zpos"										"100"
 		"wide"										"f22"
 		"tall"										"10"

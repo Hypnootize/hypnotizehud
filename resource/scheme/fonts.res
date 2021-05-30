@@ -78,17 +78,6 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		"Game 22 Shadow"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"22"
-				"additive"									"0"
-				"antialias"									"1"
-				"dropshadow"								"1"
-			}
-		}
 		"Game 24"
 		{
 			"1"
@@ -99,38 +88,49 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		"Game 24 Shadow"
+		"Game 30"
 		{
 			"1"
 			{
 				"name"										"Rubik SemiBold"
-				"tall"										"24"
-				"additive"									"0"
-				"antialias"									"1"
-				"dropshadow"								"1"
-			}
-		}
-		"Game 32"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"32"
+				"tall"										"30"
 				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
-		"Game 45"
+		"Game 40"
 		{
 			"1"
 			{
 				"name"										"Rubik SemiBold"
-				"tall"										"45"
+				"tall"										"40"
 				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
 		
+		"Game 12 Blur"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Game 14 Blur"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"14"
+				"additive"									"0"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
 		"Game 15 Blur"
 		{
 			"1"
@@ -197,26 +197,105 @@ Scheme
 				"blur"										"1"
 			}
 		}
-		"Game 32 Blur"
+		"Game 30 Blur"
 		{
 			"1"
 			{
 				"name"										"Rubik SemiBold"
-				"tall"										"32"
+				"tall"										"30"
 				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
 		}
-		"Game 45 Blur"
+		"Game 40 Blur"
 		{
 			"1"
 			{
 				"name"										"Rubik SemiBold"
-				"tall"										"45"
+				"tall"										"40"
 				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
+			}
+		}
+		
+		"Game 18 Shadow"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"18"
+				"additive"									"0"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
+		"Game 22 Shadow"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"22"
+				"additive"									"0"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
+		"Game 24 Shadow"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
+		"Game 30 Shadow"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"30"
+				"additive"									"0"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
+
+		"Game 18 Outline"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"18"
+				"additive"									"0"
+				"antialias"									"1"
+				"outline"									"1"
+			}
+		}
+		"Game 22 Outline"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"22"
+				"additive"									"0"
+				"antialias"									"1"
+				"outline"									"1"
+			}
+		}
+		"Game 30 Outline"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"30"
+				"additive"									"0"
+				"antialias"									"1"
+				"outline"									"1"
 			}
 		}
 		
@@ -224,7 +303,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"7"
 				"additive"									"0"
 				"antialias"									"1"
@@ -234,7 +313,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"8"
 				"additive"									"0"
 				"antialias"									"1"
@@ -244,7 +323,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"9"
 				"additive"									"0"
 				"antialias"									"1"
@@ -405,7 +484,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"9"
 				"additive"									"0"
 				"antialias"									"1"
@@ -596,52 +675,11 @@ Scheme
 			"1"
 			{
 				"name"										"Rubik Medium"
-				"tall"										"13"
-				"range"										"0x0000 0x017F"
-				"yres"										"480 599"
-			}
-			"2"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"13"
-				"range"										"0x0000 0x017F"
-				"yres"										"600 767"
-			}
-			"3"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"15"
-				"range"										"0x0000 0x017F"
-				"yres"										"768 1023"
+				"tall"										"11"
+				"weight"									"0"
+				"additive"									"0"
 				"antialias"									"1"
-			}
-			"4"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"22"
 				"range"										"0x0000 0x017F"
-				"yres"										"1024 1199"
-				"antialias"									"1"
-			}
-			"5"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"24"
-				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
-				"antialias"									"1"
-			}
-			"6"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"13"
-				"range"										"0x0000 0x00FF"
-			}
-			"7"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"13"
-				"range"										"0x0000 0x00FF"
 			}
 		}
 		"DefaultUnderline"
@@ -649,70 +687,24 @@ Scheme
 			"1"
 			{
 				"name"										"Rubik Medium"
-				"tall"										"12"
-				"weight"									"500"
+				"tall"										"11"
+				"weight"									"0"
+				"additive"									"0"
+				"antialias"									"1"
 				"underline" 								"1"
 				"range"										"0x0000 0x017F"
-			}
-			"2"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"11"
-				"range" 									"0x0000 0x00FF"
-				"weight"									"800"
 			}
 		}
 		"DefaultSmall"
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
-				"tall"										"12"
+				"name"										"Rubik Medium"
+				"tall"										"11"
 				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"480 599"
-			}
-			"2"
-			{
-				"name"										"AvenirLTStd-Heavy"
-				"tall"										"13"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"600 767"
-			}
-			"3"
-			{
-				"name"										"AvenirLTStd-Heavy"
-				"tall"										"14"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"768 1023"
+				"additive"									"0"
 				"antialias"									"1"
-			}
-			"4"
-			{
-				"name"										"AvenirLTStd-Heavy"
-				"tall"										"20"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
-				"yres"										"1024 1199"
-				"antialias"									"1"
-			}
-			"5"
-			{
-				"name"										"AvenirLTStd-Heavy"
-				"tall"										"22"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
-				"antialias"									"1"
-			}
-			"6"
-			{
-				"name"										"AvenirLTStd-Heavy"
-				"tall"										"12"
-				"range"										"0x0000 0x00FF"
-				"weight"									"0"
 			}
 		}
 		"DefaultVerySmall"
@@ -720,45 +712,11 @@ Scheme
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"12"
+				"tall"										"7"
 				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"480 599"
-			}
-			"2"
-			{
-				"name"										"Verdana"
-				"tall"										"12"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"600 767"
-			}
-			"3"
-			{
-				"name"										"Verdana"
-				"tall"										"12"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"768 1023"
+				"additive"									"0"
 				"antialias"									"1"
-			}
-			"4"
-			{
-				"name"										"Verdana"
-				"tall"										"14"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
-				"yres"										"1024 1199"
-				"antialias"									"1"
-			}
-			"5"
-			{
-				"name"										"Verdana"
-				"tall"										"16"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
-				"antialias"									"1"
 			}
 		}
 		DefaultLarge
@@ -767,58 +725,10 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"18"
-				"weight"									"900"
-				"range"										"0x0000 0x017F"
-				"yres"										"480 599"
-			}
-			"2"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"21"
-				"weight"									"900"
-				"range"										"0x0000 0x017F"
-				"yres"										"600 767"
-			}
-			"3"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"22"
-				"weight"									"900"
-				"range"										"0x0000 0x017F"
-				"yres"										"768 1023"
+				"weight"									"0"
+				"additive"									"0"
 				"antialias"									"1"
-			}
-			"4"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"28"
-				"weight"									"900"
 				"range"										"0x0000 0x017F"
-				"yres"										"1024 1199"
-				"antialias"									"1"
-			}
-			"5"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"30"
-				"weight"									"900"
-				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
-				"antialias"									"1"
-			}
-			"6"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"20"
-				"range" 									"0x0000 0x00FF"
-				"weight"									"900"
-			}
-			"7"
-			{
-				"name"										"Arial"
-				"tall"										"20"
-				"range" 									"0x0000 0x00FF"
-				"weight"									"800"
 			}
 		}
 		
@@ -849,7 +759,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"500"
 				"additive"									"0"
@@ -862,46 +772,8 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"24"
-				"weight"									"500"
 				"additive"									"0"
 				"antialias" 								"1"
-				"yres"										"480 599"
-			}
-			"2"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"32"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-				"yres"										"600 767"
-			}
-			"3"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"44"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias"								 	"1"
-				"yres"										"768 1023"
-			}
-			"4"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"48"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-				"yres"										"1024 1199"
-			}
-			"5"
-			{
-				"name"										"Rubik Medium"
-				"tall"										"52"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-				"yres"										"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
@@ -910,7 +782,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"44"
-				"weight"									"500"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -1280,7 +1151,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
 				"additive"									"0"
@@ -1302,7 +1173,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
 				"additive"									"0"
@@ -1313,7 +1184,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
 				"additive"									"0"
@@ -1618,7 +1489,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"400"
 				"additive"									"0"
@@ -1828,7 +1699,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"7"
 				"weight"									"400"
 				"additive"									"0"
@@ -2017,7 +1888,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
 				"range"										"0x0000 0x017F"
@@ -2030,7 +1901,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"0"
 				"additive"									"1"
@@ -2266,7 +2137,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
 				"additive"									"0"
@@ -2277,7 +2148,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"9"
 				"weight"									"500"
 				"additive"									"0"
@@ -2310,7 +2181,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
 				"additive"									"0"
@@ -2321,7 +2192,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"8"
 				"antialias" 								"1"
 				"weight"									"500"
@@ -2331,7 +2202,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
 				"additive"									"0"
@@ -2388,7 +2259,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"7"
 				"weight"									"0"
 				"additive"									"1"
@@ -2399,7 +2270,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"7"
 				"weight"									"0"
 				"additive"									"1"
@@ -2410,7 +2281,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"7"
 				"weight"									"0"
 				"antialias" 								"1"
@@ -2420,7 +2291,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"7"
 				"weight"									"0"
 				"blur"										"3"
@@ -2432,7 +2303,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"7"
 				"weight"									"0"
 				"antialias" 								"1"
@@ -2661,7 +2532,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"400"
 				"additive"									"0"
@@ -2672,7 +2543,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"0"
 				"antialias" 								"1"
@@ -2683,7 +2554,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"400"
 				"antialias" 								"1"
@@ -2965,7 +2836,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"7"
 				"weight"									"0"
 				"blur"										"3"
@@ -2978,7 +2849,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Heavy"
+				"name"										"Product Sans"
 				"tall"										"7"
 				"weight"									"400"
 				"additive"									"0"
@@ -3042,8 +2913,8 @@ Scheme
 		}
 		"23"
 		{
-			"font" 		"resource/scheme/fonts/avenir heavy.otf"
-			"name" 		"AvenirLTStd-Heavy"
+			"font" 		"resource/scheme/fonts/product.ttf"
+			"name" 		"Product Sans"
 		}
 	}
 }

@@ -3,12 +3,12 @@
 	"CHudAccountPanel"
 	{
 		"delta_item_x"								"130"
-		"delta_item_start_y"						"1"
-		"delta_item_end_y"							"15"
+		"delta_item_start_y"						"5"
+		"delta_item_end_y"							"10"
 		"PositiveColor"								"Green"
 		"NegativeColor"								"255 0 0 155"
 		"delta_lifetime"							"1"
-		"delta_item_font"							"Game 18"
+		"delta_item_font"							"Game 14"
 	}
 	
 	"AccountValue"
@@ -30,7 +30,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"proportionaltoparent"						"1"
-		"font"										"Game 22"
+		"font"										"Game 18"
 		"font_minmode"								"Game 16"
 		"fgcolor"   								"White"
 	}
@@ -54,7 +54,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"proportionaltoparent"						"1"
-		"font"										"Game 22 Blur"
+		"font"										"Game 18 Blur"
 		"font_minmode"								"Game 16 Blur"
 		"fgcolor"   								"Shadow"
 		

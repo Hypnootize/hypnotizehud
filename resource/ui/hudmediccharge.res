@@ -5,7 +5,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"UBERAnchor"
 		"xpos"										"c-55"
-		"ypos"										"r142"
+		"ypos"										"r137"
 		"ypos_minmode"								"r186"
 		"zpos"										"1"
 		"wide"										"1"
@@ -91,12 +91,12 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ResistIconAnchor"
-		"xpos"										"c-210"
-		"xpos_minmode"								"c-163"
-		"ypos"										"c95"
-		"ypos_minmode"								"c54"
-		"wide"										"30"
-		"tall"										"30"
+		"xpos"										"c-206"
+		"xpos_minmode"								"c-153"
+		"ypos"										"c98"
+		"ypos_minmode"								"c53"
+		"wide"										"0"
+		"tall"										"0"
 		"visible"									"1"
 		"enabled"									"1"
 	}
@@ -107,9 +107,9 @@
 		"fieldName"									"ResistIcon"
 		"xpos"										"0"
 		"ypos"										"0"
-		"wide"										"28"
+		"wide"										"30"
 		"wide_minmode"								"22"
-		"tall"										"28"
+		"tall"										"30"
 		"tall_minmode"								"22"
 		"visible"									"1"
 		"enabled"									"1"
@@ -117,6 +117,8 @@
 		"scaleImage"								"1"
 		
 		"pin_to_sibling"							"ResistIconAnchor"
+		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
 	}
 	
 	"ChargeMeter1"

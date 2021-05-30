@@ -51,13 +51,6 @@ Scheme
 				"name"										"Product Sans Bold"
 			}
 		}
-		"Game 22 Shadow"
-		{
-			"1"
-			{
-				"name"										"Product Sans Bold"
-			}
-		}
 		"Game 24"
 		{
 			"1"
@@ -65,21 +58,14 @@ Scheme
 				"name"										"Product Sans Bold"
 			}
 		}
-		"Game 24 Shadow"
+		"Game 30"
 		{
 			"1"
 			{
 				"name"										"Product Sans Bold"
 			}
 		}
-		"Game 32"
-		{
-			"1"
-			{
-				"name"										"Product Sans Bold"
-			}
-		}
-		"Game 45"
+		"Game 40"
 		{
 			"1"
 			{
@@ -87,6 +73,20 @@ Scheme
 			}
 		}
 		
+		"Game 12 Blur"
+		{
+			"1"
+			{
+				"name"										"Product Sans Bold"
+			}
+		}
+		"Game 14 Blur"
+		{
+			"1"
+			{
+				"name"										"Product Sans Bold"
+			}
+		}
 		"Game 15 Blur"
 		{
 			"1"
@@ -129,14 +129,65 @@ Scheme
 				"name"										"Product Sans Bold"
 			}
 		}
-		"Game 32 Blur"
+		"Game 30 Blur"
 		{
 			"1"
 			{
 				"name"										"Product Sans Bold"
 			}
 		}
-		"Game 45 Blur"
+		"Game 40 Blur"
+		{
+			"1"
+			{
+				"name"										"Product Sans Bold"
+			}
+		}
+
+		"Game 18 Shadow"
+		{
+			"1"
+			{
+				"name"										"Product Sans Bold"
+			}
+		}
+		"Game 22 Shadow"
+		{
+			"1"
+			{
+				"name"										"Product Sans Bold"
+			}
+		}
+		"Game 24 Shadow"
+		{
+			"1"
+			{
+				"name"										"Product Sans Bold"
+			}
+		}
+		"Game 30 Shadow"
+		{
+			"1"
+			{
+				"name"										"Product Sans Bold"
+			}
+		}
+
+		"Game 18 Outline"
+		{
+			"1"
+			{
+				"name"										"Product Sans Bold"
+			}
+		}
+		"Game 22 Outline"
+		{
+			"1"
+			{
+				"name"										"Product Sans Bold"
+			}
+		}
+		"Game 30 Outline"
 		{
 			"1"
 			{
@@ -149,7 +200,7 @@ Scheme
 	{
 		"10"
 		{
-			"font" 		"resource/scheme/fonts/Product.ttf"
+			"font" 		"resource/scheme/fonts/Product Bold.ttf"
 			"name" 		"Product Sans Bold"
 		}
 	}
