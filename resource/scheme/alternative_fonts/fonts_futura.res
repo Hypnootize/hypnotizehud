@@ -165,7 +165,7 @@ Scheme
 				"name"										"FuturaStd-Heavy"
 			}
 		}
-		"Game 30 Shadow"
+		"Game 28 Shadow"
 		{
 			"1"
 			{
@@ -173,7 +173,7 @@ Scheme
 			}
 		}
 
-		"Game 18 Outline"
+		"Game 28 Outline"
 		{
 			"1"
 			{

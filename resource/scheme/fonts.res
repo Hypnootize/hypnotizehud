@@ -253,12 +253,12 @@ Scheme
 				"dropshadow"								"1"
 			}
 		}
-		"Game 30 Shadow"
+		"Game 28 Shadow"
 		{
 			"1"
 			{
 				"name"										"Rubik SemiBold"
-				"tall"										"30"
+				"tall"										"28"
 				"additive"									"0"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -287,12 +287,12 @@ Scheme
 				"outline"									"1"
 			}
 		}
-		"Game 30 Outline"
+		"Game 28 Outline"
 		{
 			"1"
 			{
 				"name"										"Rubik SemiBold"
-				"tall"										"30"
+				"tall"										"28"
 				"additive"									"0"
 				"antialias"									"1"
 				"outline"									"1"

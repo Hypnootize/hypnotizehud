@@ -165,7 +165,7 @@ Scheme
 				"name"										"Cerbetica Bold"
 			}
 		}
-		"Game 30 Shadow"
+		"Game 28 Shadow"
 		{
 			"1"
 			{
@@ -187,7 +187,7 @@ Scheme
 				"name"										"Cerbetica Bold"
 			}
 		}
-		"Game 30 Outline"
+		"Game 28 Outline"
 		{
 			"1"
 			{
