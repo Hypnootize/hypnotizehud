@@ -39,14 +39,14 @@
 		"fieldName"	  	         				 	"PlayerStatusHealthValueBox"
 		"xpos"		    	         				"0"
 		"xpos_minmode"		    	         		"0"
-		"ypos"		    	         				"0"	
-		"zpos"		    	         				"5"
+		"ypos"		    	         				"0"
+		"zpos"		    	         				"6"
 		"wide"		    	         				"150"
 		"tall"		    	         				"50"
 		"visible"		  	         				"1"
 		"enabled"	  		         				"1"
 		"labelText" 		         				"%Health%"
-		"textAlignment"         				 	"center"	
+		"textAlignment"         				 	"center"
 		"font"                   				 	"Game 40"
 		"font_minmode"                   			"Game 30"
 		"fgcolor"	    	         				"Health Numbers"
@@ -56,12 +56,12 @@
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	
-	"PlayerStatusHealthValueShadow"
+	"PlayerStatusHealthValueShadowBox"
 	{
 		"ControlName"	           				 	"CExLabel"
-		"fieldName"	  	         				 	"PlayerStatusHealthValueShadow"
+		"fieldName"	  	         				 	"PlayerStatusHealthValueShadowBox"
 		"xpos"	    		         				"-1"
-		"ypos"	    		         				"-1"	
+		"ypos"	    		         				"-1"
 		"zpos"	    		         				"5"
 		"wide"		    	         				"151"
 		"wide_minmode"								"150"
@@ -82,22 +82,20 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HealthBuff"
-		"xpos"										"-32"
-		"xpos_minmode"								"-40"
+		"xpos"										"-35"
+		"xpos_minmode"								"-44"
 		"ypos"										"-7"
 		"ypos_minmode"								"-11"
-		"zpos"										"1"
-		"wide"										"86"
-		"wide_minmode"								"70"
+		"wide"										"80"
+		"wide_minmode"								"62"
 		"tall"	 									"37"
 		"tall_minmode"	 							"29"
 		"visible"									"1"
 		"enabled"									"1"
 		"alpha"										"0"
-		
+
 		"paintbackground"							"0"
 		"border"									"BuffedBorder"
-		"scaleImage"								"1"
 		
 		"pin_to_sibling" 							"PlayerStatusHealthValueBox"
 	}
@@ -110,21 +108,16 @@
 		"xpos_minmode"								"-40"
 		"ypos"										"-6"
 		"ypos_minmode"								"-8"
-		"zpos"										"1"
 		"wide"										"90"
 		"wide_minmode"								"70"
 		"tall"	 									"40"
 		"tall_minmode"	 							"33"
-		"autoResize"								"0"
-		
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"alpha"										"0"
 		
 		"paintbackground"							"0"
 		"border"									"HurtBorder"
-		"scaleImage"								"1"
 		
 		"pin_to_sibling" 							"PlayerStatusHealthValueBox"
 	}

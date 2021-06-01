@@ -2,11 +2,11 @@
 
 event HudHealthBonusPulse
 {
-	Animate PlayerStatusHealthValue				FgColor 	"Buffed Health" 					Accel 	0.0		0.075
-	Animate PlayerStatusHealthValue				FgColor 	"Buffed Health Pulse" 				Accel 	0.125	0.175
+	Animate PlayerStatusHealthValue				FgColor 	"Buffed Health" 					Linear 	0.0		0.075
+	Animate PlayerStatusHealthValue				FgColor 	"Buffed Health Pulse" 				Linear 	0.125	0.175
 	
-	Animate HealthBG							Alpha 		"0"									Accel 	0.0 	0.0
-	Animate HealthBuff							Alpha 		"255"								Accel 	0.0 	0.0
+	Animate HealthBG							Alpha 		"0"									Linear 	0.0 	0.0
+	Animate HealthBuff							Alpha 		"255"								Linear 	0.0 	0.0
 	
 	RunEvent HudHealthBonusPulseLoop			0.7
 }
@@ -23,8 +23,8 @@ event HudHealthBonusPulseStop
 	
 	Animate PlayerStatusHealthValue 			FgColor 	"Health Numbers" 					Linear 	0.0 	0.0
 	
-	Animate HealthBG							Alpha 		"255"								Accel 	0.0 	0.0
-	Animate HealthBuff							Alpha 		"0"									Accel 	0.0 	0.0
+	Animate HealthBG							Alpha 		"255"								Linear 	0.0 	0.0
+	Animate HealthBuff							Alpha 		"0"									Linear 	0.0 	0.0
 }
 
 //====================================================================================================================
@@ -34,8 +34,8 @@ event HudHealthDyingPulse
 	Animate PlayerStatusHealthValue				FgColor 	"Low Health" 						Linear 	0.0		0.075
 	Animate PlayerStatusHealthValue				FgColor 	"Low Health Pulse" 					Linear 	0.125 	0.175
 	
-	Animate HealthBG							Alpha 		"0"									Accel 	0.0 	0.0
-	Animate HealthHurt							Alpha 		"255"								Accel 	0.0 	0.0
+	Animate HealthBG							Alpha 		"0"									Linear 	0.0 	0.0
+	Animate HealthHurt							Alpha 		"255"								Linear 	0.0 	0.0
 
 	RunEvent HudHealthDyingPulseLoop			0.4
 }
@@ -52,8 +52,8 @@ event HudHealthDyingPulseStop
 	
 	Animate PlayerStatusHealthValue 			FgColor 	"Health Numbers" 					Linear 	0.0 	0.0
 	
-	Animate HealthBG							Alpha 		"255"								Accel 	0.0 	0.0
-	Animate HealthHurt							Alpha 		"0"									Accel 	0.0 	0.0
+	Animate HealthBG							Alpha 		"255"								Linear 	0.0 	0.0
+	Animate HealthHurt							Alpha 		"0"									Linear 	0.0 	0.0
 }
 
 //====================================================================================================================
