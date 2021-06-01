@@ -1739,7 +1739,7 @@
 		"labelText"									"J"
 		"font"										"Symbols 20"
 		"textAlignment"								"center"
-		"urlText"									"https://gamebanana.com/mods/26285"
+		"urlText"									"https://gamebanana.com/mods/291589"
 		"FgColor_override" 							"GrayMedium"
 		
 		"pin_to_sibling" 							"HUDWiki"

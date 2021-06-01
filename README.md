@@ -9,6 +9,8 @@
 
 [Huds.tf](https://huds.tf/forum/showthread.php?tid=668)
 
+[Gamebanana](https://gamebanana.com/mods/291589)
+
 [HUD Wiki](https://github.com/Hypnootize/Hypnotize-Hud/wiki)
 
 [HUD Installation](https://github.com/Hypnootize/Hypnotize-Hud/wiki/Installation)
