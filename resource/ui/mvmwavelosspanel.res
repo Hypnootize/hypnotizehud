@@ -23,7 +23,6 @@
 		"wide"										"550"
 		"tall"										"145"
 		"visible"									"1"
-		"proportionaltoparent"						"1"
 		
 		"paintbackground"							"0"
 		"paintborder"								"1"
@@ -42,7 +41,6 @@
 		"wide"										"440"
 		"tall"										"30"
 		"fgcolor"									"White"
-		"proportionaltoparent"						"1"
 	}
 
 	"HeaderDivider"
@@ -360,7 +358,6 @@
 		"Command"									"vote_restart"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		"proportionaltoparent"						"1"
 		
 		"image_drawcolor"							"255 255 255 255"
 		"paintbackground"							"0"
@@ -398,7 +395,6 @@
 		"Command"									"continue"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		"proportionaltoparent"						"1"
 		
 		"image_drawcolor"							"255 255 255 255"
 		"paintbackground"							"0"
