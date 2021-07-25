@@ -25,7 +25,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"AlertLabelShadow"
-		"font"										"Size 12 Shadow"
+		"font"										"Size 12 Blur"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"1"

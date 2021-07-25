@@ -69,7 +69,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"BalanceLabelShadow"
-		"font"										"Size 12 Blur"
+		"font"										"Size 10 Blur"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"1"
