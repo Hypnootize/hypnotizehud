@@ -13,7 +13,7 @@
 	{
 		"visible"	"0"																																																																			"ControlName" "CExLabel" "fieldName" "CustomCrosshair" "enabled" "1" "zpos" "0" "wide" "f0" "tall" "f0" "textAlignment" "center"
 		
-		"labelText"	"A"
+		"labelText"	"?"
 		
 		"font"		"Size:18 | Outline:OFF"
 		
@@ -34,7 +34,7 @@
 	{
 		"visible"	"0"																																																																			"ControlName" "CExLabel" "fieldName" "CustomCrosshairBlurShadow" "enabled" "1" "xpos" "0" "ypos" "0" "zpos" "-1" "wide" "f0" "tall" "f0" "textAlignment" "center" "pin_to_sibling" "CustomCrosshair"
 		
-		"labelText"	"A"
+		"labelText"	"?"
 		
 		"font"		"Size:18 | Blur:ON"
 		
@@ -54,7 +54,7 @@
 
 	"HitMarker"
 	{
-		"labelText"	"2"																																																																			"ControlName" "CExLabel" "fieldName" "HitMarker" "enabled" "1" "visible" "1" "zpos" "0" "wide" "f0" "tall" "f0" "textAlignment" "center" "alpha" "0"
+		"labelText"	"s"																																																																			"ControlName" "CExLabel" "fieldName" "HitMarker" "enabled" "1" "visible" "1" "zpos" "0" "wide" "f0" "tall" "f0" "textAlignment" "center" "alpha" "0"
 		
 		"font"		"Size:24 | Outline:OFF"
 		

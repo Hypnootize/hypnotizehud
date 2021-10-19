@@ -6,7 +6,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs_HH1"
+				"name"			"TF2Crosshairs_HH2"
 				"tall"			"10"
 				"weight"		"0"
 				"antialias"		"1"
@@ -17,7 +17,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs_HH1"
+				"name"			"TF2Crosshairs_HH2"
 				"tall"			"11"
 				"weight"		"0"
 				"antialias"		"1"
@@ -28,7 +28,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs_HH1"
+				"name"			"TF2Crosshairs_HH2"
 				"tall"			"12"
 				"weight"		"0"
 				"antialias"		"1"
@@ -39,7 +39,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs_HH1"
+				"name"			"TF2Crosshairs_HH2"
 				"tall"			"13"
 				"weight"		"0"
 				"antialias"		"1"
@@ -50,7 +50,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs_HH1"
+				"name"			"TF2Crosshairs_HH2"
 				"tall"			"14"
 				"weight"		"0"
 				"antialias"		"1"
@@ -61,7 +61,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs_HH1"
+				"name"			"TF2Crosshairs_HH2"
 				"tall"			"15"
 				"weight"		"0"
 				"antialias"		"1"
@@ -72,7 +72,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs_HH1"
+				"name"			"TF2Crosshairs_HH2"
 				"tall"			"16"
 				"weight"		"0"
 				"antialias"		"1"
@@ -83,7 +83,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs_HH1"
+				"name"			"TF2Crosshairs_HH2"
 				"tall"			"17"
 				"weight"		"0"
 				"antialias"		"1"
@@ -94,7 +94,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs_HH1"
+				"name"			"TF2Crosshairs_HH2"
 				"tall"			"18"
 				"weight"		"0"
 				"antialias"		"1"
@@ -105,7 +105,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs_HH1"
+				"name"			"TF2Crosshairs_HH2"
 				"tall"			"19"
 				"weight"		"0"
 				"antialias"		"1"
@@ -116,7 +116,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs_HH1"
+				"name"			"TF2Crosshairs_HH2"
 				"tall"			"20"
 				"weight"		"0"
 				"antialias"		"1"
@@ -127,7 +127,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs_HH1"
+				"name"			"TF2Crosshairs_HH2"
 				"tall"			"21"
 				"weight"		"0"
 				"antialias"		"1"
@@ -138,7 +138,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs_HH1"
+				"name"			"TF2Crosshairs_HH2"
 				"tall"			"22"
 				"weight"		"0"
 				"antialias"		"1"
@@ -149,7 +149,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs_HH1"
+				"name"			"TF2Crosshairs_HH2"
 				"tall"			"23"
 				"weight"		"0"
 				"antialias"		"1"
@@ -160,7 +160,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs_HH1"
+				"name"			"TF2Crosshairs_HH2"
 				"tall"			"24"
 				"weight"		"0"
 				"antialias"		"1"
@@ -171,7 +171,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs_HH1"
+				"name"			"TF2Crosshairs_HH2"
 				"tall"			"25"
 				"weight"		"0"
 				"antialias"		"1"
@@ -182,7 +182,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs_HH1"
+				"name"			"TF2Crosshairs_HH2"
 				"tall"			"26"
 				"weight"		"0"
 				"antialias"		"1"
@@ -193,7 +193,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs_HH1"
+				"name"			"TF2Crosshairs_HH2"
 				"tall"			"27"
 				"weight"		"0"
 				"antialias"		"1"
@@ -204,7 +204,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs_HH1"
+				"name"			"TF2Crosshairs_HH2"
 				"tall"			"28"
 				"weight"		"0"
 				"antialias"		"1"
@@ -215,7 +215,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs_HH1"
+				"name"			"TF2Crosshairs_HH2"
 				"tall"			"29"
 				"weight"		"0"
 				"antialias"		"1"
@@ -226,7 +226,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs_HH1"
+				"name"			"TF2Crosshairs_HH2"
 				"tall"			"30"
 				"weight"		"0"
 				"antialias"		"1"
