@@ -83,6 +83,10 @@
 		{
 			"xpos"									"9999"
 		}
+		"fixed_Paintkit"
+		{
+			"tall"									"55"
+		}
 		"consume_mode"
 		{
 			"wide"									"0"
