@@ -320,6 +320,14 @@
 		"ypos"										"r30"
 	}
 
+	HudStalemate
+	{
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
+	}
+
 	HudTournament
 	{
 		"xpos"										"0"
