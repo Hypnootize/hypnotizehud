@@ -18,7 +18,7 @@ Scheme
 		//=============================================================================
 
 		"Crosshair"											"227 228 230 255"
-		"Crosshair Shadow"									"0 0 0 175"
+		"Crosshair Shadow"									"0 0 0 255"
 		"Crosshair Pulse"									"255 0 0 255"
 		
 		"HitMarker"											"255 0 0 255"

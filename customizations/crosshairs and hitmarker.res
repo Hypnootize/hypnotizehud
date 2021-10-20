@@ -26,8 +26,7 @@
 	//====================================================================================
 	// HUD CROSSHAIR BLUR SHADOW
 	//====================================================================================
-	// Before using the blur shadow make sure to enable the blur fonts by uncommenting:
-	// #base "../resource/scheme/crosshairs_blur.res" inside the clintscheme.res
+	// Make sure the "labelText" matches the main crosshair
 	//====================================================================================
 
 	"CustomCrosshairBlurShadow"
