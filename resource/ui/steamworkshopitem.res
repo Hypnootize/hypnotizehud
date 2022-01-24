@@ -1,5 +1,3 @@
-#base "../../resource/tools/reloadschemebutton.res"
-
 "Resource/SteamWorkshopItem.res"
 {
 	"SteamWorkshopItem"
@@ -10,12 +8,9 @@
 		"ypos"										"0"
 		"wide"										"125"
 		"tall"										"200"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
-		"bgcolor_override"							"Blank"
+		"paintbackground"							"0"
 	}
 
 	"HighlightPanel"
@@ -28,7 +23,7 @@
 		"tall"										"125"
 		"visible"									"1"
 		"mouseinputenabled" 						"0"
-		"bgcolor_override" 							"GrayDark"
+		"bgcolor_override" 							"WhiteDark"
 	}
 
 	"PreviewImage"
@@ -46,24 +41,19 @@
 
 	"LabelTitle"	
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"LabelTitle"
-		"xpos"										"0"
+		"xpos"										"2"
 		"ypos"										"155"
-		"wide"										"125"
+		"wide"										"121"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"%title%"
 		"textAlignment"								"north-west"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"wrap"										"0"
 		"font"										"Size 11"
-		"fgcolor_override" 							"WhiteDark"
+		"fgcolor" 									"WhiteDark"
 		"mouseinputenabled"							"0"
 	}
 }
