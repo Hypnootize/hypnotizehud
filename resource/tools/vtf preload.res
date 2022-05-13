@@ -1,6 +1,9 @@
-"Resource/UI/MainMenuOverride.res"
+"Resource/UI/Preload.res"
 {
-	///CONTROL POINT ICONS///
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// CONTROL POINT ICONS
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
 	"CPCapMask"
 	{
 		"ControlName"		"ImagePanel"
@@ -109,390 +112,362 @@
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/icon_obj_neutral_locked"
 	}
-	
 	"CPIconBlu1"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconBlu1"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_1_blu"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconBlu1"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_1_blu"
 	}
-	
 	"CPIconBlu1Locked"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconBlu1Locked"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_1_blu_locked"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconBlu1Locked"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_1_blu_locked"
 	}
-	
 	"CPIconRed1"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconRed1"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_1_red"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconRed1"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_1_red"
 	}
-	
 	"CPIconRed1Locked"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconRed1Locked"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_1_red_locked"
-	}	
-	
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconRed1Locked"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_1_red_locked"
+	}
 	"CPIconNeutral1"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconNeutral1"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_1_neutral"
-	}	
-	
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconNeutral1"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_1_neutral"
+	}
 	"CPIconNeutral1Locked"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconNeutral1Locked"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_1_neutral_locked"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconNeutral1Locked"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_1_neutral_locked"
 	}
-	
 	"CPIconBlu2"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconBlu2"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_2_blu"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconBlu2"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_2_blu"
 	}
-	
 	"CPIconBlu2Locked"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconBlu2Locked"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_2_blu_locked"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconBlu2Locked"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_2_blu_locked"
 	}
-	
 	"CPIconRed2"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconRed2"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_2_red"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconRed2"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_2_red"
 	}
-	
 	"CPIconRed2Locked"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconRed2Locked"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_2_red_locked"
-	}	
-	
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconRed2Locked"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_2_red_locked"
+	}
 	"CPIconNeutral2"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconNeutral2"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_2_neutral"
-	}	
-	
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconNeutral2"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_2_neutral"
+	}
 	"CPIconNeutral2Locked"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconNeutral2Locked"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_2_neutral_locked"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconNeutral2Locked"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_2_neutral_locked"
 	}
-	
 	"CPIconBlu3"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconBlu3"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_3_blu"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconBlu3"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_3_blu"
 	}
-	
 	"CPIconBlu3Locked"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconBlu3Locked"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_3_blu_locked"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconBlu3Locked"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_3_blu_locked"
 	}
-	
 	"CPIconRed3"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconRed3"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_3_red"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconRed3"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_3_red"
 	}
-	
 	"CPIconRed3Locked"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconRed3Locked"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_3_red_locked"
-	}	
-	
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconRed3Locked"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_3_red_locked"
+	}
 	"CPIconNeutral3"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconNeutral3"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_3_neutral"
-	}	
-	
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconNeutral3"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_3_neutral"
+	}
 	"CPIconNeutral3Locked"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconNeutral3Locked"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_3_neutral_locked"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconNeutral3Locked"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_3_neutral_locked"
 	}
-	
 	"CPIconBlu4"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconBlu4"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_4_blu"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconBlu4"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_4_blu"
 	}
-	
 	"CPIconBlu4Locked"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconBlu4Locked"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_4_blu_locked"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconBlu4Locked"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_4_blu_locked"
 	}
-	
 	"CPIconRed4"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconRed4"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_4_red"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconRed4"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_4_red"
 	}
-	
 	"CPIconRed4Locked"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconRed4Locked"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_4_red_locked"
-	}	
-	
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconRed4Locked"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_4_red_locked"
+	}
 	"CPIconNeutral4"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconNeutral4"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_4_neutral"
-	}	
-	
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconNeutral4"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_4_neutral"
+	}
 	"CPIconNeutral4Locked"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconNeutral4Locked"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_4_neutral_locked"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconNeutral4Locked"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_4_neutral_locked"
 	}
-	
 	"CPIconBlu5"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconBlu5"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_5_blu"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconBlu5"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_5_blu"
 	}
-	
 	"CPIconBlu5Locked"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconBlu5Locked"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_5_blu_locked"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconBlu5Locked"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_5_blu_locked"
 	}
-	
 	"CPIconRed5"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconRed5"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_5_red"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconRed5"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_5_red"
 	}
-	
 	"CPIconRed5Locked"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconRed5Locked"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_5_red_locked"
-	}	
-	
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconRed5Locked"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_5_red_locked"
+	}
 	"CPIconNeutral5"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconNeutral5"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_5_neutral"
-	}	
-	
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconNeutral5"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_5_neutral"
+	}
 	"CPIconNeutral5Locked"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconNeutral5Locked"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_5_neutral_locked"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconNeutral5Locked"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_5_neutral_locked"
 	}
-	
 	"CPIconA"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconA"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_a"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconA"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_a"
 	}
 	"CPIconB"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconB"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_b"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconB"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_b"
 	}
 	"CPIconC"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconC"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_c"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconC"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_c"
 	}
 	"CPIconD"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconD"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_d"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconD"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_d"
 	}
 	"CPIconE"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconE"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_e"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconE"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_e"
 	}
 	"CPIconSkull"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconSkull"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_skull_neutral"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconSkull"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_skull_neutral"
 	}
 	"CPIconMannhattan"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconMannhattan"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_blu_mannhattan_locked"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconMannhattan"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_blu_mannhattan_locked"
 	}
 	"CPIconMP"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconMP"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_mp"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconMP"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_mp"
 	}
 	"CPIconTimer"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconTimer"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_timer"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPIconTimer"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/icon_obj_timer"
 	}
-	
-	///CART POINT ICONS///
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// PAYLOAD ICONS
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
 	"CartAlert"
 	{
 		"ControlName"		"ImagePanel"
@@ -700,8 +675,11 @@
 		"enabled"			"1"
 		"image"				"../hud/cart_red_bottom"
 	}
-	
-	///CAPTURE THE FLAG ICONS///
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// CAPTURE THE FLAG ICONS
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
 	"CTFCompassBlue"
 	{
 		"ControlName"		"ImagePanel"
@@ -837,8 +815,183 @@
 		"enabled"			"1"
 		"image"				"../hud/objectives_flagpanel_ico_flag_moving_alt"
 	}
-	
-	///TIMER CLOCK///
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// ROBOT DESTRUCTION ICONS
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	"RDCircleBlue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"RDCircleBlue"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/obj_circle_blue"
+	}
+	"RDCircleRed"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"RDCircleRed"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/obj_circle_red"
+	}
+	"RDCircleGrey"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"RDCircleGrey"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/obj_circle_grey"
+	}
+	"RDLock"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"RDLock"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/obj_lock"
+	}
+	"RDDroppedBlue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"RDDroppedBlue"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/obj_rd_thief_dropped_blue"
+	}
+	"RDDroppedRed"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"RDDroppedRed"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/obj_rd_thief_dropped_red"
+	}
+	"RDThiefBlue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"RDThiefBlue"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/obj_thief_blue"
+	}
+	"RDThiefRed"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"RDThiefRed"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/obj_thief_red"
+	}
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// MVM ICONS
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	"MvMBombStatusBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvMBombStatusBG"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/bomb_carrier_upgrade_base"
+	}
+	"MvMBombStatusFrame"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvMBombStatusFrame"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/bomb_carrier_upgrade_frame"
+	}
+	"MvMBombStatusMeter"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvMBombStatusMeter"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/bomb_carrier_upgrade_meter"
+	}
+	"MvMBombUpgrade1ON"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvMBombUpgrade1ON"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/hud_mvm_bomb_upgrade_1"
+	}
+	"MvMBombUpgrade1OFF"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvMBombUpgrade1OFF"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/hud_mvm_bomb_upgrade_1_disabled"
+	}
+	"MvMBombUpgrade2ON"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvMBombUpgrade2ON"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/hud_mvm_bomb_upgrade_2"
+	}
+	"MvMBombUpgrade2OFF"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvMBombUpgrade2OFF"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/hud_mvm_bomb_upgrade_2_disabled"
+	}
+	"MvMBombUpgrade3ON"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvMBombUpgrade3ON"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/hud_mvm_bomb_upgrade_3"
+	}
+	"MvMBombUpgrade3OFF"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvMBombUpgrade3OFF"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/hud_mvm_bomb_upgrade_3_disabled"
+	}
+	"MvMBombUpgradeBoss"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvMBombUpgradeBoss"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/hud_mvm_bomb_upgrade_boss"
+	}
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// TIMER CLOCK ICONS
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
 	"TimerRed"
 	{
 		"ControlName"		"ImagePanel"
@@ -857,87 +1010,18 @@
 		"enabled"			"1"
 		"image"				"../hud/objectives_timepanel_blue_bg"
 	}
-	
-	///MVM BUY BUTTONS///
-	"BuyDisabled"
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// GENERIC IMAGES
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	"MenuThumbMissingFix"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"BuyDisabled"
+		"fieldName"			"MenuThumbMissingFix"
 		"xpos"				"9999"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"pve/buy_disabled"
-	}
-	"BuyEnabled"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"BuyEnabled"
-		"xpos"				"9999"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"pve/buy_enabled"
-	}
-	"BuySelected"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"BuySelected"
-		"xpos"				"9999"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"pve/buy_selected"
-	}
-	"SellDisabled"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"SellDisabled"
-		"xpos"				"9999"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"pve/sell_disabled"
-	}
-	"SellEnabled"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"SellEnabled"
-		"xpos"				"9999"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"pve/sell_enabled"
-	}
-	"SellSelected"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"SellSelected"
-		"xpos"				"9999"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"pve/sell_selected"
-	}
-	"UpgradeOwned"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"UpgradeOwned"
-		"xpos"				"9999"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"pve/upgrade_owned"
-	}
-	"UpgradePurchased"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"UpgradePurchased"
-		"xpos"				"9999"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"pve/upgrade_purchased"
-	}
-	"UpgradeUnowned"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"UpgradeUnowned"
-		"xpos"				"9999"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"pve/upgrade_unowned"
+		"image"				"../vgui/maps/menu_thumb_Missing"
 	}
 }
