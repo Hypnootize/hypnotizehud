@@ -1,20 +1,17 @@
-![Logo](https://i.imgur.com/oG7xN4t.png)
+![logo](https://i.imgur.com/oG7xN4t.png)
 
-**Material Design Team Fortress 2 Hud by Hypnotize**
+<p align="center">
+  <a href="https://huds.tf/site/s-Hypnotize-Hud"><img src="https://i.imgur.com/WAusE3C.png"></a>
+  <a href="https://gamebanana.com/mods/291589"><img src="https://i.imgur.com/UzXoexI.png"></a>
+  <a href="https://www.editor.criticalflaw.ca/"><img src="https://i.imgur.com/6JJTzkc.png"></a>
+</p>
 
-<a>LINKS</a>
-====
+##
 
-[Screenshots](https://imgur.com/a/4sgZ1)
+<a href="https://imgur.com/a/4sgZ1"><img src="https://i.imgur.com/vVxJdvB.png"></a>
 
-[Huds.tf](https://huds.tf/forum/showthread.php?tid=668)
+<a href="https://github.com/Hypnootize/Hypnotize-Hud/wiki"><img src="https://i.imgur.com/UpvlsG7.png"></a>
 
-[Gamebanana](https://gamebanana.com/mods/291589)
+<a href="https://github.com/Hypnootize/Hypnotize-Hud/wiki/Customization"><img src="https://i.imgur.com/tDsELgW.png"></a>
 
-[HUD Wiki](https://github.com/Hypnootize/Hypnotize-Hud/wiki)
-
-[HUD Installation](https://github.com/Hypnootize/Hypnotize-Hud/wiki/Installation)
-
-[HUD Customization](https://github.com/Hypnootize/Hypnotize-Hud/wiki/Customization)
-
-[Credits](https://github.com/Hypnootize/Hypnotize-Hud/wiki/Credits)
+<a href="https://github.com/Hypnootize/Hypnotize-Hud/wiki/Credits"><img src="https://i.imgur.com/CjePbm6.png"></a>
