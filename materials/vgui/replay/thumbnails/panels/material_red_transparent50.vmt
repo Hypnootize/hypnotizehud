@@ -1,9 +1,9 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui/replay/thumbnails/panels/material_red_transparent50.vtf"
-	"$vertexcolor" 1
-	"$no_fullbright" 1
-	"$ignorez" 1
-	"%keywords" "tf"
-	"$translucent" 1
+	"$baseTexture"				"vgui/replay/thumbnails/panels/material_generic"
+	"$vertexalpha"				"1"
+	"$alpha"					"0.5"
+	"$translucent"				"1"
+	"$vertexcolor"				"1"
+	"$color"					"{255 61 61}"
 }

@@ -1,9 +1,9 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui/replay/thumbnails/panels/material_generic_reverse.vtf"
-	"$vertexcolor" 1
-	"$no_fullbright" 1
-	"$ignorez" 1
-	"%keywords" "tf"
-	"$translucent" 1
+	"$baseTexture"				"vgui/replay/thumbnails/panels/material_generic"
+	"$vertexalpha"				"1"
+	"$alpha"					"1"
+	"$translucent"				"1"
+	"$vertexcolor"				"1"
+	"$basetexturetransform"		"center .5 .5 scale 1 1 rotate 180 translate 0 0"
 }

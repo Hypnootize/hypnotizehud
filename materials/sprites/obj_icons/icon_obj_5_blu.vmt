@@ -1,11 +1,9 @@
 "UnlitGeneric"
 {
-	"$translucent"		"1"
-	"$baseTexture"		"vgui\replay\thumbnails\cp_icons\icon_obj_5_blu"
-	"$alpha"			"1"
-	"$vertexalpha"		"1"
-	"$vertexcolor"		"1"
-	"$no_fullbright"	"1"
-	"$ignorez"			"1"
-	"%keywords"			"tf"
+	"$baseTexture"				"vgui\replay\thumbnails\cp_icons\icon_obj_5_blu"
+	"$vertexalpha"				"1"
+	"$alpha"					"1"
+	"$translucent"				"1"
+	"$vertexcolor"				"1"
+	"$no_fullbright"			"1"
 }

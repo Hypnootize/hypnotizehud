@@ -1,11 +1,9 @@
 "UnlitGeneric"
 {
-        "$translucent" "1"
-        "$baseTexture" "vgui\replay\thumbnails\menu\silhouette"
-        "$alpha" "1"
-        "$vertexalpha" "1"     
-        "$vertexcolor" "1"
-        "$no_fullbright" "1"
-        "$ignorez" "1"
-        "%keywords" "tf"
+	"$basetexture"				"vgui\replay\thumbnails\menu\silhouette"
+	"$vertexalpha"				"1"
+	"$alpha"					"1"
+	"$translucent"				"1"
+	"$vertexcolor"				"1"
+	"$no_fullbright"			"1"
 }
