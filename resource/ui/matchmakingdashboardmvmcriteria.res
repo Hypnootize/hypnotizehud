@@ -7,7 +7,7 @@
 		"fieldName"									"MVMCriteria"
 		"xpos"										"r0"
 		"ypos"										"10"
-		"zpos"										"1002"
+		"zpos"										"1003"
 		"wide"										"420"
 		"tall"										"f70"
 		"visible"									"1"
@@ -42,24 +42,21 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"font"										"Size 18"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"back"
 		"proportionaltoparent"						"1"
 		"labeltext"									"BACK"
 		"mouseinputenabled"							"1"
 		"keyboardinputenabled"						"0"
 		//"actionsignallevel"						"1"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 
@@ -81,13 +78,10 @@
 		"pinCorner"									"3"
 		"visible"									"0"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"font"										"Size 18"
 		"textAlignment"								"west"
 		"textinsetx"								"30"
 		"AllCaps"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"start_search"
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_Matchmaking_StartSearch"
@@ -97,9 +91,9 @@
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 
@@ -121,13 +115,10 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"font"										"Size 18"
 		"textAlignment"								"west"
 		"textinsetx"								"30"
 		"AllCaps"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"start_search"
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_Matchmaking_StartSearch"
@@ -137,9 +128,9 @@
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 
@@ -161,13 +152,10 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"font"										"Size 18"
 		"textAlignment"								"west"
 		"textinsetx"								"30"
 		"AllCaps"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"select_tour"
 		"proportionaltoparent"						"1"
 		"labeltext"									"SELECT MISSION"
@@ -177,9 +165,9 @@
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 
@@ -204,7 +192,7 @@
 
 	"JoinLateLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"JoinLateLabel"
 		"xpos"										"rs1-5"
 		"ypos"										"rs1-9"
@@ -215,6 +203,6 @@
 		"labelText"									"#TF_Matchmaking_JoinInProgress"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 }

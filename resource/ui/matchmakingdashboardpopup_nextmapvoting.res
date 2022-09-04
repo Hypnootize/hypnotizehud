@@ -6,11 +6,11 @@
 		"fieldName"									"NextMapVoting"
 		"xpos"										"cs-0.5"
 		"ypos"										"0"
-		"zpos"										"10000"
+		"zpos"										"9999"
 		"wide"										"260"
 		"tall"										"80"
 		"visible"									"1"
-		"proportionaltoparent"						"1"
+		"proportionaltoparent"						"0"
 		"keyboardinputenabled"						"0"
 		"mouseinputenabled"							"1"
 
@@ -55,11 +55,8 @@
 				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
-				"tabPosition"						"0"
 				"font"								"Size 14"
 				"textAlignment"						"center"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"default"							"0"
 				"labeltext"							""
 				"sound_depressed"					"UI/buttonclick.wav"
@@ -67,7 +64,7 @@
 				"Command"							"toggle_hide"
 				"proportionaltoparent" 				"1"
 				"actionsignallevel"					"2"
-			
+
 				"paintbackground"					"0"
 
 				"image_default"						"glyph_collapse"
@@ -105,11 +102,8 @@
 				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
-				"tabPosition"						"0"
 				"font"								"Size 14"
 				"textAlignment"						"center"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"default"							"0"
 				"labeltext"							""
 				"sound_depressed"					"UI/buttonclick.wav"
@@ -117,7 +111,7 @@
 				"Command"							"toggle_hide"
 				"proportionaltoparent" 				"1"
 				"actionsignallevel"					"2"
-			
+
 				"paintbackground"					"0"
 
 				"image_default"						"glyph_expand"
@@ -144,7 +138,7 @@
 
 			"DescLabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"DescLabel"
 				"xpos"								"0"
 				"ypos"								"3"
@@ -154,7 +148,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"font"								"Size 14"
-				"fgcolor_override"					"White"
+				"fgcolor"							"White"
 				"textAlignment"						"center"
 				"labelText"							"#TF_Matchmaking_RollingQueue_MatchOver"
 				"proportionaltoparent"				"1"

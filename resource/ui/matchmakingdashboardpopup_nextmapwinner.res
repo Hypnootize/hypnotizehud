@@ -6,11 +6,11 @@
 		"fieldName"									"NextMapWinner"
 		"xpos"										"cs-0.5"
 		"ypos"										"0"
-		"zpos"										"10000"
+		"zpos"										"9999"
 		"wide"										"260"
 		"tall"										"80"
 		"visible"									"1"
-		"proportionaltoparent"						"1"
+		"proportionaltoparent"						"0"
 		"keyboardinputenabled"						"0"
 		"mouseinputenabled"							"1"
 
@@ -44,7 +44,7 @@
 
 			"DescLabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"DescLabel"
 				"xpos"								"0"
 				"ypos"								"3"
@@ -54,7 +54,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"font"								"Size 14"
-				"fgcolor_override"					"White"
+				"fgcolor"							"White"
 				"textAlignment"						"center"
 				"labelText"							"#TF_Matchmaking_RollingQueue_NextMapWinner"
 				"proportionaltoparent"				"1"
@@ -70,7 +70,7 @@
 				"wide"								"50"
 				"tall"								"o0.75"
 				"zpos"								"1"
-				"proportionaltoparent"				"1"	
+				"proportionaltoparent"				"1"
 				"mouseinputenabled"					"0"
 
 				"MapImage"
@@ -83,14 +83,14 @@
 					"tall"							"o1"
 					"zpos"							"0"
 					"image"							"..\vgui\maps\menu_thumb_pl_goldrush"
-					"proportionaltoparent"			"1"	
+					"proportionaltoparent"			"1"
 					"mouseinputenabled"				"0"
 				}
 			}
 
 			"NameLabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"NameLabel"
 				"xpos"								"0"
 				"ypos"								"rs1-2"
@@ -100,7 +100,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"font"								"MapVotesPercentage"
-				"fgcolor_override"					"White"
+				"fgcolor"							"White"
 				"textAlignment"						"south"
 				"labelText"							"%mapname%"
 				"proportionaltoparent"				"1"

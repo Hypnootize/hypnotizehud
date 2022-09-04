@@ -6,11 +6,11 @@
 		"fieldName"									"NewMatchFound"
 		"xpos"										"cs-0.5"
 		"ypos"										"0"
-		"zpos"										"10000"
+		"zpos"										"9999"
 		"wide"										"200"
 		"tall"										"60"
 		"visible"									"1"
-		"proportionaltoparent"						"1"
+		"proportionaltoparent"						"0"
 		"keyboardinputenabled"						"0"
 		"mouseinputenabled"							"1"
 
@@ -60,7 +60,7 @@
 				"proportionaltoparent"				"1"
 				"pinCorner"							"3"
 				"AllCaps"							"1"
-				
+
 				"fonts"
 				{
 					"0"								"Size 11"
@@ -71,7 +71,7 @@
 
 			"AutoJoinLabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"AutoJoinLabel"
 				"xpos"								"0"
 				"ypos"								"rs1-17"
@@ -81,7 +81,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"font"								"Size 11"
-				"fgcolor_override"					"White"
+				"fgcolor"							"White"
 				"textAlignment"						"center"
 				"labelText"							"%auto_join%"
 				"proportionaltoparent"				"1"
@@ -102,17 +102,14 @@
 				"pinCorner"							"3"
 				"visible"							"1"
 
-				if_queued
+				"if_queued"
 				{
 					"visible"						"0"
 				}
 
 				"enabled"							"1"
-				"tabPosition"						"0"
 				"font"								"Size 11"
 				"textAlignment"						"center"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"Command"							"abandon_match"
 				"proportionaltoparent"				"1"
 				"labeltext"							"#TF_MM_Rejoin_Abandon"
@@ -122,9 +119,9 @@
 				"AllCaps"							"1"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
-				
+
 				"paintbackground"					"0"
-				
+
 				"border_default"					"MaterialRed"
 				"border_armed"						"MaterialHypno"
 
@@ -143,21 +140,18 @@
 				"zpos"								"100"
 				"tall"								"18"
 
-				if_expected
+				"if_expected"
 				{
 					"xpos"							"cs-0.5"
 					"wide"							"150"
 				}
-				
+
 				"autoResize"						"0"
 				"pinCorner"							"3"
 				"visible"							"1"
 				"enabled"							"1"
-				"tabPosition"						"0"
 				"font"								"Size 11"
 				"textAlignment"						"center"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"Command"							"join_match"
 				"proportionaltoparent"				"1"
 				"labeltext"							"#TF_Matchmaking_RollingQueue_JoinNow"
@@ -167,9 +161,9 @@
 				"AllCaps"							"1"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
-				
+
 				"paintbackground"					"0"
-				
+
 				"border_default"					"MaterialGreen"
 				"border_armed"						"MaterialHypno"
 
@@ -177,7 +171,7 @@
 				"armedFgColor_override"				"White"
 				"depressedFgColor_override"			"White"
 			}
-			
+
 			"WideJoinButton"
 			{
 				"ControlName"						"CExButton"
@@ -187,16 +181,13 @@
 				"wide"								"150"
 				"zpos"								"100"
 				"tall"								"18"
-				
+
 				"autoResize"						"0"
 				"pinCorner"							"3"
 				"visible"							"1"
 				"enabled"							"1"
-				"tabPosition"						"0"
 				"font"								"Size 11"
 				"textAlignment"						"center"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"Command"							"join_match"
 				"proportionaltoparent"				"1"
 				"labeltext"							"#TF_Matchmaking_RollingQueue_JoinNow"
@@ -206,9 +197,9 @@
 				"AllCaps"							"1"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
-				
+
 				"paintbackground"					"0"
-		
+
 				"border_default"					"MaterialGreen"
 				"border_armed"						"MaterialHypno"
 
@@ -219,7 +210,7 @@
 
 			"JoiningLabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"JoiningLabel"
 				"xpos"								"cs-1"
 				"ypos"								"rs1-17"
@@ -229,7 +220,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"font"								"Size 11"
-				"fgcolor_override"					"White"
+				"fgcolor"							"White"
 				"textAlignment"						"east"
 				"labelText"							"#TF_Matchmaking_RollingQueue_MatchReadyJoining"
 				"proportionaltoparent"				"1"
