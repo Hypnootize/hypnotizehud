@@ -1,28 +1,24 @@
-#base "base_active.res"
+#base "Base_Active.res"
 
-"Resource/UI/Build_Menu/Base_Cant_Afford.res"
+"Resource/UI/build_menu/base_cant_afford.res"
 {
 	"Background"
 	{
-		"border"									"MaterialTransparentRed50"
+		"border"		"MaterialTransparentRed"
 	}
 	"CantBuildReason"
-	{
-		"font"										"Symbols 24"
-		"ypos"										"-6"
-		"labelText"									"-"
-		"visible"									"1"
+	{	
+		"font"			"Symbols 30"
+		"ypos"			"-7"
+		"labelText"		"1"
+		"visible"		"1"
 	}
-	"CostLabel"
+	"MetalIcon"	
 	{
-		"ypos"										"-17"
-	}
-	"NumberLabelBG"
-	{
-		"visible"									"0"
+		"visible"		"0"
 	}
 	"NumberLabel"
-	{
-		"visible"									"0"
+	{	
+		"visible"		"0"
 	}
 }

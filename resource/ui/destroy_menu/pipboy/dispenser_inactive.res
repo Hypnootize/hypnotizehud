@@ -1,1 +1,1 @@
-#base "../dispenser_inactive.res"
+#base "../Dispenser_Inactive.res"

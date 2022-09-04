@@ -3,35 +3,37 @@
 	"CHudAccountPanel"
 	{
 		"delta_item_x"								"130"
-		"delta_item_start_y"						"5"
-		"delta_item_end_y"							"10"
-		"PositiveColor"								"Green"
+		"delta_item_start_y"						"1"
+		"delta_item_end_y"							"15"
+		"PositiveColor"								"0 255 0 155"
 		"NegativeColor"								"255 0 0 155"
 		"delta_lifetime"							"1"
-		"delta_item_font"							"Game 14"
+		"delta_item_font"							"GameFont18"
 	}
-
+	
 	"AccountValue"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AccountValue"
-		"xpos"										"cs-0.5"
+		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"200"
-		"tall"										"30"
+		"tall"										"20"
 		"autoResize"								"1"
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
+		"tabPosition"								"0"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
-		"proportionaltoparent"						"1"
-		"font"										"Game 18"
-		"font_minmode"								"Game 16"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"font"										"GameFont22"
+		"font_minmode"								"GameFont16"
 		"fgcolor"   								"White"
 	}
-
+	
 	"AccountValueShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -40,32 +42,37 @@
 		"ypos"										"-1"
 		"zpos"										"2"
 		"wide"										"200"
-		"tall"										"30"
+		"tall"										"20"
 		"autoResize"								"1"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
+		"tabPosition"								"0"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
-		"proportionaltoparent"						"1"
-		"font"										"Game 18 Blur"
-		"font_minmode"								"Game 16 Blur"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"font"										"GameFont22Blur"
+		"font_minmode"								"GameFont16Blur"
 		"fgcolor"   								"Shadow"
-
+		
 		"pin_to_sibling" 							"AccountValue"
 	}
-
-
+	
+	
+	
+	
+	
 	"AccountBG"
 	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"AccountBG"
-		"xpos"										"9999"
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"AccountBG"
+		"xpos"			"9999"
 	}
-	"MetalIcon"
+	"MetalIcon"	
 	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"MetalIcon"
-		"xpos"										"9999"
+		"ControlName"	"CIconPanel"
+		"fieldName"		"MetalIcon"
+		"xpos"			"9999"
 	}
 }

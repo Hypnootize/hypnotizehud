@@ -1,6 +1,6 @@
-#base "../../../resource/tools/reloadschemebutton.res"
+#base "../../../resource/tools/ReloadSchemeButton.res"
 
-"Resource/UI/Econ/ItemPickupPanel.res"
+"Resource/UI/ItemPickupPanel.res"
 {
 	"item_pickup"
 	{
@@ -15,37 +15,37 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
+		"tabPosition"								"0"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayDarkest"
-		"infocus_bgcolor_override" 					"GrayDarkest"
-		"outoffocus_bgcolor_override" 				"GrayDarkest"
-
+		"bgcolor_override"							"Background"
+		"infocus_bgcolor_override" 					"Background"
+		"outoffocus_bgcolor_override" 				"Background"
+		
 		"modelpanels_spacing"						"40"
 		"modelpanels_width"							"500"
 		"modelpanels_height"						"260"
 		"modelpanels_ypos"							"110"
-
-
-		"modelpanelskv"
+		
+		
+		"modelpanelskv"	
 		{
-			"PaintBackgroundType"					"0"
+			"PaintBackgroundType"					"2"
 			"paintborder"							"1"
-			"paintbackground"						"1"
-			"border"								"MaterialBlackLight"
-
+			"bgcolor_override"						"Blank"
+			
 			"model_xpos"							"0"
 			"model_center_y"						"1"
 			"model_tall"							"160"
 			"model_wide"							"240"
-
+			
 			"text_forcesize"						"1"
 			"text_xpos"								"250"
 			"text_wide"								"225"
 			"text_center"							"1"
 			"is_mouseover"							"1"
 			"hide_collection_panel" 				"1"
-
+			
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" 			"0"
@@ -53,14 +53,14 @@
 			}
 		}
 	}
-
+	
 	"ItemsFoundLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemsFoundLabel"
-		"font"										"Size 24"
+		"font"										"HudFontMediumBold"
 		"labelText"									"#NewItemsAcquired"
-		"fgcolor"		   							"WhiteDark"
+		"fgcolor_override"   						"White"
 		"textAlignment"								"center"
 		"xpos"										"0"
 		"ypos"										"20"
@@ -73,7 +73,20 @@
 		"enabled"									"1"
 		"AllCaps"									"1"
 	}
-
+	
+	"classimageoutline"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"classimageoutline"
+		"xpos"										"c208"
+		"ypos"										"115"
+		"zpos"										"6"
+		"wide"										"36"
+		"tall"										"0"		//36
+		"visible"									"1"
+		"bgcolor_override" 							"Black"
+	}
+	
 	"classimage"
 	{
 		"ControlName"								"ImagePanel"
@@ -88,26 +101,12 @@
 		"image"										"achievements/tf_medic_heal_grind"
 		"scaleImage"								"1"
 	}
-
-	"classimageoutline"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"classimageoutline"
-		"xpos"										"1"
-		"ypos"										"1"
-		"zpos"										"6"
-		"wide"										"22"
-		"tall"										"22"
-		"visible"									"1"
-		"bgcolor_override" 							"WhiteDark"
-		"pin_to_sibling" 							"classimage"
-	}
-
+	
 	"SelectedItemFoundMethodLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SelectedItemFoundMethodLabel"
-		"font"										"Size 18"
+		"font"										"HudFontMediumSmallBold"
 		"labelText"									""
 		"textAlignment"								"center"
 		"xpos"										"0"
@@ -119,14 +118,13 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"		   							"WhiteDark"
 	}
-
+	
 	"ItemCountLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemCountLabel"
-		"font"										"Size 11"
+		"font"										"HudFontSmallestBold"
 		"labelText"									"#Item"
 		"textAlignment"								"north-west"
 		"xpos"										"c-245"
@@ -138,14 +136,13 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"			   						"WhiteDark"
 	}
-
+	
 	"SelectedItemNumberLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SelectedItemNumberLabel"
-		"font"										"Size 30"
+		"font"										"HudFontMediumBigBold"
 		"labelText"									"#SelectedItemNumber"
 		"textAlignment"								"north-west"
 		"xpos"										"c-245"
@@ -157,14 +154,13 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"			   						"WhiteDark"
 	}
-
+	
 	"NextButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"NextButton"
-		"xpos"										"c250"
+		"xpos"										"c248"
 		"ypos"										"208"
 		"zpos"										"1"
 		"wide"										"20"
@@ -173,15 +169,18 @@
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
+		"tabPosition"								"0"
 		"labelText"									">"
-		"font"										"Symbols 26"
+		"font"										"HudFontMediumBold"
 		"textAlignment"								"center"
+		"dulltext"									"0"
+		"brighttext"								"0"
 		"Command"									"nextitem"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-
+		
 		"paintbackground"							"0"
-
+		
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
@@ -189,23 +188,12 @@
 		"armedFgColor_override"						"Main Theme"
 		"depressedFgColor_override" 				"White"
 	}
-	"NextButtonShortCut"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"NextButtonShortCut"
-		"xpos"										"9999"
-		"labelText"									"&D"
-		"Command"									"nextitem"
-		"visible"									"1"
-		"sound_depressed"    						"UI/buttonclick.wav"
-		"sound_released"     						"UI/buttonclickrelease.wav"
-	}
-
+	
 	"PrevButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"PrevButton"
-		"xpos"										"c-270"
+		"xpos"										"c-268"
 		"ypos"										"208"
 		"zpos"										"1"
 		"wide"										"20"
@@ -214,15 +202,18 @@
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
+		"tabPosition"								"0"
 		"labelText"									"<"
-		"font"										"Symbols 26"
+		"font"										"HudFontMediumBold"
 		"textAlignment"								"center"
+		"dulltext"									"0"
+		"brighttext"								"0"
 		"Command"									"previtem"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-
+		
 		"paintbackground"							"0"
-
+		
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
@@ -230,77 +221,88 @@
 		"armedFgColor_override"						"Main Theme"
 		"depressedFgColor_override" 				"White"
 	}
-	"PrevButtonShortCut"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"PrevButtonShortCut"
-		"xpos"										"9999"
-		"labelText"									"&A"
-		"Command"									"previtem"
-		"visible"									"1"
-		"sound_depressed"    						"UI/buttonclick.wav"
-		"sound_released"     						"UI/buttonclickrelease.wav"
-	}
-
+	
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"CloseButton"
-		"xpos"										"c-251"
-		"ypos"										"c135"
+		"xpos"										"c50"
+		"ypos"										"400"
 		"zpos"										"6"
-		"wide"										"502"
-		"tall"										"35"
+		"wide"										"200"
+		"tall"										"25"
 		"autoResize"								"0"
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
+		"tabPosition"								"0"
 		"labelText"									"#CloseItemPanel"
-		"font"										"Size 20"
+		"font"										"HudFontSmallBold"
 		"textAlignment"								"center"
+		"dulltext"									"0"
+		"brighttext"								"0"
 		"Command"									"vguicancel"
 		"default"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-
+		
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDarker"
+		
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
+		
+		"border_default"							"MaterialLightBG"
 		"border_armed"								"MaterialHypno"
+		
+		"defaultBgColor_override"					"Blank"
+		"armedBgColor_override"						"Blank"
+		"depressedBgColor_override" 				"Blank"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
 	}
-
+	
 	"OpenLoadoutButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"OpenLoadoutButton"
-		"xpos"										"c-251"
-		"ypos"										"c170"
+		"xpos"										"c-250"
+		"ypos"										"400"
 		"zpos"										"6"
-		"wide"										"502"
-		"tall"										"20"
+		"wide"										"200"
+		"tall"										"25"
 		"autoResize"								"0"
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
+		"tabPosition"								"0"
 		"labelText"									"%loadouttext%"
-		"font"										"Size 12"
+		"font"										"HudFontSmallBold"
 		"textAlignment"								"center"
+		"dulltext"									"0"
+		"brighttext"								"0"
 		"Command"									"changeloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-
+		
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDarker"
+		
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
+		
+		"border_default"							"MaterialLightBG"
 		"border_armed"								"MaterialHypno"
+		
+		"defaultBgColor_override"					"Blank"
+		"armedBgColor_override"						"Blank"
+		"depressedBgColor_override" 				"Blank"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
 	}
-
+	
 	"DiscardButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -314,23 +316,50 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"labelText"									"D"
-		"font"										"Symbols 18"
+		"tabPosition"								"0"
+		"labelText"									""
+		"font"										"HudFontSmallBold"
 		"textAlignment"								"center"
+		"dulltext"									"0"
+		"brighttext"								"0"
 		"Command"									"discarditem"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-
+		
 		"paintbackground"							"0"
-
-		"border_default"							"MaterialGrayDark"
+		
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
+		
+		"border_default"							"MaterialDarkBG"
 		"border_armed"								"MaterialRed"
+		
+		"defaultBgColor_override"					"Blank"
+		"armedBgColor_override"						"Blank"
+		"depressedBgColor_override" 				"Blank"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
+		
+		"SubImage"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"SubImage"
+			"xpos"									"cs-0.5"
+			"ypos"									"cs-0.5"
+			"zpos"									"1"
+			"wide"									"16"
+			"tall"									"16"
+			"visible"								"1"
+			"enabled"								"1"
+			"image"									"icon_trash_on"
+			"scaleImage"							"1"
+			"paintbackgroundtype" 					"0"
+			"proportionaltoparent"					"1"
+		}				
 	}
-
+	
 	"DiscardButtonTooltip"
 	{
 		"ControlName"								"EditablePanel"
@@ -342,13 +371,13 @@
 		"tall"										"50"
 		"visible"									"0"
 		"PaintBackgroundType"						"2"
-		"border"									"MaterialBlackDark"
-
+		"border"									"MaterialDarkBG"
+		
 		"TipLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipLabel"
-			"font"									"Size 11"
+			"font"									"HudFontSmallestBold"
 			"labelText"								"#DiscardItem"
 			"textAlignment"							"center"
 			"xpos"									"12"
@@ -359,18 +388,18 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"White"
+			"fgcolor_override"						"White"
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
 		}
 	}
-
+	
 	"DiscardedLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DiscardedLabel"
-		"font"										"Size 24"
+		"font"										"HudFontMediumBold"
 		"labelText"									"#Discarded"
 		"textAlignment"								"center"
 		"xpos"										"c-215"
@@ -383,11 +412,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor"		 							"WhiteDark"
-		"PaintBackground"							"0"
-		"border"									"MaterialGrayDark"
+		"fgcolor_override" 							"White"
+		"PaintBackgroundType"						"2"
+		"border"									"MaterialDarkBG"
 	}
-
+	
 	"ScoreEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -400,6 +429,7 @@
 		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"0"
+		"tabPosition"								"0"
 		"textHidden"								"0"
 		"editable"									"1"
 		"maxchars"									"5"

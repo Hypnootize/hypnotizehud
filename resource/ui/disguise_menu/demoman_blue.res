@@ -1,20 +1,20 @@
-#base "scout_blue.res"
+#base "Scout_Blue.res"
 
-"Resource/UI/Disguise_Menu/Demoman_Blue.res"
+"Resource/UI/disguise_menu/demoman_blue.res"
 {
 	"ItemNameLabel"
-	{
-		"labelText"									"4"
-		"fgcolor_override"							"Blue"
+	{	
+		"labelText"			"4"
+		"fgcolor_override"	"Blue"
 	}
-
+	
 	"NumberLabel"
-	{
-		"labelText"									"4"
+	{	
+		"labelText"			"4"
 	}
-
+	
 	"NewNumberLabel"
-	{
-		"labelText"									"1"
+	{	
+		"labelText"			"1"
 	}
 }

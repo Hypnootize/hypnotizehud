@@ -1,57 +1,64 @@
 "Resource/UI/HudItemEffectMeter_Killstreak.res"
 {
-	"HudItemEffectMeter"
+	HudItemEffectMeter
 	{
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"rs1-5"
-		"ypos"										"0"
-		"wide"										"60"
-		"tall"										"20"
+		"xpos"										"r64"
+		"ypos"										"10"
+		"wide"										"f0"
+		"tall"										"480"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-
-	"KillstreakIcon"
+	
+	"Killstreaklabel"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"KillstreakIcon"
-		"xpos"										"rs1-2"
+		"fieldName"									"Killstreaklabel"
+		"xpos"										"50"
 		"ypos"										"0"
 		"zpos"										"3"
-		"wide"										"15"
-		"tall"										"20"
+		"wide"										"20"
+		"tall"										"15"	
+		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"labelText"									"8"
-		"textAlignment"								"east"
+		"tabPosition"								"0"
+		"labelText"									"6"
 		"AllCaps"									"1"
-		"proportionaltoparent"						"1"
-		"font"										"Symbols 14"
+		"textAlignment"								"west"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"font"										"Symbols 12"
 		"fgcolor"									"White"
 	}
-	"KillstreakIconShadow"
+	
+	"KillstreaklabelShadow"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"KillstreakIconShadow"
+		"fieldName"									"KillstreaklabelShadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
-		"zpos"										"2"
-		"wide"										"15"
-		"tall"										"20"
+		"zpos"										"3"
+		"wide"										"20"
+		"tall"										"15"	
+		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"labelText"									"8"
+		"tabPosition"								"0"
+		"labelText"									"6"
 		"AllCaps"									"1"
-		"proportionaltoparent"						"1"
-		"textAlignment"								"east"
-		"font"										"Symbols 14 Blur"
+		"textAlignment"								"west"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"font"										"Symbols 12 Blur"
 		"fgcolor"									"Shadow"
-		"pin_to_sibling" 							"KillstreakIcon"
+		
+		"pin_to_sibling" 							"Killstreaklabel"
 	}
-
-
+	
 	"ItemEffectMeterCount"
 	{
 		"ControlName"								"CExLabel"
@@ -59,20 +66,20 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"3"
-		"wide"										"f0"
-		"tall"										"20"
+		"wide"										"46"
+		"tall"										"16"	
+		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"proportionaltoparent"						"1"
+		"tabPosition"								"0"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"east"
-		"font"										"Size 20"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"font"										"GameFont18"
 		"fgcolor"									"White"
-
-		"pin_to_sibling" 							"KillstreakIcon"
-		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
 	}
+	
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -80,38 +87,42 @@
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"2"
-		"wide"										"f0"
-		"tall"										"20"
+		"wide"										"46"
+		"tall"										"16"	
+		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"proportionaltoparent"						"1"
+		"tabPosition"								"0"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"east"
-		"font"										"Size 20 Blur"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"font"										"GameFont18Blur"
 		"fgcolor"									"Shadow"
-
+		
 		"pin_to_sibling" 							"ItemEffectMeterCount"
 	}
-
-
-
-	//REMOVED
+	
+	
+	
+	
+	
 	"ItemEffectMeterBG"
 	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"ItemEffectMeterBG"
-		"xpos"										"9999"
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterBG"
+		"xpos"			"9999"
 	}
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ItemEffectMeterLabel"
-		"xpos"										"9999"
+		"ControlName"	"CExLabel"
+		"fieldName"		"ItemEffectMeterLabel"
+		"xpos"			"9999"
 	}
 	"ItemEffectMeter"
-	{
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ItemEffectMeter"
-		"xpos"										"9999"
+	{	
+		"ControlName"	"ContinuousProgressBar"
+		"fieldName"		"ItemEffectMeter"
+		"xpos"			"9999"
 	}
 }

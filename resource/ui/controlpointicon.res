@@ -7,12 +7,12 @@
 		"xpos"		    							"0"
 		"ypos"		    							"0"
 		"zpos"		    							"2"
-		"wide"		    							"23"
-		"tall"		    							"23"
+		"wide"		    							"26"
+		"tall"		    							"26"
 		"visible"	   						 		"1"
 		"enabled"	    							"1"
 	}
-
+	
 	"Countdown"
 	{
 		"ControlName"								"CControlPointCountdown"
@@ -24,16 +24,16 @@
 		"tall"		    							"24"
 		"visible"	    							"1"
 		"enabled"	    							"1"
-	}
+	}	
 
 	"CapPlayerImage"
 	{
-		"ControlName"								"ImagePanel"
+		"ControlName"								"ImagePanel"		
 		"fieldName"	  								"CapPlayerImage"
 		"xpos"		   						 		"0"
 		"ypos"		    							"2"
 		"zpos"		    							"3"
-		"wide"		    							"8"
+		"wide"		    							"10"
 		"tall"		    							"12"
 		"visible"	    							"0"
 		"enabled"	    							"1"
@@ -42,68 +42,82 @@
 	}
 
 	"CapNumPlayers"
-	{
-		"ControlName"		  						"CExLabel"
+	{	
+		"ControlName"		  						"Label"
 		"fieldName"		    						"CapNumPlayers"
-		"font"			      						"Size 14"
-		"xpos"			      						"8"
+		"font"			      						"GameFont16"
+		"xpos"			      						"7"
 		"ypos"			      						"0"
 		"zpos"			      						"3"
-		"wide"			      						"24"
-		"tall"			      						"24"
+		"wide"			      						"26"
+		"tall"			      						"26"
 		"autoResize"		  						"0"
 		"pinCorner"		    						"0"
 		"visible"		      						"1"
 		"enabled"		      						"1"
 		"labelText"		    						"#ControlPointIconCappers"
 		"textAlignment"								"west"
-		"fgcolor"				  					"BlackLight"
+		"dulltext"		    						"0"
+		"brighttext"		  						"0"
 	}
 
 	"OverlayImage"
 	{
-		"ControlName"	    						"ImagePanel"
+		"ControlName"	    						"ImagePanel"		
 		"fieldName"	      							"OverlayImage"
-		"xpos"		        						"15"
-		"ypos"		        						"-1"
+		"xpos"		        						"18"
+		"ypos"		        						"0"
 		"zpos"		        						"4"
-		"wide"		        						"10"
-		"tall"		        						"10"
+		"wide"		        						"6"
+		"tall"		        						"6"
 		"visible"	        						"0"
 		"enabled"	        						"1"
 		"image"		        						"capture_icon"
 		"scaleImage"	    						"1"
 	}
-
+	
 	"CPTimerLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"		 							"CPTimerLabel"
 		"xpos"			   							"0"
 		"ypos"			    						"0"
-		"zpos"			    						"4"
-		"wide"			    						"24"
-		"tall"			    						"24"
+		"zpos"			    						"0"
+		"wide"			    						"9"
+		"tall"			    						"20"
 		"visible"		    						"0"
 		"enabled"		    						"1"
 		"labelText"		  							"60"
 		"textAlignment"								"center"
+		"dulltext"		  							"0"
+		"brighttext"	  							"0"
 		"wrap"			    						"0"
-		"font"			    						"Size 12"
-
-		"if_mvm"
+		"font"			    						"ControlPointTimer"
+		"font_minmode"								"ControlPointTimerSmaller"
+		
+		if_mvm
 		{
 			"visible"								"0"
 		}
 	}
-
+	
 	"CPTimerBG"
 	{
 		"ControlName"	  							"Panel"
 		"fieldName"		  							"CPTimerBG"
-		"wide"		     					 		"0"
-		"tall"		      							"0"
+		"xpos"			   					 		"0"
+		"ypos"			    						"0"
+		"zpos"			 							"-1"
+		"wide"		     					 		"66"
+		"tall"		      							"33"
 		"visible"		    						"0"
-		"enabled"		    						"0"
+		"enabled"		    						"1"
+		"image"			    						"../sprites/obj_icons/icon_obj_timer"
+		"scaleImage"	  							"1"
+		
+		if_mvm
+		{
+			"visible"								"0"
+		}
 	}
 }

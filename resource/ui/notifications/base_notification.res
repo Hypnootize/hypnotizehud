@@ -1,26 +1,26 @@
-"Resource/UI/Notifications/Base_Notification.res"
-{
+"Resource/UI/notifications/base_notification.res"
+{	
 	"Notification_Label"
-	{
+	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"Notification_Label"
-		"font"										"Size 10"
-		"xpos"										"cs-0.5"
-		"ypos"										"0"
-		"zpos"										"1"
+		"font"										"Default"
+		"xpos"										"30"
+		"ypos"										"9"
 		"wide"										"200"
 		"tall"										"20"
+		"autoResize"								"0"
+		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"AllCaps"									"1"
 		"labelText"									"60 seconds until gates open"
-		"textAlignment"								"center"
-		"fgcolor"									"White"
-		"proportionaltoparent"						"1"
+		"textAlignment"								"West"
+		"dulltext"									"0"
+		"brighttext"								"0"
 	}
-
-
-
+	
+	
+	
 	"Notification_Background"
 	{
 		"ControlName"								"CImagePanel"
@@ -30,7 +30,7 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	"Notification_Icon"
+	"Notification_Icon"	
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"Notification_Icon"

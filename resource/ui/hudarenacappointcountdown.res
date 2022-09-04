@@ -1,13 +1,13 @@
 "Resource/UI/HudArenaCapPointCountdown.res"
 {
 	"CapCountdownLabel"
-	{
+	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"CapCountdownLabel"
-		"font"										"Size 24"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"1"
+		"font"										"GameFont18"
+		"xpos"										"1"
+		"ypos"										"7"
+		"zpos"										"-1"
 		"wide"										"30"
 		"tall"										"30"
 		"autoResize"								"0"

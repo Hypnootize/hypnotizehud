@@ -1,19 +1,19 @@
 #base "QuestItemTrackerPanel_Base.res"
 
-"Resource/UI/Quests/QuestItemTrackerPanel_Ingame_Base.res"
-{
+"Resource/UI/HudAchievementTrackerItem.res"
+{	
 	"ItemTrackerPanel"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ItemTrackerPanel"
-		"xpos"										"rs1"
-		"ypos"										"0"
+		"xpos"										"rs1"		
+		"ypos"										"0"		
 		"zpos"										"3"
 		"wide"										"250"
 		"tall"										"500"
 		"visible"									"1"
-		"enabled"									"1"
-
+		"enabled"									"1"	
+		
 		"attrib_y_start_offset"						"8"
 		"attrib_x_offset"							"0"
 
@@ -32,7 +32,7 @@
 
 		"ModelImageKV"
 		{
-			"fieldName"								"ModelImageKV"
+			"fieldName"								"ModelImage"
 			"visible"								"0"
 		}
 
@@ -51,7 +51,7 @@
 
 			"PointsLabel"
 			{
-				"ControlName"						"CExLabel"
+				"ControlName"						"Label"
 				"fieldName"							"PointsLabel"
 				"labeltext"							"%points%"
 				"xpos"								"0"
@@ -81,7 +81,7 @@
 
 				"PointsLabelInvert"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"PointsLabelInvert"
 					"labeltext"						"%points%"
 					"xpos"							"0"
@@ -93,7 +93,7 @@
 					"textinsety"					"-1"
 					"TextAlignment"					"center"
 					"proportionaltoparent" 			"1"
-					"fgcolor"						"White"
+					"fgcolor_override"				"White"
 				}
 			}
 
@@ -114,7 +114,7 @@
 
 				"PointsLabelInvert"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"PointsLabelInvert"
 					"labeltext"						"%points%"
 					"xpos"							"0"
@@ -126,7 +126,7 @@
 					"textinsety"					"-1"
 					"TextAlignment"					"center"
 					"proportionaltoparent"			"1"
-					"fgcolor"						"Black"
+					"fgcolor_override"				"Black"
 				}
 			}
 
@@ -161,7 +161,7 @@
 
 			"PointsLabel"
 			{
-				"ControlName"						"CExLabel"
+				"ControlName"						"Label"
 				"fieldName"							"PointsLabel"
 				"labeltext"							"%points%"
 				"xpos"								"0"
@@ -173,7 +173,7 @@
 				"textinsety"						"-1"
 				"TextAlignment"						"center"
 				"proportionaltoparent" 				"1"
-				"fgcolor"							"QuestMap_Bonus"
+				"fgcolor_override"					"QuestMap_Bonus"
 			}
 
 			"ProgressBarStandardHighlight" // current completed
@@ -193,7 +193,7 @@
 
 				"PointsLabelInvert"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"PointsLabelInvert"
 					"labeltext"						"%points%"
 					"xpos"							"0"
@@ -205,7 +205,7 @@
 					"textinsety"					"-1"
 					"TextAlignment"					"center"
 					"proportionaltoparent" 			"1"
-					"fgcolor"						"Black"
+					"fgcolor_override"				"Black"
 				}
 			}
 
@@ -226,7 +226,7 @@
 
 				"PointsLabelInvert"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"PointsLabelInvert"
 					"labeltext"						"%points%"
 					"xpos"							"0"
@@ -238,7 +238,7 @@
 					"textinsety"					"-1"
 					"TextAlignment"					"center"
 					"proportionaltoparent" 			"1"
-					"fgcolor"						"Black"
+					"fgcolor_override"				"Black"
 				}
 			}
 
@@ -259,7 +259,7 @@
 
 				"PointsLabelInvert"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"PointsLabelInvert"
 					"labeltext"						"%points%"
 					"xpos"							"0"
@@ -271,7 +271,7 @@
 					"textinsety"					"-1"
 					"TextAlignment"					"center"
 					"proportionaltoparent"			"1"
-					"fgcolor"						"Black"
+					"fgcolor_override"				"Black"
 				}
 			}
 		}
@@ -279,7 +279,7 @@
 
 	"ItemName"
 	{
-		"ControlName"								"CExLabel"
+		"ControlName"								"Label"
 		"fieldName"									"ItemName"
 		"labeltext"									"%itemname%"
 		"xpos"										"rs1"
@@ -288,7 +288,7 @@
 		"tall"										"18"
 		"zpos"										"4"
 		"textinsetx"								"5"
-		"fgcolor"									"White"
+		"fgcolor_override"							"White"
 		"font"										"AchievementTracker_Name"
 		//"wrap"									"1"
 		"TextAlignment"								"north-east"
@@ -342,7 +342,7 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
-
+	
 	"Star1"
 	{
 		"ControlName"								"ImagePanel"
@@ -358,7 +358,7 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
-
+	
 	"Star2"
 	{
 		"ControlName"								"ImagePanel"
@@ -373,20 +373,20 @@
 		"image"										"cyoa/star_on"
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
-	}
+	}				
 
 
 	"NotYetCommittedContainer"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"NotYetCommittedContainer"
-		"xpos"										"rs1"
-		"ypos"										"0"
+		"xpos"										"rs1"		
+		"ypos"										"0"		
 		"zpos"										"3"
 		"wide"										"f0"
 		"tall"										"10"
 		"visible"									"1"
-		"enabled"									"1"
+		"enabled"									"1"	
 
 		"proportionaltoparent"						"1"
 
@@ -401,7 +401,7 @@
 			"tall"									"f0"
 			"zpos"									"4"
 			"textinsetx"							"5"
-			"fgcolor"								"QuestMap_ActiveOrange"
+			"fgcolor_override"						"QuestMap_ActiveOrange"
 			"font"									"QuestObjectiveTracker_Desc"
 			//"wrap"								"1"
 			"TextAlignment"							"north-east"

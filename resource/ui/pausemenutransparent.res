@@ -1,4 +1,4 @@
-"Resource/UI/PauseMenuTransparent"
+"GameMenu"
 {
 	"BackgroundCustom"
 	{

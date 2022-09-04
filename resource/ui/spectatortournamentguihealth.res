@@ -1,82 +1,144 @@
 "Resource/UI/SpectatorTournamentGUIHealth.res"
 {
-	"SpectatorHealthBG"
+	"HealthBG"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"SpectatorHealthBG"
+		"fieldName"									"HealthBG"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"2"
 		"zpos"										"1"
 		"wide"										"30"
-		"tall"	 									"20"
+		"tall"	 									"18"
+		"autoResize"								"0"
+		"paintbackground"							"0"
+		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"paintbackground"							"0"
-		"border"									"MaterialTransparent90"
-
 		"alpha"										"255"
+		
+		"border"									"HealthBorder"
+		"scaleImage"								"1"
 	}
-
-	"PlayerStatusHealthValue"
+	
+	"HealthBuff"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"HealthBuff"
+		"xpos"										"0"
+		"ypos"										"2"
+		"zpos"										"1"
+		"wide"										"30"
+		"tall"	 									"18"
+		"autoResize"								"0"
+		"paintbackground"							"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"alpha"										"0"
+		
+		"border"									"BuffedBorder"
+		"scaleImage"								"1"
+	}
+	
+	"HealthHurt"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"HealthHurt"
+		"xpos"										"0"
+		"ypos"										"2"
+		"zpos"										"1"
+		"wide"										"30"
+		"tall"	 									"18"
+		"autoResize"								"0"
+		"paintbackground"							"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"alpha"										"0"
+		
+		"border"									"HurtBorder"
+		"scaleImage"								"1"
+	}
+	
+	"PlayerStatusHealthValueSpec"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusHealthValue"
+		"fieldName"									"PlayerStatusHealthValueSpec"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"5"
-		"wide"										"30"
-		"tall"										"20"
+		"wide"										"31"
+		"tall"										"22"
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"center"
-		"font"										"Size 12"
+		"font"										"GameFont12"
 		"fgcolor"									"Health Numbers"
 		"labeltext"									"%Health%"
-		"proportionaltoparent"						"1"
 	}
-
-	"PlayerStatusHealthValueShadow"
+	
+	"PlayerStatusHealthValueSpecShadow"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusHealthValueShadow"
+		"fieldName"									"PlayerStatusHealthValueSpecShadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"5"
-		"wide"										"30"
-		"tall"										"20"
+		"wide"										"31"
+		"tall"										"22"
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"center"
-		"font"										"Size 12 Blur"
+		"font"										"GameFont12Blur"
 		"fgcolor"									"Shadow"
 		"labeltext"									"%Health%"
-		"proportionaltoparent"						"1"
-		"pin_to_sibling" 							"PlayerStatusHealthValue"
+		
+		"pin_to_sibling" 							"PlayerStatusHealthValueSpec"
 	}
 
-	//REMOVED STUFF
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthImage"
-		"xpos"										"9999"
-	}
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}	
+	
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthImageBG"
-		"xpos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
+	
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"BuildingStatusHealthImageBG"
-		"xpos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
+	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthBonusImage"
-		"xpos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

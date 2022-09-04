@@ -1,9 +1,9 @@
-#base "engineer_blue.res"
+#base "Engineer_Blue.res"
 
-"Resource/UI/Disguise_Menu/Engineer_Red.res"
+"Resource/UI/disguise_menu/engineer_red.res"
 {
 	"ItemNameLabel"
-	{
-		"fgcolor"									"Red"
+	{	
+		"fgcolor_override"	"Red"
 	}
 }

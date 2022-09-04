@@ -1,1 +1,1 @@
-#base "../sentry_active.res"
+#base "../Sentry_Active.res"

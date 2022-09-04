@@ -1,4 +1,4 @@
-"Resource/UI/Econ/GenericNotificationToast.res"
+"Resource/UI/GenericNotificationToast.res"
 {
 	"GenericNotificationToast"
 	{
@@ -26,7 +26,7 @@
 		"PaintBackgroundType"						"2"
 		"bgcolor_override"							"White"
 	}
-
+	
 	"AvatarImage"
 	{
 		"ControlName"								"CAvatarImagePanel"
@@ -39,12 +39,12 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										""
-		"scaleImage"								"1"
+		"scaleImage"								"1"	
 		"color_outline"								"Blank"
 	}
 
 	"AvatarTextLabel"
-	{
+	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"AvatarTextLabel"
 		"fgcolor"									"White"
@@ -60,11 +60,11 @@
 		"wrap"										"1"
 		"labelText"									"%avatartext%"
 		"textAlignment"								"West"
-		"font"										"Size 8"
+		"font"										"TFFontSmall"
 	}
 
 	"TextLabel"
-	{
+	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"TextLabel"
 		"fgcolor"									"White"
@@ -80,6 +80,6 @@
 		"wrap"										"1"
 		"labelText"									"%text%"
 		"textAlignment"								"West"
-		"font"										"Size 8"
+		"font"										"TFFontSmall"
 	}
 }

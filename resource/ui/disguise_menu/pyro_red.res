@@ -1,9 +1,9 @@
-#base "pyro_blue.res"
+#base "Pyro_Blue.res"
 
-"Resource/UI/Disguise_Menu/Pyro_Red.res"
+"Resource/UI/disguise_menu/pyro_red.res"
 {
 	"ItemNameLabel"
-	{
-		"fgcolor"									"Red"
+	{	
+		"fgcolor_override"	"Red"
 	}
 }

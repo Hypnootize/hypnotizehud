@@ -1,66 +1,62 @@
-"Resource/UI/MvMVictorySplash.res"
-{
+"Resource/UI/MvMVictoryPanel.res"
+{	
 	"SplashContainer"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"SplashContainer"
-		"xpos"										"cs-0.5"
-		"ypos"										"c-20"
-		"wide"										"300"
-		"tall"										"300"
-		"visible"									"1"
-		"proportionaltoparent"						"1"
-
+		"ControlName"	"EditablePanel"
+		"fieldName"		"SplashContainer"
+		"xpos"			"c-150"
+		"ypos"			"c-20"
+		"wide"			"300"
+		"tall"			"300"
+		"visible"		"1"
+		
 		"SplashBackground"
 		{
-			"ControlName"							"ScalableImagePanel"
-			"fieldName"								"SplashBackground"
-			"xpos"									"25"
-			"ypos"									"0"
-			"wide"									"250"
-			"tall"									"40"
-			"autoResize"							"0"
-			"pinCorner"								"0"
-			"visible"								"1"
-			"enabled"								"1"
-			"image"									"replay/thumbnails/panels/material_red_transparent70"
-
-			"src_corner_height"						"24"
-			"src_corner_width"						"24"
-
-			"draw_corner_width"						"8"
-			"draw_corner_height" 					"8"
+			"ControlName"		"ScalableImagePanel"
+			"fieldName"		"SplashBackground"
+			"xpos"			"25"
+			"ypos"			"0"
+			"wide"			"250"
+			"tall"			"70"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/panels/Material_Transparent_Red"
+			
+			"src_corner_height"	"24"				// pixels inside the image
+			"src_corner_width"	"24"
+	
+			"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
 		}
-
-		"SplashLabel"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"SplashLabel"
-			"font"									"Size 40"
-			"labelText"								"#TF_MVM_Victory"
-			"textAlignment" 						"center"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"1"
-			"wide"									"300"
-			"tall"									"40"
-			"AllCaps"								"1"
-			"fgcolor"								"White"
-		}
+		
 		"SplashLabelShadow"
 		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"SplashLabelShadow"
-			"font"									"Size 40 Blur"
-			"labelText"								"#TF_MVM_Victory"
-			"textAlignment"						 	"center"
-			"xpos"									"-1"
-			"ypos"									"-1"
-			"wide"									"300"
-			"tall"									"40"
-			"AllCaps"								"1"
-			"fgcolor"								"Shadow"
-			"pin_to_sibling" 						"SplashLabel"
+			"ControlName"	"CExLabel"
+			"fieldName"		"SplashLabelShadow"
+			"font"			"GameFont40Blur"
+			"labelText"		"#TF_MVM_Victory"
+			"textAlignment" "center"
+			"xpos"			"2"
+			"ypos"			"14"
+			"wide"			"300"
+			"tall"			"50"
+			"fgcolor"		"Shadow"
+		}
+		
+		"SplashLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"SplashLabel"
+			"font"			"GameFont40"
+			"labelText"		"#TF_MVM_Victory"
+			"textAlignment" "center"
+			"xpos"			"0"
+			"ypos"			"12"
+			"wide"			"300"
+			"tall"			"50"
+			"fgcolor"		"White"
 		}
 	}
 }

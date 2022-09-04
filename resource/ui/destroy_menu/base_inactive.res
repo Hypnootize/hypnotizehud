@@ -1,4 +1,4 @@
-"Resource/UI/Destroy_Menu/Base_Inactive.res"
+"Resource/UI/build_menu/base_inactive.res"
 {
-
+	
 }

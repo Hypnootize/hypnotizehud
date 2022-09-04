@@ -1,13 +1,14 @@
-//=========================================================================================
-// SCOREBOARDS
-//=========================================================================================
-// Uncomment (by removing the // before #base) the customization line you want to activate
-// IMPORTANT: MAKE SURE ONLY ONE LINE STAYS UNCOMMENTED!!
-//=========================================================================================
-// See what the scoreboards looks like and get more in depth information in the wiki:
-// https://github.com/Hypnootize/Hypnotize-Hud/wiki/Scoreboard
-//=========================================================================================
+//////////////////////////////////////////////////////////////////////////////////////////////
+//****************************************INSTRUCTIONS**************************************//
+//																							//
+//	UNCOMMENT (REMOVE THE // BEFORE #BASE) FROM THE CUSTOMIZATION LINE YOU WANT TO ACTIVATE	//
+//																							//
+// 						***IMPORTANT: ONLY 1 LINE CAN BE UNCOMMENTED***						//
+//																							//
+//			CHECKOUT THE EXAMPLES IN THE SCREENSHOT TO SEE WHAT THE FONTS LOOK LIKE!		//
+//																							//
+//////////////////////////////////////////////////////////////////////////////////////////////
 
 
-//#base "../resource/ui/scoreboard_nostats.res"			// SHORT STATS SCOREBOARD
-#base "../resource/ui/scoreboard_fullstats.res"			// FULL STATS SCOREBOARD
+//#base "../resource/ui/Scoreboard_NoStats.res"			// SHORT STATS SCOREBOARD
+#base "../resource/ui/Scoreboard_FullStats.res"			// FULL STATS SCOREBOARD

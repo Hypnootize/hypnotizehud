@@ -1,4 +1,4 @@
-#base "matchmakingdashboardsidepanel.res"
+#base "MatchMakingDashboardSidePanel.res"
 
 "Resource/UI/MatchMakingPingPanel.res"
 {
@@ -29,16 +29,16 @@
 		"visible"									"1"
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"0"
-		"border"									"MaterialGrayDarkest"
+		"border"									"MaterialBackground"
 		"proportionaltoparent"						"1"
 	}
 
 	"Title"
 	{
-		"ControlName"								"CExLabel"
+		"ControlName"								"Label"
 		"fieldName"									"Title"
 		"xpos"										"0"
-		"ypos"										"11"
+		"ypos"										"10"
 		"zpos"										"99"
 		"wide"										"200"
 		"tall"										"20"
@@ -46,15 +46,15 @@
 		"labeltext"									"Ping Settings"
 		"AllCaps"									"1"
 		"textAlignment"								"center"
-		"font"										"Size 18"
-		"fgcolor"									"White"
-
+		"font"										"HudFontMediumSmallBold"
+		"fgcolor_override"							"White"
+		
 		"mouseinputenabled"							"0"
 	}
 
 	"InviteModeLabel"
 	{
-		"ControlName"								"CExLabel"
+		"ControlName"								"Label"
 		"fieldName"									"InviteModeLabel"
 		"xpos"										"0"
 		"ypos"										"28"
@@ -64,12 +64,12 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_MM_InviteMode"
 		"textAlignment"								"center"
-		"font"										"Size 11"
+		"font"										"HudFontSmallestBold"
 		"smallcheckimage"							"1"
-		"fgcolor"									"White"
+		"fgcolor_override"							"White"
 		"AllCaps"									"1"
 
-		"sound_depressed"							"UI/buttonclickrelease.wav"
+		"sound_depressed"							"UI/buttonclickrelease.wav"	
 		"button_activation_type"					"1"
 	}
 
@@ -83,7 +83,7 @@
 		"wide"										"190"
 		"tall"										"15"
 		"textAlignment"								"west"
-		"font"										"Size 11"
+		"font"										"HudFontSmallestBold"
 		"keyboardinputenabled"						"0"
 		"AllCaps"									"1"
 
@@ -109,13 +109,13 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_MM_IgnoreInvites"
 		"textAlignment"								"west"
-		"font"										"Size 11"
+		"font"										"HudFontSmallestBold"
 		"smallcheckimage"							"1"
 		"fgcolor_override"							"White"
 		"fgcolor"									"White"
 		"AllCaps"									"1"
 
-		"sound_depressed"							"UI/buttonclickrelease.wav"
+		"sound_depressed"							"UI/buttonclickrelease.wav"	
 		"button_activation_type"					"1"
 
 		"cvar_name" 								"tf_party_ignore_invites"
@@ -133,18 +133,18 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"textAlignment"								"west"
-		"font"										"Size 11"
+		"font"										"HudFontSmallestBold"
 		"smallcheckimage"							"1"
 		"enabled"									"0"
 		"AllCaps"									"1"
 
-		"sound_depressed"							"UI/buttonclickrelease.wav"
+		"sound_depressed"							"UI/buttonclickrelease.wav"	
 		"button_activation_type"					"1"
 	}
 
 	"KeepPartyOnSameTeamLabel"
 	{
-		"ControlName"								"CExLabel"
+		"ControlName"								"Label"
 		"fieldName"									"KeepPartyOnSameTeamLabel"
 		"xpos"										"23"
 		"ypos"										"85"
@@ -154,14 +154,14 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_MM_PartySameTeam"
 		"textAlignment"								"west"
-		"font"										"Size 11"
+		"font"										"HudFontSmallestBold"
 		"smallcheckimage"							"1"
 		"wrap"										"1"
 		"AllCaps"									"1"
 
-		"sound_depressed"							"UI/buttonclickrelease.wav"
+		"sound_depressed"							"UI/buttonclickrelease.wav"	
 		"button_activation_type"					"1"
-		"fgcolor"									"White"
+		"fgcolor_override"							"White"
 	}
 
 	"CustomPingCheckButton"
@@ -176,12 +176,12 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"textAlignment"								"west"
-		"font"										"Size 11"
+		"font"										"HudFontSmallestBold"
 		"smallcheckimage"							"1"
 		"actionsignallevel"							"1"
 		"AllCaps"									"1"
 
-		"sound_depressed"							"UI/buttonclickrelease.wav"
+		"sound_depressed"							"UI/buttonclickrelease.wav"	
 		"button_activation_type"					"1"
 
 		"cvar_name"									"tf_mm_custom_ping_enabled"
@@ -191,7 +191,7 @@
 	// and the above checkbox has that behavior.  To get around it, make another label
 	"CheckLabel"
 	{
-		"ControlName"								"CExLabel"
+		"ControlName"								"Label"
 		"fieldName"									"CheckLabel"
 		"xpos"										"23"
 		"ypos"										"102"
@@ -201,11 +201,11 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_LobbyContainer_CustomPingButton"
 		"textAlignment"								"west"
-		"font"										"Size 11"
+		"font"										"HudFontSmallestBold"
 		"smallcheckimage"							"1"
 		"AllCaps"									"1"
 
-		"sound_depressed"							"UI/buttonclickrelease.wav"
+		"sound_depressed"							"UI/buttonclickrelease.wav"	
 		"button_activation_type"					"1"
 	}
 
@@ -221,18 +221,18 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_LobbyContainer_CustomPingDesc"
 		"textAlignment"								"north-west"
-		"font"										"Size 11"
+		"font"										"HudFontSmallest"
 		"wrap"										"1"
 		"fgcolor"									"White"
 		"AllCaps"									"1"
 
-		"sound_depressed"							"UI/buttonclickrelease.wav"
+		"sound_depressed"							"UI/buttonclickrelease.wav"	
 		"button_activation_type"					"1"
 	}
 
 	"CurrentPingLabel"
 	{
-		"ControlName"								"CExLabel"
+		"ControlName"								"Label"
 		"fieldName"									"CurrentPingLabel"
 		"xpos"										"0"
 		"ypos"										"124"
@@ -242,9 +242,9 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"textAlignment"								"center"
-		"font"										"Size 11"
+		"font"										"HudFontSmallestBold"
 		"AllCaps"									"1"
-
+		
 		"mouseinputenabled"							"0"
 	}
 
@@ -263,12 +263,13 @@
 		"pin_to_sibling_corner"						"0"
 		"visible"									"1"
 		"enabled"									"1"
+		"tabPosition"								"0"
 		"proportionaltoparent"						"1"
 
 		"cvar_name"									"tf_mm_custom_ping"
 		"use_convar_minmax" 						"1"
 	}
-
+	
 	"DataCenterBackground"
 	{
 		"ControlName"							"EditablePanel"
@@ -283,7 +284,7 @@
 		"proportionaltoparent"					"1"
 
 		"paintborder"							"1"
-		"border"								"MaterialBlackDark"
+		"border"								"MaterialDarkBG"
 	}
 
 	"DataCenterContainer"
@@ -299,6 +300,7 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
+		"tabPosition"								"0"
 		"proportionaltoparent"						"1"
 
 		"DataCenterList"
@@ -330,14 +332,14 @@
 				{
 					"fgcolor_override"				"White"
 				}
-
+		
 				"UpButton"
 				{
 					"ControlName"					"Button"
 					"FieldName"						"UpButton"
 					"visible"						"0"
 				}
-
+		
 				"DownButton"
 				{
 					"ControlName"					"Button"
@@ -354,7 +356,7 @@
 			"xpos"									"9999"
 		}
 	}
-
+	
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -362,7 +364,7 @@
 		"xpos"										"rs1"
 		"labelText"									">"
 
-		"if_left"
+		if_left
 		{
 			"xpos"									"0"
 			"labelText"								"<"
@@ -377,7 +379,7 @@
 		"command"									"nav_close"
 
 		"textAlignment"								"east"
-		"font"										"Size 14"
+		"font"										"HudFontSmallBold"
 
 		"armedBgColor_override"						"Blank"
 		"defaultBgColor_override"					"Blank"
@@ -392,7 +394,7 @@
 		"xpos"										"3"
 		"labelText"									"<"
 
-		"if_left"
+		if_left
 		{
 			"xpos"									"rs1-3"
 			"labelText"								">"
@@ -408,14 +410,14 @@
 		"labelText"									"<"
 
 		"textAlignment"								"west"
-		"font"										"Size 14"
+		"font"										"HudFontSmallBold"
 
 		"armedBgColor_override"						"Blank"
 		"defaultBgColor_override"					"Blank"
 
 		"armedFgColor_override"						"Orange"
 	}
-
+	
 	"InnerGradient"
 	{
 		"ControlName"								"ImagePanel"
@@ -423,7 +425,7 @@
 		"xpos"										"9999"
 		"rotation"									"2"
 
-		"if_left"
+		if_left
 		{
 			"xpos"									"rs1-3"
 			"rotation"								"1"
@@ -450,7 +452,7 @@
 		"xpos"										"rs1"
 		"rotation"									"1"
 
-		"if_left"
+		if_left
 		{
 			"xpos"									"0"
 			"rotation"								"2"

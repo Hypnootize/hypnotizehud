@@ -1,23 +1,23 @@
-#base "base_active.res"
+#base "Base_Active.res"
 
-"Resource/UI/Build_Menu/Base_Already_Built.res"
+"Resource/UI/build_menu/base_already_built.res"
 {
 	"CantBuildReason"
+	{	
+		"font"			"Symbols 34"
+		"labelText"		"0"
+		"visible"		"1"
+	}
+	"MetalIcon"	
 	{
-		"font"										"Symbols 24"
-		"labelText"									"+"
-		"visible"									"1"
+		"visible"		"0"
 	}
 	"CostLabel"
-	{
-		"visible"									"0"
-	}
-	"NumberLabelBG"
-	{
-		"visible"									"0"
+	{	
+		"visible"		"0"
 	}
 	"NumberLabel"
-	{
-		"visible"									"0"
+	{	
+		"visible"		"0"
 	}
 }

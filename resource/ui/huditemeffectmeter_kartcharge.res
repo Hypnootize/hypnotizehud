@@ -1,79 +1,87 @@
-"Resource/UI/HudItemEffectMeter_KartCharge.res"
+"Resource/UI/HudItemEffectMeter_Scout.res"
 {
-	"HudItemEffectMeter"
+	HudItemEffectMeter
 	{
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"cs-0.5"
-		"ypos"										"c150"
-		"wide"										"100"
-		"tall"										"23"
+		"xpos"										"c-69"
+		"ypos"										"c150"	
+		"wide"										"500"
+		"tall"										"500"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-
+	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterLabel"
-		"xpos"										"cs-0.5"
-		"ypos"										"rs1"
+		"xpos"										"0"
+		"ypos"										"22"
 		"zpos"										"2"
-		"wide"										"80"
+		"wide"										"140"
 		"tall"										"8"
 		"autoResize"								"1"
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
+		"tabPosition"								"0"
 		"labelText"									"#TF_KART"
 		"textAlignment"								"center"
-		"AllCaps"									"1"
-		"proportionaltoparent"						"1"
-		"font"										"Size 8"
-		"fgcolor"									"White"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"font"										"TFFontSmall"
+		"fgcolor_override"							"150 150 150 255"
 	}
 
 	"ItemEffectMeter"
-	{
+	{	
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ItemEffectMeter"
 		"font"										"Default"
-		"xpos"										"cs-0.5"
-		"ypos"										"rs1-8"
+		"xpos"										"0"
+		"ypos"										"20"
 		"zpos"										"2"
-		"wide"										"80"
-		"tall"										"2"
+		"wide"										"140"
+		"tall"										"2"				
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"Center"
-		"proportionaltoparent"						"1"
+		"dulltext"									"0"
+		"brighttext"								"0"
 	}
-
+	
 	"ItemEffectMeterCount"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterCount"
-		"xpos"										"cs-0.5"
+		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"80"
-		"tall"										"14"
+		"wide"										"140"
+		"tall"										"18"		
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
+		"tabPosition"								"0"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"center"
-		"proportionaltoparent"						"1"
-		"font"										"Size 12"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"font"										"GameFont16"
 	}
-
+	
+	
+	
+	
+	
 	"ItemEffectMeterBG"
 	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"ItemEffectMeterBG"
-		"xpos"										"9999"
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterBG"
+		"xpos"			"9999"
 	}
 }

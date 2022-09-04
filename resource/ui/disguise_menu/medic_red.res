@@ -1,9 +1,9 @@
-#base "medic_blue.res"
+#base "Medic_Blue.res"
 
-"Resource/UI/Disguise_Menu/Medic_Red.res"
+"Resource/UI/disguise_menu/medic_red.res"
 {
 	"ItemNameLabel"
-	{
-		"fgcolor"									"Red"
+	{	
+		"fgcolor_override"	"Red"
 	}
 }

@@ -1,9 +1,9 @@
-#base "base_active.res"
+#base "Base_Active.res"
 
-"Resource/UI/Destroy_Menu/Dispenser_Active.res"
+"Resource/UI/destroy_menu/dispenser_active.res"
 {
 	"NumberLabel"
-	{
+	{	
 		"labelText"	"2"
 	}
 }

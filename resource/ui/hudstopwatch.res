@@ -1,144 +1,136 @@
 "Resource/UI/HudStopWatch.res"
-{
-	"StopWatchAnchor"
+{	
+	"HudStopWatchBG"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"StopWatchAnchor"
-		"xpos"										"cs-0.5-10"
-		"ypos"										"0"
-		"zpos"										"0"
-		"wide"										"1"
-		"tall"										"1"
-		"visible"									"0"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-
-		"if_comp"
-		{
-			"ypos"									"28"
-		}
+		"ControlName"			"EditablePanel"
+		"fieldName"				"HudStopWatchBG"
+		"xpos"					"113"
+		"ypos"					"0"
+		"zpos"					"0"
+		"wide"					"110"
+		"tall"					"25"
+		"visible"				"1"
+		"enabled"				"1"
+		"paintbackground"		"0"
+		"border"				"MaterialTransparent"
 	}
-
-	"StopWatchPointsLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"StopWatchPointsLabel"
-		"font"										"Size 12"
-		"fgcolor"									"White"
-		"labelText"									"%pointslabel%"
-		"textAlignment"								"center"
-		"textinsety"								"0"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"4"
-		"wide"										"50"
-		"tall"										"18"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"AllCaps"									"1"
-
-		"pin_to_sibling" 							"StopWatchAnchor"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
-	}
-
-	"StopWatchScoreToBeat"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"StopWatchScoreToBeat"
-		"font"										"Size 12"
-		"fgcolor"									"White"
-		"labelText"									"%scoretobeat%"
-		"textAlignment"								"east"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"4"
-		"wide"										"15"
-		"tall"										"18"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"0"
-		"enabled"									"1"
-		"AllCaps"									"1"
-
-		"pin_to_sibling" 							"StopWatchPointsLabel"
-		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
-	}
-
+	
 	"ObjectiveStatusTimePanel"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"ObjectiveStatusTimePanel"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"1"
-		"wide"										"50"
-		"tall"										"18"
-		"visible"									"0"
-		"enabled"									"1"
-
-		"pin_to_sibling" 							"StopWatchPointsLabel"
-		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
-
-		"ClockIcon"
-		{
-			"controlName"							"CExLabel"
-			"fieldName"	 							"ClockIcon"
-			"xpos"									"9999"
-		}
-		"ClockIconShadow"
-		{
-			"controlName"							"CExLabel"
-			"fieldName"	 							"ClockIconShadow"
-			"xpos"									"9999"
-		}
+		"ControlName"			"EditablePanel"
+		"fieldName"				"ObjectiveStatusTimePanel"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"1"
+		"wide"					"f0"
+		"tall"					"f0"
+		"visible"				"0"
+		"enabled"				"1"
 
 		"TimePanelValue"
 		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"TimePanelValue"
-			"font"									"Size 12"
-			"fgcolor"								"White"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"3"
-			"wide"									"50"
-			"tall"									"18"
-			"visible"								"1"
-			"enabled"								"1"
-			"textAlignment"							"west"
-		}
+			"ControlName"		"CExLabel"
+			"fieldName"			"TimePanelValue"
+			"font"				"GameFont16"
+			"fgcolor"			"White"
+			"xpos"				"120"
+			"ypos"				"0"
+			"zpos"				"3"
+			"wide"				"50"
+			"tall"				"26"
+			"visible"			"1"
+			"enabled"			"1"
+			"textAlignment"		"west"
+		}	
+	}
+	
+	"StopWatchScoreToBeat"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"StopWatchScoreToBeat"
+		"font"					"GameFont16"
+		"fgcolor"				"White"
+		"labelText"				"%scoretobeat%"
+		"textAlignment"			"center"
+		"xpos"					"-47"
+		"ypos"					"0"
+		"zpos"					"4"
+		"wide"					"15"
+		"tall"					"26"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"0"
+		"enabled"				"1"
+		"AllCaps"				"1"
+		
+		"pin_to_sibling" 		"HudStopWatchBG"
+	}
+	
+	"StopWatchPointsLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"StopWatchPointsLabel"
+		"font"					"GameFont12"
+		"fgcolor"				"White"
+		"labelText"				"%pointslabel%"
+		"textAlignment"			"center"
+		"xpos"					"-63"
+		"ypos"					"0"
+		"zpos"					"4"
+		"wide"					"45"
+		"tall"					"27"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"wrap"					"0"
+		"AllCaps"				"1"
+		
+		"pin_to_sibling" 		"HudStopWatchBG"
 	}
 
-
-
-
+	"StopWatchLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"StopWatchLabel"
+		"font"					"GameFont9"
+		"fgcolor"				"White"
+		"labelText"				"%stopwatchlabel%"
+		"textAlignment"			"west"
+		"xpos"					"-5"
+		"ypos"					"0"
+		"zpos"					"4"
+		"wide"					"100"
+		"tall"					"26"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"0"
+		"enabled"				"1"
+		"wrap"					"1"
+		"AllCaps"				"1"
+		
+		"pin_to_sibling" 		"HudStopWatchBG"
+	}
+	
+	
+	
+	
 	"StopWatchImageCaptureTime"
 	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"StopWatchImageCaptureTime"
-		"xpos"										"9999"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"StopWatchImageCaptureTime"
+		"xpos"			"9999"
 	}
 	"HudStopWatchDescriptionBG"
 	{
-		"ControlName"								"ScalableImagePanel"
-		"fieldName"									"HudStopWatchDescriptionBG"
-		"xpos"										"9999"
+		"ControlName"	"ScalableImagePanel"
+		"fieldName"		"HudStopWatchDescriptionBG"
+		"xpos"			"9999"
 	}
 	"StopWatchDescriptionLabel"
 	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"StopWatchDescriptionLabel"
-		"xpos"										"9999"
-	}
-	"StopWatchLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"StopWatchLabel"
-		"xpos"										"9999"
+		"ControlName"	"CExLabel"
+		"fieldName"		"StopWatchDescriptionLabel"
+		"xpos"			"9999"
 	}
 }

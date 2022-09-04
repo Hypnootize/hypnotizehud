@@ -1,9 +1,9 @@
 "Resource/UI/MvMInWorldCurrency.res"
 {
-	"BlackBG"
+	"RedBG"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"BlackBG"
+		"fieldName"									"RedBG"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -12,77 +12,80 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
-		"border"									"MaterialTransparent50"
+		"border"									"MaterialTransparentRed"
 	}
-
+	
 	"CurrencyGood"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurrencyGood"
-		"font"										"Size 12"
-		"fgcolor"									"Green"
+		"font"										"GameFont12"
+		"fgcolor"									"White"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"4"
 		"wide"										"50"
-		"tall"										"20"
+		"tall"										"21"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"center"
+		"textAlignment"								"center"	
 		"labelText"									"%currency%"
 	}
-
+	
 	"CurrencyBad"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurrencyBad"
-		"font"										"Size 12"
-		"fgcolor"									"Red"
+		"font"										"GameFont12"
+		"fgcolor"									"White"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"4"
 		"wide"										"50"
-		"tall"										"20"
+		"tall"										"21"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"center"
+		"textAlignment"								"center"	
 		"labelText"									"%currency%"
 	}
-
+	
 	"CurrencyShadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurrencyShadow"
-		"font"										"Size 12 Blur"
+		"font"										"GameFont12Blur"
 		"fgcolor"									"Shadow"
 		"xpos"										"1"
 		"ypos"										"1"
-		"zpos"										"3"
+		"zpos"										"4"
 		"wide"										"50"
-		"tall"										"20"
+		"tall"										"21"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"center"
+		"textAlignment"								"center"	
 		"labelText"									"%currency%"
-
 	}
-
+	
+	
+	
+	
+	
 	"BorderBG"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"BorderBG"
-		"xpos"										"9999"
-	}
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BorderBG"
+		"xpos"			"9999"
+	}	
 	"BackgroundGood"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"BackgroundGood"
-		"xpos"										"9999"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BackgroundGood"
+		"xpos"			"9999"
 	}
 	"MoneyImagePanel"
 	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"MoneyImagePanel"
-		"xpos"										"9999"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MoneyImagePanel"
+		"xpos"			"9999"
 	}
 }

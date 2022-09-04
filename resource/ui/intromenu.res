@@ -12,9 +12,10 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
+		"tabPosition"								"0"
 		"paintbackground"							"0"
 	}
-
+	
 	"IntroFrame"
 	{
 		"ControlName"     		  					"EditablePanel"
@@ -24,12 +25,17 @@
 		"zpos"										"1"
 		"wide"										"867"
 		"tall"										"25"
+		"autoResize"								"0"
+		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
+		"textAlignment"								"Center"
+		"dulltext"									"0"
+		"brighttext"								"0"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent70"
+		"border"									"MaterialTransparentDark"
 	}
-
+	
 	"Title"
 	{
 		"ControlName"								"CExLabel"
@@ -46,14 +52,16 @@
 		"labelText"									"intro movie"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"font"										"Size 14"
-		"fgcolor"									"White"
-
+		"dulltext"									"0"
+		"brighttext"								"1"
+		"font"										"HudFontSmallBold"
+		"fgcolor_override"							"White"
+		
 		"pin_to_sibling" 							"IntroFrame"
 	}
-
+	
 	"VideoBackground"
-	{
+	{	
 		"ControlName"								"EditablePanel"
 		"fieldName"									"VideoBackground"
 		"font"										"Default"
@@ -61,20 +69,25 @@
 		"ypos"										"c-185"
 		"zpos"										"0"
 		"wide"										"320"
-		"tall"										"245"
+		"tall"										"245"				
+		"autoResize"								"0"
+		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
+		"textAlignment"								"Center"
+		"dulltext"									"0"
+		"brighttext"								"0"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent70"
+		"border"									"MaterialTransparentDark"
 	}
-
+	
 	"VideoPanel"
 	{
 		"ControlName"								"CTFVideoPanel"
 		"fieldName"									"VideoPanel"
 		"xpos"										"-10"
 		"ypos"										"-10"
-		"zpos"										"3"
+		"zpos"										"3"		
 		"wide"										"300"
 		"tall"										"225"
 		"autoResize"								"0"
@@ -83,12 +96,12 @@
 		"enabled"									"1"
 		"start_delay"								"0"
 		"end_delay"									"0"
-
+		
 		"pin_to_sibling" 							"VideoBackground"
 	}
-
+	
 	"CaptionBackground"
-	{
+	{	
 		"ControlName"								"EditablePanel"
 		"fieldName"									"CaptionBackground"
 		"font"										"Default"
@@ -96,17 +109,22 @@
 		"ypos"										"0"
 		"zpos"										"0"
 		"wide"										"320"
-		"tall"										"40"
+		"tall"										"40"				
+		"autoResize"								"0"
+		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
+		"textAlignment"								"Center"
+		"dulltext"									"0"
+		"brighttext"								"0"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent70"
-
+		"border"									"MaterialTransparentDark"
+		
 		"pin_to_sibling" 							"VideoBackground"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
-
+	
 	"VideoCaption"
 	{
 		"ControlName"								"CExLabel"
@@ -122,14 +140,16 @@
 		"enabled"									"1"
 		"labelText"									" "
 		"textAlignment"								"center"
-		"font"										"Size 11"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"font"										"HudFontSmallestBold"
 		"fgcolor"									"White"
 		"wrap"										"1"
 		"centerwrap"								"1"
-
+		
 		"pin_to_sibling" 							"CaptionBackground"
 	}
-
+	
 	"Skip"
 	{
 		"ControlName"								"CExButton"
@@ -143,26 +163,29 @@
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
+		"tabPosition"								"0"
 		"labelText"									"Skip Movie (&E)"
 		"textAlignment"								"center"
+		"dulltext"									"0"
+		"brighttext"								"0"
 		"wrap"										"0"
 		"command"									"skip"
-		"font"										"Size 14"
-
+		"font"										"HudFontSmallBold"
+		
 		"AllCaps"									"1"
-
+		
 		"paintbackground"							"0"
-
+		
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-
-		"border_default"							"MaterialTransparent70"
+		
+		"border_default"							"MaterialTransparentDark"
 		"border_armed"								"MaterialHypno"
-
+		
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-
+		
 		"pin_to_sibling" 							"CaptionBackground"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
@@ -183,55 +206,57 @@
 		"enabled"									"1"
 		"labelText"									"BACK (&Q)"
 		"textAlignment"								"center"
+		"dulltext"									"0"
+		"brighttext"								"0"
 		"command"									"back"
-		"font"										"Size 14"
-
+		"font"										"HudFontSmallBold"
+		
 		"AllCaps"									"1"
-
+		
 		"paintbackground"							"0"
-
+		
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-
-		"border_default"							"MaterialTransparent70"
+		
+		"border_default"							"MaterialTransparentDark"
 		"border_armed"								"MaterialHypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-
+		
 		"pin_to_sibling" 							"Skip"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 
-
-
-
-
-
+	
+	
+	
+	
+	
 	"ShadedBar"
 	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"ShadedBar"
-		"xpos"										"9999"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ShadedBar"
+		"xpos"			"9999"
 	}
 	"MenuBG"
 	{
-		"ControlName"								"CModelPanel"
-		"fieldName"									"MenuBG"
-		"xpos"										"9999"
+		"ControlName"	"CModelPanel"
+		"fieldName"		"MenuBG"
+		"xpos"			"9999"
 	}
 	"Continue"
 	{
-		"ControlName"								"CExButton"
-		"fieldName"									"Continue"
-		"xpos"										"9999"
+		"ControlName"	"CExButton"
+		"fieldName"		"Continue"
+		"xpos"			"9999"
 	}
 	"ReplayVideo"
 	{
-		"ControlName"								"CExButton"
-		"fieldName"									"ReplayVideo"
-		"xpos"										"9999"
+		"ControlName"	"CExButton"
+		"fieldName"		"ReplayVideo"
+		"xpos"			"9999"
 	}
 }

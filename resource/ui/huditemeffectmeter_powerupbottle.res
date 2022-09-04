@@ -1,6 +1,6 @@
 "Resource/UI/HudItemEffectMeter_PowerupBottles.res"
 {
-	"HudItemEffectMeter"
+	HudItemEffectMeter
 	{
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
@@ -12,7 +12,7 @@
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-
+	
 	"ItemEffectMeterBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -25,24 +25,24 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
-		"border"									"MaterialTransparent50"
+		"border"									"MaterialTransparent"
 	}
-
+	
 	"ItemEffectIcon"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"ItemEffectIcon"
-		"xpos"										"4"
-		"ypos"										"4"
+		"xpos"										"5"
+		"ypos"										"5"
 		"zpos"										"1"
-		"wide"										"18"
-		"tall"										"18"
+		"wide"										"15"
+		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"../hud/ico_powerup_critboost_red"
 		"scaleImage"								"1"
 	}
-
+	
 	"ItemEffectMeterCount"
 	{
 		"ControlName"								"CExLabel"
@@ -51,16 +51,19 @@
 		"ypos"										"10"
 		"zpos"										"2"
 		"wide"										"25"
-		"tall"										"35"
+		"tall"										"35"	
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
+		"tabPosition"								"0"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"center"
-		"font"										"Size 12"
-		"fgcolor"									"White"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"font"										"GameFont12"
+		"fgcolor_override"							"White"
 	}
-
+	
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -69,20 +72,23 @@
 		"ypos"										"11"
 		"zpos"										"2"
 		"wide"										"25"
-		"tall"										"35"
+		"tall"										"35"	
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
+		"tabPosition"								"0"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"center"
-		"font"										"Size 12 Blur"
-		"fgcolor"									"Shadow"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"font"										"GameFont12Blur"
+		"fgcolor_override"							"Shadow"
 	}
-
-
-
-
-
+	
+	
+	
+	
+	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -90,7 +96,7 @@
 		"xpos"			"9999"
 	}
 	"ItemEffectMeter"
-	{
+	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter"
 		"xpos"			"9999"

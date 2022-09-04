@@ -4,88 +4,83 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"SpellIcon"
-		"xpos"										"5"
-		"ypos"										"2"
+		"xpos"										"18"
+		"ypos"										"4"
 		"zpos"										"7"
-		"wide"										"15"
-		"tall"										"15"
+		"wide"										"18"
+		"tall"										"18"
 		"visible"									"1"
 		"enabled"									"1"
-		"scaleImage"								"1"
+		"scaleImage"								"1"	
 		"image"										"../signs/death_wheel_whammy"
 		"fgcolor"									"White"
 	}
-
+	
 	"CountText"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountText"
-		"font"										"Size 20"
+		"font"										"GameFont24"
 		"labelText"									"%counttext%"
-		"textAlignment" 							"west"
-		"xpos"										"4"
-		"ypos"										"1"
+		"textAlignment" 							"east"
+		"xpos"										"32"
+		"ypos"										"5"
 		"zpos"										"1"
 		"wide"										"20"
-		"tall"										"20"
+		"tall"										"19"
 		"fgcolor"									"White"
-
-		"pin_to_sibling" 							"SpellIcon"
-		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
 	}
+	
 	"CountTextShadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountTextShadow"
-		"font"										"Size 20 Blur"
+		"font"										"GameFont24Blur"
 		"labelText"									"%counttext%"
-		"textAlignment" 							"west"
-		"xpos"										"-1"
-		"ypos"										"-1"
+		"textAlignment" 							"east"
+		"xpos"										"33"
+		"ypos"										"6"
 		"wide"										"20"
-		"tall"										"20"
+		"tall"										"19"
 		"fgcolor"									"Shadow"
-		"pin_to_sibling" 							"CountText"
 	}
-
+	
 	"ActionText"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ActionText"
-		"font"										"Size 9"
+		"font"										"GameFont9"
 		"labelText"									"%actiontext%"
-		"textAlignment"							 	"center"
+		"textAlignment"							 	"east"
 		"xpos"										"0"
-		"ypos"										"20"
-		"wide"										"40"
+		"ypos"										"24"
+		"wide"										"54"
 		"tall"										"10"
 		"fgcolor"									"White"
 		"visible"									"1"
-		"visible_minmode"							"1"
 		"AllCaps"									"1"
 	}
-
-
-
-
-	//REMOVED
+	
+	
+	
+	
+	
 	"ItemEffectMeterBG"
 	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"ItemEffectMeterBG"
-		"xpos"										"9999"
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterBG"
+		"xpos"			"9999"
 	}
 	"Spellbook"
 	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"Spellbook"
-		"xpos"										"9999"
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"Spellbook"
+		"xpos"			"9999"
 	}
 	"SpellText"
 	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"SpellText"
-		"xpos"										"9999"
+		"ControlName"	"CExLabel"
+		"fieldName"		"SpellText"
+		"xpos"			"9999"
 	}
 }

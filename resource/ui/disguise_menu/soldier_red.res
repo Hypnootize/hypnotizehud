@@ -1,9 +1,9 @@
-#base "soldier_blue.res"
+#base "Soldier_Blue.res"
 
-"Resource/UI/Disguise_Menu/Soldier_Red.res"
+"Resource/UI/disguise_menu/soldier_red.res"
 {
 	"ItemNameLabel"
-	{
-		"fgcolor"									"Red"
+	{	
+		"fgcolor_override"	"Red"
 	}
 }

@@ -1,1 +1,1 @@
-#base "../base_active.res"
+#base "../Base_Active.res"

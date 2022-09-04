@@ -1,20 +1,20 @@
-#base "scout_blue.res"
+#base "Scout_Blue.res"
 
-"Resource/UI/Disguise_Menu/Spy_Blue.res"
+"Resource/UI/disguise_menu/spy_blue.res"
 {
 	"ItemNameLabel"
-	{
-		"labelText"									"9"
-		"fgcolor"									"Blue"
+	{	
+		"labelText"			"9"
+		"fgcolor_override"	"Blue"
 	}
-
+	
 	"NumberLabel"
-	{
-		"labelText"									"9"
+	{	
+		"labelText"			"9"
 	}
-
+	
 	"NewNumberLabel"
-	{
-		"labelText"									"3"
+	{	
+		"labelText"			"3"
 	}
 }

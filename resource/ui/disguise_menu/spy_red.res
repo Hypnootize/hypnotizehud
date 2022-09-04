@@ -1,9 +1,9 @@
-#base "spy_blue.res"
+#base "Spy_Blue.res"
 
-"Resource/UI/Disguise_Menu/Spy_Red.res"
+"Resource/UI/disguise_menu/spy_red.res"
 {
 	"ItemNameLabel"
-	{
-		"fgcolor"									"Red"
+	{	
+		"fgcolor_override"	"Red"
 	}
 }

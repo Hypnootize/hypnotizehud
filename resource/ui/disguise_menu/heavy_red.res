@@ -1,9 +1,9 @@
-#base "heavy_blue.res"
+#base "Heavy_Blue.res"
 
-"Resource/UI/Disguise_Menu/Heavy_Red.res"
+"Resource/UI/disguise_menu/heavy_red.res"
 {
 	"ItemNameLabel"
-	{
-		"fgcolor"									"Red"
+	{	
+		"fgcolor_override"	"Red"
 	}
 }

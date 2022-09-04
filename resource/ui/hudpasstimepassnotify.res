@@ -1,6 +1,6 @@
-"Resource/UI/HudPasstimePassNotify.res"
+Resource/UI/HudPasstimePassNotify.res
 {
-	"HudPasstimePassNotify"
+	HudPasstimePassNotify
 	{
 		"ControlName" 								"EditablePanel"
 		"fieldName" 								"HudPasstimePassNotify"
@@ -13,7 +13,7 @@
 		"enabled" 									"1"
 	}
 
-	"TextBox"
+	TextBox
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName" 								"TextBox"
@@ -27,11 +27,11 @@
 		"border"									"TFFatLineBorder"
 		"RoundedCorners"							"255"
 
-		"TextInPassRange"
+		TextInPassRange
 		{
 			"ControlName"							"CExLabel"
 			"fieldName" 							"TextInPassRange"
-			"font" 									"Size 12"
+			"font" 									"GameFont12"
 			"xpos" 									"-50"
 			"ypos" 									"-5"
 			"zpos" 									"3"
@@ -42,14 +42,14 @@
 			"centerwrap"							"1"
 			"textAlignment" 						"center"
 			"labelText" 							"#Msg_PasstimeInPassRange"
-			"fgcolor"		 						"White"
+			"fgcolor_override" 						"White"
 		}
 
-		"TextLockedOn"
+		TextLockedOn
 		{
 			"ControlName" 							"CExLabel"
 			"fieldName"								"TextLockedOn"
-			"font"									"Size 12"
+			"font"									"GameFont12"
 			"xpos" 									"-50"
 			"ypos" 									"-5"
 			"zpos" 									"3"
@@ -60,14 +60,14 @@
 			"centerwrap"							"1"
 			"textAlignment" 						"center"
 			"labelText" 							"#Msg_PasstimeLockedOn"
-			"fgcolor"		 						"White"
+			"fgcolor_override" 						"White"
 		}
 
-		"TextPassIncoming"
+		TextPassIncoming
 		{
 			"ControlName" 							"CExLabel"
 			"fieldName" 							"TextPassIncoming"
-			"font" 									"Size 12"
+			"font" 									"GameFont12"
 			"xpos"									"-50"
 			"ypos" 									"-5"
 			"zpos" 									"3"
@@ -78,14 +78,14 @@
 			"centerwrap"							"1"
 			"textAlignment" 						"center"
 			"labelText" 							"#Msg_PasstimePassIncoming"
-			"fgcolor"		 						"White"
+			"fgcolor_override" 						"White"
 		}
 
-		"TextPlayerName"
+		TextPlayerName
 		{
 			"ControlName" 							"CExLabel"
 			"fieldName"								"TextPlayerName"
-			"font"									"Size 10"
+			"font"									"GameFont10"
 			"xpos" 									"-50"
 			"ypos" 									"17"
 			"zpos" 									"3"
@@ -95,11 +95,11 @@
 			"enabled" 								"1"
 			"textAlignment" 						"center"
 			"labelText" 							"WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"
-			"fgcolor"								"Green"
-		}
+			"fgcolor_override"						"Green"
+		}	
 	}
 
-	"PassLockIndicator"
+	PassLockIndicator
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName" 								"PassLockIndicator"
@@ -117,7 +117,7 @@
 		"pin_to_sibling_corner" 					"1"
 	}
 
-	"SpeechIndicator"
+	SpeechIndicator
 	{
 		"ControlName" 								"ImagePanel"
 		"fieldName" 								"SpeechIndicator"

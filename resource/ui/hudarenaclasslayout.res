@@ -13,61 +13,58 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"replay/thumbnails/panels/material_transparent50"
-		"scaleImage"								"1"
-		"teambg_2"									"replay/thumbnails/panels/material_transparent50"
-		"teambg_3"									"replay/thumbnails/panels/material_transparent50"
-
+		"image"										"replay/thumbnails/panels/Material_Transparent"
+		"scaleImage"								"1"	
+		"teambg_2"									"replay/thumbnails/panels/Material_Transparent"
+		"teambg_3"									"replay/thumbnails/panels/Material_Transparent"
+			
 		"src_corner_height"							"24"
 		"src_corner_width"							"24"
-
+				
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height" 						"8"	
 	}
-
-	"Title"
+	
+	"title"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"Title"
-		"xpos"										"cs-0.5"
+		"fieldName"									"title"
+		"xpos"										"c-200"
 		"ypos"										"112"
 		"zpos"										"6"
-		"wide"										"f0"
+		"wide"										"400"
 		"tall"										"20"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 18"
+		"font"										"GameFont18"
 		"labelText"									"#TF_Arena_Team_Layout"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
-		"Allcaps"									"0"
-		"proportionaltoparent"						"1"
+		"Allcaps"									"1"
 	}
-
-	"TitleShadow"
+	
+	"titleShadow"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"TitleShadow"
-		"xpos"										"-1"
-		"ypos"										"-1"
-		"zpos"										"4"
-		"wide"										"f0"
+		"fieldName"									"titleShadow"
+		"xpos"										"c-199"
+		"ypos"										"113"
+		"zpos"										"5"
+		"wide"										"400"
 		"tall"										"20"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 18 Blur"
+		"font"										"GameFont18Blur"
 		"labelText"									"#TF_Arena_Team_Layout"
 		"textAlignment"								"center"
 		"fgcolor"									"Shadow"
-		"AllCaps"									"0"
-		"proportionaltoparent"						"1"
-		"pin_to_sibling" 							"Title"
+		"AllCaps"									"1"
 	}
-
+		
 	"changeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -81,12 +78,12 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 14"
+		"font"										"GameFont14"
 		"labelText"									"#TF_Arena_F4_ChangeClass"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
 	}
-
+	
 	"changeLabelShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -100,12 +97,12 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 14"
+		"font"										"GameFont14"
 		"labelText"									"#TF_Arena_F4_ChangeClass"
 		"textAlignment"								"center"
 		"fgcolor"									"Black"
 	}
-
+	
 	"classImage0"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -117,10 +114,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""
-		"scaleImage"								"1"
+		"image"										""	
+		"scaleImage"								"1"	
 	}
-
+	
 	"classImage1"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -132,10 +129,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""
-		"scaleImage"								"1"
+		"image"										""	
+		"scaleImage"								"1"	
 	}
-
+	
 	"classImage2"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -147,10 +144,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""
-		"scaleImage"								"1"
+		"image"										""	
+		"scaleImage"								"1"	
 	}
-
+	
 	"classImage3"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -162,10 +159,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""
-		"scaleImage"								"1"
+		"image"										""	
+		"scaleImage"								"1"	
 	}
-
+	
 	"classImage4"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -177,10 +174,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""
-		"scaleImage"								"1"
+		"image"										""	
+		"scaleImage"								"1"	
 	}
-
+	
 	"classImage5"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -192,10 +189,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""
-		"scaleImage"								"1"
+		"image"										""	
+		"scaleImage"								"1"	
 	}
-
+	
 	"classImage6"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -207,10 +204,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""
-		"scaleImage"								"1"
+		"image"										""	
+		"scaleImage"								"1"	
 	}
-
+	
 	"classImage7"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -222,10 +219,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""
-		"scaleImage"								"1"
+		"image"										""	
+		"scaleImage"								"1"	
 	}
-
+	
 	"classImage8"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -237,10 +234,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""
-		"scaleImage"								"1"
+		"image"										""	
+		"scaleImage"								"1"	
 	}
-
+	
 	"classImage9"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -252,10 +249,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""
-		"scaleImage"								"1"
+		"image"										""	
+		"scaleImage"								"1"	
 	}
-
+	
 	"classImage10"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -267,10 +264,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""
-		"scaleImage"								"1"
+		"image"										""	
+		"scaleImage"								"1"	
 	}
-
+	
 	"classImage11"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -282,10 +279,16 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""
-		"scaleImage"								"1"
+		"image"										""	
+		"scaleImage"								"1"	
 	}
-
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
 	"background"
 	{
 		"ControlName"								"CTFImagePanel"

@@ -1,1 +1,1 @@
-#base "../hudmenuengydestroy.res"
+#base "../HudMenuEngyDestroy.res"

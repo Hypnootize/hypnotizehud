@@ -1,5 +1,5 @@
 "Resource/UI/HudAchievementTrackerItem.res"
-{
+{	
 	"HudAchievementTrackerItem"
 	{
 		"ControlName"								"EditablePanel"
@@ -10,14 +10,14 @@
 		"wide"										"150"
 		"tall"										"29"
 		"visible"									"0"
-		"enabled"									"1"
-
+		"enabled"									"1"	
+		
 		"PaintBackgroundType"						"2"
 	}
-
+	
 	"AchievementName"
 	{
-		"ControlName"								"CExLabel"
+		"ControlName"								"Label"
 		"fieldName"									"AchievementName"
 		"labeltext"									""
 		"xpos"										"5"
@@ -26,14 +26,14 @@
 		"tall"										"10"
 		"zpos"										"4"
 		"textinsetx"								"5"
-		"fgcolor"									"White"
-		"font"										"Size 10"
+		"fgcolor_override"							"White"
+		"font"										"GameFont10"
 		"textAlignment"								"north-west"
 	}
-
+	
 	"AchievementNameGlow"
 	{
-		"ControlName"								"CExLabel"
+		"ControlName"								"Label"
 		"fieldName"									"AchievementNameGlow"
 		"labeltext"									""
 		"xpos"										"5"
@@ -41,15 +41,15 @@
 		"wide"										"170"
 		"tall"										"10"
 		"zpos"										"4"
-		"fgcolor"									"White"
-		"font"										"Size 10"
+		"fgcolor_override"							"White"
+		"font"										"GameFont10"
 		"textinsetx"								"5"
 		"textAlignment"								"north-west"
 	}
-
+	
 	"AchievementDesc"
 	{
-		"ControlName"								"CExLabel"
+		"ControlName"								"Label"
 		"fieldName"									"AchievementDesc"
 		"labeltext"									""
 		"xpos"										"5"
@@ -58,12 +58,12 @@
 		"tall"										"18"
 		"zpos"										"4"
 		"textinsetx"								"5"
-		"fgcolor"									"White"
+		"fgcolor_override"							"White"
 		"font"										"DefaultVerySmall"
 		"wrap"										"1"
 		"TextAlignment"								"north-west"
 	}
-
+	
 	"ProgressBarBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -72,12 +72,12 @@
 		"ypos"										"19"
 		"wide"										"100"
 		"tall"										"6"
-		"fillcolor"	 								"TransparentBlack"
+		"fillcolor"	 								"TransparentLightBlack"
 		"zpos"										"4"
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
+	
 	"ProgressBar"
 	{
 		"ControlName"								"ImagePanel"

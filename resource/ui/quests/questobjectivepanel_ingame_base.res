@@ -1,5 +1,5 @@
-"Resource/UI/Quests/QuestObjectivePanel_Ingame.res"
-{
+"Resource/UI/HudAchievementTrackerItem.res"
+{	
 	"QuestObjectiveTextPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -11,7 +11,7 @@
 		"tall"										"18"
 		"visible"									"1"
 		"enabled"									"1"
-
+		
 		"PaintBackgroundType"						"2"
 
 		"enabled_text_color_override"				"White"
@@ -23,7 +23,7 @@
 
 	"AttribGlow"
 	{
-		"ControlName"								"CExLabel"
+		"ControlName"								"Label"
 		"fieldName"									"AttribGlow"
 		"labeltext"									"%attr_desc%"
 		"xpos"										"rs1"
@@ -38,10 +38,10 @@
 		"TextAlignment"								"north-east"
 		"proportionaltoparent"						"1"
 	}
-
+	
 	"AttribDesc"
 	{
-		"ControlName"								"CExLabel"
+		"ControlName"								"Label"
 		"fieldName"									"AttribDesc"
 		"labeltext"									"%attr_desc%"
 		"xpos"										"rs1"
@@ -58,7 +58,7 @@
 
 	"AttribBlur"
 	{
-		"ControlName"								"CExLabel"
+		"ControlName"								"Label"
 		"fieldName"									"AttribBlur"
 		"labeltext"									"%attr_desc%"
 		"xpos"										"rs1"
@@ -71,6 +71,6 @@
 		"textinsetx"								"5"
 		"textAlignment"								"north-east"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"White"
+		"fgcolor_override"							"White"
 	}
 }

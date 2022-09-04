@@ -1,5 +1,19 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
 {
+	"TimeBGBlue"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"TimeBGBlue"
+		"xpos"										"-11"
+		"ypos"										"-1"
+		"zpos"										"6"
+		"wide"										"16"
+		"tall"										"22"
+		"visible"									"1"
+		"enabled"									"1"
+		"border"									"MaterialBlue"
+	}
+	
 	"BlueTimer"
 	{
 		"ControlName"								"CTFHudTimeStatus"
@@ -7,27 +21,41 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"100"
-		"tall"										"30"
+		"wide"										"70"
+		"tall"										"50"
 		"visible"									"1"
 		"enabled"									"1"
-
+		
 		"TimePanelValue"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"Size 20"
+			"font"									"GameFont20"
 			"fgcolor"								"White"
-			"xpos"									"20"
-			"ypos"									"0"
+			"xpos"									"8"
+			"ypos"									"3"
 			"zpos"									"3"
-			"wide"									"100"
-			"tall"									"20"
+			"wide"									"70"
+			"tall"									"15"
 			"visible"								"1"
 			"enabled"								"1"
 			"textAlignment"							"west"
 			"labelText"								"0:00"
-		}
+		}	
+	}
+	
+	"TimeBGRed"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"TimeBGBlue"
+		"xpos"										"-11"
+		"ypos"										"21"
+		"zpos"										"6"
+		"wide"										"16"
+		"tall"										"22"
+		"visible"									"1"
+		"enabled"									"1"
+		"border"									"MaterialRed"
 	}
 
 	"RedTimer"
@@ -35,31 +63,31 @@
 		"ControlName"								"CTFHudTimeStatus"
 		"fieldName"									"RedTimer"
 		"xpos"										"0"
-		"ypos"										"24"
+		"ypos"										"22"
 		"zpos"										"2"
-		"wide"										"100"
-		"tall"										"30"
+		"wide"										"70"
+		"tall"										"50"
 		"visible"									"1"
 		"enabled"									"1"
-
+		
 		"TimePanelValue"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"Size 20"
+			"font"									"GameFont20"
 			"fgcolor"								"White"
-			"xpos"									"20"
-			"ypos"									"0"
+			"xpos"									"8"
+			"ypos"									"3"
 			"zpos"									"3"
-			"wide"									"100"
-			"tall"									"20"
+			"wide"									"70"
+			"tall"									"15"
 			"visible"								"1"
 			"enabled"								"1"
 			"textAlignment"							"west"
 			"labelText"								"0:00"
-		}
+		}	
 	}
-
+	
 	"ActiveTimerBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -71,6 +99,6 @@
 		"tall"										"0"		//21
 		"visible"									"0"
 		"enabled"									"1"
-		"border"									"MaterialTransparent50"
+		"border"									"MaterialTransparentLight"
 	}
 }

@@ -1,9 +1,9 @@
-#base "scout_blue.res"
+#base "Scout_Blue.res"
 
-"Resource/UI/Disguise_Menu/Scout_Red.res"
+"Resource/UI/disguise_menu/scout_red.res"
 {
 	"ItemNameLabel"
-	{
-		"fgcolor"									"Red"
+	{	
+		"fgcolor_override"	"Red"
 	}
 }

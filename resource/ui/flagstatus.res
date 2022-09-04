@@ -1,5 +1,5 @@
 "Resource/UI/FlagStatus.res"
-{
+{	
 	"Arrow"
 	{
 		"ControlName"								"CTFArrowPanel"
@@ -7,21 +7,21 @@
 		"xpos"										"40"
 		"ypos"										"-5"
 		"zpos"										"1"
-		"wide"										"35"
-		"tall"										"35"
+		"wide"										"30"
+		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"
 
 		"if_mvm"
 		{
-			"xpos"									"38"
-			"ypos"									"-15"
-			"wide"									"45"
-			"tall"									"45"
-		}
+			"xpos"									"40"
+			"ypos"									"-13"
+			"wide"									"40"
+			"tall"									"40"
+		}		
 	}
-
+	
 	"Briefcase"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -38,25 +38,24 @@
 
 		"if_mvm"
 		{
-			"xpos"									"50"
+			"xpos"									"51"
 			"ypos"									"-2"
 			"zpos"     								"2"
-			"wide"									"22"
-			"tall"									"22"
+			"wide"									"18"
+			"tall"									"18"
 		}
-
+		
 		"if_specialdelivery"
 		{
 			"visible"								"0"
 		}
-	}
-
+	}				
 	"StatusIcon"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"StatusIcon"
-		"xpos"										"0"
-		"ypos"										"-8"
+		"xpos"										"46"
+		"ypos"										"1"
 		"zpos"										"3"
 		"wide"										"18"
 		"tall"										"18"
@@ -64,9 +63,6 @@
 		"enabled"									"1"
 		"image"										"../hud/objectives_flagpanel_ico_flag_home"
 		"scaleImage"								"1"
-		"pin_to_sibling"							"Arrow"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 
 		"if_mvm"
 		{
@@ -74,5 +70,10 @@
 			"ypos"      							"13"
 			"visible"								"0"
 		}
-	}
+		
+		"if_specialdelivery"
+		{
+			"visible"								"0"
+		}
+	}	
 }

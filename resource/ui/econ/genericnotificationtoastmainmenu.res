@@ -1,4 +1,4 @@
-"Resource/UI/Econ/GenericNotificationToastMainMenu.res"
+"Resource/UI/GenericNotificationToast.res"
 {
 	"GenericNotificationToast"
 	{
@@ -11,8 +11,8 @@
 		"tall"										"50"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"									"White"
-		"fgcolor_override"							"White"
+		"fgcolor"									"DarkBG"
+		"fgcolor_override"							"DarkBG"
 	}
 
 	"AvatarBGPanel"
@@ -25,10 +25,10 @@
 		"wide"										"36"
 		"tall"										"36"
 		"visible"									"1"
-		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"White"
+		"PaintBackgroundType"						"2"
+		"bgcolor_override"							"117 107 94 255"
 	}
-
+	
 	"AvatarImage"
 	{
 		"ControlName"								"CAvatarImagePanel"
@@ -49,8 +49,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AvatarTextLabel"
-		"fgcolor"									"White"
-		"fgcolor"		 							"White"
+		"fgcolor"									"DarkBG"
+		"fgcolor_override" 							"DarkBG"
 		"xpos"										"45"
 		"ypos"										"7"
 		"zpos"										"2"
@@ -63,23 +63,23 @@
 		"wrap"										"1"
 		"labelText"									"%avatartext%"
 		"textAlignment"								"West"
-		"font"										"Size 12"
+		"font"										"HudFontSmallest"
 	}
 
 	"TextLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TextLabel"
-		"fgcolor"									"White"
-		"fgcolor"		 							"White"
-
+		"fgcolor"									"DarkBG"
+		"fgcolor_override" 							"DarkBG"
+		
 		"if_high_priority"
 		{
 			"fgcolor"								"White"
-			"fgcolor"								"White"
-			"font"									"Size 10"
+			"fgcolor_override"						"White"
+			"font"									"StorePromotionsTitle"
 		}
-
+		
 		"xpos"										"7"
 		"ypos"										"7"
 		"zpos"										"2"
@@ -92,6 +92,6 @@
 		"wrap"										"1"
 		"labelText"									"%text%"
 		"textAlignment"								"West"
-		"font"										"Size 12"
+		"font"										"HudFontSmallest"
 	}
 }

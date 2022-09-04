@@ -15,11 +15,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"alpha"										"255"
-
+		
 		"border"									"HealthBorder"
 		"scaleImage"								"1"
 	}
-
+	
 	"HealthBuff"
 	{
 		"ControlName"								"EditablePanel"
@@ -35,11 +35,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"alpha"										"0"
-
+		
 		"border"									"BuffedBorder"
 		"scaleImage"								"1"
 	}
-
+	
 	"HealthHurt"
 	{
 		"ControlName"								"EditablePanel"
@@ -55,30 +55,30 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"alpha"										"0"
-
+		
 		"border"									"HurtBorder"
 		"scaleImage"								"1"
 	}
-
+	
 	"PlayerStatusHealthValueKiller"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayerStatusHealthValueKiller"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"-1"
 		"zpos"										"6"
 		"wide"										"50"
 		"tall"										"31"
 		"visible"									"1"
 		"enable"									"1"
-		"font"										"Game 24"
+		"font"										"GameFont24"
 		"fgcolor"									"White"
 		"labelText"									"%Health%"
 		"textAlignment"								"center"
 
 		"pin_to_sibling" 							"HealthBG"
 	}
-
+	
 	"PlayerStatusHealthValueShadowKiller"
 	{
 		"ControlName"								"CExLabel"
@@ -90,18 +90,18 @@
 		"tall"										"31"
 		"visible"									"1"
 		"enable"									"1"
-		"font"										"Game 24 Blur"
+		"font"										"GameFont24Blur"
 		"fgcolor"									"Shadow"
 		"labelText"									"%Health%"
 		"textAlignment"								"center"
 
 		"pin_to_sibling" 							"PlayerStatusHealthValueKiller"
 	}
-
-
-
-
-	//RIP
+	
+	
+	
+	
+	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -110,7 +110,7 @@
 		"tall"										"0"
 		"visible"									"0"
 		"enabled"									"0"
-	}
+	}		
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -119,16 +119,16 @@
 		"tall"										"0"
 		"visible"									"0"
 		"enabled"									"0"
-	}
+	}	
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"BuildingStatusHealthImageBG"
+		"fieldName"									"PlayerStatusHealthImageBG"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
 		"enabled"									"0"
-	}
+	}	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"								"ImagePanel"

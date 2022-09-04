@@ -10,11 +10,17 @@
 		"wide"										"100"
 		"wide_minmode"								"65"
 		"tall"										"65"
-		"tall_minmode"								"65"
+		"tall_minmode"								"42"
 		"visible"									"0"
 		"enabled"									"1"
 	}
-
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
 	
 	"ProgressBar"
 	{
@@ -25,6 +31,7 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
+
 	"Teardrop"
 	{
 		"ControlName"								"CIconPanel"
@@ -34,6 +41,7 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
+	
 	"TeardropSide"
 	{
 		"ControlName"								"CIconPanel"
@@ -43,15 +51,17 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
+
 	"ProgressText"
-	{
-		"ControlName"								"CExLabel"
+	{	
+		"ControlName"								"Label"
 		"fieldName"									"ProgressText"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
 		"enabled"									"0"
 	}
+
 	"Blocked"
 	{
 		"ControlName"								"CIconPanel"
