@@ -1,4 +1,4 @@
-"Resource/UI/hud_obj_sapper.res"
+"Resource/UI/Hud_Obj_Sapper.res"
 {
 	"BuildingStatusItem"
 	{
@@ -10,7 +10,6 @@
 		"tall"										"32"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 	}
 
 	"BackgroundCustom"
@@ -27,7 +26,7 @@
 		"proportionaltoparent"						"1"
 		"border"									"MaterialTransparent50"
 	}
-	
+
 	"IconBackgound"
 	{
 		"ControlName"								"EditablePanel"
@@ -55,7 +54,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"scaleImage"								"1"	
+		"scaleImage"								"1"
 		"icon"										"obj_status_icon_sapper"
 		"iconColor"									"Red"
 
@@ -74,7 +73,7 @@
 		"tall"										"30"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"NotBuiltBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -95,13 +94,11 @@
 			"enabled"								"1"
 			"labelText"								"#Building_hud_sentry_not_built"
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 		}
 	}
-	
+
 	"BuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -113,16 +110,16 @@
 		"tall"										"30"
 		"visible"									"0"
 		"proportionaltoparent"						"1"
-		
+
 		"Health"
-		{	
+		{
 			"ControlName"							"CBuildingHealthBar"
 			"fieldName"								"Health"
 			"wide"									"0"
 			"tall"									"0"
 			"visible"								"0"
 		}
-		
+
 		"BuildingPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -131,7 +128,7 @@
 			"tall"									"0"
 			"visible"								"0"
 		}
-	
+
 		"RunningPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -142,7 +139,7 @@
 			"tall"									"f0"
 			"visible"								"0"
 			"proportionaltoparent"					"1"
-			
+
 			"TargetIcon"
 			{
 				"ControlName"						"CIconPanel"
@@ -153,25 +150,21 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"scaleImage"						"1"	
+				"scaleImage"						"1"
 				"icon"								"obj_status_sentrygun_1"
 				"iconColor"							"White"
 			}
-			
+
 			"TargetHealth"
-			{	
+			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"TargetHealth"
-				"font"								"Default"
 				"xpos"								"rs1-5"
 				"ypos"								"cs-0.5"
 				"wide"								"40"
 				"tall"								"8"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"Left"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"proportionaltoparent"				"1"
 				"bgcolor_override"					"130 130 130 255"
 			}
@@ -189,8 +182,6 @@
 				"enabled"							"1"
 				"labelText"							"SAPPING"
 				"textAlignment"						"center"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"fgcolor"							"Black"
 				"proportionaltoparent"				"1"
 				"pin_to_sibling" 					"TargetHealth"

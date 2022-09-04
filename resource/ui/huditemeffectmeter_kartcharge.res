@@ -1,18 +1,18 @@
-"Resource/UI/HudItemEffectMeter_Scout.res"
+"Resource/UI/HudItemEffectMeter_KartCharge.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
 		"enabled"									"1"
 		"xpos"										"cs-0.5"
-		"ypos"										"c150"	
+		"ypos"										"c150"
 		"wide"										"100"
 		"tall"										"23"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -26,19 +26,16 @@
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#TF_KART"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 		"font"										"Size 8"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 	}
 
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ItemEffectMeter"
 		"font"										"Default"
@@ -46,17 +43,15 @@
 		"ypos"										"rs1-8"
 		"zpos"										"2"
 		"wide"										"80"
-		"tall"										"2"				
+		"tall"										"2"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"								"CExLabel"
@@ -65,19 +60,16 @@
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"80"
-		"tall"										"14"		
+		"tall"										"14"
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"font"										"Size 12"
 	}
-	
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"								"CTFImagePanel"

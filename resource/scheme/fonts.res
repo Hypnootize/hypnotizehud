@@ -1,12 +1,12 @@
-Scheme
+"Scheme"
 {
-	BitmapFontFiles
+	"BitmapFontFiles"
 	{
 		"Buttons"	"materials/vgui/fonts/buttons_32.vbf"
 		"ButtonsSC"	"materials/vgui/fonts/buttons_sc.vbf"
 	}
-	
-	Fonts
+
+	"Fonts"
 	{
 		"Game 12"
 		{
@@ -14,7 +14,6 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"12"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -24,7 +23,6 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"14"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -34,7 +32,6 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"15"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -44,7 +41,6 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"16"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -54,7 +50,6 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"18"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -64,7 +59,6 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"20"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -74,7 +68,6 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"22"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -84,7 +77,6 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"24"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -94,7 +86,6 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"30"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -104,18 +95,16 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"40"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
-		
+
 		"Game 12 Blur"
 		{
 			"1"
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"12"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"1"
 			}
@@ -126,7 +115,6 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"14"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"1"
 			}
@@ -137,7 +125,6 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"15"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"1"
 			}
@@ -148,7 +135,6 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"16"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"1"
 			}
@@ -159,7 +145,6 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"18"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"1"
 			}
@@ -170,7 +155,6 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"20"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"1"
 			}
@@ -181,7 +165,6 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"22"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"1"
 			}
@@ -192,7 +175,6 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"24"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"1"
 			}
@@ -203,7 +185,6 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"30"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -214,19 +195,17 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"40"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
 		}
-		
+
 		"Game 18 Shadow"
 		{
 			"1"
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"18"
-				"additive"									"0"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -237,7 +216,6 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"22"
-				"additive"									"0"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -248,7 +226,6 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"24"
-				"additive"									"0"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -259,7 +236,6 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"28"
-				"additive"									"0"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -271,7 +247,6 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"18"
-				"additive"									"0"
 				"antialias"									"1"
 				"outline"									"1"
 			}
@@ -282,7 +257,6 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"22"
-				"additive"									"0"
 				"antialias"									"1"
 				"outline"									"1"
 			}
@@ -293,19 +267,17 @@ Scheme
 			{
 				"name"										"Rubik SemiBold"
 				"tall"										"28"
-				"additive"									"0"
 				"antialias"									"1"
 				"outline"									"1"
 			}
 		}
-		
+
 		"Size 7"
 		{
 			"1"
 			{
 				"name"										"Product Sans"
 				"tall"										"7"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -315,7 +287,6 @@ Scheme
 			{
 				"name"										"Product Sans"
 				"tall"										"8"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -325,7 +296,6 @@ Scheme
 			{
 				"name"										"Product Sans"
 				"tall"										"9"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -335,7 +305,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"10"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -345,7 +314,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"11"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -355,7 +323,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"12"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -365,7 +332,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"14"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -375,7 +341,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"15"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -385,7 +350,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"16"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -395,7 +359,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"18"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -405,7 +368,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"20"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -415,7 +377,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"22"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -425,7 +386,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"24"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -435,7 +395,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"28"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -445,7 +404,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"30"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -455,7 +413,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"36"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -465,7 +422,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"40"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -475,18 +431,16 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"44"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
-		
+
 		"Size 9 Blur"
 		{
 			"1"
 			{
 				"name"										"Product Sans"
 				"tall"										"9"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"1"
 			}
@@ -497,7 +451,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"10"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"1"
 			}
@@ -508,7 +461,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"11"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"1"
 			}
@@ -519,7 +471,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"12"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"1"
 			}
@@ -530,7 +481,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"14"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"1"
 			}
@@ -541,7 +491,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"16"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"1"
 			}
@@ -552,7 +501,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"18"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"1"
 			}
@@ -563,7 +511,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"20"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -574,7 +521,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"24"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -585,7 +531,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"30"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -596,7 +541,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"36"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -607,20 +551,18 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"40"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
 		}
-		
-		
+
+
 		"Size 10 Shadow"
 		{
 			"1"
 			{
 				"name"										"Rubik Medium"
 				"tall"										"10"
-				"additive"									"0"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -631,19 +573,17 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"12"
-				"additive"									"0"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
 		}
-		
+
 		"Size 10 Numbers"
 		{
 			"1"
 			{
 				"name"										"Rubik Numbers"
 				"tall"										"10"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -653,31 +593,26 @@ Scheme
 			{
 				"name"										"Rubik Numbers"
 				"tall"										"14"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
-		
+
 		"UltraSmall"
 		{
 			"1"
 			{
 				"name"										"Verdana"
 				"tall"										"6"
-				"weight"									"0"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
-		
+
 		"Default"
 		{
 			"1"
 			{
 				"name"										"Rubik Medium"
 				"tall"										"11"
-				"weight"									"0"
-				"additive"									"0"
 				"antialias"									"1"
 				"range"										"0x0000 0x017F"
 			}
@@ -688,8 +623,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"11"
-				"weight"									"0"
-				"additive"									"0"
 				"antialias"									"1"
 				"underline" 								"1"
 				"range"										"0x0000 0x017F"
@@ -701,8 +634,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"11"
-				"weight"									"0"
-				"additive"									"0"
 				"antialias"									"1"
 				"range"										"0x0000 0x017F"
 			}
@@ -713,33 +644,28 @@ Scheme
 			{
 				"name"										"Verdana"
 				"tall"										"7"
-				"weight"									"0"
-				"additive"									"0"
 				"antialias"									"1"
 				"range"										"0x0000 0x017F"
 			}
 		}
-		DefaultLarge
+		"DefaultLarge"
 		{
 			"1"
 			{
 				"name"										"Rubik Medium"
 				"tall"										"18"
-				"weight"									"0"
-				"additive"									"0"
 				"antialias"									"1"
 				"range"										"0x0000 0x017F"
 			}
 		}
-		
-		CenterPrintText
+
+		"CenterPrintText"
 		{
 			"1"
 			{
 				"name"										"Rubik Medium" 	[!$OSX]
 				"name"										"Rubik Medium" 	[$OSX]
 				"tall"										"18"
-				"weight"									"0"
 				"antialias" 								"1"
 				"additive"									"1"
 			}
@@ -751,18 +677,16 @@ Scheme
 				"name"										"Verdana"
 				"tall"										"6"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
-		HudHintText
+		"HudHintText"
 		{
 			"1"
 			{
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -772,7 +696,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"24"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -782,7 +705,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"44"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -794,7 +716,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"35"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -806,7 +727,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"36"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias"								 	"1"
 			}
 		}
@@ -817,10 +737,9 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"30"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}	
+		}
 		"HudFontMediumBigBold"
 		{
 			"1"
@@ -828,10 +747,9 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"30"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}		
+		}
 		"HudFontMedium"
 		{
 			"1"
@@ -839,7 +757,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"24"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -850,7 +767,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"24"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -861,7 +777,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"24"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -872,7 +787,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"18"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -883,7 +797,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"18"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -894,7 +807,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"18"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -905,10 +817,9 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"14"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}	
+		}
 		"HudFontSmallishBold"
 		{
 			"1"
@@ -916,7 +827,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"16"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -927,7 +837,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"14"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -938,7 +847,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"14"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias"								 	"1"
 				"dropshadow"								"1"
 			}
@@ -950,7 +858,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"11"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -961,7 +868,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"11"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow"								"1"
 			}
@@ -973,7 +879,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"11"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -984,7 +889,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"4"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -995,7 +899,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"10"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1006,7 +909,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"16"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1016,8 +918,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"9"
-				"weight"									"0"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1027,8 +927,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"9"
-				"weight"									"0"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1038,8 +936,6 @@ Scheme
 			{
 				"name"										"Verdana"
 				"tall"										"6"
-				"weight"									"0"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1050,7 +946,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"12"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1061,11 +956,10 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"11"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
-		GameUIButtons
+		"GameUIButtons"
 		{
 			"1"
 			{
@@ -1075,7 +969,7 @@ Scheme
 				"scaley"									"0.5"
 			}
 		}
-		GameUIButtonsSmall
+		"GameUIButtonsSmall"
 		{
 			"1"	[$X360]
 			{
@@ -1085,7 +979,7 @@ Scheme
 				"scaley"									"0.5"
 			}
 		}
-		GameUIButtonsSmallest
+		"GameUIButtonsSmallest"
 		{
 			"1"	[$X360]
 			{
@@ -1095,7 +989,7 @@ Scheme
 				"scaley"									"0.4"
 			}
 		}
-		GameUIButtonsSteamController
+		"GameUIButtonsSteamController"
 		{
 			"1"
 			{
@@ -1105,7 +999,7 @@ Scheme
 				"scaley"									"0.5"
 			}
 		}
-		GameUIButtonsSteamControllerSmall
+		"GameUIButtonsSteamControllerSmall"
 		{
 			"1"
 			{
@@ -1115,7 +1009,7 @@ Scheme
 				"scaley"									"0.25"
 			}
 		}
-		GameUIButtonsSteamControllerSmallest
+		"GameUIButtonsSteamControllerSmallest"
 		{
 			"1"
 			{
@@ -1132,7 +1026,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"18"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1143,7 +1036,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"16"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1154,7 +1046,6 @@ Scheme
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1165,7 +1056,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"9"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1176,7 +1066,6 @@ Scheme
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1187,7 +1076,6 @@ Scheme
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1241,7 +1129,7 @@ Scheme
 				"range"										"0x0000 0x017F"
 			}
 		}
-		DebugOverlay
+		"DebugOverlay"
 		{
 			"1"
 			{
@@ -1252,25 +1140,22 @@ Scheme
 				"range"										"0x0000 0x017F"
 			}
 		}
-		TFTypeDeath
+		"TFTypeDeath"
 		{
 			"1"
 			{
-				"name"  									"tfd" // tfd.ttf
+				"name"  									"tfd"
 				"tall"  									"28"
-				"weight" 									"0"
-				"additive" 									"0"
 				"antialias" 								"1"
 			}
 		}
-		
-		Icons
+
+		"Icons"
 		{
 			"1"
 			 {
-				"name"  									"Team Fortress" // tf.ttf
+				"name"  									"Team Fortress"
 				"tall"  									"28"
-				"weight" 									"0"
 				"additive" 									"1"
 				"antialias" 								"1"
 			}
@@ -1284,17 +1169,15 @@ Scheme
 				"weight"									"900"
 				"range"										"0x0000 0x007F"
 				"antialias" 								"1"
-				"additive"									"0"
 			}
 		}
 
-		HudNumbers
+		"HudNumbers"
 		{
 			"1"
 			{
-				"name" 										"Team Fortress" // tf.ttf
+				"name" 										"Team Fortress"
 				"tall"  									"28"
-				"weight"								 	"0"
 				"additive" 									"1"
 				"antialias" 								"1"
 			}
@@ -1302,7 +1185,6 @@ Scheme
 			{
 				"name" 								 		"Rubik Medium"
 				"tall"  									"28"
-				"weight"									"0"
 				"additive" 									"1"
 				"antialias" 								"1"
 			}
@@ -1314,7 +1196,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"24"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1325,7 +1206,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"24"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1336,7 +1216,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"24"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1347,7 +1226,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"24"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1358,19 +1236,16 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"16"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
 
-		// this is the symbol font
 		"Marlett"
 		{
 			"1"
 			{
 				"name"										"Marlett"
 				"tall"										"20"
-				"weight"									"0"
 				"symbol"									"1"
 				"range"										"0x0000 0x007F"
 			}
@@ -1381,7 +1256,6 @@ Scheme
 			{
 				"name"										"Marlett"
 				"tall"										"14"
-				"weight"									"0"
 				"symbol"									"1"
 				"range"										"0x0000 0x007F"
 			}
@@ -1416,7 +1290,7 @@ Scheme
 				"weight"									"500"
 			}
 		}
-		
+
 		"GoalText"
 		{
 			"1"
@@ -1424,18 +1298,17 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"13"
 				"weight"									"800"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}		
-		
+		}
+
 		"ChalkboardTitle"
 		{
 			"1"
 			{
 				"name"										"Rubik Medium"
 				"tall"										"28"
-				"antialias"									"1" 
+				"antialias"									"1"
 				"custom"									"1" 	[$OSX]
 				"weight"									"500"
 			}
@@ -1481,7 +1354,6 @@ Scheme
 				"name"										"Verdana"
 				"tall"										"6"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1492,7 +1364,6 @@ Scheme
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1503,7 +1374,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"10"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1516,7 +1386,6 @@ Scheme
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
 				"antialias" 								"1"
-				"additive"									"0"
 			}
 		}
 		"ScoreboardMedium"
@@ -1528,7 +1397,6 @@ Scheme
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
 				"antialias" 								"1"
-				"additive"									"0"
 			}
 		}
 		"ScoreboardTeamName"
@@ -1540,7 +1408,6 @@ Scheme
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
 				"antialias" 								"1"
-				"additive"									"0"
 			}
 		}
 		"ScoreboardTeamCountNew"
@@ -1552,7 +1419,6 @@ Scheme
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
 				"antialias" 								"1"
-				"additive"									"0"
 			}
 		}
 		"ScoreboardTeamNameNew"
@@ -1564,7 +1430,6 @@ Scheme
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
 				"antialias" 								"1"
-				"additive"									"0"
 			}
 		}
 		"ScoreboardTeamNameLarge"
@@ -1576,7 +1441,6 @@ Scheme
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
 				"antialias" 								"1"
-				"additive"									"0"
 			}
 		}
 
@@ -1587,7 +1451,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"36"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1648,7 +1511,6 @@ Scheme
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
 				"antialias" 								"1"
-				"additive"									"0"
 			}
 		}
 		"MatchSummaryStatsAndMedals"
@@ -1658,7 +1520,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"14"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1669,7 +1530,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"20"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1680,7 +1540,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"14"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1691,7 +1550,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"10"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1702,7 +1560,6 @@ Scheme
 				"name"										"Product Sans"
 				"tall"										"7"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1714,11 +1571,10 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"10"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
-		
+
 		"TargetID"
 		{
 			"1"
@@ -1727,7 +1583,6 @@ Scheme
 				"tall"										"12"
 				"weight"									"700"
 				"yres"										"480 599"
-				"dropshadow"								"0"
 			}
 			"2"
 			{
@@ -1735,7 +1590,6 @@ Scheme
 				"tall"										"13"
 				"weight"									"700"
 				"yres"										"600 767"
-				"dropshadow"								"0"
 			}
 			"3"
 			{
@@ -1743,7 +1597,6 @@ Scheme
 				"tall"										"14"
 				"weight"									"700"
 				"yres"										"768 1023"
-				"dropshadow"								"0"
 			}
 			"4"
 			{
@@ -1751,7 +1604,6 @@ Scheme
 				"tall"										"20"
 				"weight"									"700"
 				"yres"										"1024 1199"
-				"dropshadow"								"0"
 			}
 			"5"
 			{
@@ -1759,7 +1611,6 @@ Scheme
 				"tall"										"24"
 				"weight"									"700"
 				"yres"										"1200 10000"
-				"dropshadow"								"0"
 			}
 		}
 		"ChatFont"
@@ -1849,7 +1700,7 @@ Scheme
 			}
 		}
 
-		MenuSmallestFont
+		"MenuSmallestFont"
 		{
 			"1"
 			{
@@ -1859,9 +1710,9 @@ Scheme
 				"weight"									"300"
 				"antialias"									"1"
 			}
-		}	
-		
-		MenuSmallFont
+		}
+
+		"MenuSmallFont"
 		{
 			"1"
 			{
@@ -1871,8 +1722,8 @@ Scheme
 				"weight"									"300"
 				"antialias"									"1"
 			}
-		}			
-		CapPlayerFont
+		}
+		"CapPlayerFont"
 		{
 			"1"
 			{
@@ -1884,7 +1735,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		CapPlayerFontSmall
+		"CapPlayerFontSmall"
 		{
 			"1"
 			{
@@ -1897,30 +1748,28 @@ Scheme
 			}
 		}
 
-		TFFontSmall
+		"TFFontSmall"
 		{
 			"1"
 			{
 				"name"										"Product Sans"
 				"tall"										"8"
-				"weight"									"0"
 				"additive"									"1"
 				"antialias" 								"1"
 			}
-		}		
-		TFFontMedium
+		}
+		"TFFontMedium"
 		{
 			"1"
 			{
 				"name"										"Rubik Medium"
 				"tall"										"9"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}		
-		
-		InstructionalText
+		}
+
+		"InstructionalText"
 		{
 			"1"
 			{
@@ -1928,12 +1777,11 @@ Scheme
 				"tall"										"11"  	[!$OSX]
 				"tall"										"9"  	[$OSX]
 				"weight"									"800"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}		
-		
-		MatchmakingDialogTitle
+		}
+
+		"MatchmakingDialogTitle"
 		{
 			"1"
 			{
@@ -1942,7 +1790,7 @@ Scheme
 				"weight"									"500"
 			}
 		}
-		MatchmakingDialogSessionOptionsTitle
+		"MatchmakingDialogSessionOptionsTitle"
 		{
 			"1"
 			{
@@ -1951,7 +1799,7 @@ Scheme
 				"weight"									"500"
 			}
 		}
-		MatchmakingDialogMenuLarge
+		"MatchmakingDialogMenuLarge"
 		{
 			"1"
 			{
@@ -1960,7 +1808,7 @@ Scheme
 				"weight"									"500"
 			}
 		}
-		MatchmakingDialogMenuBrowserHostname
+		"MatchmakingDialogMenuBrowserHostname"
 		{
 			"1"
 			{
@@ -1969,7 +1817,7 @@ Scheme
 				"weight"									"900"
 			}
 		}
-		MatchmakingDialogMenuBrowserDetails
+		"MatchmakingDialogMenuBrowserDetails"
 		{
 			"1"
 			{
@@ -1977,8 +1825,8 @@ Scheme
 				"tall"										"18"
 				"weight"									"900"
 			}
-		}		
-		MatchmakingDialogMenuMedium
+		}
+		"MatchmakingDialogMenuMedium"
 		{
 			"1"
 			{
@@ -1987,7 +1835,7 @@ Scheme
 				"weight"									"500"
 			}
 		}
-		MatchmakingDialogMenuMediumSmall
+		"MatchmakingDialogMenuMediumSmall"
 		{
 			"1"
 			{
@@ -1996,7 +1844,7 @@ Scheme
 				"weight"									"500"
 			}
 		}
-		MatchmakingDialogMenuSmall
+		"MatchmakingDialogMenuSmall"
 		{
 			"1"
 			{
@@ -2005,7 +1853,7 @@ Scheme
 				"weight"									"900"
 			}
 		}
-		MatchmakingDialogMenuSmallest
+		"MatchmakingDialogMenuSmallest"
 		{
 			"1"
 			{
@@ -2014,7 +1862,7 @@ Scheme
 				"weight"									"900"
 			}
 		}
-		RankingDialogHeaders
+		"RankingDialogHeaders"
 		{
 			"1"
 			{
@@ -2023,7 +1871,7 @@ Scheme
 				"weight"									"900"
 			}
 		}
-		
+
 		"TeamMenuBold"
 		{
 			"1"
@@ -2031,7 +1879,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"36"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2042,10 +1889,9 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"11"
 				"weight"									"600"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}		
+		}
 		"IntroMenuCaption"
 		{
 			"1"
@@ -2053,10 +1899,9 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"18"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}			
+		}
 		"AchievementNotification"
 		{
 			"1"
@@ -2074,7 +1919,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"10"
 				"weight"									"600"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2085,7 +1929,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"10"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2096,19 +1939,17 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"9"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
 			}
 		}
-		
+
 		"DefaultVerySmallFallBack"
 		{
 			"1"
 			{
 				"name"										"Rubik Medium"
 				"tall"										"10"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
 				"antialias"									"1"
@@ -2117,7 +1958,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"12"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 1199"
 				"antialias"									"1"
@@ -2126,13 +1966,12 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"15"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
 		}
-		
+
 		"ItemFontNameSmallest"
 		{
 			"1"
@@ -2140,7 +1979,6 @@ Scheme
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias"								 	"1"
 			}
 		}
@@ -2151,7 +1989,6 @@ Scheme
 				"name"										"Product Sans"
 				"tall"										"9"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2162,7 +1999,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"12"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2173,7 +2009,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"18"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2184,11 +2019,10 @@ Scheme
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
-		ItemFontAttribSmallv2
+		"ItemFontAttribSmallv2"
 		{
 			"1"
 			{
@@ -2205,7 +2039,6 @@ Scheme
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2216,10 +2049,9 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"11"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}	
+		}
 		"ItemFontAttribLarger"
 		{
 			"1"
@@ -2227,11 +2059,10 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"14"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
-		
+
 		"AchievementTracker_Name"
 		{
 			"1"
@@ -2239,7 +2070,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"9"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2261,7 +2091,6 @@ Scheme
 			{
 				"name"										"Product Sans"
 				"tall"										"7"
-				"weight"									"0"
 				"additive"									"1"
 				"antialias" 								"1"
 			}
@@ -2272,7 +2101,6 @@ Scheme
 			{
 				"name"										"Product Sans"
 				"tall"										"7"
-				"weight"									"0"
 				"additive"									"1"
 				"antialias" 								"1"
 			}
@@ -2283,7 +2111,6 @@ Scheme
 			{
 				"name"										"Product Sans"
 				"tall"										"7"
-				"weight"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2293,7 +2120,6 @@ Scheme
 			{
 				"name"										"Product Sans"
 				"tall"										"7"
-				"weight"									"0"
 				"blur"										"3"
 				"additive"									"1"
 				"antialias" 								"1"
@@ -2305,7 +2131,6 @@ Scheme
 			{
 				"name"										"Product Sans"
 				"tall"										"7"
-				"weight"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2318,7 +2143,6 @@ Scheme
 				"tall"										"10"
 				"weight"									"400"
 				"yres"										"480 599"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 			"2"
@@ -2326,7 +2150,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"14"
 				"weight"									"400"
-				"additive"									"0"
 				"yres"										"600 1023"
 				"antialias"									"1"
 			}
@@ -2335,7 +2158,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"18"
 				"weight"									"400"
-				"additive"									"0"
 				"yres"										"1024 6000"
 				"antialias"									"1"
 			}
@@ -2349,7 +2171,6 @@ Scheme
 				"tall"										"10"
 				"weight"									"800"
 				"yres"										"480 599"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 			"2"
@@ -2357,7 +2178,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"14"
 				"weight"									"800"
-				"additive"									"0"
 				"yres"										"600 1023"
 				"antialias"									"1"
 			}
@@ -2366,12 +2186,11 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"18"
 				"weight"									"800"
-				"additive"									"0"
 				"yres"										"1024 6000"
 				"antialias"									"1"
 			}
 		}
-		
+
 		"QuestLargeText"
 		{
 			"1"
@@ -2379,7 +2198,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"16"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2404,7 +2222,6 @@ Scheme
 				"tall"										"10"
 				"weight"									"400"
 				"yres"										"480 599"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 			"2"
@@ -2412,7 +2229,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"14"
 				"weight"									"400"
-				"additive"									"0"
 				"yres"										"600 1023"
 				"antialias"									"1"
 			}
@@ -2421,7 +2237,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"22"
 				"weight"									"400"
-				"additive"									"0"
 				"yres"										"1024 6000"
 				"antialias"									"1"
 			}
@@ -2435,7 +2250,6 @@ Scheme
 				"tall"										"10"
 				"weight"									"400"
 				"yres"										"480 599"
-				"additive"									"0"
 				"antialias"									"1"
 				"italic"									"1"
 			}
@@ -2444,7 +2258,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"14"
 				"weight"									"400"
-				"additive"									"0"
 				"yres"										"600 1023"
 				"antialias"									"1"
 				"italic"									"1"
@@ -2454,7 +2267,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"22"
 				"weight"									"400"
-				"additive"									"0"
 				"yres"										"1024 6000"
 				"antialias"									"1"
 				"italic"									"1"
@@ -2469,7 +2281,6 @@ Scheme
 				"tall"										"10"
 				"weight"									"800"
 				"yres"										"480 599"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 			"2"
@@ -2477,7 +2288,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"14"
 				"weight"									"800"
-				"additive"									"0"
 				"yres"										"600 1023"
 				"antialias"									"1"
 			}
@@ -2486,7 +2296,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"18"
 				"weight"									"800"
-				"additive"									"0"
 				"yres"										"1024 6000"
 				"antialias"									"1"
 			}
@@ -2499,11 +2308,10 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"13"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
-		
+
 		"QuestLargeText_Merasmus"
 		{
 			"1"
@@ -2511,7 +2319,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"16"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2523,11 +2330,10 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"10"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
-		
+
 		"AdFont_AdText"
 		{
 			"1"
@@ -2535,7 +2341,6 @@ Scheme
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2545,7 +2350,6 @@ Scheme
 			{
 				"name"										"Product Sans"
 				"tall"										"8"
-				"weight"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2558,7 +2362,6 @@ Scheme
 				"tall"										"8"
 				"weight"									"400"
 				"antialias" 								"1"
-				"additive"									"0"
 			}
 		}
 
@@ -2570,21 +2373,16 @@ Scheme
 				"tall"										"9"
 				"weight"									"400"
 				"antialias" 								"1"
-				"additive"									"0"
 				"italic"									"1"
 			}
 		}
-		
-		//
-		//////////////////// REPLAY FONTS //////////////////////////////
-		//
+
 		"ReplayVerySmall"
 		{
 			"1"
 			{
 				"name"										"Rubik Medium"
 				"tall"										"12"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
 			}
@@ -2592,7 +2390,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"12"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
 			}
@@ -2600,7 +2397,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"12"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"768 1023"
 				"antialias"									"1"
@@ -2609,7 +2405,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"14"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"1024 1199"
 				"antialias"									"1"
@@ -2618,7 +2413,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"16"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"1200 6000"
 				"antialias"									"1"
@@ -2631,7 +2425,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"11"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2641,7 +2434,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"12"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
 			}
@@ -2649,7 +2441,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"13"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
 			}
@@ -2657,7 +2448,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"14"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"768 1023"
 				"antialias"									"1"
@@ -2666,7 +2456,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"20"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"1024 1199"
 				"antialias"									"1"
@@ -2675,7 +2464,6 @@ Scheme
 			{
 				"name"										"Rubik Medium"
 				"tall"										"22"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"1200 6000"
 				"antialias"									"1"
@@ -2685,7 +2473,6 @@ Scheme
 				"name"										"Arial"
 				"tall"										"12"
 				"range" 									"0x0000 0x00FF"
-				"weight"									"0"
 			}
 		}
 		"ReplayMediumSmall"
@@ -2695,7 +2482,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"11"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2706,7 +2492,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"14"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2717,7 +2502,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"18"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2728,7 +2512,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"24"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2739,14 +2522,10 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"18"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
-		
-		//
-		//////////////////// ECON FONTS //////////////////////////////
-		//
+
 		"EconFontSmall"
 		{
 			"1"
@@ -2754,7 +2533,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"14"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2765,12 +2543,11 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"24"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
 
-		ControllerHintText
+		"ControllerHintText"
 		{
 			"1"
 			{
@@ -2779,7 +2556,6 @@ Scheme
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
 				"antialias" 								"1"
-				"additive"									"0"
 			}
 		}
 
@@ -2790,7 +2566,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"9"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2826,7 +2601,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"12"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow"								"1"
 			}
@@ -2838,7 +2612,6 @@ Scheme
 			{
 				"name"										"Product Sans"
 				"tall"										"7"
-				"weight"									"0"
 				"blur"										"3"
 				"additive"									"1"
 				"antialias" 								"1"
@@ -2852,7 +2625,6 @@ Scheme
 				"name"										"Product Sans"
 				"tall"										"7"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2864,7 +2636,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"10"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2876,7 +2647,6 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"14"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2888,13 +2658,12 @@ Scheme
 				"name"										"Rubik Medium"
 				"tall"										"30"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
 	}
-	
-	CustomFontFiles
+
+	"CustomFontFiles"
 	{
 		"20"
 		{

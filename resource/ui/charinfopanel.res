@@ -7,7 +7,7 @@
 		"xpos"										"r17"
 		"ypos"										"22"
 	}
-	
+
 	"character_info"
 	{
 		"ControlName"								"EditablePanel"
@@ -20,13 +20,12 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"settitlebarvisible"						"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayDarkest"
 		"infocus_bgcolor_override"					"GrayDarkest"
 		"outoffocus_bgcolor_override"				"GrayDarkest"
-		
+
 		"title"										"#CharInfoAndSetup"
 		"title_font"								"Size 18"
 		"titletextinsetX"							"40"
@@ -34,11 +33,11 @@
 		"titlebarfgcolor_override"					"Blank"
 		"titlebardisabledfgcolor_override"			"Blank"
 		"titlebarbgcolor_override"					"Blank"
-		
+
 		"clientinsetx_override"						"0"
 		"sheetinset_bottom"							"25"
 	}
-	
+
 	"BackgroundFooterCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -54,7 +53,7 @@
 		"paintborder"								"1"
 		"border"									"MaterialReverseBlackLight"
 	}
-	
+
 	"Sheet"
 	{
 		"ControlName"								"EditablePanel"
@@ -65,21 +64,21 @@
 		"tabheight"									"20"
 		"transition_time" 							"0"
 		"yoffset"									"6"
-		
+
 		"tabskv"
 		{
 			"textinsetx"							"0"
 			"font"									"Size 18"
 			"AllCaps"								"1"
 			"selectedcolor"							"Main Theme"
-			"unselectedcolor"						"White"	
+			"unselectedcolor"						"White"
 			"defaultBgColor_override"				"Blank"
 			"paintbackground"						"0"
 			"activeborder_override"					"NoBorder"
 			"normalborder_override" 				"NoBorder"
 		}
 	}
-	
+
 	"BackButton"
 	{
 		"ControlName"								"CExButton"
@@ -93,18 +92,15 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"BACK (&Q)"
 		"font"										"Size 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"0"
 		"Command"									"back"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDarker"
 		"border_armed"								"MaterialHypno"
@@ -113,7 +109,7 @@
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -127,18 +123,15 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"CLOSE (&E)"
 		"font"										"Size 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"0"
 		"Command"									"close"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDarker"
 		"border_armed"								"MaterialHypno"
@@ -146,8 +139,8 @@
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-	}		
-	
+	}
+
 	"NotificationsPresentPanel"
 	{
 		"ControlName"								"CNotificationsPresentPanel"
@@ -160,13 +153,13 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
 	"BackgroundHeader"
 	{
 		"ControlName"								"ImagePanel"

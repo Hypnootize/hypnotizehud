@@ -1,11 +1,11 @@
 #base "scout_blue.res"
 
-"Resource/UI/disguise_menu/scout_red.res"
+"Resource/UI/Disguise_Menu/Medic_Blue.res"
 {
 	"ItemNameLabel"
 	{	
 		"labelText"									"7"
-		"fgcolor_override"							"Blue"
+		"fgcolor"									"Blue"
 	}
 	
 	"NumberLabel"

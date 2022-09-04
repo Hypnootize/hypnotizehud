@@ -1,6 +1,6 @@
 #base "../../../../../resource/tools/reloadschemebutton.res"
 
-"Resource/UI/StoreHome_Base.res"
+"Resource/UI/Econ/Store/V2/StoreHome_Base.res"
 {
 	"StorePage"
 	{
@@ -14,27 +14,26 @@
 		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayDarkest"
 		"infocus_bgcolor_override" 					"GrayDarkest"
 		"outoffocus_bgcolor_override" 				"GrayDarkest"
-		
+
 		"item_controls_xoffset"						"2"
 		"item_controls_yoffset"						"2"
-		
+
 		"max_cart_model_panels"						"8"
-		
+
 		"item_ypos"									"55"
 		"item_mod_wide"								"40"
-		
+
 		"item_panels"								"12"
 		"item_columns"								"4"
 		"item_offcenter_x"							"-273"
 		"item_xdelta"								"5"
 		"item_ydelta"								"5"
-		
+
 		"item_backdrop_zpos"						"1"
 		"show_item_backdrop"						"1"
 		"item_backdrop_color"						"Blank"
@@ -45,11 +44,11 @@
 		"item_backdrop_paintbackgroundtype"			"0"
 
 		"item_backdrop_zpos"						"1"
-		
+
 		"item_panel_bgcolor"						"Normal"
 		"item_panel_bgcolor_mouseover"				"Normal_Hover"
 		"item_panel_bgcolor_selected"				"Normal_Hover"
-		
+
 		"classicon_xdelta"							"5"
 
 		"modelpanels_kv"
@@ -65,7 +64,7 @@
 			"noitem_textcolor"						"White"
 			"PaintBackgroundType"					"0"
 			"paintborder"							"0"
-			
+
 			"model_xpos"							"24"
 			"model_ypos"							"6"
 			"model_wide"							"87"
@@ -77,10 +76,10 @@
 			"name_only"								"1"
 			"resize_to_text" 						"0"
 			"name_label_alignment" 					"3"
-			
+
 			"inset_eq_x"							"2"
 			"inset_eq_y"							"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" 			"0"
@@ -88,9 +87,9 @@
 				"inventory_image_type" 				"1"
 			}
 
-			"use_item_sounds" 						"1"		
+			"use_item_sounds" 						"1"
 		}
-		
+
 		"modelpanel_labels_kv"
 		{
 			"font"									"Size 11"
@@ -101,14 +100,14 @@
 			"wide"									"0"
 			"tall"									"0"
 			"autoResize"							"1"
-			"pinCorner"								"0"	
+			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"0"
 			"alpha"									"0"
-			
+
 			"use_item_sounds" 						"1"
 		}
-		
+
 		"cart_modelpanels_kv"
 		{
 			"ControlName"							"CItemModelPanel"
@@ -122,7 +121,7 @@
 			"noitem_textcolor"						"White"
 			"PaintBackgroundType"					"0"
 			"paintborder"							"0"
-			
+
 			"model_xpos"							"2"
 			"model_ypos"							"2"
 			"model_wide"							"28"
@@ -130,20 +129,20 @@
 			"text_ypos"								"60"
 			"text_center"							"1"
 			"name_only"								"1"
-			
+
 			"inset_eq_x"							"2"
 			"inset_eq_y"							"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" 			"0"
 				"inventory_image_type" 				"1"
 				"allow_rot"							"0"
 			}
-			
-			"use_item_sounds" 						"1"		
+
+			"use_item_sounds" 						"1"
 		}
-		
+
 		"cart_labels_kv"
 		{
 			"font"									"Size 11"
@@ -154,13 +153,13 @@
 			"wide"									"16"
 			"tall"									"10"
 			"autoResize"							"1"
-			"pinCorner"								"0"	
+			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
-			"use_item_sounds" 						"1"		
+			"use_item_sounds" 						"1"
 		}
 	}
-	
+
 	"BackgroundCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -175,7 +174,7 @@
 		"paintbackground"							"0"
 		"border"									"MaterialBlackLight"
 		"proportionaltoparent"						"1"
-		
+
 		"ItemCategoryTabsBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -192,7 +191,7 @@
 			"proportionaltoparent"					"1"
 		}
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -207,13 +206,13 @@
 		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"0"
 		"paintborder"								"1"
-		
+
 		"text_ypos"									"20"
 		"text_center"								"1"
 		"model_hide"								"1"
 		"resize_to_text"							"1"
 		"padding_height"							"15"
-		
+
 		"attriblabel"
 		{
 			"font"									"ItemFontAttribLarge"
@@ -247,13 +246,13 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"auto_scale"								"1"
 		"auto_layout"								"1"
 		"selected_button_default"					"0"
 		"auto_layout_horizontal_buffer"				"50"
 		"display_vertically"						"0"
-		
+
 		"ButtonSettings"
 		{
 			"wide"									"150"
@@ -262,12 +261,11 @@
 			"pinCorner"								"2"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"scaleImage"							"1"
 			"font"									"Size 18"
-			
+
 			"fgcolor"								"White"
 			"defaultBgColor_override"				"Blank"
 			"defaultFgColor_override"				"White"
@@ -275,21 +273,21 @@
 			"armedFgColor_override"					"Main Theme"
 			"selectedBgColor_override"				"Blank"
 			"selectedFgColor_override"				"Main Theme"
-			
+
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 			"sound_armed"							"UI/buttonrollover.wav"
-			
+
 			"paintbackground"						"0"
 			"paintborder"							"1"
-			
+
 			"border"								"ButtonBorder"
-			
+
 			"stayselectedonclick"					"1"
 			"keyboardinputenabled"					"0"
 		}
 	}
-	
+
 	"PrevPageButton"
 	{
 		"ControlName"								"CExButton"
@@ -303,24 +301,21 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"<"
 		"font"										"Symbols 20"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"prevpage"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialBlackLight"
 		"border_armed"								"MaterialHypno"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
-		
+
 		"pin_to_sibling" 							"BackgroundCustom"
 		"pin_corner_to_sibling"					 	"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
@@ -336,7 +331,7 @@
 		"sound_depressed"    						"UI/buttonclick.wav"
 		"sound_released"     						"UI/buttonclickrelease.wav"
 	}
-	
+
 	"CurPageLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -353,13 +348,13 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor_override" 							"GrayDark"
-		
+		"fgcolor"		 							"GrayDark"
+
 		"pin_to_sibling" 							"BackgroundCustom"
 		"pin_corner_to_sibling"					 	"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"NextPageButton"
 	{
 		"ControlName"								"CExButton"
@@ -373,24 +368,21 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									">"
 		"font"										"Symbols 20"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"nextpage"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialBlackLight"
 		"border_armed"								"MaterialHypno"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
-		
+
 		"pin_to_sibling" 							"BackgroundCustom"
 		"pin_corner_to_sibling"					 	"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
@@ -406,7 +398,7 @@
 		"sound_depressed"    						"UI/buttonclick.wav"
 		"sound_released"     						"UI/buttonclickrelease.wav"
 	}
-	
+
 	"CartButton"
 	{
 		"ControlName"								"CExButton"
@@ -426,20 +418,20 @@
 		"font"										"Size 14"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
-		
+
 		"pin_to_sibling" 							"BackgroundCustom"
 		"pin_corner_to_sibling"					 	"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"CartImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -470,17 +462,14 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"px"
 		"font"										"Symbols 16"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"marketplace"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDarker"
 		"border_armed"								"MaterialHypno"
@@ -488,12 +477,12 @@
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-		
+
 		"pin_to_sibling" 							"CartButton"
 		"pin_corner_to_sibling"					 	"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
 	}
-	
+
 	"BackpackSpaceLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -512,7 +501,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -582,7 +571,7 @@
 		"TauntLabel"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"CaseLabel"
+			"fieldName"								"TauntLabel"
 			"font"									"Size 24"
 			"labelText"								"#Store_Taunt_Label"
 			"textAlignment"							"west"
@@ -597,9 +586,9 @@
 			"enabled"								"1"
 		}
 	}
-	
-	
-	
+
+
+
 	"BrowseTheStoreButton"
 	{
 		"ControlName"	"CExButton"

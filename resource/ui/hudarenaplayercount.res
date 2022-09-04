@@ -10,7 +10,7 @@
 		"wide"										"80"
 		"tall"										"25"
 		"visible"									"1"
-	
+
 		"PlayerIcon"
 		{
 			"ControlName"							"CExLabel"
@@ -48,7 +48,7 @@
 			"fgcolor"								"Shadow"
 			"pin_to_sibling" 						"PlayerIcon"
 		}
-		
+
 		"Count"
 		{
 			"ControlName"							"CExLabel"
@@ -91,7 +91,7 @@
 		}
 		"playerimage"
 		{
-			"ControlName"							"ImagePanel"		
+			"ControlName"							"ImagePanel"
 			"fieldName"								"playerimage"
 			"xpos"									"9999"
 		}
@@ -107,7 +107,7 @@
 		"wide"										"80"
 		"tall"										"25"
 		"visible"									"1"
-	
+
 		"PlayerIcon"
 		{
 			"ControlName"							"CExLabel"
@@ -145,7 +145,7 @@
 			"fgcolor"								"Shadow"
 			"pin_to_sibling" 						"PlayerIcon"
 		}
-		
+
 		"Count"
 		{
 			"ControlName"							"CExLabel"
@@ -188,7 +188,7 @@
 		}
 		"playerimage"
 		{
-			"ControlName"							"ImagePanel"		
+			"ControlName"							"ImagePanel"
 			"fieldName"								"playerimage"
 			"xpos"									"9999"
 		}

@@ -14,10 +14,10 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"BlackDark"
 	}
-	
+
 	"CenterPositioner"
-	{	
-		"ControlName"								"Label"
+	{
+		"ControlName"								"CExLabel"
 		"fieldName"									"CenterPositioner"
 		"font"										"Size 14"
 		"xpos"										"0"
@@ -35,7 +35,7 @@
 		"textAlignment"								"center"
 		"bgcolor_override" 							"Blank"
 	}
-	
+
 	"RecipeItemModelPanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -44,8 +44,8 @@
 	}
 
 	"TitleLabel"
-	{	
-		"ControlName"								"Label"
+	{
+		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
 		"font"										"Size 14"
 		"xpos"										"0"
@@ -62,17 +62,17 @@
 		"labelText"									"%updatetext%"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"fgcolor_override" 							"WhiteDark"
+		"fgcolor"		 							"WhiteDark"
 		"bgcolor_override" 							"Blank"
 		"auto_wide_tocontents" 						"1"
-		
+
 		"pin_to_sibling"               				"CenterPositioner"
-        "pin_corner_to_sibling"        				"4"          
-        "pin_to_sibling_corner"       				"4"          	
+        "pin_corner_to_sibling"        				"4"
+        "pin_to_sibling_corner"       				"4"
 	}
 	"EllipsesLabel"
-	{	
-		"ControlName"								"Label"
+	{
+		"ControlName"								"CExLabel"
 		"fieldName"									"EllipsesLabel"
 		"font"										"Size 14"
 		"xpos"										"0"
@@ -87,14 +87,14 @@
 		"labelText"									"%ellipses%"
 		"textAlignment"								"west"
 		"AllCaps"									"1"
-		"fgcolor_override" 							"WhiteDark"
+		"fgcolor"		 							"WhiteDark"
 		"bgcolor_override" 							"Blank"
-		
+
 		"pin_to_sibling"               				"TitleLabel"
-        "pin_corner_to_sibling"        				"0"          
-        "pin_to_sibling_corner"       				"1"          	
+        "pin_corner_to_sibling"        				"0"
+        "pin_to_sibling_corner"       				"1"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -108,18 +108,15 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#GameUI_Ok"
 		"font"										"Size 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"close"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDarker"
 		"border_armed"								"MaterialHypno"

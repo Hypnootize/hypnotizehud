@@ -14,17 +14,17 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"replay/thumbnails/panels/material_transparent50"
-		"scaleImage"								"1"	
+		"scaleImage"								"1"
 		"teambg_2"									"replay/thumbnails/panels/material_transparent50"
 		"teambg_3"									"replay/thumbnails/panels/material_transparent50"
-		
+
 		"src_corner_height"							"24"
 		"src_corner_width"							"24"
-		
+
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"	
+		"draw_corner_height" 						"8"
 	}
-	
+
 	"Title"
 	{
 		"ControlName"								"CExLabel"
@@ -45,7 +45,7 @@
 		"Allcaps"									"0"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"TitleShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -67,7 +67,7 @@
 		"proportionaltoparent"						"1"
 		"pin_to_sibling" 							"Title"
 	}
-	
+
 	"changeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -86,7 +86,7 @@
 		"textAlignment"								"center"
 		"fgcolor"									"White"
 	}
-	
+
 	"changeLabelShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -105,7 +105,7 @@
 		"textAlignment"								"center"
 		"fgcolor"									"Black"
 	}
-	
+
 	"classImage0"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -117,10 +117,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
+
 	"classImage1"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -132,10 +132,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
+
 	"classImage2"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -147,10 +147,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
+
 	"classImage3"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -162,10 +162,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
+
 	"classImage4"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -177,10 +177,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
+
 	"classImage5"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -192,10 +192,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
+
 	"classImage6"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -207,10 +207,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
+
 	"classImage7"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -222,10 +222,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
+
 	"classImage8"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -237,10 +237,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
+
 	"classImage9"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -252,10 +252,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
+
 	"classImage10"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -267,10 +267,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
+
 	"classImage11"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -282,16 +282,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
-	
-	
-	
-	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-	
+
 	"background"
 	{
 		"ControlName"								"CTFImagePanel"

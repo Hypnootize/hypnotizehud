@@ -1,5 +1,5 @@
-"Resource/UI/HudObjectiveFlagPanel.res"
-{	
+"Resource/UI/HudObjectiveRobotDestruction.res"
+{
 	"ObjectiveStatusRobotDestruction"
 	{
 		"ControlName"								"EditablePanel"
@@ -18,7 +18,7 @@
 		"robot_y_offset"							"25"
 		"robot_x_step"								"20"
 		"robot_y_step"								"0"
-		
+
 
 		"color_blue"								"92 173 255 255"
 		"color_red"									"255 61 61 255"
@@ -41,8 +41,8 @@
 			"AutoResize" 							"1"
 			"skip_autoresize" 						"1"
 		}
-	}	
-	
+	}
+
 	"BlackTransparentBG"
 	{
 		"ControlName"								"CExImageButton"
@@ -74,12 +74,10 @@
 		"enabled"									"1"
 		"labelText"									"#TF_PlayingTo"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"AllCaps"									"1"
 		"font"										"Size 8"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling"							"BlackTransparentBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
@@ -98,7 +96,7 @@
 		"enabled"									"1"
 		"proportionalToParent"						"1"
 		"paintbackground"							"0"
-	
+
 		"CarriedImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -113,7 +111,7 @@
 			"image"									"../hud/obj_rd_powersupply_outline"
 			"scaleImage"							"1"
 			"proportionalToParent"					"1"
-		}	
+		}
 
 		"CarriedProgressBar"
 		{
@@ -149,12 +147,12 @@
 			"tall"									"35"
 			"visible"								"1"
 			"enabled"								"1"
-			"textAlignment"							"center"	
+			"textAlignment"							"center"
 			"labelText"								"%flagvalue%"
 			"font"									"Size 24"
-			"fgcolor"								"White"	
-			"proportionalToParent"					"1"	
-		}	
+			"fgcolor"								"White"
+			"proportionalToParent"					"1"
+		}
 		"FlagValueShadow"
 		{
 			"ControlName"							"CExLabel"
@@ -166,11 +164,11 @@
 			"tall"									"35"
 			"visible"								"1"
 			"enabled"								"1"
-			"textAlignment"							"center"	
+			"textAlignment"							"center"
 			"labelText"								"%flagvalue%"
 			"font"									"Size 24 Blur"
-			"fgcolor"								"Shadow"	
-			"proportionalToParent"					"1"	
+			"fgcolor"								"Shadow"
+			"proportionalToParent"					"1"
 			"pin_to_sibling"						"FlagValue"
 		}
 	}
@@ -221,7 +219,7 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"west"	
+				"textAlignment"						"west"
 				"labelText"							"%score%"
 				"font"								"Size 18"
 				"fgcolor"							"White"
@@ -238,7 +236,7 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"west"	
+				"textAlignment"						"west"
 				"labelText"							"%score%"
 				"font"								"Size 18 Blur"
 				"fgcolor"							"Shadow"
@@ -273,7 +271,7 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"east"	
+				"textAlignment"						"east"
 				"labelText"							"%score%"
 				"font"								"Size 18"
 				"fgcolor"							"White"
@@ -290,7 +288,7 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"east"	
+				"textAlignment"						"east"
 				"labelText"							"%score%"
 				"font"								"Size 18 Blur"
 				"fgcolor"							"Shadow"
@@ -341,7 +339,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"paintbackground"					"0"
-				
+
 				"proportionalToParent"				"1"
 
 				"DroppedIntelImage"
@@ -372,7 +370,7 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"center"	
+				"textAlignment"						"center"
 				"labelText"							"%intelvalue%"
 				"font"								"Size 16"
 				"fgcolor"							"White"
@@ -389,9 +387,9 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"center"	
+				"textAlignment"						"center"
 				"labelText"							"%intelvalue%"
-				"font"								"Size 16 Blur"	
+				"font"								"Size 16 Blur"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
 				"pin_to_sibling" 					"IntelValue"
@@ -440,7 +438,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"paintbackground"					"0"
-				
+
 				"proportionalToParent"				"1"
 
 				"DroppedIntelImage"
@@ -471,7 +469,7 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"center"	
+				"textAlignment"						"center"
 				"labelText"							"%intelvalue%"
 				"font"								"Size 16"
 				"fgcolor"							"White"
@@ -488,9 +486,9 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"center"	
+				"textAlignment"						"center"
 				"labelText"							"%intelvalue%"
-				"font"								"Size 16 Blur"	
+				"font"								"Size 16 Blur"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
 				"pin_to_sibling" 					"IntelValue"

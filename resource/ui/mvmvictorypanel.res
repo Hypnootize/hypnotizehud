@@ -9,11 +9,11 @@
 		"wide"										"536"
 		"tall"										"230"
 		"visible"									"1"
-		
+
 		"StatsBackground"
 		{
 			"ControlName"							"ScalableImagePanel"
-			"fieldName"								"SplashBackground"
+			"fieldName"								"StatsBackground"
 			"xpos"									"0"
 			"ypos"									"0"
 			"wide"									"530"
@@ -26,11 +26,11 @@
 
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
-		
+
 			"draw_corner_width"						"8"
-			"draw_corner_height"					"8"	
+			"draw_corner_height"					"8"
 		}
-		
+
 		"HeaderContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -40,7 +40,7 @@
 			"wide"									"530"
 			"tall"									"100"
 			"visible"								"1"
-			
+
 			"HeaderLabel"
 			{
 				"ControlName"						"CExLabel"
@@ -62,7 +62,7 @@
 				"xpos"								"9999"
 			}
 		}
-	
+
 		"CreditLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -77,7 +77,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White"
 		}
-		
+
 		"CreditContainer"
 		{
 			"ControlName"							"CCreditDisplayPanel"
@@ -100,7 +100,7 @@
 			"tall"									"400"
 			"autoResize"							"1"
 			"visible"								"1"
-			
+
 			"RatingLabel"
 			{
 				"ControlName"						"CExLabel"
@@ -115,13 +115,13 @@
 				"AllCaps"							"1"
 				"fgcolor"							"White"
 			}
-			
+
 			"RatingTextShadow"
 			{
 				"ControlName"						"CExLabel"
 				"xpos"								"9999"
 			}
-			
+
 			"RatingText"
 			{
 				"ControlName"						"CExLabel"
@@ -136,7 +136,7 @@
 				"fgcolor"							"White"
 			}
 		}
-		
+
 		"TotalGameCreditSpendPanel"
 		{
 			"ControlName"							"CCreditSpendPanel"
@@ -162,18 +162,15 @@
 		"autoResize"								"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#DoneButton"
 		"font"										"Size 15"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"AllCaps"									"1"
 		"Command"									"done"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialTransparent50"
 		"border_armed"								"MaterialHypno"

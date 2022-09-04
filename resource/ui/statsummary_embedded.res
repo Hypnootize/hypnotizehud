@@ -14,7 +14,7 @@
 		"enabled"									"1"
 		"bgcolor_override"							"GrayDarkest"
 	}
-	
+
 	"StatData"
 	{
 		"ControlName"								"EditablePanel"
@@ -26,8 +26,8 @@
 		"tall"										"480"
 		"visible"									"1"
 		"enabled"									"1"
-		
-		"InteractiveHeaders"	
+
+		"InteractiveHeaders"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"InteractiveHeaders"
@@ -52,14 +52,13 @@
 				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
-				"tabPosition"						"1"
 				"textHidden"						"0"
 				"editable"							"0"
 				"maxchars"							"-1"
 				"NumericInputOnly"					"0"
 				"unicode"							"0"
 				"paintborder"						"0"
-				
+
 				"fgcolor_override"					"White"
 				"bgcolor_override"					"Blank"
 				"disabledFgColor_override"			"White"
@@ -67,7 +66,7 @@
 				"selectionColor_override"			"Blank"
 				"selectionTextColor_override"		"White"
 				"defaultSelectionBG2Color_override"	"Blank"
-				
+
 				"Button"
 				{
 					"defaultFgColor_override"		"White"
@@ -77,7 +76,7 @@
 					"paintbackgroundtype"			"0"
 				}
 			}
-			
+
 			"BarChartComboABG"
 			{
 				"ControlName"						"EditablePanel"
@@ -92,10 +91,10 @@
 				"paintbackground"					"1"
 				"paintbackgroundtype"				"0"
 				"bgcolor_override"					"GrayDarker"
-				
+
 				"pin_to_sibling" 					"BarChartComboA"
 			}
-			
+
 			"ClassLabel"
 			{
 				"ControlName"						"CExLabel"
@@ -119,7 +118,7 @@
 				"paintbackgroundtype"				"0"
 				"bgcolor_override"					"GrayDarker"
 			}
-			
+
 			"BarChartComboB"
 			{
 				"ControlName"						"ComboBox"
@@ -133,14 +132,13 @@
 				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
-				"tabPosition"						"1"
 				"textHidden"						"0"
 				"editable"							"0"
 				"maxchars"							"-1"
 				"NumericInputOnly"					"0"
 				"unicode"							"0"
 				"paintborder"						"0"
-				
+
 				"fgcolor_override"					"White"
 				"bgcolor_override"					"Blank"
 				"disabledFgColor_override"			"White"
@@ -148,7 +146,7 @@
 				"selectionColor_override"			"Blank"
 				"selectionTextColor_override"		"White"
 				"defaultSelectionBG2Color_override"	"Blank"
-				
+
 				"Button"
 				{
 					"defaultFgColor_override"		"White"
@@ -158,7 +156,7 @@
 					"paintbackgroundtype"			"0"
 				}
 			}
-			
+
 			"BarChartComboBBG"
 			{
 				"ControlName"						"EditablePanel"
@@ -173,10 +171,10 @@
 				"paintbackground"					"1"
 				"paintbackgroundtype"				"0"
 				"bgcolor_override"					"GrayDarker"
-				
+
 				"pin_to_sibling" 					"BarChartComboB"
 			}
-			
+
 			"ClassCombo"
 			{
 				"ControlName"						"ComboBox"
@@ -190,14 +188,13 @@
 				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
-				"tabPosition"						"1"
 				"textHidden"						"0"
 				"editable"							"0"
 				"maxchars"							"-1"
 				"NumericInputOnly"					"0"
 				"unicode"							"0"
 				"paintborder"						"0"
-				
+
 				"fgcolor_override"					"White"
 				"bgcolor_override"					"Blank"
 				"disabledFgColor_override"			"White"
@@ -205,7 +202,7 @@
 				"selectionColor_override"			"Blank"
 				"selectionTextColor_override"		"White"
 				"defaultSelectionBG2Color_override"	"Blank"
-				
+
 				"Button"
 				{
 					"defaultFgColor_override"		"White"
@@ -215,7 +212,7 @@
 					"paintbackgroundtype"			"0"
 				}
 			}
-			
+
 			"ClassComboBG"
 			{
 				"ControlName"						"EditablePanel"
@@ -230,11 +227,11 @@
 				"paintbackground"					"1"
 				"paintbackgroundtype"				"0"
 				"bgcolor_override"					"GrayDarker"
-				
+
 				"pin_to_sibling" 					"ClassCombo"
 			}
 		}
-		
+
 		"ClassStatsBG"								//YOUR PERFORMANCE REPORT BG
 		{
 			"ControlName"							"EditablePanel"
@@ -248,7 +245,7 @@
 			"enabled"								"1"
 			"border"								"MaterialBlackLight"
 		}
-		
+
 		"ReportBG"									//YOUR BEST MOMENTS BG
 		{
 			"ControlName"							"EditablePanel"
@@ -262,10 +259,10 @@
 			"enabled"								"1"
 			"border"								"MaterialBlackLight"
 		}
-		
+
 		"AveragesLabel"								//YOUR PERFORMANCE REPORT LABEL
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"AveragesLabel"
 			"font"									"Size 20"
 			"labelText"								"#StatSummary_Label_PerformanceReport"
@@ -279,16 +276,16 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor_override"						"WhiteDark"
-			
+			"fgcolor"								"WhiteDark"
+
 			"pin_to_sibling" 						"ClassStatsBG"
 			"pin_corner_to_sibling" 				"PIN_CENTER_BOTTOM"
 			"pin_to_sibling_corner" 				"PIN_CENTER_TOP"
 		}
-		
+
 		"RecordsLabel1"								//YOUR BEST MOMENTS LABEL
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"RecordsLabel1"
 			"font"									"Size 18"
 			"labelText"								"#StatSummary_Label_BestMoments"
@@ -302,13 +299,13 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor_override"						"WhiteDark"
-			
+			"fgcolor"								"WhiteDark"
+
 			"pin_to_sibling" 						"ReportBG"
 			"pin_corner_to_sibling" 				"PIN_CENTER_BOTTOM"
 			"pin_to_sibling_corner" 				"PIN_CENTER_TOP"
 		}
-		
+
 		"ClassBarBG1A"
 		{
 			"ControlName"							"ImagePanel"
@@ -335,13 +332,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
 			"fillcolor"								"Main Theme"
 			"PaintBackgroundType"					"0"
 		}
 		"ClassBarLabel1A"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel1A"
 			"font"									"Size 9"
 			"labelText"								"%classbarlabel1A%"
@@ -356,7 +352,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 		}
-		
+
 		"ClassLabel1"
 		{
 			"ControlName"							"CExLabel"
@@ -377,7 +373,7 @@
 			"paintbackground"						"1"
 			"bgcolor_override"						"GrayDarker"
 		}
-		
+
 		"ClassBarBG1B"
 		{
 			"ControlName"							"ImagePanel"
@@ -404,13 +400,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
 			"fillcolor"								"Main Theme"
 			"PaintBackgroundType"					"0"
 		}
 		"ClassBarLabel1B"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel1B"
 			"font"									"Size 9"
 			"labelText"								"%classbarlabel1B%"
@@ -425,7 +420,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 		}
-		
+
 		"ClassBarBG2A"
 		{
 			"ControlName"							"ImagePanel"
@@ -452,13 +447,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
 			"fillcolor"								"Main Theme"
 			"PaintBackgroundType"					"0"
 		}
 		"ClassBarLabel2A"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel2A"
 			"font"									"Size 9"
 			"labelText"								"%classbarlabel2A%"
@@ -473,7 +467,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 		}
-		
+
 		"ClassLabel2"
 		{
 			"ControlName"							"CExLabel"
@@ -494,7 +488,7 @@
 			"paintbackground"						"1"
 			"bgcolor_override"						"GrayDarker"
 		}
-		
+
 		"ClassBarBG2B"
 		{
 			"ControlName"							"ImagePanel"
@@ -521,13 +515,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
 			"fillcolor"								"Main Theme"
 			"PaintBackgroundType"					"0"
 		}
 		"ClassBarLabel2B"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel2B"
 			"font"									"Size 9"
 			"labelText"								"%classbarlabel2B%"
@@ -542,7 +535,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 		}
-		
+
 		"ClassBarBG3A"
 		{
 			"ControlName"							"ImagePanel"
@@ -569,13 +562,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
 			"fillcolor"								"Main Theme"
 			"PaintBackgroundType"					"0"
 		}
 		"ClassBarLabel3A"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel3A"
 			"font"									"Size 9"
 			"labelText"								"%classbarlabel3A%"
@@ -590,7 +582,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 		}
-		
+
 		"ClassLabel3"
 		{
 			"ControlName"							"CExLabel"
@@ -611,7 +603,7 @@
 			"paintbackground"						"1"
 			"bgcolor_override"						"GrayDarker"
 		}
-		
+
 		"ClassBarBG3B"
 		{
 			"ControlName"							"ImagePanel"
@@ -638,13 +630,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
 			"fillcolor"								"Main Theme"
 			"PaintBackgroundType"					"0"
 		}
 		"ClassBarLabel3B"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel3B"
 			"font"									"Size 9"
 			"labelText"								"%classbarlabel3B%"
@@ -659,7 +650,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 		}
-		
+
 		"ClassBarBG4A"
 		{
 			"ControlName"							"ImagePanel"
@@ -686,13 +677,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
 			"fillcolor"								"Main Theme"
 			"PaintBackgroundType"					"0"
 		}
 		"ClassBarLabel4A"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel4A"
 			"font"									"Size 9"
 			"labelText"								"%classbarlabel4A%"
@@ -707,7 +697,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 		}
-		
+
 		"ClassLabel4"
 		{
 			"ControlName"							"CExLabel"
@@ -728,7 +718,7 @@
 			"paintbackground"						"1"
 			"bgcolor_override"						"GrayDarker"
 		}
-		
+
 		"ClassBarBG4B"
 		{
 			"ControlName"							"ImagePanel"
@@ -755,13 +745,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
 			"fillcolor"								"Main Theme"
 			"PaintBackgroundType"					"0"
 		}
 		"ClassBarLabel4B"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel4B"
 			"font"									"Size 9"
 			"labelText"								"%classbarlabel4B%"
@@ -776,7 +765,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 		}
-		
+
 		"ClassBarBG5A"
 		{
 			"ControlName"							"ImagePanel"
@@ -803,13 +792,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
 			"fillcolor"								"Main Theme"
 			"PaintBackgroundType"					"0"
 		}
 		"ClassBarLabel5A"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel5A"
 			"font"									"Size 9"
 			"labelText"								"%classbarlabel5A%"
@@ -824,7 +812,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 		}
-		
+
 		"ClassLabel5"
 		{
 			"ControlName"							"CExLabel"
@@ -845,7 +833,7 @@
 			"paintbackground"						"1"
 			"bgcolor_override"						"GrayDarker"
 		}
-		
+
 		"ClassBarBG5B"
 		{
 			"ControlName"							"ImagePanel"
@@ -872,13 +860,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
 			"fillcolor"								"Main Theme"
 			"PaintBackgroundType"					"0"
 		}
 		"ClassBarLabel5B"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel5B"
 			"font"									"Size 9"
 			"labelText"								"%classbarlabel5B%"
@@ -893,7 +880,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 		}
-		
+
 		"ClassBarBG6A"
 		{
 			"ControlName"							"ImagePanel"
@@ -920,13 +907,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
 			"fillcolor"								"Main Theme"
 			"PaintBackgroundType"					"0"
 		}
 		"ClassBarLabel6A"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel6A"
 			"font"									"Size 9"
 			"labelText"								"%classbarlabel6A%"
@@ -941,7 +927,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 		}
-		
+
 		"ClassLabel6"
 		{
 			"ControlName"							"CExLabel"
@@ -962,7 +948,7 @@
 			"paintbackground"						"1"
 			"bgcolor_override"						"GrayDarker"
 		}
-		
+
 		"ClassBarBG6B"
 		{
 			"ControlName"							"ImagePanel"
@@ -989,13 +975,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
 			"fillcolor"								"Main Theme"
 			"PaintBackgroundType"					"0"
 		}
 		"ClassBarLabel6B"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel6B"
 			"font"									"Size 9"
 			"labelText"								"%classbarlabel6B%"
@@ -1010,7 +995,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 		}
-		
+
 		"ClassBarBG7A"
 		{
 			"ControlName"							"ImagePanel"
@@ -1037,13 +1022,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
 			"fillcolor"								"Main Theme"
 			"PaintBackgroundType"					"0"
 		}
 		"ClassBarLabel7A"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel7A"
 			"font"									"Size 9"
 			"labelText"								"%classbarlabel7A%"
@@ -1058,7 +1042,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 		}
-		
+
 		"ClassLabel7"
 		{
 			"ControlName"							"CExLabel"
@@ -1079,7 +1063,7 @@
 			"paintbackground"						"1"
 			"bgcolor_override"						"GrayDarker"
 		}
-		
+
 		"ClassBarBG7B"
 		{
 			"ControlName"							"ImagePanel"
@@ -1106,13 +1090,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
 			"fillcolor"								"Main Theme"
 			"PaintBackgroundType"					"0"
 		}
 		"ClassBarLabel7B"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel7B"
 			"font"									"Size 9"
 			"labelText"								"%classbarlabel7B%"
@@ -1127,7 +1110,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 		}
-		
+
 		"ClassBarBG8A"
 		{
 			"ControlName"							"ImagePanel"
@@ -1154,13 +1137,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
 			"fillcolor"								"Main Theme"
 			"PaintBackgroundType"					"0"
 		}
 		"ClassBarLabel8A"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel8A"
 			"font"									"Size 9"
 			"labelText"								"%classbarlabel8A%"
@@ -1175,7 +1157,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 		}
-		
+
 		"ClassLabel8"
 		{
 			"ControlName"							"CExLabel"
@@ -1196,7 +1178,7 @@
 			"paintbackground"						"1"
 			"bgcolor_override"						"GrayDarker"
 		}
-		
+
 		"ClassBarBG8B"
 		{
 			"ControlName"							"ImagePanel"
@@ -1223,13 +1205,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
 			"fillcolor"								"Main Theme"
 			"PaintBackgroundType"					"0"
 		}
 		"ClassBarLabel8B"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel8B"
 			"font"									"Size 9"
 			"labelText"								"%classbarlabel8B%"
@@ -1244,7 +1225,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 		}
-		
+
 		"ClassBarBG9A"
 		{
 			"ControlName"							"ImagePanel"
@@ -1271,13 +1252,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
 			"fillcolor"								"Main Theme"
 			"PaintBackgroundType"					"0"
 		}
 		"ClassBarLabel9A"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel9A"
 			"font"									"Size 9"
 			"labelText"								"%classbarlabel9A%"
@@ -1292,7 +1272,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 		}
-		
+
 		"ClassLabel9"
 		{
 			"ControlName"							"CExLabel"
@@ -1313,7 +1293,7 @@
 			"paintbackground"						"1"
 			"bgcolor_override"						"GrayDarker"
 		}
-		
+
 		"ClassBarBG9B"
 		{
 			"ControlName"							"ImagePanel"
@@ -1340,13 +1320,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
 			"fillcolor"								"Main Theme"
 			"PaintBackgroundType"					"0"
 		}
 		"ClassBarLabel9B"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel9B"
 			"font"									"Size 9"
 			"labelText"								"%classbarlabel9B%"
@@ -1361,10 +1340,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 		}
-		
+
 		"OverallRecord1Label"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord1Label"
 			"font"									"Size 8"
 			"labelText"								"%classrecord1label%"
@@ -1382,7 +1361,7 @@
 		}
 		"OverallRecord1Value"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord1Value"
 			"font"									"Size 8"
 			"labelText"								"%classrecord1value%"
@@ -1397,15 +1376,15 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord1Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord2Label"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord2Label"
 			"font"									"Size 8"
 			"labelText"								"%classrecord2label%"
@@ -1420,14 +1399,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord1Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
 		"OverallRecord2Value"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord2Value"
 			"font"									"Size 8"
 			"labelText"								"%classrecord2value%"
@@ -1442,15 +1421,15 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord2Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord3Label"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord3Label"
 			"font"									"Size 8"
 			"labelText"								"%classrecord3label%"
@@ -1465,14 +1444,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord2Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
 		"OverallRecord3Value"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord3Value"
 			"font"									"Size 8"
 			"labelText"								"%classrecord3value%"
@@ -1487,15 +1466,15 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord3Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord4Label"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord4Label"
 			"font"									"Size 8"
 			"labelText"								"%classrecord4label%"
@@ -1510,14 +1489,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord3Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
-		}							
+		}
 		"OverallRecord4Value"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord4Value"
 			"font"									"Size 8"
 			"labelText"								"%classrecord4value%"
@@ -1532,15 +1511,15 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord4Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord5Label"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord5Label"
 			"font"									"Size 8"
 			"labelText"								"%classrecord5label%"
@@ -1555,14 +1534,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord4Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
 		"OverallRecord5Value"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord5Value"
 			"font"									"Size 8"
 			"labelText"								"%classrecord5value%"
@@ -1577,15 +1556,15 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord5Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord6Label"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord6Label"
 			"font"									"Size 8"
 			"labelText"								"%classrecord6label%"
@@ -1600,14 +1579,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord5Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
 		"OverallRecord6Value"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord6Value"
 			"font"									"Size 8"
 			"labelText"								"%classrecord6value%"
@@ -1622,15 +1601,15 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord6Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord7Label"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord7Label"
 			"font"									"Size 8"
 			"labelText"								"%classrecord7label%"
@@ -1645,14 +1624,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord6Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
 		"OverallRecord7Value"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord7Value"
 			"font"									"Size 8"
 			"labelText"								"%classrecord7value%"
@@ -1667,15 +1646,15 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord7Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord8Label"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord8Label"
 			"font"									"Size 8"
 			"labelText"								"%classrecord8label%"
@@ -1690,14 +1669,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord7Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
 		"OverallRecord8Value"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord8Value"
 			"font"									"Size 8"
 			"labelText"								"%classrecord8value%"
@@ -1712,15 +1691,15 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord8Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord9Label"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord9Label"
 			"font"									"Size 8"
 			"labelText"								"%classrecord9label%"
@@ -1735,14 +1714,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord8Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
 		"OverallRecord9Value"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord9Value"
 			"font"									"Size 8"
 			"labelText"								"%classrecord9value%"
@@ -1757,15 +1736,15 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord9Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord10Label"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord10Label"
 			"font"									"Size 8"
 			"labelText"								"%classrecord10label%"
@@ -1780,14 +1759,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord9Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
 		"OverallRecord10Value"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord10Value"
 			"font"									"Size 8"
 			"labelText"								"%classrecord10value%"
@@ -1802,15 +1781,15 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord10Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord11Label"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord11Label"
 			"font"									"Size 8"
 			"labelText"								"%classrecord11label%"
@@ -1825,14 +1804,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord10Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
 		"OverallRecord11Value"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord11Value"
 			"font"									"Size 8"
 			"labelText"								"%classrecord11value%"
@@ -1847,15 +1826,15 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord11Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord12Label"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord12Label"
 			"font"									"Size 8"
 			"labelText"								"%classrecord12label%"
@@ -1870,14 +1849,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord11Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
 		"OverallRecord12Value"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord12Value"
 			"font"									"Size 8"
 			"labelText"								"%classrecord12value%"
@@ -1892,15 +1871,15 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord12Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord13Label"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord13Label"
 			"font"									"Size 8"
 			"labelText"								"%classrecord13label%"
@@ -1915,14 +1894,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord12Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
 		"OverallRecord13Value"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord13Value"
 			"font"									"Size 8"
 			"labelText"								"%classrecord13value%"
@@ -1937,15 +1916,15 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord13Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord14Label"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord14Label"
 			"font"									"Size 8"
 			"labelText"								"%classrecord14label%"
@@ -1960,14 +1939,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord13Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
 		"OverallRecord14Value"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord14Value"
 			"font"									"Size 8"
 			"labelText"								"%classrecord14value%"
@@ -1982,15 +1961,15 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord14Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord15Label"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord15Label"
 			"font"									"Size 8"
 			"labelText"								"%classrecord15label%"
@@ -2005,14 +1984,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord14Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
 		"OverallRecord15Value"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord15Value"
 			"font"									"Size 8"
 			"labelText"								"%classrecord15value%"
@@ -2027,12 +2006,12 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			
+
 			"pin_to_sibling" 						"OverallRecord15Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"NonInteractiveHeaders"
 		{
 			"ControlName"							"EditablePanel"
@@ -2059,12 +2038,12 @@
 		}
 		"RecordsLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"RecordsLabel"
 			"xpos"									"9999"
 		}
 	}
-	
+
 	"ResetStatsButton"
 	{
 		"ControlName"								"CExButton"
@@ -2088,27 +2067,24 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"D"
 		"font"										"Symbols 16"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"resetstatsbutton"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground" 							"0"
 		"paintborder" 								"1"
-		
+
 		"border"									"MaterialGrayDark"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}
-	
-	
-	
+
+
+
 	"TipImage"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -2117,7 +2093,7 @@
 	}
 	"TipText"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"TipText"
 		"xpos"										"9999"
 	}

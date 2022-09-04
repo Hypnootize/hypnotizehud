@@ -31,18 +31,16 @@
 		"enabled"									"1"
 		"labelText"									"#TF_PlayingTo"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"AllCaps"									"1"
 		"font"										"Size 8"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling"							"BlackTransparentBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 
-	"BlueScoreBG"	
+	"BlueScoreBG"
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"BlueScoreBG"
@@ -62,7 +60,7 @@
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"BlueScore"
 	{
 		"ControlName"								"CExLabel"
@@ -74,7 +72,7 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"west"	
+		"textAlignment"								"west"
 		"labelText"									"%bluescore%"
 		"font"										"Size 18"
 		"fgcolor"									"White"
@@ -93,14 +91,14 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"west"	
+		"textAlignment"								"west"
 		"labelText"									"%bluescore%"
 		"font"										"Size 18 Blur"
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"BlueScore"
 	}
-	
-	"RedScoreBG"	
+
+	"RedScoreBG"
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"RedScoreBG"
@@ -120,7 +118,7 @@
 		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+
 	"RedScore"
 	{
 		"ControlName"								"CExLabel"
@@ -132,7 +130,7 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"east"	
+		"textAlignment"								"east"
 		"labelText"									"%redscore%"
 		"font"										"Size 18"
 		"fgcolor"									"White"
@@ -151,14 +149,14 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"east"	
+		"textAlignment"								"east"
 		"labelText"									"%redscore%"
 		"font"										"Size 18 Blur"
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"RedScore"
 	}
-	
-	
+
+
 	//REMOVED
 	"LeftSideBG"
 	{

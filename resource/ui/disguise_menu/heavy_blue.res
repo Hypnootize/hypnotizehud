@@ -1,20 +1,20 @@
 #base "scout_blue.res"
 
-"Resource/UI/disguise_menu/heavy_red.res"
+"Resource/UI/Disguise_Menu/Heavy_Blue.res"
 {
 	"ItemNameLabel"
-	{	
+	{
 		"labelText"									"5"
-		"fgcolor_override"							"Blue"
+		"fgcolor"									"Blue"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"labelText"									"5"
 	}
-	
+
 	"NewNumberLabel"
-	{	
+	{
 		"labelText"									"2"
 	}
 }

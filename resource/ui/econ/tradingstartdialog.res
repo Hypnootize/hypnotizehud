@@ -1,13 +1,13 @@
 #base "../../../resource/tools/reloadschemebutton.res"
 
-"Resource/UI/TradingStartDialog.res"
+"Resource/UI/Econ/TradingStartDialog.res"
 {
 	"TradingStartDialog"
 	{
 		"fieldName"									"TradingStartDialog"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"0"	
+		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
@@ -15,14 +15,14 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"GrayDarkest"
 		"settitlebarvisible"						""
-		
+
 		"button_kv"
 		{
 			"xpos"									"0"
 			"ypos"									"0"
 			"wide"									"330"
 			"tall"									"20"
-			
+
 			"button"
 			{
 				"xpos"								"2"
@@ -33,29 +33,26 @@
 				"pinCorner"							"3"
 				"visible"							"1"
 				"enabled"							"1"
-				"tabPosition"						"0"
 				"labelText"							""
 				"font"								"Size 12"
 				"textAlignment"						"west"
 				"textinsetx"						"28"
 				"use_proportional_insets" 			"1"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"default"							"1"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
-				
+
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
 				"depressedFgColor_override" 		"White"
-				
+
 				"paintbackground"					"1"
 				"paintbackgroundtype"				"0"
 				"defaultBgColor_override"			"GrayDarker"
 				"armedBgColor_override"				"Main Theme"
 				"depressedBgColor_override" 		"GrayDarker"
 			}
-			
+
 			"avatar"
 			{
 				"ControlName"						"CAvatarImagePanel"
@@ -68,12 +65,12 @@
 				"image"								""
 				"visible"							"1"
 				"enabled"							"1"
-				"scaleImage"						"1"	
+				"scaleImage"						"1"
 				"color_outline"						"WhiteGray"
 			}
 		}
 	}
-	
+
 	"BackgroundCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -89,7 +86,7 @@
 		"proportionaltoparent"						"1"
 		"border"									"MaterialBlackLight"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -106,11 +103,11 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor_override" 							"WhiteDark"
+		"fgcolor"		 							"WhiteDark"
 		"AllCaps" 									"1"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"PlayerListScroller"
 	{
 		"ControlName"								"ScrollableEditablePanel"
@@ -123,7 +120,7 @@
 		"bgcolor_override"							"BlackDark"
 		"fgcolor_override"							"WhiteDark"
 		"proportionaltoparent"						"1"
-		
+
 		"PlayerList"
 		{
 			"ControlName"							"EditablePanel"
@@ -148,7 +145,7 @@
 		"tall"	 									"180"
 		"PaintBackgroundType"						"0"
 		"proportionaltoparent"						"1"
-	
+
 		"QueryLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -168,7 +165,7 @@
 			"fgcolor" 								"WhiteDark"
 			"AllCaps" 								"1"
 			"proportionaltoparent"					"1"
-		}	
+		}
 
 		"subbutton0"
 		{
@@ -183,24 +180,21 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"#TF_TradeStartDialog_SelectFriends"
 			"font"									"Size 16"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"friends"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 			"proportionaltoparent"					"1"
-			
-			
+
+
 			"paintbackground"						"0"
 			"border_default"						"MaterialGrayDarker"
 			"border_armed"							"MaterialHypno"
-		
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override" 			"White"
@@ -218,19 +212,16 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"#TF_TradeStartDialog_SelectServer"
 			"font"									"Size 16"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"server"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-		
+
 			"border_default"						"MaterialGrayDarker"
 			"border_armed"							"MaterialHypno"
 			"paintbackground"						"0"
@@ -252,19 +243,16 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"#TF_TradeStartDialog_SelectProfile"
 			"font"									"Size 16"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"profile"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"border_default"						"MaterialGrayDarker"
 			"border_armed"							"MaterialHypno"
 			"paintbackground"						"0"
@@ -274,7 +262,7 @@
 			"depressedFgColor_override" 			"White"
 		}
 	}
-	
+
 	"StatePanel1"
 	{
 		"ControlName"								"EditablePanel"
@@ -287,7 +275,7 @@
 		"tall"	 									"180"
 		"PaintBackgroundType"						"0"
 		"proportionaltoparent"						"1"
-	
+
 		"QueryLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -306,8 +294,8 @@
 			"AllCaps" 								"1"
 			"proportionaltoparent"					"1"
 			"fgcolor" 								"WhiteDark"
-		}	
-		
+		}
+
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -329,7 +317,7 @@
 			"AllCaps" 								"1"
 			"proportionaltoparent"					"1"
 			"fgcolor" 								"Red"
-		}	
+		}
 	}
 	"StatePanel2"
 	{
@@ -343,7 +331,7 @@
 		"tall"	 									"180"
 		"PaintBackgroundType"						"0"
 		"proportionaltoparent"						"1"
-	
+
 		"QueryLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -363,8 +351,8 @@
 			"fgcolor" 								"WhiteDark"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-		}	
-		
+		}
+
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -386,9 +374,9 @@
 			"fgcolor" 								"Red"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-		}	
+		}
 	}
-	
+
 	"StatePanel3"
 	{
 		"ControlName"								"EditablePanel"
@@ -401,7 +389,7 @@
 		"tall"	 									"180"
 		"PaintBackgroundType"						"0"
 		"proportionaltoparent"						"1"
-	
+
 		"QueryLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -421,11 +409,11 @@
 			"fgcolor" 								"WhiteDark"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-		}	
-		
+		}
+
 		"URLHelpLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"URLHelpLabel"
 			"font"									"Size 9"
 			"labelText"								"#TF_TradeStartDialog_ProfileHelp"
@@ -441,14 +429,14 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"centerwrap"							"1"
-			"fgcolor_override" 						"WhiteDark"
+			"fgcolor"		 						"WhiteDark"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-		}	
-		
+		}
+
 		"URLFailLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"URLFailLabel"
 			"font"									"Size 10"
 			"labelText"								"#TF_TradeStartDialog_ProfileFail"
@@ -464,13 +452,13 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"centerwrap"							"1"
-			"fgcolor_override" 						"Red"
+			"fgcolor"		 						"Red"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 		}
 		"URLSearchingLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"URLSearchingLabel"
 			"font"									"Size 11"
 			"labelText"								"#TF_TradeStartDialog_ProfileLookup"
@@ -486,11 +474,11 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"centerwrap"							"1"
-			"fgcolor_override" 						"WhiteDark"
+			"fgcolor"		 						"WhiteDark"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-		}	
-		
+		}
+
 		"URLEntry"
 		{
 			"ControlName"							"TextEntry"
@@ -503,7 +491,6 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"textHidden"							"0"
 			"editable"								"1"
 			"maxchars"								"256"
@@ -519,7 +506,7 @@
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"subbutton0"
 		{
 			"ControlName"							"CExButton"
@@ -533,19 +520,16 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"#TF_TradeStartDialog_ProfileGo"
 			"font"									"Size 14"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"url_ok"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"border_default"						"MaterialGrayDarker"
 			"border_armed"							"MaterialHypno"
 			"paintbackground"						"0"
@@ -555,7 +539,7 @@
 			"depressedFgColor_override" 			"White"
 		}
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -569,24 +553,21 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#Cancel"
 		"font"										"Size 18"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"cancel"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-	
+
 		"paintbackground"							"0"
-		
+
 		"border_default"							"MaterialGrayDarker"
 		"border_armed"								"MaterialHypno"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"

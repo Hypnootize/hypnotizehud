@@ -1,6 +1,6 @@
-Resource/UI/HudPasstimePassNotify.res
+"Resource/UI/HudPasstimePassNotify.res"
 {
-	HudPasstimePassNotify
+	"HudPasstimePassNotify"
 	{
 		"ControlName" 								"EditablePanel"
 		"fieldName" 								"HudPasstimePassNotify"
@@ -13,7 +13,7 @@ Resource/UI/HudPasstimePassNotify.res
 		"enabled" 									"1"
 	}
 
-	TextBox
+	"TextBox"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName" 								"TextBox"
@@ -27,7 +27,7 @@ Resource/UI/HudPasstimePassNotify.res
 		"border"									"TFFatLineBorder"
 		"RoundedCorners"							"255"
 
-		TextInPassRange
+		"TextInPassRange"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName" 							"TextInPassRange"
@@ -42,10 +42,10 @@ Resource/UI/HudPasstimePassNotify.res
 			"centerwrap"							"1"
 			"textAlignment" 						"center"
 			"labelText" 							"#Msg_PasstimeInPassRange"
-			"fgcolor_override" 						"White"
+			"fgcolor"		 						"White"
 		}
 
-		TextLockedOn
+		"TextLockedOn"
 		{
 			"ControlName" 							"CExLabel"
 			"fieldName"								"TextLockedOn"
@@ -60,10 +60,10 @@ Resource/UI/HudPasstimePassNotify.res
 			"centerwrap"							"1"
 			"textAlignment" 						"center"
 			"labelText" 							"#Msg_PasstimeLockedOn"
-			"fgcolor_override" 						"White"
+			"fgcolor"		 						"White"
 		}
 
-		TextPassIncoming
+		"TextPassIncoming"
 		{
 			"ControlName" 							"CExLabel"
 			"fieldName" 							"TextPassIncoming"
@@ -78,10 +78,10 @@ Resource/UI/HudPasstimePassNotify.res
 			"centerwrap"							"1"
 			"textAlignment" 						"center"
 			"labelText" 							"#Msg_PasstimePassIncoming"
-			"fgcolor_override" 						"White"
+			"fgcolor"		 						"White"
 		}
 
-		TextPlayerName
+		"TextPlayerName"
 		{
 			"ControlName" 							"CExLabel"
 			"fieldName"								"TextPlayerName"
@@ -95,11 +95,11 @@ Resource/UI/HudPasstimePassNotify.res
 			"enabled" 								"1"
 			"textAlignment" 						"center"
 			"labelText" 							"WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"
-			"fgcolor_override"						"Green"
-		}	
+			"fgcolor"								"Green"
+		}
 	}
 
-	PassLockIndicator
+	"PassLockIndicator"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName" 								"PassLockIndicator"
@@ -117,7 +117,7 @@ Resource/UI/HudPasstimePassNotify.res
 		"pin_to_sibling_corner" 					"1"
 	}
 
-	SpeechIndicator
+	"SpeechIndicator"
 	{
 		"ControlName" 								"ImagePanel"
 		"fieldName" 								"SpeechIndicator"

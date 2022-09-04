@@ -1,5 +1,5 @@
 "Resource/UI/MvMCreditSubPanel.res"
-{	
+{
 	"HeaderLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -30,7 +30,7 @@
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"HeaderLabel"
 	}
-	
+
 	"TableBackground"
 	{
 		"ControlName"								"EditablePanel"
@@ -45,7 +45,7 @@
 		"paintbackground"							"0"
 		"border"									"MaterialTransparent50"
 	}
-	
+
 	"CreditCollectedTextLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -73,12 +73,12 @@
 		"tall"										"10"
 		"AllCaps"									"1"
 		"fgcolor"									"Green"
-		
+
 		"pin_to_sibling"							"CreditCollectedTextLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+
 	"CreditMissedTextLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -92,7 +92,7 @@
 		"tall"										"10"
 		"AllCaps"									"1"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling"							"CreditCollectedTextLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
@@ -110,12 +110,12 @@
 		"tall"										"10"
 		"AllCaps"									"1"
 		"fgcolor"									"Red"
-		
+
 		"pin_to_sibling"							"CreditMissedTextLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+
 	"CreditBonusTextLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -129,7 +129,7 @@
 		"tall"										"10"
 		"AllCaps"									"1"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling"							"CreditMissedTextLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
@@ -147,12 +147,12 @@
 		"tall"										"10"
 		"AllCaps"									"1"
 		"fgcolor"									"Green"
-		
+
 		"pin_to_sibling"							"CreditBonusTextLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+
 	"RatingBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -166,7 +166,7 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 		"border"									"MaterialTransparent50"
-		
+
 		"pin_to_sibling"							"TableBackground"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"

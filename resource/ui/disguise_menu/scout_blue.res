@@ -1,7 +1,7 @@
-"Resource/UI/disguise_menu/scout_blue.res"
+"Resource/UI/Disguise_Menu/Scout_Blue.res"
 {
 	"ClassBackground"
-	{	
+	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ClassBackground"
 		"xpos"										"0"
@@ -13,11 +13,11 @@
 		"enabled"									"1"
 		"border"									"MaterialTransparent50"
 	}
-	
+
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"ItemName"
+		"fieldName"									"ItemNameLabel"
 		"font"										"Class Symbols 28"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -30,13 +30,11 @@
 		"enabled"									"1"
 		"labelText"									"1"
 		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"fgcolor_override"							"Blue"
+		"fgcolor"									"Blue"
 	}
-	
+
 	"NumberBG"
-	{	
+	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"NumberBG"
 		"xpos"										"0"
@@ -48,9 +46,9 @@
 		"enabled"									"1"
 		"border"									"MaterialTransparent70"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
 		"font"										"Size 11"
@@ -66,14 +64,12 @@
 		"enabled"									"1"
 		"labelText"									"1"
 		"textAlignment"								"Center"
-		"dulltext"									"1"
-		"brighttext"								"0"
 	}
-	
+
 	"NewNumberLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel"
+		"fieldName"									"NewNumberLabel"
 		"font"										"Size 11"
 		"fgcolor"									"White"
 		"xpos"										"0"
@@ -87,11 +83,9 @@
 		"enabled"									"1"
 		"labelText"									"1"
 		"textAlignment"								"Center"
-		"dulltext"									"1"
-		"brighttext"								"0"
 	}
-	
-	"ClassIcon"	
+
+	"ClassIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"ClassIcon"

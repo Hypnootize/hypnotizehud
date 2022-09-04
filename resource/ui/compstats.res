@@ -28,7 +28,7 @@
 
 			"matchgroup"							"MatchGroup_Ladder_6v6"
 		}
-	
+
 		"RankPanel"
 		{
 			"ControlName"							"CPvPRankPanel"
@@ -52,7 +52,7 @@
 				"visible"							"0"
 			}
 		}
-		
+
 		"ShowMatchHistoryButton"
 		{
 			"ControlName"							"CExButton"
@@ -75,7 +75,7 @@
 			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"paintbackground"						"1"
-			
+
 			"defaultBgColor_override"				"BlackLight"
 			"armedBgColor_override"					"Main Theme"
 			"depressedBgColor_override" 			"Main Theme"
@@ -84,7 +84,7 @@
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override" 			"White"
 		}
-		
+
 		"ShowLeaderboardsButton"
 		{
 			"ControlName"							"CExButton"
@@ -106,7 +106,7 @@
 			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"paintbackground"						"1"
-			
+
 			"defaultBgColor_override"				"BlackLight"
 			"armedBgColor_override"					"Main Theme"
 			"depressedBgColor_override" 			"Main Theme"
@@ -161,7 +161,7 @@
 
 				"SortArrow"
 				{
-					"ControlName"					"Label"
+					"ControlName"					"CExLabel"
 					"fieldName"						"SortArrow"
 					"xpos"							"0"
 					"ypos"							"-4"
@@ -171,7 +171,7 @@
 					"proportionaltoparent"			"1"
 					"visible"						"1"
 					"mouseinputenabled"				"0"
-			
+
 					"labeltext"						"6"
 					"font"							"MarlettSmall"
 					"textAlignment"					"west"
@@ -198,9 +198,9 @@
 					"AllCaps"						"1"
 					"sound_depressed"				"UI/buttonclick.wav"
 					"sound_released"				"UI/buttonclickrelease.wav"
-		
+
 					"paintbackground"				"1"
-					
+
 					"defaultBgColor_override"		"GrayDarker"
 					"armedBgColor_override"			"GrayMedium"
 					"selectedBgColor_override"		"GrayMedium"
@@ -209,7 +209,7 @@
 					"defaultFgColor_override"		"White"
 					"armedFgColor_override"			"White"
 					"depressedFgColor_override" 	"White"
-					
+
 					"command"						"sort0"
 					"actionsignallevel"				"4"
 				}
@@ -231,9 +231,9 @@
 					"AllCaps"						"1"
 					"sound_depressed"				"UI/buttonclick.wav"
 					"sound_released"				"UI/buttonclickrelease.wav"
-		
+
 					"paintbackground"				"1"
-					
+
 					"defaultBgColor_override"		"GrayDarker"
 					"armedBgColor_override"			"GrayMedium"
 					"selectedBgColor_override"		"GrayMedium"
@@ -242,7 +242,7 @@
 					"defaultFgColor_override"		"White"
 					"armedFgColor_override"			"White"
 					"depressedFgColor_override" 	"White"
-					
+
 					"command"						"sort1"
 					"actionsignallevel"				"4"
 				}
@@ -264,9 +264,9 @@
 					"AllCaps"						"1"
 					"sound_depressed"				"UI/buttonclick.wav"
 					"sound_released"				"UI/buttonclickrelease.wav"
-		
+
 					"paintbackground"				"1"
-					
+
 					"defaultBgColor_override"		"GrayDarker"
 					"armedBgColor_override"			"GrayMedium"
 					"depressedBgColor_override" 	"GrayMedium"
@@ -275,7 +275,7 @@
 					"armedFgColor_override"			"White"
 					"selectedBgColor_override"		"GrayMedium"
 					"depressedFgColor_override" 	"White"
-					
+
 					"command"						"sort2"
 					"actionsignallevel"				"4"
 				}
@@ -296,9 +296,9 @@
 					"AllCaps"						"1"
 					"sound_depressed"				"UI/buttonclick.wav"
 					"sound_released"				"UI/buttonclickrelease.wav"
-		
+
 					"paintbackground"				"1"
-					
+
 					"defaultBgColor_override"		"GrayDarker"
 					"armedBgColor_override"			"GrayMedium"
 					"selectedBgColor_override"		"GrayMedium"
@@ -307,7 +307,7 @@
 					"defaultFgColor_override"		"White"
 					"armedFgColor_override"			"White"
 					"depressedFgColor_override" 	"White"
-					
+
 					"command"						"sort3"
 					"actionsignallevel"				"4"
 				}
@@ -324,7 +324,7 @@
 				"visible"							"1"
 				"proportionaltoparent"				"1"
 				"restrict_width" 					"0"
-				
+
 				"ScrollBar"
 				{
 					"ControlName"					"ScrollBar"
@@ -341,14 +341,14 @@
 					{
 						"fgcolor_override"			"WhiteDark"
 					}
-		
+
 					"UpButton"
 					{
 						"ControlName"				"Button"
 						"FieldName"					"UpButton"
 						"visible"					"0"
 					}
-		
+
 					"DownButton"
 					{
 						"ControlName"				"Button"

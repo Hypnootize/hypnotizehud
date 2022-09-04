@@ -1,4 +1,4 @@
-"Resource/UI/ArenaTeamMenu.res"
+"Resource/UI/HudArenaTeamMenu.res"
 {
 	"team"
 	{
@@ -12,9 +12,8 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 	}
-	
+
 	"SysMenu"
 	{
 		"ControlName"								"Menu"
@@ -27,9 +26,8 @@
 		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"0"
-		"tabPosition"								"0"
 	}
-	
+
 	"TeamsAnchor"									//////MOVES THE WHOLE TEAMS PANEL
 	{
 		"ControlName"								"EditablePanel"
@@ -41,7 +39,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-	
+
 	"MapFrame"
 	{
 		"ControlName"     		  					"EditablePanel"
@@ -57,10 +55,10 @@
 		"paintbackground"							"0"
 		"border"									"MaterialTransparent70"
 	}
-	
+
 	"mapname"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"mapname"
 		"xpos"										"0"
 		"ypos"										"-2"
@@ -74,16 +72,14 @@
 		"labelText"									""
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"font"										"Size 14"
-		"fgcolor_override"							"White"
-		
+		"fgcolor"									"White"
+
 		"pin_to_sibling" 							"MapFrame"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
 	}
-	
+
 	"FightFrame"
 	{
 		"ControlName"     		  					"EditablePanel"
@@ -98,14 +94,12 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"paintbackground"							"0"
 		"border"									"MaterialRed"
-		
+
 		"pin_to_sibling" 							"TeamsAnchor"
 	}
-	
+
 	"teambutton2"									//FIGHT
 	{
 		"ControlName"	  							"CTFTeamButton"
@@ -118,20 +112,17 @@
 		"pinCorner"		  							"0"
 		"visible"		  							"1"
 		"enabled"		  							"1"
-		"tabPosition"	  							"3"
 		"labelText"		  							"&1"
 		"textAlignment"	  							"west"
-		"dulltext"		  							"0"
-		"brighttext"	  							"0"
 		"paintborder"	  							"0"
 		"command"									"jointeam spectate"
 		"associated_model"							"autodoor"
 		"font"			  							"invisiblelololo"
 		"fgcolor"		  							"Blank"
-		
+
 		"pin_to_sibling" 							"FightFrame"
 	}
-	
+
 	"Fight"
 	{
 		"ControlName"	  							"CExLabel"
@@ -149,7 +140,7 @@
 		"textAlignment"	  							"east"
 		"font"			  							"Size 18"
 		"fgcolor"		  							"White"
-		
+
 		"pin_to_sibling" 							"FightFrame"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
@@ -173,7 +164,7 @@
 		"fgcolor"		  							"Shadow"
 		"pin_to_sibling" 							"Fight"
 	}
-	
+
 	"FightNumber"
 	{
 		"ControlName"	  							"CExLabel"
@@ -212,7 +203,7 @@
 		"fgcolor"		  							"Shadow"
 		"pin_to_sibling" 							"FightNumber"
 	}
-	
+
 	"SpectateFrame"
 	{
 		"ControlName"     		  					"EditablePanel"
@@ -227,16 +218,14 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"paintbackground"							"0"
 		"border"									"MaterialGrayDark"
-		
+
 		"pin_to_sibling" 							"FightFrame"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
-	
+
 	"teambutton3"									//SPECTATE
 	{
 		"ControlName"	  							"CTFTeamButton"
@@ -250,20 +239,17 @@
 		"pinCorner"		  							"0"
 		"visible"		  							"1"
 		"enabled"		  							"1"
-		"tabPosition"	  							"4"
 		"labelText"		  							"&2"
 		"textAlignment"	  							"west"
-		"dulltext"		  							"0"
-		"brighttext"	  							"0"
 		"paintborder"	  							"0"
 		"command"									"jointeam spectatearena"
 		"associated_model"							"spectate"
 		"font"			  							""
 		"fgcolor"		  							"Blank"
-		
+
 		"pin_to_sibling" 							"SpectateFrame"
 	}
-	
+
 	"Spec"
 	{
 		"ControlName"	  							"CExLabel"
@@ -281,7 +267,7 @@
 		"textAlignment"	  							"west"
 		"font"			  							"Size 18"
 		"fgcolor"		  							"White"
-		
+
 		"pin_to_sibling" 							"SpectateFrame"
 	}
 	"SpecShadow"
@@ -301,10 +287,10 @@
 		"textAlignment"	  							"west"
 		"font"			  							"Size 18 Blur"
 		"fgcolor"		  							"Shadow"
-		
+
 		"pin_to_sibling" 							"Spec"
 	}
-	
+
 	"SpectateNumber"
 	{
 		"ControlName"	  							"CExLabel"
@@ -320,7 +306,7 @@
 		"textAlignment"	  							"center"
 		"font"			  							"Size 30"
 		"fgcolor"		  							"White"
-		
+
 		"pin_to_sibling" 							"SpectateFrame"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
@@ -342,31 +328,31 @@
 		"fgcolor"		  							"Shadow"
 		"pin_to_sibling" 							"SpectateNumber"
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	"MenuBG"
 	{
 		"ControlName"								"CModelPanel"
 		"fieldName"									"MenuBG"
 		"xpos"										"-8888"
 		"ypos"										"0"
-		"zpos"										"0"		
+		"zpos"										"0"
 		"wide"										"0"
 		"tall"										"0"
 		"autoResize"								"0"
@@ -374,7 +360,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"fov"										"20"
-		
+
 		"model"
 		{
 			"modelname"								"models/vgui/ui_arena01.mdl"
@@ -388,15 +374,15 @@
 			"origin_y" 								"0"
 			"origin_z" 								"-34"
 		}
-	}	
-	
+	}
+
 	"autodoor"
 	{
 		"ControlName"								"CModelPanel"
 		"fieldName"									"autodoor"
 		"xpos"										"-8888"
 		"ypos"										"0"
-		"zpos"										"2"		
+		"zpos"										"2"
 		"wide"										"0"
 		"tall"										"0"
 		"autoResize"								"0"
@@ -404,7 +390,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"fov"										"20"
-		
+
 		"model"
 		{
 			"modelname"								"models/vgui/ui_arenadoor01.mdl"
@@ -417,7 +403,7 @@
 			"origin_x_hidef" 						"305"
 			"origin_y"							 	"0"
 			"origin_z" 								"-34"
-			
+
 			"animation"
 			{
 				"name"								"idle_enabled"
@@ -430,22 +416,22 @@
 				"name"								"enter_enabled"
 				"sequence"							"hoveropen"
 			}
-			
+
 			"animation"
 			{
 				"name"								"exit_enabled"
 				"sequence"							"hoverclose"
 			}
 		}
-	}		
-	
+	}
+
 	"spectate"
 	{
 		"ControlName"								"CModelPanel"
 		"fieldName"									"spectate"
 		"xpos"										"-8888"
 		"ypos"										"0"
-		"zpos"										"0"		
+		"zpos"										"0"
 		"wide"										"0"
 		"tall"										"0"
 		"autoResize"								"0"
@@ -453,7 +439,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"fov"										"20"
-		
+
 		"model"
 		{
 			"modelname"								"models/vgui/UI_team01_spectate.mdl"
@@ -466,7 +452,7 @@
 			"origin_x_hidef" 						"305"
 			"origin_y" 								"0"
 			"origin_z" 								"-34"
-			
+
 			"animation"
 			{
 				"name"								"idle_enabled"
@@ -479,7 +465,7 @@
 				"name"								"enter_enabled"
 				"sequence"							"hover"
 			}
-			
+
 			"animation"
 			{
 				"name"								"exit_enabled"
@@ -487,7 +473,7 @@
 			}
 		}
 	}
-	
+
 	//REMOVED STUFF
 	"MapInfo"
 	{

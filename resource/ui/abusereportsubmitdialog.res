@@ -13,7 +13,7 @@
 		"tall"										"480"
 		"bgcolor_override"							"GrayDarkest"
 	}
-	
+
 	"BackgroundCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -44,7 +44,7 @@
 		"centerwrap"								"1"
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"GameServerRadio"
@@ -275,18 +275,15 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#TF_LessThan"
 		"font"										"Size 14"
 		"textAlignment"								"center"
 		"textinsetx"								"0"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"prevcustomtexture"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
@@ -294,8 +291,8 @@
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-	}	
-	
+	}
+
 	"CustomTextureNextButton"
 	{
 		"ControlName"								"CExButton"
@@ -309,17 +306,14 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#TF_GreaterThan"
 		"font"										"Size 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"nextcustomtexture"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
@@ -327,8 +321,8 @@
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-	}	
-	
+	}
+
 	"NoCustomTexturesLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -393,7 +387,7 @@
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
@@ -419,7 +413,7 @@
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
@@ -445,7 +439,7 @@
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"

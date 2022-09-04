@@ -1,4 +1,4 @@
-"Resource/UI/HudMatchStatus.res"
+"Resource/UI/HudMatchStatus_SmallHealth.res"
 {
 	"TeamStatus"
 	{
@@ -8,17 +8,17 @@
 			{
 				"zpos"								"4"
 			}
-			
+
 			"HealthBar"
-			{	
+			{
 				"zpos"								"5"
 				"tall"								"2"
 			}
-			
+
 			"OverHealBar"
-			{	
+			{
 				"zpos"								"6"
-				"tall"								"2"	
+				"tall"								"2"
 			}
 		}
 	}

@@ -1,4 +1,4 @@
-"Resource/UI/TitleEditPanel.res"
+"Resource/UI/ReplayBrowser/TitleEditPanel.res"
 {
 	"TitleEditPanel"
 	{
@@ -12,9 +12,8 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 	}
-	
+
 	"TitleInput"
 	{
 		"ControlName"								"TextEntry"
@@ -31,12 +30,11 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"Blank"		// Background is drawn explicitly in CTitleEditPanel::PaintBackground()
 		"Font"										"Size 18"
 	}
-	
+
 	"ClickToEditLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -47,7 +45,7 @@
 		"Visible"									"1"
 		"fgcolor_override" 							"White"
 	}
-	
+
 	"CaratLabel"
 	{
 		"ControlName"								"CExLabel"

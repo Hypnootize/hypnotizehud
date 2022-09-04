@@ -1,6 +1,6 @@
 "Resource/UI/HudItemEffectMeter_Killstreak.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
@@ -12,7 +12,7 @@
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-	
+
 	"KillstreakIcon"
 	{
 		"ControlName"								"CExLabel"
@@ -50,8 +50,8 @@
 		"fgcolor"									"Shadow"
 		"pin_to_sibling" 							"KillstreakIcon"
 	}
-	
-	
+
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"								"CExLabel"
@@ -68,7 +68,7 @@
 		"textAlignment"								"east"
 		"font"										"Size 20"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling" 							"KillstreakIcon"
 		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
@@ -89,12 +89,12 @@
 		"textAlignment"								"east"
 		"font"										"Size 20 Blur"
 		"fgcolor"									"Shadow"
-		
+
 		"pin_to_sibling" 							"ItemEffectMeterCount"
 	}
-	
-	
-	
+
+
+
 	//REMOVED
 	"ItemEffectMeterBG"
 	{
@@ -109,7 +109,7 @@
 		"xpos"										"9999"
 	}
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ItemEffectMeter"
 		"xpos"										"9999"

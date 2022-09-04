@@ -3,7 +3,7 @@
 	"CarryingWeapon"
 	{
 		"OwnerLabel"
-		{	
+		{
 			"alpha"									"0"
 		}
 	}

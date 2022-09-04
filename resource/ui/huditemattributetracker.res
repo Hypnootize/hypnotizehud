@@ -1,5 +1,5 @@
-"Resource/UI/HudAchievementTrackerItem.res"
-{	
+"Resource/UI/HudItemAttributeTracker.res"
+{
 	"ItemAttributeTracker"
 	{
 		"fieldName" 								"ItemAttributeTracker"
@@ -26,10 +26,10 @@
 
 		"border"									"NoBorder"
 		"paintborder"								"2"
-		
+
 		"Header"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"Header"
 			"labeltext"								"%header%"
 			"xpos"									"rs1"
@@ -38,7 +38,7 @@
 			"tall"									"18"
 			"zpos"									"4"
 			"textinsetx"							"5"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 			"font"									"Size 10"
 			//"wrap"								"1"
 			"TextAlignment"							"north-east"
@@ -56,7 +56,7 @@
 			"tall"									"f0"
 			"zpos"									"4"
 			"textinsetx"							"5"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 			"font"									"DefaultVerySmall"
 			//"wrap"								"1"
 			"TextAlignment"							"north-east"

@@ -1,5 +1,5 @@
 "Resource/UI/HudStopWatch.res"
-{	
+{
 	"StopWatchAnchor"
 	{
 		"ControlName"								"EditablePanel"
@@ -12,13 +12,13 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		
-		if_comp
+
+		"if_comp"
 		{
 			"ypos"									"28"
 		}
 	}
-	
+
 	"StopWatchPointsLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -38,12 +38,12 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		
+
 		"pin_to_sibling" 							"StopWatchAnchor"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
 	}
-	
+
 	"StopWatchScoreToBeat"
 	{
 		"ControlName"								"CExLabel"
@@ -62,12 +62,12 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		
+
 		"pin_to_sibling" 							"StopWatchPointsLabel"
 		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
 	}
-	
+
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -79,11 +79,11 @@
 		"tall"										"18"
 		"visible"									"0"
 		"enabled"									"1"
-		
+
 		"pin_to_sibling" 							"StopWatchPointsLabel"
 		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
-		
+
 		"ClockIcon"
 		{
 			"controlName"							"CExLabel"
@@ -93,7 +93,7 @@
 		"ClockIconShadow"
 		{
 			"controlName"							"CExLabel"
-			"fieldName"	 							"ClockIcon"
+			"fieldName"	 							"ClockIconShadow"
 			"xpos"									"9999"
 		}
 
@@ -111,12 +111,12 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"textAlignment"							"west"
-		}	
+		}
 	}
-	
-	
-	
-	
+
+
+
+
 	"StopWatchImageCaptureTime"
 	{
 		"ControlName"								"ImagePanel"

@@ -1,4 +1,4 @@
-"Resource/UI/TFHudRobotDestruction_RobotIndicator.res"
+"Resource/UI/TFHudRobotDestruction_DeadState.res"
 {
 	"DeadState"
 	{
@@ -51,9 +51,9 @@
 			"fieldName"								"RespawnProgressBar"
 			"xpos"									"-1"
 			"ypos"									"-1"
-			"zpos"									"4"	
+			"zpos"									"4"
 			"wide"									"f-2"
-			"tall"									"f-2"	
+			"tall"									"f-2"
 			"visible"								"1"
 			"visible_minmode"						"0"
 			"enabled"								"1"

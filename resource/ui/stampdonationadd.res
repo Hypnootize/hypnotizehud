@@ -12,13 +12,12 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
 		"bgcolor_override"							"BlackDark"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -38,7 +37,7 @@
 		"AllCaps"									"1"
 		"fgcolor" 									"WhiteDark"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -92,7 +91,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"scaleImage"								"1"
 	}
 
@@ -108,7 +106,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"scaleImage"								"1"
 	}
 
@@ -124,18 +121,15 @@
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#Store_Nope"
 		"font"										"Size 14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"nope"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
@@ -143,7 +137,7 @@
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-	}			
+	}
 
 	"ConfirmButton"
 	{
@@ -158,18 +152,15 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#Store_AddToCart"
 		"font"										"Size 14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"add_stamp_to_cart"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
@@ -178,7 +169,7 @@
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
 	}
-	
+
 	"PriceLabelBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -190,7 +181,7 @@
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"paintbackground"							"0"
 		"border"									"MaterialGreen"
 	}

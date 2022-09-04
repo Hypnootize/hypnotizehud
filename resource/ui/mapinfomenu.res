@@ -14,7 +14,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-	
+
 	"MapFrame"
 	{
 		"ControlName"     		  					"EditablePanel"
@@ -29,7 +29,7 @@
 		"paintbackground"							"0"
 		"border"									"MaterialTransparent70"
 	}
-	
+
 	"MapInfoTitle"
 	{
 		"ControlName"								"CExLabel"
@@ -46,18 +46,16 @@
 		"labelText"									"%mapname%"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"dulltext"									"0"
-		"brighttext"								"1"
 		"font"										"Size 14"
-		"fgcolor_override"							"White"
-		
+		"fgcolor"									"White"
+
 		"pin_to_sibling" 							"MapFrame"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
 	}
-	
+
 	"Background"
-	{	
+	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"Background"
 		"xpos"										"c-200"
@@ -70,7 +68,7 @@
 		"paintbackground"							"0"
 		"border"									"MaterialTransparent70"
 	}
-	
+
 	"MapInfoText"
 	{
 		"ControlName"								"CExRichText"
@@ -89,10 +87,10 @@
 		"textAlignment"								"center"
 		"fgcolor"									"White"
 		"AllCaps"									"1"
-		
+
 		"pin_to_sibling" 							"Background"
 	}
-	
+
 	"ok"
 	{
 		"ControlName"								"CExButton"
@@ -106,19 +104,16 @@
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									" CONTINUE (&E)"
 		"textAlignment"								"center"
 		"textinsety"								"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"wrap"										"0"
 		"command"									"continue"
 		"default"									"1"
 		"font"										"Size 18"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialTransparent70"
 		"border_armed"								"MaterialHypno"
@@ -126,13 +121,13 @@
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-		
+
 		"pin_to_sibling" 							"Background"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
-	
-	"MapInfoWatchIntro" 
+
+	"MapInfoWatchIntro"
 	{
 		"ControlName"								"CTFButton"
 		"fieldName"									"MapInfoWatchIntro"
@@ -147,25 +142,23 @@
 		"enabled"									"1"
 		"labelText"									"#TF_WatchIntro"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"command"									"intro"
 		"default"									"1"
 		"paintbackground"							"0"
 		"font"										"Size 14"
-		
+
 		"paintbackground"							"0"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"border_default"							"MaterialTransparent70"
 		"border_armed"								"MaterialHypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-		
+
 		"pin_to_sibling" 							"ok"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
@@ -175,12 +168,12 @@
 
 
 
-	"MapInfoBack" 
+	"MapInfoBack"
 	{
 		"ControlName"								"CTFButton"
 		"fieldName"									"MapInfoBack"
 		"xpos"										"9999"
-	}	
+	}
 	"MapInfoType"
 	{
 		"ControlName"								"CExLabel"

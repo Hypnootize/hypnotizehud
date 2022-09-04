@@ -17,11 +17,11 @@
 
 		"src_corner_height"							"24"
 		"src_corner_width"							"24"
-	
+
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"	
+		"draw_corner_height" 						"8"
 	}
-	
+
 	"WaveCountLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -67,7 +67,7 @@
 		"labelText"									"%wave_count%"
 		"pin_to_sibling"							"WaveCountLabel"
 	}
-	
+
 	"SeparatorBar"
 	{
 		"ControlName"								"Panel"
@@ -82,13 +82,13 @@
 		"scaleImage"								"1"
 		"PaintBackgroundType" 						"0"
 		"bgcolor_override"							"White"
-		
-		if_verbose
+
+		"if_verbose"
 		{
 			"visible"								"1"
 		}
 	}
-	
+
 	"SupportLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -105,13 +105,13 @@
 		"AllCaps"									"1"
 		"textAlignment"								"west"
 		"labelText"									"#TF_MVM_Support"
-		
-		if_verbose
+
+		"if_verbose"
 		{
 			"visible"								"1"
-		}		
+		}
 	}
-	
+
 	"ProgressBar"
 	{
 		"ControlName"								"ScalableImagePanel"
@@ -125,14 +125,14 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"replay/thumbnails/panels/Material_Blue"
-		
+
 		"src_corner_height"							"24"
 		"src_corner_width"							"24"
-	
+
 		"draw_corner_width"							"8"
 		"draw_corner_height" 						"8"
 	}
-	
+
 	"ProgressBarBG"
 	{
 		"ControlName"								"ScalableImagePanel"
@@ -146,10 +146,10 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"replay/thumbnails/panels/material_transparent50"
-		
+
 		"src_corner_height"							"24"
 		"src_corner_width"							"24"
-	
+
 		"draw_corner_width"							"8"
 		"draw_corner_height" 						"8"
 	}

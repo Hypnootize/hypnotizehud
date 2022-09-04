@@ -30,7 +30,7 @@
 			"PaintBackgroundType"					"2"
 			"paintbackground" 						"0"
 			"border"								"MaterialBlackDark"
-		
+
 			"force_close"							"1"
 			"end_x"									"r515"
 			"end_y"									"140"
@@ -38,12 +38,12 @@
 			"end_tall"								"240"
 			"callout_inparents_x"					"c100"
 			"callout_inparents_y"					"c-000"
-		
+
 			"res_file_controls"						"1"
 			"explanation_title"						"#TF_Casual_Welcome_Title"
-			"explanation_body"						"#TF_Casual_Welcome_Section_One_Text"	
-			"next_explanation"						"CasualLeveling"	
-		}	
+			"explanation_body"						"#TF_Casual_Welcome_Section_One_Text"
+			"next_explanation"						"CasualLeveling"
+		}
 
 		"CasualLeveling"
 		{
@@ -58,7 +58,7 @@
 			"PaintBackgroundType"					"2"
 			"paintbackground" 						"0"
 			"border"								"MaterialBlackDark"
-		
+
 			"force_close"							"1"
 			"end_x"									"r280"
 			"end_y"									"100"
@@ -66,11 +66,11 @@
 			"end_tall"								"240"
 			"callout_inparents_x"					"r200"
 			"callout_inparents_y"					"c-175"
-		
+
 			"res_file_controls"						"1"
 			"explanation_title"						"#TF_Casual_Explanation_Rank_Title"
-			"explanation_body"						"#TF_Casual_Explanation_Rank_Body"	
-			"next_explanation"						"CasualCriteria"	
+			"explanation_body"						"#TF_Casual_Explanation_Rank_Body"
+			"next_explanation"						"CasualCriteria"
 		}
 
 		"CasualCriteria"
@@ -86,7 +86,7 @@
 			"PaintBackgroundType"					"2"
 			"paintbackground" 						"0"
 			"border"								"MaterialBlackDark"
-		
+
 			"force_close"							"1"
 			"end_x"									"r515"
 			"end_y"									"140"
@@ -94,11 +94,11 @@
 			"end_tall"								"240"
 			"callout_inparents_x"					"r180"
 			"callout_inparents_y"					"c-100"
-		
+
 			"res_file_controls"						"1"
 			"explanation_title"						"#TF_Casual_Explanation_Modes_Title"
-			"explanation_body"						"#TF_Casual_Explanation_Modes_Body"	
-			"next_explanation"						"CriteriaSaving"	
+			"explanation_body"						"#TF_Casual_Explanation_Modes_Body"
+			"next_explanation"						"CriteriaSaving"
 		}
 
 		"CriteriaSaving"
@@ -114,7 +114,7 @@
 			"PaintBackgroundType"					"2"
 			"paintbackground" 						"0"
 			"border"								"MaterialBlackDark"
-		
+
 			"force_close"							"1"
 			"end_x"									"r280"
 			"end_y"									"150"
@@ -122,13 +122,13 @@
 			"end_tall"								"240"
 			"callout_inparents_x"					"r60"
 			"callout_inparents_y"					"c-135"
-		
+
 			"res_file_controls"						"1"
 			"explanation_title"						"#TF_Casual_Explanation_SaveMaps_Title"
-			"explanation_body"						"#TF_Casual_Explanation_SaveMaps_Body"	
-			"next_explanation"						"CasualLateJoin"	
+			"explanation_body"						"#TF_Casual_Explanation_SaveMaps_Body"
+			"next_explanation"						"CasualLateJoin"
 		}
-	
+
 		"CasualLateJoin"
 		{
 			"ControlName"							"CExplanationPopup"
@@ -142,7 +142,7 @@
 			"PaintBackgroundType"					"2"
 			"paintbackground" 						"0"
 			"border"								"MaterialBlackDark"
-		
+
 			"force_close"							"1"
 			"end_x"									"r515"
 			"end_y"									"140"
@@ -154,7 +154,7 @@
 			"res_file_controls"						"1"
 			"explanation_title"						"#TF_Casual_Welcome_Section_Three_Title"
 			"explanation_body"						"#TF_Casual_Welcome_Section_Three_Text"
-		}	
+		}
 
 	// Casual map selection
 		"MapSelectionDetailsExplanation"
@@ -170,7 +170,7 @@
 			"PaintBackgroundType"					"2"
 			"paintbackground"						"0"
 			"border"								"MaterialBlackDark"
-		
+
 			"force_close"							"0"
 			"end_x"									"r515"
 			"end_y"									"140"
@@ -181,8 +181,8 @@
 
 			"res_file_controls"						"1"
 			"explanation_title"						"#TF_Casual_Explanation_MapsDetails_Title"
-			"explanation_body"						"#TF_Casual_Explanation_MapsDetails_Body"		
-		}	
+			"explanation_body"						"#TF_Casual_Explanation_MapsDetails_Body"
+		}
 
 	// Competitive
 		"CompIntro"
@@ -198,7 +198,7 @@
 			"PaintBackgroundType"					"2"
 			"paintbackground" 						"0"
 			"border"								"MaterialBlackDark"
-		
+
 			"force_close"							"1"
 			"end_x"									"r515"
 			"end_y"									"140"
@@ -206,12 +206,12 @@
 			"end_tall"								"240"
 			"callout_inparents_x"					"c100"
 			"callout_inparents_y"					"c-000"
-		
+
 			"res_file_controls"						"1"
 			"explanation_title"						"#TF_Competitive_Welcome_Title"
-			"explanation_body"						"#TF_Competitive_Welcome_SectionOne_Text"	
-			"next_explanation"						"CompVsCasual"	
-		}	
+			"explanation_body"						"#TF_Competitive_Welcome_SectionOne_Text"
+			"next_explanation"						"CompVsCasual"
+		}
 
 		"EventPlaceholderIntro"
 		{
@@ -226,7 +226,7 @@
 			"PaintBackgroundType"					"2"
 			"paintbackground"					 	"0"
 			"border"								"MaterialBlackDark"
-		
+
 			"force_close"							"1"
 			"end_x"									"r515"
 			"end_y"									"140"
@@ -234,12 +234,12 @@
 			"end_tall"								"240"
 			"callout_inparents_x"					"c100"
 			"callout_inparents_y"					"c-000"
-		
+
 			"res_file_controls"						"1"
 			"explanation_title"						"#TF_Competitive_Welcome_Title"
-			"explanation_body"						"#TF_EventPlaceholder_Welcome_SectionOne_Text"	
-			"next_explanation"						"CompVsCasual"	
-		}	
+			"explanation_body"						"#TF_EventPlaceholder_Welcome_SectionOne_Text"
+			"next_explanation"						"CompVsCasual"
+		}
 
 		"CompVsCasual"
 		{
@@ -254,7 +254,7 @@
 			"PaintBackgroundType"					"2"
 			"paintbackground" 						"0"
 			"border"								"MaterialBlackDark"
-		
+
 			"force_close"							"1"
 			"end_x"									"r515"
 			"end_y"									"140"
@@ -262,11 +262,11 @@
 			"end_tall"								"240"
 			"callout_inparents_x"					"c100"
 			"callout_inparents_y"					"c-000"
-		
+
 			"res_file_controls"						"1"
 			"explanation_title"						"#TF_Competitive_Welcome_SectionTwo_Title"
-			"explanation_body"						"#TF_Competitive_Welcome_SectionTwo_Text"	
-			"next_explanation"						"CompAbandon"	
+			"explanation_body"						"#TF_Competitive_Welcome_SectionTwo_Text"
+			"next_explanation"						"CompAbandon"
 		}
 
 		"CompAbandon"
@@ -282,7 +282,7 @@
 			"PaintBackgroundType"					"2"
 			"paintbackground" 						"0"
 			"border"								"MaterialBlackDark"
-		
+
 			"force_close"							"1"
 			"end_x"									"r515"
 			"end_y"									"140"
@@ -290,11 +290,11 @@
 			"end_tall"								"240"
 			"callout_inparents_x"					"c100"
 			"callout_inparents_y"					"c-000"
-		
+
 			"res_file_controls"						"1"
 			"explanation_title"						"#TF_Competitive_Welcome_SectionThree_Title"
-			"explanation_body"						"#TF_Competitive_Welcome_SectionThree_Text"	
-			"next_explanation"						"CompDisconnects"	
+			"explanation_body"						"#TF_Competitive_Welcome_SectionThree_Text"
+			"next_explanation"						"CompDisconnects"
 		}
 
 		"CompDisconnects"
@@ -310,7 +310,7 @@
 			"PaintBackgroundType"					"2"
 			"paintbackground"					 	"0"
 			"border"								"MaterialBlackDark"
-		
+
 			"force_close"							"1"
 			"end_x"									"r515"
 			"end_y"									"140"
@@ -318,11 +318,11 @@
 			"end_tall"								"240"
 			"callout_inparents_x"					"c100"
 			"callout_inparents_y"					"c-000"
-		
+
 			"res_file_controls"						"1"
 			"explanation_title"						"#TF_Competitive_Welcome_SectionFour_Title"
-			"explanation_body"						"#TF_Competitive_Welcome_SectionFour_Text"	
-			"next_explanation"						"CompCustomHUD"	
+			"explanation_body"						"#TF_Competitive_Welcome_SectionFour_Text"
+			"next_explanation"						"CompCustomHUD"
 		}
 
 		"CompCustomHUD"
@@ -338,7 +338,7 @@
 			"PaintBackgroundType"					"2"
 			"paintbackground" 						"0"
 			"border"								"MaterialBlackDark"
-		
+
 			"force_close"							"1"
 			"end_x"									"r515"
 			"end_y"									"140"
@@ -346,7 +346,7 @@
 			"end_tall"								"240"
 			"callout_inparents_x"					"c100"
 			"callout_inparents_y"					"c-000"
-		
+
 			"res_file_controls"						"1"
 			"explanation_title"						"#TF_Competitive_Welcome_SectionFive_Title"
 			"explanation_body"						"#TF_Competitive_Welcome_SectionFive_Text"
@@ -365,7 +365,7 @@
 		"PaintBackgroundType"						"2"
 		"paintbackground" 							"0"
 		"border"									"MaterialBlackDark"
-		
+
 		"force_close"								"1"
 		"end_x"										"r100"
 		"end_y"										"200"
@@ -373,10 +373,10 @@
 		"end_tall"									"240"
 		"callout_inparents_x"						"c100"
 		"callout_inparents_y"						"c100"
-		
+
 		"res_file_controls"							"1"
 		"explanation_title"							"#TF_UsePaintkit_Explanation_Title"
-		"explanation_body"							"#TF_UsePaintkit_Explanation_Body"	
+		"explanation_body"							"#TF_UsePaintkit_Explanation_Body"
 	}
 
 	"TutorialHighlight"
@@ -392,7 +392,7 @@
 		"PaintBackgroundType"						"2"
 		"paintbackground" 							"0"
 		"border"									"MaterialBlackDark"
-		
+
 		"start_x"									"c-85"
 		"start_y"									"185"
 		"start_wide"								"1"
@@ -403,7 +403,7 @@
 		"end_tall"									"120"
 		"callout_inparents_x"						"r140"
 		"callout_inparents_y"						"275"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -423,7 +423,7 @@
 			"AllCaps"								"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -443,7 +443,7 @@
 			"fgcolor" 								"WhiteDark"
 		}
 
-		
+
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -457,26 +457,23 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labeltext"								"%"
 			"font"									"Symbols 20"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"close"
-			
+
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override"					"Red"
 			"depressedFgColor_override" 			"Red"
-		}		
-	}	
-	
+		}
+	}
+
 	"PracticeHighlight"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -488,7 +485,7 @@
 		"PaintBackgroundType"						"2"
 		"paintbackground" 							"0"
 		"border"									"MaterialBlackDark"
-		
+
 		"start_x"									"c-85"
 		"start_y"									"185"
 		"start_wide"								"1"
@@ -499,7 +496,7 @@
 		"end_tall"									"80"
 		"callout_inparents_x"						"r140"
 		"callout_inparents_y"						"275"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -519,7 +516,7 @@
 			"AllCaps"								"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -537,7 +534,7 @@
 			"enabled"								"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -551,26 +548,23 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labeltext"								"%"
 			"font"									"Symbols 20"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"close"
-			
+
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override"					"Red"
 			"depressedFgColor_override" 			"Red"
-		}		
-	}	
-	
+		}
+	}
+
 	"NewUserForumHighlight"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -584,7 +578,7 @@
 		"PaintBackgroundType"						"2"
 		"paintbackground" 							"0"
 		"border"									"MaterialBlackDark"
-		
+
 		"start_x"									"c-112"
 		"start_y"									"437"
 		"start_wide"								"1"
@@ -595,7 +589,7 @@
 		"end_tall"									"120"
 		"callout_inparents_x"						"c+128"
 		"callout_inparents_y"						"437"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -615,7 +609,7 @@
 			"AllCaps"								"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -634,7 +628,7 @@
 			"wrap"									"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -648,26 +642,23 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labeltext"								"%"
 			"font"									"Symbols 20"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"close"
-			
+
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override"					"Red"
 			"depressedFgColor_override" 			"Red"
-		}		
-	}	
-	
+		}
+	}
+
 	"OptionsHighlightPanel"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -681,7 +672,7 @@
 		"PaintBackgroundType"						"2"
 		"paintbackground" 							"0"
 		"border"									"MaterialBlackDark"
-		
+
 		"start_x"									"c238"
 		"start_y"									"437"
 		"start_wide"								"1"
@@ -692,7 +683,7 @@
 		"end_tall"									"120"
 		"callout_inparents_x"						"c102"
 		"callout_inparents_y"						"437"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -712,7 +703,7 @@
 			"AllCaps"								"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -731,7 +722,7 @@
 			"wrap"									"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -745,26 +736,23 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labeltext"								"%"
 			"font"									"Symbols 20"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"close"
-			
+
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override"					"Red"
 			"depressedFgColor_override" 			"Red"
-		}		
+		}
 	}
-	
+
 	"LoadoutHighlightPanel"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -778,7 +766,7 @@
 		"PaintBackgroundType"						"2"
 		"paintbackground" 							"0"
 		"border"									"MaterialBlackDark"
-		
+
 		"start_x"									"c-190"
 		"start_y"									"267"
 		"start_wide"								"1"
@@ -789,7 +777,7 @@
 		"end_tall"									"220"
 		"callout_inparents_x"						"c-250"
 		"callout_inparents_y"						"r38"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -809,7 +797,7 @@
 			"AllCaps"								"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -828,7 +816,7 @@
 			"wrap"									"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -842,24 +830,21 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labeltext"								"%"
 			"font"									"Symbols 20"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"close"
-			
+
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override"					"Red"
 			"depressedFgColor_override" 			"Red"
-		}		
+		}
 	}
 
 	"StoreHighlightPanel"
@@ -875,7 +860,7 @@
 		"PaintBackgroundType"						"2"
 		"paintbackground" 							"0"
 		"border"									"MaterialBlackDark"
-		
+
 		"start_x"									"c20"
 		"start_y"									"285"
 		"start_wide"								"250"
@@ -886,7 +871,7 @@
 		"end_tall"									"125"
 		"callout_inparents_x"						"c-110"
 		"callout_inparents_y"						"450"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -906,7 +891,7 @@
 			"AllCaps"								"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -925,7 +910,7 @@
 			"wrap"									"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -939,24 +924,21 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labeltext"								"%"
 			"font"									"Symbols 20"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"close"
-			
+
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override"					"Red"
 			"depressedFgColor_override" 			"Red"
-		}		
+		}
 	}
 
 	"FindAMatch"
@@ -972,7 +954,7 @@
 		"PaintBackgroundType"						"2"
 		"paintbackground" 							"0"
 		"border"									"MaterialBlackDark"
-		
+
 		"force_close"								"0"
 		"end_x"										"r300"
 		"end_y"										"80"
@@ -983,8 +965,8 @@
 
 		"res_file_controls"							"1"
 		"explanation_title"							"#TF_FindMatchTip_Title"
-		"explanation_body"							"#TF_FindMatchTip_Body"		
-	}	
+		"explanation_body"							"#TF_FindMatchTip_Body"
+	}
 
 	"SpecialEvents"
 	{
@@ -999,7 +981,7 @@
 		"PaintBackgroundType"						"2"
 		"paintbackground"							"0"
 		"border"									"MaterialBlackDark"
-		
+
 		"force_close"								"0"
 		"end_x"										"r450"
 		"end_y"										"40"
@@ -1010,9 +992,9 @@
 
 		"res_file_controls"							"1"
 		"explanation_title"							"#TF_SpecialEvent_Title"
-		"explanation_body"							"#TF_SpecialEvent_Body"		
+		"explanation_body"							"#TF_SpecialEvent_Body"
 
-		"next_explanation"							"SpecialEventsExpiration"	
+		"next_explanation"							"SpecialEventsExpiration"
 	}
 
 	"SpecialEventsExpiration"
@@ -1028,7 +1010,7 @@
 		"PaintBackgroundType"						"2"
 		"paintbackground" 							"0"
 		"border"									"MaterialBlackDark"
-		
+
 		"force_close"								"0"
 		"end_x"										"r600"
 		"end_y"										"40"
@@ -1039,6 +1021,6 @@
 
 		"res_file_controls"							"1"
 		"explanation_title"							"#TF_SpecialEventExpiration_Title"
-		"explanation_body"							"#TF_SpecialEventExpiration_Body"		
+		"explanation_body"							"#TF_SpecialEventExpiration_Body"
 	}
 }

@@ -1,4 +1,4 @@
-"Resource/UI/FullLoadoutPanel.res"
+"Resource/UI/BackpackPanel.res"
 {
 	"backpack_panel"
 	{
@@ -6,7 +6,7 @@
 		"item_backpack_offcenter_x"					"-280"
 		"page_button_y"								"295"
 		"page_button_per_row" 						"20"
-		
+
 		"modelpanels_kv"
 		{
 			"wide"									"58"
@@ -14,7 +14,7 @@
 			"model_tall"							"33"
 		}
 	}
-	
+
 	"BackpackBGCustom"
 	{
 		"xpos"										"cs-0.5"
@@ -35,7 +35,7 @@
 	{
 		"wide"										"81"
 	}
-	
+
 	"ShowBaseItemsCheckbox"
 	{
 		"labelText"									"Stock Items"
@@ -45,7 +45,7 @@
 	{
 		"wide"										"85"
 	}
-	
+
 	"CurPageLabel"
 	{
 		"xpos"										"-45"
@@ -60,7 +60,7 @@
 	{
 		"wide"										"161"
 	}
-	
+
 	"SortByComboBox"
 	{
 		"wide"										"115"
@@ -69,12 +69,12 @@
 	{
 		"wide"										"121"
 	}
-	
+
 	"CancelApplyToolButton"
 	{
 		"wide"										"136"
 	}
-	
+
 	"DragToNextPageButton"
 	{
 		"xpos"										"c281"
@@ -82,7 +82,7 @@
 		"wide"										"20"
 		"tall"										"219"
 		"font"										"Symbols 18"
-	}	
+	}
 	"DragToPrevPageButton"
 	{
 		"xpos"										"c-300"

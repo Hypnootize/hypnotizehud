@@ -1,4 +1,4 @@
-"Resource/UI/ConfirmItemPreviewDialog.res"
+"Resource/UI/Econ/ConfirmItemPreviewDialog.res"
 {
 	"ConfirmItemPreviewDialog"
 	{
@@ -28,13 +28,13 @@
 		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"2"
 		"paintborder"								"1"
-		
+
 		"text_ypos"									"20"
 		"text_center"								"1"
 		"model_hide"								"1"
 		"resize_to_text"							"1"
 		"padding_height"							"15"
-		
+
 		"attriblabel"
 		{
 			"font"									"ItemFontAttribLarge"
@@ -99,9 +99,9 @@
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"tool_icon"
 		"xpos"										"9999"
-	}				
+	}
 	"tool_modelpanel"
-	{		
+	{
 		"ControlName"								"CItemModelPanel"
 		"fieldName"									"tool_modelpanel"
 		"xpos"										"158"
@@ -147,7 +147,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor_override" 							"Red"
+		"fgcolor"		 							"Red"
 	}
 
 	"CancelButton"
@@ -163,28 +163,25 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"Cancel (&Q)"
 		"font"										"Size 14"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"0"
 		"Command"									"cancel"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"								"CExButton"
@@ -198,24 +195,21 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#CraftNameConfirm"
 		"font"										"Size 14"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"apply"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}

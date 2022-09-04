@@ -1,17 +1,17 @@
 "Resource/UI/HudObjectiveFlagPanel.res"
-{	
+{
 	"ObjectiveStatusFlagPanel"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ObjectiveStatusFlagPanel"
-		"xpos"										"0"	
+		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"f0"
 		"tall"										"480"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"if_hybrid"
 		{
 			"zpos"									"-1"
@@ -19,11 +19,11 @@
 
 		"if_mvm"
 		{
-			"xpos"									"-7"	
+			"xpos"									"-7"
 			"ypos"									"-8"
 		}
 	}
-	
+
 	"BlackTransparentBG"
 	{
 		"ControlName"								"CExImageButton"
@@ -41,7 +41,7 @@
 		"border_default"							"MaterialTransparent50"
         "textinsety" 								"99"
 		"proportionaltoparent"						"1"
-		
+
 		"if_hybrid"
 		{
 			"visible"								"0"
@@ -68,16 +68,14 @@
 		"enabled"									"1"
 		"labelText"									"#TF_PlayingTo"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"AllCaps"									"1"
 		"font"										"Size 8"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling"							"BlackTransparentBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
-		
+
 		"if_hybrid"
 		{
 			"visible"								"0"
@@ -92,7 +90,7 @@
 		}
 	}
 
-	"BlueScoreBG"	
+	"BlueScoreBG"
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"BlueScoreBG"
@@ -127,7 +125,7 @@
 			"visible"								"0"
 		}
 	}
-	
+
 	"BlueScore"
 	{
 		"ControlName"								"CExLabel"
@@ -139,14 +137,14 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"west"	
+		"textAlignment"								"west"
 		"labelText"									"%bluescore%"
 		"font"										"Size 18"
 		"fgcolor"									"White"
 		"pin_to_sibling"							"BlueScoreBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
-		
+
 		"if_hybrid"
 		{
 			"visible"								"0"
@@ -173,12 +171,12 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"west"	
+		"textAlignment"								"west"
 		"labelText"									"%bluescore%"
 		"font"										"Size 18 Blur"
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"BlueScore"
-		
+
 		"if_hybrid"
 		{
 			"visible"								"0"
@@ -194,8 +192,8 @@
 			"visible"								"0"
 		}
 	}
-	
-	"RedScoreBG"	
+
+	"RedScoreBG"
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"RedScoreBG"
@@ -230,7 +228,7 @@
 			"visible"								"0"
 		}
 	}
-	
+
 	"RedScore"
 	{
 		"ControlName"								"CExLabel"
@@ -242,14 +240,14 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"east"	
+		"textAlignment"								"east"
 		"labelText"									"%redscore%"
 		"font"										"Size 18"
 		"fgcolor"									"White"
 		"pin_to_sibling"							"RedScoreBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
-		
+
 		"if_hybrid"
 		{
 			"visible"								"0"
@@ -276,12 +274,12 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"east"	
+		"textAlignment"								"east"
 		"labelText"									"%redscore%"
 		"font"										"Size 18 Blur"
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"RedScore"
-		
+
 		"if_hybrid"
 		{
 			"visible"								"0"
@@ -309,18 +307,18 @@
 		"tall"										"90"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"if_hybrid_single"
 		{
 			"xpos"									"c-55"
 			"ypos"									"r40"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"ypos"									"r35"
 		}
-		
+
 		"if_no_flags"
 		{
 			"visible"								"0"
@@ -330,7 +328,7 @@
 			"visible"								"0"
 		}
 	}
-	
+
 	"RedFlag"
 	{
 		"ControlName"								"CTFFlagStatus"
@@ -342,13 +340,13 @@
 		"tall"										"90"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"if_hybrid_single"
 		{
 			"xpos"									"c-55"
 			"ypos"									"r40"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"								"0"
@@ -361,21 +359,21 @@
 		{
 			"visible"								"0"
 		}
-	}	
-	
+	}
+
 	"CaptureFlag"
 	{
 		"ControlName"								"CTFArrowPanel"
 		"fieldName"									"CaptureFlag"
 		"xpos"										"cs-0.5"
-		"ypos"										"r44"	
+		"ypos"										"r44"
 		"zpos"										"5"
 		"wide"										"35"
 		"tall"										"35"
 		"visible"									"0"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"if_hybrid"
 		{
 			"ypos"									"r44"
@@ -389,7 +387,7 @@
 			"tall"									"38"
 		}
 	}
-	
+
 	"CarriedImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -404,7 +402,7 @@
 		"image"										"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
-		
+
 		"if_hybrid"
 		{
 			"ypos"									"r36"
@@ -415,7 +413,7 @@
 			"visible"								"0"
 		}
 	}
-	
+
 	"PoisonIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -479,7 +477,7 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"SpecCarriedImage"
 	{
 		"ControlName"								"ImagePanel"

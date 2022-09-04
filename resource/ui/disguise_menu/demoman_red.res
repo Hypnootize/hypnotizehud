@@ -1,9 +1,9 @@
 #base "demoman_blue.res"
 
-"Resource/UI/disguise_menu/demoman_red.res"
+"Resource/UI/Disguise_Menu/Demoman_Red.res"
 {
 	"ItemNameLabel"
-	{	
-		"fgcolor_override"							"Red"
+	{
+		"fgcolor"									"Red"
 	}
 }

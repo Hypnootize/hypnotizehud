@@ -14,7 +14,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-	
+
 	"AmmoInClip"
 	{
 		"ControlName"								"CExLabel"
@@ -33,12 +33,12 @@
 		"enabled"									"1"
 		"textAlignment"								"east"
 		"labelText"									"%Ammo%"
-		
+
 		"pin_to_sibling"							"AmmoAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
-	}	
-	
+	}
+
 	"AmmoInClipShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -55,12 +55,12 @@
 		"tall_minmode"								"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"textAlignment"								"east"	
+		"textAlignment"								"east"
 		"labelText"									"%Ammo%"
-		
+
 		"pin_to_sibling" 							"AmmoInClip"
-	}	
-	
+	}
+
 	"AmmoInReserve"
 	{
 		"ControlName"								"CExLabel"
@@ -79,12 +79,12 @@
 		"enabled"									"1"
 		"textAlignment"								"west"
 		"labelText"									"%AmmoInReserve%"
-		
+
 		"pin_to_sibling"							"AmmoAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-	}	
-	
+	}
+
 	"AmmoInReserveShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -101,10 +101,10 @@
 		"enabled"									"1"
 		"textAlignment"								"west"
 		"labelText"									"%AmmoInReserve%"
-		
+
 		"pin_to_sibling" 							"AmmoInReserve"
-	}	
-	
+	}
+
 	"AmmoNoClip"
 	{
 		"ControlName"								"CExLabel"
@@ -121,14 +121,14 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"textAlignment"								"center"	
+		"textAlignment"								"center"
 		"labelText"									"%Ammo%"
-		
+
 		"pin_to_sibling"							"AmmoAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-	
+
 	"AmmoNoClipShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -145,16 +145,16 @@
 		"tall_minmode"								"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"textAlignment"								"center"	
+		"textAlignment"								"center"
 		"labelText"									"%Ammo%"
-		
+
 		"pin_to_sibling" 							"AmmoNoClip"
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	"HudWeaponAmmoBG"
 	{
 		"ControlName"								"CTFImagePanel"

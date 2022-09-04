@@ -19,23 +19,21 @@
 		"wrap"									"1"
 		"centerwrap"							"1"
 		"AllCaps"								"1"
-		"dulltext"								"0"
-		"brighttext"							"0"
 		"default"								"1"
 		"command"								"%button_command%"
 		"proportionaltoparent" 					"1"
 		"actionsignallevel"						"2"
 
 		"paintbackground"						"0"
-		
+
 		"defaultFgColor_override"				"White"
 		"armedFgColor_override"					"White"
 		"depressedFgColor_override"				"White"
-		
+
 		"border_default"						"MaterialGrayDark"
 		"border_armed"							"MaterialHypno"
 	}
-	
+
 	"MatchmakingBanPanel"
 	{
 		"ControlName"							"EditablePanel"
@@ -56,7 +54,7 @@
 			"ControlName"						"CExLabel"
 			"fieldName"							"MatchmakingBanDurationLabel"
 			"font"								"Size 9"
-			"fgcolor_override"					"Red"
+			"fgcolor"							"Red"
 			"labelText"							"#TF_Matchmaking_Ban_Duration_Remaining"
 			"textalignment"						"south-west"
 			"xpos"								"5"
@@ -73,31 +71,31 @@
 			"paintbackground"					"0"
 		}
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	////DEAD STUFF////
-	
+
 	"ModeImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -128,7 +126,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"mouseinputenabled"							"1"
-		"eatmouseinput"								"0"	
+		"eatmouseinput"								"0"
 		"showtooltipswhenmousedisabled"				"1"
 	}
 	"ToolTipButtonHack"
@@ -143,7 +141,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"mouseinputenabled"							"1"
-		"eatmouseinput"								"0"	
+		"eatmouseinput"								"0"
 		"showtooltipswhenmousedisabled"				"1"
 		"proportionaltoparent" 						"1"
 	}

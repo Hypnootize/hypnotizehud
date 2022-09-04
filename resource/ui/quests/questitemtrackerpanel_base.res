@@ -1,8 +1,8 @@
-"Resource/UI/QuestItemTrackerPanel_Base.res"
-{	
+"Resource/UI/Quests/QuestItemTrackerPanel_Base.res"
+{
 	"ItemName"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"ItemName"
 		"labeltext"									"%itemname%"
 		"xpos"										"rs1"
@@ -11,7 +11,7 @@
 		"tall"										"18"
 		"zpos"										"4"
 		"textinsetx"								"5"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 		"font"										"AchievementTracker_Name"
 		//"wrap"									"1"
 		"TextAlignment"								"north-east"
@@ -22,13 +22,13 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"NotYetCommittedContainer"
-		"xpos"										"rs1"		
-		"ypos"										"0"		
+		"xpos"										"rs1"
+		"ypos"										"0"
 		"zpos"										"3"
 		"wide"										"f0"
 		"tall"										"10"
 		"visible"									"1"
-		"enabled"									"1"	
+		"enabled"									"1"
 
 		"proportionaltoparent"						"1"
 
@@ -43,7 +43,7 @@
 			"tall"									"f0"
 			"zpos"									"4"
 			"textinsetx"							"5"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 			"font"									"QuestObjectiveTracker_Desc"
 			//"wrap"								"1"
 			"TextAlignment"							"north-east"

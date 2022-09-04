@@ -1,4 +1,4 @@
-"Resource/UI/econ/ComboBoxBackpackOverlayDialogBase.res"
+"Resource/UI/Econ/ComboBoxBackpackOverlayDialogBase.res"
 {
 	"ComboBoxBackpackOverlayDialogBase"
 	{
@@ -13,7 +13,7 @@
 		"paintbackgroundtype"						"0"
 		"settitlebarvisible"						"1"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -36,7 +36,7 @@
 	}
 
 	"preview_model"
-	{		
+	{
 		"ControlName"								"CItemModelPanel"
 		"fieldName"									"preview_model"
 		"xpos"										"20"
@@ -59,7 +59,7 @@
 		"text_center"								"1"
 		"name_only"									"1"
 		"paint_icon_hide"							"0"
-		
+
 		"itemmodelpanel"
 		{
 			"force_use_model"						"1"
@@ -83,13 +83,12 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"0"
 		"maxchars"									"-1"
 		"NumericInputOnly"							"0"
 		"unicode"									"0"
-		
+
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"Blank"
 		"disabledFgColor_override" 					"White"
@@ -97,7 +96,7 @@
 		"selectionColor_override" 					"Blank"
 		"selectionTextColor_override" 				"White"
 		"defaultSelectionBG2Color_override" 		"Blank"
-		
+
 		"Button"
 		{
 			"defaultFgColor_override"				"White"
@@ -107,7 +106,7 @@
 			"paintbackgroundtype"					"0"
 		}
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -121,28 +120,25 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#Cancel"
 		"font"										"Size 14"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"0"
 		"Command"									"cancel"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"								"CExButton"
@@ -156,23 +152,20 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#TF_OK"
 		"font"										"Size 14"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"apply"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"

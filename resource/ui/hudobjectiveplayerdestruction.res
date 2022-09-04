@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectivePlayerDestruction.res"
-{	
+{
 	"ObjectiveStatusRobotDestruction"
 	{
 		"ControlName"								"EditablePanel"
@@ -18,7 +18,7 @@
 		"robot_y_offset"							"47"
 		"robot_x_step"								"23"
 		"robot_y_step"								"0"
-		
+
 
 		"color_blue"								"92 173 255 255"
 		"color_red"									"255 61 61 255"
@@ -43,7 +43,7 @@
 			"skip_autoresize" 						"1"
 		}
 	}
-	
+
 	"BlackTransparentBG"
 	{
 		"ControlName"								"CExImageButton"
@@ -75,18 +75,16 @@
 		"enabled"									"1"
 		"labelText"									"#TF_PlayingTo"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"AllCaps"									"1"
 		"font"										"Size 8"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling"							"BlackTransparentBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
-	
-	"BlueScoreBG"	
+
+	"BlueScoreBG"
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"BlueScoreBG"
@@ -106,7 +104,7 @@
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	"RedScoreBG"	
+	"RedScoreBG"
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"RedScoreBG"
@@ -126,7 +124,7 @@
 		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+
 	"CarriedContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -139,7 +137,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"paintbackground"							"0"
-		
+
 		"GreenBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -154,7 +152,7 @@
 			"paintbackground"						"0"
 			"border"								"MaterialGreen"
 		}
-	
+
 		"CarriedImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -169,7 +167,7 @@
 			"image"									"../hud/hud_obj_status_ammo_64"
 			"scaleImage"							"1"
 			"proportionalToParent"					"1"
-		}	
+		}
 
 		"CarriedProgressBar"
 		{
@@ -192,11 +190,11 @@
 			"tall"									"15"
 			"visible"								"1"
 			"enabled"								"1"
-			"textAlignment"							"center"	
+			"textAlignment"							"center"
 			"labelText"								"%flagvalue%"
 			"font"									"Size 12"
-			"fgcolor"								"White"	
-			"proportionalToParent"					"1"	
+			"fgcolor"								"White"
+			"proportionalToParent"					"1"
 		}
 		"FlagValueShadow"
 		{
@@ -209,14 +207,14 @@
 			"tall"									"15"
 			"visible"								"1"
 			"enabled"								"1"
-			"textAlignment"							"center"	
+			"textAlignment"							"center"
 			"labelText"								"%flagvalue%"
 			"font"									"Size 12 Blur"
-			"fgcolor"								"Shadow"	
-			"proportionalToParent"					"1"	
+			"fgcolor"								"Shadow"
+			"proportionalToParent"					"1"
 			"pin_to_sibling"						"FlagValue"
 		}
-		
+
 		"TeamLeaderImage"
 		{
 			"ControlName"							"CTFImagePanel"
@@ -271,7 +269,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionalToParent"					"1"
-		
+
 			"ScoreOutline"
 			{
 				"fieldName"							"ScoreOutline"
@@ -309,17 +307,17 @@
 				"tall"								"16"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"west"	
+				"textAlignment"						"west"
 				"labelText"							"%blue_escrow%"
 				"font"								"Size 16"
-				"fgcolor"							"White"		
+				"fgcolor"							"White"
 				"proportionalToParent"				"1"
-				
+
 				"pin_to_sibling"					"FlagImageBlue"
 				"pin_corner_to_sibling"				"PIN_TOPLEFT"
 				"pin_to_sibling_corner"				"PIN_TOPRIGHT"
 			}
-			
+
 			"EscrowBlueShadow"
 			{
 				"ControlName"						"CExLabel"
@@ -331,12 +329,12 @@
 				"tall"								"16"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"west"	
+				"textAlignment"						"west"
 				"labelText"							"%blue_escrow%"
 				"font"								"Size 16 Blur"
-				"fgcolor"							"Shadow"		
+				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
-				
+
 				"pin_to_sibling"					"EscrowBlue"
 			}
 
@@ -367,17 +365,17 @@
 				"tall"								"16"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"east"	
+				"textAlignment"						"east"
 				"labelText"							"%red_escrow%"
 				"font"								"Size 16"
-				"fgcolor"							"White"		
+				"fgcolor"							"White"
 				"proportionalToParent"				"1"
-				
+
 				"pin_to_sibling"					"FlagImageRed"
 				"pin_corner_to_sibling"				"PIN_TOPRIGHT"
 				"pin_to_sibling_corner"				"PIN_TOPLEFT"
 			}
-			
+
 			"EscrowRedShadow"
 			{
 				"ControlName"						"CExLabel"
@@ -389,12 +387,12 @@
 				"tall"								"16"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"east"	
+				"textAlignment"						"east"
 				"labelText"							"%red_escrow%"
 				"font"								"Size 16 Blur"
-				"fgcolor"							"Shadow"		
+				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
-				
+
 				"pin_to_sibling"					"EscrowRed"
 			}
 
@@ -410,7 +408,7 @@
 				"visible"							"0"
 				"enabled"							"1"
 				"proportionalToParent"				"1"
-				
+
 				"VictoryLabel2"
 				{
 					"ControlName"					"CExLabel"
@@ -446,7 +444,7 @@
 					"proportionalToParent"			"1"
 					"pin_to_sibling" 				"VictoryLabel2"
 				}
-				
+
 				"VictoryLabelTime"
 				{
 					"ControlName"					"CExLabel"
@@ -458,12 +456,12 @@
 					"tall"							"20"
 					"visible"						"1"
 					"enabled"						"1"
-					"textAlignment"					"east"	
+					"textAlignment"					"east"
 					"labelText"						"%victorytime%"
 					"font"							"Size 18"
-					"fgcolor"						"White"		
+					"fgcolor"						"White"
 					"proportionalToParent"			"1"
-					
+
 					"pin_to_sibling" 				"VictoryLabel2"
 					"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 					"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
@@ -482,7 +480,7 @@
 					"textAlignment"					"east"
 					"labelText"						"%victorytime%"
 					"font"							"Size 18 Blur"
-					"fgcolor"						"Shadow"		
+					"fgcolor"						"Shadow"
 					"proportionalToParent"			"1"
 					"pin_to_sibling" 				"VictoryLabelTime"
 				}
@@ -567,7 +565,7 @@
 					"proportionalToParent"			"1"
 					"pin_to_sibling" 				"VictoryLabel2"
 				}
-				
+
 				"VictoryLabelTime"
 				{
 					"ControlName"					"CExLabel"
@@ -582,9 +580,9 @@
 					"textAlignment"					"east"
 					"labelText"						"%victorytime%"
 					"font"							"Size 18"
-					"fgcolor"						"White"		
+					"fgcolor"						"White"
 					"proportionalToParent"			"1"
-					
+
 					"pin_to_sibling" 				"VictoryLabel2"
 					"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 					"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
@@ -603,7 +601,7 @@
 					"textAlignment"					"east"
 					"labelText"						"%victorytime%"
 					"font"							"Size 18 Blur"
-					"fgcolor"						"Shadow"		
+					"fgcolor"						"Shadow"
 					"proportionalToParent"			"1"
 					"pin_to_sibling" 				"VictoryLabelTime"
 				}
@@ -653,7 +651,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionalToParent"					"1"
-			
+
 			"Score"
 			{
 				"ControlName"						"CExLabel"
@@ -665,7 +663,7 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"west"	
+				"textAlignment"						"west"
 				"labelText"							"%score%"
 				"font"								"Size 18"
 				"fgcolor"							"White"
@@ -682,14 +680,14 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"west"	
+				"textAlignment"						"west"
 				"labelText"							"%score%"
 				"font"								"Size 18 Blur"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
 				"pin_to_sibling" 					"Score"
 			}
-			
+
 			"WhiteBG"
 			{
 				"ControlName"						"EditableLabel"
@@ -729,7 +727,7 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"east"	
+				"textAlignment"						"east"
 				"labelText"							"%score%"
 				"font"								"Size 18"
 				"fgcolor"							"White"
@@ -746,14 +744,14 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"east"	
+				"textAlignment"						"east"
 				"labelText"							"%score%"
 				"font"								"Size 18 Blur"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
 				"pin_to_sibling" 					"Score"
 			}
-			
+
 			"WhiteBG"
 			{
 				"ControlName"						"EditableLabel"
@@ -763,7 +761,7 @@
 			"RedBar"
 			{
 				"ControlName"						"EditableLabel"
-				"fieldName"							"BlueBar"
+				"fieldName"							"RedBar"
 				"xpos"								"9999"
 			}
 		}
@@ -810,7 +808,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"paintbackground"					"0"
-				
+
 				"proportionalToParent"				"1"
 
 				"DroppedIntelImage"
@@ -841,7 +839,7 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"center"	
+				"textAlignment"						"center"
 				"labelText"							"%intelvalue%"
 				"font"								"Size 16"
 				"fgcolor"							"White"
@@ -858,9 +856,9 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"center"	
+				"textAlignment"						"center"
 				"labelText"							"%intelvalue%"
-				"font"								"Size 16 Blur"	
+				"font"								"Size 16 Blur"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
 				"pin_to_sibling" 					"IntelValue"
@@ -909,7 +907,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"paintbackground"					"0"
-				
+
 				"proportionalToParent"				"1"
 
 				"DroppedIntelImage"
@@ -940,7 +938,7 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"center"	
+				"textAlignment"						"center"
 				"labelText"							"%intelvalue%"
 				"font"								"Size 16"
 				"fgcolor"							"White"
@@ -957,9 +955,9 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"center"	
+				"textAlignment"						"center"
 				"labelText"							"%intelvalue%"
-				"font"								"Size 16 Blur"	
+				"font"								"Size 16 Blur"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
 				"pin_to_sibling" 					"IntelValue"
@@ -998,7 +996,7 @@
 			"visible"								"0"
 			"enabled"								"0"
 		}
-		
+
 		"CountdownLabelTime"
 		{
 			"ControlName"							"CExLabel"
@@ -1010,7 +1008,7 @@
 			"tall"									"40"
 			"visible"								"1"
 			"enabled"								"1"
-			"textAlignment"							"center"	
+			"textAlignment"							"center"
 			"labelText"								"%countdowntime%"
 			"font"									"Size 16"
 			"fgcolor"								"White"
@@ -1028,16 +1026,16 @@
 			"tall"									"40"
 			"visible"								"1"
 			"enabled"								"1"
-			"textAlignment"							"center"	
+			"textAlignment"							"center"
 			"labelText"								"%countdowntime%"
 			"font"									"Size 16 Blur"
-			"fgcolor"								"Shadow"		
+			"fgcolor"								"Shadow"
 			"proportionalToParent"					"1"
-			
+
 			"pin_to_sibling"						"CountdownLabelTime"
 		}
 	}
-	
+
 	//REMOVED STUFF
 	"PlayingToBG"
 	{

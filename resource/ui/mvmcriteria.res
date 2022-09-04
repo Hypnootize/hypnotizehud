@@ -12,7 +12,7 @@
 
 		"ChallengeLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ChallengeLabel"
 			"font"									"Size 14"
 			"labelText"								"#TF_MvM_TourOfDuty"
@@ -23,12 +23,12 @@
 			"zpos"									"0"
 			"wide"									"400"
 			"tall"									"26"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"DifficultyLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"DifficultyLabel"
 			"font"									"Size 11"
 			"labelText"								"#TF_MvM_Difficulty"
@@ -39,12 +39,12 @@
 			"zpos"									"0"
 			"wide"									"100"
 			"tall"									"24"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"CompleteLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"CompleteLabel"
 			"font"									"Size 11"
 			"labelText"								"#TF_MvM_TourOfDutyProgress"
@@ -55,12 +55,12 @@
 			"zpos"									"0"
 			"wide"									"80"
 			"tall"									"24"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"TourLevelLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"TourLevelLabel"
 			"font"									"Size 11"
 			"labelText"								"#TF_MvM_TourNumber"
@@ -71,7 +71,7 @@
 			"zpos"									"0"
 			"wide"									"80"
 			"tall"									"26"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"TourlistGroupBox"
@@ -116,7 +116,7 @@
 
 		"TourDifficultyWarning"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"TourDifficultyWarning"
 			"font"									"Size 11"
 			"labelText"								"#TF_MVM_Tour_ExpertDifficulty_Warning"
@@ -130,7 +130,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 	}
 
@@ -165,7 +165,7 @@
 
 		"ToorLootTitle"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ToorLootTitle"
 			"font"									"Size 14"
 			"labelText"								"#TF_MvM_TourLootTitle"
@@ -176,12 +176,12 @@
 			"wide"									"200"
 			"tall"									"30"
 			"AllCaps"								"1"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"ToorLootDetailLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ToorLootDetailLabel"
 			"font"									"Size 11"
 			"labelText"								"%tour_loot_detail%"
@@ -193,7 +193,7 @@
 			"wide"									"280"
 			"tall"									"50"
 			"AllCaps"								"1"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 	}
 
@@ -212,7 +212,7 @@
 
 		"InventoryTitleLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"InventoryTitleLabel"
 			"font"									"Size 14"
 			"labelText"								"#TF_MvM_InventoryTitle"
@@ -223,7 +223,7 @@
 			"wide"									"200"
 			"tall"									"30"
 			"AllCaps"								"1"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"MannUpTicketAd"
@@ -255,12 +255,12 @@
 
 		"MannUpTicketCountLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"MannUpTicketCountLabel"
 			"font"									"Size 24"
 			"labelText"								"%ticket_count%"
 			"textAlignment"							"north-west"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 			"xpos"									"15"
 			"ypos"									"24"
 			"zpos"									"2"
@@ -298,12 +298,12 @@
 
 		"SquadSurplusCountLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"SquadSurplusCountLabel"
 			"font"									"Size 24"
 			"labelText"								"%voucher_count%"
 			"textAlignment"							"north-west"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 			"xpos"									"82"
 			"ypos"									"24"
 			"zpos"									"2"
@@ -327,8 +327,8 @@
 
 		"ActivateSquadSurplusLabel"
 		{
-			"ControlName"							"Label"
-			"fieldName"								"SquadSurplusCheckLabel"
+			"ControlName"							"CExLabel"
+			"fieldName"								"ActivateSquadSurplusLabel"
 			"font"									"Size 11"
 			"labelText"								"#TF_MvM_ActivateSquadSurplus"
 			"textAlignment"							"north-west"
@@ -338,7 +338,7 @@
 			"zpos"									"0"
 			"wide"									"120"
 			"tall"									"60"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"Slot0"
@@ -439,10 +439,10 @@
 
 		"MissingTicketsLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"MissingTicketsLabel"
 			"font"									"Size 9"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 			"labelText"								"#TF_Matchmaking_CantQueue_NoTicket"
 			"textAlignment"							"south-west"
 			"AllCaps"								"1"
@@ -487,7 +487,7 @@
 
 		"NoMannUpTitleLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"NoMannUpTitleLabel"
 			"font"									"Size 14"
 			"labelText"								"#TF_MvM_NoMannUpTitle"
@@ -498,12 +498,12 @@
 			"wide"									"200"
 			"tall"									"30"
 			"AllCaps"								"1"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"NoMannUpDescriptionLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"NoMannUpDescriptionLabel"
 			"font"									"Size 11"
 			"labelText"								"#TF_MvM_NoMannUpDescription"
@@ -515,7 +515,7 @@
 			"wide"									"280"
 			"tall"									"50"
 			"AllCaps"								"1"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"MannUpNowButton"
@@ -531,19 +531,16 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"#TF_MvM_MannUpNow"
 			"font"									"Size 14"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"command" 								"mann_up_now"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-		
+
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
 
@@ -565,7 +562,7 @@
 
 		"ChallengeLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ChallengeLabel"
 			"font"									"Size 14"
 			"labelText"								"%tour_name%"
@@ -576,12 +573,12 @@
 			"wide"									"400"
 			"tall"									"26"
 			"AllCaps"								"1"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"CompleteLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"CompleteLabel"
 			"font"									"Size 14"
 			"labelText"								"%complete_heading%"
@@ -592,7 +589,7 @@
 			"wide"									"100"
 			"tall"									"24"
 			"AllCaps"								"1"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"TourLevelImage"
@@ -613,7 +610,7 @@
 
 		"TourLevelLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"TourLevelLabel"
 			"font"									"Size 14"
 			"labelText"								"%tour_level%"
@@ -623,7 +620,7 @@
 			"zpos"									"0"
 			"wide"									"30"
 			"tall"									"26"
-			"fgcolor_override"						"0 0 0 255"
+			"fgcolor"								"0 0 0 255"
 		}
 
 		"ChallengeListGroupBox"

@@ -1,4 +1,4 @@
-"Resource/UI/HudPlayerHealth.res"
+"Resource/UI/HudPlayerHealth_Normal.res"
 {
 	"HudPlayerHealth"
 	{
@@ -12,12 +12,12 @@
 		"wide"		              					"f0"
 		"tall"			           				 	"480"
 		"visible"	              					"1"
-		"enabled"		           					"1"	
+		"enabled"		           					"1"
 		"HealthBonusPosAdj"     					"35"
 		"HealthDeathWarning"    					"0.49"
 		"HealthDeathWarningColor"					"HUDDeathWarning"
 	}
-	
+
 	"HEALTHAnchor"									//Moves the health
 	{
 		"ControlName"								"EditablePanel"
@@ -32,36 +32,36 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-	
+
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	           				 	"CExLabel"
 		"fieldName"	  	         				 	"PlayerStatusHealthValue"
 		"xpos"		    	         				"0"
 		"xpos_minmode"		    	         		"0"
-		"ypos"		    	         				"0"	
+		"ypos"		    	         				"0"
 		"zpos"		    	         				"5"
 		"wide"		    	         				"150"
 		"tall"		    	         				"50"
 		"visible"		  	         				"1"
 		"enabled"	  		         				"1"
 		"labelText" 		         				"%Health%"
-		"textAlignment"         				 	"center"	
+		"textAlignment"         				 	"center"
 		"font"                   				 	"Game 40"
 		"font_minmode"                   			"Game 30"
 		"fgcolor"	    	         				"Health Numbers"
-		
+
 		"pin_to_sibling"							"HealthAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-	
+
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	           				 	"CExLabel"
 		"fieldName"	  	         				 	"PlayerStatusHealthValueShadow"
 		"xpos"	    		         				"-1"
-		"ypos"	    		         				"-1"	
+		"ypos"	    		         				"-1"
 		"zpos"	    		         				"5"
 		"wide"		    	         				"151"
 		"wide_minmode"								"150"
@@ -70,14 +70,14 @@
 		"visible"	    	         				"1"
 		"enabled"	    	         				"1"
 		"labelText"	  	         				 	"%Health%"
-		"textAlignment"	         				 	"center"	
+		"textAlignment"	         				 	"center"
 		"font"                   				 	"Game 40 Blur"
 		"font_minmode"                   			"Game 30 Blur"
 		"fgcolor"	     	         				"Shadow"
-		
+
 		"pin_to_sibling" 							"PlayerStatusHealthValue"
 	}
-	
+
 	"PlayerStatusAnchor"
 	{
 		"ControlName"				         		"EditablePanel"
@@ -90,12 +90,12 @@
 		"tall"					         			"30"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		
+
 		"pin_to_sibling"							"PlayerStatusHealthValue"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -109,14 +109,14 @@
 		"tall_minmode"					         	"16"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			"../vgui/bleed_drop"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatusHookBleedImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -130,14 +130,14 @@
 		"tall_minmode"					         	"16"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"										"../vgui/bleed_drop_grapple"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatusGasImage"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -151,14 +151,14 @@
 		"tall_minmode"					         	"16"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			"../vgui/covered_in_gas"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatusMilkImage"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -172,14 +172,14 @@
 		"tall_minmode"					         	"16"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			"../vgui/bleed_drop"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatusMarkedForDeathImage"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -193,14 +193,14 @@
 		"tall_minmode"					         	"16"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			"../vgui/marked_for_death"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -214,14 +214,14 @@
 		"tall_minmode"					         	"16"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			"../vgui/marked_for_death"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -236,14 +236,14 @@
 		"tall_minmode"					         	"12"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -258,14 +258,14 @@
 		"tall_minmode"					         	"12"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatus_MedicUberFireResistImage"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -280,7 +280,7 @@
 		"tall_minmode"					         	"12"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			"../HUD/defense_buff_fire_blue"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
@@ -302,14 +302,14 @@
 		"tall_minmode"					         	"12"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -324,14 +324,14 @@
 		"tall_minmode"					         	"12"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -346,14 +346,14 @@
 		"tall_minmode"					         	"12"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			"../HUD/defense_buff_fire_blue"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatus_WheelOfDoom"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -367,14 +367,14 @@
 		"tall_minmode"					         	"16"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			"../signs/death_wheel_whammy"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatus_SoldierOffenseBuff"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -388,14 +388,14 @@
 		"tall_minmode"					         	"16"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatus_SoldierDefenseBuff"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -409,14 +409,14 @@
 		"tall_minmode"					         	"16"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatus_SoldierHealOnHitBuff"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -430,14 +430,14 @@
 		"tall_minmode"					         	"16"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatus_Parachute"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -451,14 +451,14 @@
 		"tall_minmode"					         	"16"
 		"visible"				         			"0"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			""
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatus_RuneStrength"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -472,14 +472,14 @@
 		"tall_minmode"					         	"16"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			"../Effects/powerup_strength_hud"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatus_RuneHaste"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -493,14 +493,14 @@
 		"tall_minmode"					         	"16"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			"../Effects/powerup_haste_hud"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatus_RuneRegen"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -514,14 +514,14 @@
 		"tall_minmode"					         	"16"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			"../Effects/powerup_regen_hud"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatus_RuneResist"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -535,14 +535,14 @@
 		"tall_minmode"					         	"16"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			"../Effects/powerup_resist_hud"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatus_RuneVampire"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -556,14 +556,14 @@
 		"tall_minmode"					         	"16"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			"../Effects/powerup_vampire_hud"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatus_RuneReflect"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -577,14 +577,14 @@
 		"tall_minmode"					         	"16"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"      								"../Effects/powerup_reflect_hud"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatus_RunePrecision"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -598,14 +598,14 @@
 		"tall_minmode"					         	"16"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"				         				"../Effects/powerup_precision_hud"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatus_RuneAgility"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -619,14 +619,14 @@
 		"tall_minmode"					         	"16"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			"../Effects/powerup_agility_hud"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatus_RuneKnockout"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -640,7 +640,7 @@
 		"tall_minmode"					         	"16"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			"../Effects/powerup_knockout_hud"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
@@ -667,7 +667,7 @@
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatus_RunePlague"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -688,7 +688,7 @@
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatus_RuneSupernova"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -709,7 +709,7 @@
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatusSlowed"
 	{
 		"ControlName"				         		"ImagePanel"
@@ -723,18 +723,18 @@
 		"tall_minmode"					         	"16"
 		"visible"				         			"1"
 		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
+		"scaleImage"				         		"1"
 		"image"					         			"../vgui/slowed"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	"PlayerStatusHealthImage"
 	{
 		"ControlName" 	         				 	"ImagePanel"

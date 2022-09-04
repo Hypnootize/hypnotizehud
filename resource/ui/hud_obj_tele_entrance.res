@@ -1,4 +1,4 @@
-"Resource/UI/hud_obj_tele_entrance.res"
+"Resource/UI/Hud_Obj_Tele_Entrance.res"
 {
 	"BuildingStatusItem"
 	{
@@ -10,7 +10,6 @@
 		"tall"										"32"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 	}
 
 	"BackgroundCustom"
@@ -27,7 +26,7 @@
 		"proportionaltoparent"						"1"
 		"border"									"MaterialTransparent50"
 	}
-	
+
 	"IconBackgound"
 	{
 		"ControlName"								"EditablePanel"
@@ -55,7 +54,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"scaleImage"								"1"	
+		"scaleImage"								"1"
 		"icon"										"obj_status_tele_entrance"
 		"iconColor"									"White"
 
@@ -74,7 +73,7 @@
 		"tall"										"30"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"NotBuiltBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -95,13 +94,11 @@
 			"enabled"								"1"
 			"labelText"								"#Building_hud_tele_enter_not_built_360"
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 		}
 	}
-	
+
 	"BuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -113,7 +110,7 @@
 		"tall"										"30"
 		"visible"									"0"
 		"proportionaltoparent"						"1"
-		
+
 		"Icon_Upgrade_1"
 		{
 			"ControlName"							"CIconPanel"
@@ -125,7 +122,7 @@
 			"tall"									"14"
 			"visible"								"0"
 			"enabled"								"1"
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"icon"									"obj_status_upgrade_1"
 			"iconColor"								"White"
 			"proportionaltoparent"					"1"
@@ -142,7 +139,7 @@
 			"tall"									"14"
 			"visible"								"0"
 			"enabled"								"1"
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"icon"									"obj_status_upgrade_2"
 			"iconColor"								"White"
 			"proportionaltoparent"					"1"
@@ -159,26 +156,26 @@
 			"tall"									"14"
 			"visible"								"0"
 			"enabled"								"1"
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"icon"									"obj_status_upgrade_3"
 			"iconColor"								"White"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"AlertTray"
 		{
 			"ControlName"							"CBuildingStatusAlertTray"
 			"fieldName"								"AlertTray"
 			"xpos"									"9999"
 		}
-		
+
 		"WrenchIcon"
 		{
 			"ControlName"							"CIconPanel"
 			"fieldName"								"WrenchIcon"
 			"xpos"									"9999"
 		}
-		
+
 		"SapperIcon"
 		{
 			"ControlName"							"CIconPanel"
@@ -190,31 +187,27 @@
 			"tall"									"25"
 			"visible"								"0"
 			"enabled"								"1"
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"icon"									"obj_status_icon_sapper"
 			"iconColor"								"Black"
 			"paintbackground"						"1"
 			"bgcolor_override"						"Red"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"Health"
-		{	
+		{
 			"ControlName"							"CBuildingHealthBar"
 			"fieldName"								"Health"
-			"font"									"Default"
 			"xpos"									"rs1-3"
 			"ypos"									"cs-0.5-1"
 			"wide"									"6"
 			"tall"									"28"
 			"visible"								"1"
 			"enabled"								"1"
-			"textAlignment"							"Left"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"BuildingPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -223,7 +216,7 @@
 			"tall"									"0"
 			"visible"								"0"
 		}
-		
+
 		"RunningPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -234,14 +227,14 @@
 			"tall"									"f0"
 			"visible"								"0"
 			"proportionaltoparent"					"1"
-			
+
 			"TeleportedIcon"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"TeleportedIcon"
 				"xpos"								"9999"
 			}
-			
+
 			"ChargingPanel"
 			{
 				"ControlName"						"EditablePanel"
@@ -252,21 +245,17 @@
 				"tall"								"6"
 				"visible"							"0"
 				"proportionaltoparent"				"1"
-				
+
 				"Recharge"
 				{
 					"ControlName"					"ContinuousProgressBar"
 					"fieldName"						"Recharge"
-					"font"							"Default"
 					"xpos"							"0"
 					"ypos"							"0"
 					"wide"							"f0"
 					"tall"							"f0"
 					"visible"						"1"
 					"enabled"						"1"
-					"textAlignment"					"Left"
-					"dulltext"						"0"
-					"brighttext"					"0"
 					"proportionaltoparent"			"1"
 					"bgcolor_override"				"130 130 130 255"
 				}
@@ -284,14 +273,12 @@
 					"enabled"						"1"
 					"labelText"						"CHARGE"
 					"textAlignment"					"center"
-					"dulltext"						"0"
-					"brighttext"					"0"
 					"fgcolor"						"Black"
 					"AllCaps"						"1"
 					"proportionaltoparent"			"1"
 				}
 			}
-			
+
 			"FullyChargedPanel"
 			{
 				"ControlName"						"EditablePanel"
@@ -302,9 +289,9 @@
 				"tall"								"10"
 				"visible"							"0"
 				"proportionaltoparent"				"1"
-				
+
 				"Used"
-				{	
+				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"Used"
 					"font"							"Size 10"
@@ -318,15 +305,13 @@
 					"enabled"						"1"
 					"labelText"						"used:"
 					"textAlignment"					"west"
-					"dulltext"						"0"
-					"brighttext"					"0"
 					"drawcolor"						"White"
 					"AllCaps"						"1"
 					"proportionaltoparent"			"1"
 				}
-				
+
 				"TimesUsedLabel"
-				{	
+				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"TimesUsedLabel"
 					"font"							"Size 10"
@@ -340,25 +325,22 @@
 					"enabled"						"1"
 					"labelText"						"%timesused%"
 					"textAlignment"					"west"
-					"dulltext"						"0"
-					"brighttext"					"0"
 					"drawcolor"						"White"
 					"proportionaltoparent"			"1"
 				}
 			}
-			
+
 			"UpgradeIcon"
 			{
 				"ControlName"						"CIconPanel"
 				"fieldName"							"UpgradeIcon"
 				"xpos"								"9999"
 			}
-			
+
 			"Upgrade"
-			{	
+			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Upgrade"
-				"font"								"Default"
 				"xpos"								"32"
 				"ypos"								"rs1-3"
 				"zpos"								"2"
@@ -366,9 +348,6 @@
 				"tall"								"6"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"Left"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"proportionaltoparent"				"1"
 				"bgcolor_override"					"130 130 130 255"
 			}

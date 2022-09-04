@@ -12,10 +12,9 @@
 		"pinCorner"				  					"0"
 		"visible"				  					"1"
 		"enabled"				  					"1"
-		"tabPosition"			  					"0"
 		"settitlebarvisible"	  					"0"
 	}
-	
+
 	"TitleFrame"
 	{
 		"ControlName"     		  					"EditablePanel"
@@ -30,7 +29,7 @@
 		"paintbackground"							"0"
 		"border"									"MaterialTransparent70"
 	}
-	
+
 	"TFMessageTitle"
 	{
 		"ControlName"								"CExLabel"
@@ -47,18 +46,16 @@
 		"labelText"									"#TF_WELCOME"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"dulltext"									"0"
-		"brighttext"								"1"
 		"font"										"Size 14"
-		"fgcolor_override"							"White"
-		
+		"fgcolor"									"White"
+
 		"pin_to_sibling" 							"TitleFrame"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
 	}
-	
+
 	"Background"
-	{	
+	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"Background"
 		"font"										"Default"
@@ -91,7 +88,7 @@
 		"textAlignment"								"center"
 		"fgcolor"									"White"
 		"AllCaps"									"1"
-		
+
 		"pin_to_sibling" 							"Background"
 	}
 
@@ -108,12 +105,11 @@
 		"pinCorner"		 							"0"
 		"visible"		 							"1"
 		"enabled"		 							"1"
-		"tabPosition"	 							"0"
 		"paintborder"	 							"0"
-		
+
 		"pin_to_sibling" 							"Background"
 	}
-	
+
 	"ok"
 	{
 		"ControlName"								"CExButton"
@@ -127,31 +123,28 @@
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									" CONTINUE (&E)"
 		"textAlignment"								"center"
 		"textinsety"								"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"wrap"										"0"
 		"command"									"okay"
 		"default"									"1"
 		"font"										"Size 18"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"paintborder"								"0"		//disabled, doesn't work anyway... classic
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-		
+
 		"pin_to_sibling" 							"Background"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
-	
+
 	"okBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -164,16 +157,16 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"border"									"MaterialTransparent70"
-		
+
 		"pin_to_sibling" 							"Background"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	"TextMessage"
 	{
 		"ControlName"								"TextEntry"
@@ -194,8 +187,8 @@
 	}
 	"MessageTitle"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"MessageTitle"
 		"xpos"										"9999"
-	}		
+	}
 }

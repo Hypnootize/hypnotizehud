@@ -15,7 +15,6 @@
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayDarkest"
@@ -32,7 +31,7 @@
 		"button_ypos"								"85"
 		"button_ydelta"								"80"
 		"button_override_delete_xpos"				"0"
-		
+
 		"modelpanels_kv"
 		{
 			"ControlName"							"CItemModelPanel"
@@ -43,14 +42,14 @@
 			"noitem_textcolor"						"White"
 			"PaintBackgroundType"					"2"
 			"paintborder"							"1"
-			
+
 			"model_ypos"							"6"
 			"model_tall"							"30"
 			"text_center"							"1"
 			"name_only"								"1"
 			"text_forcesize" 						"3"
 			"noitem_use_fullpanel" 					"1"
-			
+
 			"inset_eq_x"							"2"
 			"inset_eq_y"							"2"
 
@@ -64,14 +63,14 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"bgcolor_override"					"Blank"
-			
+
 				"itemmodelpanel"
 				{
 					"use_item_rendertarget" 		"0"
 					"inventory_image_type"			"1"
 					"allow_rot"						"0"
 				}
-			
+
 				"namelabel"
 				{
 					"ControlName"					"CExLabel"
@@ -94,7 +93,7 @@
 				}
 			}
 		}
-		
+
 		"recipebuttons_kv"
 		{
 			"font"									"Size 11"
@@ -111,28 +110,28 @@
 			"textAlignment" 						"center"
 			"textinsetx"							"0"
 			"AllCaps"								"1"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			
+
 			"defaultBgColor_override" 				"GrayDark"
 			"armedBgColor_override" 				"Main Theme"
 			"depressedBgColor_override" 			"GrayDark"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"White"
 			"depressedFgColor_override" 			"White"
-			
+
 			//"paintborder"							"1"
 			//"border_default" 						"MaterialGrayDark"
 			//"border_Armed"						"MaterialHypno"
 		}
-		
+
 		"filter_xoffset"							"-223"
 		"filter_ypos"								"43"
 		"filter_xdelta"								"10"
 		"filter_ydelta"								"10"
-		
+
 		"recipefilterbuttons_kv"
 		{
 			"zpos"									"2"
@@ -142,7 +141,6 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								""
 			"textAlignment"							"south-west"
 			"Command"								""
@@ -151,9 +149,9 @@
 			"scaleImage"							"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-		}	
+		}
 	}
-	
+
 	"CraftingButtonsBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -168,7 +166,7 @@
 		"paintbackground"							"0"
 		"border"									"MaterialBlackLight"
 	}
-	
+
 	"CraftingFiltersBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -182,12 +180,12 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 		"border"									"MaterialGrayDarker"
-		
+
 		"pin_to_sibling"							"CraftingButtonsBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-	
+
 	"recipecontainerscroller"
 	{
 		"ControlName"								"EditablePanel"
@@ -200,7 +198,7 @@
 		"PaintBackground"							"0"
 		"fgcolor_override"							"White"
 		"autohide_buttons" 							"0"
-		
+
 		"ScrollBar"
 		{
 			"ControlName"							"ScrollBar"
@@ -220,7 +218,7 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Blank"
 	}
-	
+
 	"selectedrecipecontainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -232,7 +230,7 @@
 		"tall"										"334"
 		"PaintBackground"							"0"
 		"border"									"MaterialBlackLight"
-		
+
 		"InputLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -253,7 +251,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"OutputLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -274,7 +272,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"CraftButton"
 		{
 			"ControlName"							"CExButton"
@@ -288,25 +286,22 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"0"
-			"tabPosition"							"0"
 			"labelText"								"#CraftConfirm"
 			"font"									"Size 24"
 			"textAlignment"							"center"
 			"textinsetx"							"50"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"AllCaps"								"1"
 			"Command"								"craft"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
-		}			
-		
+		}
+
 		"FreeAccountLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -329,7 +324,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"Red"
 		}
-		
+
 		"UpgradeButton"
 		{
 			"ControlName"							"CExButton"
@@ -343,21 +338,18 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"0"
-			"tabPosition"							"0"
 			"labelText"								"#TF_Trial_Upgrade"
 			"font"									"Size 24"
 			"textAlignment"							"center"
 			"textinsetx"							"50"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"AllCaps"								"1"
 			"Command"								"upgrade"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"border_default"						"MaterialGreen"
 			"border_armed"							"MaterialHypno"
 		}
@@ -374,7 +366,7 @@
 			"xpos"									"9999"
 		}
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -389,13 +381,13 @@
 		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"2"
 		"paintborder"								"1"
-		
+
 		"text_ypos"									"20"
 		"text_center"								"1"
 		"model_hide"								"1"
 		"resize_to_text"							"1"
 		"padding_height"							"15"
-		
+
 		"attriblabel"
 		{
 			"font"									"ItemFontAttribLarge"
@@ -414,7 +406,7 @@
 			"centerwrap"							"1"
 		}
 	}
-	
+
 	"mousedragitempanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -429,20 +421,20 @@
 		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"2"
 		"paintborder"								"1"
-		
+
 		"model_ypos"								"5"
 		"model_tall"								"35"
 		"text_ypos"									"60"
 		"text_center"								"1"
 		"name_only"									"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"					"0"
 			"allow_rot"								"0"
 		}
 	}
-	
+
 	"TooltipPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -455,7 +447,7 @@
 		"visible"									"0"
 		"PaintBackgroundType"						"2"
 		"border"									"MaterialBlackDark"
-		
+
 		"TipLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -472,11 +464,11 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 			"wrap"									"1"
 			"centerwrap"							"1"
 		}
-	}	
+	}
 	"ClassLabel"
 	{
 		"ControlName"								"CExLabel"

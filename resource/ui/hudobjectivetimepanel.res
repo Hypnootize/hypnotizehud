@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveTimePanel.res"
-{	
+{
 	"TimePanelBG"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -11,19 +11,19 @@
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"image"										"replay/thumbnails/game/clock_white"
 		"scaleImage"								"1"
 		"teambg_1"									"replay/thumbnails/game/clock_white"
 		"teambg_2"									"replay/thumbnails/game/clock_red"
 		"teambg_3"									"replay/thumbnails/game/clock_blue"
-		
+
 		"src_corner_height"							"0"
 		"src_corner_width"							"0"
 		"draw_corner_width"							"0"
 		"draw_corner_height" 						"0"
 	}
-	
+
 	"ServerTimeLimitLabel"
 	{
 		"ControlName" 								"CExLabel"
@@ -37,18 +37,16 @@
 		"enabled" 									"1"
 		"labelText"									"%servertimeleft%"
 		"textAlignment"								"center"
-		"dulltext" 									"0"
-		"brighttext" 								"0"
 		"wrap" 										"0"
 		"font" 										"Size 10"
 		"fgcolor"									"White"
-		
-		if_mvm
+
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
 	}
-	
+
 	"OvertimeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -65,8 +63,8 @@
 		"textAlignment"								"west"
 		"font"										"Size 10"
 	}
-	
-	
+
+
 	//REMOVED
 	"TimePanelProgressBar"
 	{
@@ -97,19 +95,19 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"SuddenDeathLabel"
 		"xpos"										"9999"
-	}	
+	}
 	"SuddenDeathBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"SuddenDeathBG"
 		"xpos"										"9999"
-	}	
+	}
 	"SetupLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SetupLabel"
 		"xpos"										"9999"
-	}	
+	}
 	"SetupBG"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -121,5 +119,5 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"ServerTimeLimitLabelBG"
 		"xpos"										"9999"
-	}	
+	}
 }

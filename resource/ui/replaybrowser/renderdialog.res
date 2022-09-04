@@ -1,4 +1,4 @@
-"Resource/UI/replaybrowser/renderdialog.res"
+"Resource/UI/ReplayBrowser/RenderDialog.res"
 {
 	"RenderDialog"
 	{
@@ -12,15 +12,14 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		
+
 		"default_x"									"15"
 		"start_y"									"10"
 		"vertical_buffer"							"6"
 	}
-	
+
 	"BGPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -33,7 +32,7 @@
 		"paintbackground"							"0"
 		"paintborder"								"1"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -52,7 +51,7 @@
 		"enabled"									"1"
 		"fgcolor"									"White"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -66,18 +65,15 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#GameUI_CancelBold"
 		"font"										"Size 14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"cancel"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
@@ -100,18 +96,15 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#Replay_Go"
 		"font"										"Size 14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"render"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
@@ -119,7 +112,7 @@
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-	}	
+	}
 
 	"QualityPresetLabel"
 	{
@@ -136,11 +129,8 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"tabPosition"								"10"
 	}
-	
+
 	"QualityPresetCombo"
 	{
 		"ControlName"								"ComboBox"
@@ -156,9 +146,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"tabPosition"								"10"
 		"fgcolor"									"White"
 		"editable"									"0"
 	}
@@ -180,9 +167,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"tabPosition"								"10"
 	}
 
 	"ShowAdvancedOptions"
@@ -202,9 +186,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"tabPosition"								"10"
 	}
 
 	"SeparatorLine"
@@ -221,7 +202,7 @@
 		"image"										"replay/replaybrowser_solidline"
 		"tileImage"									"1"
 	}
-	
+
 	"VideoModeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -237,12 +218,9 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"tabPosition"								"10"
 		"fgcolor"									"White"
 	}
-	
+
 	"VideoModeCombo"
 	{
 		"ControlName"								"ComboBox"
@@ -258,9 +236,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"tabPosition"								"10"
 		"fgcolor_override"							"White"
 		"editable"									"0"
 	}
@@ -280,12 +255,9 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"tabPosition"								"10"
 		"fgcolor"									"White"
 	}
-	
+
 	"CodecCombo"
 	{
 		"ControlName"								"ComboBox"
@@ -301,9 +273,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"tabPosition"								"10"
 		"fgcolor_override"							"White"
 		"editable"									"0"
 	}
@@ -323,12 +292,9 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"tabPosition"								"10"
 		"fgcolor"									"White"
 	}
-	
+
 	"MotionBlurSlider"
 	{
 		"ControlName"								"Slider"
@@ -361,12 +327,9 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"tabPosition"								"10"
 		"fgcolor"									"White"
 	}
-	
+
 	"QualitySlider"
 	{
 		"ControlName"								"Slider"
@@ -401,9 +364,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"tabPosition"								"10"
 	}
 
 	"EstimateTimeLabel"
@@ -421,9 +381,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"tabPosition"								"10"
 		"fgcolor"									"White"
 	}
 	"EstimateFileLabel"
@@ -441,12 +398,9 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"tabPosition"								"10"
 		"fgcolor"									"White"
 	}
-	
+
 	"EnterANameLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -463,10 +417,9 @@
 		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
-		"tabPosition"								"10"
 		"fgcolor"									"White"
 	}
-	
+
 	"TitleInput"
 	{
 		"ControlName"								"TextEntry"
@@ -487,10 +440,9 @@
 		"enabled"									"1"
 		"bgcolor_override"							"BlankDark"
 		"fgcolor_override"							"White"
-		"tabPosition"								"10"
 		"maxchars"									"255"
 	}
-	
+
 	"ResolutionNoteLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -509,7 +461,7 @@
 		"wrap"										"1"
 		"fgcolor"									"White"
 	}
-	
+
 	"QuitWhenDone"
 	{
 		"ControlName"								"CheckButton"
@@ -527,11 +479,8 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"tabPosition"								"10"
 	}
-	
+
 	"ExportRaw"
 	{
 		"ControlName"								"CheckButton"
@@ -549,11 +498,8 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"tabPosition"								"10"
 	}
-	
+
 	"GlowEnabled"
 	{
 		"ControlName"								"CheckButton"
@@ -571,11 +517,8 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"tabPosition"								"10"
-	}	
-	
+	}
+
 	"LockWarningLabel"
 	{
 		"ControlName"								"CExLabel"

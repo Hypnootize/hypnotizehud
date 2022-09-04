@@ -1,5 +1,5 @@
 "Resource/UI/SteamFriendPanel.res"
-{	
+{
 	"avatar"
 	{
 		"fieldName"									"avatar"
@@ -37,7 +37,7 @@
 
 	"NameLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"NameLabel"
 		"xpos"										"rs1"
 		"ypos"										"1"

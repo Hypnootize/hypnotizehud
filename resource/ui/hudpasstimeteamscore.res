@@ -3,7 +3,7 @@
 	"HudTeamScore"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"HudPasstimeTeamScore"
+		"fieldName"									"HudTeamScore"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -12,7 +12,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-	
+
 	"BlueScore"
 	{
 		"ControlName"								"CExLabel"
@@ -24,7 +24,7 @@
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"east"	
+		"textAlignment"								"east"
 		"labelText"									"%bluescore%"
 		"font"										"Size 24"
 		"fgcolor"									"Blue"
@@ -40,13 +40,13 @@
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"east"	
+		"textAlignment"								"east"
 		"labelText"									"%bluescore%"
 		"font"										"Size 24 Blur"
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"BlueScore"
 	}
-	
+
 	"RedScore"
 	{
 		"ControlName"								"CExLabel"
@@ -58,7 +58,7 @@
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"west"	
+		"textAlignment"								"west"
 		"labelText"									"%redscore%"
 		"font"										"Size 24"
 		"fgcolor"									"Red"
@@ -74,7 +74,7 @@
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"west"	
+		"textAlignment"								"west"
 		"labelText"									"%redscore%"
 		"font"										"Size 24 Blur"
 		"fgcolor"									"Shadow"
@@ -130,7 +130,7 @@
 			"fgcolor"								"Shadow"
 			"pin_to_sibling"						"PlayingTo"
 		}
-		
+
 		"PlayingToBG"
 		{
 			"ControlName"							"CTFImagePanel"
@@ -138,7 +138,7 @@
 			"xpos"									"9999"
 		}
 	}
-	
+
 	//REMOVED
 	"LeftSideBG"
 	{

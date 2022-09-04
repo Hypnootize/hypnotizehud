@@ -11,7 +11,7 @@
 
 		"collapsed_height"							"27"
 		"resize_time"								"0.1"
-	
+
 	}
 
 	"TopContainer"
@@ -39,7 +39,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"mouseinputenabled"						"0"
-		
+
 			"proportionaltoparent"					"1"
 			"bgcolor_override"						"GrayDark"
 		}
@@ -50,7 +50,7 @@
 			"fieldName"								"BGImage"
 			"xpos"									"9999"
 		}
-		
+
 		"EntryToggleButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -70,12 +70,12 @@
 			"textinsetx"							"9999"
 
 			"stay_armed_on_click"					"1"
-			
+
 			"paintbackground"						"0"
 
 			"border_default"						"MaterialTransparent50"
 			"border_armed"							"MaterialHypno"
-			
+
 			"sound_armed"							"ui/item_info_mouseover.wav"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
@@ -98,7 +98,7 @@
 				"scaleImage"						"1"
 
 				"proportionaltoparent"				"1"
-			}	
+			}
 		}
 
 		"Shade"
@@ -129,7 +129,7 @@
 			"labeltext"								""
 			"smallcheckimage"						"0"
 
-			"sound_depressed"						"UI/buttonclickrelease.wav"	
+			"sound_depressed"						"UI/buttonclickrelease.wav"
 			"button_activation_type"				"1"
 		}
 
@@ -148,16 +148,14 @@
 			"use_proportional_insets"				"1"
 			"font"									"Size 16"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"proportionaltoparent" 					"1"
 			"mouseinputenabled"						"0"
-			
+
 			"AllCaps"								"1"
-			
+
 			"fgcolor"								"White"
-		}	
+		}
 
 		"TitleShadow"
 		{
@@ -201,11 +199,11 @@
 
 		"bgcolor_override"							"BlackDark"
 	}
-	
+
 	"PlayListDropShadow"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"PlaylistBGPanel"
+		"fieldName"									"PlayListDropShadow"
 		"xpos"										"9999"
 	}
 }

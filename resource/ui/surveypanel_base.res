@@ -38,7 +38,7 @@
 
 			"SubmittingLabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"SubmittingLabel"
 				"xpos"								"cs-0.5"
 				"ypos"								"rs1-10"
@@ -48,7 +48,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"font"								"Size 14"
-				"fgcolor_override"					"WhiteDark"
+				"fgcolor"							"WhiteDark"
 				"textAlignment"						"center"
 				"labelText"							"#TF_SurveyQuestion_Submitting"
 				"proportionaltoparent"				"1"
@@ -83,7 +83,7 @@
 
 			"ThankYouLabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"ThankYouLabel"
 				"xpos"								"cs-0.5"
 				"ypos"								"20"
@@ -93,7 +93,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"font"								"Size 14"
-				"fgcolor_override"					"WhiteDark"
+				"fgcolor"							"WhiteDark"
 				"textAlignment"						"center"
 				"labelText"							"#TF_SurveyQuestion_ThankYouTitle"
 				"proportionaltoparent"				"1"
@@ -101,7 +101,7 @@
 
 			"Explanation"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"Explanation"
 				"xpos"								"cs-0.5"
 				"ypos"								"60"
@@ -111,7 +111,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"font"								"Size 14"
-				"fgcolor_override"					"WhiteDark"
+				"fgcolor"							"WhiteDark"
 				"textAlignment"						"center"
 				"wrap"								"0"
 				"centerwrap"						"1"
@@ -133,19 +133,16 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labeltext"								"-"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"close"
 			"proportionaltoparent" 					"1"
 			"actionsignallevel"						"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
@@ -154,5 +151,5 @@
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override" 			"White"
 		}
-	}	
+	}
 }

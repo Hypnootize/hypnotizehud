@@ -35,7 +35,7 @@
 
 	"Title"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"Title"
 		"xpos"										"0"
 		"ypos"										"11"
@@ -47,14 +47,14 @@
 		"AllCaps"									"1"
 		"textAlignment"								"center"
 		"font"										"Size 18"
-		"fgcolor_override"							"White"
-		
+		"fgcolor"									"White"
+
 		"mouseinputenabled"							"0"
 	}
 
 	"InviteModeLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"InviteModeLabel"
 		"xpos"										"0"
 		"ypos"										"28"
@@ -66,10 +66,10 @@
 		"textAlignment"								"center"
 		"font"										"Size 11"
 		"smallcheckimage"							"1"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 		"AllCaps"									"1"
 
-		"sound_depressed"							"UI/buttonclickrelease.wav"	
+		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"
 	}
 
@@ -115,7 +115,7 @@
 		"fgcolor"									"White"
 		"AllCaps"									"1"
 
-		"sound_depressed"							"UI/buttonclickrelease.wav"	
+		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"
 
 		"cvar_name" 								"tf_party_ignore_invites"
@@ -138,13 +138,13 @@
 		"enabled"									"0"
 		"AllCaps"									"1"
 
-		"sound_depressed"							"UI/buttonclickrelease.wav"	
+		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"
 	}
 
 	"KeepPartyOnSameTeamLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"KeepPartyOnSameTeamLabel"
 		"xpos"										"23"
 		"ypos"										"85"
@@ -159,9 +159,9 @@
 		"wrap"										"1"
 		"AllCaps"									"1"
 
-		"sound_depressed"							"UI/buttonclickrelease.wav"	
+		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 	}
 
 	"CustomPingCheckButton"
@@ -181,7 +181,7 @@
 		"actionsignallevel"							"1"
 		"AllCaps"									"1"
 
-		"sound_depressed"							"UI/buttonclickrelease.wav"	
+		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"
 
 		"cvar_name"									"tf_mm_custom_ping_enabled"
@@ -191,7 +191,7 @@
 	// and the above checkbox has that behavior.  To get around it, make another label
 	"CheckLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"CheckLabel"
 		"xpos"										"23"
 		"ypos"										"102"
@@ -205,7 +205,7 @@
 		"smallcheckimage"							"1"
 		"AllCaps"									"1"
 
-		"sound_depressed"							"UI/buttonclickrelease.wav"	
+		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"
 	}
 
@@ -226,13 +226,13 @@
 		"fgcolor"									"White"
 		"AllCaps"									"1"
 
-		"sound_depressed"							"UI/buttonclickrelease.wav"	
+		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"
 	}
 
 	"CurrentPingLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"CurrentPingLabel"
 		"xpos"										"0"
 		"ypos"										"124"
@@ -244,7 +244,7 @@
 		"textAlignment"								"center"
 		"font"										"Size 11"
 		"AllCaps"									"1"
-		
+
 		"mouseinputenabled"							"0"
 	}
 
@@ -263,13 +263,12 @@
 		"pin_to_sibling_corner"						"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"proportionaltoparent"						"1"
 
 		"cvar_name"									"tf_mm_custom_ping"
 		"use_convar_minmax" 						"1"
 	}
-	
+
 	"DataCenterBackground"
 	{
 		"ControlName"							"EditablePanel"
@@ -300,7 +299,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"proportionaltoparent"						"1"
 
 		"DataCenterList"
@@ -332,14 +330,14 @@
 				{
 					"fgcolor_override"				"White"
 				}
-		
+
 				"UpButton"
 				{
 					"ControlName"					"Button"
 					"FieldName"						"UpButton"
 					"visible"						"0"
 				}
-		
+
 				"DownButton"
 				{
 					"ControlName"					"Button"
@@ -356,7 +354,7 @@
 			"xpos"									"9999"
 		}
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -364,7 +362,7 @@
 		"xpos"										"rs1"
 		"labelText"									">"
 
-		if_left
+		"if_left"
 		{
 			"xpos"									"0"
 			"labelText"								"<"
@@ -394,7 +392,7 @@
 		"xpos"										"3"
 		"labelText"									"<"
 
-		if_left
+		"if_left"
 		{
 			"xpos"									"rs1-3"
 			"labelText"								">"
@@ -417,7 +415,7 @@
 
 		"armedFgColor_override"						"Orange"
 	}
-	
+
 	"InnerGradient"
 	{
 		"ControlName"								"ImagePanel"
@@ -425,7 +423,7 @@
 		"xpos"										"9999"
 		"rotation"									"2"
 
-		if_left
+		"if_left"
 		{
 			"xpos"									"rs1-3"
 			"rotation"								"1"
@@ -452,7 +450,7 @@
 		"xpos"										"rs1"
 		"rotation"									"1"
 
-		if_left
+		"if_left"
 		{
 			"xpos"									"0"
 			"rotation"								"2"

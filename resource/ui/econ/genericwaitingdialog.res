@@ -1,4 +1,4 @@
-"Resource/UI/GenericWaitingDialog.res"
+"Resource/UI/Econ/GenericWaitingDialog.res"
 {
 	"GenericWaitingDialog"
 	{
@@ -14,10 +14,10 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"BlackDark"
 	}
-	
+
 	"TitleLabel"
-	{	
-		"ControlName"								"Label"
+	{
+		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
 		"font"										"Size 14"
 		"xpos"										"0"
@@ -38,8 +38,8 @@
 	}
 
 	"EllipsesLabel"
-	{	
-		"ControlName"								"Label"
+	{
+		"ControlName"								"CExLabel"
 		"fieldName"									"EllipsesLabel"
 		"font"										"Size 14"
 		"xpos"										"0"
@@ -58,8 +58,8 @@
 	}
 
 	"DurationLabel"
-	{	
-		"ControlName"								"Label"
+	{
+		"ControlName"								"CExLabel"
 		"fieldName"									"DurationLabel"
 		"font"										"Size 14"
 		"xpos"										"0"
@@ -76,7 +76,7 @@
 		"AllCaps"									"1"
 		"fgcolor" 									"WhiteDark"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -90,18 +90,15 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#Cancel"
 		"font"										"Size 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"user_close"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"

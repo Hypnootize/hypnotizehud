@@ -1,4 +1,4 @@
-"resource/ui/replaymessagedlg.res"
+"Resource/UI/ReplayMessageDlg.res"
 {
 	"ReplayMessageDlg"
 	{
@@ -11,10 +11,9 @@
 		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
-		"tabPosition"								"10"
 		"bgcolor_override"							"Blank"
 	}
-	
+
 	"Dlg"
 	{
 		"ControlName"								"EditablePanel"
@@ -28,10 +27,9 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"10"
 		"paintborder"								"1"
 		"border"									"MaterialBlackDark"
-		
+
 		"Icon"
 		{
 			"ControlName"							"ImagePanel"
@@ -44,9 +42,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"image"									"replay/replayicon"
-			"scaleImage"							"1"	
-		}		
-		
+			"scaleImage"							"1"
+		}
+
 		"Title"
 		{
 			"ControlName"							"CExLabel"
@@ -63,11 +61,10 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"10"
 			"AllCaps"								"1"
-			"fgcolor_override" 						"WhiteDark"
+			"fgcolor"		 						"WhiteDark"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -84,10 +81,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor_override" 						"White"
+			"fgcolor"		 						"White"
 			"wrap"									"1"
 		}
-		
+
 		"DontShowAgainCheckButton"
 		{
 			"ControlName"							"CheckButton"
@@ -105,11 +102,8 @@
 			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
-			"tabPosition"							"10"
 		}
-		
+
 		"OKButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -123,18 +117,15 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"2"
 			"font"									"Size 11"
 			"textAlignment"							"center"
 			"textinsetx"							"50"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"labelText"								"#GameUI_OK"
 			"Command"								"close"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
@@ -142,6 +133,6 @@
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override" 			"White"
-		}		
+		}
 	}
 }

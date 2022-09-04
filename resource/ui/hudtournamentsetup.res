@@ -13,7 +13,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"textHidden"								"0"
 		"editable"									"1"
 		"maxchars"									"6"
@@ -26,7 +25,7 @@
 		"PaintBackground"							"1"
 		"Bgcolor_override"							"Blank"
 	}
-	
+
 	"TournamentNameEditBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -43,7 +42,7 @@
 		"enabled"									"1"
 		"border"									"MaterialTransparent50"
 	}
-	
+
 	"TournamentReadyBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -59,12 +58,12 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"border"									"MaterialGreen"
-		
+
 		"pin_to_sibling" 							"TournamentNameEditBG"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
-	
+
 	"TournamentNotReadyBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -80,12 +79,12 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"border"									"MaterialRed"
-		
+
 		"pin_to_sibling" 							"TournamentNameEditBG"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
 	}
-	
+
 	"TournamentReadyButton"
 	{
 		"ControlName"								"CExButton"
@@ -112,7 +111,7 @@
 		"border"									"MaterialGreen"
 		"pin_to_sibling" 							"TournamentReadyBG"
 	}
-	
+
 	"TournamentNotReadyButton"
 	{
 		"ControlName"								"CExButton"
@@ -138,11 +137,11 @@
 		"paintbackground"							"0"
 		"pin_to_sibling" 							"TournamentNotReadyBG"
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	"HudTournamentSetupBG"
 	{
 		"ControlName"								"ScalableImagePanel"
@@ -150,14 +149,14 @@
 		"xpos"										"9999"
 	}
 	"TournamentSetupLabel"
-	{	
-		"ControlName"								"Label"
-		"fieldName"									"TournamentLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"TournamentSetupLabel"
 		"xpos"										"9999"
 	}
 	"TournamentTeamNameLabel"
-	{	
-		"ControlName"								"Label"
+	{
+		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentTeamNameLabel"
 		"xpos"										"9999"
 	}

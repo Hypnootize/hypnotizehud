@@ -1,4 +1,4 @@
-"Resource/UI/MatchMakingDashboardCasualCriteria.res"
+"Resource/UI/MatchMakingPlaylist.res"
 {
 	"EventEntry"
 	{
@@ -48,7 +48,7 @@
 		"button_command"							"play_competitive"
 		"desc_token"								"#MMenu_PlayList_Competitive_Desc"
 		"matchgroup"								"2" // k_eTFMatchGroup_Ladder_6v6
-		
+
 		"pin_to_sibling"							"CasualEntry"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
@@ -70,12 +70,12 @@
 		"button_command"							"play_mvm"
 		"desc_token"								"#MMenu_PlayList_MvM_Desc"
 		"matchgroup"								"1" // k_eTFMatchGroup_MvM_MannUp
-		
+
 		"pin_to_sibling"							"CompetitiveEntry"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"TrainingEntry"
 	{
 		"ControlName"								"CPlayListEntry"
@@ -91,7 +91,7 @@
 		"button_token"								"#MMenu_PlayList_Training_Button"
 		"button_command"							"play_training"
 		"desc_token"								"#MMenu_PlayList_Training_Desc"
-		
+
 		"pin_to_sibling"							"MvMEntry"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"

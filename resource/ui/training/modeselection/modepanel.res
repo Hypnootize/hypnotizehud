@@ -1,4 +1,4 @@
-"Resource/training/modeselection/modepanel.res"
+"Resource/UI/Training/ModeSelection/ModePanel.res"
 {
 	"ModeInfoContainer"
 	{
@@ -54,7 +54,7 @@
 			"centerwrap"		   					"1"
 			"AllCaps"								"1"
 		}
-		
+
 		"ImageFrame"
 		{
 			"ControlName"							"EditablePanel"
@@ -67,7 +67,7 @@
 			"enabled"								"1"
 			"border"								"NoBorder"
 		}
-		
+
 		// Parented to ImageFrame in code.
 		"Image"
 		{
@@ -82,7 +82,7 @@
 			"tileImage"								"0"
 			"scaleImage"							"1"
 			"image"									""
-		}	
+		}
 	}
 
 	"StartButton"
@@ -98,18 +98,15 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#TF_Training_SelectMode"
 		"font"										"Size 14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"%startcommand%"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"

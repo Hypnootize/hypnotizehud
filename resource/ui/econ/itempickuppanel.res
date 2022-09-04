@@ -1,6 +1,6 @@
 #base "../../../resource/tools/reloadschemebutton.res"
 
-"Resource/UI/ItemPickupPanel.res"
+"Resource/UI/Econ/ItemPickupPanel.res"
 {
 	"item_pickup"
 	{
@@ -15,38 +15,37 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayDarkest"
 		"infocus_bgcolor_override" 					"GrayDarkest"
 		"outoffocus_bgcolor_override" 				"GrayDarkest"
-		
+
 		"modelpanels_spacing"						"40"
 		"modelpanels_width"							"500"
 		"modelpanels_height"						"260"
 		"modelpanels_ypos"							"110"
-		
-		
-		"modelpanelskv"	
+
+
+		"modelpanelskv"
 		{
 			"PaintBackgroundType"					"0"
 			"paintborder"							"1"
 			"paintbackground"						"1"
 			"border"								"MaterialBlackLight"
-			
+
 			"model_xpos"							"0"
 			"model_center_y"						"1"
 			"model_tall"							"160"
 			"model_wide"							"240"
-			
+
 			"text_forcesize"						"1"
 			"text_xpos"								"250"
 			"text_wide"								"225"
 			"text_center"							"1"
 			"is_mouseover"							"1"
 			"hide_collection_panel" 				"1"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" 			"0"
@@ -54,14 +53,14 @@
 			}
 		}
 	}
-	
+
 	"ItemsFoundLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemsFoundLabel"
 		"font"										"Size 24"
 		"labelText"									"#NewItemsAcquired"
-		"fgcolor_override"   						"WhiteDark"
+		"fgcolor"		   							"WhiteDark"
 		"textAlignment"								"center"
 		"xpos"										"0"
 		"ypos"										"20"
@@ -74,7 +73,7 @@
 		"enabled"									"1"
 		"AllCaps"									"1"
 	}
-	
+
 	"classimage"
 	{
 		"ControlName"								"ImagePanel"
@@ -89,7 +88,7 @@
 		"image"										"achievements/tf_medic_heal_grind"
 		"scaleImage"								"1"
 	}
-	
+
 	"classimageoutline"
 	{
 		"ControlName"								"EditablePanel"
@@ -103,7 +102,7 @@
 		"bgcolor_override" 							"WhiteDark"
 		"pin_to_sibling" 							"classimage"
 	}
-	
+
 	"SelectedItemFoundMethodLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -120,9 +119,9 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor_override"   						"WhiteDark"
+		"fgcolor"		   							"WhiteDark"
 	}
-	
+
 	"ItemCountLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -139,9 +138,9 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor_override"   						"WhiteDark"
+		"fgcolor"			   						"WhiteDark"
 	}
-	
+
 	"SelectedItemNumberLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -158,9 +157,9 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor_override"   						"WhiteDark"
+		"fgcolor"			   						"WhiteDark"
 	}
-	
+
 	"NextButton"
 	{
 		"ControlName"								"CExButton"
@@ -174,18 +173,15 @@
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									">"
 		"font"										"Symbols 26"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"nextitem"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
@@ -204,7 +200,7 @@
 		"sound_depressed"    						"UI/buttonclick.wav"
 		"sound_released"     						"UI/buttonclickrelease.wav"
 	}
-	
+
 	"PrevButton"
 	{
 		"ControlName"								"CExButton"
@@ -218,18 +214,15 @@
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"<"
 		"font"										"Symbols 26"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"previtem"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
@@ -248,7 +241,7 @@
 		"sound_depressed"    						"UI/buttonclick.wav"
 		"sound_released"     						"UI/buttonclickrelease.wav"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -262,17 +255,14 @@
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#CloseItemPanel"
 		"font"										"Size 20"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"vguicancel"
 		"default"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDarker"
 		"border_armed"								"MaterialHypno"
@@ -281,7 +271,7 @@
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
 	}
-	
+
 	"OpenLoadoutButton"
 	{
 		"ControlName"								"CExButton"
@@ -295,16 +285,13 @@
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"%loadouttext%"
 		"font"										"Size 12"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"changeloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDarker"
 		"border_armed"								"MaterialHypno"
@@ -313,7 +300,7 @@
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
 	}
-	
+
 	"DiscardButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -327,18 +314,15 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"D"
 		"font"										"Symbols 18"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"discarditem"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialRed"
 
@@ -346,7 +330,7 @@
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
 	}
-	
+
 	"DiscardButtonTooltip"
 	{
 		"ControlName"								"EditablePanel"
@@ -359,7 +343,7 @@
 		"visible"									"0"
 		"PaintBackgroundType"						"2"
 		"border"									"MaterialBlackDark"
-		
+
 		"TipLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -375,13 +359,13 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
 		}
 	}
-	
+
 	"DiscardedLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -399,11 +383,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor_override" 							"WhiteDark"
+		"fgcolor"		 							"WhiteDark"
 		"PaintBackground"							"0"
 		"border"									"MaterialGrayDark"
 	}
-	
+
 	"ScoreEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -416,7 +400,6 @@
 		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"0"
-		"tabPosition"								"0"
 		"textHidden"								"0"
 		"editable"									"1"
 		"maxchars"									"5"

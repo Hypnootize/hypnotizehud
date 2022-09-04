@@ -1,6 +1,6 @@
-Scheme
+"Scheme"
 {
-	Colors
+	"Colors"
 	{
 	    "TFDarkBrown"               					"60 56 53 255"
 	    "TFDarkBrownTransparent"    					"60 56 53 190"
@@ -30,169 +30,169 @@ Scheme
 		"ListBG"										"39 36 34 0"
 	}
 
-	BaseSettings
+	"BaseSettings"
 	{
-		Border.Bright									"TFTanLightDark"
-		Border.Dark										"TFTanLightDark"
-		Border.Selection								"BorderSelection"
-		Button.TextColor								"TFDarkBrown"
-		Button.BgColor									"TFTanLight"
-		Button.ArmedTextColor							"TFDarkBrown"
-		Button.ArmedBgColor								"TFTanBright"
-		Button.DepressedTextColor						"TFDarkBrown"
-		Button.DepressedBgColor							"TFTanLight"	
-		Button.FocusBorderColor							"TransparentBlack"
-		
-		CheckButton.TextColor							"TFTextBright"
-		CheckButton.SelectedTextColor					"TFTextBright"
-		CheckButton.BgColor								"ListBG"
-		CheckButton.HighlightFgColor					"TFTextMedium"
-		CheckButton.ArmedBgColor						"Blank"
-		CheckButton.DepressedBgColor					"Blank"
-		CheckButton.Border1  							"Border.Dark"
-		CheckButton.Border2  							"Border.Bright"
-		CheckButton.Check								"TFTanBright"
-		CheckButton.DisabledBgColor	   	 				"ListBG"
-		
-		ComboBoxButton.ArrowColor						"TFTanLight"
-		ComboBoxButton.ArmedArrowColor					"TFTanBright"
-		ComboBoxButton.BgColor							"Blank"
-		ComboBoxButton.DisabledBgColor					"Blank"
-		
+		"Border.Bright"									"TFTanLightDark"
+		"Border.Dark"									"TFTanLightDark"
+		"Border.Selection"								"BorderSelection"
+		"Button.TextColor"								"TFDarkBrown"
+		"Button.BgColor"								"TFTanLight"
+		"Button.ArmedTextColor"							"TFDarkBrown"
+		"Button.ArmedBgColor"							"TFTanBright"
+		"Button.DepressedTextColor"						"TFDarkBrown"
+		"Button.DepressedBgColor"						"TFTanLight"
+		"Button.FocusBorderColor"						"TransparentBlack"
+
+		"CheckButton.TextColor"							"TFTextBright"
+		"CheckButton.SelectedTextColor"					"TFTextBright"
+		"CheckButton.BgColor"							"ListBG"
+		"CheckButton.HighlightFgColor"					"TFTextMedium"
+		"CheckButton.ArmedBgColor"						"Blank"
+		"CheckButton.DepressedBgColor"					"Blank"
+		"CheckButton.Border1"  							"Border.Dark"
+		"CheckButton.Border2" 							"Border.Bright"
+		"CheckButton.Check"								"TFTanBright"
+		"CheckButton.DisabledBgColor"	   	 			"ListBG"
+
+		"ComboBoxButton.ArrowColor"						"TFTanLight"
+		"ComboBoxButton.ArmedArrowColor"				"TFTanBright"
+		"ComboBoxButton.BgColor"						"Blank"
+		"ComboBoxButton.DisabledBgColor"				"Blank"
+
 		"Chat.TypingText"								"TFTextBright"
-		
-		Frame.BgColor									"TransparentBlack"
-		Frame.OutOfFocusBgColor							"TransparentBlack"
-		Frame.FocusTransitionEffectTime					"0.0"
-		Frame.TransitionEffectTime						"0.0"
-		Frame.AutoSnapRange								"0"
-		FrameGrip.Color1								"Blank"
-		FrameGrip.Color2								"Blank"
-		FrameTitleButton.FgColor						"Blank"
-		FrameTitleButton.BgColor						"Blank"
-		FrameTitleButton.DisabledFgColor				"Blank"
-		FrameTitleButton.DisabledBgColor				"Blank"
-		FrameSystemButton.FgColor						"Blank"
-		FrameSystemButton.BgColor						"Blank"
-		FrameSystemButton.Icon							""
-		FrameSystemButton.DisabledIcon					""
-		FrameTitleBar.TextColor							"Orange"
-		FrameTitleBar.BgColor							"Blank"
-		FrameTitleBar.DisabledTextColor					"Orange"
-		FrameTitleBar.DisabledBgColor					"Blank"
-		
-		GraphPanel.FgColor								"White"
-		GraphPanel.BgColor								"TransparentBlack"
-		
-		Label.TextDullColor								"TFTextDull"
-		Label.TextColor									"TFTextBright"
-		Label.TextBrightColor							"TFTextBright"
-		Label.SelectedTextColor							"TFTextBright"
-		Label.BgColor									"Blank"
-		Label.DisabledFgColor1							"TFTextDull"	
-		Label.DisabledFgColor2							"Blank"
-		
-		ListPanel.TextColor								"TFTextBright"
-		ListPanel.BgColor								"ListBG"
-		ListPanel.SelectedBgColor						"SelectionBG"
-		ListPanel.SelectedOutOfFocusBgColor				"SelectionBG2"
-		
-		Menu.TextColor									"White"
-		Menu.BgColor									"ListBG"
-		Menu.ArmedTextColor								"TFTextBlack"
-		Menu.ArmedBgColor								"TFOrangeBright"
-		Menu.TextInset									"6"
-		
-		Panel.FgColor									"Blank"
-		Panel.BgColor									"TFDarkBrown"
-		
-		ProgressBar.FgColor								"White"
-		ProgressBar.BgColor								"TransparentBlack"
-		
-		PropertySheet.TextColor							"OffWhite"
-		PropertySheet.SelectedTextColor					"White"
-		PropertySheet.TransitionEffectTime				"0"
-		
-		RadioButton.TextColor							"DullWhite"
-		RadioButton.SelectedTextColor					"White"
-		
-		RichText.TextColor								"White"
-		RichText.BgColor								"ListBG"
-		RichText.SelectedTextColor						"White"
-		RichText.SelectedBgColor						"TFOrangeBright"
-		
-		ScrollBar.Wide									"0"
-		ScrollBarButton.FgColor							"Blank"
-		ScrollBarButton.BgColor							"Blank"
-		ScrollBarButton.ArmedFgColor					"Blank"
-		ScrollBarButton.ArmedBgColor					"Blank"
-		ScrollBarButton.DepressedFgColor				"Blank"
-		ScrollBarButton.DepressedBgColor				"Blank"
-		ScrollBarSlider.BgColor							"Blank"
-		ScrollBarSlider.FgColor							"Blank"
-		
-		SectionedListPanel.HeaderTextColor				"White"
-		SectionedListPanel.HeaderBgColor				"Blank"
-		SectionedListPanel.DividerColor					"Black"
-		SectionedListPanel.TextColor					"DullWhite"
-		SectionedListPanel.BrightTextColor				"White"
-		SectionedListPanel.BgColor						"TransparentBlack"
-		SectionedListPanel.SelectedTextColor			"Black"
-		SectionedListPanel.SelectedBgColor				"Orange"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"255 155 0 128"
-		
-		Slider.NobColor									"108 108 108 255"
-		Slider.TextColor								"180 180 180 255"
-		Slider.TrackColor								"31 31 31 255"
-		Slider.DisabledTextColor1						"117 117 117 255"
-		Slider.DisabledTextColor2						"30 30 30 255"
-		
-		TextEntry.TextColor								"TFTextBright"
-		TextEntry.BgColor								"ListBG"
-		TextEntry.CursorColor							"OffWhite"
-		TextEntry.DisabledTextColor						"DullWhite"
-		TextEntry.DisabledBgColor						"Blank"
-		TextEntry.SelectedTextColor						"White"
-		TextEntry.SelectedBgColor						"TFOrangeBright"
-		TextEntry.OutOfFocusSelectedBgColor				"255 155 0 128"
-		TextEntry.FocusEdgeColor						"0 0 0 196"
-		
-		ToggleButton.SelectedTextColor					"TFOrangeBright"
-		
-		Tooltip.TextColor								"0 0 0 196"
-		Tooltip.BgColor									"TFOrangeBright"
-		
-		TreeView.BgColor								"TransparentBlack"
-		
-		WizardSubPanel.BgColor							"Blank"
-		
-		MainMenu.TextColor								"White"
-		MainMenu.ArmedTextColor							"200 200 200 255"
-		MainMenu.DepressedTextColor						"192 186 80 255"
-		MainMenu.MenuItemHeight							"16"
-		MainMenu.Inset									"32"
-		MainMenu.Backdrop								"0 0 0 156"
-		
-		Console.TextColor								"OffWhite"
-		Console.DevTextColor							"White"
-		
-		NewGame.TextColor								"White"
-		NewGame.FillColor								"0 0 0 255"
-		NewGame.SelectionColor							"Orange"
-		NewGame.DisabledColor							"128 128 128 196"
-		
-		TFColors.ChatTextYellow							"255 255 255 255"
-		TFColors.ChatTextTeamBlue						"153 204 255 255"
-		TFColors.ChatTextTeamRed						"255 63 53 255"
+
+		"Frame.BgColor"									"TransparentBlack"
+		"Frame.OutOfFocusBgColor"						"TransparentBlack"
+		"Frame.FocusTransitionEffectTime"				"0.0"
+		"Frame.TransitionEffectTime"					"0.0"
+		"Frame.AutoSnapRange"							"0"
+		"FrameGrip.Color1"								"Blank"
+		"FrameGrip.Color2"								"Blank"
+		"FrameTitleButton.FgColor"						"Blank"
+		"FrameTitleButton.BgColor"						"Blank"
+		"FrameTitleButton.DisabledFgColor"				"Blank"
+		"FrameTitleButton.DisabledBgColor"				"Blank"
+		"FrameSystemButton.FgColor"						"Blank"
+		"FrameSystemButton.BgColor"						"Blank"
+		"FrameSystemButton.Icon"						""
+		"FrameSystemButton.DisabledIcon"				""
+		"FrameTitleBar.TextColor"						"Orange"
+		"FrameTitleBar.BgColor"							"Blank"
+		"FrameTitleBar.DisabledTextColor"				"Orange"
+		"FrameTitleBar.DisabledBgColor"					"Blank"
+
+		"GraphPanel.FgColor"							"White"
+		"GraphPanel.BgColor"							"TransparentBlack"
+
+		"Label.TextDullColor"							"TFTextDull"
+		"Label.TextColor"								"TFTextBright"
+		"Label.TextBrightColor"							"TFTextBright"
+		"Label.SelectedTextColor"						"TFTextBright"
+		"Label.BgColor"									"Blank"
+		"Label.DisabledFgColor1"						"TFTextDull"
+		"Label.DisabledFgColor2"						"Blank"
+
+		"ListPanel.TextColor"							"TFTextBright"
+		"ListPanel.BgColor"								"ListBG"
+		"ListPanel.SelectedBgColor"						"SelectionBG"
+		"ListPanel.SelectedOutOfFocusBgColor"			"SelectionBG2"
+
+		"Menu.TextColor"								"White"
+		"Menu.BgColor"									"ListBG"
+		"Menu.ArmedTextColor"							"TFTextBlack"
+		"Menu.ArmedBgColor"								"TFOrangeBright"
+		"Menu.TextInset"								"6"
+
+		"Panel.FgColor"									"Blank"
+		"Panel.BgColor"									"TFDarkBrown"
+
+		"ProgressBar.FgColor"							"White"
+		"ProgressBar.BgColor"							"TransparentBlack"
+
+		"PropertySheet.TextColor"						"OffWhite"
+		"PropertySheet.SelectedTextColor"				"White"
+		"PropertySheet.TransitionEffectTime"			"0"
+
+		"RadioButton.TextColor"							"DullWhite"
+		"RadioButton.SelectedTextColor"					"White"
+
+		"RichText.TextColor"							"White"
+		"RichText.BgColor"								"ListBG"
+		"RichText.SelectedTextColor"					"White"
+		"RichText.SelectedBgColor"						"TFOrangeBright"
+
+		"ScrollBar.Wide"								"0"
+		"ScrollBarButton.FgColor"						"Blank"
+		"ScrollBarButton.BgColor"						"Blank"
+		"ScrollBarButton.ArmedFgColor"					"Blank"
+		"ScrollBarButton.ArmedBgColor"					"Blank"
+		"ScrollBarButton.DepressedFgColor"				"Blank"
+		"ScrollBarButton.DepressedBgColor"				"Blank"
+		"ScrollBarSlider.BgColor"						"Blank"
+		"ScrollBarSlider.FgColor"						"Blank"
+
+		"SectionedListPanel.HeaderTextColor"			"White"
+		"SectionedListPanel.HeaderBgColor"				"Blank"
+		"SectionedListPanel.DividerColor"				"Black"
+		"SectionedListPanel.TextColor"					"DullWhite"
+		"SectionedListPanel.BrightTextColor"			"White"
+		"SectionedListPanel.BgColor"					"TransparentBlack"
+		"SectionedListPanel.SelectedTextColor"			"Black"
+		"SectionedListPanel.SelectedBgColor"			"Orange"
+		"SectionedListPanel.OutOfFocusSelectedTextColor""Black"
+		"SectionedListPanel.OutOfFocusSelectedBgColor"	"255 155 0 128"
+
+		"Slider.NobColor"								"108 108 108 255"
+		"Slider.TextColor"								"180 180 180 255"
+		"Slider.TrackColor"								"31 31 31 255"
+		"Slider.DisabledTextColor1"						"117 117 117 255"
+		"Slider.DisabledTextColor2"						"30 30 30 255"
+
+		"TextEntry.TextColor"							"TFTextBright"
+		"TextEntry.BgColor"								"ListBG"
+		"TextEntry.CursorColor"							"OffWhite"
+		"TextEntry.DisabledTextColor"					"DullWhite"
+		"TextEntry.DisabledBgColor"						"Blank"
+		"TextEntry.SelectedTextColor"					"White"
+		"TextEntry.SelectedBgColor"						"TFOrangeBright"
+		"TextEntry.OutOfFocusSelectedBgColor"			"255 155 0 128"
+		"TextEntry.FocusEdgeColor"						"0 0 0 196"
+
+		"ToggleButton.SelectedTextColor"				"TFOrangeBright"
+
+		"Tooltip.TextColor"								"0 0 0 196"
+		"Tooltip.BgColor"								"TFOrangeBright"
+
+		"TreeView.BgColor"								"TransparentBlack"
+
+		"WizardSubPanel.BgColor"						"Blank"
+
+		"MainMenu.TextColor"							"White"
+		"MainMenu.ArmedTextColor"						"200 200 200 255"
+		"MainMenu.DepressedTextColor"					"192 186 80 255"
+		"MainMenu.MenuItemHeight"						"16"
+		"MainMenu.Inset"								"32"
+		"MainMenu.Backdrop"								"0 0 0 156"
+
+		"Console.TextColor"								"OffWhite"
+		"Console.DevTextColor"							"White"
+
+		"NewGame.TextColor"								"White"
+		"NewGame.FillColor"								"0 0 0 255"
+		"NewGame.SelectionColor"						"Orange"
+		"NewGame.DisabledColor"							"128 128 128 196"
+
+		"TFColors.ChatTextYellow"						"255 255 255 255"
+		"TFColors.ChatTextTeamBlue"						"153 204 255 255"
+		"TFColors.ChatTextTeamRed"						"255 63 53 255"
 	}
 
-	BitmapFontFiles
+	"BitmapFontFiles"
 	{
 		"Buttons"										"materials/vgui/fonts/buttons_32.vbf"
 	}
 
-	Fonts
+	"Fonts"
 	{
 
 		"Default"
@@ -294,7 +294,7 @@ Scheme
 				"symbol"								"1"
 			}
 		}
-		
+
 		"MarlettSmall"
 		{
 			"1"
@@ -439,7 +439,7 @@ Scheme
 		}
 	}
 
-	Borders
+	"Borders"
 	{
 		BaseBorder										DepressedBorder
 		ButtonBorder									RaisedBorder
@@ -448,16 +448,16 @@ Scheme
 		BrowserBorder									DepressedBorder
 		PropertySheetBorder								RaisedBorder
 
-		FrameBorder
+		"FrameBorder"
 		{
 			"backgroundtype"							"2"
 		}
 
-		DepressedBorder
+		"DepressedBorder"
 		{
 			"inset"										"0 0 1 1"
 
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -466,7 +466,7 @@ Scheme
 				}
 			}
 
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -475,7 +475,7 @@ Scheme
 				}
 			}
 
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -484,7 +484,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -494,11 +494,11 @@ Scheme
 			}
 		}
 
-		RaisedBorder
+		"RaisedBorder"
 		{
 			"inset"										"0 0 1 1"
 
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -507,7 +507,7 @@ Scheme
 				}
 			}
 
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -516,7 +516,7 @@ Scheme
 				}
 			}
 
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -525,7 +525,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -534,27 +534,27 @@ Scheme
 				}
 			}
 		}
-		
-		TitleButtonBorder
+
+		"TitleButtonBorder"
 		{
 			"backgroundtype"							"0"
 		}
 
-		TitleButtonDisabledBorder
+		"TitleButtonDisabledBorder"
 		{
 			"backgroundtype"							"0"
 		}
 
-		TitleButtonDepressedBorder
+		"TitleButtonDepressedBorder"
 		{
 			"backgroundtype"							"0"
 		}
 
-		ScrollBarButtonBorder
+		"ScrollBarButtonBorder"
 		{
 			"inset"										"2 2 0 0"
 
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -563,7 +563,7 @@ Scheme
 				}
 			}
 
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -572,7 +572,7 @@ Scheme
 				}
 			}
 
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -581,7 +581,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -590,12 +590,12 @@ Scheme
 				}
 			}
 		}
-		
-		ScrollBarButtonDepressedBorder
+
+		"ScrollBarButtonDepressedBorder"
 		{
 			"inset"										"2 2 0 0"
 
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -604,7 +604,7 @@ Scheme
 				}
 			}
 
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -613,7 +613,7 @@ Scheme
 				}
 			}
 
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -622,7 +622,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -632,11 +632,11 @@ Scheme
 			}
 		}
 
-		TabBorder
+		"TabBorder"
 		{
 			"inset" 									"0 0 1 1"
 
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -645,7 +645,7 @@ Scheme
 				}
 			}
 
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -654,7 +654,7 @@ Scheme
 				}
 			}
 
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -665,11 +665,11 @@ Scheme
 
 		}
 
-		TabActiveBorder
+		"TabActiveBorder"
 		{
 			"inset"										"0 0 1 0"
 
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -678,7 +678,7 @@ Scheme
 				}
 			}
 
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -687,7 +687,7 @@ Scheme
 				}
 			}
 
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -699,11 +699,11 @@ Scheme
 		}
 
 
-		ToolTipBorder
+		"ToolTipBorder"
 		{
 			"inset" 									"0 0 1 0"
 
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -712,7 +712,7 @@ Scheme
 				}
 			}
 
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -721,7 +721,7 @@ Scheme
 				}
 			}
 
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -730,7 +730,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -740,11 +740,11 @@ Scheme
 			}
 		}
 
-		ButtonKeyFocusBorder
+		"ButtonKeyFocusBorder"
 		{
 			"inset" 									"0 0 1 1"
 
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -759,7 +759,7 @@ Scheme
 				}
 			}
 
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -774,7 +774,7 @@ Scheme
 				}
 			}
 
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -789,7 +789,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -805,11 +805,11 @@ Scheme
 			}
 		}
 
-		ButtonDepressedBorder
+		"ButtonDepressedBorder"
 		{
 			"inset" 									"2 1 1 1"
 
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -818,7 +818,7 @@ Scheme
 				}
 			}
 
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -827,7 +827,7 @@ Scheme
 				}
 			}
 
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -836,7 +836,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -847,9 +847,9 @@ Scheme
 		}
 	}
 
-	CustomFontFiles
+	"CustomFontFiles"
 	{
 		"1"	"resource/HALFLIFE2.ttf"
-		"2"	"resource/HL2EP2.ttf"		
+		"2"	"resource/HL2EP2.ttf"
 	}
 }

@@ -1,4 +1,4 @@
-"Resource/UI/replayrenderoverlay.res"
+"Resource/UI/ReplayRenderOverlay.res"
 {
 	"BottomPanel"
 	{
@@ -7,7 +7,7 @@
 		"visible"									"1"
 		"bgcolor_override"							"BlackLight"
 	}
-	
+
 	"FilenameLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -20,9 +20,9 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor_override" 							"White"
+		"fgcolor"		 							"White"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -35,9 +35,9 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor_override" 							"White"
+		"fgcolor"		 							"White"
 	}
-	
+
 	"ReplayRenderOverlay"
 	{
 		"ControlName"								"Frame"
@@ -47,11 +47,10 @@
 		"visible"									"0"
 		"zpos"										"1000"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"settitlebarvisible"						"0"
 		"paintbackground"							"0"
 	}
-	
+
 	"RenderProgress"
 	{
 		"ControlName"								"ProgressBar"
@@ -77,9 +76,9 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor_override" 							"White"
+		"fgcolor"		 							"White"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -91,18 +90,15 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#Replay_CancelRender"
 		"font"										"Size 14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"confirmcancel"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
@@ -110,8 +106,8 @@
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-	}			
-	
+	}
+
 	"PreviewCheckButton"
 	{
 		"ControlName"								"CheckButton"
@@ -129,8 +125,5 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"tabPosition"								"10"
 	}
 }

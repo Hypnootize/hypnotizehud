@@ -1,4 +1,4 @@
-"Resource/UI/HudDamageAccount.res"
+"Resource/UI/HudDamageAccount_Last.res"
 {
 	"DamageAccountValue"
 	{
@@ -17,7 +17,7 @@
 		"fgcolor"									"Last Damage Done"
 		"font"										"Game 20"
 	}
-	
+
 	"DamageAccountValueShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -27,14 +27,14 @@
 		"zpos"										"1"
 		"wide"										"150"
 		"tall"										"25"
-		"visible"									"1" 
+		"visible"									"1"
 		"visible_minmode"							"0"
 		"enabled"									"1"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"fgcolor"									"Shadow"
 		"font"										"Game 20 Blur"
-		
+
 		"pin_to_sibling" 							"DamageAccountValue"
 	}
 }

@@ -1,6 +1,6 @@
 "Resource/UI/HudItemEffectMeter_PowerupBottles.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
@@ -12,7 +12,7 @@
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-	
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -27,7 +27,7 @@
 		"paintbackground"							"1"
 		"border"									"MaterialTransparent50"
 	}
-	
+
 	"ItemEffectIcon"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -42,7 +42,7 @@
 		"image"										"../hud/ico_powerup_critboost_red"
 		"scaleImage"								"1"
 	}
-	
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"								"CExLabel"
@@ -51,19 +51,16 @@
 		"ypos"										"10"
 		"zpos"										"2"
 		"wide"										"25"
-		"tall"										"35"	
+		"tall"										"35"
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"font"										"Size 12"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 	}
-	
+
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -72,23 +69,20 @@
 		"ypos"										"11"
 		"zpos"										"2"
 		"wide"										"25"
-		"tall"										"35"	
+		"tall"										"35"
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"font"										"Size 12 Blur"
-		"fgcolor_override"							"Shadow"
+		"fgcolor"									"Shadow"
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -96,7 +90,7 @@
 		"xpos"			"9999"
 	}
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter"
 		"xpos"			"9999"

@@ -1,4 +1,4 @@
-"Resource/UI/ChatPopup.res"
+"Resource/UI/InviteNotification.res"
 {
 	"InviteNotification"
 	{
@@ -30,9 +30,9 @@
 	{
 		"ControlName"								"CAutoFittingLabel"
 		"fieldName"									"Text"
-		
 
-		if_incoming
+
+		"if_incoming"
 		{
 			"xpos"									"rs1-5"
 			"wide"									"f35"
@@ -89,12 +89,12 @@
 		"tall"										"20"
 		"visible"									"1"
 
-		if_incoming
+		"if_incoming"
 		{
 			"visible"								"0"
 		}
 
-		
+
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"alpha"										"255"
@@ -113,15 +113,12 @@
 		"wide"										"80"
 		"zpos"										"100"
 		"tall"										"16"
-		
+
 		"visible"									"1"
 
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"font"										"Size 11"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"accept"
 		"proportionaltoparent"						"1"
 		"labeltext"									"#Notifications_Accept"
@@ -145,8 +142,8 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"DeclineButton"
-		
-		if_incoming
+
+		"if_incoming"
 		{
 			"xpos"									"rs1-5"
 		}
@@ -157,15 +154,12 @@
 		"wide"										"60"
 		"zpos"										"100"
 		"tall"										"16"
-		
+
 		"visible"									"1"
 
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"font"										"Size 11"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"decline"
 		"proportionaltoparent"						"1"
 		"labeltext"									"%cancel_text%"

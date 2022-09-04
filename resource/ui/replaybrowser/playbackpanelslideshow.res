@@ -1,4 +1,4 @@
-"Resource/UI/playbackpanelslideshow.res"
+"Resource/UI/ReplayBrowser/PlayBackPanelSlideShow.res"
 {
 	"Screenshot"
 	{
@@ -10,7 +10,7 @@
 		"enabled"									"1"
 		"scaleImage"								"1"
 	}
-	
+
 	"NoScreenshotLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -23,6 +23,6 @@
 		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 	}
 }

@@ -1,6 +1,6 @@
 #base "../../resource/tools/reloadschemebutton.res"
 
-"Resource/SteamWorkshopDialog.res"
+"Resource/UI/SteamWorkshopDialog.res"
 {
 	"SteamWorkshopDialog"
 	{
@@ -66,7 +66,7 @@
 			"DescLabel"
 			{
 				"ControlName"						"CExLabel"
-				"fieldName"							"TitleLabel"
+				"fieldName"							"DescLabel"
 				"xpos"								"cs-0.5"
 				"ypos"								"80"
 				"zpos"								"1"
@@ -97,7 +97,6 @@
 				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
-				"tabPosition"						"0"
 				"labelText"							"#TF_SteamWorkshop_LearnHow"
 				"font"								"Size 15"
 				"textAlignment"						"center"
@@ -106,7 +105,7 @@
 				"proportionaltoparent"				"1"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
-				
+
 				"paintbackground"					"0"
 				"border_default"					"MaterialGrayDarker"
 				"border_armed"						"MaterialHypno"
@@ -169,7 +168,7 @@
 				"Command"							"view_files"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
-				
+
 				"paintbackground"					"0"
 				"border_default"					"MaterialGrayDarker"
 				"border_armed"						"MaterialHypno"
@@ -178,7 +177,7 @@
 				"armedFgColor_override"				"White"
 				"depressedFgColor_override" 		"White"
 			}
-			
+
 			"SteamWorkshopItem0"
 			{
 				"ControlName"						"CSteamWorkshopItemPanel"
@@ -226,7 +225,7 @@
 				"visible"							"1"
 				"proportionaltoparent"				"1"
 			}
-		
+
 			"PrevPageButton"
 			{
 				"ControlName"						"CExButton"
@@ -245,7 +244,7 @@
 				"Command"							"prevpage"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
-				
+
 				"paintbackground"					"0"
 				"border_default"					"MaterialGrayDarker"
 				"border_armed"						"MaterialHypno"
@@ -317,8 +316,8 @@
 				"pin_to_sibling" 					"PrevPageSkipButton"
 				"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
 				"pin_to_sibling_corner" 			"PIN_TOPLEFT"
-			}	
-			
+			}
+
 			"CurPageLabel"
 			{
 				"ControlName"						"CExLabel"
@@ -337,7 +336,7 @@
 				"proportionaltoparent"				"1"
 				"fgcolor" 							"WhiteDark"
 			}
-			
+
 			"NextPageButton"
 			{
 				"ControlName"						"CExButton"
@@ -356,7 +355,7 @@
 				"Command"							"nextpage"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
-				
+
 				"paintbackground"					"0"
 				"border_default"					"MaterialGrayDarker"
 				"border_armed"						"MaterialHypno"
@@ -398,7 +397,7 @@
 				"pin_to_sibling" 					"NextPageButton"
 				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
-			}	
+			}
 			"SkipToEndButton"
 			{
 				"ControlName"						"CExButton"
@@ -429,7 +428,7 @@
 				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
-		
+
 			"EditButton"
 			{
 				"ControlName"						"CExImageButton"
@@ -447,7 +446,7 @@
 				"proportionaltoparent"				"1"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
-				
+
 				"paintbackground"					"0"
 				"border_default"					"MaterialGrayDarker"
 				"border_armed"						"MaterialHypno"
@@ -455,7 +454,7 @@
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
 				"depressedFgColor_override" 		"White"
-				
+
 				"labelText"							"#TF_SteamWorkshop_Edit"
 				"command"							"edit"
 			}
@@ -477,7 +476,7 @@
 				"proportionaltoparent"				"1"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
-				
+
 				"paintbackground"					"0"
 				"border_default"					"MaterialGrayDarker"
 				"border_armed"						"MaterialHypno"
@@ -485,7 +484,7 @@
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
 				"depressedFgColor_override" 		"White"
-				
+
 				"labelText"							"#TF_SteamWorkshop_View"
 				"command"							"view"
 			}
@@ -507,7 +506,7 @@
 				"proportionaltoparent"				"1"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
-				
+
 				"paintbackground"					"0"
 				"border_default"					"MaterialGrayDarker"
 				"border_armed"						"MaterialHypno"
@@ -515,7 +514,7 @@
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
 				"depressedFgColor_override" 		"White"
-				
+
 				"labelText"							"#TF_SteamWorkshop_Delete"
 				"command"							"delete_item"
 			}
@@ -540,7 +539,7 @@
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
 			"border_default"						"MaterialGrayDarker"
 			"border_armed"							"MaterialHypno"
@@ -569,7 +568,7 @@
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
 			"border_default"						"MaterialGrayDarker"
 			"border_armed"							"MaterialHypno"
@@ -598,7 +597,7 @@
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
 			"border_default"						"MaterialGrayDarker"
 			"border_armed"							"MaterialHypno"
@@ -683,7 +682,7 @@
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
 			"border_default"						"MaterialRed"
 			"border_armed"							"MaterialHypno"

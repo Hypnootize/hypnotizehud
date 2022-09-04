@@ -1,4 +1,4 @@
-"Resource/training/basictraining/classpanel.res"
+"Resource/UI/Training/BasicTraining/ClassPanel.res"
 {
 	"Image"
 	{
@@ -9,7 +9,7 @@
 		"tileImage"									"0"
 		"scaleImage"								"1"
 		"image"										"illustrations/training_basic"
-	}	
+	}
 
 	"SelectButton"
 	{
@@ -19,18 +19,15 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"%selectbuttontext%"
 		"font"										"Size 11"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"%selectcommand%"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
@@ -39,7 +36,7 @@
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
 	}
-	
+
 	"ProgressLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -56,6 +53,6 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"wrap"										"0"
-		"fgcolor_override"							"Red"
+		"fgcolor"									"Red"
 	}
 }

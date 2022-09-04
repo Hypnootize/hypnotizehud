@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/base.res"
+"Resource/UI/Build_Menu/Base_Active.res"
 {
 	"Background"
 	{
@@ -14,9 +14,9 @@
 		"paintbackground"							"1"
 		"border"									"MaterialTransparentGreen50"
 	}
-	
+
 	"CostLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CostLabel"
 		"font"										"Size 14"
@@ -29,16 +29,16 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%metal%"
-		"textAlignment"								"center"	
+		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
 
 		"pin_to_sibling" 							"Background"
 		"pin_corner_to_sibling"					 	"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
 	}
-	
+
 	"CantBuildReason"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CantBuildReason"
 		"font"										"Symbols 30"
@@ -52,13 +52,11 @@
 		"enabled"									"1"
 		"labelText"									"+"
 		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"NumberLabelBG"
-	{	
+	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"NumberLabelBG"
 		"xpos"										"0"
@@ -76,7 +74,7 @@
 		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
 	}
 	"NumberLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
 		"font"										"Size 9"
@@ -90,19 +88,17 @@
 		"enabled"									"1"
 		"labelText"									"1"
 		"textAlignment"								"center"
-		"dulltext"									"1"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"pin_to_sibling" 							"NumberLabelBG"
 	}
-	
+
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemNameLabel"
 		"xpos"										"9999"
 	}
-	"BuildingIcon"	
+	"BuildingIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"BuildingIcon"
@@ -114,19 +110,19 @@
 		"fieldName"									"ItemBackground"
 		"xpos"										"9999"
 	}
-	"MetalIcon"	
+	"MetalIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"MetalIcon"
 		"xpos"										"9999"
 	}
 	"ModeLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ModeLabel"
 		"xpos"										"9999"
 	}
-	"NumberBg"	
+	"NumberBg"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg"

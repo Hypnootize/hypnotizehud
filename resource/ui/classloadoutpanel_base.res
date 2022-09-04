@@ -1,6 +1,6 @@
 #base "../../resource/tools/reloadschemebutton.res"
 
-"Resource/UI/FullLoadoutPanel.res"
+"Resource/UI/ClassLoadoutPanel.res"
 {
 	"class_loadout_panel"
 	{
@@ -13,28 +13,27 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayDarkest"
 		"infocus_bgcolor_override" 					"GrayDarkest"
 		"outoffocus_bgcolor_override" 				"GrayDarkest"
-		
+
 		"item_xpos_offcenter_a"						"-320"
 		"item_xpos_offcenter_b"						"175"
 		"item_ypos"									"35"
 		"item_ydelta"								"85"
 		"item_mod_wide"								"40"
-		
+
 		"item_backpack_offcenter_x"					"-288"
 		"item_backpack_xdelta"						"4"
 		"item_backpack_ydelta"						"3"
 
-		"button_xpos_offcenter"						"175"		
+		"button_xpos_offcenter"						"175"
 		"button_ypos"								"85"
 		"button_ydelta"								"80"
 		"button_override_delete_xpos" 				"0"
-		
+
 		"modelpanels_kv"
 		{
 			"ControlName"							"CItemModelPanel"
@@ -47,21 +46,21 @@
 			"noitem_textcolor"						"White"
 			"PaintBackgroundType"					"2"
 			"paintborder"							"1"
-			
+
 			"model_center_x"						"1"
-			"model_ypos"							"5"			
+			"model_ypos"							"5"
 			"model_tall"							"55"
 			"model_wide"							"82"
 			"text_ypos"								"60"
 			"text_center"							"1"
 			"name_only"								"1"
-			
+
 			"attriblabel"
 			{
 				"font"								"Size 11"
 				"visible"							"0"
 			}
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" 			"0"
@@ -81,47 +80,44 @@
 			"autoResize"							"0"
 			"visible"								"0"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"}"
 			"font"									"Symbols 14"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
-			
+
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"border_default"						"MaterialGrayDarkest"
 			"border_armed"							"MaterialHypno"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"White"
 			"depressedFgColor_override" 			"White"
 		}
 	}
-	
+
 	"classmodelpanel"
 	{
 		"ControlName"								"CTFPlayerModelPanel"
 		"fieldName"									"classmodelpanel"
-		
+
 		"xpos"										"c-135"
 		"ypos"										"20"
-		"zpos"										"-1"		
+		"zpos"										"-1"
 		"wide"										"270"
 		"tall"										"340"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"render_texture"							"0"
 		"fov"										"27"
 		"allow_manip"								"1"
-		
+
 		"model"
 		{
 			"force_pos"								"1"
@@ -136,11 +132,11 @@
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
 			"spotlight" 							"1"
-		
+
 			"modelname"								""
 		}
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -154,13 +150,13 @@
 		"bgcolor_override"							"Blank"
 		"noitem_textcolor"							"White"
 		"paintborder"								"1"
-		
+
 		"text_ypos"									"15"
 		"text_center"								"1"
 		"model_hide"								"1"
 		"resize_to_text"							"1"
 		"padding_height"							"15"
-		
+
 		"attriblabel"
 		{
 			"font"									"ItemFontAttribLarge"
@@ -179,7 +175,7 @@
 			"centerwrap"							"1"
 		}
 	}
-	
+
 	"loadout_preset_panel"
 	{
 		"ControlName"								"CLoadoutPresetPanel"
@@ -191,10 +187,9 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"paintbackground"							"0"
 	}
-	
+
 	"ItemOptionsPanel"
 	{
 		"ControlName"								"CLoadoutParticleSlider"
@@ -209,7 +204,7 @@
 		"bgcolor_override"							"BlackLight"
 		"PaintBackgroundType"						"0"
 	}
-	
+
 	"CharacterLoadoutButton"
 	{
 		"ControlName"								"CExButton"
@@ -223,9 +218,6 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"0"
 		"textAlignment"								"center"
 		"labelText"									"L"
@@ -233,13 +225,13 @@
 		"Command"									"characterloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"1"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-		
+
 		"defaultBgColor_override"					"GrayDark"
 		"armedBgColor_override"						"Main Theme"
 		"depressedBgColor_override" 				"GrayDark"
@@ -258,9 +250,6 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"0"
 		"textAlignment"								"center"
 		"labelText"									"^"
@@ -268,18 +257,18 @@
 		"Command"									"tauntloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"1"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-		
+
 		"defaultBgColor_override"					"GrayDark"
 		"armedBgColor_override"						"Main Theme"
 		"depressedBgColor_override" 				"GrayDark"
 	}
-	
+
 	"BlueButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -293,7 +282,6 @@
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"v"
 		"textAlignment"								"center"
 		"font"										"Symbols 14"
@@ -301,13 +289,13 @@
 		"command"									"sv_cheats 1; r_skin 1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override" 					"Blue"
 		"armedFgColor_override" 					"Blue"
 		"depressedFgColor_override" 				"Blue"
-	} 
+	}
 
 	"RedButton"
 	{
@@ -322,7 +310,6 @@
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"v"
 		"textAlignment"								"center"
 		"font"										"Symbols 14"
@@ -330,14 +317,14 @@
 		"command"									"sv_cheats 1;r_skin 0"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override" 					"Red"
 		"armedFgColor_override" 					"Red"
 		"depressedFgColor_override" 				"Red"
 	}
-	
+
 	"PresetsExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -351,7 +338,7 @@
 		"PaintBackgroundType"						"2"
 		"paintbackground" 							"0"
 		"border"									"MaterialBlackDark"
-		
+
 		"force_close"								"1"
 		"end_x"										"c-200"
 		"end_y"										"120"
@@ -360,7 +347,7 @@
 		"callout_inparents_x"						"c0"
 		"callout_inparents_y"						"75"
 		"next_explanation"							""
-		
+
 		"TitleLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -380,7 +367,7 @@
 			"AllCaps"								"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -399,7 +386,7 @@
 			"wrap"									"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -413,24 +400,21 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labeltext"								"%"
 			"font"									"Symbols 20"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"close"
-			
+
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override"					"Red"
 			"depressedFgColor_override" 			"Red"
-		}		
+		}
 	}
 
 	"TauntsExplanation"
@@ -446,7 +430,7 @@
 		"PaintBackgroundType"						"2"
 		"paintbackground" 							"0"
 		"border"									"MaterialBlackDark"
-		
+
 		"force_close"								"1"
 		"end_x"										"c-200"
 		"end_y"										"120"
@@ -455,7 +439,7 @@
 		"callout_inparents_x"						"c13"
 		"callout_inparents_y"						"55"
 		"next_explanation"							""
-		
+
 		"TitleLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -475,7 +459,7 @@
 			"AllCaps"								"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -494,7 +478,7 @@
 			"wrap"									"1"
 			"fgcolor" 								"White"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -508,29 +492,26 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labeltext"								"%"
 			"font"									"Symbols 20"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"close"
-			
+
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override"					"Red"
 			"depressedFgColor_override" 			"Red"
-		}		
+		}
 	}
-	
-	
-	
-	
+
+
+
+
 	/// REMOVED STUFF
 	"CaratLabel"
 	{
@@ -560,7 +541,7 @@
 	{
 		"ControlName"								"ImagePanel"
 		"xpos"										"9999"
-	}				
+	}
 	"PassiveAttribsLabel"
 	{
 		"ControlName"								"CExLabel"

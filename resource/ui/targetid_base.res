@@ -2,7 +2,7 @@
 {
 	"TargetNameLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"TargetNameLabel"
 		"font"										"Size 10"
 		"xpos"										"40"
@@ -11,14 +11,14 @@
 		"wide"										"640"
 		"tall"										"13"
 		"visible"									"1"
-		"enabled"									"1"
+		"enabled"									"1"				// 0 to enable color change
 		"labelText"									"%targetname%"
 		"textAlignment"								"west"
-		"fgcolor_override"							"White"
+		"disabledfgcolor2_override"					"White"
 	}
 	"TargetNameLabelShadow"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"TargetNameLabelShadow"
 		"font"										"Size 10 Blur"
 		"xpos"										"-1"
@@ -30,14 +30,14 @@
 		"enabled"									"1"
 		"labelText"									"%targetname%"
 		"textAlignment"								"west"
-		"fgcolor_override"							"Shadow"
+		"fgcolor"									"Shadow"
 		"alpha"										"255"
 		"pin_to_sibling" 							"TargetNameLabel"
 	}
-	
+
 	"TargetDataLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"TargetDataLabel"
 		"font"										"Size 10 Shadow"
 		"xpos"										"40"
@@ -49,8 +49,9 @@
 		"enabled"									"1"
 		"labelText"									"%targetdata%"
 		"textAlignment"								"west"
+		"disabledfgcolor2_override"					"White"
 	}
-	
+
 	"SpectatorGUIHealth"
 	{
 		"ControlName"								"EditablePanel"
@@ -68,7 +69,7 @@
 		"HealthDeathWarningColor"					"HUDDeathWarning"
 		"TextColor"									"HudOffWhite"
 	}
-	
+
 	"KillAnchor"
 	{
 		"ControlName"								"EditablePanel"
@@ -80,7 +81,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-	
+
 	"KillStreakIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -94,12 +95,12 @@
 		"enabled"									"1"
 		"image"										"replay/thumbnails/game/streak"
 		"scaleImage"								"1"
-		
+
 		"pin_to_sibling" 							"KillAnchor"
 		"pin_corner_to_sibling" 					"1"
 		"pin_to_sibling_corner" 					"1"
 	}
-	
+
 	"MoveableSubPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -113,7 +114,7 @@
 		"enabled"									"1"
 
 		"HandIcon"
-		{	
+		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"HandIcon"
 			"font"									"Symbols 20"
@@ -126,8 +127,6 @@
 			"enabled"								"1"
 			"labelText"								"@"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"fgcolor"								"White"
 		}
 
@@ -151,7 +150,7 @@
 		}
 		"MoveableKeyLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"MoveableKeyLabel"
 			"font"									"Size 10"
 			"xpos"									"9999"
@@ -163,9 +162,9 @@
 			"enabled"								"0"
 		}
 	}
-	
-	
-	
+
+
+
 	//REMOVED
 	"TargetIDBG"
 	{

@@ -1,4 +1,4 @@
-"Resource/SteamWorkshopItem.res"
+"Resource/UI/SteamWorkshopItem.res"
 {
 	"SteamWorkshopItem"
 	{
@@ -39,7 +39,7 @@
 		"mouseinputenabled" 						"0"
 	}
 
-	"LabelTitle"	
+	"LabelTitle"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"LabelTitle"

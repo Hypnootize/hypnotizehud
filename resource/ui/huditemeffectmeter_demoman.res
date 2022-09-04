@@ -1,6 +1,6 @@
 "Resource/UI/HudItemEffectMeter_Demoman.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
@@ -14,7 +14,7 @@
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-	
+
 	"HeadsIcon"
 	{
 		"ControlName"								"CExLabel"
@@ -65,16 +65,13 @@
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"west"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"font"										"Game 20"
 		"font_minmode"								"Game 16"
-		"fgcolor_override" 							"White"
-		
+		"fgcolor"		 							"White"
+
 		"pin_to_sibling" 							"HeadsIcon"
 		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
@@ -91,20 +88,17 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"west"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"font"										"Game 20 Blur"
 		"font_minmode"								"Game 16 Blur"
-		"fgcolor_override" 							"Shadow"
-		
+		"fgcolor"		 							"Shadow"
+
 		"pin_to_sibling" 							"ItemEffectMeterCount"
 	}
-	
-	
+
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -112,7 +106,7 @@
 		"xpos"										"9999"
 	}
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ItemEffectMeter"
 		"xpos"										"9999"

@@ -1,10 +1,10 @@
-"Resource/UI/StorePage.res"
+"Resource/UI/Econ/Store/V2/StorePage.res"
 {
 	"StorePage"
 	{
-		
+
 	}
-	
+
 	"PrevPageButton"
 	{
 		"xpos"										"-3"

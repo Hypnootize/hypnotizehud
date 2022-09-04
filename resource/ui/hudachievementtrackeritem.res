@@ -1,5 +1,5 @@
 "Resource/UI/HudAchievementTrackerItem.res"
-{	
+{
 	"HudAchievementTrackerItem"
 	{
 		"ControlName"								"EditablePanel"
@@ -10,14 +10,14 @@
 		"wide"										"150"
 		"tall"										"29"
 		"visible"									"0"
-		"enabled"									"1"	
-		
+		"enabled"									"1"
+
 		"PaintBackgroundType"						"2"
 	}
-	
+
 	"AchievementName"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"AchievementName"
 		"labeltext"									""
 		"xpos"										"5"
@@ -26,14 +26,14 @@
 		"tall"										"10"
 		"zpos"										"4"
 		"textinsetx"								"5"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 		"font"										"Size 10"
 		"textAlignment"								"north-west"
 	}
-	
+
 	"AchievementNameGlow"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"AchievementNameGlow"
 		"labeltext"									""
 		"xpos"										"5"
@@ -41,15 +41,15 @@
 		"wide"										"170"
 		"tall"										"10"
 		"zpos"										"4"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 		"font"										"Size 10"
 		"textinsetx"								"5"
 		"textAlignment"								"north-west"
 	}
-	
+
 	"AchievementDesc"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"AchievementDesc"
 		"labeltext"									""
 		"xpos"										"5"
@@ -58,12 +58,12 @@
 		"tall"										"18"
 		"zpos"										"4"
 		"textinsetx"								"5"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 		"font"										"DefaultVerySmall"
 		"wrap"										"1"
 		"TextAlignment"								"north-west"
 	}
-	
+
 	"ProgressBarBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -77,7 +77,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-	
+
 	"ProgressBar"
 	{
 		"ControlName"								"ImagePanel"

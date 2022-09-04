@@ -9,9 +9,9 @@
 // https://github.com/Hypnootize/Hypnotize-Hud/wiki/Colors
 //=====================================================================================
 
-Scheme
+"Scheme"
 {
-	Colors
+	"Colors"
 	{
 		//=============================================================================
 		// INGAME COLORS
@@ -20,21 +20,21 @@ Scheme
 		"Crosshair"											"227 228 230 255"
 		"Crosshair Shadow"									"0 0 0 255"
 		"Crosshair Pulse"									"255 0 0 255"
-		
+
 		"HitMarker"											"255 0 0 255"
-		
+
 		"Health Numbers"									"227 228 230 255"
-		
+
 		"Shadow"											"0 0 0 175"
 
 		"Buffed Health"										"30 175 255 255"
 		"Buffed Health Pulse"								"80 150 255 255"
 		"Buffed Health Spec"								"31 143 255 255"
-		
+
 		"Low Health"										"255 50 50 255"
 		"Low Health Pulse"									"255 0 0 255"
 		"Low Health Spec"									"225 41 41 255"
-		
+
 		"Ammo In Clip"										"227 228 230 255"
 		"Ammo In Reserve"									"227 228 230 255"
 		"Ammo No Clip"										"227 228 230 255"
@@ -62,9 +62,9 @@ Scheme
 		//=============================================================================
 		// MENU COLORS
 		//=============================================================================
-		
+
 		"Main Theme"										"80 150 255 255"
-		
+
 		"WhiteLight"										"227 228 230 255"
 		"White"												"227 228 230 255"
 		"WhiteDark"											"172 173 175 255"
@@ -83,7 +83,7 @@ Scheme
 		//=============================================================================
 		// ITEM QUALITY COLORS
 		//=============================================================================
-		
+
 		"Normal"											"50 50 50 255"
 		"Genuine"											"115 215 140 255"
 		"Unusual"											"215 145 255 255"
@@ -106,7 +106,7 @@ Scheme
 		"CommandoGrade"										"160 125 255 255"
 		"AssassinGrade"										"245 150 255 255"
 		"EliteGrade"										"255 130 130 255"
-		
+
 		"Normal_Hover"										"40 40 40 255"
 		"Genuine_Hover"										"105 205 130 255"
 		"Unusual_Hover"										"205 135 245 255"

@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/base_unavailable.res"
+"Resource/UI/Build_Menu/Base_Unavailable_Teleport_Target.res"
 {
 	"Background"
 	{
@@ -13,9 +13,9 @@
 		"paintbackground"							"1"
 		"border"									"MaterialTransparent50"
 	}
-	
+
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemNameLabel"
 		"font"										"Size 10"
@@ -28,15 +28,13 @@
 		"enabled"									"1"
 		"labelText"									"#TF_Object_Sentry"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"AllCaps"									"1"
 
 		"pin_to_sibling" 							"Background"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
 	}
-	
+
 	"CantBuildBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -52,9 +50,9 @@
 		"paintbackground"							"1"
 		"border"									"MaterialTransparentRed50"
 	}
-	
+
 	"CantBuildReason"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CantBuildReason"
 		"font"										"Symbols 20"
@@ -67,8 +65,6 @@
 		"enabled"									"1"
 		"labelText"									"-"
 		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 
 		"pin_to_sibling" 							"CantBuildBG"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
@@ -94,7 +90,7 @@
 	}
 
 	"NumberLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
 		"font"										"Size 14"
@@ -108,28 +104,26 @@
 		"enabled"									"1"
 		"labelText"									"1"
 		"textAlignment"								"Center"
-		"dulltext"									"1"
-		"brighttext"								"0"
 		"pin_to_sibling" 							"NumberBG"
 	}
-	
-	
-	"BuildingIcon"	
+
+
+	"BuildingIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"BuildingIcon"
 		"xpos"										"9999"
 	}
 	"ModeLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ModeLabel"
-		"xpos"										"9999"	
+		"xpos"										"9999"
 	}
 	"ItemBackground"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"ItemBackground"
-		"xpos"										"9999"	
+		"xpos"										"9999"
 	}
 }

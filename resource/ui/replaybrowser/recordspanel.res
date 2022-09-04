@@ -1,9 +1,9 @@
-"Resource/UI/RecordPanel.res"
+"Resource/UI/ReplayBrowser/RecordPanel.res"
 {
 	"RecordPanel"
 	{
 		"ControlName"								"EditablePanel"
-		"FieldName"									"Embedded"
+		"FieldName"									"RecordPanel"
 	}
 
 	"TitleLabel"
@@ -19,9 +19,9 @@
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"0"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 	}
-	
+
 	"RecordInfoLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -35,9 +35,9 @@
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"0"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 	}
-	
+
 	"ScoreBackgroundPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -47,7 +47,7 @@
 		"Border"									"MaterialBlackLight"
 		"bgcolor_override"							"Blank"
 	}
-	
+
 	"ScoreLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -61,6 +61,6 @@
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"0"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 	}
 }

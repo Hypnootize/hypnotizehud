@@ -14,7 +14,7 @@
 		"paintbackground"							"1"
 		"border"									"MaterialTransparent50"
 	}
-	
+
 	"CurrencyGood"
 	{
 		"ControlName"								"CExLabel"
@@ -28,10 +28,10 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"center"	
+		"textAlignment"								"center"
 		"labelText"									"%currency%"
 	}
-	
+
 	"CurrencyBad"
 	{
 		"ControlName"								"CExLabel"
@@ -45,10 +45,10 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"center"	
+		"textAlignment"								"center"
 		"labelText"									"%currency%"
 	}
-	
+
 	"CurrencyShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -62,17 +62,17 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"center"	
+		"textAlignment"								"center"
 		"labelText"									"%currency%"
-		
+
 	}
-	
+
 	"BorderBG"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BorderBG"
 		"xpos"										"9999"
-	}	
+	}
 	"BackgroundGood"
 	{
 		"ControlName"								"EditablePanel"

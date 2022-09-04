@@ -1,4 +1,4 @@
-"Resource/UI/replaymessage.res"
+"Resource/UI/ReplayMessage.res"
 {
 	"ReplayMessagePanel"
 	{
@@ -11,7 +11,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-	
+
 	"ReplayLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -55,6 +55,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"replay/replayicon"
-		"scaleImage"								"1"	
-	}		
+		"scaleImage"								"1"
+	}
 }

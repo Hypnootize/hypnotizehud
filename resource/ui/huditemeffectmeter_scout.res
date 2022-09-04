@@ -2,7 +2,7 @@
 
 "Resource/UI/HudItemEffectMeter_Scout.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"ypos"										"c124"
 		"ypos_minmode"								"c73"

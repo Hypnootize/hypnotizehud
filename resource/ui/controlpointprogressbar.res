@@ -14,8 +14,8 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
+
 	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
 	"ProgressBar"
 	{
 		"ControlName"								"CircularProgressBar"
@@ -44,8 +44,8 @@
 		"enabled"									"0"
 	}
 	"ProgressText"
-	{	
-		"ControlName"								"Label"
+	{
+		"ControlName"								"CExLabel"
 		"fieldName"									"ProgressText"
 		"wide"										"0"
 		"tall"										"0"

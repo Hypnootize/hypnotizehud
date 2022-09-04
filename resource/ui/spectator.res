@@ -9,20 +9,19 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 	}
-	
+
 	"specgui"
 	{
 	}
-	
+
 	"ReinforcementsLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ReinforcementsLabel"
 		"xpos"										"cs-0.5"
 		"ypos"										"45"
-		"wide"										"f0"  
+		"wide"										"f0"
 		"tall"										"20"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -31,11 +30,11 @@
 		"labelText"									"#game_respawntime_in_secs"
 		"textAlignment"								"center"
 		"font"										"Size 12"
-		"fgcolor_override"   						"White"
+		"fgcolor"			   						"White"
 		"AllCaps"   								"1"
 		"proportionaltoparent"   					"1"
 	}
-	
+
 	"BuyBackLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -54,7 +53,7 @@
 		"wrap"										"1"
 		"centerwrap"								"1"
 	}
-	
+
 	"itempanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -67,22 +66,22 @@
 		"visible"									"0"
 		"paintbackground"							"0"
 		"border"									"MaterialTransparent50"
-		
+
 		"model_ypos"								"11"
 		"model_center_x"							"1"
 		"model_wide"								"90"
 		"model_tall"								"60"
-		
+
 		"text_xpos"									"10"
 		"text_ypos"									"10"
 		"text_wide"									"170"
 		"text_center"								"1"
-		
+
 		"max_text_height"							"100"
 		"padding_height"							"10"
 		"resize_to_text"							"1"
 		"text_forcesize"							"2"
-		
+
 		"itemmodelpanel"
 		{
 			"fieldName"								"itemmodelpanel"
@@ -90,10 +89,10 @@
 			"inventory_image_type"					"1"
 			"useparentbg"							"1"
 		}
-		
+
 		"ItemLabel"
-		{	
-			"ControlName"							"Label"
+		{
+			"ControlName"							"CExLabel"
 			"fieldName"								"ItemLabel"
 			"font"									"DefaultSmall"
 			"xpos"									"10"
@@ -107,11 +106,9 @@
 			"enabled"								"1"
 			"labelText"								"#FreezePanel_Item"
 			"textAlignment"							"Left"
-			"dulltext"								"0"
-			"brighttext"							"0"
 		}
 	}
-	
+
 	"spectator_extras"
 	{
 		"ControlName"								"EditablePanel"
@@ -125,9 +122,9 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-	
-	
-	
+
+
+
 	//BIN
 	"topbar"
 	{
@@ -141,9 +138,8 @@
 		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
-		"tabPosition"								"0"
 	}
-	
+
 	"BottomBar"
 	{
 		"ControlName"								"Frame"
@@ -155,9 +151,8 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"0"
-		"tabPosition"								"0"
 	}
-	
+
 	"bottombarblank"
 	{
 		"ControlName"								"Panel"
@@ -170,9 +165,8 @@
 		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
-		"tabPosition"								"0"
 	}
-	
+
 	"MapLabel"
 	{
 		"ControlName"								"CExLabel"

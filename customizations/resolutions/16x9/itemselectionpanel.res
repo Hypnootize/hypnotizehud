@@ -11,22 +11,22 @@
 			"tall"									"93"
 			"model_tall"							"57"
 		}
-		
+
 		"modelpanels_kv"
 		{
 			"wide"									"72"
 			"tall"									"57"
-			
+
 			"model_wide"							""
 			"model_tall"							"43"
-			
+
 			"text_ypos"								"60"
-			
+
 			"inset_eq_x"							"2"
 			"inset_eq_y"							"2"
 		}
 	}
-	
+
 	"BackpackBGCustom"
 	{
 		"xpos"										"cs-0.5"
@@ -34,7 +34,7 @@
 		"wide"										"710"
 		"tall"										"282"
 	}
-	
+
 	"CancelButton"
 	{
 		"wide"										"710"

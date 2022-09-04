@@ -15,11 +15,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"alpha"										"255"
-		
+
 		"border"									"HealthBorder"
 		"scaleImage"								"1"
 	}
-	
+
 	"HealthBuff"
 	{
 		"ControlName"								"EditablePanel"
@@ -35,11 +35,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"alpha"										"0"
-		
+
 		"border"									"BuffedBorder"
 		"scaleImage"								"1"
 	}
-	
+
 	"HealthHurt"
 	{
 		"ControlName"								"EditablePanel"
@@ -55,11 +55,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"alpha"										"0"
-		
+
 		"border"									"HurtBorder"
 		"scaleImage"								"1"
 	}
-	
+
 	"PlayerStatusHealthValueKiller"
 	{
 		"ControlName"								"CExLabel"
@@ -78,7 +78,7 @@
 
 		"pin_to_sibling" 							"HealthBG"
 	}
-	
+
 	"PlayerStatusHealthValueShadowKiller"
 	{
 		"ControlName"								"CExLabel"
@@ -97,10 +97,10 @@
 
 		"pin_to_sibling" 							"PlayerStatusHealthValueKiller"
 	}
-	
-	
-	
-	
+
+
+
+
 	//RIP
 	"PlayerStatusHealthImage"
 	{
@@ -110,7 +110,7 @@
 		"tall"										"0"
 		"visible"									"0"
 		"enabled"									"0"
-	}		
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -119,16 +119,16 @@
 		"tall"										"0"
 		"visible"									"0"
 		"enabled"									"0"
-	}	
+	}
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"PlayerStatusHealthImageBG"
+		"fieldName"									"BuildingStatusHealthImageBG"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
 		"enabled"									"0"
-	}	
+	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"								"ImagePanel"

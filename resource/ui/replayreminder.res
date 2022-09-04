@@ -10,7 +10,7 @@
 		"wide"										"166"
 		"tall"										"40"
 		"visible"									"0"
-		
+
 		"BG"
 		{
 			"ControlName"							"ImagePanel"
@@ -37,12 +37,12 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"image"									"replay/replayicon"
-			"scaleImage"							"1"	
-		}		
-		"Label"
-		{	
-			"ControlName"							"Label"
-			"fieldName"								"Label"
+			"scaleImage"							"1"
+		}
+		"CExLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"CExLabel"
 			"font"									"Size 8"
 			"xpos"									"40"
 			"ypos"									"25"
@@ -55,8 +55,6 @@
 			"enabled"								"1"
 			"labelText"								"%text%"
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 		}
-	}	
+	}
 }

@@ -18,10 +18,10 @@
 		"wrap"										"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor_override" 							"WhiteDark"
+		"fgcolor"		 							"WhiteDark"
 		"auto_tall_tocontents"						"1"
 	}
-	
+
 	"TextLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -39,10 +39,10 @@
 		"enabled"									"1"
 		"wrap"										"1"
 		"proportionaltoparent"						"1"
-		"fgcolor_override" 							"WhiteDark"
+		"fgcolor"		 							"WhiteDark"
 		"auto_tall_tocontents"						"1"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -55,27 +55,24 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labeltext"									"%"
 		"font"										"Symbols 20"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"0"
 		"Command"									"close"
 		"proportionaltoparent"						"1"
 		"autoresize"								"0"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override"						"Red"
 		"depressedFgColor_override" 				"Red"
-	}	
-	
+	}
+
 	"PrevButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -87,22 +84,19 @@
 		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labeltext"									"#"
 		"font"										"Symbols 24"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"0"
 		"Command"									"prevexplanation"
 		"proportionaltoparent"						"1"
 		"skip_autoresize"							"1"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"Main Theme"
 		"depressedFgColor_override" 				"Main Theme"
@@ -119,26 +113,23 @@
 		"autoResize"								"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labeltext"									"$"
 		"font"										"Symbols 24"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"0"
 		"Command"									"nextexplanation"
 		"proportionaltoparent"						"1"
 		"skip_autoresize"							"1"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"Main Theme"
 		"depressedFgColor_override" 				"Main Theme"
-	}	
+	}
 	"PositionLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -153,8 +144,8 @@
 		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor_override" 							"Main Theme"
+		"fgcolor"		 							"Main Theme"
 		"proportionaltoparent"						"1"
 		"skip_autoresize"							"1"
-	}		
+	}
 }

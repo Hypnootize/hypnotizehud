@@ -1,4 +1,4 @@
-"Resource/UI/winpanel.res"
+"Resource/UI/StatSummary.res"
 {
 	"TFStatsSummary"
 	{
@@ -11,7 +11,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-	
+
 	"Background"
 	{
 		"ControlName"								"ImagePanel"
@@ -46,7 +46,7 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"GrayDark"
 	}
-	
+
 	"MapLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -67,9 +67,6 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"WhiteDark"
 	}
-	
-	
-	///////////REMOVED///////////
 
 	"MainBackground"
 	{
@@ -97,7 +94,7 @@
 	}
 	"TipText"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"TipText"
 		"xpos"										"9999"
 	}

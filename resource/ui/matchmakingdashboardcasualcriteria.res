@@ -16,7 +16,7 @@
 
 	"Title"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"Title"
 		"xpos"										"5"
 		"ypos"										"16"
@@ -27,10 +27,10 @@
 		"labeltext"									"#TF_Matchmaking_HeaderCasual"
 		"textAlignment"								"west"
 		"font"										"Size 24"
-		"fgcolor_override"							"WhiteDark"
-		
+		"fgcolor"									"WhiteDark"
+
 		"AllCaps"									"1"
-		
+
 		"mouseinputenabled"							"0"
 	}
 
@@ -46,7 +46,7 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"ToolTipButtonHack"
 	{
 		"ControlName"								"EditablePanel"
@@ -59,7 +59,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"mouseinputenabled"							"1"
-		"eatmouseinput"								"0"	
+		"eatmouseinput"								"0"
 		"showtooltipswhenmousedisabled"				"1"
 		"proportionaltoparent" 						"1"
 	}
@@ -77,11 +77,8 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"font"										"Size 18"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"find_game"
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_Matchmaking_StartSearch"
@@ -89,12 +86,12 @@
 		"keyboardinputenabled"						"0"
 		"actionsignallevel"							"1"
 		"AllCaps"									"1"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 

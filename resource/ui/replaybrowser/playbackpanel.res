@@ -1,4 +1,4 @@
-"Resource/UI/PlaybackPanel.res"
+"Resource/UI/ReplayBrowser/PlaybackPanel.res"
 {
 	"PlaybackPanel"
 	{
@@ -8,7 +8,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"border"									"MaterialBlackLight"
 	}
 }

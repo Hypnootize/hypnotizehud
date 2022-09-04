@@ -1,4 +1,4 @@
-"resource/ListThumbnail.res"
+"Resource/UI/ReplayBrowser/ListThumbnail.res"
 {
 	"ListThumbnail"
 	{
@@ -26,7 +26,7 @@
 		"enabled"									"1"
 		"border"									"MaterialBlackLight"
 	}
-	
+
 	"ScreenshotThumbnail"
 	{
 		"ControlName"								"Panel"
@@ -39,7 +39,7 @@
 		"autoResize"								"0"
 		"pinCorner"									"0"
 	}
-	
+
 	"DownloadProgress"
 	{
 		"ControlName"								"ProgressBar"
@@ -53,7 +53,7 @@
 		"bgcolor_override" 							"BlackDark"
 		"fgcolor_override" 							"Main Theme"
 	}
-	
+
 	"RecordingInProgressLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -70,7 +70,7 @@
 		"paintbackground"							"0"
 		"fgcolor"		 							"Red"
 	}
-	
+
 	"DownloadLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -85,7 +85,7 @@
 		"enabled"									"1"
 		"fgcolor" 									"White"
 	}
-	
+
 	"ErrorLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -100,7 +100,7 @@
 		"enabled"									"1"
 		"fgcolor" 									"Red"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -118,7 +118,7 @@
 		"enabled"									"1"
 		"fgcolor" 									"White"
 	}
-	
+
 	"DownloadButton"
 	{
 		"ControlName"								"CExButton"
@@ -132,7 +132,6 @@
 		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#Replay_Download"
 		"font"										"Size 11"
 		"textAlignment"								"center"
@@ -141,7 +140,7 @@
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
@@ -150,7 +149,7 @@
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
 	}
-	
+
 	"DownloadOverlay"
 	{
 		"ControlName"								"Panel"
@@ -163,7 +162,7 @@
 		"bgcolor_override"							"Blank"
 		"Command"									"overlay_clicked"
 	}
-	
+
 	"DeleteButton"
 	{
 		"ControlName"								"CExButton"
@@ -177,7 +176,6 @@
 		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"X"
 		"font"										"Size 11"
 		"textAlignment"								"center"
@@ -186,7 +184,7 @@
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"

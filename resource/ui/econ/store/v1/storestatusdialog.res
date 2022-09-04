@@ -1,4 +1,4 @@
-"Resource/UI/StoreStatusDialog.res"
+"Resource/UI/Econ/Store/V1/StoreStatusDialog.res"
 {
 	"StoreStatusDialog"
 	{
@@ -15,10 +15,10 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"BlackDark"
 	}
-	
+
 	"TitleLabel"
-	{	
-		"ControlName"								"Label"
+	{
+		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
 		"font"										"Size 14"
 		"xpos"										"10"
@@ -36,7 +36,7 @@
 		"textAlignment"								"center"
 		"fgcolor" 									"White"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -50,18 +50,15 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#GameUI_Ok"
 		"font"										"Size 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"close"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"

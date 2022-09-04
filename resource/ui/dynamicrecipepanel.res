@@ -1,6 +1,6 @@
 #base "../../resource/tools/reloadschemebutton.res"
 
-"Resource/UI/DynamicRecipe.res"
+"Resource/UI/DynamicRecipePanel.res"
 {
 	"dynamic_recipe_panel"
 	{
@@ -15,7 +15,6 @@
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayDarkest"
@@ -23,18 +22,18 @@
 		"outoffocus_bgcolor_override" 				"GrayDarkest"
 
 		"item_ypos"									"50"
-		"output_item_ypos"							"255"		
+		"output_item_ypos"							"255"
 		"item_crafting_offcenter_x"					"7"
 		"item_backpack_xdelta"						"0"
 		"item_backpack_ydelta"						"0"
 		"inventory_xpos"							"7"
 		"inventory_ypos"							"50"
 
-		"button_xpos_offcenter"						"175"		
+		"button_xpos_offcenter"						"175"
 		"button_ypos"								"85"
 		"button_ydelta"								"80"
 		"button_override_delete_xpos"				"0"
-		
+
 		"modelpanels_kv"
 		{
 			"ControlName"							"CItemModelPanel"
@@ -46,17 +45,17 @@
 			"noitem_textcolor"						"White"
 			"PaintBackgroundType"					"0"
 			"paintborder"							"1"
-			
+
 			"model_ypos"							"5"
 			"model_tall"							"35"
 			"text_center"							"1"
 			"name_only"								"1"
 			"text_forcesize" 						"3"
 			"noitem_use_fullpanel" 					"1"
-			
+
 			"inset_eq_x"							"2"
 			"inset_eq_y"							"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" 			"0"
@@ -64,12 +63,12 @@
 				"allow_rot"							"0"
 			}
 		}
-		
+
 		"filter_xoffset"							"-290"
 		"filter_ypos"								"30"
 		"filter_xdelta"								"10"
 		"filter_ydelta"								"10"
-		
+
 		"recipefilterbuttons_kv"
 		{
 			"zpos"									"2"
@@ -79,7 +78,6 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								""
 			"textAlignment"							"center"
 			"Command"								""
@@ -88,7 +86,7 @@
 			"scaleImage"							"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-		}	
+		}
 	}
 
 	"recipecontainer"
@@ -125,7 +123,7 @@
 			"centerwrap"							"1"
 			"proportionaltoparent"					"1"
 		}
-	
+
 		"InputLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -145,7 +143,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"OutputLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -165,7 +163,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"UntradableLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -185,7 +183,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"CraftButton"
 		{
 			"ControlName"							"CExButton"
@@ -199,19 +197,16 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"0"
-			"tabPosition"							"0"
 			"labelText"								"#CraftConfirm"
 			"font"									"Size 14"
 			"textAlignment"							"center"
 			"textinsetx"							"50"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"Command"								"craft"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-		
+
 			"paintbackground"						"0"
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
@@ -219,8 +214,8 @@
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override" 			"White"
-		}		
-		
+		}
+
 		"PrevInputPageButton"
 		{
 			"ControlName"							"CExButton"
@@ -234,17 +229,14 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"<"
 			"font"									"Symbols 20"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"Command"								"previnputpage"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-		
+
 			"paintbackground"						"0"
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
@@ -253,7 +245,7 @@
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override" 			"White"
 		}
-		
+
 		"CurInputPageLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -273,7 +265,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"NextInputPageButton"
 		{
 			"ControlName"							"CExButton"
@@ -287,17 +279,14 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								">"
 			"font"									"Symbols 20"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"Command"								"nextinputpage"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-		
+
 			"paintbackground"						"0"
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
@@ -305,7 +294,7 @@
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override" 			"White"
-		}			
+		}
 	}
 
 	"inventorycontainer"
@@ -359,8 +348,6 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 			"proportionaltoparent"					"1"
@@ -387,7 +374,7 @@
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"CancelButton"
 		{
 			"ControlName"							"CExButton"
@@ -401,19 +388,16 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"#Cancel"
 			"font"									"Size 14"
 			"textAlignment"							"center"
 			"textinsetx"							"50"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"Command"								"cancel"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-		
+
 			"paintbackground"						"0"
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
@@ -421,8 +405,8 @@
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override" 			"White"
-		}	
-		
+		}
+
 		"PrevPageButton"
 		{
 			"ControlName"							"CExButton"
@@ -436,17 +420,14 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"<"
 			"font"									"Symbols 20"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"Command"								"prevpage"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
@@ -455,7 +436,7 @@
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override" 			"White"
 		}
-		
+
 		"CurPageLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -475,7 +456,7 @@
 			"fgcolor" 								"Main Theme"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"NextPageButton"
 		{
 			"ControlName"							"CExButton"
@@ -489,17 +470,14 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								">"
 			"font"									"Symbols 20"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"Command"								"nextpage"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
@@ -507,7 +485,7 @@
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override" 			"White"
-		}				
+		}
 	}
 
 	"mouseoveritempanel"
@@ -524,13 +502,13 @@
 		"noitem_textcolor"							"Gray"
 		"PaintBackgroundType"						"0"
 		"paintborder"								"1"
-		
+
 		"text_ypos"									"20"
 		"text_center"								"1"
 		"model_hide"								"1"
 		"resize_to_text"							"1"
 		"padding_height"							"15"
-		
+
 		"attriblabel"
 		{
 			"font"									"ItemFontAttribLarge"
@@ -554,7 +532,7 @@
 	{
 		"ControlName"								"CItemModelPanel"
 		"fieldName"									"mousedragitempanel"
-		
+
 		"xpos"										"c-70"
 		"ypos"										"270"
 		"zpos"										"100"
@@ -565,13 +543,13 @@
 		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"0"
 		"paintborder"								"1"
-		
+
 		"model_ypos"								"5"
 		"model_tall"								"35"
 		"text_ypos"									"60"
 		"text_center"								"1"
 		"name_only"									"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" 				"0"

@@ -2,9 +2,9 @@
 {
 	"CharInfoLoadoutSubPanel"
 	{
-		
+
 	}
-	
+
 	"CustomScout"
 	{
 		"xpos"										"4"
@@ -69,14 +69,14 @@
 		"tall"										"75"
 		"font"										"Class Symbols 56"
 	}
-	
+
 	"Backpack"
 	{
 		"xpos"										"4"
 		"wide"										"75"
 		"tall"										"75"
 		"font"										"Symbols 50"
-	}	
+	}
 	"Crafting"
 	{
 		"xpos"										"4"
@@ -98,7 +98,7 @@
 		"wide"										"75"
 		"tall"										"75"
 		"font"										"Symbols 50"
-	}	
+	}
 	"Paints"
 	{
 		"xpos"										"4"

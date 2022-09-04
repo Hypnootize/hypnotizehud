@@ -1,4 +1,4 @@
-"Resource/UI/destroy_menu/base_active.res"
+"Resource/UI/Destroy_Menu/Base_Active.res"
 {
 	"Background"
 	{
@@ -14,7 +14,7 @@
 		"paintbackground"							"1"
 		"border"									"MaterialTransparentRed50"
 	}
-	
+
 	"DestroyIcon"
 	{
 		"ControlName"								"CIconPanel"
@@ -26,13 +26,13 @@
 		"tall"										"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"scaleImage"								"1"	
+		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 		"icon"										"ico_demolish"
 	}
 
 	"Destroy"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Destroy"
 		"font"										"Symbols 34"
@@ -48,9 +48,9 @@
 		"textAlignment"								"Center"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
 		"font"										"Size 14"
@@ -64,25 +64,23 @@
 		"enabled"									"1"
 		"labelText"									"1"
 		"textAlignment"								"Center"
-		"dulltext"									"1"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 	}
-	
-	
+
+
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemNameLabel"
 		"xpos"										"9999"
 	}
-	"BuildingIcon"	
+	"BuildingIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"BuildingIcon"
 		"xpos"										"9999"
 	}
-	"ItemBackground"	
+	"ItemBackground"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"ItemBackground"

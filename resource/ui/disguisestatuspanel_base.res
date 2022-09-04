@@ -1,13 +1,13 @@
-"Resource/UI/ItemModelPanel.res"
+"Resource/UI/DisguiseStatusPanel.res"
 {
 	"itemmodelpanel"
 	{
 		"ControlName"								"CEmbeddedItemModelPanel"
 		"fieldName"									"itemmodelpanel"
-	
+
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"1"		
+		"zpos"										"1"
 		"wide"										"100"
 		"tall"										"100"
 		"autoResize"								"0"
@@ -28,7 +28,7 @@
 			"angles_z"								"0"
 		}
 	}
-	
+
 	"DisguiseStatusBG"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -47,13 +47,13 @@
 		"teambg_1"									"replay/thumbnails/panels/material_transparent50"
 		"teambg_2"									"replay/thumbnails/panels/material_red_transparent50"
 		"teambg_3"									"replay/thumbnails/panels/material_blue_transparent50"
-		
+
 		"src_corner_height"							"24"
 		"src_corner_width"							"24"
 		"draw_corner_width"							"8"
 		"draw_corner_height" 						"8"
 	}
-	
+
 	"SpectatorGUIHealth"
 	{
 		"ControlName"								"EditablePanel"
@@ -64,24 +64,24 @@
 		"wide"										"45"
 		"tall"										"30"
 		"visible"									"1"
-		"enabled"									"1"	
+		"enabled"									"1"
 		"HealthBonusPosAdj"							"10"
 		"HealthDeathWarning"						"0.49"
 		"TFFont"									"Size 14"
 		"HealthDeathWarningColor"					"HUDDeathWarning"
 		"TextColor"									"HudOffWhite"
-		
+
 		"pin_to_sibling"							"DisguiseStatusBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
 
 	"DisguiseNameLabel"
-	{	
-		"ControlName"								"Label"
+	{
+		"ControlName"								"CExLabel"
 		"fieldName"									"DisguiseNameLabel"
 		"font"										"Size 10"
-		"fgcolor_override"   						"White"
+		"fgcolor"		   							"White"
 		"xpos"										"-45"
 		"ypos"										"-4"
 		"zpos"										"2"
@@ -93,20 +93,18 @@
 		"enabled"									"1"
 		"labelText"									"%disguisename%"
 		"textAlignment"								"West"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"alpha"										"255"
-		
+
 		"pin_to_sibling"							"DisguiseStatusBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
 	"DisguiseNameLabelShadow"
-	{	
-		"ControlName"								"Label"
+	{
+		"ControlName"								"CExLabel"
 		"fieldName"									"DisguiseNameLabelShadow"
 		"font"										"Size 10 Blur"
-		"fgcolor_override"   						"Shadow"
+		"fgcolor"									"Shadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"1"
@@ -118,18 +116,16 @@
 		"enabled"									"1"
 		"labelText"									"%disguisename%"
 		"textAlignment"								"West"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"alpha"										"255"
 		"pin_to_sibling"							"DisguiseNameLabel"
 	}
-	
+
 	"WeaponNameLabel"
-	{	
-		"ControlName"								"Label"
+	{
+		"ControlName"								"CExLabel"
 		"fieldName"									"WeaponNameLabel"
 		"font"										"Size 9"
-		"fgcolor_override"   						"White"
+		"fgcolor"		   							"White"
 		"xpos"										"-45"
 		"ypos"										"5"
 		"zpos"										"2"
@@ -141,19 +137,17 @@
 		"enabled"									"1"
 		"labelText"									"%weaponname%"
 		"textAlignment"								"West"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		
+
 		"pin_to_sibling"							"DisguiseStatusBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
 	"WeaponNameLabelShadow"
-	{	
-		"ControlName"								"Label"
+	{
+		"ControlName"								"CExLabel"
 		"fieldName"									"WeaponNameLabelShadow"
 		"font"										"Size 9 Blur"
-		"fgcolor_override"   						"Shadow"
+		"fgcolor"		   							"Shadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"1"
@@ -165,8 +159,6 @@
 		"enabled"									"1"
 		"labelText"									"%weaponname%"
 		"textAlignment"								"West"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"pin_to_sibling"							"WeaponNameLabel"
 	}
 }

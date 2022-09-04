@@ -15,10 +15,10 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 		"border"									"HealthBorder"
-		
+
 		"alpha"										"255"
 	}
-	
+
 	"HealthBuff"
 	{
 		"ControlName"								"EditablePanel"
@@ -34,12 +34,12 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 		"border"									"BuffedBorder"
-		
+
 		"alpha"										"0"
-		
+
 		"pin_to_sibling" 							"HealthBG"
 	}
-	
+
 	"HealthHurt"
 	{
 		"ControlName"								"EditablePanel"
@@ -55,12 +55,12 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 		"border"									"HurtBorder"
-		
+
 		"alpha"										"0"
-		
+
 		"pin_to_sibling" 							"HealthBG"
 	}
-	
+
 	"PlayerStatusHealthValueSpec"
 	{
 		"ControlName"								"CExLabel"
@@ -81,7 +81,7 @@
 		"labeltext"									"%Health%"
 		"pin_to_sibling" 							"HealthBG"
 	}
-	
+
 	"PlayerStatusHealthValueSpecShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -100,13 +100,13 @@
 		"font"										"Game 14 Blur"
 		"fgcolor"									"Shadow"
 		"labeltext"									"%Health%"
-		
+
 		"pin_to_sibling" 							"PlayerStatusHealthValueSpec"
 	}
-	
-	
-	
-	
+
+
+
+
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -114,7 +114,7 @@
 		"xpos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
-	}		
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -122,7 +122,7 @@
 		"xpos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
-	}	
+	}
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -130,7 +130,7 @@
 		"xpos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
-	}	
+	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"								"ImagePanel"

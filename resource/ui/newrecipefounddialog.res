@@ -14,10 +14,10 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"BlackDark"
 	}
-	
+
 	"TitleLabel"
-	{	
-		"ControlName"								"Label"
+	{
+		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
 		"font"										"Size 24"
 		"xpos"										"0"
@@ -33,7 +33,7 @@
 		"labelText"									"#NewRecipeFound"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"fgcolor_override" 							"WhiteDark"
+		"fgcolor"		 							"WhiteDark"
 	}
 
 	"RecipeItemModelPanel"
@@ -50,13 +50,13 @@
 		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"0"
 		"paintborder"								"0"
-		
+
 		"text_ypos"									"20"
 		"text_center"								"1"
 		"model_hide"								"1"
 		"resize_to_text"							"1"
 		"padding_height"							"15"
-		
+
 		"attriblabel"
 		{
 			"font"									"ItemFontAttribLarge"
@@ -75,7 +75,7 @@
 			"centerwrap"							"1"
 		}
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -89,20 +89,17 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#GameUI_Ok"
 		"font"										"Size 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"close"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 

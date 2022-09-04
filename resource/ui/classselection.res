@@ -12,9 +12,8 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 	}
-	
+
 	"ClassSelectFrame"
 	{
 		"ControlName"     		  					"EditablePanel"
@@ -28,10 +27,10 @@
 		"enabled"									"1"
 		"border"									"MaterialTransparent70"
 	}
-	
+
 	"ClassSelect"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"ClassSelect"
 		"xpos"										"0"
 		"ypos"										"-4"
@@ -45,16 +44,14 @@
 		"labelText"									"select a class!"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"dulltext"									"0"
-		"brighttext"								"1"
 		"font"										"Size 14"
-		"fgcolor_override"							"White"
-		
+		"fgcolor"									"White"
+
 		"pin_to_sibling" 							"ClassSelectFrame"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
 	}
-	
+
 	"ClassSelectionBG"
 	{
 		"ControlName"     		  					"EditablePanel"
@@ -81,7 +78,7 @@
 		"enabled"									"1"
 		"border"									"MaterialTransparent70"
 	}
-	
+
 	"ClassesAnchor"									//////MOVES THE WHOLE CLASS LIST THROUGH PINNING (no model)
 	{
 		"ControlName"								"EditablePanel"
@@ -93,7 +90,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-	
+
 	"random"
 	{
 		"xpos"										"0"
@@ -111,20 +108,20 @@
 		"Default"									"1"
 		"font"										"Size 14"
 		"AllCaps"									"1"
-		
+
 		"paintbackground"							"0"
-		
+
 		"fgcolor"									"White"
 		"fgcolor_override"							"White"
-		
+
 		"border_default"							"MaterialTransparent70"
 		"border_Selected"							"MaterialHypno"
-		
+
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
-		"keyboardinputenabled"						"0"			
+		"keyboardinputenabled"						"0"
 	}
-	
+
 	"EditLoadoutButton"
 	{
 		"ControlName"								"CExButton"
@@ -144,20 +141,20 @@
 		"Default"									"1"
 		"font"										"Size 14"
 		"AllCaps"									"1"
-		
+
 		"paintbackground"							"0"
-		
+
 		"fgcolor"									"White"
 		"fgcolor_override"							"White"
-		
+
 		"border_default"							"MaterialTransparent70"
 		"border_Selected"							"MaterialHypno"
-		
+
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
 	}
-	
+
 	"Offense"
 	{
 		"ControlName"								"CExLabel"
@@ -171,13 +168,12 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"offense"
 		"textAlignment"								"west"
 		"AllCaps"									"1"
 		"font"										"Size 18"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling" 							"scout"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
@@ -195,7 +191,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"offense"
 		"textAlignment"								"west"
 		"AllCaps"									"1"
@@ -203,7 +198,7 @@
 		"fgcolor"									"Shadow"
 		"pin_to_sibling" 							"Offense"
 	}
-	
+
 	"scout"
 	{
 		"ControlName"								"CExImageButton"
@@ -217,7 +212,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"scout"
 		"textinsetx"								"10"
 		"labelText"									""
@@ -235,23 +229,23 @@
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
-		
+
 		"paintbackground"							"0"
-		
+
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		"selectedFgColor_override" 					"White"
-		
+
 		"border_default"							"MaterialTransparent70"
 		"border_Selected"							"MaterialHypno"
-		
+
 		"pin_to_sibling" 							"soldier"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
-	
+
 	"soldier"
 	{
 		"ControlName"								"CExImageButton"
@@ -265,7 +259,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"soldier"
 		"textinsetx"								"10"
 		"labelText"									""
@@ -283,23 +276,23 @@
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
-		
+
 		"paintbackground"							"0"
-		
+
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		"selectedFgColor_override" 					"White"
-		
+
 		"border_default"							"MaterialTransparent70"
 		"border_Selected"							"MaterialHypno"
-		
+
 		"pin_to_sibling" 							"pyro"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
-	
+
 	"pyro"
 	{
 		"ControlName"								"CExImageButton"
@@ -313,7 +306,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"pyro"
 		"textinsetx"								"10"
 		"labelText"									""
@@ -331,23 +323,23 @@
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
-		
+
 		"paintbackground"							"0"
-		
+
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		"selectedFgColor_override" 					"White"
-		
+
 		"border_default"							"MaterialTransparent70"
 		"border_Selected"							"MaterialHypno"
-		
+
 		"pin_to_sibling" 							"demoman"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
-	
+
 	"Defense"
 	{
 		"ControlName"								"CExLabel"
@@ -361,13 +353,12 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"defense"
 		"textAlignment"								"left"
 		"AllCaps"									"1"
 		"font"										"Size 18"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling" 							"demoman"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
@@ -385,7 +376,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"defense"
 		"textAlignment"								"west"
 		"AllCaps"									"1"
@@ -393,7 +383,7 @@
 		"fgcolor"									"Shadow"
 		"pin_to_sibling" 							"Defense"
 	}
-	
+
 	"demoman"
 	{
 		"ControlName"								"CExImageButton"
@@ -407,7 +397,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"demoman"
 		"textinsetx"								"10"
 		"labelText"									""
@@ -423,23 +412,23 @@
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
-		
+
 		"paintbackground"							"0"
-		
+
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		"selectedFgColor_override" 					"White"
-		
+
 		"border_default"							"MaterialTransparent70"
 		"border_Selected"							"MaterialHypno"
-		
+
 		"pin_to_sibling" 							"heavyweapons"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
-	
+
 	"heavyweapons"
 	{
 		"ControlName"								"CExImageButton"
@@ -453,7 +442,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"heavy"
 		"textinsetx"								"10"
 		"labelText"									""
@@ -471,20 +459,20 @@
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
-		
+
 		"paintbackground"							"0"
-		
+
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		"selectedFgColor_override" 					"White"
-		
+
 		"border_default"							"MaterialTransparent70"
 		"border_Selected"							"MaterialHypno"
 		"pin_to_sibling" 							"ClassesAnchor"
 	}
-	
+
 	"engineer"
 	{
 		"ControlName"								"CExImageButton"
@@ -498,7 +486,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"engineer"
 		"textinsetx"								"10"
 		"labelText"									""
@@ -516,23 +503,23 @@
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
-		
+
 		"paintbackground"							"0"
-		
+
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		"selectedFgColor_override" 					"White"
-		
+
 		"border_default"							"MaterialTransparent70"
 		"border_Selected"							"MaterialHypno"
-		
+
 		"pin_to_sibling" 							"heavyweapons"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
-	
+
 	"Support"
 	{
 		"ControlName"								"CExLabel"
@@ -546,13 +533,12 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"support"
 		"textAlignment"								"left"
 		"AllCaps"									"1"
 		"font"										"Size 18"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling" 							"engineer"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
@@ -570,7 +556,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"support"
 		"textAlignment"								"west"
 		"AllCaps"									"1"
@@ -578,7 +563,7 @@
 		"fgcolor"									"Shadow"
 		"pin_to_sibling" 							"Support"
 	}
-	
+
 	"medic"
 	{
 		"ControlName"								"CExImageButton"
@@ -592,7 +577,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"medic"
 		"textinsetx"								"10"
 		"labelText"									""
@@ -610,23 +594,23 @@
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
-		
+
 		"paintbackground"							"0"
-		
+
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		"selectedFgColor_override" 					"White"
-		
+
 		"border_default"							"MaterialTransparent70"
 		"border_Selected"							"MaterialHypno"
-		
+
 		"pin_to_sibling" 							"engineer"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
-	
+
 	"sniper"
 	{
 		"ControlName"								"CExImageButton"
@@ -640,7 +624,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"sniper"
 		"textinsetx"								"10"
 		"labelText"									""
@@ -658,23 +641,23 @@
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
-		
+
 		"paintbackground"							"0"
-		
+
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		"selectedFgColor_override" 					"White"
-		
+
 		"border_default"							"MaterialTransparent70"
 		"border_Selected"							"MaterialHypno"
-		
+
 		"pin_to_sibling" 							"medic"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
-	
+
 	"spy"
 	{
 		"ControlName"								"CExImageButton"
@@ -688,7 +671,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"spy"
 		"textinsetx"								"10"
 		"labelText"									""
@@ -706,23 +688,23 @@
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
-		
+
 		"paintbackground"							"0"
-		
+
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		"selectedFgColor_override" 					"White"
-		
+
 		"border_default"							"MaterialTransparent70"
 		"border_Selected"							"MaterialHypno"
-		
+
 		"pin_to_sibling" 							"sniper"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
-	
+
 	"numScout"
 	{
 		"ControlName"								"CExLabel"
@@ -736,18 +718,17 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"AllCaps"									"1"
 		"labelText"									"%numscout%"
 		"font"										"Size 14"
 		"textAlignment"								"east"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling" 							"scout"
 		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
 	}
-	
+
 	"numSoldier"
 	{
 		"ControlName"								"CExLabel"
@@ -761,18 +742,17 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"AllCaps"									"1"
 		"labelText"									"%numsoldier%"
 		"font"										"Size 14"
 		"textAlignment"								"east"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling" 							"soldier"
 		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
-	}		
-	
+	}
+
 	"numPyro"
 	{
 		"ControlName"								"CExLabel"
@@ -786,18 +766,17 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"AllCaps"									"1"
 		"labelText"									"%numpyro%"
 		"font"										"Size 14"
 		"textAlignment"								"east"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling" 							"pyro"
 		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
-	}				
-	
+	}
+
 	"numDemoman"
 	{
 		"ControlName"								"CExLabel"
@@ -811,18 +790,17 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"AllCaps"									"1"
 		"labelText"									"%numdemoman%"
 		"font"										"Size 14"
 		"textAlignment"								"east"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling" 							"demoman"
 		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
-	}				
-	
+	}
+
 	"numHeavy"
 	{
 		"ControlName"								"CExLabel"
@@ -836,18 +814,17 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"AllCaps"									"1"
 		"labelText"									"%numheavy%"
 		"font"										"Size 14"
 		"textAlignment"								"east"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling" 							"heavyweapons"
 		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
-	}					
-	
+	}
+
 	"numEngineer"
 	{
 		"ControlName"								"CExLabel"
@@ -861,18 +838,17 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"AllCaps"									"1"
 		"labelText"									"%numengineer%"
 		"font"										"Size 14"
 		"textAlignment"								"east"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling" 							"engineer"
 		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
-	}						
-	
+	}
+
 	"numMedic"
 	{
 		"ControlName"								"CExLabel"
@@ -886,18 +862,17 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"AllCaps"									"1"
 		"labelText"									"%nummedic%"
 		"font"										"Size 14"
 		"textAlignment"								"east"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling" 							"medic"
 		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
 	}
-	
+
 	"numSniper"
 	{
 		"ControlName"								"CExLabel"
@@ -911,18 +886,17 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"AllCaps"									"1"
 		"labelText"									"%numsniper%"
 		"font"										"Size 14"
 		"textAlignment"								"east"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling" 							"sniper"
 		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
-	}							
-	
+	}
+
 	"numSpy"
 	{
 		"ControlName"								"CExLabel"
@@ -936,34 +910,33 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"AllCaps"									"1"
 		"labelText"									"%numspy%"
 		"font"										"Size 14"
 		"textAlignment"								"east"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling" 							"spy"
 		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
 	}
-	
+
 	"TFPlayerModel"
 	{
 		"ControlName"								"CTFPlayerModelPanel"
 		"fieldName"									"TFPlayerModel"
-		
+
 		"xpos"										"c-285"
 		"ypos"										"0"
 		"zpos"										"6"
 		"wide"										"480"
 		"tall"										"480"
-		
+
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"render_texture"							"0"
 		"fov"										"38"
 		"allow_rot"									"0"
@@ -971,7 +944,7 @@
 		"paintbackground"							"0"
 		"paintbackgroundenabled" 					"0"
 		"bgcolor_override" 							"Blank"
-		
+
 		"model"
 		{
 			"force_pos"								"1"
@@ -986,10 +959,10 @@
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
 			"spotlight" 							"1"
-		
+
 			"modelname"								""
-			"vcd"									"class_select.vcd"		
-			
+			"vcd"									"class_select.vcd"
+
 			"animation"
 			{
 				"name"								"PRIMARY"
@@ -1020,20 +993,20 @@
 			{
 				"name"								"ITEM1"
 				"activity"							"ACT_MP_STAND_ITEM1"
-			}						
+			}
 			"animation"
 			{
 				"name"								"ITEM2"
 				"activity"							"ACT_MP_STAND_ITEM2"
-			}	
+			}
 			"animation"
 			{
 				"name"								"MELEE_ALLCLASS"
 				"activity"							"ACT_MP_STAND_MELEE_ALLCLASS"
-			}								
+			}
 		}
 	}
-	
+
 	"MvMUpgradeImageScout"
 	{
 		"ControlName"								"ImagePanel"
@@ -1047,12 +1020,12 @@
 		"enabled"									"1"
 		"image"										"replay/thumbnails/mvm/class_upgraded"
 		"scaleImage"								"1"
-		
+
 		"pin_to_sibling" 							"Scout"
 		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
 	}
-	
+
 	"MvMUpgradeImageSolider"
 	{
 		"ControlName"								"ImagePanel"
@@ -1066,16 +1039,16 @@
 		"enabled"									"1"
 		"image"										"replay/thumbnails/mvm/class_upgraded"
 		"scaleImage"								"1"
-		
+
 		"pin_to_sibling" 							"Soldier"
 		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
 	}
-	
-	"MvMUpgradeImagePyro" 
+
+	"MvMUpgradeImagePyro"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"MvMUpgradeImagePyro" 
+		"fieldName"									"MvMUpgradeImagePyro"
 		"xpos"										"5"
 		"ypos"										"1"
 		"zpos"										"10"
@@ -1085,16 +1058,16 @@
 		"enabled"									"1"
 		"image"										"replay/thumbnails/mvm/class_upgraded"
 		"scaleImage"								"1"
-		
+
 		"pin_to_sibling" 							"Pyro"
 		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
 	}
-	
-	"MvMUpgradeImageDemoman" 
+
+	"MvMUpgradeImageDemoman"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"MvMUpgradeImageDemoman" 
+		"fieldName"									"MvMUpgradeImageDemoman"
 		"xpos"										"5"
 		"ypos"										"1"
 		"zpos"										"10"
@@ -1104,16 +1077,16 @@
 		"enabled"									"1"
 		"image"										"replay/thumbnails/mvm/class_upgraded"
 		"scaleImage"								"1"
-		
+
 		"pin_to_sibling" 							"Demoman"
 		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
 	}
-	
+
 	"MvMUpgradeImageHeavy"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"MvMUpgradeImageHeavy" 
+		"fieldName"									"MvMUpgradeImageHeavy"
 		"xpos"										"5"
 		"ypos"										"1"
 		"zpos"										"10"
@@ -1123,12 +1096,12 @@
 		"enabled"									"1"
 		"image"										"replay/thumbnails/mvm/class_upgraded"
 		"scaleImage"								"1"
-		
+
 		"pin_to_sibling" 							"Heavyweapons"
 		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
 	}
-	
+
 	"MvMUpgradeImageEngineer"
 	{
 		"ControlName"								"ImagePanel"
@@ -1142,12 +1115,12 @@
 		"enabled"									"1"
 		"image"										"replay/thumbnails/mvm/class_upgraded"
 		"scaleImage"								"1"
-		
+
 		"pin_to_sibling" 							"Engineer"
 		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
 	}
-	
+
 	"MvMUpgradeImageMedic"
 	{
 		"ControlName"								"ImagePanel"
@@ -1161,12 +1134,12 @@
 		"enabled"									"1"
 		"image"										"replay/thumbnails/mvm/class_upgraded"
 		"scaleImage"								"1"
-		
+
 		"pin_to_sibling" 							"Medic"
 		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
 	}
-	
+
 	"MvMUpgradeImageSniper"
 	{
 		"ControlName"								"ImagePanel"
@@ -1180,12 +1153,12 @@
 		"enabled"									"1"
 		"image"										"replay/thumbnails/mvm/class_upgraded"
 		"scaleImage"								"1"
-		
+
 		"pin_to_sibling" 							"Sniper"
 		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
 	}
-	
+
 	"MvMUpgradeImageSpy"
 	{
 		"ControlName"								"ImagePanel"
@@ -1199,18 +1172,12 @@
 		"enabled"									"1"
 		"image"										"replay/thumbnails/mvm/class_upgraded"
 		"scaleImage"								"1"
-		
+
 		"pin_to_sibling" 							"Spy"
 		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
 	}
-	
-	
-	
-	
-	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-	
+
 	"ResetButton"
 	{
 		"ControlName"								"CExButton"
@@ -1230,7 +1197,7 @@
 		"xpos"										"9999"
 	}
 	"Hint"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Hint"
 		"xpos"										"9999"
@@ -1264,7 +1231,7 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"countImage0"
 		"xpos"										"9999"
-	}							
+	}
 	"countImage1"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -1354,5 +1321,5 @@
 		"ControlName"								"CExplanationPopup"
 		"fieldName"									"ClassHighlightPanel"
 		"xpos"										"9999"
-	}		
+	}
 }

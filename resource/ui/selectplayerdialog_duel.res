@@ -15,14 +15,14 @@
 		"settitlebarvisible"						""
 		"paintbackground"							"1"
 		"bgcolor_override"							"Blank"
-		
+
 		"button_kv"
 		{
 			"xpos"									"10"
 			"ypos"									"0"
 			"wide"									"350"
 			"tall"									"30"
-			
+
 			"button"
 			{
 				"xpos"								"0"
@@ -33,19 +33,16 @@
 				"pinCorner"							"3"
 				"visible"							"1"
 				"enabled"							"1"
-				"tabPosition"						"0"
 				"labelText"							""
 				"font"								"Size 14"
 				"textAlignment"						"west"
 				"textinsetx"						"34"
 				"use_proportional_insets" 			"1"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"default"							"1"
 				"AllCaps"							"1"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
-		
+
 				"paintbackground"					"0"
 				"border_default"					"MaterialGrayDark"
 				"border_armed"						"MaterialHypno"
@@ -54,7 +51,7 @@
 				"armedFgColor_override"				"White"
 				"depressedFgColor_override" 		"White"
 			}
-			
+
 			"avatar"
 			{
 				"ControlName"						"CAvatarImagePanel"
@@ -67,12 +64,12 @@
 				"image"								""
 				"visible"							"1"
 				"enabled"							"1"
-				"scaleImage"						"1"	
+				"scaleImage"						"1"
 				"color_outline"						"WhiteDark"
 			}
 		}
 	}
-	
+
 	"BackgroundCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -87,7 +84,7 @@
 		"paintbackground"							"0"
 		"border"									"MaterialBlackDark"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -107,7 +104,7 @@
 		"AllCaps"									"1"
 		"fgcolor" 									"WhiteDark"
 	}
-	
+
 	"PlayerListScroller"
 	{
 		"ControlName"								"ScrollableEditablePanel"
@@ -120,7 +117,7 @@
 		"PaintBackgroundType"						"0"
 		"fgcolor_override"							"WhiteDark"
 		"bgcolor_override"							"BlackLight"
-		
+
 		"PlayerList"
 		{
 			"ControlName"							"EditablePanel"
@@ -146,7 +143,7 @@
 		"wide"	 									"400"
 		"tall"	 									"180"
 		"PaintBackgroundType"						"0"
-	
+
 		"QueryLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -165,7 +162,7 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"fgcolor" 								"WhiteDark"
-		}	
+		}
 
 		"subbutton0"
 		{
@@ -180,18 +177,15 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"#TF_SelectPlayer_SelectFriends"
 			"font"									"Size 14"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"friends"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
@@ -200,7 +194,7 @@
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override" 			"White"
 		}
-		
+
 		"subbutton1"
 		{
 			"ControlName"							"CExButton"
@@ -214,18 +208,15 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"#TF_SelectPlayer_SelectServer"
 			"font"									"Size 14"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"server"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-		
+
 			"paintbackground"						"0"
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
@@ -235,7 +226,7 @@
 			"depressedFgColor_override" 			"White"
 		}
 	}
-	
+
 	"StatePanel1"
 	{
 		"ControlName"								"EditablePanel"
@@ -248,7 +239,7 @@
 		"wide"	 									"400"
 		"tall"	 									"180"
 		"PaintBackgroundType"						"0"
-	
+
 		"QueryLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -266,8 +257,8 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"fgcolor" 								"WhiteDark"
-		}	
-		
+		}
+
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -288,7 +279,7 @@
 			"centerwrap"							"1"
 			"AllCaps"								"1"
 			"fgcolor"		 						"WhiteDark"
-		}	
+		}
 	}
 	"StatePanel2"
 	{
@@ -302,7 +293,7 @@
 		"wide"	 									"400"
 		"tall"	 									"180"
 		"PaintBackgroundType"						"0"
-	
+
 		"QueryLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -321,8 +312,8 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"fgcolor" 								"WhiteDark"
-		}	
-		
+		}
+
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -343,7 +334,7 @@
 			"centerwrap"							"1"
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
-		}	
+		}
 	}
 
 	"ClassLabel"
@@ -409,7 +400,7 @@
 	"VerticalLine"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"VerticalLine0"
+		"fieldName"									"VerticalLine"
 		"xpos"										"c0"
 		"ypos"										"158"
 		"zpos"										"3"
@@ -449,18 +440,15 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#Cancel"
 		"font"										"Size 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"cancel"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"

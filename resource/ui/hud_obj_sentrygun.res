@@ -1,4 +1,4 @@
-"Resource/UI/hud_obj_sentrygun.res"
+"Resource/UI/Hud_Obj_Sentrygun.res"
 {
 	"BuildingStatusItem"
 	{
@@ -10,7 +10,6 @@
 		"tall"										"32"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 	}
 
 	"BackgroundCustom"
@@ -27,7 +26,7 @@
 		"proportionaltoparent"						"1"
 		"border"									"MaterialTransparent50"
 	}
-	
+
 	"IconBackgound"
 	{
 		"ControlName"								"EditablePanel"
@@ -42,7 +41,7 @@
 		"proportionaltoparent"						"1"
 		"border"									"MaterialTransparent50"
 	}
-	
+
 	"Icon_Sentry_1"
 	{
 		"ControlName"								"CIconPanel"
@@ -55,7 +54,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"scaleImage"								"1"	
+		"scaleImage"								"1"
 		"icon"										"obj_status_sentrygun_1"
 		"iconColor"									"White"
 
@@ -63,7 +62,7 @@
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
 	}
-	
+
 	"Icon_Sentry_2"
 	{
 		"ControlName"								"CIconPanel"
@@ -84,7 +83,7 @@
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
 	}
-	
+
 	"Icon_Sentry_3"
 	{
 		"ControlName"								"CIconPanel"
@@ -105,7 +104,7 @@
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
 	}
-	
+
 	"NotBuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -116,7 +115,7 @@
 		"tall"										"30"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"NotBuiltBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -137,13 +136,11 @@
 			"enabled"								"1"
 			"labelText"								"#Building_hud_sentry_not_built"
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 		}
 	}
-	
+
 	"BuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -155,7 +152,7 @@
 		"tall"										"30"
 		"visible"									"0"
 		"proportionaltoparent"						"1"
-		
+
 		"Icon_Upgrade_1"
 		{
 			"ControlName"							"CIconPanel"
@@ -167,7 +164,7 @@
 			"tall"									"14"
 			"visible"								"0"
 			"enabled"								"1"
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"icon"									"obj_status_upgrade_1"
 			"iconColor"								"White"
 			"proportionaltoparent"					"1"
@@ -184,7 +181,7 @@
 			"tall"									"14"
 			"visible"								"0"
 			"enabled"								"1"
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"icon"									"obj_status_upgrade_2"
 			"iconColor"								"White"
 			"proportionaltoparent"					"1"
@@ -201,26 +198,26 @@
 			"tall"									"14"
 			"visible"								"0"
 			"enabled"								"1"
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"icon"									"obj_status_upgrade_3"
 			"iconColor"								"White"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"AlertTray"
 		{
 			"ControlName"							"CBuildingStatusAlertTray"
 			"fieldName"								"AlertTray"
 			"xpos"									"9999"
 		}
-		
+
 		"WrenchIcon"
 		{
 			"ControlName"							"CIconPanel"
 			"fieldName"								"WrenchIcon"
 			"xpos"									"9999"
 		}
-		
+
 		"SapperIcon"
 		{
 			"ControlName"							"CIconPanel"
@@ -232,31 +229,27 @@
 			"tall"									"25"
 			"visible"								"0"
 			"enabled"								"1"
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"icon"									"obj_status_icon_sapper"
 			"iconColor"								"Black"
 			"paintbackground"						"1"
 			"bgcolor_override"						"Red"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"Health"
-		{	
+		{
 			"ControlName"							"CBuildingHealthBar"
 			"fieldName"								"Health"
-			"font"									"Default"
 			"xpos"									"rs1-3"
 			"ypos"									"cs-0.5-1"
 			"wide"									"6"
 			"tall"									"28"
 			"visible"								"1"
 			"enabled"								"1"
-			"textAlignment"							"Left"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"BuildingPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -265,7 +258,7 @@
 			"tall"									"0"
 			"visible"								"0"
 		}
-		
+
 		"RunningPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -276,7 +269,7 @@
 			"tall"									"f0"
 			"visible"								"0"
 			"proportionaltoparent"					"1"
-			
+
 			"KillsLabel"
 			{
 				"ControlName"						"CExLabel"
@@ -290,8 +283,6 @@
 				"enabled"							"1"
 				"labelText"							"#Building_hud_sentry_kills_assists"
 				"textAlignment"						"west"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"drawcolor"							"White"
 				"proportionaltoparent"				"1"
 			}
@@ -300,16 +291,12 @@
 			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Shells"
-				"font"								"Default"
 				"xpos"								"32"
 				"ypos"								"cs-0.5+1"
 				"wide"								"30"
 				"tall"								"6"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"Left"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"proportionaltoparent"				"1"
 				"bgcolor_override"					"130 130 130 255"
 			}
@@ -327,27 +314,21 @@
 				"enabled"							"1"
 				"labelText"							"AMMO"
 				"textAlignment"						"center"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"fgcolor"							"Black"
 				"proportionaltoparent"				"1"
 				"pin_to_sibling" 					"Shells"
 			}
 
 			"Rockets"
-			{	
+			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Rockets"
-				"font"								"Default"
 				"xpos"								"32"
 				"ypos"								"rs1-3"
 				"wide"								"30"
 				"tall"								"6"
 				"visible"							"0"
 				"enabled"							"1"
-				"textAlignment"						"Left"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"proportionaltoparent"				"1"
 				"bgcolor_override"					"130 130 130 255"
 			}
@@ -365,18 +346,15 @@
 				"enabled"							"1"
 				"labelText"							"ROCKETS"
 				"textAlignment"						"center"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"fgcolor"							"Black"
 				"proportionaltoparent"				"1"
 				"pin_to_sibling" 					"Rockets"
 			}
 
 			"Upgrade"
-			{	
+			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Upgrade"
-				"font"								"Default"
 				"xpos"								"32"
 				"ypos"								"rs1-3"
 				"zpos"								"2"
@@ -384,26 +362,23 @@
 				"tall"								"6"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"Left"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"proportionaltoparent"				"1"
 				"bgcolor_override"					"130 130 130 255"
 			}
-			
-			"KillIcon"	
+
+			"KillIcon"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"KillIcon"
 				"xpos"								"9999"
 			}
-			"ShellIcon"	
+			"ShellIcon"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"ShellIcon"
 				"xpos"								"9999"
 			}
-			"RocketIcon"	
+			"RocketIcon"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"RocketIcon"

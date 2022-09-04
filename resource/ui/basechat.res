@@ -14,7 +14,7 @@
 		"PaintBackgroundType"						"2"
 	}
 
-	ChatInputLine
+	"ChatInputLine"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ChatInputLine"
@@ -39,12 +39,9 @@
 		"pinCorner"		        					"0"
 		"visible"									"0"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"		       						"#chat_filterbutton"
 		"textAlignment"		    					"center"
-		"dulltext"		       					 	"0"
-		"brighttext"								"0"
-		"Default"									"0"		
+		"Default"									"0"
 	}
 
 	"HudChatHistory"

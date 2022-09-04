@@ -1,4 +1,4 @@
-"Resource\UI\TFAdvancedOptionsDialog.res"
+"Resource/UI/TFAdvancedOptionsDialog.res"
 {
 	"TFAdvancedOptionsDialog"
 	{
@@ -12,19 +12,18 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"settitlebarvisible"						""
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
 		"bgcolor_override"							"GrayDarkest"
 		"border"									"NoBorder"
-		
+
 		"control_w"									"500"
 		"control_h"									"25"
 		"slider_w"									"500"
 		"slider_h"									"25"
 	}
-	
+
 	"BackgroundCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -39,7 +38,7 @@
 		"paintbackground"							"0"
 		"border"									"MaterialBlackDark"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -56,10 +55,10 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor_override" 							"WhiteDark"
+		"fgcolor"		 							"WhiteDark"
 		"AllCaps" 									"1"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -73,33 +72,30 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#Cancel"
 		"font"										"Size 16"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"Close"
 		"AllCaps"									"1"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
-		
+
 		"pin_to_sibling" 							"BackgroundCustom"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"								"CExButton"
@@ -113,33 +109,30 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#GameUI_Ok"
 		"font"										"Size 16"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"Ok"
 		"AllCaps"									"1"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
-		
+
 		"pin_to_sibling" 							"BackgroundCustom"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
 	}
-	
+
 	"PanelListPanel"
 	{
 		"ControlName"								"CPanelListPanel"
@@ -153,11 +146,10 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"bgcolor_override"							"Blank"
 		"AllCaps"									"1"
 	}
-	
+
 	"TooltipPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -171,7 +163,7 @@
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"0"
 		"border"									"MaterialGrayDark"
-		
+
 		"TipLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -188,9 +180,9 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 			"wrap"									"1"
 			//"centerwrap"							"1"
 		}
-	}	
+	}
 }

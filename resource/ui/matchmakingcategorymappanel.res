@@ -27,13 +27,13 @@
 		"font"										"Size 11"
 		"smallcheckimage"							"1"
 
-		"sound_depressed"							"UI/buttonclickrelease.wav"	
+		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"
 	}
 
 	"MapNameLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"MapNameLabel"
 		"xpos"										"5"
 		"ypos"										"-1"
@@ -47,7 +47,7 @@
 		"AllCaps"									"1"
 		"textinsetx"								"20"
 		"use_proportional_insets"					"1"
-		
+
 		"mouseinputenabled"							"0"
 	}
 

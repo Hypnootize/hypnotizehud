@@ -4,7 +4,7 @@
 #base	"../../../../../customizations/resolutions/16x9/storepage.res"
 #base 	"storepage.res"
 
-"Resource/UI/StorePage_Maps.res"
+"Resource/UI/Econ/Store/V2/StorePage_Maps.res"
 {
 	"StorePage"
 	{
@@ -14,7 +14,7 @@
 			"model_ypos"							"-3"
 			"model_wide"							"100"
 			"model_tall"							"70"
-			
+
 			"itemmodelpanel"
 			{
 				"force_square_image"				"1"
@@ -22,17 +22,17 @@
 			}
 		}
 	}
-	
+
 	"ClassFilterLabel"
 	{
 		"visible"									"0"
 	}
-	
+
 	"ClassFilterNavPanel"
 	{
 		"visible"									"0"
 	}
-	
+
 	"ClassFilterLabel"
 	{
 		"visible"									"0"
@@ -47,37 +47,37 @@
 	{
 		"visible"									"0"
 	}
-	
+
 	"NameFilterBG"
 	{
 		"visible"									"0"
 	}
-	
+
 	"NameFilterLine"
 	{
 		"visible"									"0"
 	}
-	
+
 	"SortFilterLabel"
 	{
 		"visible"									"0"
 	}
-	
+
 	"SubcategoryFilterBG"
 	{
 		"visible"									"0"
 	}
-	
+
 	"SortFilterComboBox"
 	{
 		"visible"									"0"
 	}
-	
+
 	"SortFilterBG"
 	{
 		"visible"									"0"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -97,7 +97,7 @@
 		"AllCaps"									"1"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"SubTitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -117,7 +117,7 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White"
 	}
-	
+
 	"LearnMoreButton"
 	{
 		"ControlName"								"CExButton"
@@ -131,23 +131,20 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"learn more"
 		"font"										"Size 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"maps_learnmore"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-	}	
+	}
 }

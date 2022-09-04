@@ -1,6 +1,6 @@
-Scheme
+"Scheme"
 {
-	Fonts
+	"Fonts"
 	{
 		"Game 12"
 		{
@@ -72,7 +72,7 @@ Scheme
 				"name"										"Handel Gothic BT"
 			}
 		}
-		
+
 		"Game 12 Blur"
 		{
 			"1"
@@ -195,8 +195,8 @@ Scheme
 			}
 		}
 	}
-	
-	CustomFontFiles
+
+	"CustomFontFiles"
 	{
 		"10"
 		{

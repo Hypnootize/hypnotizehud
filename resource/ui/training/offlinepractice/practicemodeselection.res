@@ -1,4 +1,4 @@
-"Resource/training/offlinepractice/practicemodeselection.res"
+"Resource/UI/Training/OfflinePractice/PracticeModeSelection.res"
 {
 	"GameModeImagePanel"
 	{
@@ -16,7 +16,7 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 	}
-	
+
 	"GameModeImageBgPanel"
 	{
 		"ControlName"								"ImagePanel"
@@ -30,7 +30,7 @@
 		"scaleImage"								"1"
 		"image"										"illustrations/bg"
 	}
-	
+
 	"PrevButton"
 	{
 		"ControlName"								"CExButton"
@@ -44,17 +44,14 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"<"
 		"font"										"Symbols 16"
 		"textAlignment"								"center"
 		"textinsetx"								"0"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"goprev"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDarker"
 		"border_armed"								"MaterialHypno"
@@ -62,8 +59,8 @@
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-	}	
-	
+	}
+
 	"NextButton"
 	{
 		"ControlName"								"CExButton"
@@ -77,17 +74,14 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									">"
 		"font"										"Symbols 16"
 		"textAlignment"								"center"
 		"textinsetx"								"0"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"gonext"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDarker"
 		"border_armed"								"MaterialHypno"
@@ -95,8 +89,8 @@
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-	}	
-	
+	}
+
 	"GameModeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -116,7 +110,7 @@
 		"fgcolor"									"WhiteDark"
 		"AllCaps"									"1"
 	}
-	
+
 	"CurPageLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -136,7 +130,7 @@
 		"wrap"										"1"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"DescLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -153,10 +147,10 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"0"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 		"AllCaps"									"1"
 	}
-	
+
 	"SelectCurrentGameModeButton"
 	{
 		"ControlName"								"CExButton"
@@ -169,18 +163,15 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#TF_Select"
 		"font"										"Size 14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"selectcurrentgamemode"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"

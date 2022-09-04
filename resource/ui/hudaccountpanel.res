@@ -10,7 +10,7 @@
 		"delta_lifetime"							"1"
 		"delta_item_font"							"Game 14"
 	}
-	
+
 	"AccountValue"
 	{
 		"ControlName"								"CExLabel"
@@ -24,17 +24,14 @@
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"font"										"Game 18"
 		"font_minmode"								"Game 16"
 		"fgcolor"   								"White"
 	}
-	
+
 	"AccountValueShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -48,27 +45,24 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"font"										"Game 18 Blur"
 		"font_minmode"								"Game 16 Blur"
 		"fgcolor"   								"Shadow"
-		
+
 		"pin_to_sibling" 							"AccountValue"
 	}
-	
-	
+
+
 	"AccountBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"AccountBG"
 		"xpos"										"9999"
 	}
-	"MetalIcon"	
+	"MetalIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"MetalIcon"

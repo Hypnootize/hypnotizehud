@@ -1,4 +1,4 @@
-"Resource/UI/HudDamageAccount.res"
+"Resource/UI/HudDamageAccount_Big_Shadow.res"
 {
 	"CDamageAccountPanel"
 	{

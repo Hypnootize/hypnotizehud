@@ -1,4 +1,4 @@
-"Resource/training/basictraining/classdetails.res"
+"Resource/UI/Training/BasicTraining/ClassDetails.res"
 {
 	"StartTrainingButton"
 	{
@@ -12,18 +12,15 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#TF_Training_StartTraining"
 		"font"										"Size 16"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"startbasictraining"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		"AllCaps"									"1"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
@@ -32,7 +29,7 @@
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
 	}
-	
+
 	"OverlayPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -47,7 +44,7 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 		"border"									"MaterialGrayDarkest"
-		
+
 		"ClassNameLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -66,8 +63,8 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
-		}		
-		
+		}
+
 		"DescLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -87,7 +84,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"WeaponSetLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -106,7 +103,7 @@
 			"fgcolor"								"WhiteDark"
 			"AllCaps"								"1"
 		}
-		
+
 		"WeaponImage0"
 		{
 			"ControlName"							"ImagePanel"
@@ -119,7 +116,7 @@
 			"tileImage"								"0"
 			"scaleImage"							"1"
 		}
-		
+
 		"WeaponImage1"
 		{
 			"ControlName"							"ImagePanel"
@@ -132,7 +129,7 @@
 			"tileImage"								"0"
 			"scaleImage"							"1"
 		}
-		
+
 		"WeaponImage2"
 		{
 			"ControlName"							"ImagePanel"
@@ -145,7 +142,7 @@
 			"tileImage"								"0"
 			"scaleImage"							"1"
 		}
-		
+
 		"PrimaryLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -164,7 +161,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"SecondaryLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -183,7 +180,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"MeleeLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -203,7 +200,7 @@
 			"fgcolor"								"WhiteDark"
 		}
 	}
-	
+
 	"ClassImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -217,7 +214,7 @@
 		"tileImage"									"0"
 		"scaleImage"								"1"
 	}
-	
+
 	"ClassIconImage"
 	{
 		"ControlName"								"ImagePanel"

@@ -16,7 +16,7 @@
 
 	"Title"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"Title"
 		"xpos"										"8"
 		"ypos"										"20"
@@ -27,9 +27,9 @@
 		"labeltext"									"#TF_Matchmaking_HeaderCompetitive"
 		"textAlignment"								"west"
 		"font"										"Size 30"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 		"AllCaps"									"1"
-		
+
 		"mouseinputenabled"							"0"
 	}
 
@@ -46,21 +46,18 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"1"
 		"font"										"Symbols 16"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"0"
 		"Command"									"show_explanations"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		"actionsignallevel"							"1"
 		"proportionaltoparent"						"1"
-		
+
 		"paintbackground"							"0"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 
@@ -68,7 +65,7 @@
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
 	}
-	
+
 	"RankTooltipPanel"
 	{
 		"ControlName"								"ImagePanel"
@@ -82,7 +79,7 @@
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"1"
 		"image"										"info"
-		"scaleImage"								"1"	
+		"scaleImage"								"1"
 		"alpha"										"75"
 	}
 
@@ -97,7 +94,7 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"ToolTipButtonHack"
 	{
 		"ControlName"								"EditablePanel"
@@ -110,7 +107,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"mouseinputenabled"							"1"
-		"eatmouseinput"								"0"	
+		"eatmouseinput"								"0"
 		"showtooltipswhenmousedisabled"				"1"
 		"proportionaltoparent" 						"1"
 	}
@@ -128,11 +125,8 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"font"										"Size 18"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"find_game"
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_Matchmaking_StartSearch"
@@ -142,9 +136,9 @@
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 

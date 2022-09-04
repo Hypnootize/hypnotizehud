@@ -19,7 +19,7 @@
 		"fieldName"									"BannerContainer"
 		"xpos"										"9999"
 	}
-	
+
 	"VictoryPanelNormal"
 	{
 		"ControlName"								"CVictoryPanel"
@@ -29,9 +29,9 @@
 		"wide"										"f0"
 		"tall"										"480"
 		"visible"									"0"
-		"enabled"									"1"		
+		"enabled"									"1"
 	}
-	
+
 	"VictoryPanelMannUp"
 	{
 		"ControlName"								"CMvMVictoryMannUpPanel"
@@ -42,6 +42,6 @@
 		"wide"										"f0"
 		"tall"										"480"
 		"visible"									"0"
-		"enabled"									"1"		
+		"enabled"									"1"
 	}
 }

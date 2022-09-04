@@ -1,4 +1,4 @@
-"Resource/UI/notifications/notify_passtime_howto.res"
+"Resource/UI/Notifications/Notify_Passtime_HowTo.res"
 {
 	"Notification_Background"
 	{
@@ -9,8 +9,8 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
-	"Notification_Icon"	
+
+	"Notification_Icon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"Notification_Icon"
@@ -19,9 +19,9 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
+
 	"Notification_Label"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Notification_Label"
 		"wide"										"0"

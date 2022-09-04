@@ -9,7 +9,7 @@
 		"wide"										"40"
 		"tall"										"o0.75"
 		"zpos"										"1"
-		"proportionaltoparent"						"1"	
+		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 
 		"MapImage"
@@ -22,7 +22,7 @@
 			"tall"									"o1"
 			"zpos"									"0"
 			"image"									"..\vgui\maps\menu_thumb_pl_goldrush"
-			"proportionaltoparent"					"1"	
+			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
 	}
@@ -40,11 +40,8 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"font"										"Size 11"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"select_map"
 		"proportionaltoparent"						"1"
 		"labeltext"									""
@@ -60,7 +57,7 @@
 
 	"VotesLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"VotesLabel"
 		"xpos"										"cs-0.5"
 		"ypos"										"rs1"
@@ -70,7 +67,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"font"										"MapVotesPercentage"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 		"textAlignment"								"south"
 		"labelText"									"%votes%"
 		"proportionaltoparent"						"1"
@@ -80,7 +77,7 @@
 
 	"NameLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"NameLabel"
 		"xpos"										"0"
 		"ypos"										"5"
@@ -90,7 +87,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"font"										"Size 8"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 		"textAlignment"								"north"
 		"labelText"									"%mapname%"
 		"proportionaltoparent"						"1"

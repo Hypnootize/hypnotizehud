@@ -17,7 +17,7 @@
 		"paintborder"								"0"
 		"paintbackground"							"1"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -37,7 +37,7 @@
 		"AllCaps"									"1"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"BotAnimationTitle"
 	{
 		"ControlName"								"CExLabel"
@@ -57,7 +57,7 @@
 		"AllCaps"									"1"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"BotAnimationComboBox"
 	{
 		"ControlName"								"ComboBox"
@@ -72,14 +72,13 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"0"
 		"maxchars"									"-1"
 		"NumericInputOnly"							"0"
 		"unicode"									"0"
 		"AllCaps"									"1"
-		
+
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"Blank"
 		"disabledFgColor_override" 					"Blank"
@@ -88,7 +87,7 @@
 		"selectionTextColor_override" 				"White"
 		"defaultSelectionBG2Color_override" 		"White"
 	}
-	
+
 	"BotForceFireCheckBox"
 	{
 		"ControlName"								"CheckButton"
@@ -105,12 +104,10 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"AllCaps"									"1"
 		"disabledfgcolor2_override"					"TanDark"
 	}
-	
+
 	"BotTurntableCheckBox"
 	{
 		"ControlName"								"CheckButton"
@@ -127,11 +124,9 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"AllCaps"									"1"
 		"disabledfgcolor2_override"					"TanDark"
-	}	
+	}
 	"BotViewScanCheckBox"
 	{
 		"ControlName"								"CheckButton"
@@ -148,12 +143,10 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"AllCaps"									"1"
 		"disabledfgcolor2_override"					"TanDark"
-	}	
-	
+	}
+
 	"BotAnimationAnimTitle"
 	{
 		"ControlName"								"CExLabel"
@@ -202,29 +195,26 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#Cancel"
 		"font"										"Size 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"cancel"
 		"AllCaps"									"1"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"								"CExButton"
@@ -238,24 +228,21 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#IT_Apply"
 		"font"										"Size 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"ok"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}

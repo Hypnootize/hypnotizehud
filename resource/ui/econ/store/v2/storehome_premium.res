@@ -1,6 +1,6 @@
 #base "storehome_base.res"
 
-"Resource/UI/StoreHome_Premium.res"
+"Resource/UI/Econ/Store/V2/StoreHome_Premium.res"
 {
 	"PremiumCallout"
 	{

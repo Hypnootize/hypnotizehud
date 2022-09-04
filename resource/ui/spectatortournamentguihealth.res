@@ -13,10 +13,10 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 		"border"									"MaterialTransparent90"
-		
+
 		"alpha"										"255"
 	}
-	
+
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"								"CExLabel"
@@ -34,7 +34,7 @@
 		"labeltext"									"%Health%"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"								"CExLabel"

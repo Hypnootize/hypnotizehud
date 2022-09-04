@@ -1,4 +1,4 @@
-"StoreMapStampsInfoDialog.res"
+"Resource/UI/Econ/Store/V2/StoreMapStampsInfoDialog.res"
 {
 	"MapStampsInfoDialog"
 	{
@@ -86,11 +86,11 @@
 		"Command"									"close"
 
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-		
+
 		"border_default"							"MaterialRed"
 		"border_armed"								"MaterialHypno"
 	}
@@ -117,11 +117,11 @@
 		"fgcolor"									"White"
 
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}

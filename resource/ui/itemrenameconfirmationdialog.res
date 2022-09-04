@@ -28,13 +28,13 @@
 		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"2"
 		"paintborder"								"1"
-		
+
 		"text_ypos"									"20"
 		"text_center"								"1"
 		"model_hide"								"1"
 		"resize_to_text"							"1"
 		"padding_height"							"15"
-		
+
 		"attriblabel"
 		{
 			"font"									"ItemFontAttribLarge"
@@ -74,7 +74,7 @@
 		"AllCaps"									"1"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"ToolBG"
 	{
 		"ControlName"								"CExLabel"
@@ -94,16 +94,16 @@
 		"paintbackground"							"0"
 		"border"									"BackpackItemBorder_SelfMade"
 	}
-	
+
 	"tool_icon"
 	{
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"tool_icon"
 		"xpos"										"9999"
 	}
-	
+
 	"tool_modelpanel"
-	{		
+	{
 		"ControlName"								"CItemModelPanel"
 		"fieldName"									"tool_modelpanel"
 		"xpos"										"10"
@@ -124,7 +124,7 @@
 		"text_center"								"1"
 		"name_only"									"1"
 		"paint_icon_hide" 							"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"					"0"
@@ -158,7 +158,7 @@
 		"xpos"										"9999"
 	}
 	"subject_modelpanel"
-	{		
+	{
 		"ControlName"								"CItemModelPanel"
 		"fieldName"									"subject_modelpanel"
 		"xpos"										"300"
@@ -178,7 +178,7 @@
 		"text_ypos"									"100"
 		"text_center"								"1"
 		"name_only"									"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" 				"0"
@@ -186,7 +186,7 @@
 			"allow_rot"								"0"
 		}
 	}
-	
+
 	"ConfirmLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -204,9 +204,9 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor_override" 							"Red"
+		"fgcolor"		 							"Red"
 	}
-	
+
 	"GivenName"
 	{
 		"ControlName"								"CExLabel"
@@ -225,7 +225,7 @@
 		"enabled"									"1"
 		"centerwrap"								"1"
 		"AllCaps"									"1"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"WarningLabel"
@@ -245,7 +245,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor_override" 							"Red"
+		"fgcolor"		 							"Red"
 	}
 
 	"CancelButton"
@@ -261,28 +261,25 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"Cancel (&Q)"
 		"font"										"Size 15"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"0"
 		"Command"									"cancel"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"								"CExButton"
@@ -296,24 +293,21 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#CraftNameConfirm"
 		"font"										"Size 15"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"apply"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}

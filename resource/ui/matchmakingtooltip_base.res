@@ -13,24 +13,24 @@
 		"PaintBackgroundType"						"0"
 		"border"									"MaterialBlackLight"
 		"mouseinputenabled"							"0"
-		
+
 		"TipLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipLabel"
 
 
-			if_small
+			"if_small"
 			{
 				"font"								"Size 9"
 			}
 
-			if_medium
+			"if_medium"
 			{
 				"font"								"Size 14"
 			}
 
-			if_large
+			"if_large"
 			{
 				"font"								"Size 14"
 			}
@@ -46,11 +46,11 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 			"auto_wide_tocontents"					"1"
 			"auto_tall_tocontents"					"1"
 			"wrap"									"1"
 			"alpha"									"255"
 		}
-	}	
+	}
 }

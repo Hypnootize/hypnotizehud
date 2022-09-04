@@ -15,7 +15,7 @@
 
 		"pinCorner"									"2"
 		"autoResize"								"1"
-		
+
 		"RankImage"
 		{
 			"ControlName"							"CTFLocalPlayerBadgePanel"
@@ -32,7 +32,7 @@
 
 			"matchgroup"							"MatchGroup_Casual_12v12"
 		}
-	
+
 		"RankPanel"
 		{
 			"ControlName"							"CPvPRankPanel"
@@ -51,7 +51,7 @@
 			"show_model"							"0"
 			"show_type"								"1"
 		}
-		
+
 		"SaveCasualSearchCriteria"
 		{
 			"ControlName"							"CExImageButton"
@@ -65,21 +65,18 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"e"
 			"font"									"Symbols 16"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"save_search_criteria"
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
 
@@ -101,33 +98,30 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"d"
 			"font"									"Symbols 16"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"restore_search_criteria"
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override" 			"White"
-			
+
 			"pin_to_sibling" 						"SaveCasualSearchCriteria"
 			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
 			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
 		}
-		
+
 		"ShowExplanationsButton"
 		{
 			"ControlName"							"CExButton"
@@ -141,31 +135,28 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"1"
 			"font"									"Symbols 16"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"show_explanations"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 			"actionsignallevel"						"2"
-			
+
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override" 			"White"
-			
+
 			"pin_to_sibling" 						"RestoreCasualSearchCriteria"
 			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
 			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
@@ -173,7 +164,7 @@
 
 		"SelectedCount"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"SelectedCount"
 			"xpos"									"5"
 			"ypos"									"18"
@@ -184,14 +175,14 @@
 			"labeltext"								"%selected_maps_count%"
 			"textAlignment"							"west"
 			"font"									"Size 11"
-			"fgcolor_override"						"Main Theme"
+			"fgcolor"								"Main Theme"
 			"AllCaps"								"1"
 			"mouseinputenabled"						"1"
 		}
 
 		"QueueEstimation"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"QueueEstimation"
 			"xpos"									"rs1-5"
 			"ypos"									"0"
@@ -202,15 +193,15 @@
 			"labeltext"								"#TF_Casual_QueueEstimation"
 			"textAlignment"							"east"
 			"font"									"Size 11"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 			"visible"								"0"
 			"AllCaps"								"1"
 			"mouseinputenabled"						"0"
 		}
-		
+
 		"Title"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"Title"
 			"xpos"									"9999"
 		}
@@ -250,14 +241,14 @@
 				{
 					"fgcolor_override"				"WhiteDark"
 				}
-		
+
 				"UpButton"
 				{
 					"ControlName"					"Button"
 					"FieldName"						"UpButton"
 					"visible"						"0"
 				}
-		
+
 				"DownButton"
 				{
 					"ControlName"					"Button"

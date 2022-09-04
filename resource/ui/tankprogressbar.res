@@ -10,7 +10,7 @@
 		"wide"										"190"
 		"tall"										"18"
 		"visible"									"0"
-		"enabled"									"1"	
+		"enabled"									"1"
 	}
 
 	"TankImage"
@@ -40,14 +40,14 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"replay/thumbnails/panels/Material_Blue"
-		
+
 		"src_corner_height"							"24"
 		"src_corner_width"							"24"
-	
+
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"	
+		"draw_corner_height" 						"8"
 	}
-	
+
 	"ProgressBarBG"
 	{
 		"ControlName"								"ScalableImagePanel"
@@ -61,11 +61,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"replay/thumbnails/panels/material_transparent50"
-		
+
 		"src_corner_height"							"24"
 		"src_corner_width"							"24"
-	
+
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"	
+		"draw_corner_height" 						"8"
 	}
 }

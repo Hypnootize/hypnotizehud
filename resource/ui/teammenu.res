@@ -12,9 +12,8 @@
 		"pinCorner"		  							"0"
 		"visible"		  							"1"
 		"enabled"		  							"1"
-		"tabPosition"	  							"0"
 	}
-	
+
 	"MapFrame"
 	{
 		"ControlName"     		  					"EditablePanel"
@@ -30,10 +29,10 @@
 		"paintbackground"							"0"
 		"border"									"MaterialTransparent70"
 	}
-	
+
 	"mapname"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"mapname"
 		"xpos"										"0"
 		"ypos"										"-2"
@@ -47,16 +46,14 @@
 		"labelText"									""
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"font"										"Size 14"
-		"fgcolor_override"							"White"
-		
+		"fgcolor"									"White"
+
 		"pin_to_sibling" 							"MapFrame"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
 	}
-	
+
 	"TeamsAnchor"
 	{
 		"ControlName"								"EditablePanel"
@@ -69,7 +66,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"BlueFrame"
 	{
 		"ControlName"     		  					"EditablePanel"
@@ -83,12 +80,12 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 		"border"									"MaterialBlue"
-		
+
 		"pin_to_sibling" 							"TeamsAnchor"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
-	
+
 	"Blue"
 	{
 		"ControlName"	  							"CExLabel"
@@ -106,7 +103,7 @@
 		"textAlignment"	  							"east"
 		"font"			  							"Size 18"
 		"fgcolor"		  							"White"
-		
+
 		"pin_to_sibling" 							"BlueFrame"
 		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
@@ -130,7 +127,7 @@
 		"fgcolor"		  							"Shadow"
 		"pin_to_sibling" 							"Blue"
 	}
-	
+
 	"BlueCount"
 	{
 		"ControlName"	  							"CExLabel"
@@ -148,7 +145,7 @@
 		"textAlignment"	  							"center"
 		"font"			  							"Size 36"
 		"fgcolor"		  							"White"
-		
+
 		"pin_to_sibling" 							"BlueFrame"
 		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
@@ -172,7 +169,7 @@
 		"fgcolor"		  							"Shadow"
 		"pin_to_sibling" 							"BlueCount"
 	}
-	
+
 	"teambutton0"									//TEAMBLUE
 	{
 		"ControlName"	  							"CTFTeamButton"
@@ -185,11 +182,8 @@
 		"pinCorner"		  							"0"
 		"visible"		  							"1"
 		"enabled"		  							"1"
-		"tabPosition"	  							"3"
 		"labelText"		  							"&3"
 		"textAlignment"	  							"west"
-		"dulltext"		  							"0"
-		"brighttext"	  							"0"
 		"paintborder"	  							"0"
 		"command"		  							"jointeam blue"
 		"team"				  						"3"
@@ -197,10 +191,10 @@
 		"hover"				  						"2.0"
 		"font"			  							""
 		"fgcolor"		  							"Blank"
-		
+
 		"pin_to_sibling" 							"BlueFrame"
 	}
-	
+
 	"RedFrame"
 	{
 		"ControlName"     		  					"EditablePanel"
@@ -214,12 +208,12 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 		"border"									"MaterialRed"
-		
+
 		"pin_to_sibling" 							"TeamsAnchor"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
 	}
-	
+
 	"Red"
 	{
 		"ControlName"	  							"CExLabel"
@@ -237,7 +231,7 @@
 		"textAlignment"	  							"west"
 		"font"			  							"Size 18"
 		"fgcolor"		  							"White"
-		
+
 		"pin_to_sibling" 							"RedFrame"
 		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
@@ -261,7 +255,7 @@
 		"fgcolor"		  							"Shadow"
 		"pin_to_sibling" 							"Red"
 	}
-	
+
 	"RedCount"
 	{
 		"ControlName"	  							"CExLabel"
@@ -279,7 +273,7 @@
 		"textAlignment"	  							"center"
 		"font"			  							"Size 36"
 		"fgcolor"		  							"White"
-		
+
 		"pin_to_sibling" 							"RedFrame"
 		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
@@ -303,7 +297,7 @@
 		"fgcolor"		  							"Shadow"
 		"pin_to_sibling" 							"RedCount"
 	}
-	
+
 	"teambutton1"									//TEAMRED
 	{
 		"ControlName"	  							"CTFTeamButton"
@@ -317,22 +311,19 @@
 		"pinCorner"		  							"0"
 		"visible"		  							"1"
 		"enabled"		  							"1"
-		"tabPosition"	  							"4"
 		"labelText"		  							"&4"
 		"textAlignment"	  							"west"
-		"dulltext"		  							"0"
-		"brighttext"	  							"0"
 		"paintborder"	  							"0"
 		"command"		  							"jointeam red"
 		"team"				  						"2"
-		"associated_model"	  						"reddoor"	
+		"associated_model"	  						"reddoor"
 		"hover"				  						"2.0"
 		"font"			  							""
 		"fgcolor"		  							"Blank"
-		
+
 		"pin_to_sibling" 							"RedFrame"
 	}
-	
+
 	"RandomFrame"
 	{
 		"ControlName"     		  					"EditablePanel"
@@ -346,12 +337,12 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 		"border"									"MaterialTransparent70"
-		
+
 		"pin_to_sibling" 							"TeamsAnchor"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
-	
+
 	"RandomIcon"
 	{
 		"ControlName"	  							"CExLabel"
@@ -367,7 +358,7 @@
 		"textAlignment"	  							"center"
 		"font"			  							"Symbols 24"
 		"fgcolor"		  							"White"
-		
+
 		"pin_to_sibling" 							"RandomFrame"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
@@ -389,7 +380,7 @@
 		"fgcolor"		  							"Shadow"
 		"pin_to_sibling" 							"RandomIcon"
 	}
-	
+
 	"Random"
 	{
 		"ControlName"	  							"CExLabel"
@@ -405,12 +396,10 @@
 		"pinCorner"		  							"0"
 		"labelText"		  							"RANDOM"
 		"AllCaps"		  							"0"			//cuts the label on 1 :(
-		"dulltext"		  							"0"
-		"brighttext"	  							"0"
 		"textAlignment"	  							"center"
 		"font"			  							"Size 12"
 		"fgcolor"		  							"White"
-		
+
 		"pin_to_sibling" 							"RandomFrame"
 		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
@@ -433,7 +422,7 @@
 		"fgcolor"		  							"Shadow"
 		"pin_to_sibling" 							"Random"
 	}
-	
+
 	"teambutton2"									//TEAMRANDOM
 	{
 		"ControlName"	  							"CTFTeamButton"
@@ -447,21 +436,18 @@
 		"pinCorner"		  							"0"
 		"visible"		  							"1"
 		"enabled"		  							"1"
-		"tabPosition"	  							"1"
 		"labelText"		  							"&1"
 
 		"textAlignment"	  							"center"
-		"dulltext"		  							"0"
-		"brighttext"	  							"0"
 		"paintborder"	  							"0"
 		"command"		  							"jointeam auto"
 		"associated_model"	  						"autodoor"
 		"font"			  							""
 		"fgcolor"		  							"Blank"
-		
+
 		"pin_to_sibling" 							"RandomFrame"
 	}
-	
+
 	"SpectateFrame"
 	{
 		"ControlName"     		  					"EditablePanel"
@@ -475,12 +461,12 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 		"border"									"MaterialTransparent70"
-		
+
 		"pin_to_sibling" 							"TeamsAnchor"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
-	
+
 	"SpectateIcon"
 	{
 		"ControlName"	  							"CExLabel"
@@ -496,7 +482,7 @@
 		"textAlignment"	  							"center"
 		"font"			  							"Symbols 24"
 		"fgcolor"		  							"White"
-		
+
 		"pin_to_sibling" 							"SpectateFrame"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
@@ -518,7 +504,7 @@
 		"fgcolor"		  							"Shadow"
 		"pin_to_sibling" 							"SpectateIcon"
 	}
-	
+
 	"Spectate"
 	{
 		"ControlName"	  							"CExLabel"
@@ -535,7 +521,7 @@
 		"textAlignment"	  							"center"
 		"font"			  							"Size 12"
 		"fgcolor"		  							"White"
-		
+
 		"pin_to_sibling" 							"SpectateFrame"
 		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
@@ -558,7 +544,7 @@
 		"fgcolor"		  							"Shadow"
 		"pin_to_sibling" 							"Spectate"
 	}
-	
+
 	"teambutton3"									//TEAMSPEC
 	{
 		"ControlName"	  							"CTFTeamButton"
@@ -572,37 +558,34 @@
 		"pinCorner"		  							"0"
 		"visible"		  							"1"
 		"enabled"		  							"1"
-		"tabPosition"	  							"2"
 		"labelText"		  							"&2"
 		"textAlignment"	  							"center"
-		"dulltext"		  							"0"
-		"brighttext"	  							"0"
 		"paintborder"	  							"0"
 		"command"		  							"jointeam spectate"
-		"associated_model"	  						"spectate"	
+		"associated_model"	  						"spectate"
 		"font"			  							""
 		"fgcolor"		  							"Blank"
-		
+
 		"pin_to_sibling" 							"SpectateFrame"
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	//REMOVED STUFF
 	"MenuBG"
 	{
 		"ControlName"								"CModelPanel"
 		"fieldName"									"MenuBG"
 		"xpos"										"9999"
-	}	
+	}
 	"ShadedBar"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ShadedBar"
 		"xpos"										"9999"
-	}	
+	}
 	"Footer"
 	{
 		"ControlName"								"CTFFooter"

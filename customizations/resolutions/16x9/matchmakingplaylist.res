@@ -1,4 +1,4 @@
-"Resource/UI/MatchMakingDashboardCasualCriteria.res"
+"Resource/UI/MatchMakingPlaylist.res"
 {
 	"EventEntry"
 	{
@@ -20,7 +20,7 @@
 	{
 		"wide"										"160"
 	}
-	
+
 	"TrainingEntry"
 	{
 		"wide"										"160"

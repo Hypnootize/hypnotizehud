@@ -1,4 +1,4 @@
-"Resource/UI/TFHudRobotDestruction_RobotIndicator.res"
+"Resource/UI/TFHudRobotDestruction_ShieldState.res"
 {
 	"ShieldedState"
 	{

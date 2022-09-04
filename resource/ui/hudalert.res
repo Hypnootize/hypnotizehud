@@ -1,14 +1,14 @@
 "Resource/UI/HudAlert.res"
 {
 	"AlertLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AlertLabel"
 		"font"										"Size 12"
 		"xpos"										"cs-0.5"
 		"ypos"										"80"
 		"zpos"										"2"
-		"wide"										"f0"	
+		"wide"										"f0"
 		"tall"										"15"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -22,14 +22,14 @@
 		"textAlignment"								"center"
 	}
 	"AlertLabelShadow"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AlertLabelShadow"
 		"font"										"Size 12 Blur"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"1"
-		"wide"										"f0"	
+		"wide"										"f0"
 		"tall"										"15"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -43,7 +43,7 @@
 		"textAlignment"								"center"
 		"pin_to_sibling" 							"AlertLabel"
 	}
-	
+
 	//REMOVED
 	"HudAlertBG"
 	{

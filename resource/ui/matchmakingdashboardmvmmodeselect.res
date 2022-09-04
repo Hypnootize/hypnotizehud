@@ -1,6 +1,6 @@
 #base "matchmakingdashboardsidepanel.res"
 
-"Resource/UI/MatchMakingDashboardCasualCriteria.res"
+"Resource/UI/MatchMakingDashboardMvMModeSelect.res"
 {
 	"MVMModeSelect"
 	{
@@ -23,7 +23,7 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
+
 	"MannLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -39,7 +39,7 @@
 		"textAlignment"								"center"
 		"font"										"Size 40"
 		"AllCaps"									"1"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 		"proportionaltoparent"						"1"
 	}
 	"VSLabel"
@@ -57,9 +57,9 @@
 		"textAlignment"								"center"
 		"font"										"Size 28"
 		"AllCaps"									"1"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 		"proportionaltoparent"						"1"
-		
+
 		"pin_to_sibling" 							"MannLabel"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
@@ -79,9 +79,9 @@
 		"textAlignment"								"center"
 		"font"										"Size 40"
 		"AllCaps"									"1"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 		"proportionaltoparent"						"1"
-		
+
 		"pin_to_sibling" 							"VSLabel"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
@@ -99,7 +99,7 @@
 		"enabled"									"1"
 		"bgcolor_override"							"WhiteDark"
 		"proportionaltoparent"						"1"
-		
+
 		"pin_to_sibling" 							"MachineLabel"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
@@ -150,19 +150,16 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"#TF_MvM_MannUp"
 			"font"									"Size 20"
 			"AllCaps"								"1"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"Command"								"mannup"
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 
 			"paintbackground"						"0"
-		
+
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
 
@@ -173,10 +170,10 @@
 
 		"PlayForBraggingRightsExplanation"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"PlayForBraggingRightsExplanation"
 			"font"									"Size 14"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 			"labelText"								"#TF_MvM_BraggingRightsExplaination"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -189,7 +186,7 @@
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
-			
+
 			"pin_to_sibling" 						"PlayNowButton"
 			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
 			"pin_to_sibling_corner" 				"PIN_CENTER_BOTTOM"
@@ -241,19 +238,16 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"#TF_MvM_BootCamp"
 			"font"									"Size 20"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"Command"								"bootcamp"
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 
 			"paintbackground"						"0"
-		
+
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
 
@@ -264,10 +258,10 @@
 
 		"PlayOnCommunityServerExplanation"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"PlayOnCommunityServerExplanation"
 			"font"									"Size 14"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 			"labelText"								"#TF_MvM_PracticeExplaination"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -280,7 +274,7 @@
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
-			
+
 			"pin_to_sibling" 						"PracticeButton"
 			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
 			"pin_to_sibling_corner" 				"PIN_CENTER_BOTTOM"

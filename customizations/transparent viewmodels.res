@@ -7,4 +7,4 @@
 // https://github.com/Hypnootize/Hypnotize-Hud/wiki/Transparent-Viewmodels
 //=============================================================================================
 
-//#base "../scripts/transparent_viewmodels.res"
+//#base "../resource/ui/transparent_viewmodels.res"

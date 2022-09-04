@@ -1,4 +1,4 @@
-"Resource/UI/econ/StrangeCountTransferDialog.res"
+"Resource/UI/Econ/StrangeCountTransferDialog.res"
 {
 	"StrangeCountTrasnferDialog"
 	{
@@ -68,9 +68,9 @@
 			"enabled"								"1"
 			"paintbackground" 						"0"
 			"border"								"BackpackItemBorder_SelfMade"
-		}				
+		}
 		"SourceItem"
-		{		
+		{
 			"ControlName"							"CItemModelPanel"
 			"fieldName"								"SourceItem"
 			"xpos"									"10"
@@ -92,7 +92,7 @@
 			"name_only"								"1"
 			"paint_icon_hide" 						"1"
 			"actionsignallevel"						"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" 			"0"
@@ -100,7 +100,7 @@
 				"allow_rot"							"0"
 			}
 		}
-		
+
 		"SubjectBG"
 		{
 			"ControlName"							"CExLabel"
@@ -119,10 +119,10 @@
 			"enabled"								"1"
 			"paintbackground" 						"0"
 			"border"								"BackpackItemBorder_Vintage"
-		}	
-		
+		}
+
 		"TargetItem"
-		{		
+		{
 			"ControlName"							"CItemModelPanel"
 			"fieldName"								"TargetItem"
 			"xpos"									"300"
@@ -143,15 +143,15 @@
 			"text_center"							"1"
 			"name_only"								"1"
 			"actionsignallevel"						"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" 			"0"
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
-		}	
-		
+		}
+
 		"ConfirmLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -171,7 +171,7 @@
 			"wrap"									"1"
 			"fgcolor" 								"WhiteDark"
 		}
-	
+
 		"CancelButton"
 		{
 			"ControlName"							"CExButton"
@@ -185,29 +185,26 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"Cancel (&Q)"
 			"font"									"Size 14"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"0"
 			"actionsignallevel"						"2"
 			"Command"								"cancel"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
-			
+
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
 		}
-	
+
 		"OkButton"
 		{
 			"ControlName"							"CExButton"
@@ -221,25 +218,22 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"#CraftNameConfirm"
 			"font"									"Size 14"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"actionsignallevel"						"2"
 			"Command"								"apply"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
-			
+
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
 		}

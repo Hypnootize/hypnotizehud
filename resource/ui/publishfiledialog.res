@@ -1,6 +1,6 @@
 #base "../../resource/tools/reloadschemebutton.res"
 
-"PublishFileDialog.res"
+"Resource/UI/PublishFileDialog.res"
 {
 	"PublishFileDialog"
 	{
@@ -17,8 +17,8 @@
 		"paintborder"								"1"
 		"border"									"MaterialBlackDark"
 	}
-	
-	"Title"	
+
+	"Title"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Title"
@@ -35,7 +35,7 @@
 		"fgcolor"									"WhiteDark"
 	}
 
-	"LabelPreview"	
+	"LabelPreview"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"LabelPreview"
@@ -147,7 +147,6 @@
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"1"
 		"maxchars"									"128"
@@ -158,7 +157,7 @@
 		"paintbackgroundtype" 						"0"
 		"font"										"Size 14"
 	}
-		
+
 	"LabelDesc"
 	{
 		"ControlName"								"CExLabel"
@@ -184,7 +183,6 @@
 		"tall"										"125"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"1"
 		"maxchars"									"8000"
@@ -211,7 +209,7 @@
 		"font"										"Size 14"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"SourceFile"
 	{
 		"ControlName"								"CExLabel"
@@ -222,7 +220,6 @@
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"labelText"									"#TF_PublishFile_NoFileSelected"
 		"textHidden"								"0"
 		"editable"									"0"
@@ -269,7 +266,7 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"importtool_goldstar"
-		}	
+		}
 	}
 
 	"ButtonSourceOther"
@@ -524,7 +521,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"disabledfgcolor2_override"				"WhiteDark"
-		}	
+		}
 
 		"TagCheckbox_Headgear"
 		{
@@ -669,7 +666,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"disabledfgcolor2_override"				"WhiteDark"
-		}		
+		}
 		"TagCheckbox_Jungle"
 		{
 			"ControlName"							"CheckButton"
@@ -997,7 +994,7 @@
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-			
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDarker"
 		"border_armed"								"MaterialRed"
@@ -1026,7 +1023,7 @@
 
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-			
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDarker"
 		"border_armed"								"MaterialHypno"

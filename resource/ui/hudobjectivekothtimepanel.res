@@ -11,7 +11,7 @@
 		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"							"CExLabel"
@@ -29,7 +29,7 @@
 			"labelText"								"0:00"
 		}
 	}
-	
+
 	"RedTimer"
 	{
 		"ControlName"								"CTFHudTimeStatus"
@@ -41,7 +41,7 @@
 		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"							"CExLabel"
@@ -59,7 +59,7 @@
 			"labelText"								"0:00"
 		}
 	}
-	
+
 	"ActiveTimerBG"
 	{
 		"ControlName"								"EditablePanel"

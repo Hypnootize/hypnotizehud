@@ -16,7 +16,7 @@
 
 	"Title"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"Title"
 		"xpos"										"10"
 		"ypos"										"4"
@@ -29,12 +29,12 @@
 		"wrap"										"1"
 		"centerwrap"								"1"
 		"font"										"Size 24"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 		"AllCaps"									"1"
-		
+
 		"mouseinputenabled"							"0"
 	}
-	
+
 	"Separator"
 	{
 		"ControlName"								"EditablePanel"
@@ -45,7 +45,7 @@
 		"wide"										"1"
 		"tall"										"40"
 		"bgcolor_override"							"WhiteDark"
-		
+
 		"pin_to_sibling"							"Title"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
@@ -70,7 +70,7 @@
 		"fieldName"									"PlayListDropShadow"
 		"xpos"										"9999"
 	}
-	
+
 	"DashboardDimmer"
 	{
 		"ControlName"								"EditablePanel"

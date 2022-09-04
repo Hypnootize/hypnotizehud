@@ -1,4 +1,4 @@
-"Resource/training/basictraining/classselection.res"
+"Resource/UI/Training/BasicTraining/ClassSelection.res"
 {
 	"DescLabel"
 	{

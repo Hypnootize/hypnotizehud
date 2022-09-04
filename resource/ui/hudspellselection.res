@@ -11,11 +11,11 @@
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
-		"scaleImage"								"1"	
+		"scaleImage"								"1"
 		"image"										"../signs/death_wheel_whammy"
 		"fgcolor"									"White"
 	}
-	
+
 	"CountText"
 	{
 		"ControlName"								"CExLabel"
@@ -29,7 +29,7 @@
 		"wide"										"20"
 		"tall"										"20"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling" 							"SpellIcon"
 		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
@@ -48,7 +48,7 @@
 		"fgcolor"									"Shadow"
 		"pin_to_sibling" 							"CountText"
 	}
-	
+
 	"ActionText"
 	{
 		"ControlName"								"CExLabel"
@@ -65,10 +65,10 @@
 		"visible_minmode"							"1"
 		"AllCaps"									"1"
 	}
-	
-	
-	
-	
+
+
+
+
 	//REMOVED
 	"ItemEffectMeterBG"
 	{

@@ -1,4 +1,4 @@
-"resource/ui/replayinput.res"
+"Resource/UI/ReplayInput.res"
 {
 	"ReplayInputPanel"
 	{
@@ -11,10 +11,9 @@
 		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
-		"tabPosition"								"10"
 		"bgcolor_override"							"0 0 0 50"
 	}
-	
+
 	"Dlg"
 	{
 		"ControlName"								"EditablePanel"
@@ -28,11 +27,10 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"10"
 		"paintbackground"							"0"
 		"paintborder"								"1"
 		"border"									"MaterialBlackLight"
-		
+
 		"NameYourReplayLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -49,10 +47,9 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"10"
 			"fgcolor"								"White"
 		}
-		
+
 		"EnterANameLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -69,10 +66,9 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"10"
 			"fgcolor"								"White"
 		}
-		
+
 		"TitleInput"
 		{
 			"ControlName"							"TextEntry"
@@ -93,10 +89,9 @@
 			"enabled"								"1"
 			"bgcolor_override"						"Black"
 			"fgcolor_override"						"WhiteDark"
-			"tabPosition"							"10"
 			"maxchars"								"255"
 		}
-		
+
 		"CancelButton"
 		{
 			"ControlName"							"CExButton"
@@ -110,18 +105,15 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"2"
 			"labelText"								"#GameUI_CancelBold"
 			"font"									"Size 12"
 			"textAlignment"							"center"
 			"textinsetx"							"50"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"Command"								"cancel"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
@@ -129,7 +121,7 @@
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override" 			"White"
-		}		
+		}
 
 		"SaveButton"
 		{
@@ -144,18 +136,15 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"1"
 			"labelText"								"#Replay_Save"
 			"font"									"Size 12"
 			"textAlignment"							"center"
 			"textinsetx"							"50"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"Command"								"save"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
@@ -163,6 +152,6 @@
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override" 			"White"
-		}			
+		}
 	}
 }

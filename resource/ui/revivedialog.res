@@ -12,7 +12,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"0"
@@ -37,7 +36,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White"
 		}
-	
+
 		"ExplanationLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -72,18 +71,15 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"#ConfirmButtonText"
 			"font"									"ReplayBrowserSmallest"
 			"textAlignment"							"center"
 			"textinsetx"							"50"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"Command"								"confirm"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
@@ -103,7 +99,7 @@
 			"wide"									"48"
 			"tall"									"48"
 			"visible"								"1"
-			"enabled"								"1"	
+			"enabled"								"1"
 			"HealthBonusPosAdj"						"10"
 			"HealthDeathWarning"					"0.49"
 			"TFFont"								"Size 11"

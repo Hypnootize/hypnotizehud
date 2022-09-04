@@ -10,9 +10,9 @@
 		"wide"										"f0"
 		"tall"										"480"
 		"visible"									"1"
-		"enabled"									"1"		
+		"enabled"									"1"
 	}
-	
+
 	"PlayerStatusClassImage"
 	{
 		"ControlName"								"CTFClassImage"
@@ -28,7 +28,7 @@
 		"scaleImage"								"1"
 		"alpha"										"0"
 	}
-	
+
 	"PlayerStatusSpyOutlineImage"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -44,26 +44,26 @@
 		"scaleImage"								"1"
 		"alpha"										"0"
 	}
-	
+
 	"classmodelpanel"
 	{
 		"ControlName"								"CTFPlayerModelPanel"
 		"fieldName"									"classmodelpanel"
-		
+
 		"xpos"										"0"
 		"ypos"										"r120"
-		"zpos"										"2"		
+		"zpos"										"2"
 		"wide"										"88"
 		"tall"										"140"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"render_texture"							"0"
 		"fov"										"27"
 		"allow_rot"									"1"
-		
+
 		"model"
 		{
 			"force_pos"								"1"
@@ -78,7 +78,7 @@
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
 			"spotlight"								"1"
-		
+
 			"modelname"								""
 		}
 
@@ -179,7 +179,7 @@
 			}
 		}
 	}
-	
+
 	"CarryingWeapon"
 	{
 		"ControlName"								"EditablePanel"
@@ -209,18 +209,18 @@
 			"teambg_2"								"replay/thumbnails/panels/bg_red"
 			"teambg_3"								"replay/thumbnails/panels/bg_blue"
 			"proportionaltoparent"					"1"
-		
+
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
-			
+
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 
-			"alpha"									"255"			
+			"alpha"									"255"
 		}
 
 		"CarryingLabel"
-		{	
+		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CarryingLabel"
 			"font"									"Size 11"
@@ -234,23 +234,21 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"textAlignment"							"North-West"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"auto_wide_tocontents"					"1"
 			"labelText"								"%carrying%"
 		}
 
 		"CarryingLabelDropShadow"
-		{	
+		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CarryingLabelDropShadow"
 			"xpos"									"9999"
 		}
 
 		"OwnerLabel"
-		{	
-			"ControlName"							"Label"
+		{
+			"ControlName"							"CExLabel"
 			"fieldName"								"OwnerLabel"
 			"font"									"Size 9"
 			"xpos"									"5"
@@ -263,13 +261,11 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"textAlignment"							"North-West"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"auto_wide_tocontents"					"1"
 		}
 	}
-	
+
 	//REMOVED
 	"classmodelpanelBG"
 	{

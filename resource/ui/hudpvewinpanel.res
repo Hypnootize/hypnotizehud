@@ -1,4 +1,4 @@
-"Resource/UI/hudpvewinpanel.res"
+"Resource/UI/HudPVEWinPanel.res"
 {
 	"WinPanelBG"
 	{
@@ -12,15 +12,15 @@
 		"image"										"replay/thumbnails/panels/material_transparent50"
 		"autoResize"								"0"
 		"pinCorner"									"0"
-		
+
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"src_corner_height"							"32"
 		"src_corner_width"							"32"
-	
+
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"	
+		"draw_corner_height" 						"8"
 	}
 
 	"WaveCompleteContainer"
@@ -33,9 +33,9 @@
 		"tall"										"24"
 		"visible"									"1"
 		"PaintBackgroundType" 						"0"
-		
+
 		"WinningTeamLabelDropshadow"
-		{	
+		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"WinningTeamLabelDropshadow"
 			"font"									"Size 18 Blur"
@@ -51,17 +51,15 @@
 			"AllCaps"								"1"
 			"labelText"								"#Winpanel_PVE_Evil_Wins"
 			"textAlignment"							"Center"
-			"dulltext"								"0"
-			"brighttext"							"0"
-			
+
 			// blue Background
 			"PaintBackgroundType" 					"0"
-			"fgcolor_override"						"Shadow"		
+			"fgcolor"								"Shadow"
 			"bgcolor_override"						"Red"
 		}
-		
+
 		"WinningTeamLabel"
-		{	
+		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"WinningTeamLabel"
 			"font"									"Size 18"
@@ -78,9 +76,9 @@
 			"textAlignment"							"Center"
 		}
 	}
-	
+
 	"WinReasonLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WinReasonLabel"
 		"font"										"Size 14"
@@ -96,8 +94,6 @@
 		"AllCaps"									"1"
 		"labelText"									"%WinReasonLabel%"
 		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 	}
 
 	"DetailsLabel"
@@ -117,8 +113,6 @@
 		"AllCaps"									"1"
 		"labelText"									"%DetailsLabel%"
 		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"wrap"										"1"
 		"centerwrap"								"1"
 	}
@@ -141,7 +135,7 @@
 		"src_corner_height"							"32"
 		"src_corner_width"							"32"
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"	
+		"draw_corner_height" 						"8"
 	}
 
 	"RespecContainer"
@@ -154,7 +148,7 @@
 		"tall"										"25"
 		"visible"									"1"
 		"PaintBackgroundType" 						"2"
-	
+
 		"RespecTextLabelLoss"
 		{
 			"ControlName"							"CExLabel"
@@ -169,7 +163,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White"
 		}
-		
+
 		"RespecCountLabel"
 		{
 			"ControlName"							"CExLabel"

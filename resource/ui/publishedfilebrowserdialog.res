@@ -1,6 +1,6 @@
 #base "../../resource/tools/reloadschemebutton.res"
 
-"PublishedFileBrowserDialog.res"
+"Resource/UI/PublishedFileBrowserDialog.res"
 {
 	"PublishedFileBrowserDialog"
 	{
@@ -18,7 +18,7 @@
 		"paintborder"								"1"
 		"border"									"MaterialBlackDark"
 	}
-	
+
 	"LabelPublishedFiles"
 	{
 		"ControlName"								"CExLabel"
@@ -32,7 +32,7 @@
 		"labelText"									"#TF_PublishedFiles_Files"
 		"textAlignment"								"west"
 		"fgcolor"									"WhiteDark"
-		
+
 	}
 
 	"PublishedFileList"
@@ -48,7 +48,7 @@
 		"textAlignment"								"west"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"LabelPublishedFileTitle"
 	{
 		"ControlName"								"CExLabel"
@@ -80,7 +80,7 @@
 		// "maxchars"								"128"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"LabelPublishedFileDesc"
 	{
 		"ControlName"								"CExLabel"
@@ -185,7 +185,7 @@
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
 	}
-	
+
 	"ButtonRefresh"
 	{
 		"ControlName"								"CExButton"

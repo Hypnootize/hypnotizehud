@@ -12,7 +12,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"proportionalToParent"						"1"
 		"autohide_scrollbar"						"1"
 		"PaintBackgroundType"						"0"
@@ -34,11 +33,8 @@
 			"pin_to_sibling_corner"					"0"
 			"visible"								"0"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"#GameUI_ParticleHatUseHead"
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"1"
 			"wrap"									"0"
 			"centerwrap"							"0"
 			"textinsetx"							"6"
@@ -47,7 +43,7 @@
 			"Default"								"0"
 			"Command"								"particle_use_head_clicked"
 		}
-	
+
 		"HatParticleSlider"
 		{
 			"ControlName"							"CCvarSlider"
@@ -60,7 +56,6 @@
 			"RoundedCorners"						"15"
 			"visible"								"0"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"fgcolor_override"						"White"
 		}
 
@@ -76,23 +71,20 @@
 			"pinCorner"								"3"
 			"visible"								"0"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"#TF_Item_SelectStyle"
 			"font"									"Size 14"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 			"Command"								"set_style"
-			
+
 			"paintbackground"						"1"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override" 				"White"
 			"depressedFgColor_override" 			"White"
-			
+
 			"defaultBgColor_override"				"GrayDark"
 			"armedBgColor_override" 				"Main Theme"
 			"depressedBgColor_override" 			"GrayDark"

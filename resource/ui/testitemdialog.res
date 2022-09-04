@@ -17,7 +17,7 @@
 		"settitlebarvisible"						""
 		"border"									"MaterialGrayDarkest"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -37,7 +37,7 @@
 		"AllCaps"									"1"
 		"fgcolor" 									"WhiteDark"
 	}
-	
+
 	"SelectModelLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -57,7 +57,7 @@
 		"AllCaps"									"1"
 		"fgcolor" 									"WhiteDark"
 	}
-	
+
 	"ModelLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -77,7 +77,7 @@
 		"AllCaps"									"1"
 		"fgcolor" 									"WhiteDark"
 	}
-	
+
 	"SelectModelButton"
 	{
 		"ControlName"								"CExButton"
@@ -91,29 +91,26 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#IT_SelectModel"
 		"font"										"Size 11"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"select_model"
 		"AllCaps"									"1"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}
-	
+
 	"ExistingItemToTestPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -127,7 +124,7 @@
 		"PaintBackground"							"0"
 		"PaintBorder"								"1"
 		"border"									"MaterialBlackLight"
-		
+
 		"ItemReplacedLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -148,7 +145,7 @@
 			"AllCaps"								"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"ExistingItemComboBox"
 		{
 			"ControlName"							"ComboBox"
@@ -163,13 +160,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"1"
 			"textHidden"							"0"
 			"editable"								"0"
 			"maxchars"								"-1"
 			"NumericInputOnly"						"0"
 			"unicode"								"0"
-			
+
 			"fgcolor_override"						"White"
 			"bgcolor_override"						"Blank"
 			"disabledFgColor_override" 				"Blank"
@@ -179,7 +175,7 @@
 			"defaultSelectionBG2Color_override" 	"White"
 		}
 	}
-	
+
 	"ItemReplacedPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -193,7 +189,7 @@
 		"PaintBackground"							"0"
 		"PaintBorder"								"1"
 		"border"									"MaterialBlackLight"
-		
+
 		"ItemReplacedLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -227,13 +223,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"1"
 			"textHidden"							"0"
 			"editable"								"0"
 			"maxchars"								"-1"
 			"NumericInputOnly"						"0"
 			"unicode"								"0"
-			
+
 			"fgcolor_override"						"White"
 			"bgcolor_override"						"Blank"
 			"disabledFgColor_override" 				"Blank"
@@ -262,7 +257,7 @@
 			"fgcolor" 								"Red"
 		}
 	}
-	
+
 	"BodygroupPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -273,7 +268,7 @@
 		"tall"										"50"
 		"visible"									"1"
 		"PaintBackgroundType"						"2"
-		
+
 		"HideBodygroupLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -293,7 +288,7 @@
 			"AllCaps"								"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"HideBodygroupExplanationLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -314,7 +309,7 @@
 			"AllCaps"								"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"HideBodygroupCheckBox0"
 		{
 			"ControlName"							"CheckButton"
@@ -332,11 +327,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"White"
 		}
-		
+
 		"HideBodygroupCheckBox1"
 		{
 			"ControlName"							"CheckButton"
@@ -354,11 +347,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"White"
 		}
-		
+
 		"HideBodygroupCheckBox2"
 		{
 			"ControlName"							"CheckButton"
@@ -376,11 +367,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"White"
 		}
-		
+
 		"HideBodygroupCheckBox3"
 		{
 			"ControlName"							"CheckButton"
@@ -398,11 +387,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"White"
 		}
-		
+
 		"HideBodygroupCheckBox4"
 		{
 			"ControlName"							"CheckButton"
@@ -420,11 +407,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"White"
 		}
-		
+
 		"HideBodygroupCheckBox5"
 		{
 			"ControlName"							"CheckButton"
@@ -442,11 +427,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"White"
 		}
-		
+
 		"HideBodygroupCheckBox6"
 		{
 			"ControlName"							"CheckButton"
@@ -464,11 +447,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"White"
 		}
-		
+
 		"HideBodygroupCheckBox7"
 		{
 			"ControlName"							"CheckButton"
@@ -486,12 +467,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"White"
 		}
 	}
-	
+
 	"CustomizationsPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -502,7 +481,7 @@
 		"tall"										"50"
 		"visible"									"1"
 		"PaintBackgroundType"						"2"
-		
+
 		"PaintColorLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -522,7 +501,7 @@
 			"AllCaps"								"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"PaintColorComboBox"
 		{
 			"ControlName"							"ComboBox"
@@ -537,13 +516,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"1"
 			"textHidden"							"0"
 			"editable"								"0"
 			"maxchars"								"-1"
 			"NumericInputOnly"						"0"
 			"unicode"								"0"
-			
+
 			"fgcolor_override"						"White"
 			"bgcolor_override"						"Blank"
 			"disabledFgColor_override" 				"Blank"
@@ -586,13 +564,12 @@
 			"pinCorner"									"0"
 			"visible"									"1"
 			"enabled"									"1"
-			"tabPosition"								"1"
 			"textHidden"								"0"
 			"editable"									"0"
 			"maxchars"									"-1"
 			"NumericInputOnly"							"0"
 			"unicode"									"0"
-			
+
 			"fgcolor_override"							"White"
 			"bgcolor_override"							"Blank"
 			"disabledFgColor_override" 					"Blank"
@@ -602,7 +579,7 @@
 			"defaultSelectionBG2Color_override" 		"White"
 		}
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"									"CExButton"
@@ -616,28 +593,25 @@
 		"pinCorner"										"3"
 		"visible"										"1"
 		"enabled"										"1"
-		"tabPosition"									"0"
 		"labelText"										"#Cancel"
 		"font"											"Size 14"
 		"textAlignment"									"center"
-		"dulltext"										"0"
-		"brighttext"									"0"
 		"default"										"1"
 		"Command"										"cancel"
 		"AllCaps"										"1"
 		"sound_depressed"								"UI/buttonclick.wav"
 		"sound_released"								"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"								"0"
-		
+
 		"defaultFgColor_override"						"White"
 		"armedFgColor_override"							"White"
 		"depressedFgColor_override"						"White"
-		
+
 		"border_default"								"MaterialGrayDark"
 		"border_armed"									"MaterialHypno"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"									"CExButton"
@@ -651,28 +625,25 @@
 		"pinCorner"										"3"
 		"visible"										"1"
 		"enabled"										"0"
-		"tabPosition"									"0"
 		"labelText"										"#GameUI_Ok"
 		"font"											"Size 14"
 		"textAlignment"									"center"
-		"dulltext"										"0"
-		"brighttext"									"0"
 		"default"										"1"
 		"Command"										"ok"
 		"AllCaps"										"1"
 		"sound_depressed"								"UI/buttonclick.wav"
 		"sound_released"								"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"								"0"
-		
+
 		"defaultFgColor_override"						"White"
 		"armedFgColor_override"							"White"
 		"depressedFgColor_override"						"White"
-		
+
 		"border_default"								"MaterialGrayDark"
 		"border_armed"									"MaterialHypno"
 	}
-	
+
 	"ReloadSchemeButton"
 	{
 		"xpos"											"10"

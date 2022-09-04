@@ -1,4 +1,4 @@
-"Resource/UI/PaintkitConsumeDialog.res"
+"Resource/UI/Econ/PaintkitConsumeDialog.res"
 {
 	"PaintkitConsume"
 	{
@@ -13,7 +13,7 @@
 
 	"Title"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"Title"
 		"font"										"Size 24"
 		"labelText"									"#TF_UsePaintkit_Panel_Title"
@@ -25,14 +25,14 @@
 		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
 	}
 
 	"DescText"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"DescText"
 		"font"										"Size 12"
 		"labelText"									"#TF_UsePaintkit_Panel_Desc"
@@ -44,7 +44,7 @@
 		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor_override" 							"WhiteDark"
+		"fgcolor"		 							"WhiteDark"
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
 	}
@@ -83,7 +83,7 @@
 
 		"CTFLogoPanel"
 		{
-			"fieldName"								"WorkingLogo"
+			"fieldName"								"CTFLogoPanel"
 			"controlname"							"CTFLogoPanel"
 			"xpos"									"cs-0.5"
 			"ypos"									"cs-0.5-15"
@@ -98,7 +98,7 @@
 
 		"WorkingText"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"WorkingText"
 			"font"									"Size 14"
 			"labelText"								"#TF_UsePaintkit_Working"
@@ -109,7 +109,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor_override" 						"WhiteDark"
+			"fgcolor"		 						"WhiteDark"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
 		}
@@ -130,7 +130,7 @@
 
 		"CTFLogoPanel"
 		{
-			"fieldName"								"SuccessLogo"
+			"fieldName"								"CTFLogoPanel"
 			"controlname"							"CTFLogoPanel"
 			"xpos"									"cs-0.5"
 			"ypos"									"cs-0.5-15"
@@ -145,7 +145,7 @@
 
 		"SuccessText"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"SuccessText"
 			"font"									"Size 24"
 			"labelText"								"#AbuseReport_SucceededTitle"
@@ -156,7 +156,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor_override"						"Green"
+			"fgcolor"								"Green"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
 		}
@@ -177,7 +177,7 @@
 
 		"CTFLogoPanel"
 		{
-			"fieldName"								"FailureLogo"
+			"fieldName"								"CTFLogoPanel"
 			"controlname"							"CTFLogoPanel"
 			"xpos"									"cs-0.5"
 			"ypos"									"cs-0.5-15"
@@ -192,7 +192,7 @@
 
 		"FailureText"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"FailureText"
 			"font"									"Size 14"
 			"labelText"								"#TF_UsePaintkit_Failed"
@@ -203,7 +203,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor_override" 						"Red"
+			"fgcolor"		 						"Red"
 			"proportionaltoparent"					"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
@@ -234,19 +234,16 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#GameUI_CancelBold"
 		"font"										"Size 14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"cancel"
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
@@ -254,7 +251,7 @@
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-	}		
+	}
 
 	"ConfirmButton"
 	{
@@ -270,19 +267,16 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#TF_QuestView_RedeemReward"
 		"font"										"Size 14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"accept"
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
@@ -290,5 +284,5 @@
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-	}			
+	}
 }

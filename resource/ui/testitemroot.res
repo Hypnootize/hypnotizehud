@@ -17,7 +17,7 @@
 		"paintborder"								"0"
 		"paintbackground"							"1"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -37,7 +37,7 @@
 		"AllCaps"									"1"
 		"fgcolor" 									"WhiteDark"
 	}
-	
+
 	"ClassUsagePanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -49,7 +49,7 @@
 		"visible"									"1"
 		"PaintBackgroundType"						"0"
 		"border"									"MaterialBlackLight"
-		
+
 		"ClassUsageLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -69,7 +69,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"ClassCheckBox0"
 		{
 			"ControlName"							"CheckButton"
@@ -87,11 +87,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-		
+
 		"ClassCheckBox1"
 		{
 			"ControlName"							"CheckButton"
@@ -109,11 +107,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-		
+
 		"ClassCheckBox2"
 		{
 			"ControlName"							"CheckButton"
@@ -131,11 +127,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-		
+
 		"ClassCheckBox3"
 		{
 			"ControlName"							"CheckButton"
@@ -153,11 +147,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-		
+
 		"ClassCheckBox4"
 		{
 			"ControlName"							"CheckButton"
@@ -175,11 +167,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-		
+
 		"ClassCheckBox5"
 		{
 			"ControlName"							"CheckButton"
@@ -197,11 +187,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-		
+
 		"ClassCheckBox6"
 		{
 			"ControlName"							"CheckButton"
@@ -219,11 +207,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-		
+
 		"ClassCheckBox7"
 		{
 			"ControlName"							"CheckButton"
@@ -241,11 +227,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-		
+
 		"ClassCheckBox8"
 		{
 			"ControlName"							"CheckButton"
@@ -263,11 +247,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-		
+
 		"ClassCheckBox9"
 		{
 			"ControlName"							"CheckButton"
@@ -285,12 +267,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"TanDark"
-		}	
+		}
 	}
-	
+
 	"TestingPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -302,7 +282,7 @@
 		"visible"									"1"
 		"PaintBackgroundType"						"2"
 		"border"									"MaterialBlackLight"
-	
+
 		"CurrentlyTestingLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -322,7 +302,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"TestingWeaponLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -342,7 +322,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"TestItemEntry0"
 		{
 			"ControlName"							"CExLabel"
@@ -360,10 +340,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor_override" 						"Red"
+			"fgcolor"		 						"Red"
 			"bgcolor_override" 						"BlackDark"
 		}
-		
+
 		"TestItemButton0"
 		{
 			"ControlName"							"CExButton"
@@ -377,29 +357,26 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"#IT_Item_Add"
 			"font"									"Size 11"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"item_test0"
 			"AllCaps"								"1"
-		
+
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
-			
+
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
 		}
-		
+
 		"RemoveItemButton0"
 		{
 			"ControlName"							"CExButton"
@@ -413,25 +390,22 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labeltext"								"-"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
 			"textinsety"							"0"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"item_remove0"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
-			
+
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialRed"
 		}
@@ -471,7 +445,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor_override" 						"Red"
+			"fgcolor"		 						"Red"
 			"bgcolor_override" 						"BlackDark"
 		}
 		"TestItemButton1"
@@ -487,28 +461,25 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"#IT_Item_Add"
 			"font"									"Size 11"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"item_test1"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
-			
+
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
 		}
-		
+
 		"RemoveItemButton1"
 		{
 			"ControlName"							"CExButton"
@@ -522,29 +493,26 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labeltext"								"-"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
 			"textinsety"							"0"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"item_remove1"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
-			
+
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialRed"
 		}
-		
+
 		"TestingMisc1Label"
 		{
 			"ControlName"							"CExLabel"
@@ -581,7 +549,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor_override" 						"Red"
+			"fgcolor"		 						"Red"
 			"bgcolor_override" 						"BlackDark"
 		}
 		"TestItemButton2"
@@ -597,28 +565,25 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"#IT_Item_Add"
 			"font"									"Size 11"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"item_test2"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
-			
+
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
 		}
-		
+
 		"RemoveItemButton2"
 		{
 			"ControlName"							"CExButton"
@@ -632,29 +597,26 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labeltext"								"-"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
 			"textinsety"							"0"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"item_remove2"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
-			
+
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialRed"
 		}
-		
+
 		"TestingMisc2Label"
 		{
 			"ControlName"							"CExLabel"
@@ -674,7 +636,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"TestItemEntry3"
 		{
 			"ControlName"							"CExLabel"
@@ -692,10 +654,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor_override" 						"Red"
+			"fgcolor"		 						"Red"
 			"bgcolor_override" 						"BlackDark"
 		}
-		
+
 		"TestItemButton3"
 		{
 			"ControlName"							"CExButton"
@@ -709,28 +671,25 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"#IT_Item_Add"
 			"font"									"Size 11"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"item_test3"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
-			
+
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
 		}
-		
+
 		"RemoveItemButton3"
 		{
 			"ControlName"							"CExButton"
@@ -744,30 +703,27 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labeltext"								"-"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
 			"textinsety"							"0"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"item_remove3"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
-			
+
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialRed"
 		}
 	}
-	
+
 	"BotAdditionPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -779,7 +735,7 @@
 		"visible"									"1"
 		"paintbackground"							"0"
 		"border"									"MaterialBlackLight"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -799,7 +755,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"AutoAddBotsCheckBox"
 		{
 			"ControlName"							"CheckButton"
@@ -816,16 +772,14 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"TanDark"
-		}	
-		
+		}
+
 		"BotsOnBlueTeamCheckBox"
 		{
 			"ControlName"							"CheckButton"
-			"fieldName"								"AutoAddBotsCheckBox"
+			"fieldName"								"BotsOnBlueTeamCheckBox"
 			"labelText"								"#IT_Bot_BlueTeam"
 			"Font"									"Size 8"
 			"textAlignment"							"west"
@@ -838,12 +792,10 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-		
+
 		"AddBotButton"
 		{
 			"ControlName"							"CExButton"
@@ -857,28 +809,25 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"#IT_Bot_Add"
 			"font"									"Size 11"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"bot_add"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
-			
+
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
 		}
-	
+
 		"BotSelectionComboBox"
 		{
 			"ControlName"							"ComboBox"
@@ -893,14 +842,13 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"1"
 			"textHidden"							"0"
 			"editable"								"0"
 			"maxchars"								"-1"
 			"NumericInputOnly"						"0"
 			"unicode"								"0"
 			"AllCaps"								"1"
-			
+
 			"fgcolor_override"						"White"
 			"bgcolor_override"						"Blank"
 			"disabledFgColor_override" 				"White"
@@ -909,7 +857,7 @@
 			"selectionTextColor_override" 			"White"
 			"defaultSelectionBG2Color_override" 	"White"
 		}
-		
+
 		"KickAllBotsButton"
 		{
 			"ControlName"							"CExButton"
@@ -923,29 +871,26 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"#IT_Bot_RemoveAll"
 			"font"									"Size 11"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"bot_removeall"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
-			
+
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
 		}
 	}
-	
+
 	"TestItemBotControls"
 	{
 		"fieldName"									"TestItemBotControls"
@@ -959,7 +904,7 @@
 		"paintborder"								"1"
 		"border"									"MaterialBlackLight"
 	}
-	
+
 	"ExportButton"
 	{
 		"ControlName"								"CExButton"
@@ -973,28 +918,25 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#IT_ExportLoadout"
 		"font"										"Size 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"export"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}
-	
+
 	"ImportButton"
 	{
 		"ControlName"								"CExButton"
@@ -1008,28 +950,25 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#IT_ImportLoadout"
 		"font"										"Size 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"import"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}
-	
+
 	"ImportRecentButton"
 	{
 		"ControlName"								"CExButton"
@@ -1043,28 +982,25 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#IT_ImportLast"
 		"font"										"Size 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"importrecent"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -1078,24 +1014,21 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#Cancel"
 		"font"										"Size 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"cancel"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}
@@ -1112,24 +1045,21 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#IT_Ok"
 		"font"										"Size 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"ok"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}
@@ -1145,7 +1075,7 @@
 		"tall"										"36"
 		"visible"									"1"
 		"PaintBackgroundType"						"2"
-		
+
 		"SteamWorkshopButtonSubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -1158,33 +1088,30 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"textinsetx"							"25"
 			"textalignment" 						"center"
 			"use_proportional_insets" 				"1"
 			"font"									"Size 14"
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"command"								"steamworkshop"
 			"labeltext"								"#MMenu_SteamWorkshop"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
-			
+
 			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
-			
+
 			"image_armedcolor"						"White"
 			"image_drawcolor"						"White"
 			"image_selectedcolor"					"46 43 42 255"
-			
+
 			"SubImage"
 			{
 				"ControlName"						"ImagePanel"
@@ -1198,7 +1125,7 @@
 				"enabled"							"1"
 				"scaleImage"						"1"
 				"image"								"glyph_steamworkshop"
-			}		
+			}
 		}
 	}
 }

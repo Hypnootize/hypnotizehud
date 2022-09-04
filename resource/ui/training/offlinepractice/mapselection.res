@@ -1,4 +1,4 @@
-"Resource/training/offlinepractice/mapselection.res"
+"Resource/UI/Training/OfflinePractice/MapSelection.res"
 {
 	"MapImagePanel"
 	{
@@ -19,7 +19,7 @@
 	"HackCoverBottomOfMapImagePanel"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"MapImagePanel"
+		"fieldName"									"HackCoverBottomOfMapImagePanel"
 		"xpos"										"9999"
 		"ypos"										"9999"
 		"wide"										"0"
@@ -28,11 +28,10 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"bgcolor_override"							"Blank"
 		"alpha"										"0"
 	}
-	
+
 	"GradientPanel"
 	{
 		"ControlName"								"ImagePanel"
@@ -48,7 +47,7 @@
 		"image"										"training/gradient_black"
 		"alpha"										"0"
 	}
-	
+
 	"PrevButton"
 	{
 		"ControlName"								"CExButton"
@@ -62,17 +61,14 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"<"
 		"font"										"Symbols 18"
 		"textAlignment"								"center"
 		"textinsetx"								"0"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"goprev"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
@@ -80,8 +76,8 @@
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-	}	
-	
+	}
+
 	"NextButton"
 	{
 		"ControlName"								"CExButton"
@@ -95,17 +91,14 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									">"
 		"font"										"Symbols 18"
 		"textAlignment"								"center"
 		"textinsetx"								"0"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"gonext"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
@@ -113,8 +106,8 @@
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-	}	
-	
+	}
+
 	"MapNameLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -135,7 +128,7 @@
 		"fgcolor"									"White"
 		"AllCaps"									"1"
 	}
-	
+
 	"CurPageLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -158,7 +151,7 @@
 		"AllCaps"									"1"
 		"paintbackground"							"0"
 	}
-	
+
 	"StartOfflinePracticeButton"
 	{
 		"ControlName"								"CExButton"
@@ -171,18 +164,15 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#TF_StartPractice"
 		"font"										"Size 14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"startofflinepractice"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
@@ -191,7 +181,7 @@
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
 	}
-	
+
 	"DifficultyLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -211,7 +201,7 @@
 		"fgcolor"									"WhiteDark"
 		"AllCaps"									"1"
 	}
-	
+
 	"DifficultyComboBox"
 	{
 		"ControlName"								"ComboBox"
@@ -226,17 +216,16 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"0"
 		"maxchars"									"-1"
 		"NumericInputOnly"							"0"
 		"unicode"									"0"
 		"textinsetx"								"50"
-		
+
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"16 14 14 255"
-		
+
 		"disabledFgColor_override" 					"White"
 		"disabledBgColor_override" 					"51 47 46 255"
 		"selectionColor_override" 					"51 47 46 255"
@@ -244,7 +233,7 @@
 		"defaultSelectionBG2Color_override" 		"51 47 46 255"
 		"AllCaps"									"1"
 	}
-	
+
 	"PlayersLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -264,7 +253,7 @@
 		"fgcolor"									"WhiteDark"
 		"AllCaps"									"1"
 	}
-	
+
 	"NumPlayersTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -283,17 +272,16 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"maxchars"									"2"
 		"NumericInputOnly"							"1"
 		"selectallonfirstfocus"						"1"
-		
+
 		"bgcolor_override"							"WhiteDark"
 		"fgcolor_override"							"Black"
-		
+
 		"AllCaps"									"1"
 	}
-	
+
 	"SuggestedPlayerCountLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -312,7 +300,7 @@
 		"enabled"									"1"
 		"wrap"										"0"
 		"fgcolor"									"WhiteDark"
-		
+
 		"AllCaps"									"1"
 	}
 }

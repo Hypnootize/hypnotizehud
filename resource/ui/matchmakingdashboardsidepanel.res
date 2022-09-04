@@ -13,7 +13,7 @@
 		"proportionaltoparent"						"1"
 		"border"									"MaterialGrayDarkest"
 	}
-	
+
 	"ReturnButton"
 	{
 		"ControlName"								"CExButton"
@@ -21,7 +21,7 @@
 		"xpos"										"0"
 		"labelText"									"<"
 
-		if_left
+		"if_left"
 		{
 			"xpos"									"rs1"
 			"labelText"								">"
@@ -44,7 +44,7 @@
 
 		"armedFgColor_override"						"White"
 	}
-	
+
 	"Shade"
 	{
 		"ControlName"								"EditablePanel"

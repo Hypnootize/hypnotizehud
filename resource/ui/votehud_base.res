@@ -1,5 +1,5 @@
 "Resource/UI/VoteHud.res"
-{	
+{
 	"VotePassed"
 	{
 		"ControlName"								"EditablePanel"
@@ -11,7 +11,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"border"									"MaterialTransparent50"
-		
+
 		"PassedIcon"
 		{
 			"ControlName"							"ImagePanel"
@@ -25,10 +25,10 @@
 			"scaleImage"							"1"
 			"image"									"hud/vote_yes"
 		}
-		
+
 		"PassedTitle"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"PassedTitle"
 			"xpos"									"32"
 			"ypos"									"10"
@@ -38,16 +38,14 @@
 			"enabled"								"1"
 			"labelText"								"#GameUI_vote_passed"
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Size 10"
 			"wrap"									"1"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 		}
-		
+
 		"PassedResult"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"PassedResult"
 			"xpos"									"10"
 			"ypos"									"29"
@@ -57,15 +55,13 @@
 			"enabled"								"1"
 			"labelText"								"%passedresult%"
 			"textAlignment"							"north-west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Size 8"
 			"wrap"									"1"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 			"noshortcutsyntax" 						"1"
-		}		
+		}
 	}
-	
+
 	"VoteActive"
 	{
 		"ControlName"								"EditablePanel"
@@ -77,10 +73,10 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"border"									"MaterialTransparent50"
-		
+
 		"Header"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"Header"
 			"xpos"									"10"
 			"ypos"									"5"
@@ -90,16 +86,14 @@
 			"enabled"								"1"
 			"labelText"								"%header%"
 			"textAlignment"							"north-west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Size 8"
 			"wrap"									"1"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 		}
-		
+
 		"Issue"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"Issue"
 			"xpos"									"10"
 			"ypos"									"22"
@@ -109,10 +103,8 @@
 			"enabled"								"1"
 			"labelText"								"%voteissue%"
 			"textAlignment"							"north-west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Size 10"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 			"wrap"									"1"
 			"noshortcutsyntax" 						"1"
 		}
@@ -128,10 +120,10 @@
 			"visible"								"0"
 			"enabled"								"1"
 			"image"									""
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"color_outline"							"White"
 		}
-		
+
 		// divider
 		"Divider"
 		{
@@ -144,12 +136,12 @@
 			"fillcolor"								"WhiteDark"
 			"zpos"									"0"
 		}
-		
+
 		// Temp UI
-		
+
 		"LabelOption1"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"LabelOption1"
 			"xpos"									"10"
 			"ypos"									"57"
@@ -160,12 +152,10 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"left"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Size 8"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 		}
-		
+
 		"Option1Background_Selected"
 		{
 			"ControlName"							"ImagePanel"
@@ -178,10 +168,10 @@
 			"fillcolor"								"Main Theme"
 			"visible"								"1"
 		}
-		
+
 		"Option1CountLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"Option1CountLabel"
 			"xpos"									"28"
 			"ypos"									"113"
@@ -192,15 +182,13 @@
 			"enabled"								"1"
 			"labelText"								"Yes"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Size 10"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 		}
-		
+
 		"LabelOption2"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"LabelOption2"
 			"xpos"									"10"
 			"ypos"									"73"
@@ -211,12 +199,10 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"left"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Size 8"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 		}
-		
+
 		"Option2Background_Selected"
 		{
 			"ControlName"							"ImagePanel"
@@ -229,10 +215,10 @@
 			"fillcolor"								"Main Theme"
 			"visible"								"1"
 		}
-		
+
 		"Option2CountLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"Option2CountLabel"
 			"xpos"									"74"
 			"ypos"									"113"
@@ -243,15 +229,13 @@
 			"enabled"								"1"
 			"labelText"								"No"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Size 10"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 		}
-		
+
 		"LabelOption3"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"LabelOption3"
 			"xpos"									"10"
 			"ypos"									"89"
@@ -262,12 +246,10 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"left"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Size 8"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 		}
-		
+
 		"Option3Background_Selected"
 		{
 			"ControlName"							"ImagePanel"
@@ -280,10 +262,10 @@
 			"fillcolor"								"Main Theme"
 			"visible"								"0"
 		}
-		
+
 		"LabelOption4"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"LabelOption4"
 			"xpos"									"10"
 			"ypos"									"105"
@@ -294,12 +276,10 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"left"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Size 8"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 		}
-		
+
 		"Option4Background_Selected"
 		{
 			"ControlName"							"ImagePanel"
@@ -312,10 +292,10 @@
 			"fillcolor"								"Main Theme"
 			"visible"								"0"
 		}
-		
+
 		"LabelOption5"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"LabelOption5"
 			"xpos"									"10"
 			"ypos"									"121"
@@ -326,12 +306,10 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"left"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Size 8"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 		}
-		
+
 		"Option5Background_Selected"
 		{
 			"ControlName"							"ImagePanel"
@@ -344,7 +322,7 @@
 			"fillcolor"								"Main Theme"
 			"visible"								"0"
 		}
-		
+
 		// divider
 		"Divider2"
 		{
@@ -357,10 +335,10 @@
 			"fillcolor"								"White"
 			"zpos"									"0"
 		}
-		
+
 		"VoteCountLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"VoteCountLabel"
 			"xpos"									"10"
 			"ypos"									"100"
@@ -370,12 +348,10 @@
 			"enabled"								"1"
 			"labelText"								"#GameUI_vote_current_vote_count"
 			"textAlignment"							"north-west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Size 8"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 		}
-		
+
 		// vote bar
 		"VoteBar"
 		{
@@ -387,15 +363,15 @@
 			"tall"									"18"
 			"zpos"									"2"
 			"visible"								"1"
-			"enabled"								"1"			
+			"enabled"								"1"
 			"box_size"								"16"
 			"spacer"								"6"
 			"box_inset"								"1"
 			"yes_texture"							"vgui/hud/vote_yes"
-			"no_texture"							"vgui/hud/vote_no"			
-		}			
+			"no_texture"							"vgui/hud/vote_no"
+		}
 	}
-	
+
 	// This is sent to the vote caller when they're not able to start the vote
 	"CallVoteFailed"
 	{
@@ -408,7 +384,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"border"									"MaterialTransparent50"
-				
+
 		"FailedIcon"
 		{
 			"ControlName"							"ImagePanel"
@@ -422,10 +398,10 @@
 			"scaleImage"							"1"
 			"image"									"hud/vote_no"
 		}
-		
+
 		"FailedTitle"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"FailedTitle"
 			"xpos"									"32"
 			"ypos"									"10"
@@ -435,16 +411,14 @@
 			"enabled"								"1"
 			"labelText"								"#GameUI_vote_failed"
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Size 10"
 			"wrap"									"1"
-			"fgcolor_override"						"Red"
+			"fgcolor"								"Red"
 		}
-		
+
 		"FailedReason"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"FailedReason"
 			"xpos"									"10"
 			"ypos"									"29"
@@ -454,14 +428,12 @@
 			"enabled"								"1"
 			"labelText"								"%FailedReason%"
 			"textAlignment"							"north-west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Size 8"
 			"wrap"									"1"
-			"fgcolor_override"						"White"
-		}		
+			"fgcolor"								"White"
+		}
 	}
-	
+
 	// This is shown to everyone when a vote fails due to lack of votes
 	"VoteFailed"
 	{
@@ -474,7 +446,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"border"									"MaterialTransparent50"
-		
+
 		"FailedIcon"
 		{
 			"ControlName"							"ImagePanel"
@@ -488,10 +460,10 @@
 			"scaleImage"							"1"
 			"image"									"hud/vote_no"
 		}
-		
+
 		"FailedTitle"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"FailedTitle"
 			"xpos"									"32"
 			"ypos"									"10"
@@ -501,16 +473,14 @@
 			"enabled"								"1"
 			"labelText"								"#GameUI_vote_failed"
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Size 10"
 			"wrap"									"1"
-			"fgcolor_override"						"Red"
+			"fgcolor"								"Red"
 		}
-		
+
 		"FailedReason"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"FailedReason"
 			"xpos"									"10"
 			"ypos"									"29"
@@ -520,14 +490,12 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"north-west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Size 8"
 			"wrap"									"1"
-			"fgcolor_override"						"White"
-		}		
+			"fgcolor"								"White"
+		}
 	}
-	
+
 	"VoteSetupDialog"
 	{
 		"ControlName"								"CVoteSetupDialog"
@@ -540,7 +508,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"settitlebarvisible"						"0"
 		"border"									"MaterialBlackLight"
 		"bgcolor_override"							"Blank"
@@ -553,7 +520,7 @@
 		"issue_font"								"Size 10"
 		"issue_fgcolor"								"White"
 		"issue_fgcolor_disabled"					"White"
-		
+
 		"parameter_width"							"200"
 
 		"TitleLabel"
@@ -574,7 +541,7 @@
 			"wrap"									"0"
 			"AllCaps"								"1"
 		}
-		
+
 		"VoteSetupList"
 		{
 			"ControlName"							"SectionedListPanel"
@@ -587,12 +554,11 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"autoresize"							"0"
-			
+
 			"linespacing"							"16"
 		}
-		
+
 		"VoteParameterList"
 		{
 			"ControlName"							"SectionedListPanel"
@@ -605,7 +571,6 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"autoresize"							"0"
 			"linespacing"							"16"
 		}
@@ -627,7 +592,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 		}
-		
+
 		"ComboBox"
 		{
 			"ControlName"							"ComboBox"
@@ -642,13 +607,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"1"
 			"textHidden"							"0"
 			"editable"								"0"
 			"maxchars"								"-1"
 			"NumericInputOnly"						"0"
 			"unicode"								"0"
-			
+
 			"fgcolor_override"						"White"
 			"bgcolor_override"						"BlackDark"
 			"disabledFgColor_override" 				"White"
@@ -657,7 +621,7 @@
 			"selectionTextColor_override" 			"White"
 			"defaultSelectionBG2Color_override" 	"BlackDark"
 		}
-		
+
 		"CallVoteButton"
 		{
 			"ControlName"							"Button"
@@ -671,26 +635,23 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"0"
-			"tabPosition"							"4"
 			"labelText"								"#TF_call_vote"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"Command"								"CallVote"
 			"Default"								"0"
 			"font"									"Size 14"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-		
+
 			"paintbackground"						"0"
 			"paintborder"							"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override" 			"White"
 		}
-		
+
 		"CallVoteButtonBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -706,7 +667,7 @@
 			"enabled"								"0"
 			"border"								"MaterialGrayDark"
 		}
-		
+
 		"Button1"
 		{
 			"ControlName"							"Button"
@@ -720,26 +681,23 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"4"
 			"labelText"								"#GameUI_Close"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"Command"								"Close"
 			"Default"								"0"
 			"font"									"Size 14"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-		
+
 			"paintbackground"						"0"
 			"paintborder"							"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override" 			"White"
 		}
-		
+
 		"Button1BG"
 		{
 			"ControlName"							"EditablePanel"

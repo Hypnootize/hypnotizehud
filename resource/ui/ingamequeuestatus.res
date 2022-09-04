@@ -36,7 +36,7 @@
 
 	"QueueText"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"QueueText"
 		"xpos"										"r102"
 		"ypos"										"r11"
@@ -47,7 +47,7 @@
 		"enabled"									"1"
 		"font"										"Size 10"
 		"AllCaps"									"1"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 		"textAlignment"								"east"
 		"labelText"									"In Queue"
 		"proportionaltoparent"						"1"

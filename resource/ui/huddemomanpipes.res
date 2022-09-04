@@ -1,7 +1,7 @@
 "Resource/UI/HudDemomanPipes.res"
 {
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter"
 		"xpos"										"cs-0.5"
@@ -12,12 +12,9 @@
 		"tall"										"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"Left"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"ChargeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -31,20 +28,17 @@
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#TF_Charge"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"font"										"Size 7"
-		"fgcolor_override"							"White"
-		
+		"fgcolor"									"White"
+
 		"pin_to_sibling" 							"ChargeMeter"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"PipesPresentPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -57,7 +51,7 @@
 		"tall"										"20"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"NumPipesLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -71,17 +65,14 @@
 			"pinCorner"								"2"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"%activepipes%"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Game 20"
 			"font_minmode"							"Game 16"
 			"fgcolor"   							"White"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"NumPipesLabelDropshadow"
 		{
 			"ControlName"							"CExLabel"
@@ -95,16 +86,13 @@
 			"pinCorner"								"2"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"%activepipes%"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Game 20 Blur"
 			"font_minmode"							"Game 16 Blur"
 			"fgcolor"								"Shadow"
 			"proportionaltoparent"					"1"
-			
+
 			"pin_to_sibling" 						"NumPipesLabel"
 		}
 
@@ -115,8 +103,8 @@
 			"xpos"									"9999"
 		}
 	}
-	
-	
+
+
 	"background"
 	{
 		"ControlName"								"CTFImagePanel"

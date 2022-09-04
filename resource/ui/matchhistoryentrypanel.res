@@ -1,4 +1,4 @@
-"MatchHistoryEntryPanel"
+"Resource/UI/MatchHistoryEntryPanel"
 {
 	"MatchEntry"
 	{
@@ -37,7 +37,7 @@
 			"actionsignallevel"						"2"
 			"command"								"toggle_collapse"
 			"labeltext"								""
-			
+
 			"paintborder"							"1"
 			"defaultBgColor_override"				"GrayDark"
 			"armedBgColor_override"					"GrayMedium"
@@ -49,7 +49,7 @@
 
 		"WinLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"WinLabel"
 			"xpos"									"10"
 			"ypos"									"0"
@@ -58,17 +58,17 @@
 			"proportionaltoparent"					"1"
 			"visible"								"0"
 			"mouseinputenabled"						"0"
-			
+
 			"labeltext"								"#TF_Competitive_MatchHistory_Win"
 			"font"									"Size 9"
-			"fgcolor_override"						"Green"
+			"fgcolor"								"Green"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
 		}
 
 		"LossLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"LossLabel"
 			"xpos"									"10"
 			"ypos"									"0"
@@ -77,17 +77,17 @@
 			"proportionaltoparent"					"1"
 			"visible"								"0"
 			"mouseinputenabled"						"0"
-			
+
 			"labeltext"								"#TF_Competitive_MatchHistory_Loss"
 			"font"									"Size 9"
-			"fgcolor_override"						"Red"
+			"fgcolor"								"Red"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
 		}
 
 		"DateLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"DateLabel"
 			"xpos"									"p0.2"
 			"ypos"									"0"
@@ -96,17 +96,17 @@
 			"proportionaltoparent"					"1"
 			"visible"								"1"
 			"mouseinputenabled"						"0"
-			
+
 			"labeltext"								"%match_date%"
 			"font"									"Size 8"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
 		}
 
 		"MapNameLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"MapNameLabel"
 			"xpos"									"p0.60"
 			"ypos"									"0"
@@ -115,17 +115,17 @@
 			"proportionaltoparent"					"1"
 			"visible"								"1"
 			"mouseinputenabled"						"0"
-			
+
 			"labeltext"								"%map_name%"
 			"font"									"Size 8"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
 		}
 
 		"KDLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"KDLabel"
 			"xpos"									"p0.9"
 			"ypos"									"0"
@@ -134,10 +134,10 @@
 			"proportionaltoparent"					"1"
 			"visible"								"1"
 			"mouseinputenabled"						"0"
-			
+
 			"labeltext"								"%kd_ratio%"
 			"font"									"Size 8"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
 		}
@@ -171,8 +171,8 @@
 			"ypos"									"rs1+17"
 			"wide"									"f0"
 			"tall"									"50"
-			"proportionaltoparent"					"1"		
-			
+			"proportionaltoparent"					"1"
+
 			"pincorner"								"3"	// Just slide down
 
 			"BGImage"
@@ -184,7 +184,7 @@
 				"wide"								"o1"
 				"tall"								"50"
 				"image"								"casual\gametype_koth"
-				"proportionaltoparent"				"1"	
+				"proportionaltoparent"				"1"
 			}
 
 			"GradientImage"
@@ -205,12 +205,12 @@
 				"tall"								"10"
 				"zpos"								"100"
 				"image"								"competitive\competitive_coin_bronze"
-				"proportionaltoparent"				"1"	
+				"proportionaltoparent"				"1"
 			}
 
 			"KillsLabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"KillsLabel"
 				"xpos"								"p0.21"
 				"ypos"								"0"
@@ -219,16 +219,16 @@
 				"proportionaltoparent"				"1"
 				"visible"							"1"
 				"mouseinputenabled"					"0"
-			
+
 				"labeltext"							"%stat_kills%"
 				"font"								"Size 9"
-				"fgcolor_override"					"White"
+				"fgcolor"							"White"
 				"textAlignment"						"west"
 			}
 
 			"DeathsLabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"DeathsLabel"
 				"xpos"								"p0.21"
 				"ypos"								"10"
@@ -237,10 +237,10 @@
 				"proportionaltoparent"				"1"
 				"visible"							"1"
 				"mouseinputenabled"					"0"
-			
+
 				"labeltext"							"%stat_deaths%"
 				"font"								"Size 9"
-				"fgcolor_override"					"White"
+				"fgcolor"							"White"
 				"textAlignment"						"west"
 			}
 
@@ -254,12 +254,12 @@
 				"tall"								"10"
 				"zpos"								"100"
 				"image"								"competitive\competitive_coin_bronze"
-				"proportionaltoparent"				"1"	
+				"proportionaltoparent"				"1"
 			}
 
 			"DamageLabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"DamageLabel"
 				"xpos"								"p0.21"
 				"ypos"								"20"
@@ -268,10 +268,10 @@
 				"proportionaltoparent"				"1"
 				"visible"							"1"
 				"mouseinputenabled"					"0"
-			
+
 				"labeltext"							"%stat_damage%"
 				"font"								"Size 9"
-				"fgcolor_override"					"White"
+				"fgcolor"							"White"
 				"textAlignment"						"west"
 			}
 
@@ -286,12 +286,12 @@
 				"tall"								"10"
 				"zpos"								"100"
 				"image"								"competitive\competitive_coin_bronze"
-				"proportionaltoparent"				"1"	
+				"proportionaltoparent"				"1"
 			}
 
 			"HealingLabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"HealingLabel"
 				"xpos"								"p0.6"
 				"ypos"								"0"
@@ -300,10 +300,10 @@
 				"proportionaltoparent"				"1"
 				"visible"							"1"
 				"mouseinputenabled"					"0"
-			
+
 				"labeltext"							"%stat_healing%"
 				"font"								"Size 9"
-				"fgcolor_override"					"White"
+				"fgcolor"							"White"
 				"textAlignment"						"west"
 			}
 
@@ -317,12 +317,12 @@
 				"tall"								"10"
 				"zpos"								"100"
 				"image"								"competitive\competitive_coin_bronze"
-				"proportionaltoparent"				"1"	
+				"proportionaltoparent"				"1"
 			}
 
 			"SupportLabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"SupportLabel"
 				"xpos"								"p0.6"
 				"ypos"								"10"
@@ -331,10 +331,10 @@
 				"proportionaltoparent"				"1"
 				"visible"							"1"
 				"mouseinputenabled"					"0"
-			
+
 				"labeltext"							"%stat_support%"
 				"font"								"Size 9"
-				"fgcolor_override"					"White"
+				"fgcolor"							"White"
 				"textAlignment"						"west"
 			}
 
@@ -348,12 +348,12 @@
 				"tall"								"10"
 				"zpos"								"100"
 				"image"								"competitive\competitive_coin_bronze"
-				"proportionaltoparent"				"1"	
+				"proportionaltoparent"				"1"
 			}
 
 			"ScoreLabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"ScoreLabel"
 				"xpos"								"p0.6"
 				"ypos"								"20"
@@ -364,10 +364,10 @@
 				"mouseinputenabled"					"0"
 
 				"pincorner"							"3"
-			
+
 				"labeltext"							"%stat_score%"
 				"font"								"Size 9"
-				"fgcolor_override"					"White"
+				"fgcolor"							"White"
 				"textAlignment"						"west"
 			}
 
@@ -380,7 +380,7 @@
 				"wide"								"o1"
 				"tall"								"30"
 				"zpos"								"1"
-				"proportionaltoparent"				"1"	
+				"proportionaltoparent"				"1"
 
 				// First row
 				"ScoutIcon"
@@ -392,7 +392,7 @@
 					"wide"							"p0.333"
 					"tall"							"p0.333"
 					"image"							"class_icons/filter_scout"
-					"proportionaltoparent"			"1"	
+					"proportionaltoparent"			"1"
 				}
 
 				"PyroIcon"
@@ -404,7 +404,7 @@
 					"wide"							"p0.333"
 					"tall"							"p0.333"
 					"image"							"class_icons/filter_pyro"
-					"proportionaltoparent"			"1"	
+					"proportionaltoparent"			"1"
 				}
 
 				"SoldierIcon"
@@ -416,7 +416,7 @@
 					"wide"							"p0.333"
 					"tall"							"p0.333"
 					"image"							"class_icons/filter_soldier"
-					"proportionaltoparent"			"1"	
+					"proportionaltoparent"			"1"
 				}
 
 				// Second row
@@ -429,7 +429,7 @@
 					"wide"							"p0.333"
 					"tall"							"p0.333"
 					"image"							"class_icons/filter_demo"
-					"proportionaltoparent"			"1"	
+					"proportionaltoparent"			"1"
 				}
 
 				"HeavyIcon"
@@ -441,7 +441,7 @@
 					"wide"							"p0.333"
 					"tall"							"p0.333"
 					"image"							"class_icons/filter_heavy"
-					"proportionaltoparent"			"1"	
+					"proportionaltoparent"			"1"
 				}
 
 				"EngineerIcon"
@@ -453,7 +453,7 @@
 					"wide"							"p0.333"
 					"tall"							"p0.333"
 					"image"							"class_icons/filter_engineer"
-					"proportionaltoparent"			"1"	
+					"proportionaltoparent"			"1"
 				}
 
 				// Third row
@@ -466,7 +466,7 @@
 					"wide"							"p0.333"
 					"tall"							"p0.333"
 					"image"							"class_icons/filter_medic"
-					"proportionaltoparent"			"1"	
+					"proportionaltoparent"			"1"
 				}
 
 				"SniperIcon"
@@ -478,7 +478,7 @@
 					"wide"							"p0.333"
 					"tall"							"p0.333"
 					"image"							"class_icons/filter_sniper"
-					"proportionaltoparent"			"1"	
+					"proportionaltoparent"			"1"
 				}
 
 				"SpyIcon"
@@ -490,7 +490,7 @@
 					"wide"							"p0.333"
 					"tall"							"p0.333"
 					"image"							"class_icons/filter_spy"
-					"proportionaltoparent"			"1"	
+					"proportionaltoparent"			"1"
 				}
 			}
 		}
