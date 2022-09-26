@@ -5,7 +5,7 @@
 	"ItemNameLabel"
 	{
 		"labelText"									"4"
-		"fgcolor_override"							"Blue"
+		"fgcolor"									"Blue"
 	}
 
 	"NumberLabel"
