@@ -65,22 +65,22 @@
 		"HudProgressBarInActiveLow"							"255 61 61 255"
 
 		"HudTimerProgressActive"							"227 228 230 255"
-		"HudTimerProgressInActive"							"50 50 50 255"
-		"HudTimerProgressWarning"							"240 30 30 255"
+		"HudTimerProgressInActive"							"172 173 175 255"
+		"HudTimerProgressWarning"							"255 61 61 255"
 
-		"HudTrainingHint"									"212 160 23 255"
+		"HudTrainingHint"									"227 228 230 255"
 
-		"TanDark"											"150 150 150 255"
+		"TanDark"											"150 151 153 255"
 		"TanLight"											"230 230 230 255"
 		"TanDarker"											"15 15 15 255"
 
-		"StoreDarkTan"										"150 150 150 255"
+		"StoreDarkTan"										"150 151 153 255"
 		"StoreGreen"										"35 185 30 255"
 
-		"LowHealthRed"										"255 0 0 255"
+		"LowHealthRed"										"255 61 61 255"
 		"ProgressOffWhite"									"227 228 230 255"
 		"ProgressBackground"								"0 0 0 50"
-		"HealthBgGrey"										"60 60 60 255"
+		"HealthBgGrey"										"62 63 66 255"
 
 		"ProgressOffWhiteTransparent"						"227 228 230 255"
 
@@ -93,12 +93,12 @@
 		"DisguiseMenuIconBlue"								"92 173 255 255"
 
  		"MatchmakingDialogTitleColor"						"227 228 230 255"
- 		"MatchmakingMenuItemBackground"						"30 30 30 255"
+ 		"MatchmakingMenuItemBackground"						"27 28 30 255"
  		"MatchmakingMenuItemBackgroundActive"				"92 173 255 255"
 		"MatchmakingMenuItemTitleColor"						"227 228 230 255"
 		"MatchmakingMenuItemDescriptionColor"				"227 228 230 255"
 
-		"HTMLBackground"									"30 30 30 255"
+		"HTMLBackground"									"27 28 30 255"
 
 		"ItemAttribLevel"									"227 228 230 255"
 		"ItemAttribNeutral"									"227 228 230 255"
@@ -114,7 +114,7 @@
 		"ItemFlags"											"117 107 94 255"
 		"ItemLimitedQuantity"								"225 209 0 255"
 
-		"QualityColorNormal"								"150 150 150 255"
+		"QualityColorNormal"								"150 151 153 255"
 		"QualityColorrarity1"								"77 116 85 255"
 		"QualityColorrarity2"								"141 131 75 255"
 		"QualityColorrarity3"								"204 204 250 255"
@@ -162,40 +162,40 @@
 		"QualityColorCompleted_GreyedOut"					"34 20 43 255"
 		"QualityColorHaunted_GreyedOut"						"14 61 43 255"
 		"QualityColorCollectors_GreyedOut"					"60 0 0 255"
-		"QualityColorPaintkitWeapon_GreyedOut"				"60 60 60 255"
+		"QualityColorPaintkitWeapon_GreyedOut"				"62 63 66 255"
 
 		"SaleGreen"											"35 185 30 255"
 
 		"LightRed"											"255 61 61 255"
 		"LighterRed"										"255 61 61 255"
-		"LighterDarkBrown"									"60 60 60 255"
-		"DarkBrown"											"30 30 30 255"
+		"LighterDarkBrown"									"62 63 66 255"
+		"DarkBrown"											"27 28 30 255"
 
 		"UpgradeDefaultFg"									"227 228 230 255"
-		"UpgradeDefaultBg"									"60 60 60 255"
+		"UpgradeDefaultBg"									"62 63 66 255"
 		"UpgradeArmedFg"									"227 228 230 255"
 		"UpgradeArmedBg"									"80 150 255 255"
-		"UpgradeDepressedFg"								"60 60 60 255"
+		"UpgradeDepressedFg"								"62 63 66 255"
 		"UpgradeDepressedBg"								"80 150 255 255"
-		"UpgradeSelectedFg"									"60 60 60 255"
+		"UpgradeSelectedFg"									"62 63 66 255"
 		"UpgradeSelectedBg"									"80 150 255 255"
-		"UpgradeDisabledFg"									"60 60 60 255"
+		"UpgradeDisabledFg"									"62 63 66 255"
 		"UpgradeDisabledBg"									"0 0 0 255"
 	}
 
 	"BaseSettings"
 	{
-		"ReplayBrowser.BgColor"								"DarkBrown"
+		"ReplayBrowser.BgColor"								"GrayDarkest"
 		"ReplayBrowser.Details.TitleEdit.Carat.FgColor"		"Main Theme"
 		"ReplayBrowser.Button.ArmedBgColor"					"Main Theme"
 		"ReplayBrowser.Button.DepressedBgColor"				"Main Theme"
 		"ReplayBrowser.CollectionTitle.FgColor"				"Main Theme"
 		"ReplayBrowser.Warning.FgColor"						"White"
-		"ReplayBrowser.ScrollBar.SliderButton.FgColor"		"TransparentYellow"
+		"ReplayBrowser.ScrollBar.SliderButton.FgColor"		"White"
 		"ReplayBrowser.Search.BgColor"						"TanDark"
 		"ReplayBrowser.Search.FgColor"						"White"
 
-		"Replay.RenderDialog.BgColor"						"LighterDarkBrown"
+		"Replay.RenderDialog.BgColor"						"GrayMedium"
 
 		"Econ.Dialog.BgColor"								"BlackDark"
 		"Econ.Button.BgColor"								"BlackLight"
@@ -215,7 +215,7 @@
 
 		"Border.Bright"										"Blank"
 		"Border.Dark"										"BlackDark"
-		"Border.Selection"									"Gray"
+		"Border.Selection"									"White"
 
 		"Button.TextColor"									"White"
 		"Button.BgColor"									"GrayDark"
@@ -256,12 +256,12 @@
 		"FrameSystemButton.BgColor"							"Blank"
 		"FrameSystemButton.Icon"							""
 		"FrameSystemButton.DisabledIcon"					""
-		"FrameTitleBar.TextColor"							"Orange"
+		"FrameTitleBar.TextColor"							"Main Theme"
 		"FrameTitleBar.BgColor"								"Blank"
-		"FrameTitleBar.DisabledTextColor"					"Orange"
+		"FrameTitleBar.DisabledTextColor"					"Main Theme"
 		"FrameTitleBar.DisabledBgColor"						"Blank"
 
-		"GraphPanel.FgColor"								"Orange"
+		"GraphPanel.FgColor"								"Main Theme"
 		"GraphPanel.BgColor"								"TransparentBlack"
 
 		"Label.TextDullColor"								"TanDark"
@@ -275,8 +275,8 @@
 		"ListPanel.TextColor"								"White"
 		"ListPanel.BgColor"									"TransparentBlack"
 		"ListPanel.SelectedTextColor"						"Black"
-		"ListPanel.SelectedBgColor"							"Red"
-		"ListPanel.SelectedOutOfFocusBgColor"				"Red"
+		"ListPanel.SelectedBgColor"							"Main Theme"
+		"ListPanel.SelectedOutOfFocusBgColor"				"Main Theme"
 		"ListPanel.EmptyListInfoTextColor"					"White"
 
 		"Menu.TextColor"									"WhiteDark"
@@ -287,20 +287,20 @@
 
 		"Chat.TypingText"									"White"
 
-		"Panel.FgColor"										"Gray"
+		"Panel.FgColor"										"White"
 		"Panel.BgColor"										"Blank"
 
 		"HTML.BgColor"										"Blank"
 
-		"ProgressBar.FgColor"								"255 255 255 255"
-		"ProgressBar.BgColor"								"0 0 0 50"
+		"ProgressBar.FgColor"								"White"
+		"ProgressBar.BgColor"								"ProgressBackground"
 
 		"CircularProgressBar.FgColor"						"White"
 		"CircularProgressBar.BgColor"						"White"
 
-		"BuildingHealthBar.BgColor"							"HealthBgGrey"
+		"BuildingHealthBar.BgColor"							"GrayMedium"
 		"BuildingHealthBar.Health"							"White"
-		"BuildingHealthBar.LowHealth"						"LowHealthRed"
+		"BuildingHealthBar.LowHealth"						"Red"
 
 		"PropertySheet.TextColor"							"White"
 		"PropertySheet.SelectedTextColor"					"White"
@@ -309,19 +309,19 @@
 		"RadioButton.TextColor"								"White"
 		"RadioButton.SelectedTextColor"						"White"
 
-		"RichText.TextColor"								"Gray"
+		"RichText.TextColor"								"White"
 		"RichText.BgColor"									"Blank"
-		"RichText.SelectedTextColor"						"Gray"
-		"RichText.SelectedBgColor"							"Red"
+		"RichText.SelectedTextColor"						"White"
+		"RichText.SelectedBgColor"							"Main Theme"
 
-		"ScrollBarButton.FgColor"							"Gray"
+		"ScrollBarButton.FgColor"							"White"
 		"ScrollBarButton.BgColor"							"Blank"
-		"ScrollBarButton.ArmedFgColor"						"Gray"
+		"ScrollBarButton.ArmedFgColor"						"White"
 		"ScrollBarButton.ArmedBgColor"						"Blank"
 		"ScrollBarButton.DepressedFgColor"					"Black"
 		"ScrollBarButton.DepressedBgColor"					"Blank"
 
-		"ScrollBarSlider.FgColor"							"Gray"
+		"ScrollBarSlider.FgColor"							"White"
 		"ScrollBarSlider.BgColor"							"Blank"
 
 		"SectionedListPanel.HeaderTextColor"				"White"
@@ -335,46 +335,46 @@
 		"SectionedListPanel.OutOfFocusSelectedTextColor"	"Black"
 		"SectionedListPanel.OutOfFocusSelectedBgColor"		"255 255 255 32"
 
-		"Slider.NobColor"									"108 108 108 255"
+		"Slider.NobColor"									"WhiteDark"
 		"Slider.TextColor"									"White"
-		"Slider.TrackColor"									"31 31 31 255"
-		"Slider.DisabledTextColor1"							"117 117 117 255"
-		"Slider.DisabledTextColor2"							"30 30 30 255"
+		"Slider.TrackColor"									"GrayDarkest"
+		"Slider.DisabledTextColor1"							"WhiteGray"
+		"Slider.DisabledTextColor2"							"GrayDarkest"
 
-		"TextEntry.TextColor"								"Gray"
+		"TextEntry.TextColor"								"White"
 		"TextEntry.BgColor"									"Blank"
-		"TextEntry.CursorColor"								"Gray"
-		"TextEntry.DisabledTextColor"						"Gray"
+		"TextEntry.CursorColor"								"White"
+		"TextEntry.DisabledTextColor"						"White"
 		"TextEntry.DisabledBgColor"							"Blank"
-		"TextEntry.SelectedTextColor"						"TanLight"
-		"TextEntry.SelectedBgColor"							"Gray"
+		"TextEntry.SelectedTextColor"						"White"
+		"TextEntry.SelectedBgColor"							"Main Theme"
 		"TextEntry.OutOfFocusSelectedBgColor"				"Blank"
 		"TextEntry.FocusEdgeColor"							"Blank"
 
 		"ToggleButton.SelectedTextColor"					"White"
 
 		"Tooltip.TextColor"									"TransparentBlack"
-		"Tooltip.BgColor"									"Red"
+		"Tooltip.BgColor"									"Main Theme"
 
 		"TreeView.BgColor"									"TransparentBlack"
 
 		"WizardSubPanel.BgColor"							"Blank"
 
-		"TimerProgress.Active"								"HudTimerProgressActive"
-		"TimerProgress.InActive"							"HudTimerProgressInActive"
-		"TimerProgress.Warning"								"HudTimerProgressWarning"
+		"TimerProgress.Active"								"White"
+		"TimerProgress.InActive"							"WhiteDark"
+		"TimerProgress.Warning"								"Red"
 
-		"HudObjectives.FgColor"								"HudPanelForeground"
-		"HudObjectives.BgColor"								"HudPanelBackground"
-		"HudObjectives.BorderColor"							"HudPanelBorder"
+		"HudObjectives.FgColor"								"White"
+		"HudObjectives.BgColor"								"White"
+		"HudObjectives.BorderColor"							"White"
 
-		"HudProgressBar.Active"								"HudProgressBarActive"
-		"HudProgressBar.InActive"							"HudProgressBarInActive"
+		"HudProgressBar.Active"								"White"
+		"HudProgressBar.InActive"							"White"
 
-		"HudCaptureIcon.Active"								"HudProgressBarActive"
-		"HudCaptureIcon.InActive"							"HudProgressBarInActive"
-		"HudCaptureProgressBar.Active"						"HudProgressBarActive"
-		"HudCaptureProgressBar.InActive"					"HudProgressBarInActive"
+		"HudCaptureIcon.Active"								"White"
+		"HudCaptureIcon.InActive"							"White"
+		"HudCaptureProgressBar.Active"						"White"
+		"HudCaptureProgressBar.InActive"					"White"
 
 		"FgColor"											"White"
 		"BgColor"											"TransparentBlack"
@@ -384,30 +384,30 @@
 		"TeamRed"											"Red"
 		"TeamBlue"											"Blue"
 
-		"MapDescriptionText"								"Gray"
-		"HudIcon_Green"										"0 160 0 255"
-		"HudIcon_Red"										"160 0 0 255"
+		"MapDescriptionText"								"White"
+		"HudIcon_Green"										"Green"
+		"HudIcon_Red"										"Red"
 
-		"ItemColor"											"255 167 42 200"
+		"ItemColor"											"White"
 		"MenuColor"											"White"
-		"MenuBoxBg"											"0 0 0 100"
+		"MenuBoxBg"											"TransparentLightBlack"
 
 		"SelectionNumberFg"									"White"
 		"SelectionTextFg"									"White"
-		"SelectionEmptyBoxBg" 								"0 0 0 80"
-		"SelectionBoxBg" 									"0 0 0 80"
-		"SelectionSelectedBoxBg"							"0 0 0 190"
+		"SelectionEmptyBoxBg" 								"TransparentLightBlack"
+		"SelectionBoxBg" 									"TransparentLightBlack"
+		"SelectionSelectedBoxBg"							"TransparentBlack"
 
-		"HintMessageFg"										"227 228 230 255"
-		"HintMessageBg" 									"0 0 0 60"
+		"HintMessageFg"										"White"
+		"HintMessageBg" 									"ProgressBackground"
 
-		"ProgressBarFg"										"255 30 13 255"
+		"ProgressBarFg"										"Red"
 
 		"Main.Menu.X"										"32"
 		"Main.Menu.Y"										"248"
 
 		"Main.BottomBorder"									"32"
 
-		"VguiScreenCursor"									"255 208 64 255"
+		"VguiScreenCursor"									"White"
 	}
 }

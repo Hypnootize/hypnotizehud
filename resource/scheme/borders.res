@@ -933,7 +933,7 @@
 			{
 				"1"
 				{
-					"color"				"TanLight"
+					"color"				"White"
 					"offset"			"0 0"
 				}
 			}
@@ -2156,7 +2156,7 @@
 			{
 				"1"
 				{
-					"color"				"TanLight"
+					"color"				"White"
 					"offset"			"0 1"
 				}
 			}
@@ -2164,7 +2164,7 @@
 			{
 				"1"
 				{
-					"color"				"TanLight"
+					"color"				"White"
 					"offset"			"1 0"
 				}
 			}
@@ -2172,7 +2172,7 @@
 			{
 				"1"
 				{
-					"color"				"TanLight"
+					"color"				"White"
 					"offset"			"0 0"
 				}
 			}
@@ -2180,7 +2180,7 @@
 			{
 				"1"
 				{
-					"color"				"TanLight"
+					"color"				"White"
 					"offset"			"0 0"
 				}
 			}
