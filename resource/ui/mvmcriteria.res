@@ -163,10 +163,10 @@
 			"scaleImage"							"1"
 		}
 
-		"ToorLootTitle"
+		"TourLootTitle"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"ToorLootTitle"
+			"fieldName"								"TourLootTitle"
 			"font"									"Size 14"
 			"labelText"								"#TF_MvM_TourLootTitle"
 			"textAlignment"							"west"
@@ -179,10 +179,10 @@
 			"fgcolor"								"WhiteDark"
 		}
 
-		"ToorLootDetailLabel"
+		"TourLootDetailLabel"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"ToorLootDetailLabel"
+			"fieldName"								"TourLootDetailLabel"
 			"font"									"Size 11"
 			"labelText"								"%tour_loot_detail%"
 			"textAlignment"							"west"
@@ -191,7 +191,7 @@
 			"ypos"									"40"
 			"zpos"									"0"
 			"wide"									"280"
-			"tall"									"50"
+			"tall"									"85"
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 		}
