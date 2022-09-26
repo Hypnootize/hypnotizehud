@@ -214,6 +214,25 @@
 		"text_xpos"									"33"
 	}
 
+	"HudHintDisplay"
+	{
+		"xpos"										"cs-0.5"
+		"ypos"										"c70"
+		"wide"										"f0"
+		"text_xpos"									"4"
+		"text_ypos"									"4"
+	}
+
+	"HudHintKeyDisplay"
+	{
+		"xpos"										"rs1"
+		"text_xpos"									"4"
+		"text_ypos"									"4"
+		"text_xgap"									"4"
+		"text_ygap"									"4"
+		"TextColor"									"White"
+	}
+
 	"HudControlPointIcons"
 	{
 		"separator_width"							"3"
