@@ -4,21 +4,20 @@
 	{
 		"ControlName"								"CTFArrowPanel"
 		"fieldName"									"Arrow"
-		"xpos"										"40"
-		"ypos"										"-5"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5"
 		"zpos"										"1"
-		"wide"										"35"
-		"tall"										"35"
+		"wide"										"f0"
+		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"
+		"proportionaltoparent"						"1"
 
 		"if_mvm"
 		{
-			"xpos"									"38"
-			"ypos"									"-15"
-			"wide"									"45"
-			"tall"									"45"
+			"wide"									"40"
+			"tall"									"40"
 		}
 	}
 
@@ -26,8 +25,8 @@
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"Briefcase"
-		"xpos"										"68"
-		"ypos"										"34"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5"
 		"zpos"										"2"
 		"wide"										"0"
 		"tall"										"0"
@@ -35,19 +34,12 @@
 		"enabled"									"1"
 		"image"										"../hud/objectives_flagpanel_briefcase"
 		"scaleImage"								"1"
+		"proportionaltoparent"						"1"
 
 		"if_mvm"
 		{
-			"xpos"									"50"
-			"ypos"									"-2"
-			"zpos"     								"2"
-			"wide"									"22"
-			"tall"									"22"
-		}
-
-		"if_specialdelivery"
-		{
-			"visible"								"0"
+			"wide"									"20"
+			"tall"									"20"
 		}
 	}
 
@@ -55,23 +47,19 @@
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"StatusIcon"
-		"xpos"										"0"
-		"ypos"										"-8"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5-1"
 		"zpos"										"3"
-		"wide"										"18"
-		"tall"										"18"
+		"wide"										"f20"
+		"tall"										"f20"
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"../hud/objectives_flagpanel_ico_flag_home"
 		"scaleImage"								"1"
-		"pin_to_sibling"							"Arrow"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
+		"proportionaltoparent"						"1"
 
 		"if_mvm"
 		{
-			"xpos"     								"63"
-			"ypos"      							"13"
 			"visible"								"0"
 		}
 	}
