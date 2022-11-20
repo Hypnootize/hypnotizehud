@@ -7,8 +7,8 @@
 		"proportionalToParent"						"1"
 		"xpos"										"0"
 		"ypos"										"0"
-		"wide"										"18"
-		"tall"										"18"
+		"wide"										"14"
+		"tall"										"14"
 		"visible"									"0"
 
 		"DeadState"
