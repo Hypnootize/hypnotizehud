@@ -4,6 +4,15 @@
 	// CONTROL POINT ICONS
 	//===================================================================================================
 
+	"CPHighlight"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPHighlight"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/capture_highlight"
+	}
 	"CPCapMask"
 	{
 		"ControlName"		"ImagePanel"

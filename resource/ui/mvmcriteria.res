@@ -130,7 +130,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor_override"						"WhiteDark"
 		}
 	}
 

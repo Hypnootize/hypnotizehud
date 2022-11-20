@@ -53,7 +53,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ActionText"
-		"font"										"Size 9"
+		"font"										"Size 7"
 		"labelText"									"%actiontext%"
 		"textAlignment"							 	"center"
 		"xpos"										"0"

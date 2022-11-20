@@ -29,11 +29,9 @@
 
 		"Buffed Health"										"30 175 255 255"
 		"Buffed Health Pulse"								"80 150 255 255"
-		"Buffed Health Spec"								"31 143 255 255"
 
 		"Low Health"										"255 50 50 255"
 		"Low Health Pulse"									"255 0 0 255"
-		"Low Health Spec"									"225 41 41 255"
 
 		"Ammo In Clip"										"227 228 230 255"
 		"Ammo In Reserve"									"227 228 230 255"
