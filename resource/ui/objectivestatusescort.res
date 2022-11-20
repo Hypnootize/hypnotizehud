@@ -5,49 +5,44 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ObjectiveStatusEscort"
 		"xpos"										"cs-0.5"
-		"ypos"										"r15"
+		"ypos"										"rs1-5"
 		"zpos"										"1"
-		"wide"										"143"
-		"tall"										"8"
+		"wide"										"155"
+		"tall"										"10"
 		"visible"									"1"
 		"enabled"									"1"
 		"progress_xpos"								""
 		"progress_wide"								""
 	}
 
-	"ProgressBar"
-	{
-		"ControlName"								"CTFHudEscortProgressBar"
-		"fieldName"									"ProgressBar"
-		"xpos"										"2"
-		"ypos"										"0"
-		"zpos"										"8"
-		"wide"										"140"
-		"tall"										"8"
-		"visible"									"1"
-		"enabled"									"1"
-		"scaleImage"								"1"
-
-		"proportionaltoparent"						"1"
-
-		"if_multiple_trains"
-		{
-			"tall"									"0"
-		}
-	}
-
 	"TrackBG"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"TrackBG"
-		"xpos"										"2"
-		"ypos"										"0"
+		"xpos"										"13"
+		"ypos"										"cs-0.5"
+		"zpos"										"-1"
+		"wide"										"140"
+		"tall"										"8"
+		"visible"									"1"
+		"enabled"									"1"
+		"paintbackground"							"1"
+		"paintbackgroundtype"						"0"
+		"bgcolor_override"							"TransparentLightBlack"
+		"proportionaltoparent"						"1"
+	}
+
+	"ProgressBar"
+	{
+		"ControlName"								"CTFHudEscortProgressBar"
+		"fieldName"									"ProgressBar"
+		"xpos"										"13"
+		"ypos"										"cs-0.5"
 		"zpos"										"0"
 		"wide"										"140"
 		"tall"										"8"
 		"visible"									"1"
 		"enabled"									"1"
-		"bgcolor_override"							"TransparentLightBlack"
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
@@ -56,17 +51,14 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"LevelBar"
-		"xpos"										"2"
-		"ypos"										"0"
+		"xpos"										"13"
+		"ypos"										"cs-0.5"
 		"zpos"										"1"
 		"wide"										"140"
 		"tall"										"8"
 		"visible"									"1"
 		"enabled"									"1"
-		"labelText"									""
 		"image"										""
-		"fillcolor"									"Blank"
-		"drawcolor"									"Blank"
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
@@ -76,29 +68,27 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"HomeCPIcon"
 		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"1"
-		"wide"										"2"
-		"tall"										"8"
-		"autoResize"								"0"
-		"pinCorner"									"0"
+		"ypos"										"cs-0.5"
+		"zpos"										"5"
+		"wide"										"3"
+		"tall"										"10"
 		"visible"									"1"
 		"enabled"									"1"
-		"labelText"									""
+		"image"										"../hud/cart_home_blue"
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 
 		"if_team_red"
 		{
-			"fillcolor"								"Red"
+			"image"									"../hud/cart_home_red"
 		}
 		"if_multiple_trains_red"
 		{
-			"fillcolor"								"Red"
+			"image"									"../hud/cart_home_red"
 		}
 		"if_multiple_trains_blue"
 		{
-			"fillcolor"								"Blue"
+			"image"									"../hud/cart_home_blue"
 		}
 	}
 
@@ -106,16 +96,13 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"SimpleControlPointTemplate"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"1"
-		"wide"										"2"
-		"tall"										"8"
-		"autoResize"								"0"
-		"pinCorner"									"0"
+		"xpos"										"13"
+		"ypos"										"cs-0.5"
+		"zpos"										"3"
+		"wide"										"3"
+		"tall"										"10"
 		"visible"									"0"
 		"enabled"									"1"
-		"labelText"									""
 		"image"										""
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
@@ -125,26 +112,24 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"EscortItemPanel"
-		"xpos"										"2"
+		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"2"
-		"wide"										"280"
-		"tall"										"8"
+		"zpos"										"4"
+		"wide"										"310"
+		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 
-		"EscortItemImageCustom"
+		"FillBar"
 		{
 			"ControlName"							"ImagePanel"
-			"fieldName"								"EscortItemImageCustom"
+			"fieldName"								"FillBar"
 			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"23"
-			"wide"									"140"
+			"ypos"									"cs-0.5"
+			"zpos"									"0"
+			"wide"									"155"
 			"tall"									"8"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								""
@@ -154,8 +139,57 @@
 
 			"if_multiple_trains_red"
 			{
-
 				"fillcolor"							"Red"
+			}
+		}
+
+		"EscortItemImage"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"EscortItemImage"
+			"xpos"									"144"
+			"ypos"									"cs-0.5"
+			"zpos"									"1"
+			"wide"									"11"
+			"tall"									"8"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"image"									"../hud/cart_neutral"
+			"scaleImage"							"1"
+
+			"if_team_blue"
+			{
+				"image"								"../hud/cart_blue"
+			}
+			"if_team_red"
+			{
+				"image"								"../hud/cart_red"
+			}
+		}
+
+		"EscortItemImageBottom"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"EscortItemImageBottom"
+			"xpos"									"144"
+			"ypos"									"cs-0.5"
+			"zpos"									"1"
+			"wide"									"11"
+			"tall"									"8"
+			"visible"								"0"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"image"									"../hud/cart_neutral"
+			"scaleImage"							"1"
+
+			"if_team_blue"
+			{
+				"image"								"../hud/cart_blue"
+			}
+			"if_team_red"
+			{
+				"image"								"../hud/cart_red"
 			}
 		}
 
@@ -163,21 +197,17 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CapNumPlayers"
-			"font"									"Size 9"
-			"xpos"									"125"
-			"ypos"									"0"
-			"zpos"									"30"
-			"wide"									"20"
+			"xpos"									"144"
+			"ypos"									"cs-0.5"
+			"zpos"									"2"
+			"wide"									"11"
 			"tall"									"8"
-			"AllCaps"								"0"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
+			"font"									"Size 8"
 			"labelText"								"#ControlPointIconCappers"
 			"textAlignment"							"center"
 			"fgcolor"								"white"
-			"paintbackground"						"0"
 			"proportionaltoparent"					"1"
 			"use_proportional_insets"				"1"
 		}
@@ -186,38 +216,32 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RecedeTime"
-			"font"									"Size 9"
-			"xpos"									"122"
-			"ypos"									"0"
-			"zpos"									"30"
-			"wide"									"20"
+			"xpos"									"144"
+			"ypos"									"cs-0.5"
+			"zpos"									"2"
+			"wide"									"11"
 			"tall"									"8"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			"font"									"Size 8"
 			"labelText"								"%recede%"
 			"textAlignment"							"center"
-			"fgcolor"								"white"
-			"paintbackground"						"0"
+			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
-			"use_proportional_insets"				"1"
-			"textinsetx"							"0"
 		}
 
 		"Speed_Backwards"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"Speed_Backwards"
-			"xpos"									"134"
-			"ypos"									"1"
-			"zpos"									"30"
+			"xpos"									"146"
+			"ypos"									"cs-0.5"
+			"zpos"									"2"
 			"wide"									"6"
 			"tall"									"6"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
 			"labelText"								""
 			"image"									"replay\thumbnails\cart_icons\cart_arrow_left"
 			"scaleImage"							"1"
@@ -227,32 +251,18 @@
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"Blocked"
-			"xpos"									"132"
-			"ypos"									"1"
-			"zpos"									"30"
-			"wide"									"6"
-			"tall"									"6"
-			"autoResize"							"0"
-			"pinCorner"								"0"
+			"xpos"									"146"
+			"ypos"									"cs-0.5"
+			"zpos"									"2"
+			"wide"									"7"
+			"tall"									"7"
 			"visible"								"0"
 			"enabled"								"1"
-			"labelText"								""
+			"proportionaltoparent"					"1"
 			"image"									"../hud/cart_blocked"
 			"scaleImage"							"1"
 		}
 
-		"EscortItemImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"EscortItemImage"
-			"xpos"									"9999"
-		}
-		"EscortItemImageBottom"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"EscortItemImageBottom"
-			"xpos"									"9999"
-		}
 		"EscortItemImageAlert"
 		{
 			"ControlName"							"ImagePanel"
