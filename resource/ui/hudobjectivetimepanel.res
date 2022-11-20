@@ -5,10 +5,10 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"TimePanelBG"
 		"xpos"										"2"
-		"ypos"										"3"
+		"ypos"										"2"
 		"zpos"										"2"
-		"wide"										"15"
-		"tall"										"15"
+		"wide"										"16"
+		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
 

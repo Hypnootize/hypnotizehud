@@ -1,5 +1,26 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
 {
+	"BlueClock"
+	{
+		"ControlName"								"ScalableImagePanel"
+		"fieldName"									"BlueClock"
+		"xpos"										"2"
+		"ypos"										"2"
+		"zpos"										"3"
+		"wide"										"16"
+		"tall"										"16"
+		"visible"									"1"
+		"enabled"									"1"
+
+		"image"										"replay/thumbnails/game/clock_blue_noshadow"
+		"scaleImage"								"1"
+
+		"src_corner_height"							"0"
+		"src_corner_width"							"0"
+		"draw_corner_width"							"0"
+		"draw_corner_height" 						"0"
+	}
+
 	"BlueTimer"
 	{
 		"ControlName"								"CTFHudTimeStatus"
@@ -28,6 +49,27 @@
 			"textAlignment"							"west"
 			"labelText"								"0:00"
 		}
+	}
+
+	"RedClock"
+	{
+		"ControlName"								"ScalableImagePanel"
+		"fieldName"									"RedClock"
+		"xpos"										"2"
+		"ypos"										"26"
+		"zpos"										"3"
+		"wide"										"16"
+		"tall"										"16"
+		"visible"									"1"
+		"enabled"									"1"
+
+		"image"										"replay/thumbnails/game/clock_red_noshadow"
+		"scaleImage"								"1"
+
+		"src_corner_height"							"0"
+		"src_corner_width"							"0"
+		"draw_corner_width"							"0"
+		"draw_corner_height" 						"0"
 	}
 
 	"RedTimer"
