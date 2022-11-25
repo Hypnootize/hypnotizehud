@@ -11,7 +11,7 @@
 #base	"../customizations/transparent viewmodels.res"
 
 //============================================================
-// HExHUD LAYOUT
+// HYPNOTIZEHUD LAYOUT
 //============================================================
 
 #base	"../scripts/layouts/layout_hypnotize.res"

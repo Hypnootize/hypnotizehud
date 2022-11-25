@@ -155,7 +155,7 @@
 		"tooltip" 									"Reload Sound"
 		"OnlyInGame"								"1"
 	}
-	"InviliblePlayersFix"
+	"InvisiblePlayersFix"
 	{
 		"label" 									"P"
 		"command" 									"engine stop; record fix"

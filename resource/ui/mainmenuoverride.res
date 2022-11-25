@@ -1007,10 +1007,10 @@
 		}
 	}
 
-	"InviliblePlayersFix"
+	"InvisiblePlayersFix"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldname"									"InviliblePlayersFix"
+		"fieldname"									"InvisiblePlayersFix"
 		"xpos"										"-4"
 		"ypos"										"0"
 		"zpos"										"16"
@@ -1064,7 +1064,7 @@
 		"tall"										"24"
 		"visible"									"1"
 
-		"pin_to_sibling" 							"InviliblePlayersFix"
+		"pin_to_sibling" 							"InvisiblePlayersFix"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 
