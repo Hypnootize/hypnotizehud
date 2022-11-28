@@ -2066,11 +2066,11 @@
 
 		"ico_metal"
 		{
-			"file"		"vgui\logos\build icons\metal"
+			"file"		"vgui\replay\thumbnails\game\buildingstatus_upgrade"
 			"x"		"0"
 			"y"		"0"
-			"width"		"32"
-			"height"	"32"
+			"width"		"64"
+			"height"	"16"
 		}
 
 		"ico_demolish"
