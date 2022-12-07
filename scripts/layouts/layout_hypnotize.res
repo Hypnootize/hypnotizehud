@@ -157,6 +157,12 @@
 		"pin_to_sibling"							"BuildingAnchor"
 	}
 
+	"CurrencyStatusPanel"
+	{
+		"xpos"										"42"
+		"ypos"										"r19"
+	}
+
 	"HudDeathNotice"
 	{
 		"xpos"	 									"r635"
