@@ -5,7 +5,16 @@
 		"item_ypos"									"75"
 		"item_backpack_offcenter_x"					"-280"
 		"page_button_y"								"295"
-		"page_button_per_row" 						"20"
+
+		"pagebuttons_kv"
+		{
+			"wide"									"26"
+
+			"Button"
+			{
+				"wide"								"26"
+			}
+		}
 
 		"modelpanels_kv"
 		{
