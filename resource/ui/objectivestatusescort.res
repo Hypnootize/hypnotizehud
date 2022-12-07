@@ -207,7 +207,7 @@
 			"font"									"Size 8"
 			"labelText"								"#ControlPointIconCappers"
 			"textAlignment"							"center"
-			"fgcolor"								"white"
+			"fgcolor"								"BlackLight"
 			"proportionaltoparent"					"1"
 			"use_proportional_insets"				"1"
 		}
@@ -226,7 +226,7 @@
 			"font"									"Size 8"
 			"labelText"								"%recede%"
 			"textAlignment"							"center"
-			"fgcolor"								"White"
+			"fgcolor"								"BlackLight"
 			"proportionaltoparent"					"1"
 		}
 
@@ -242,7 +242,7 @@
 			"visible"								"0"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"labelText"								""
+			"drawcolor"								"BlackLight"
 			"image"									"replay\thumbnails\cart_icons\cart_arrow_left"
 			"scaleImage"							"1"
 		}
