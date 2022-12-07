@@ -19,9 +19,9 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ReinforcementsLabel"
-		"xpos"										"cs-0.5"
+		"xpos"										"c-100"
 		"ypos"										"45"
-		"wide"										"f0"
+		"wide"										"200"
 		"tall"										"20"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -32,7 +32,6 @@
 		"font"										"Size 12"
 		"fgcolor"			   						"White"
 		"AllCaps"   								"1"
-		"proportionaltoparent"   					"1"
 	}
 
 	"BuyBackLabel"
