@@ -160,7 +160,9 @@
 	"CurrencyStatusPanel"
 	{
 		"xpos"										"42"
+		"xpos_minmode"								"42"
 		"ypos"										"r19"
+		"ypos_minmode"								"r19"
 	}
 
 	"HudDeathNotice"
