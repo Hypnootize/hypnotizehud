@@ -63,11 +63,11 @@
 
 	"ShowRarityComboBox"
 	{
-		"wide"										"160"
+		"wide"										"161"
 	}
 	"ShowRarityBG"
 	{
-		"wide"										"166"
+		"wide"										"167"
 	}
 
 	"SortByComboBox"
@@ -81,7 +81,7 @@
 
 	"CancelApplyToolButton"
 	{
-		"wide"										"216"
+		"wide"										"138"
 	}
 
 	"DragToNextPageButton"

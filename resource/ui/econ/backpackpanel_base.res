@@ -454,7 +454,7 @@
 		"ControlName"								"ComboBox"
 		"fieldName"									"SortByComboBox"
 		"Font"										"Size 11"
-		"xpos"										"-2"
+		"xpos"										"-1"
 		"ypos"										"2"
 		"zpos"										"1"
 		"wide"										"130"
@@ -644,10 +644,10 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"CancelApplyToolButton"
-		"xpos"										"-1"
-		"ypos"										"-2"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"20"
-		"wide"										"216"
+		"wide"										"167"
 		"tall"										"24"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -671,9 +671,7 @@
 		"border_default"							"MaterialGrayDarker"
 		"border_armed"								"MaterialHypno"
 
-		"pin_to_sibling"							"BackpackBGCustom"
-		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"pin_to_sibling"							"SortByBG"
 	}
 
 	"ShowExplanationsButton"

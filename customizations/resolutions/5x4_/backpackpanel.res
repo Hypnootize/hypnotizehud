@@ -81,7 +81,7 @@
 
 	"CancelApplyToolButton"
 	{
-		"wide"										"136"
+		"wide"										"121"
 	}
 
 	"DragToNextPageButton"
