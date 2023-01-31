@@ -20,6 +20,7 @@
 		{
 			"wide"									"58"
 			"tall"									"44"
+			"model_wide"							"55"
 			"model_tall"							"33"
 		}
 	}

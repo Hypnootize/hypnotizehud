@@ -5,11 +5,13 @@
 		"item_ypos"									"60"
 		"item_ydelta"								"80"
 		"item_backpack_offcenter_x"					"-352"
+
 		"modelpanels_selection_kv"
 		{
 			"wide"									"119"
 			"tall"									"93"
 			"model_tall"							"57"
+			"model_wide"							"80"
 		}
 
 		"modelpanels_kv"
@@ -17,8 +19,8 @@
 			"wide"									"72"
 			"tall"									"57"
 
-			"model_wide"							""
-			"model_tall"							"43"
+			"model_wide"							"62"
+			"model_tall"							"40"
 
 			"text_ypos"								"60"
 

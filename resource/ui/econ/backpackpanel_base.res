@@ -107,9 +107,9 @@
 
 			"model_center_x"						"1"
 			"model_center_y"						"1"
-			"model_xpos"							"5"
-			"model_ypos"							"5"
-			"model_wide"							""
+			"model_xpos"							"0"
+			"model_ypos"							"0"
+			"model_wide"							"65"
 			"model_tall"							"43"
 
 			"text_ypos"								"60"
@@ -124,6 +124,7 @@
 				"use_item_rendertarget" 			"0"
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
+				"useparentbg"						"0"
 			}
 
 			"New"

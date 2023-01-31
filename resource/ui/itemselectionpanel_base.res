@@ -28,14 +28,19 @@
 		{
 			"wide"									"119"
 			"tall"									"93"
-			"model_xpos"							"2"
+
+			"model_center_x"						"1"
+			"model_center_y"						"1"
+			"model_xpos"							"0"
+			"model_ypos"							"0"
 			"model_wide"							"80"
 			"model_tall"							"57"
-			"model_center_x"						"1"
+
 			"text_ypos"								"0"
 			"text_forcesize"						"2"
 			"text_center"							"0"
 			"text_yoffset"							"4"
+
 			"inset_eq_y"							"3"
 
 			"deferred_description"					"1"
@@ -57,10 +62,10 @@
 
 			"model_center_x"						"1"
 			"model_center_y"						"1"
-			"model_xpos"							"5"
-			"model_ypos"							"5"
-			"model_wide"							""
-			"model_tall"							"43"
+			"model_xpos"							"0"
+			"model_ypos"							"0"
+			"model_wide"							"62"
+			"model_tall"							"40"
 
 			"text_ypos"								"60"
 			"text_center"							"1"
@@ -73,9 +78,10 @@
 
 			"itemmodelpanel"
 			{
-				"inventory_image_type"				"1"
 				"use_item_rendertarget" 			"0"
+				"inventory_image_type"				"1"
 				"allow_rot"							"0"
+				"useparentbg"						"0"
 			}
 
 			"use_item_sounds"						"1"

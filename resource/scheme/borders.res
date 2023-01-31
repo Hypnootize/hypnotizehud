@@ -2405,8 +2405,8 @@
 			"image"						"sale_corner"
 			"src_corner_height"			"24"
 			"src_corner_width"			"24"
-			"draw_corner_width"			"4"
-			"draw_corner_height"		"4"
+			"draw_corner_width"			"0"
+			"draw_corner_height"		"0"
 		}
 		"StorePreviewBorder"
 		{
@@ -2415,8 +2415,8 @@
 			"image"						"store/store_inspector_bg_small"
 			"src_corner_height"			"24"
 			"src_corner_width"			"24"
-			"draw_corner_width"			"8"
-			"draw_corner_height"		"8"
+			"draw_corner_width"			"0"
+			"draw_corner_height"		"0"
 		}
 		"StoreAddToCart"
 		{
@@ -2425,8 +2425,8 @@
 			"image"						"store/store_add_to_cart"
 			"src_corner_height"			"24"
 			"src_corner_width"			"24"
-			"draw_corner_width"			"8"
-			"draw_corner_height"		"8"
+			"draw_corner_width"			"0"
+			"draw_corner_height"		"0"
 		}
 		"StorePreviewTabSelected"
 		{
@@ -2455,8 +2455,8 @@
 			"image"						"store/store_coupon_border"
 			"src_corner_height"			"16"
 			"src_corner_width"			"16"
-			"draw_corner_width"			"8"
-			"draw_corner_height"		"8"
+			"draw_corner_width"			"0"
+			"draw_corner_height"		"0"
 		}
 		"ArmoryScrollbarBox"
 		{

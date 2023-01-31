@@ -42,10 +42,13 @@
 			"PaintBackgroundType"					"0"
 			"paintborder"							"0"
 
-			"model_xpos"							"5"
-			"model_ypos"							"3"
-			"model_wide"							"58"
-			"model_tall"							"38"
+			"model_center_x"						"1"
+			"model_center_y"						"1"
+			"model_xpos"							"0"
+			"model_ypos"							"0"
+			"model_wide"							"55"
+			"model_tall"							"35"
+
 			"text_ypos"								"60"
 			"text_center"							"1"
 			"name_only"								"1"

@@ -11,6 +11,7 @@
 			"wide"									"95"
 			"tall"									"76"
 			"model_tall"							"45"
+			"model_wide"							"68"
 		}
 
 		"modelpanels_kv"
@@ -18,7 +19,7 @@
 			"wide"									"58"
 			"tall"									"46"
 
-			"model_wide"							""
+			"model_wide"							"55"
 			"model_tall"							"33"
 
 			"text_ypos"								"60"

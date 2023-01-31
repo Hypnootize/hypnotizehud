@@ -12,7 +12,7 @@
 			"tall"									"78"
 
 			"model_tall"							"48"
-			"model_wide"							""
+			"model_wide"							"75"
 			"text_ypos"								"57"
 		}
 	}
