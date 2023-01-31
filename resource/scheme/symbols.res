@@ -186,7 +186,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V2"
+				"name"										"TF2 Class Icons V3"
 				"tall"										"18"
 				"antialias"									"1"
 			}
@@ -195,7 +195,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V2"
+				"name"										"TF2 Class Icons V3"
 				"tall"										"28"
 				"antialias"									"1"
 			}
@@ -204,7 +204,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V2"
+				"name"										"TF2 Class Icons V3"
 				"tall"										"48"
 				"antialias"									"1"
 			}
@@ -213,7 +213,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V2"
+				"name"										"TF2 Class Icons V3"
 				"tall"										"56"
 				"antialias"									"1"
 			}
@@ -253,22 +253,22 @@
 	{
 		"30"
 		{
-			"font" "resource/scheme/fonts/Hypnotize Icons.ttf"
+			"font" "resource/scheme/fonts/Hypnotize Icons.ttf" [$WINDOWS]
+			"font" "resource/scheme/fonts/Hypnotize Icons Linux.ttf" [$POSIX]
 			"name" "Hypnotize Icons V6"
 		}
-
 		"31"
 		{
-			"font" "resource/scheme/fonts/TF2 Class Icons.ttf"
-			"name" "TF2 Class Icons V2"
+			"font" "resource/scheme/fonts/TF2 Class Icons.ttf"  [$WINDOWS]
+			"font" "resource/scheme/fonts/TF2 Class Icons Linux.ttf" [$POSIX]
+			"name" "TF2 Class Icons V3"
 		}
-
 		"32"
 		{
-			"font" "resource/scheme/fonts/ReadyUp Symbols.otf"
-			"name" "ReadyUp Symbols"
+			"font"	"resource/scheme/fonts/Readyup Symbols.otf" [$WINDOWS]
+			"font"	"resource/scheme/fonts/Readyup Symbols Linux.otf" [$POSIX]
+			"name"	"ReadyUp Symbols"
 		}
-
 		"33"
 		{
 			"font" "resource/scheme/fonts/Blocks.ttf"
