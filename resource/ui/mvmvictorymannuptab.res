@@ -27,7 +27,8 @@
 		"tall"										"10"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"replay/thumbnails/panels/bg_black"
+		"image"										""
+		"fillcolor"									"BlackLight"
 		"scaleImage"								"1"
 		"proportionalToParent"						"1"
 	}
