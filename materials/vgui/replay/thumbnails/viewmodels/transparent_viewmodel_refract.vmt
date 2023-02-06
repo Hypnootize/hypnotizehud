@@ -6,4 +6,9 @@
 
 	"$scale"					"[1 1]"
 	"$normalmap"				"vgui/replay/thumbnails/viewmodels/transparent_viewmodel_refract"
+
+	"<dx90"
+	{
+		"$no_draw"				"1"
+	}
 }
