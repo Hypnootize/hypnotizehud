@@ -1577,10 +1577,10 @@
 	// BOTTOM MENU BUTTONS
 	//===================================================================================================
 
-	"HUDS.TF"
+	"ComfigHUDs"
 	{
 		"ControlName"								"URLLabel"
-		"fieldname"									"HUDS.TF"
+		"fieldname"									"ComfigHUDs"
 		"xpos"										"-8"
 		"ypos"										"-2"
 		"zpos"										"16"
@@ -1589,10 +1589,10 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"labelText"									"Q"
+		"labelText"									"s"
 		"font"										"Symbols 18"
 		"textAlignment"								"center"
-		"urlText"									"https://huds.tf/site/s-Hypnotize-Hud"
+		"urlText"									"https://comfig.app/huds/page/hypnotizehud"
 		"FgColor_override" 							"GrayMedium"
 
 		"pin_to_sibling" 							"BottomBar"
@@ -1617,7 +1617,7 @@
 		"urlText"									"https://github.com/Hypnootize/Hypnotize-Hud"
 		"FgColor_override" 							"GrayMedium"
 
-		"pin_to_sibling" 							"HUDS.TF"
+		"pin_to_sibling" 							"ComfigHUDs"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
