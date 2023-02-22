@@ -1,7 +1,7 @@
 ![logo](https://i.imgur.com/oG7xN4t.png)
 
 <p align="center">
-  <a href="https://huds.tf/site/s-Hypnotize-Hud"><img src="https://i.imgur.com/WAusE3C.png"></a>
+  <a href="https://comfig.app/huds/page/hypnotizehud"><img src="https://i.imgur.com/0o80QUt.png"></a>
   <a href="https://gamebanana.com/mods/291589"><img src="https://i.imgur.com/UzXoexI.png"></a>
   <a href="https://www.editor.criticalflaw.ca/"><img src="https://i.imgur.com/6JJTzkc.png"></a>
 </p>
