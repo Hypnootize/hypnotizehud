@@ -1599,6 +1599,29 @@
 		"pin_corner_to_sibling" 					"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
+
+	"TF2HUDs"
+	{
+		"ControlName"								"URLLabel"
+		"fieldname"									"TF2HUDs"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"16"
+		"wide"										"20"
+		"tall"										"20"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"labelText"									"!"
+		"font"										"Symbols 20"
+		"textAlignment"								"center"
+		"urlText"									"https://tf2huds.dev/hud/Hypnotize-Hud"
+		"FgColor_override" 							"GrayMedium"
+
+		"pin_to_sibling" 							"ComfigHUDs"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+	}
 	"HUDRepository"
 	{
 		"ControlName"								"URLLabel"
@@ -1617,7 +1640,7 @@
 		"urlText"									"https://github.com/Hypnootize/Hypnotize-Hud"
 		"FgColor_override" 							"GrayMedium"
 
-		"pin_to_sibling" 							"ComfigHUDs"
+		"pin_to_sibling" 							"TF2HUDs"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}

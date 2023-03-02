@@ -2,6 +2,7 @@
 
 <p align="center">
   <a href="https://comfig.app/huds/page/hypnotizehud"><img src="https://i.imgur.com/0o80QUt.png"></a>
+  <a href="https://tf2huds.dev/hud/Hypnotize-Hud"><img src="https://i.imgur.com/lF9XotO.png"></a>
   <a href="https://gamebanana.com/mods/291589"><img src="https://i.imgur.com/UzXoexI.png"></a>
   <a href="https://www.editor.criticalflaw.ca/"><img src="https://i.imgur.com/6JJTzkc.png"></a>
 </p>
