@@ -31,12 +31,19 @@
 
 		"noitem_use_fullpanel"						"0"
 
+		"attriblabel"
+		{
+			"ypos"									"9999"
+			"visible"								"0"
+			"enabled"								"0"
+        }
+
 		"itemmodelpanel"
 		{
 			"fieldName"								"itemmodelpanel"
 			"use_item_rendertarget" 				"0"
 			"allow_rot"								"0"
-			"useparentbg"							"0"
+			"useparentbg"							"1"
 			"inventory_image_type"					"1"
 		}
 
