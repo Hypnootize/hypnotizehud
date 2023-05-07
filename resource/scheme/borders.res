@@ -53,6 +53,17 @@
 			"draw_corner_width"			"8"
 			"draw_corner_height"		"8"
 		}
+		"MaterialBlueDark"
+		{
+			"bordertype"				"scalable_image"
+			"backgroundtype"			"2"
+			"color"						"70 125 185 255"
+			"image"						"replay/thumbnails/panels/material_generic"
+			"src_corner_height"			"24"
+			"src_corner_width"			"24"
+			"draw_corner_width"			"8"
+			"draw_corner_height"		"8"
+		}
 
 		//==============================================================================
 		// MATERIAL RED
@@ -84,6 +95,17 @@
 			"bordertype"				"scalable_image"
 			"backgroundtype"			"2"
 			"image"						"replay/thumbnails/panels/material_red_transparent70"
+			"src_corner_height"			"24"
+			"src_corner_width"			"24"
+			"draw_corner_width"			"8"
+			"draw_corner_height"		"8"
+		}
+		"MaterialRedDark"
+		{
+			"bordertype"				"scalable_image"
+			"backgroundtype"			"2"
+			"color"						"150 50 50 255"
+			"image"						"replay/thumbnails/panels/material_generic"
 			"src_corner_height"			"24"
 			"src_corner_width"			"24"
 			"draw_corner_width"			"8"
