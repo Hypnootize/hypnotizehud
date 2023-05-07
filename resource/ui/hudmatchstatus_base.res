@@ -253,6 +253,8 @@
 			"percentage_health_low"					"0.3"
 			"color_portrait_blend_dead_red"			"White"
 			"color_portrait_blend_dead_blue" 		"White"
+			"color_portrait_bg_red_local_player"	"Red"
+			"color_portrait_bg_blue_local_player"	"Blue"
 
 			"ClassImageBg"
 			{
