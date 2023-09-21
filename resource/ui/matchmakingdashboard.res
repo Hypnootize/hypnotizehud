@@ -39,7 +39,7 @@
 			"xpos"									"-10"
 			"ypos"									"0"
 			"zpos"									"-1"
-			"wide"									"p1.02"
+			"wide"									"p1.03"
 			"tall"									"29"
 			"visible"								"1"
 			"paintbackground"						"0"
@@ -221,7 +221,7 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"QueueContainer"
-			"xpos"									"cs-0.5"
+			"xpos"									"cs-0.5+20"
 			"ypos"									"-50"
 			"zpos"									"111"
 			"wide"									"220"
@@ -378,12 +378,11 @@
 			}
 		}
 
-
 		"JoinPartyLobbyContainer"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"JoinPartyLobbyContainer"
-			"xpos"									"cs-0.5"
+			"xpos"									"cs-0.5+20"
 			"ypos"									"-50"
 			"zpos"									"110"
 			"wide"									"220"

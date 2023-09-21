@@ -128,7 +128,7 @@
 	{
 		"ControlName"								"CPvPRankPanel"
 		"fieldName"									"RankPanel"
-		"xpos"										"145"
+		"xpos"										"140"
 		"ypos"										"1"
 		"zpos"										"10003"
 		"wide"										"200"
@@ -1542,7 +1542,7 @@
 		"xpos"										"-10"
 		"ypos"										"r25"
 		"zpos"										"0"
-		"wide"										"p1.02"
+		"wide"										"p1.03"
 		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
@@ -1557,20 +1557,16 @@
 		"fieldName"									"HypnotizeHUD"
 		"font"										"Size 20"
 		"fgcolor"   								"GrayDarker"
-		"xpos"										"-10"
-		"ypos"										"-1"
+		"xpos"										"rs1-5"
+		"ypos"										"rs1"
 		"zpos"										"1"
 		"wide"										"200"
-		"tall"										"30"
+		"tall"										"22"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"labelText"									"Hypnotize HUD"
 		"textAlignment"								"east"
-
-		"pin_to_sibling" 							"BottomBar"
-		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
 	}
 
 	//===================================================================================================
@@ -1581,8 +1577,8 @@
 	{
 		"ControlName"								"URLLabel"
 		"fieldname"									"ComfigHUDs"
-		"xpos"										"-8"
-		"ypos"										"-2"
+		"xpos"										"rs1-3"
+		"ypos"										"rs1-25"
 		"zpos"										"16"
 		"wide"										"20"
 		"tall"										"20"
@@ -1594,10 +1590,6 @@
 		"textAlignment"								"center"
 		"urlText"									"https://comfig.app/huds/page/hypnotizehud"
 		"FgColor_override" 							"GrayMedium"
-
-		"pin_to_sibling" 							"BottomBar"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
 
 	"TF2HUDs"

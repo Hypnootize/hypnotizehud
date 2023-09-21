@@ -45,7 +45,7 @@
 		"xpos"										"-10"
 		"ypos"										"r25"
 		"zpos"										"1"
-		"wide"										"p1.02"
+		"wide"										"p1.03"
 		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
