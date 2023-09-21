@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture"				"vgui/logos/killfeed icons white/d_images_v2"
+	"$baseTexture"				"vgui/logos/killfeed_icons_black/dneg_images"
 	"$vertexalpha"				"1"
 	"$alpha"					"1"
 	"$translucent"				"1"

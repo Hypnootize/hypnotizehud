@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture"				"vgui/logos/killfeed icons black/dneg_images_v2"
+	"$baseTexture"				"vgui\logos\build_icons\hud_obj_status_tele_entrance"
 	"$vertexalpha"				"1"
 	"$alpha"					"1"
 	"$translucent"				"1"
