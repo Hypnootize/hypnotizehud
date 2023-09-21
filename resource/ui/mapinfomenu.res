@@ -88,6 +88,11 @@
 		"fgcolor"									"White"
 		"AllCaps"									"1"
 
+		"image_box"									"replay/thumbnails/menu/chalkboard_scroll_box"
+		"image_line"								"replay/thumbnails/menu/chalkboard_scroll_line"
+		"image_down_arrow"							"replay/thumbnails/menu/chalkboard_scroll_down"
+		"image_up_arrow"							"replay/thumbnails/menu/chalkboard_scroll_up"
+
 		"pin_to_sibling" 							"Background"
 	}
 
