@@ -645,19 +645,6 @@
 				"proportionalToParent"				"1"
 				"pin_to_sibling" 					"Score"
 			}
-
-			"WhiteBG"
-			{
-				"ControlName"						"EditableLabel"
-				"fieldName"							"WhiteBG"
-				"xpos"								"9999"
-			}
-			"BlueBar"
-			{
-				"ControlName"						"EditableLabel"
-				"fieldName"							"BlueBar"
-				"xpos"								"9999"
-			}
 		}
 
 		"RedScoreValueContainer"
@@ -708,21 +695,7 @@
 				"proportionalToParent"				"1"
 				"pin_to_sibling" 					"Score"
 			}
-
-			"WhiteBG"
-			{
-				"ControlName"						"EditableLabel"
-				"fieldName"							"WhiteBG"
-				"xpos"								"9999"
-			}
-			"RedBar"
-			{
-				"ControlName"						"EditableLabel"
-				"fieldName"							"RedBar"
-				"xpos"								"9999"
-			}
 		}
-
 		"BlueStolenContainer"
 		{
 			"ControlName"							"EditablePanel"
