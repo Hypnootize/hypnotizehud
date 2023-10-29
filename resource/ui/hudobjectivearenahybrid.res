@@ -1,4 +1,4 @@
-"Resource/UI/HudObjectivePlayerDestruction.res"
+"Resource/UI/HudObjectiveArenaHybrid.res"
 {
 	"ObjectiveStatusRobotDestruction"
 	{
@@ -26,8 +26,7 @@
 		{
 			"zpos"									"-1"
 		}
-
-		"robot_kv"
+		"Robot_KV"
 		{
 			"ControlName"							"CTFHudRobotDestruction_RobotIndicator"
 			"xpos"									"0"
@@ -39,10 +38,223 @@
 			"PaintBackgroundType"					"0"
 			"paintborder"							"0"
 			"AutoResize"							"0"
-			"skip_autoresize" 						"1"
+			"skip_autoresize"						"1"
 		}
 	}
+	"BlueTeam"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"BlueTeam"
+		"xpos"										"cs-1.06"
+		"ypos"										"28"
+		"zpos"										"0"
+		"wide"										"50"
+		"tall"										"23"
+		"visible"									"1"
+		"paintBackground"							"0"
+		"paintBorder"								"1"
+		"border"									"MaterialTransparent30"
 
+		"TeamBG"
+		{
+			"ControlName"							"Panel"
+			"fieldName"								"TeamBG"
+			"xpos"									"1"
+			"ypos"									"cs-0.5"
+			"zpos"									"0"
+			"wide"									"20"
+			"tall"									"20"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"paintBackground"						"0"
+			"paintBorder"							"1"
+			"border"								"MaterialBlue"
+		}
+		"PlayerIcon"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"PlayerIcon"
+			"xpos"									"4"
+			"ypos"									"cs-0.5"
+			"zpos"									"2"
+			"wide"									"13"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"font"									"Symbols 14"
+			"labelText"								"P"
+			"textAlignment"							"center"
+			"fgcolor"								"White"
+		}
+		"Count"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"Count"
+			"xpos"									"rs1-1"
+			"ypos"									"cs-0.5"
+			"zpos"									"2"
+			"wide"									"f15"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"font"									"Size 14"
+			"labelText"								" "
+			"textAlignment"							"center"
+			"fgcolor"								"White"
+		}
+		"CountShadow"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"CountShadow"
+			"xpos"									"-1"
+			"ypos"									"-1"
+			"zpos"									"1"
+			"wide"									"f15"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"font"									"Size 14 Blur"
+			"labelText"								" "
+			"textAlignment"							"center"
+			"fgcolor"								"Shadow"
+
+			"pin_to_sibling"						"Count"
+		}
+
+		"Background"
+		{
+			"ControlName"							"CTFImagePanel"
+			"fieldName"								"Background"
+			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"PlayerImage"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"PlayerImage"
+			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+	}
+	"RedTeam"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"RedTeam"
+		"xpos"										"cs+0.03"
+		"ypos"										"28"
+		"zpos"										"0"
+		"wide"										"50"
+		"tall"										"23"
+		"visible"									"1"
+		"paintBackground"							"0"
+		"paintBorder"								"1"
+		"border"									"MaterialTransparent30"
+
+		"TeamBG"
+		{
+			"ControlName"							"Panel"
+			"fieldName"								"TeamBG"
+			"xpos"									"1"
+			"ypos"									"cs-0.5"
+			"zpos"									"0"
+			"wide"									"20"
+			"tall"									"20"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"paintBackground"						"0"
+			"paintBorder"							"1"
+			"border"								"MaterialRed"
+		}
+		"PlayerIcon"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"PlayerIcon"
+			"xpos"									"4"
+			"ypos"									"cs-0.5"
+			"zpos"									"2"
+			"wide"									"13"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"font"									"Symbols 14"
+			"labelText"								"P"
+			"textAlignment"							"center"
+			"fgcolor"								"White"
+		}
+		"Count"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"Count"
+			"xpos"									"rs1-1"
+			"ypos"									"cs-0.5"
+			"zpos"									"2"
+			"wide"									"f15"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"font"									"Size 14"
+			"labelText"								" "
+			"textAlignment"							"center"
+			"fgcolor"								"White"
+		}
+		"CountShadow"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"CountShadow"
+			"xpos"									"-1"
+			"ypos"									"-1"
+			"zpos"									"1"
+			"wide"									"f15"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"font"									"Size 14 Blur"
+			"labelText"								" "
+			"textAlignment"							"center"
+			"fgcolor"								"Shadow"
+
+			"pin_to_sibling"						"Count"
+		}
+
+		"Background"
+		{
+			"ControlName"							"CTFImagePanel"
+			"fieldName"								"Background"
+			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"PlayerImage"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"PlayerImage"
+			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+	}
 	"BlackTransparentBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -78,8 +290,83 @@
 		"pin_to_sibling"							"BlackTransparentBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
-	}
 
+		"if_hybrid"
+		{
+			"visible"								"0"
+		}
+		"if_mvm"
+		{
+			"visible"								"0"
+		}
+		"if_specialdelivery"
+		{
+			"visible"								"0"
+		}
+	}
+	"CountdownContainer"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"CountdownContainer"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"1"
+		"wide"										"f0"
+		"tall"										"480"
+		"visible"									"0"
+		"enabled"									"1"
+
+		"CountdownLabelTime"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"CountdownLabelTime"
+			"xpos"									"cs-0.5"
+			"ypos"									"rs1-30"
+			"zpos"									"8"
+			"wide"									"40"
+			"tall"									"16"
+			"visible"								"1"
+			"enabled"								"1"
+			"textAlignment"							"center"
+			"labelText"								"%countdowntime%"
+			"font"									"Size 16"
+			"fgcolor"								"White"
+			"proportionalToParent"					"1"
+		}
+
+		"CountdownLabelTimeTimeShadow"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"CountdownLabelTimeTimeShadow"
+			"xpos"									"-1"
+			"ypos"									"-1"
+			"zpos"									"7"
+			"wide"									"40"
+			"tall"									"16"
+			"visible"								"1"
+			"enabled"								"1"
+			"textAlignment"							"center"
+			"labelText"								"%countdowntime%"
+			"font"									"Size 16 Blur"
+			"fgcolor"								"Shadow"
+			"proportionalToParent"					"1"
+
+			"pin_to_sibling"						"CountdownLabelTime"
+		}
+
+		"Background"
+		{
+			"ControlName"							"CTFImagePanel"
+			"fieldName"								"Background"
+			"xpos"									"9999"
+		}
+		"CountdownImage"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"CountdownImage"
+			"xpos"									"9999"
+		}
+	}
 	"BlueScoreBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -210,7 +497,6 @@
 			"xpos"									"9999"
 		}
 	}
-
 	"ScoreContainer"
 	{
 		"fieldName"									"ScoreContainer"
@@ -223,6 +509,105 @@
 		"visible"									"1"
 		"enabled"									"1"
 
+		"BlueScoreValueContainer"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"BlueScoreValueContainer"
+			"xpos"									"c-57"
+			"ypos"									"rs1-14"
+			"zpos"									"10"
+			"wide"									"58"
+			"tall"									"15"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionalToParent"					"1"
+
+			"Score"
+			{
+				"ControlName"						"CExLabel"
+				"fieldName"							"Score"
+				"xpos"								"2"
+				"ypos"								"cs-0.5"
+				"zpos"								"8"
+				"wide"								"f0"
+				"tall"								"f1"
+				"visible"							"1"
+				"enabled"							"1"
+				"textAlignment"						"west"
+				"labelText"							"%score%"
+				"font"								"Size 18"
+				"fgcolor"							"White"
+				"proportionalToParent"				"1"
+			}
+			"ScoreShadow"
+			{
+				"ControlName"						"CExLabel"
+				"fieldName"							"ScoreShadow"
+				"xpos"								"-1"
+				"ypos"								"-1"
+				"zpos"								"7"
+				"wide"								"f0"
+				"tall"								"f1"
+				"visible"							"1"
+				"enabled"							"1"
+				"textAlignment"						"west"
+				"labelText"							"%score%"
+				"font"								"Size 18 Blur"
+				"fgcolor"							"Shadow"
+				"proportionalToParent"				"1"
+				"pin_to_sibling" 					"Score"
+			}
+		}
+
+		"RedScoreValueContainer"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"RedScoreValueContainer"
+			"xpos"									"c1"
+			"ypos"									"rs1-14"
+			"zpos"									"10"
+			"wide"									"56"
+			"tall"									"15"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionalToParent"					"1"
+
+			"Score"
+			{
+				"ControlName"						"CExLabel"
+				"fieldName"							"Score"
+				"xpos"								"rs1-2"
+				"ypos"								"cs-0.5"
+				"zpos"								"8"
+				"wide"								"f0"
+				"tall"								"f1"
+				"visible"							"1"
+				"enabled"							"1"
+				"textAlignment"						"east"
+				"labelText"							"%score%"
+				"font"								"Size 18"
+				"fgcolor"							"White"
+				"proportionalToParent"				"1"
+			}
+			"ScoreShadow"
+			{
+				"ControlName"						"CExLabel"
+				"fieldName"							"ScoreShadow"
+				"xpos"								"-1"
+				"ypos"								"-1"
+				"zpos"								"7"
+				"wide"								"f0"
+				"tall"								"f1"
+				"visible"							"1"
+				"enabled"							"1"
+				"textAlignment"						"east"
+				"labelText"							"%score%"
+				"font"								"Size 18 Blur"
+				"fgcolor"							"Shadow"
+				"proportionalToParent"				"1"
+				"pin_to_sibling" 					"Score"
+			}
+		}
 		"ProgressBarContainer"
 		{
 			"fieldName"								"ProgressBarContainer"
@@ -235,125 +620,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionalToParent"					"1"
-
-			"ScoreOutline"
-			{
-				"fieldName"							"ScoreOutline"
-				"ControlName"						"ImagePanel"
-				"xpos"								"9999"
-			}
-
-			"FlagImageBlue"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"FlagImageBlue"
-				"xpos"								"c-57"
-				"ypos"								"rs1-32"
-				"zpos"								"4"
-				"wide"								"12"
-				"tall"								"12"
-				"visible"							"1"
-				"enabled"							"1"
-				"image"								"../hud/hud_obj_status_ammo_64"
-				"scaleImage"						"1"
-				"proportionalToParent"				"1"
-			}
-			"EscrowBlue"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"EscrowBlue"
-				"xpos"								"6"
-				"ypos"								"0"
-				"zpos"								"4"
-				"wide"								"25"
-				"tall"								"16"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"west"
-				"labelText"							"%blue_escrow%"
-				"font"								"Size 16"
-				"fgcolor"							"White"
-				"proportionalToParent"				"1"
-
-				"pin_to_sibling"					"FlagImageBlue"
-				"pin_corner_to_sibling"				"PIN_CENTER_LEFT"
-				"pin_to_sibling_corner"				"PIN_CENTER_RIGHT"
-			}
-			"EscrowBlueShadow"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"EscrowBlueShadow"
-				"xpos"								"-1"
-				"ypos"								"-1"
-				"zpos"								"4"
-				"wide"								"25"
-				"tall"								"16"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"west"
-				"labelText"							"%blue_escrow%"
-				"font"								"Size 16 Blur"
-				"fgcolor"							"Shadow"
-				"proportionalToParent"				"1"
-
-				"pin_to_sibling"					"EscrowBlue"
-			}
-
-			"FlagImageRed"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"FlagImageRed"
-				"xpos"								"c44"
-				"ypos"								"rs1-32"
-				"zpos"								"4"
-				"wide"								"12"
-				"tall"								"12"
-				"visible"							"1"
-				"enabled"							"1"
-				"image"								"../hud/hud_obj_status_ammo_64"
-				"scaleImage"						"1"
-				"proportionalToParent"				"1"
-			}
-			"EscrowRed"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"EscrowRed"
-				"xpos"								"6"
-				"ypos"								"0"
-				"zpos"								"4"
-				"wide"								"25"
-				"tall"								"16"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"east"
-				"labelText"							"%red_escrow%"
-				"font"								"Size 16"
-				"fgcolor"							"White"
-				"proportionalToParent"				"1"
-
-				"pin_to_sibling"					"FlagImageRed"
-				"pin_corner_to_sibling"				"PIN_CENTER_RIGHT"
-				"pin_to_sibling_corner"				"PIN_CENTER_LEFT"
-			}
-			"EscrowRedShadow"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"EscrowRedShadow"
-				"xpos"								"-1"
-				"ypos"								"-1"
-				"zpos"								"4"
-				"wide"								"25"
-				"tall"								"16"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"east"
-				"labelText"							"%red_escrow%"
-				"font"								"Size 16 Blur"
-				"fgcolor"							"Shadow"
-				"proportionalToParent"				"1"
-
-				"pin_to_sibling"					"EscrowRed"
-			}
 
 			"BlueVictoryContainer"
 			{
@@ -457,24 +723,6 @@
 					"xpos"							"9999"
 				}
 			}
-
-			"BlueProgressBarFill"
-			{
-				"fieldName"							"BlueProgressBarFill"
-				"ControlName"						"ImagePanel"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-			}
-			"BlueProgressBarEscrow"
-			{
-				"fieldName"							"BlueProgressBarEscrow"
-				"ControlName"						"ImagePanel"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-			}
-
 			"RedVictoryContainer"
 			{
 				"fieldName"							"RedVictoryContainer"
@@ -577,122 +825,159 @@
 					"xpos"							"9999"
 				}
 			}
-
+			"ScoreOutline"
+			{
+				"fieldName"							"ScoreOutline"
+				"ControlName"						"ImagePanel"
+				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"scaleimage"						"0"
+				"visible"							"0"
+			}
+			"ScoreOutlineBlue"
+			{
+				"fieldName"							"ScoreOutlineBlue"
+				"ControlName"						"ImagePanel"
+				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"scaleimage"						"0"
+				"visible"							"0"
+			}
+			"ScoreOutlineRed"
+			{
+				"fieldName"							"ScoreOutlineRed"
+				"ControlName"						"ImagePanel"
+				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"scaleimage"						"0"
+				"visible"							"0"
+			}
+			"TrophyIcon"
+			{
+				"fieldName"							"TrophyIcon"
+				"ControlName"						"ImagePanel"
+				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"scaleimage"						"0"
+				"visible"							"0"
+			}
+			"FlagImageBlue"
+			{
+				"ControlName"						"ImagePanel"
+				"fieldName"							"FlagImageBlue"
+				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"scaleimage"						"0"
+				"visible"							"0"
+			}
+			"EscrowBlue"
+			{
+				"ControlName"						"CExLabel"
+				"fieldName"							"EscrowBlue"
+				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"scaleimage"						"0"
+				"visible"							"0"
+			}
+			"EscrowBlueShadow"
+			{
+				"ControlName"						"CExLabel"
+				"fieldName"							"EscrowBlueShadow"
+				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"scaleimage"						"0"
+				"visible"							"0"
+			}
+			"FlagImageRed"
+			{
+				"ControlName"						"ImagePanel"
+				"fieldName"							"FlagImageRed"
+				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"scaleimage"						"0"
+				"visible"							"0"
+			}
+			"EscrowRed"
+			{
+				"ControlName"						"CExLabel"
+				"fieldName"							"EscrowRed"
+				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"scaleimage"						"0"
+				"visible"							"0"
+			}
+			"EscrowRedShadow"
+			{
+				"ControlName"						"CExLabel"
+				"fieldName"							"EscrowRedShadow"
+				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"scaleimage"						"0"
+				"visible"							"0"
+			}
+			"BlueProgressBarFill"
+			{
+				"fieldName"							"BlueProgressBarFill"
+				"ControlName"						"ImagePanel"
+				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"scaleimage"						"0"
+				"visible"							"0"
+			}
+			"BlueProgressBarEscrow"
+			{
+				"fieldName"							"BlueProgressBarEscrow"
+				"ControlName"						"ImagePanel"
+				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"scaleimage"						"0"
+				"visible"							"0"
+			}
 			"RedProgressBarFill"
 			{
 				"fieldName"							"RedProgressBarFill"
 				"ControlName"						"ImagePanel"
+				"xpos"								"9999"
+				"ypos"								"9999"
 				"wide"								"0"
 				"tall"								"0"
+				"scaleimage"						"0"
 				"visible"							"0"
 			}
 			"RedProgressBarEscrow"
 			{
 				"fieldName"							"RedProgressBarEscrow"
 				"ControlName"						"ImagePanel"
+				"xpos"								"9999"
+				"ypos"								"9999"
 				"wide"								"0"
 				"tall"								"0"
+				"scaleimage"						"0"
 				"visible"							"0"
-			}
-		}
-
-		"BlueScoreValueContainer"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"BlueScoreValueContainer"
-			"xpos"									"c-57"
-			"ypos"									"rs1-14"
-			"zpos"									"10"
-			"wide"									"58"
-			"tall"									"15"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionalToParent"					"1"
-
-			"Score"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"Score"
-				"xpos"								"2"
-				"ypos"								"cs-0.5"
-				"zpos"								"8"
-				"wide"								"f0"
-				"tall"								"f1"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"west"
-				"labelText"							"%score%"
-				"font"								"Size 18"
-				"fgcolor"							"White"
-				"proportionalToParent"				"1"
-			}
-			"ScoreShadow"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"ScoreShadow"
-				"xpos"								"-1"
-				"ypos"								"-1"
-				"zpos"								"7"
-				"wide"								"f0"
-				"tall"								"f1"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"west"
-				"labelText"							"%score%"
-				"font"								"Size 18 Blur"
-				"fgcolor"							"Shadow"
-				"proportionalToParent"				"1"
-				"pin_to_sibling" 					"Score"
-			}
-		}
-
-		"RedScoreValueContainer"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"RedScoreValueContainer"
-			"xpos"									"c1"
-			"ypos"									"rs1-14"
-			"zpos"									"10"
-			"wide"									"56"
-			"tall"									"15"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionalToParent"					"1"
-
-			"Score"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"Score"
-				"xpos"								"rs1-2"
-				"ypos"								"cs-0.5"
-				"zpos"								"8"
-				"wide"								"f0"
-				"tall"								"f1"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"east"
-				"labelText"							"%score%"
-				"font"								"Size 18"
-				"fgcolor"							"White"
-				"proportionalToParent"				"1"
-			}
-			"ScoreShadow"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"ScoreShadow"
-				"xpos"								"-1"
-				"ypos"								"-1"
-				"zpos"								"7"
-				"wide"								"f0"
-				"tall"								"f1"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"east"
-				"labelText"							"%score%"
-				"font"								"Size 18 Blur"
-				"fgcolor"							"Shadow"
-				"proportionalToParent"				"1"
-				"pin_to_sibling" 					"Score"
 			}
 		}
 		"BlueStolenContainer"
@@ -700,84 +985,30 @@
 			"ControlName"							"EditablePanel"
 			"fieldName"								"BlueStolenContainer"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"RedStolenContainer"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"RedStolenContainer"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
-
-	"CountdownContainer"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"CountdownContainer"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"1"
-		"wide"										"f0"
-		"tall"										"480"
-		"visible"									"0"
-		"enabled"									"1"
-
-		"CountdownLabelTime"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"CountdownLabelTime"
-			"xpos"									"cs-0.5"
-			"ypos"									"rs1-30"
-			"zpos"									"8"
-			"wide"									"40"
-			"tall"									"16"
-			"visible"								"1"
-			"enabled"								"1"
-			"textAlignment"							"center"
-			"labelText"								"%countdowntime%"
-			"font"									"Size 16"
-			"fgcolor"								"White"
-			"proportionalToParent"					"1"
-		}
-
-		"CountdownLabelTimeTimeShadow"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"CountdownLabelTimeTimeShadow"
-			"xpos"									"-1"
-			"ypos"									"-1"
-			"zpos"									"7"
-			"wide"									"40"
-			"tall"									"16"
-			"visible"								"1"
-			"enabled"								"1"
-			"textAlignment"							"center"
-			"labelText"								"%countdowntime%"
-			"font"									"Size 16 Blur"
-			"fgcolor"								"Shadow"
-			"proportionalToParent"					"1"
-
-			"pin_to_sibling"						"CountdownLabelTime"
-		}
-
-		"Background"
-		{
-			"ControlName"							"CTFImagePanel"
-			"fieldName"								"Background"
-			"xpos"									"9999"
-		}
-		"CountdownImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"CountdownImage"
-			"xpos"									"9999"
-		}
-	}
-
-	//REMOVED STUFF
 	"PlayingToBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"PlayingToBG"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
