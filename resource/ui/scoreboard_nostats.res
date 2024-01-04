@@ -772,14 +772,10 @@
 			}
 		}
 
-		"KillsWhite"
+		"Kills"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"KillsWhite"
-			"font"									"Size 20"
-			"fgcolor" 								"White"
-			"labelText"								"%kills%"
-			"textAlignment"							"east"
+			"fieldName"								"Kills"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -788,8 +784,12 @@
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"0"
-			"enabled"								"1"
+			"enabled"								"0"
 			"proportionaltoparent"					"1"
+			"font"									"Size 20"
+			"labelText"								"%kills%"
+			"textAlignment"							"east"
+			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling" 						"Separator"
 			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
@@ -814,10 +814,6 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DeathsLabel"
-			"font"									"Size 10"
-			"fgcolor" 								"White"
-			"labelText"								"#TF_ScoreBoard_DeathsLabel"
-			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -829,6 +825,10 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
+			"font"									"Size 10"
+			"fgcolor" 								"White"
+			"labelText"								"#TF_ScoreBoard_DeathsLabel"
+			"textAlignment"							"west"
 
 			"if_mvm"
 			{
@@ -840,14 +840,10 @@
 			}
 		}
 
-		"DeathsWhite"
+		"Deaths"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"DeathsWhite"
-			"font"									"Size 20"
-			"fgcolor" 								"White"
-			"labelText"								"%deaths%"
-			"textAlignment"							"west"
+			"fieldName"								"Deaths"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -856,8 +852,12 @@
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"0"
-			"enabled"								"1"
+			"enabled"								"0"
 			"proportionaltoparent"					"1"
+			"font"									"Size 20"
+			"labelText"								"%deaths%"
+			"textAlignment"							"west"
+			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling" 						"Separator"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -882,10 +882,6 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"AssistsLabel"
-			"font"									"Size 9"
-			"fgcolor" 								"White"
-			"labelText"								"#TF_ScoreBoard_AssistsLabel"
-			"textAlignment"							"west"
 			"xpos"									"10"
 			"ypos"									"30"
 			"zpos"									"3"
@@ -897,6 +893,10 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"#TF_ScoreBoard_AssistsLabel"
+			"textAlignment"							"west"
+			"fgcolor" 								"White"
 
 			"if_mvm"
 			{
@@ -913,13 +913,10 @@
 			}
 		}
 
-		"AssistsWhite"
+		"Assists"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"AssistsWhite"
-			"font"									"Size 9"
-			"labelText"								"%assists%"
-			"textAlignment"							"east"
+			"fieldName"								"Assists"
 			"xpos"									"-20"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -928,8 +925,12 @@
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"0"
-			"enabled"								"1"
+			"enabled"								"0"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"%assists%"
+			"textAlignment"							"east"
+			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling" 						"AssistsLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -954,9 +955,6 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DestructionLabel"
-			"font"									"Size 9"
-			"labelText"								"#TF_ScoreBoard_DestructionLabel"
-			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -968,6 +966,9 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"#TF_ScoreBoard_DestructionLabel"
+			"textAlignment"							"west"
 
 			"pin_to_sibling" 						"AssistsLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -982,19 +983,16 @@
 				"tall"								"11"
 				"textAlignment"						"west"
 				"font"								"Size 10"
-				"pin_to_sibling" 					"KillsWhite"
+				"pin_to_sibling" 					"Kills"
 				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 
-		"DestructionWhite"
+		"Destruction"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"DestructionWhite"
-			"font"									"Size 9"
-			"labelText"								"%destruction%"
-			"textAlignment"							"east"
+			"fieldName"								"Destruction"
 			"xpos"									"-20"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1003,8 +1001,12 @@
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"0"
-			"enabled"								"1"
+			"enabled"								"0"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"%destruction%"
+			"textAlignment"							"east"
+			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling" 						"DestructionLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1029,9 +1031,6 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CapturesLabel"
-			"font"									"Size 9"
-			"labelText"								"#TF_ScoreBoard_CapturesLabel"
-			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1043,6 +1042,9 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"#TF_ScoreBoard_CapturesLabel"
+			"textAlignment"							"west"
 
 			"pin_to_sibling" 						"DestructionLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1057,19 +1059,16 @@
 				"tall"								"11"
 				"textAlignment"						"west"
 				"font"								"Size 10"
-				"pin_to_sibling" 					"DeathsWhite"
+				"pin_to_sibling" 					"Deaths"
 				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 
-		"CapturesWhite"
+		"Captures"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"CapturesWhite"
-			"font"									"Size 9"
-			"labelText"								"%captures%"
-			"textAlignment"							"east"
+			"fieldName"								"Captures"
 			"xpos"									"-20"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1078,8 +1077,12 @@
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"0"
-			"enabled"								"1"
+			"enabled"								"0"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"%captures%"
+			"textAlignment"							"east"
+			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling" 						"CapturesLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1104,9 +1107,6 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DefensesLabel"
-			"font"									"Size 9"
-			"labelText"								"#TF_ScoreBoard_DefensesLabel"
-			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1118,6 +1118,9 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"#TF_ScoreBoard_DefensesLabel"
+			"textAlignment"							"west"
 
 			"pin_to_sibling" 						"CapturesLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1132,19 +1135,16 @@
 				"tall"								"11"
 				"textAlignment"						"west"
 				"font"								"Size 10"
-				"pin_to_sibling" 					"AssistsWhite"
+				"pin_to_sibling" 					"Assists"
 				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 
-		"DefensesWhite"
+		"Defenses"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"DefensesWhite"
-			"font"									"Size 9"
-			"labelText"								"%defenses%"
-			"textAlignment"							"east"
+			"fieldName"								"Defenses"
 			"xpos"									"-20"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1153,8 +1153,12 @@
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"0"
-			"enabled"								"1"
+			"enabled"								"0"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"%defenses%"
+			"textAlignment"							"east"
+			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling" 						"DefensesLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1179,9 +1183,6 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DominationLabel"
-			"font"									"Size 9"
-			"labelText"								"#TF_ScoreBoard_DominationLabel"
-			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1193,6 +1194,9 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"#TF_ScoreBoard_DominationLabel"
+			"textAlignment"							"west"
 
 			"pin_to_sibling" 						"DefensesLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1207,19 +1211,16 @@
 				"tall"								"11"
 				"textAlignment"						"west"
 				"font"								"Size 10"
-				"pin_to_sibling" 					"DestructionWhite"
+				"pin_to_sibling" 					"Destruction"
 				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 
-		"DominationWhite"
+		"Domination"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"DominationWhite"
-			"font"									"Size 9"
-			"labelText"								"%dominations%"
-			"textAlignment"							"east"
+			"fieldName"								"Domination"
 			"xpos"									"-20"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1228,8 +1229,12 @@
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"0"
-			"enabled"								"1"
+			"enabled"								"0"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"%dominations%"
+			"textAlignment"							"east"
+			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling" 						"DominationLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1254,9 +1259,6 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RevengeLabel"
-			"font"									"Size 9"
-			"labelText"								"#TF_ScoreBoard_RevengeLabel"
-			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1268,6 +1270,9 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"#TF_ScoreBoard_RevengeLabel"
+			"textAlignment"							"west"
 
 			"pin_to_sibling" 						"DominationLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1282,19 +1287,16 @@
 				"tall"								"11"
 				"textAlignment"						"west"
 				"font"								"Size 10"
-				"pin_to_sibling" 					"CapturesWhite"
+				"pin_to_sibling" 					"Captures"
 				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 
-		"RevengeWhite"
+		"Revenge"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"RevengeWhite"
-			"font"									"Size 9"
-			"labelText"								"%revenge%"
-			"textAlignment"							"east"
+			"fieldName"								"Revenge"
 			"xpos"									"-20"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1303,8 +1305,12 @@
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"0"
-			"enabled"								"1"
+			"enabled"								"0"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"%revenge%"
+			"textAlignment"							"east"
+			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling" 						"RevengeLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1329,9 +1335,6 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"HealingLabel"
-			"font"									"Size 9"
-			"labelText"								"#TF_ScoreBoard_HealingLabel"
-			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1343,6 +1346,9 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"#TF_ScoreBoard_HealingLabel"
+			"textAlignment"							"west"
 
 			"pin_to_sibling" 						"RevengeLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1357,19 +1363,16 @@
 				"tall"								"11"
 				"textAlignment"						"west"
 				"font"								"Size 10"
-				"pin_to_sibling" 					"DefensesWhite"
+				"pin_to_sibling" 					"Defenses"
 				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 
-		"HealingWhite"
+		"Healing"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"HealingWhite"
-			"font"									"Size 9"
-			"labelText"								"%healing%"
-			"textAlignment"							"east"
+			"fieldName"								"Healing"
 			"xpos"									"-20"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1378,8 +1381,12 @@
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"0"
-			"enabled"								"1"
+			"enabled"								"0"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"%healing%"
+			"textAlignment"							"east"
+			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling" 						"HealingLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1404,9 +1411,6 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"InvulnLabel"
-			"font"									"Size 9"
-			"labelText"								"#TF_ScoreBoard_InvulnLabel"
-			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1418,6 +1422,9 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"#TF_ScoreBoard_InvulnLabel"
+			"textAlignment"							"west"
 
 			"pin_to_sibling" 						"HealingLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1432,19 +1439,16 @@
 				"tall"								"11"
 				"textAlignment"						"west"
 				"font"								"Size 10"
-				"pin_to_sibling" 					"DominationWhite"
+				"pin_to_sibling" 					"Domination"
 				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 
-		"InvulnWhite"
+		"Invuln"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"InvulnWhite"
-			"font"									"Size 9"
-			"labelText"								"%invulns%"
-			"textAlignment"							"east"
+			"fieldName"								"Invuln"
 			"xpos"									"-20"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1453,8 +1457,12 @@
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"0"
-			"enabled"								"1"
+			"enabled"								"0"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"%invulns%"
+			"textAlignment"							"east"
+			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling" 						"InvulnLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1479,9 +1487,6 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TeleportsLabel"
-			"font"									"Size 9"
-			"labelText"								"#TF_ScoreBoard_TeleportsLabel"
-			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1493,6 +1498,9 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"#TF_ScoreBoard_TeleportsLabel"
+			"textAlignment"							"west"
 
 			"pin_to_sibling" 						"InvulnLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1507,19 +1515,16 @@
 				"tall"								"11"
 				"textAlignment"						"west"
 				"font"								"Size 10"
-				"pin_to_sibling" 					"RevengeWhite"
+				"pin_to_sibling" 					"Revenge"
 				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 
-		"TeleportsWhite"
+		"Teleports"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"TeleportsWhite"
-			"font"									"Size 9"
-			"labelText"								"%teleports%"
-			"textAlignment"							"east"
+			"fieldName"								"Teleports"
 			"xpos"									"-20"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1528,8 +1533,12 @@
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"0"
-			"enabled"								"1"
+			"enabled"								"0"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"%teleports%"
+			"textAlignment"							"east"
+			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling" 						"TeleportsLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1554,9 +1563,6 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"HeadshotsLabel"
-			"font"									"Size 9"
-			"labelText"								"#TF_ScoreBoard_HeadshotsLabel"
-			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1568,6 +1574,9 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"#TF_ScoreBoard_HeadshotsLabel"
+			"textAlignment"							"west"
 
 			"pin_to_sibling" 						"TeleportsLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1582,19 +1591,16 @@
 				"tall"								"11"
 				"textAlignment"						"west"
 				"font"								"Size 10"
-				"pin_to_sibling" 					"HealingWhite"
+				"pin_to_sibling" 					"Healing"
 				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 
-		"HeadshotsWhite"
+		"Headshots"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"HeadshotsWhite"
-			"font"									"Size 9"
-			"labelText"								"%headshots%"
-			"textAlignment"							"east"
+			"fieldName"								"Headshots"
 			"xpos"									"-20"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1603,8 +1609,12 @@
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"0"
-			"enabled"								"1"
+			"enabled"								"0"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"%headshots%"
+			"textAlignment"							"east"
+			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling" 						"HeadshotsLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1629,9 +1639,6 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BackstabsLabel"
-			"font"									"Size 9"
-			"labelText"								"#TF_ScoreBoard_BackstabsLabel"
-			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1643,6 +1650,9 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"#TF_ScoreBoard_BackstabsLabel"
+			"textAlignment"							"west"
 
 			"pin_to_sibling" 						"HeadshotsLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1657,19 +1667,16 @@
 				"tall"								"11"
 				"textAlignment"						"west"
 				"font"								"Size 10"
-				"pin_to_sibling" 					"InvulnWhite"
+				"pin_to_sibling" 					"Invuln"
 				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 
-		"BackstabsWhite"
+		"Backstabs"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"BackstabsWhite"
-			"font"									"Size 9"
-			"labelText"								"%backstabs%"
-			"textAlignment"							"east"
+			"fieldName"								"Backstabs"
 			"xpos"									"-20"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1678,8 +1685,12 @@
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"0"
-			"enabled"								"1"
+			"enabled"								"0"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"%backstabs%"
+			"textAlignment"							"east"
+			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling" 						"BackstabsLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1704,9 +1715,6 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BonusLabel"
-			"font"									"Size 9"
-			"labelText"								"#TF_ScoreBoard_BonusLabel"
-			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1718,6 +1726,9 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"#TF_ScoreBoard_BonusLabel"
+			"textAlignment"							"west"
 
 			"pin_to_sibling" 						"BackstabsLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1732,19 +1743,17 @@
 				"tall"								"11"
 				"textAlignment"						"west"
 				"font"								"Size 10"
-				"pin_to_sibling" 					"TeleportsWhite"
+				"pin_to_sibling" 					"Teleports"
 				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 
-		"BonusWhite"
+		"Bonus"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"BonusWhite"
-			"font"									"Size 9"
-			"labelText"								"%bonus%"
-			"textAlignment"							"east"
+			"fieldName"								"Bonus"
+			
 			"xpos"									"-20"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1753,8 +1762,12 @@
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"0"
-			"enabled"								"1"
+			"enabled"								"0"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"%bonus%"
+			"textAlignment"							"east"
+			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling" 						"BonusLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1779,9 +1792,6 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"SupportLabel"
-			"font"									"Size 9"
-			"labelText"								"#TF_ScoreBoard_Support"
-			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1793,6 +1803,9 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"#TF_ScoreBoard_Support"
+			"textAlignment"							"west"
 
 			"pin_to_sibling" 						"BonusLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1807,19 +1820,16 @@
 				"tall"								"11"
 				"textAlignment"						"west"
 				"font"								"Size 10"
-				"pin_to_sibling" 					"TeleportsWhite"
+				"pin_to_sibling" 					"Teleports"
 				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 
-		"SupportWhite"
+		"Support"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"SupportWhite"
-			"font"									"Size 9"
-			"labelText"								"%teleports%"
-			"textAlignment"							"east"
+			"fieldName"								"Support"
 			"xpos"									"-20"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1828,8 +1838,12 @@
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"0"
-			"enabled"								"1"
+			"enabled"								"0"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"%teleports%"
+			"textAlignment"							"east"
+			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling" 						"SupportLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1854,9 +1868,6 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DamageLabel"
-			"font"									"Size 9"
-			"labelText"								"#TF_ScoreBoard_DamageLabel"
-			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1868,6 +1879,9 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"#TF_ScoreBoard_DamageLabel"
+			"textAlignment"							"west"
 
 			"pin_to_sibling" 						"SupportLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1882,19 +1896,16 @@
 				"tall"								"11"
 				"textAlignment"						"west"
 				"font"								"Size 10"
-				"pin_to_sibling" 					"HeadshotsWhite"
+				"pin_to_sibling" 					"Headshots"
 				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
 
-		"DamageWhite"
+		"Damage"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"DamageWhite"
-			"font"									"Size 9"
-			"labelText"								"%damage%"
-			"textAlignment"							"east"
+			"fieldName"								"Damage"
 			"xpos"									"-20"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -1903,8 +1914,12 @@
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"0"
-			"enabled"								"1"
+			"enabled"								"0"
 			"proportionaltoparent"					"1"
+			"font"									"Size 9"
+			"labelText"								"%damage%"
+			"textAlignment"							"east"
+			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling" 						"DamageLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
@@ -1923,25 +1938,6 @@
 				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
-		}
-
-		"Kills"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"Kills"
-			"wide"									"0"
-		}
-		"Deaths"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"Deaths"
-			"wide"									"0"
-		}
-		"Assists"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"Assists"
-			"wide"									"0"
 		}
 	}
 
