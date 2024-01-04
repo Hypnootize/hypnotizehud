@@ -128,6 +128,18 @@
 			"tall"									"130"
 			"visible"								"1"
 		}
+		"ScrollBar"
+		{
+			"ControlName"							"ScrollBar"
+			"FieldName"								"ScrollBar"
+			"xpos"									"rs1"
+			"ypos"									"2"
+			"tall"									"f4"
+			"wide"									"5"
+			"zpos"									"1000"
+			"nobuttons"								"1"
+			"proportionaltoparent"					"1"
+		}
 	}
 
 	"StatePanel0"
