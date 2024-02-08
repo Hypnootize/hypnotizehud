@@ -9,8 +9,6 @@
 		"zpos"										"1000"
 		"wide"										"f0"
 		"tall"										"480"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
@@ -45,18 +43,23 @@
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
-				"inventory_image_type"	 			"1"
-				"allow_rot"				 			"0"
+				"use_item_rendertarget"				"0"
+				"inventory_image_type"				"1"
+				"allow_rot"							"0"
 			}
 		}
 	}
 
 	"BGGrayoutPanel"
 	{
-		"ControlName"		 						"EditablePanel"
-		"fieldName"		 							"BGGrayoutPanel"
-		"xpos"			 							"9999"
+		"ControlName"								"EditablePanel"
+		"fieldName"									"BGGrayoutPanel"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 
 	"SelectWeaponPanel"
@@ -67,12 +70,10 @@
 		"ypos"										"85"
 		"wide"										"500"
 		"tall"										"310"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
-		"border"									"MaterialGrayDarkest"
+		"border"									"Material_Gray_Darkest"
 
 		"InnerBGPanel"
 		{
@@ -85,7 +86,7 @@
 			"tall"									"230"
 			"visible"								"1"
 			"PaintBackground"						"0"
-			"border"								"MaterialGrayDark"
+			"border"								"Material_Gray_Dark"
 		}
 
 		"PlayerUpgradeButton"
@@ -97,12 +98,10 @@
 			"zpos"									"-2"
 			"wide"									"70"
 			"tall"									"50"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"PLAYER"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"textAlignment"							"center"
 			"textinsetx"							"50"
 			"Command"								"PlayerUpgrade"
@@ -151,13 +150,11 @@
 			"zpos"									"-3"
 			"wide"									"74"
 			"tall"									"54"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"PaintBackground"						"1"
 			"PaintBackgroundtype"					"0"
-			"bgcolor_override"						"GrayDark"
+			"bgcolor_override"						"Gray_Dark"
 		}
 
 		"MouseOverTabPanel"
@@ -169,11 +166,9 @@
 			"zpos"									"-6"
 			"wide"									"72"
 			"tall"									"54"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
-			"bgcolor_override"						"Main Theme"
+			"bgcolor_override"						"Main_Theme"
 			"PaintBackgroundType"					"0"
 		}
 
@@ -186,11 +181,9 @@
 			"zpos"									"10"
 			"wide"									"158"
 			"tall"									"48"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
-			"bgcolor_override"						"Main Theme"
+			"bgcolor_override"						"Main_Theme"
 			"PaintBackgroundType"					"0"
 		}
 
@@ -203,11 +196,9 @@
 			"zpos"									"-5"
 			"wide"									"70"
 			"tall"									"54"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"bgcolor_override"						"BlackLight"
+			"bgcolor_override"						"Black_Light"
 			"PaintBackgroundType"					"0"
 		}
 
@@ -220,11 +211,9 @@
 			"zpos"									"-5"
 			"wide"									"70"
 			"tall"									"54"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"bgcolor_override"						"BlackLight"
+			"bgcolor_override"						"Black_Light"
 			"PaintBackgroundType"					"0"
 		}
 
@@ -237,11 +226,9 @@
 			"zpos"									"-5"
 			"wide"									"70"
 			"tall"									"54"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"bgcolor_override"						"BlackLight"
+			"bgcolor_override"						"Black_Light"
 			"PaintBackgroundType"					"0"
 		}
 
@@ -254,11 +241,9 @@
 			"zpos"									"-5"
 			"wide"									"70"
 			"tall"									"54"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"bgcolor_override"						"BlackLight"
+			"bgcolor_override"						"Black_Light"
 			"PaintBackgroundType"					"0"
 		}
 
@@ -271,11 +256,9 @@
 			"zpos"									"-5"
 			"wide"									"70"
 			"tall"									"54"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"bgcolor_override"						"BlackLight"
+			"bgcolor_override"						"Black_Light"
 			"PaintBackgroundType"					"0"
 		}
 
@@ -288,11 +271,9 @@
 			"zpos"									"-5"
 			"wide"									"70"
 			"tall"									"54"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"bgcolor_override"						"BlackLight"
+			"bgcolor_override"						"Black_Light"
 			"PaintBackgroundType"					"0"
 		}
 
@@ -307,7 +288,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"GreyedOutLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%powerup_hint%"
 			"textAlignment"							"north"
 			"wrap"									"1"
@@ -317,11 +298,9 @@
 			"zpos"									"2"
 			"wide"									"240"
 			"tall"									"140"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 		}
 
 		"QuickEquipButton"
@@ -333,12 +312,10 @@
 			"zpos"									"1"
 			"wide"									"120"
 			"tall"									"17"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
 			"labelText"								"#TF_PVE_Quick_Equip_Bottle"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"textAlignment"							"center"
 			"textinsetx"							"50"
 			"Command"								"quick_equip_bottle"
@@ -355,12 +332,10 @@
 			"zpos"									"1"
 			"wide"									"120"
 			"tall"									"17"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
 			"labelText"								"#OpenGeneralLoadout"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"textAlignment"							"center"
 			"textinsetx"							"50"
 			"Command"								"open_charinfo_direct"
@@ -377,18 +352,16 @@
 			"zpos"									"0"
 			"wide"									"130"
 			"tall"									"65"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"bgcolor_override"						"GrayDarkest"
+			"bgcolor_override"						"Gray_Darkest"
 		}
 
 		"UpgradeItemsDescriptionLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"UpgradeItemsDescriptionLabel"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"%upgrade_description%"
 			"textAlignment"							"center"
 			"wrap"									"1"
@@ -398,12 +371,10 @@
 			"zpos"									"3"
 			"wide"									"120"
 			"tall"									"65"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"UpgradeItemsBG"
@@ -415,11 +386,9 @@
 			"zpos"									"0"
 			"wide"									"130"
 			"tall"									"130"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"bgcolor_override"						"GrayDarkest"
+			"bgcolor_override"						"Gray_Darkest"
 		}
 
 		"UpgradeItemsHeaderBG"
@@ -431,18 +400,16 @@
 			"zpos"									"1"
 			"wide"									"130"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"bgcolor_override"						"BlackDark"
+			"bgcolor_override"						"Black_Dark"
 		}
 
 		"UpgradeItemsLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"UpgradeItemsLabel"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"labelText"								"%upgrade_label%"
 			"textAlignment"							"center"
 			"xpos"									"25"
@@ -450,19 +417,17 @@
 			"zpos"									"2"
 			"wide"									"130"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"UpgradeItemStatsLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"UpgradeItemStatsLabel"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"labelText"								""
 			"textAlignment"							"north-west"
 			"xpos"									"30"
@@ -470,13 +435,11 @@
 			"zpos"									"3"
 			"wide"									"120"
 			"tall"									"105"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CreditsBG"
@@ -491,14 +454,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"border"								"MaterialGrayDark"
+			"border"								"Material_Gray_Dark"
 		}
 
 		"CreditsIcon"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CreditsIcon"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"labelText"								"6"
 			"textAlignment"							"west"
 			"xpos"									"-5"
@@ -506,8 +469,6 @@
 			"zpos"									"2"
 			"wide"									"20"
 			"tall"									"25"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fgcolor"								"White"
@@ -519,7 +480,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CreditsLabel"
-			"font"									"Size 20"
+			"font"									"Size_20"
 			"labelText"								"%credits%"
 			"textAlignment"							"east"
 			"xpos"									"-10"
@@ -527,8 +488,6 @@
 			"zpos"									"2"
 			"wide"									"60"
 			"tall"									"24"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fgcolor"								"White"
@@ -554,12 +513,10 @@
 			"zpos"									"1"
 			"wide"									"150"
 			"tall"									"24"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"0"
 			"labelText"								"#TF_PVE_UpgradeRespec"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"textAlignment"							"center"
 			"Command"								"respec"
 			"AllCaps"								"1"
@@ -567,12 +524,12 @@
 			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"paintbackground"						"0"
-			"border_default"						"MaterialGrayDark"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Gray_Dark"
+			"border_armed"							"Material_Hypno"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 
 			"pin_to_sibling"						"CreditsBG"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -588,12 +545,10 @@
 			"zpos"									"1"
 			"wide"									"125"
 			"tall"									"24"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_PVE_UpgradeDone"
-			"font"									"Size 16"
+			"font"									"Size_16"
 			"textAlignment"							"center"
 			"Command"								"close"
 			"AllCaps"								"1"
@@ -602,12 +557,12 @@
 			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"paintbackground"						"0"
-			"border_default"						"MaterialGrayDark"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Gray_Dark"
+			"border_armed"							"Material_Hypno"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 		}
 
 		"CancelButton"
@@ -619,12 +574,10 @@
 			"zpos"									"1"
 			"wide"									"125"
 			"tall"									"24"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_PVE_UpgradeCancel"
-			"font"									"Size 16"
+			"font"									"Size_16"
 			"textAlignment"							"center"
 			"Command"								"cancel"
 			"AllCaps"								"1"
@@ -633,12 +586,12 @@
 			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"paintbackground"						"0"
-			"border_default"						"MaterialGrayDark"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Gray_Dark"
+			"border_armed"							"Material_Hypno"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 
 			"pin_to_sibling"						"CloseButton"
 			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
@@ -651,5 +604,10 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"TipPanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

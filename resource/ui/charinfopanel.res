@@ -1,4 +1,4 @@
-#base "../../resource/tools/reloadschemebutton.res"
+#base "../tools/reloadschemebutton.res"
 
 "Resource/UI/CharInfoPanel.res"
 {
@@ -16,18 +16,16 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"settitlebarvisible"						"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayDarkest"
-		"infocus_bgcolor_override"					"GrayDarkest"
-		"outoffocus_bgcolor_override"				"GrayDarkest"
+		"bgcolor_override"							"Gray_Darkest"
+		"infocus_bgcolor_override"					"Gray_Darkest"
+		"outoffocus_bgcolor_override"				"Gray_Darkest"
 
 		"title"										"#CharInfoAndSetup"
-		"title_font"								"Size 18"
+		"title_font"								"Size_18"
 		"titletextinsetX"							"40"
 		"titletextinsetY"							"0"
 		"titlebarfgcolor_override"					"Blank"
@@ -51,7 +49,7 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 		"paintborder"								"1"
-		"border"									"MaterialReverseBlackLight"
+		"border"									"Material_Reverse_Black_Light"
 	}
 
 	"Sheet"
@@ -62,20 +60,20 @@
 		"tabxdelta"									"3"
 		"tabwidth"									"240"
 		"tabheight"									"20"
-		"transition_time" 							"0"
+		"transition_time"							"0"
 		"yoffset"									"6"
 
 		"tabskv"
 		{
 			"textinsetx"							"0"
-			"font"									"Size 18"
+			"font"									"Size_18"
 			"AllCaps"								"1"
-			"selectedcolor"							"Main Theme"
+			"selectedcolor"							"Main_Theme"
 			"unselectedcolor"						"White"
 			"defaultBgColor_override"				"Blank"
 			"paintbackground"						"0"
 			"activeborder_override"					"NoBorder"
-			"normalborder_override" 				"NoBorder"
+			"normalborder_override"					"NoBorder"
 		}
 	}
 
@@ -88,12 +86,10 @@
 		"zpos"										"2"
 		"wide"										"70"
 		"tall"										"22"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"BACK (&Q)"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"default"									"0"
 		"Command"									"back"
@@ -102,12 +98,12 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDarker"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Darker"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"CloseButton"
@@ -119,12 +115,10 @@
 		"zpos"										"2"
 		"wide"										"70"
 		"tall"										"22"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"CLOSE (&E)"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"default"									"0"
 		"Command"									"close"
@@ -133,12 +127,12 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDarker"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Darker"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"NotificationsPresentPanel"
@@ -165,20 +159,32 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"BackgroundHeader"
 		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BackgroundFooter"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"BackgroundFooter"
 		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"FooterLine"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"FooterLine"
 		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

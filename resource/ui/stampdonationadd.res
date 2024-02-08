@@ -8,21 +8,19 @@
 		"ypos"										"90"
 		"wide"										"450"
 		"tall"										"260"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
-		"bgcolor_override"							"BlackDark"
+		"bgcolor_override"							"Black_Dark"
 	}
 
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Size 24"
+		"font"										"Size_24"
 		"labelText"									"#ConfirmTitle"
 		"textAlignment"								"north"
 		"xpos"										"0"
@@ -30,19 +28,17 @@
 		"zpos"										"1"
 		"wide"										"450"
 		"tall"										"30"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"ExplanationLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ExplanationLabel"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"labelText"									"%text%"
 		"textAlignment"								"north-west"
 		"xpos"										"35"
@@ -50,19 +46,17 @@
 		"zpos"										"1"
 		"wide"										"340"
 		"tall"										"50"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"		//disabled
 		"enabled"									"1"
 		"wrap"										"1"
-		"fgcolor"		 							"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"ExplanationLabel2"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ExplanationLabel2"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"labelText"									"and earn the world traveler's hat to track contributions: "
 		"textAlignment"								"north"
 		"xpos"										"40"
@@ -70,13 +64,11 @@
 		"zpos"										"1"
 		"wide"										"450"
 		"tall"										"170"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"1"
 		"AllCaps"									"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"ItemImagePanel"
@@ -87,8 +79,6 @@
 		"ypos"										"15"
 		"wide"										"150"
 		"tall"										"150"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"
@@ -102,8 +92,6 @@
 		"ypos"										"24"
 		"wide"										"100"
 		"tall"										"100"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"
@@ -118,11 +106,9 @@
 		"zpos"										"20"
 		"wide"										"115"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"enabled"									"1"
 		"labelText"									"#Store_Nope"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
 		"Command"									"nope"
@@ -131,12 +117,12 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"ConfirmButton"
@@ -148,12 +134,10 @@
 		"zpos"										"20"
 		"wide"										"115"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Store_AddToCart"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
 		"Command"									"add_stamp_to_cart"
@@ -162,12 +146,12 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"PriceLabelBG"
@@ -183,14 +167,14 @@
 		"enabled"									"1"
 
 		"paintbackground"							"0"
-		"border"									"MaterialGreen"
+		"border"									"Material_Green"
 	}
 
 	"PriceLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PriceLabel"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									"%price%"
 		"textAlignment"								"center"
 		"xpos"										"270"
@@ -198,10 +182,8 @@
 		"zpos"										"25"
 		"wide"										"60"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 }

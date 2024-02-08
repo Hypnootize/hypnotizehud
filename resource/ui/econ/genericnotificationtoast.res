@@ -53,14 +53,12 @@
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"38"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"wrap"										"1"
 		"labelText"									"%avatartext%"
 		"textAlignment"								"West"
-		"font"										"Size 8"
+		"font"										"Size_8"
 	}
 
 	"TextLabel"
@@ -73,13 +71,11 @@
 		"zpos"										"2"
 		"wide"										"138"
 		"tall"										"38"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"wrap"										"1"
 		"labelText"									"%text%"
 		"textAlignment"								"West"
-		"font"										"Size 8"
+		"font"										"Size_8"
 	}
 }

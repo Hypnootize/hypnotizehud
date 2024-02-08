@@ -3,6 +3,6 @@
 	"ModeButton"
 	{
 		"wide"									"160"
-		"font"									"Size 22"
+		"font"									"Size_22"
 	}
 }

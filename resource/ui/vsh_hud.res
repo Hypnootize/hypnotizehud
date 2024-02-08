@@ -34,7 +34,6 @@
 			"wide"									"20"
 			"tall"									"20"
 			"visible"								"1"
-			"AutoResize"							"0"
 			"skip_autoresize"						"1"
 
 			"PaintBackground"						"0"
@@ -161,7 +160,7 @@
 				"enabled"							"1"
 				"textAlignment"						"center"
 				"labelText"							"%score%"
-				"font"								"Size 18"
+				"font"								"Size_18"
 				"fgcolor"							"White"
 				"proportionalToParent"				"1"
 			}
@@ -178,7 +177,7 @@
 				"enabled"							"1"
 				"textAlignment"						"center"
 				"labelText"							"%score%"
-				"font"								"Size 18"
+				"font"								"Size_18"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
 				"pin_to_sibling"					"Score"
@@ -210,7 +209,7 @@
 				"enabled"							"1"
 				"textAlignment"						"east"
 				"labelText"							"Players Alive:"
-				"font"								"Size 12 Shadow"
+				"font"								"Size_12_Shadow"
 				"fgcolor"							"White"
 				"proportionalToParent"				"1"
 			}
@@ -227,7 +226,7 @@
 				"enabled"							"1"
 				"textAlignment"						"west"
 				"labelText"							"%score%"
-				"font"								"Size 12 Shadow"
+				"font"								"Size_12_Shadow"
 				"fgcolor"							"White"
 				"proportionalToParent"				"1"
 			}
@@ -244,7 +243,7 @@
 				"enabled"							"1"
 				"textAlignment"						"center"
 				"labelText"							"%score%"
-				"font"								"Size 16"
+				"font"								"Size_16"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
 				"pin_to_sibling"					"Score"
@@ -255,8 +254,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"AliveCounter"
-		"xpos"										"999"
-		"ypos"										"999"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"

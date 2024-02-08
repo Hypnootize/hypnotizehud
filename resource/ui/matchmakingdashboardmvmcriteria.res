@@ -26,7 +26,6 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 
-		"pinCorner"									"2"
 	}
 
 	"BackButton"
@@ -38,11 +37,9 @@
 		"zpos"										"100"
 		"wide"										"90"
 		"tall"										"30"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"Command"									"back"
@@ -57,12 +54,12 @@
 
 		"paintbackground"							"0"
 
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"MannUpQueueButton"
@@ -74,11 +71,9 @@
 		"zpos"										"100"
 		"wide"										"318"
 		"tall"										"30"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"textAlignment"								"west"
 		"textinsetx"								"30"
 		"AllCaps"									"1"
@@ -94,12 +89,12 @@
 
 		"paintbackground"							"0"
 
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"BootCampQueueButton"
@@ -111,11 +106,9 @@
 		"zpos"										"100"
 		"wide"										"407"
 		"tall"										"30"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"textAlignment"								"west"
 		"textinsetx"								"30"
 		"AllCaps"									"1"
@@ -131,12 +124,12 @@
 
 		"paintbackground"							"0"
 
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"NextButton"
@@ -148,11 +141,9 @@
 		"zpos"										"100"
 		"wide"										"407"
 		"tall"										"30"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"textAlignment"								"west"
 		"textinsetx"								"30"
 		"AllCaps"									"1"
@@ -168,12 +159,12 @@
 
 		"paintbackground"							"0"
 
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"JoinLateCheckButton"
@@ -185,7 +176,7 @@
 		"zpos"										"101"
 		"wide"										"140"
 		"tall"										"20"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"labelText"									""
 		"proportionaltoparent"						"1"
 	}
@@ -199,10 +190,10 @@
 		"zpos"										"101"
 		"wide"										"115"
 		"tall"										"20"
-		"font"										"Size 9"
+		"font"										"Size_9"
 		"labelText"									"#TF_Matchmaking_JoinInProgress"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 }

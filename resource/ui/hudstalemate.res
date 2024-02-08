@@ -13,7 +13,7 @@
 		"enabled"									"1"
 		"wrap"										"0"
 		"proportionaltoparent"						"1"
-		"font"										"Size 16"
+		"font"										"Size_16"
 		"labelText"									"#TF_teambalanced"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
@@ -32,7 +32,7 @@
 		"wrap"										"1"
 		"centerwrap"								"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"labelText"									""
 		"textAlignment"								"north"
 		"fgcolor"									"White"
@@ -43,5 +43,10 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"HudStalemateBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

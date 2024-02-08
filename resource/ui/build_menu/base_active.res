@@ -12,14 +12,14 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		"border"									"MaterialTransparentGreen50"
+		"border"									"Material_Transparent_Green_50"
 	}
 
 	"CostLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CostLabel"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"fgcolor"									"White"
 		"xpos"										"0"
 		"ypos"										"-6"
@@ -32,16 +32,16 @@
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
 
-		"pin_to_sibling" 							"Background"
-		"pin_corner_to_sibling"					 	"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"Background"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 
 	"CantBuildReason"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CantBuildReason"
-		"font"										"Symbols 30"
+		"font"										"Symbols_30"
 		"fgcolor"									"White"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -67,17 +67,17 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"border"									"MaterialTransparent50"
+		"border"									"Material_Transparent_50"
 
-		"pin_to_sibling" 							"Background"
-		"pin_corner_to_sibling"					 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"Background"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 	"NumberLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"Size 9"
+		"font"										"Size_9"
 		"fgcolor"									"White"
 		"xpos"										"0"
 		"ypos"										"-1"
@@ -89,7 +89,7 @@
 		"labelText"									"1"
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
-		"pin_to_sibling" 							"NumberLabelBG"
+		"pin_to_sibling"							"NumberLabelBG"
 	}
 
 	"ItemNameLabel"
@@ -97,35 +97,65 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemNameLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BuildingIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"BuildingIcon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ItemBackground"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"ItemBackground"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MetalIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"MetalIcon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ModeLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ModeLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NumberBg"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

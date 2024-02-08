@@ -26,8 +26,8 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_Matchmaking_HeaderCasual"
 		"textAlignment"								"west"
-		"font"										"Size 24"
-		"fgcolor"									"WhiteDark"
+		"font"										"Size_24"
+		"fgcolor"									"White_Dark"
 
 		"AllCaps"									"1"
 
@@ -61,7 +61,7 @@
 		"mouseinputenabled"							"1"
 		"eatmouseinput"								"0"
 		"showtooltipswhenmousedisabled"				"1"
-		"proportionaltoparent" 						"1"
+		"proportionaltoparent"						"1"
 	}
 
 	"QueueButton"
@@ -73,11 +73,9 @@
 		"zpos"										"100"
 		"wide"										"f0"
 		"tall"										"28"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"textAlignment"								"center"
 		"Command"									"find_game"
 		"proportionaltoparent"						"1"
@@ -92,11 +90,11 @@
 
 		"paintbackground"							"0"
 
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 }

@@ -25,7 +25,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
-		"border"									"MaterialTransparent50"
+		"border"									"Material_Transparent_50"
 	}
 
 	"ItemEffectIcon"
@@ -52,12 +52,11 @@
 		"zpos"										"2"
 		"wide"										"25"
 		"tall"										"35"
-		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"center"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"fgcolor"									"White"
 	}
 
@@ -70,12 +69,11 @@
 		"zpos"										"2"
 		"wide"										"25"
 		"tall"										"35"
-		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"center"
-		"font"										"Size 12 Blur"
+		"font"										"Size_12_Blur"
 		"fgcolor"									"Shadow"
 	}
 
@@ -85,14 +83,24 @@
 
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ItemEffectMeterLabel"
-		"xpos"			"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"ItemEffectMeterLabel"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ItemEffectMeter"
 	{
-		"ControlName"	"ContinuousProgressBar"
-		"fieldName"		"ItemEffectMeter"
-		"xpos"			"9999"
+		"ControlName"								"ContinuousProgressBar"
+		"fieldName"									"ItemEffectMeter"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

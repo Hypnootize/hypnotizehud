@@ -8,8 +8,6 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"40"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 	}
@@ -26,13 +24,11 @@
 		"xpos"										"15"
 		"ypos"										"0"
 		"zpos"										"1"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"Blank"		// Background is drawn explicitly in CTitleEditPanel::PaintBackground()
-		"Font"										"Size 18"
+		"Font"										"Size_18"
 	}
 
 	"ClickToEditLabel"
@@ -41,9 +37,9 @@
 		"FieldName"									"ClickToEditLabel"
 		"LabelText"									"#Replay_ClickToEdit"
 		"zpos"										"1000"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"Visible"									"1"
-		"fgcolor_override" 							"White"
+		"FgColor_override"							"White"
 	}
 
 	"CaratLabel"

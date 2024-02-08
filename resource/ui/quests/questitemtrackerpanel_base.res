@@ -47,7 +47,7 @@
 			"font"									"QuestObjectiveTracker_Desc"
 			//"wrap"								"1"
 			"TextAlignment"							"north-east"
-			"proportionaltoparent" 					"1"
+			"proportionaltoparent"					"1"
 		}
 	}
 }

@@ -2,141 +2,70 @@
 {
 	"Fonts"
 	{
-		"Game 12"
+		"Game_12"
 		{
 			"1"
 			{
 				"name"										"surface-medium"
 			}
 		}
-		"Game 14"
+		"Game_14"
 		{
 			"1"
 			{
 				"name"										"surface-medium"
 			}
 		}
-		"Game 15"
+		"Game_15"
 		{
 			"1"
 			{
 				"name"										"surface-medium"
 			}
 		}
-		"Game 16"
+		"Game_16"
 		{
 			"1"
 			{
 				"name"										"surface-medium"
 			}
 		}
-		"Game 18"
+		"Game_18"
 		{
 			"1"
 			{
 				"name"										"surface-medium"
 			}
 		}
-		"Game 20"
+		"Game_20"
 		{
 			"1"
 			{
 				"name"										"surface-medium"
 			}
 		}
-		"Game 22"
+		"Game_22"
 		{
 			"1"
 			{
 				"name"										"surface-medium"
 			}
 		}
-		"Game 24"
+		"Game_24"
 		{
 			"1"
 			{
 				"name"										"surface-medium"
 			}
 		}
-		"Game 30"
+		"Game_30"
 		{
 			"1"
 			{
 				"name"										"surface-medium"
 			}
 		}
-		"Game 40"
-		{
-			"1"
-			{
-				"name"										"surface-medium"
-			}
-		}
-
-		"Game 12 Blur"
-		{
-			"1"
-			{
-				"name"										"surface-medium"
-			}
-		}
-		"Game 14 Blur"
-		{
-			"1"
-			{
-				"name"										"surface-medium"
-			}
-		}
-		"Game 15 Blur"
-		{
-			"1"
-			{
-				"name"										"surface-medium"
-			}
-		}
-		"Game 16 Blur"
-		{
-			"1"
-			{
-				"name"										"surface-medium"
-			}
-		}
-		"Game 18 Blur"
-		{
-			"1"
-			{
-				"name"										"surface-medium"
-			}
-		}
-		"Game 20 Blur"
-		{
-			"1"
-			{
-				"name"										"surface-medium"
-			}
-		}
-		"Game 22 Blur"
-		{
-			"1"
-			{
-				"name"										"surface-medium"
-			}
-		}
-		"Game 24 Blur"
-		{
-			"1"
-			{
-				"name"										"surface-medium"
-			}
-		}
-		"Game 30 Blur"
-		{
-			"1"
-			{
-				"name"										"surface-medium"
-			}
-		}
-		"Game 40 Blur"
+		"Game_40"
 		{
 			"1"
 			{
@@ -144,28 +73,70 @@
 			}
 		}
 
-		"Game 18 Shadow"
+		"Game_12_Blur"
 		{
 			"1"
 			{
 				"name"										"surface-medium"
 			}
 		}
-		"Game 22 Shadow"
+		"Game_14_Blur"
 		{
 			"1"
 			{
 				"name"										"surface-medium"
 			}
 		}
-		"Game 24 Shadow"
+		"Game_15_Blur"
 		{
 			"1"
 			{
 				"name"										"surface-medium"
 			}
 		}
-		"Game 28 Shadow"
+		"Game_16_Blur"
+		{
+			"1"
+			{
+				"name"										"surface-medium"
+			}
+		}
+		"Game_18_Blur"
+		{
+			"1"
+			{
+				"name"										"surface-medium"
+			}
+		}
+		"Game_20_Blur"
+		{
+			"1"
+			{
+				"name"										"surface-medium"
+			}
+		}
+		"Game_22_Blur"
+		{
+			"1"
+			{
+				"name"										"surface-medium"
+			}
+		}
+		"Game_24_Blur"
+		{
+			"1"
+			{
+				"name"										"surface-medium"
+			}
+		}
+		"Game_30_Blur"
+		{
+			"1"
+			{
+				"name"										"surface-medium"
+			}
+		}
+		"Game_40_Blur"
 		{
 			"1"
 			{
@@ -173,21 +144,50 @@
 			}
 		}
 
-		"Game 18 Outline"
+		"Game_18_Shadow"
 		{
 			"1"
 			{
 				"name"										"surface-medium"
 			}
 		}
-		"Game 22 Outline"
+		"Game_22_Shadow"
 		{
 			"1"
 			{
 				"name"										"surface-medium"
 			}
 		}
-		"Game 28 Outline"
+		"Game_24_Shadow"
+		{
+			"1"
+			{
+				"name"										"surface-medium"
+			}
+		}
+		"Game_28_Shadow"
+		{
+			"1"
+			{
+				"name"										"surface-medium"
+			}
+		}
+
+		"Game_18_Outline"
+		{
+			"1"
+			{
+				"name"										"surface-medium"
+			}
+		}
+		"Game_22_Outline"
+		{
+			"1"
+			{
+				"name"										"surface-medium"
+			}
+		}
+		"Game_28_Outline"
 		{
 			"1"
 			{
@@ -200,8 +200,8 @@
 	{
 		"10"
 		{
-			"font" 		"resource/scheme/fonts/Surface Medium.otf"
-			"name" 		"surface-medium"
+			"font"		"resource/scheme/fonts/Surface_Medium.otf"
+			"name"		"surface-medium"
 		}
 	}
 }

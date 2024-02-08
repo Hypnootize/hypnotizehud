@@ -2,32 +2,28 @@
 {
 	"MainBackground"
 	{
-		"ControlName"		     					"EditablePanel"
+		"ControlName"								"EditablePanel"
 		"fieldName"									"MainBackground"
 		"xpos"										"0"
 		"ypos"										"12"
 		"zpos"										"0"
 		"wide"										"114"
 		"tall"										"165"
-		"autoResize"	        					"0"
-		"pinCorner"		        					"1"
-		"enabled"	          						"1"
+		"enabled"									"1"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent50"
+		"border"									"Material_Transparent_50"
 	}
 
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"3"
 		"wide"										"58"
 		"tall"										"16"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"DISGUISE"
@@ -38,20 +34,18 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabelShadow"
-		"font"										"Size 14 Blur"
+		"font"										"Size_14_Blur"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"2"
 		"wide"										"58"
 		"tall"										"16"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"DISGUISE"
 		"textAlignment"								"center"
 		"fgcolor"									"Shadow"
-		"pin_to_sibling" 							"TitleLabel"
+		"pin_to_sibling"							"TitleLabel"
 	}
 
 	"ToggleLabelBG"
@@ -65,10 +59,10 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent50"
-		"pin_to_sibling" 							"MainBackground"
-		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"border"									"Material_Transparent_50"
+		"pin_to_sibling"							"MainBackground"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 	"ToggleLabel"
 	{
@@ -81,13 +75,11 @@
 		"zpos"										"3"
 		"wide"										"105"
 		"tall"										"16"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Hud_Menu_Spy_Minus_Toggle"
 		"textAlignment"								"center"
-		"pin_to_sibling" 							"ToggleLabelBG"
+		"pin_to_sibling"							"ToggleLabelBG"
 	}
 
 	"class_item_red_1"
@@ -111,9 +103,9 @@
 		"wide"										"35"
 		"tall"										"48"
 		"visible"									"1"
-		"pin_to_sibling" 							"class_item_red_1"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"class_item_red_1"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 	"class_item_red_3"
 	{
@@ -125,9 +117,9 @@
 		"wide"										"35"
 		"tall"										"48"
 		"visible"									"1"
-		"pin_to_sibling" 							"class_item_red_2"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"class_item_red_2"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 	"class_item_red_4"
 	{
@@ -139,9 +131,9 @@
 		"wide"										"35"
 		"tall"										"48"
 		"visible"									"1"
-		"pin_to_sibling" 							"class_item_red_1"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"class_item_red_1"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"class_item_red_5"
 	{
@@ -153,9 +145,9 @@
 		"wide"										"35"
 		"tall"										"48"
 		"visible"									"1"
-		"pin_to_sibling" 							"class_item_red_4"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"class_item_red_4"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 	"class_item_red_6"
 	{
@@ -167,9 +159,9 @@
 		"wide"										"35"
 		"tall"										"48"
 		"visible"									"1"
-		"pin_to_sibling" 							"class_item_red_5"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"class_item_red_5"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 	"class_item_red_7"
 	{
@@ -181,9 +173,9 @@
 		"wide"										"35"
 		"tall"										"48"
 		"visible"									"1"
-		"pin_to_sibling" 							"class_item_red_4"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"class_item_red_4"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"class_item_red_8"
 	{
@@ -195,9 +187,9 @@
 		"wide"										"35"
 		"tall"										"48"
 		"visible"									"1"
-		"pin_to_sibling" 							"class_item_red_7"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"class_item_red_7"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 	"class_item_red_9"
 	{
@@ -209,9 +201,9 @@
 		"wide"										"35"
 		"tall"										"48"
 		"visible"									"1"
-		"pin_to_sibling" 							"class_item_red_8"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"class_item_red_8"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 
@@ -227,7 +219,7 @@
 		"wide"										"35"
 		"tall"										"48"
 		"visible"									"0"
-		"pin_to_sibling" 							"class_item_red_1"
+		"pin_to_sibling"							"class_item_red_1"
 	}
 	"class_item_blue_2"
 	{
@@ -239,7 +231,7 @@
 		"wide"										"35"
 		"tall"										"48"
 		"visible"									"0"
-		"pin_to_sibling" 							"class_item_red_2"
+		"pin_to_sibling"							"class_item_red_2"
 	}
 	"class_item_blue_3"
 	{
@@ -251,7 +243,7 @@
 		"wide"										"35"
 		"tall"										"48"
 		"visible"									"0"
-		"pin_to_sibling" 							"class_item_red_3"
+		"pin_to_sibling"							"class_item_red_3"
 	}
 	"class_item_blue_4"
 	{
@@ -263,7 +255,7 @@
 		"wide"										"35"
 		"tall"										"48"
 		"visible"									"0"
-		"pin_to_sibling" 							"class_item_red_4"
+		"pin_to_sibling"							"class_item_red_4"
 	}
 	"class_item_blue_5"
 	{
@@ -275,7 +267,7 @@
 		"wide"										"35"
 		"tall"										"48"
 		"visible"									"0"
-		"pin_to_sibling" 							"class_item_red_5"
+		"pin_to_sibling"							"class_item_red_5"
 	}
 	"class_item_blue_6"
 	{
@@ -287,7 +279,7 @@
 		"wide"										"35"
 		"tall"										"48"
 		"visible"									"0"
-		"pin_to_sibling" 							"class_item_red_6"
+		"pin_to_sibling"							"class_item_red_6"
 	}
 	"class_item_blue_7"
 	{
@@ -299,7 +291,7 @@
 		"wide"										"35"
 		"tall"										"48"
 		"visible"									"0"
-		"pin_to_sibling" 							"class_item_red_7"
+		"pin_to_sibling"							"class_item_red_7"
 	}
 	"class_item_blue_8"
 	{
@@ -311,7 +303,7 @@
 		"wide"										"35"
 		"tall"										"48"
 		"visible"									"0"
-		"pin_to_sibling" 							"class_item_red_8"
+		"pin_to_sibling"							"class_item_red_8"
 	}
 	"class_item_blue_9"
 	{
@@ -323,7 +315,7 @@
 		"wide"										"35"
 		"tall"										"48"
 		"visible"									"0"
-		"pin_to_sibling" 							"class_item_red_9"
+		"pin_to_sibling"							"class_item_red_9"
 	}
 
 	"NumberBG1"
@@ -337,22 +329,20 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent70"
+		"border"									"Material_Transparent_70"
 	}
 
 	"NumberLabel1"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel1"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"fgcolor"									"White"
 		"xpos"										"40"
 		"ypos"										"47"
 		"zpos"										"1"
 		"wide"										"35"
 		"tall"										"16"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"1"
@@ -370,22 +360,20 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent70"
+		"border"									"Material_Transparent_70"
 	}
 
 	"NumberLabel2"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel2"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"fgcolor"									"White"
 		"xpos"										"40"
 		"ypos"										"95"
 		"zpos"										"1"
 		"wide"										"35"
 		"tall"										"16"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"2"
@@ -403,22 +391,20 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent70"
+		"border"									"Material_Transparent_70"
 	}
 
 	"NumberLabel3"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel3"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"fgcolor"									"White"
 		"xpos"										"40"
 		"ypos"										"143"
 		"zpos"										"1"
 		"wide"										"35"
 		"tall"										"16"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"3"
@@ -433,11 +419,21 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"CancelLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Divider"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"Divider"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

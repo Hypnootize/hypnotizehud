@@ -17,14 +17,17 @@
 		"collapsed_height"							"0"
 		"expanded_height"							"80"
 
-		"pinCorner"									"2"
-		"autoResize"								"1"
 
 		"OuterShadow"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"OuterShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"BGPanel"
@@ -38,9 +41,8 @@
 			"tall"									"f5"
 			"visible"								"1"
 			"PaintBackgroundType"					"0"
-			"border"								"MaterialGrayDarkest"
+			"border"								"Material_Gray_Darkest"
 			"proportionaltoparent"					"1"
-			"pinCorner"								"2"
 
 			"HideButton"
 			{
@@ -51,18 +53,16 @@
 				"zpos"								"1000"
 				"wide"								"o1"
 				"tall"								"20"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"textAlignment"						"center"
 				"default"							"0"
 				"labeltext"							""
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
 				"Command"							"toggle_hide"
-				"proportionaltoparent" 				"1"
+				"proportionaltoparent"				"1"
 				"actionsignallevel"					"2"
 
 				"paintbackground"					"0"
@@ -85,7 +85,7 @@
 					"enabled"						"1"
 					"image"							"glyph_store"
 					"scaleImage"					"1"
-					"proportionaltoparent" 			"1"
+					"proportionaltoparent"			"1"
 				}
 			}
 
@@ -98,18 +98,16 @@
 				"zpos"								"1000"
 				"wide"								"o1"
 				"tall"								"20"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"textAlignment"						"center"
 				"default"							"0"
 				"labeltext"							""
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
 				"Command"							"toggle_hide"
-				"proportionaltoparent" 				"1"
+				"proportionaltoparent"				"1"
 				"actionsignallevel"					"2"
 
 				"paintbackground"					"0"
@@ -132,7 +130,7 @@
 					"enabled"						"1"
 					"image"							"glyph_store"
 					"scaleImage"					"1"
-					"proportionaltoparent" 			"1"
+					"proportionaltoparent"			"1"
 				}
 			}
 
@@ -147,7 +145,7 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"fgcolor"							"White"
 				"textAlignment"						"center"
 				"labelText"							"#TF_Matchmaking_RollingQueue_MatchOver"

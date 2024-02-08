@@ -1,5 +1,5 @@
-#base 	"../../customizations/damage.res"
-#base 	"huddamageaccount_last.res"
+#base "../../customizations/damage.res"
+#base "huddamageaccount_last.res"
 
 "Resource/UI/HudDamageAccount.res"
 {
@@ -9,7 +9,7 @@
 		"text_x"									"0"
 		"text_y"									"0"
 		"delta_item_end_y"							"0"
-		"PositiveColor"								"Heal Numbers"
+		"PositiveColor"								"Heal_Numbers"
 		"NegativeColor"								"Damage Numbers"
 		"delta_lifetime"							"2"
 	}

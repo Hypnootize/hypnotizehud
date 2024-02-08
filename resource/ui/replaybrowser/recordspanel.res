@@ -10,14 +10,12 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"labelText"									"#Replay_NoNewRecord"
 		"textAlignment"								"west"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"fgcolor"									"White"
 	}
@@ -26,14 +24,12 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RecordInfoLabel"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"labelText"									"#Replay_NoNewRecord"
 		"textAlignment"								"west"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"fgcolor"									"White"
 	}
@@ -44,7 +40,7 @@
 		"fieldName"									"ScoreBackgroundPanel"
 		"zpos"										"0"
 		"visible"									"0"
-		"Border"									"MaterialBlackLight"
+		"Border"									"Material_Black_Light"
 		"bgcolor_override"							"Blank"
 	}
 
@@ -52,14 +48,12 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ScoreLabel"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									"0"
 		"textAlignment"								"west"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"fgcolor"									"White"
 	}

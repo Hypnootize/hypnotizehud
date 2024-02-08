@@ -55,11 +55,11 @@
 
 	"CHudAccountPanel"
 	{
-		"xpos"         								"cs-0.5"
+		"xpos"										"cs-0.5"
 		"ypos"										"c80"
 		"ypos_minmode"								"c48"
 		"wide"										"200"
-		"tall"  									"30"
+		"tall"										"30"
 	}
 
 	"CHealthAccountPanel"
@@ -69,7 +69,7 @@
 		"ypos"										"r112"
 		"ypos_minmode"								"r167"
 		"wide"										"f0"
-		"tall"  									"24"
+		"tall"										"24"
 	}
 
 	"HudDamageIndicator"
@@ -104,23 +104,23 @@
 	{
 		"ypos"										"240"
 		"ypos_minmode"								"240"
-		"tall"	 									"50"
-		"tall_minmode"	 							"50"
+		"tall"										"50"
+		"tall_minmode"								"50"
 	}
 
 	"CSecondaryTargetID"
 	{
 		"ypos"										"270"
 		"ypos_minmode"								"300"
-		"tall"	 									"50"
-		"tall_minmode"	 							"50"
+		"tall"										"50"
+		"tall_minmode"								"50"
 	}
 
 	"CSpectatorTargetID"
 	{
 		"ypos"										"330"
-		"tall"	 									"50"
-		"tall_minmode"	 							"50"
+		"tall"										"50"
+		"tall_minmode"								"50"
 	}
 
 	"BuildingAnchor"
@@ -167,17 +167,17 @@
 
 	"HudDeathNotice"
 	{
-		"xpos"	 									"r635"
-		"ypos"	 									"25"
+		"xpos"										"r635"
+		"ypos"										"25"
 
-		"MaxDeathNotices" 							"6"
-		"IconScale"	  								"0.35"
-		"LineHeight"	  							"14"
-		"LineSpacing"	 							"0"
-		"CornerRadius"	  							"1"
-		"RightJustify"	  							"1"
+		"MaxDeathNotices"							"6"
+		"IconScale"									"0.35"
+		"LineHeight"								"14"
+		"linespacing"								"0"
+		"CornerRadius"								"1"
+		"RightJustify"								"1"
 
-		"TextFont"									"Size 11"
+		"TextFont"									"Size_11"
 
 		"TeamBlue"									"Blue"
 		"TeamRed"									"Red"
@@ -192,9 +192,9 @@
 	{
 		"xpos"										"c122"
 		"ypos"										"r30"
-		"zpos" 										"2"
-		"wide"	 									"45"
-		"tall"	 									"30"
+		"zpos"										"2"
+		"wide"										"45"
+		"tall"										"30"
 	}
 
 	"HudCloseCaption"
@@ -209,10 +209,10 @@
 	{
 		"show_avatar"								"1"
 
-        "avatar_xpos"  							 	"-12"
-        "avatar_ypos"  							 	"-1"
-        "avatar_wide"  							 	"17"
-        "avatar_tall"  								"17"
+		"avatar_xpos"								"-12"
+		"avatar_ypos"								"-1"
+		"avatar_wide"								"17"
+		"avatar_tall"								"17"
 
 		"icon_ypos"									"2"
 		"icon_xpos"									"17"

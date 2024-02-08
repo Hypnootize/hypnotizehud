@@ -2,7 +2,7 @@
 {
 	"CDamageAccountPanel"
 	{
-		"delta_item_font"							"Game 22 Outline"
-		"delta_item_font_big"						"Game 22 Outline"
+		"delta_item_font"							"Game_22_Outline"
+		"delta_item_font_big"						"Game_22_Outline"
 	}
 }

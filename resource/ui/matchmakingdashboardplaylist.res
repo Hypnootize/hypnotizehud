@@ -28,8 +28,8 @@
 		"textAlignment"								"center"
 		"wrap"										"1"
 		"centerwrap"								"1"
-		"font"										"Size 24"
-		"fgcolor"									"WhiteDark"
+		"font"										"Size_24"
+		"fgcolor"									"White_Dark"
 		"AllCaps"									"1"
 
 		"mouseinputenabled"							"0"
@@ -44,7 +44,7 @@
 		"zpos"										"99"
 		"wide"										"1"
 		"tall"										"40"
-		"bgcolor_override"							"WhiteDark"
+		"bgcolor_override"							"White_Dark"
 
 		"pin_to_sibling"							"Title"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
@@ -69,6 +69,11 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"PlayListDropShadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 
 	"DashboardDimmer"

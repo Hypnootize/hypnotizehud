@@ -12,7 +12,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		"border"									"MaterialTransparentRed50"
+		"border"									"Material_Transparent_Red_50"
 	}
 
 	"DestroyIcon"
@@ -35,7 +35,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Destroy"
-		"font"										"Symbols 34"
+		"font"										"Symbols_34"
 		"fgcolor"									"247 162 92 255"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
@@ -53,7 +53,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"fgcolor"									"White"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
@@ -73,17 +73,32 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemNameLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BuildingIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"BuildingIcon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ItemBackground"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"ItemBackground"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

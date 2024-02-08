@@ -1,2 +1,2 @@
-#base	"../../customizations/streamermode/hudtournament.res"
-#base 	"hudtournament_base.res"
+#base "../../customizations/streamermode/hudtournament.res"
+#base "hudtournament_base.res"

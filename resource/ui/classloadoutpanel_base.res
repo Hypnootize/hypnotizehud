@@ -1,4 +1,4 @@
-#base "../../resource/tools/reloadschemebutton.res"
+#base "../tools/reloadschemebutton.res"
 
 "Resource/UI/ClassLoadoutPanel.res"
 {
@@ -9,15 +9,13 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayDarkest"
-		"infocus_bgcolor_override" 					"GrayDarkest"
-		"outoffocus_bgcolor_override" 				"GrayDarkest"
+		"bgcolor_override"							"Gray_Darkest"
+		"infocus_bgcolor_override"					"Gray_Darkest"
+		"outoffocus_bgcolor_override"				"Gray_Darkest"
 
 		"item_xpos_offcenter_a"						"-320"
 		"item_xpos_offcenter_b"						"175"
@@ -32,7 +30,7 @@
 		"button_xpos_offcenter"						"175"
 		"button_ypos"								"85"
 		"button_ydelta"								"80"
-		"button_override_delete_xpos" 				"0"
+		"button_override_delete_xpos"				"0"
 
 		"modelpanels_kv"
 		{
@@ -62,13 +60,13 @@
 
 			"attriblabel"
 			{
-				"font"								"Size 11"
+				"font"								"Size_11"
 				"visible"							"0"
 			}
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
+				"use_item_rendertarget"				"0"
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
@@ -82,11 +80,10 @@
 			"zpos"									"1"
 			"wide"									"22"
 			"tall"									"22"
-			"autoResize"							"0"
 			"visible"								"0"
 			"enabled"								"1"
 			"labelText"								"}"
-			"font"									"Symbols 14"
+			"font"									"Symbols_14"
 			"textAlignment"							"center"
 			"default"								"1"
 
@@ -95,12 +92,12 @@
 
 			"paintbackground"						"0"
 
-			"border_default"						"MaterialGrayDarkest"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Gray_Darkest"
+			"border_armed"							"Material_Hypno"
 
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"White"
-			"depressedFgColor_override" 			"White"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White"
+			"depressedFgColor_override"				"White"
 		}
 	}
 
@@ -114,8 +111,6 @@
 		"zpos"										"-1"
 		"wide"										"270"
 		"tall"										"340"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 
@@ -127,16 +122,16 @@
 		{
 			"force_pos"								"1"
 
-			"angles_x" 								"0"
-			"angles_y" 								"170"
-			"angles_z" 								"0"
-			"origin_x" 								"190"
-			"origin_y" 								"0"
-			"origin_z" 								"-48"
+			"angles_x"								"0"
+			"angles_y"								"170"
+			"angles_z"								"0"
+			"origin_x"								"190"
+			"origin_y"								"0"
+			"origin_z"								"-48"
 			"frame_origin_x"						"0"
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
-			"spotlight" 							"1"
+			"spotlight"								"1"
 
 			"modelname"								""
 		}
@@ -170,8 +165,6 @@
 			"zpos"									"2"
 			"wide"									"140"
 			"tall"									"60"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"%attriblist%"
@@ -188,8 +181,6 @@
 		"zpos"										"20"
 		"wide"										"150"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
@@ -204,9 +195,8 @@
 		"zpos"										"100"
 		"wide"										"140"
 		"tall"										"75"
-		"autoResize"								"1"
 		"visible"									"0"
-		"bgcolor_override"							"BlackLight"
+		"bgcolor_override"							"Black_Light"
 		"PaintBackgroundType"						"0"
 	}
 
@@ -219,14 +209,12 @@
 		"zpos"										"22"
 		"wide"										"24"
 		"tall"										"24"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"default"									"0"
 		"textAlignment"								"center"
 		"labelText"									"L"
-		"font"										"Symbols 20"
+		"font"										"Symbols_20"
 		"Command"									"characterloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
@@ -235,11 +223,11 @@
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 
-		"defaultBgColor_override"					"GrayDark"
-		"armedBgColor_override"						"Main Theme"
-		"depressedBgColor_override" 				"GrayDark"
+		"defaultBgColor_override"					"Gray_Dark"
+		"armedBgColor_override"						"Main_Theme"
+		"depressedBgColor_override"					"Gray_Dark"
 	}
 
 	"TauntLoadoutButton"
@@ -251,14 +239,12 @@
 		"zpos"										"22"
 		"wide"										"24"
 		"tall"										"24"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"default"									"0"
 		"textAlignment"								"center"
 		"labelText"									"^"
-		"font"										"Symbols 20"
+		"font"										"Symbols_20"
 		"Command"									"tauntloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
@@ -267,11 +253,11 @@
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 
-		"defaultBgColor_override"					"GrayDark"
-		"armedBgColor_override"						"Main Theme"
-		"depressedBgColor_override" 				"GrayDark"
+		"defaultBgColor_override"					"Gray_Dark"
+		"armedBgColor_override"						"Main_Theme"
+		"depressedBgColor_override"					"Gray_Dark"
 	}
 
 	"BlueButton"
@@ -283,13 +269,11 @@
 		"zpos"										"20"
 		"wide"										"15"
 		"tall"										"15"
-		"autoResize"								"1"
-		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"v"
 		"textAlignment"								"center"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"scaleImage"								"1"
 		"command"									"sv_cheats 1; r_skin 1"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -297,9 +281,9 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override" 					"Blue"
-		"armedFgColor_override" 					"Blue"
-		"depressedFgColor_override" 				"Blue"
+		"defaultFgColor_override"					"Blue"
+		"armedFgColor_override"						"Blue"
+		"depressedFgColor_override"					"Blue"
 	}
 
 	"RedButton"
@@ -311,13 +295,11 @@
 		"zpos"										"20"
 		"wide"										"15"
 		"tall"										"15"
-		"autoResize"								"1"
-		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"v"
 		"textAlignment"								"center"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"scaleImage"								"1"
 		"command"									"sv_cheats 1;r_skin 0"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -325,9 +307,9 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override" 					"Red"
-		"armedFgColor_override" 					"Red"
-		"depressedFgColor_override" 				"Red"
+		"defaultFgColor_override"					"Red"
+		"armedFgColor_override"						"Red"
+		"depressedFgColor_override"					"Red"
 	}
 
 	"PresetsExplanation"
@@ -341,8 +323,8 @@
 		"tall"										"160"
 		"visible"									"0"
 		"PaintBackgroundType"						"2"
-		"paintbackground" 							"0"
-		"border"									"MaterialBlackDark"
+		"paintbackground"							"0"
+		"border"									"Material_Black_Dark"
 
 		"force_close"								"1"
 		"end_x"										"c-200"
@@ -357,39 +339,35 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#ItemPresetsExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
 			"ypos"									"10"
 			"wide"									"210"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#ClassLoadoutItemPresetsExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
 			"ypos"									"35"
 			"wide"									"210"
 			"tall"									"200"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -401,12 +379,10 @@
 			"zpos"									"10"
 			"wide"									"18"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"close"
@@ -416,9 +392,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
+			"defaultFgColor_override"				"White_Dark"
 			"armedFgColor_override"					"Red"
-			"depressedFgColor_override" 			"Red"
+			"depressedFgColor_override"				"Red"
 		}
 	}
 
@@ -433,8 +409,8 @@
 		"tall"										"160"
 		"visible"									"0"
 		"PaintBackgroundType"						"2"
-		"paintbackground" 							"0"
-		"border"									"MaterialBlackDark"
+		"paintbackground"							"0"
+		"border"									"Material_Black_Dark"
 
 		"force_close"								"1"
 		"end_x"										"c-200"
@@ -449,39 +425,35 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#TauntsExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
 			"ypos"									"10"
 			"wide"									"210"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#ClassLoadoutTauntsExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
 			"ypos"									"35"
 			"wide"									"210"
 			"tall"									"200"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 		}
 
 		"CloseButton"
@@ -493,12 +465,10 @@
 			"zpos"									"10"
 			"wide"									"18"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"close"
@@ -508,9 +478,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
+			"defaultFgColor_override"				"White_Dark"
 			"armedFgColor_override"					"Red"
-			"depressedFgColor_override" 			"Red"
+			"depressedFgColor_override"				"Red"
 		}
 	}
 
@@ -523,40 +493,75 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"CaratLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ClassLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ClassLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TauntCaratLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TauntCaratLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TauntLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TauntLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TopLine"
 	{
 		"ControlName"								"ImagePanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"PassiveAttribsLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PassiveAttribsLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TauntHintLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TauntHintLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

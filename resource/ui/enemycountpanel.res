@@ -39,7 +39,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"
-		"PaintBackgroundType" 						"0"
+		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"White"
 	}
 
@@ -56,10 +56,10 @@
 		"enabled"									"1"
 		"scaleImage"								"1"
 		"PaintBackgroundType"						"0"
-		//"bgcolor" 								"Yellow"
+		//"bgcolor"									"Yellow"
 		//"bgcolor_override"						"Yellow"
 		//"fgcolor_override"						"Yellow"
-		//"PaintBackgroundType" 					"0"
+		//"PaintBackgroundType"						"0"
 		"image"										"../hud/leaderboard_class_critical"
 	}
 
@@ -67,7 +67,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"EnemyCount"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"fgcolor"									"White"
 		"xpos"										"0"
 		"ypos"										"19"
@@ -84,7 +84,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"EnemyCountShadow"
-		"font"										"Size 12 Blur"
+		"font"										"Size_12_Blur"
 		"fgcolor"									"Shadow"
 		"xpos"										"0"
 		"ypos"										"19"

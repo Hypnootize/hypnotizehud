@@ -23,14 +23,14 @@
 		"tall"										"480"
 		"visible"									"1"
 		"enabled"									"1"
-		"fillcolor"									"GrayDarkest"
+		"fillcolor"									"Gray_Darkest"
 	}
 
 	"MapType"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"MapType"
-		"font"										"Size 30"
+		"font"										"Size_30"
 		"labelText"									"%maptype%"
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5"
@@ -38,20 +38,18 @@
 		"zpos"										"91"
 		"wide"										"f0"
 		"tall"										"30"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"GrayDark"
+		"fgcolor"									"Gray_Dark"
 	}
 
 	"MapLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"MapLabel"
-		"font"										"Size 44"
+		"font"										"Size_44"
 		"labelText"									"%maplabel%"
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5"
@@ -59,13 +57,11 @@
 		"zpos"										"91"
 		"wide"										"f0"
 		"tall"										"100"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"MainBackground"
@@ -73,47 +69,87 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"MainBackground"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MapInfo"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"MapInfo"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"StatData"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"StatData"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TipImage"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"TipImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TipText"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TipText"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NextTipButton"
 	{
 		"ControlName"								"Button"
 		"fieldName"									"NextTipButton"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ResetStatsButton"
 	{
 		"ControlName"								"Button"
 		"fieldName"									"ResetStatsButton"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CloseButton"
 	{
 		"ControlName"								"Button"
 		"fieldName"									"CloseButton"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

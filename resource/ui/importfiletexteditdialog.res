@@ -11,14 +11,14 @@
 		"tall"										"360"
 		"paintbackground"							"0"
 		"paintborder"								"1"
-		"border"									"MaterialBlackDark"
+		"border"									"Material_Black_Dark"
 	}
 
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Size 24"
+		"font"										"Size_24"
 		"textAlignment"								"center"
 		"labelText"									"#Frame_Untitled"
 		"xpos"										"10"
@@ -27,7 +27,7 @@
 		"wide"										"540"
 		"tall"										"25"
 		"centerwrap"								"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"TextEntry"
@@ -39,11 +39,11 @@
 		"zpos"										"-1"
 		"wide"										"540"
 		"tall"										"280"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"north-west"
 		"labelText"									""
-		"bgcolor_override"							"BlackLight"
-		"fgcolor_override"							"WhiteDark"
+		"bgcolor_override"							"Black_Light"
+		"fgcolor_override"							"White_Dark"
 	}
 
 	"ButtonClose"
@@ -60,15 +60,15 @@
 		"textAlignment"								"center"
 		"Command"									"Close"
 		"Default"									"0"
-		"font"										"Size 14"
+		"font"										"Size_14"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDarker"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Darker"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"ButtonDone"
@@ -85,14 +85,14 @@
 		"textAlignment"								"center"
 		"Command"									"Done"
 		"Default"									"0"
-		"font"										"Size 14"
+		"font"										"Size_14"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDarker"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Darker"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 }

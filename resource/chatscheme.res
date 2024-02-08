@@ -2,25 +2,25 @@
 {
 	"Colors"
 	{
-	    "TFDarkBrown"               					"60 56 53 255"
-	    "TFDarkBrownTransparent"    					"60 56 53 190"
-	    "TFTanBright"               					"236 227 203 150"
-	    "TFTanLight"                					"201 188 162 150"
-	    "TFTanMedium"               					"131 121 104 150"
-	    "TFTanLightBright"          					"229 223 211 90"
-	    "TFTanLightDark"            					"96 90 78 90"
-	    "TFOrangeBright"            					"156 82 33 255"
-	    "TFTextBright"              					"251 236 203 150"
-	    "TFTextLight"               					"201 188 162 255"
-	    "TFTextMedium"									"131 121 104 255"
-	    "TFTextMediumDark"								"104 96 83 255"
-	    "TFTextBlack"									"42 39 37 255"
-	    "TFTextDull"									"131 121 104 255"
-	    "TFMediumBrown"									"69 64 58 255"
-	    "QuickListBGDeselected"							"69 64 58 255"
-	    "QuickListBGSelected"							"131 121 104 150"
-	    "Blank"											"0 0 0 0"
-	    "White"											"255 255 255 255"
+		"TFDarkBrown"									"60 56 53 255"
+		"TFDarkBrownTransparent"						"60 56 53 190"
+		"TFTanBright"									"236 227 203 150"
+		"TFTanLight"									"201 188 162 150"
+		"TFTanMedium"									"131 121 104 150"
+		"TFTanLightBright"								"229 223 211 90"
+		"TFTanLightDark"								"96 90 78 90"
+		"TFOrangeBright"								"156 82 33 255"
+		"TFTextBright"									"251 236 203 150"
+		"TFTextLight"									"201 188 162 255"
+		"TFTextMedium"									"131 121 104 255"
+		"TFTextMediumDark"								"104 96 83 255"
+		"TFTextBlack"									"42 39 37 255"
+		"TFTextDull"									"131 121 104 255"
+		"TFMediumBrown"									"69 64 58 255"
+		"QuickListBGDeselected"							"69 64 58 255"
+		"QuickListBGSelected"							"131 121 104 150"
+		"Blank"											"0 0 0 0"
+		"White"											"255 255 255 255"
 		"Green"											"63 185 73 255"
 		"ControlBG"										"76 88 68 255"
 		"ControlDarkBG"									"90 106 80 255"
@@ -49,10 +49,10 @@
 		"CheckButton.HighlightFgColor"					"TFTextMedium"
 		"CheckButton.ArmedBgColor"						"Blank"
 		"CheckButton.DepressedBgColor"					"Blank"
-		"CheckButton.Border1"  							"Border.Dark"
-		"CheckButton.Border2" 							"Border.Bright"
+		"CheckButton.Border1"							"Border.Dark"
+		"CheckButton.Border2"							"Border.Bright"
 		"CheckButton.Check"								"TFTanBright"
-		"CheckButton.DisabledBgColor"	   	 			"ListBG"
+		"CheckButton.DisabledBgColor"					"ListBG"
 
 		"ComboBoxButton.ArrowColor"						"TFTanLight"
 		"ComboBoxButton.ArmedArrowColor"				"TFTanBright"
@@ -461,7 +461,7 @@
 			{
 				"1"
 				{
-					"color" 							"Border.Dark"
+					"color"								"Border.Dark"
 					"offset"							"0 1"
 				}
 			}
@@ -470,7 +470,7 @@
 			{
 				"1"
 				{
-					"color" 							"Border.Bright"
+					"color"								"Border.Bright"
 					"offset"							"1 0"
 				}
 			}
@@ -479,8 +479,8 @@
 			{
 				"1"
 				{
-					"color" 							"Border.Dark"
-					"offset" 							"0 0"
+					"color"								"Border.Dark"
+					"offset"							"0 0"
 				}
 			}
 
@@ -488,8 +488,8 @@
 			{
 				"1"
 				{
-					"color" 							"Border.Bright"
-					"offset" 							"0 0"
+					"color"								"Border.Bright"
+					"offset"							"0 0"
 				}
 			}
 		}
@@ -502,7 +502,7 @@
 			{
 				"1"
 				{
-					"color" 							"Border.Bright"
+					"color"								"Border.Bright"
 					"offset"							"0 1"
 				}
 			}
@@ -511,8 +511,8 @@
 			{
 				"1"
 				{
-					"color" 							"Border.Dark"
-					"offset" 							"0 0"
+					"color"								"Border.Dark"
+					"offset"							"0 0"
 				}
 			}
 
@@ -520,8 +520,8 @@
 			{
 				"1"
 				{
-					"color" 							"Border.Bright"
-					"offset" 							"0 1"
+					"color"								"Border.Bright"
+					"offset"							"0 1"
 				}
 			}
 
@@ -529,8 +529,8 @@
 			{
 				"1"
 				{
-					"color"	 							"Border.Dark"
-					"offset" 							"0 0"
+					"color"								"Border.Dark"
+					"offset"							"0 0"
 				}
 			}
 		}
@@ -558,8 +558,8 @@
 			{
 				"1"
 				{
-					"color" 							"Blank"
-					"offset" 							"0 1"
+					"color"								"Blank"
+					"offset"							"0 1"
 				}
 			}
 
@@ -567,8 +567,8 @@
 			{
 				"1"
 				{
-					"color" 							"Blank"
-					"offset" 							"1 0"
+					"color"								"Blank"
+					"offset"							"1 0"
 				}
 			}
 
@@ -576,8 +576,8 @@
 			{
 				"1"
 				{
-					"color"	 							"Blank"
-					"offset" 							"0 0"
+					"color"								"Blank"
+					"offset"							"0 0"
 				}
 			}
 
@@ -585,8 +585,8 @@
 			{
 				"1"
 				{
-					"color" 							"Blank"
-					"offset" 							"0 0"
+					"color"								"Blank"
+					"offset"							"0 0"
 				}
 			}
 		}
@@ -599,8 +599,8 @@
 			{
 				"1"
 				{
-					"color" 							"Blank"
-					"offset" 							"0 1"
+					"color"								"Blank"
+					"offset"							"0 1"
 				}
 			}
 
@@ -608,8 +608,8 @@
 			{
 				"1"
 				{
-					"color" 							"Blank"
-					"offset" 							"1 0"
+					"color"								"Blank"
+					"offset"							"1 0"
 				}
 			}
 
@@ -617,8 +617,8 @@
 			{
 				"1"
 				{
-					"color" 							"Blank"
-					"offset" 							"0 0"
+					"color"								"Blank"
+					"offset"							"0 0"
 				}
 			}
 
@@ -626,22 +626,22 @@
 			{
 				"1"
 				{
-					"color" 							"Blank"
-					"offset" 							"0 0"
+					"color"								"Blank"
+					"offset"							"0 0"
 				}
 			}
 		}
 
 		"TabBorder"
 		{
-			"inset" 									"0 0 1 1"
+			"inset"										"0 0 1 1"
 
 			"Left"
 			{
 				"1"
 				{
-					"color" 							"Border.Bright"
-					"offset" 							"0 1"
+					"color"								"Border.Bright"
+					"offset"							"0 1"
 				}
 			}
 
@@ -649,8 +649,8 @@
 			{
 				"1"
 				{
-					"color" 							"Border.Dark"
-					"offset" 							"1 0"
+					"color"								"Border.Dark"
+					"offset"							"1 0"
 				}
 			}
 
@@ -658,8 +658,8 @@
 			{
 				"1"
 				{
-					"color" 							"Border.Bright"
-					"offset" 							"0 0"
+					"color"								"Border.Bright"
+					"offset"							"0 0"
 				}
 			}
 
@@ -673,8 +673,8 @@
 			{
 				"1"
 				{
-					"color" 							"Border.Bright"
-					"offset" 							"0 0"
+					"color"								"Border.Bright"
+					"offset"							"0 0"
 				}
 			}
 
@@ -682,8 +682,8 @@
 			{
 				"1"
 				{
-					"color" 							"Border.Dark"
-					"offset" 							"1 0"
+					"color"								"Border.Dark"
+					"offset"							"1 0"
 				}
 			}
 
@@ -691,8 +691,8 @@
 			{
 				"1"
 				{
-					"color" 							"Border.Bright"
-					"offset" 							"0 0"
+					"color"								"Border.Bright"
+					"offset"							"0 0"
 				}
 			}
 
@@ -701,14 +701,14 @@
 
 		"ToolTipBorder"
 		{
-			"inset" 									"0 0 1 0"
+			"inset"										"0 0 1 0"
 
 			"Left"
 			{
 				"1"
 				{
-					"color" 							"Border.Dark"
-					"offset" 							"0 0"
+					"color"								"Border.Dark"
+					"offset"							"0 0"
 				}
 			}
 
@@ -716,8 +716,8 @@
 			{
 				"1"
 				{
-					"color" 							"Border.Dark"
-					"offset" 							"1 0"
+					"color"								"Border.Dark"
+					"offset"							"1 0"
 				}
 			}
 
@@ -725,8 +725,8 @@
 			{
 				"1"
 				{
-					"color" 							"Border.Dark"
-					"offset" 							"0 0"
+					"color"								"Border.Dark"
+					"offset"							"0 0"
 				}
 			}
 
@@ -734,28 +734,28 @@
 			{
 				"1"
 				{
-					"color" 							"Border.Dark"
-					"offset" 							"0 0"
+					"color"								"Border.Dark"
+					"offset"							"0 0"
 				}
 			}
 		}
 
 		"ButtonKeyFocusBorder"
 		{
-			"inset" 									"0 0 1 1"
+			"inset"										"0 0 1 1"
 
 			"Left"
 			{
 				"1"
 				{
-					"color" 							"Border.Selection"
-					"offset" 							"0 0"
+					"color"								"Border.Selection"
+					"offset"							"0 0"
 				}
 
 				"2"
 				{
-					"color" 							"Border.Bright"
-					"offset" 							"0 1"
+					"color"								"Border.Bright"
+					"offset"							"0 1"
 				}
 			}
 
@@ -763,14 +763,14 @@
 			{
 				"1"
 				{
-					"color" 							"Border.Selection"
-					"offset" 							"0 0"
+					"color"								"Border.Selection"
+					"offset"							"0 0"
 				}
 
 				"2"
 				{
 					"color"								"Border.Bright"
-					"offset" 							"1 0"
+					"offset"							"1 0"
 				}
 			}
 
@@ -778,13 +778,13 @@
 			{
 				"1"
 				{
-					"color" 							"Border.Selection"
-					"offset" 							"0 0"
+					"color"								"Border.Selection"
+					"offset"							"0 0"
 				}
 
 				"2"
 				{
-					"color"	 							"Border.Dark"
+					"color"								"Border.Dark"
 					"offset"							"1 0"
 				}
 			}
@@ -793,28 +793,28 @@
 			{
 				"1"
 				{
-					"color" 							"Border.Selection"
-					"offset" 							"0 0"
+					"color"								"Border.Selection"
+					"offset"							"0 0"
 				}
 
 				"2"
 				{
-					"color" 							"Border.Dark"
-					"offset" 							"0 0"
+					"color"								"Border.Dark"
+					"offset"							"0 0"
 				}
 			}
 		}
 
 		"ButtonDepressedBorder"
 		{
-			"inset" 									"2 1 1 1"
+			"inset"										"2 1 1 1"
 
 			"Left"
 			{
 				"1"
 				{
-					"color" 							"Border.Dark"
-					"offset" 							"0 1"
+					"color"								"Border.Dark"
+					"offset"							"0 1"
 				}
 			}
 
@@ -822,8 +822,8 @@
 			{
 				"1"
 				{
-					"color" 							"Border.Bright"
-					"offset" 							"1 0"
+					"color"								"Border.Bright"
+					"offset"							"1 0"
 				}
 			}
 
@@ -831,8 +831,8 @@
 			{
 				"1"
 				{
-					"color" 							"Border.Dark"
-					"offset" 							"0 0"
+					"color"								"Border.Dark"
+					"offset"							"0 0"
 				}
 			}
 
@@ -840,8 +840,8 @@
 			{
 				"1"
 				{
-					"color" 							"Border.Bright"
-					"offset" 							"0 0"
+					"color"								"Border.Bright"
+					"offset"							"0 0"
 				}
 			}
 		}

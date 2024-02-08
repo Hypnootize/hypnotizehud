@@ -8,7 +8,7 @@
 		"ypos"										"0"
 		"wide"										"32"
 		"tall"										"32"
-		"font"										"Symbols 12"
+		"font"										"Symbols_12"
 		"labelText"									"-"
 		"textAlignment"								"center"
 		"fgcolor"									"Red"

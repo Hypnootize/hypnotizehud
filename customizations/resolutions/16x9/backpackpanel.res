@@ -91,7 +91,7 @@
 		"ypos"										"c-195"
 		"wide"										"30"
 		"tall"										"286"
-		"font"										"Symbols 26"
+		"font"										"Symbols_26"
 	}
 	"DragToPrevPageButton"
 	{
@@ -99,6 +99,6 @@
 		"ypos"										"c-195"
 		"wide"										"30"
 		"tall"										"286"
-		"font"										"Symbols 26"
+		"font"										"Symbols_26"
 	}
 }

@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Notification_Label"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"xpos"										"cs-0.5"
 		"ypos"										"0"
 		"zpos"										"1"
@@ -25,6 +25,8 @@
 	{
 		"ControlName"								"CImagePanel"
 		"fieldName"									"Notification_Background"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
@@ -34,6 +36,8 @@
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"Notification_Icon"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"

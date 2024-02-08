@@ -14,11 +14,11 @@
 		"keyboardinputenabled"						"1"
 		"mouseinputenabled"							"1"
 		"border"									"NoBorder"
-		"bgcolor_override"							"BlackLight"
+		"bgcolor_override"							"Black_Light"
 
-		"log_font_small"							"Size 24"
-		"log_font_medium"							"Size 24"
-		"log_font_large"							"Size 24"
+		"log_font_small"							"Size_24"
+		"log_font_medium"							"Size_24"
+		"log_font_large"							"Size_24"
 
 		"chat_color_default"						"255 255 255 255"
 		"chat_color_player_name"					"255 255 0 255"
@@ -43,12 +43,10 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 		"RoundedCorners"							"0"
-		"font"										"Size 11"
+		"font"										"Size_11"
 
 		"paintbackground"							"0"
 
-		"pinCorner"									"2"
-		"autoResize"								"1"
 
 		"ScrollBar"
 		{
@@ -63,7 +61,7 @@
 
 			"Slider"
 			{
-				"fgcolor_override"					"GrayDarker"
+				"fgcolor_override"					"Gray_Darker"
 			}
 
 			"UpButton"
@@ -93,18 +91,16 @@
 		"tall"										"15"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		"bgcolor_override"							"GrayDarker"
+		"bgcolor_override"							"Gray_Darker"
 		"RoundedCorners"							"0"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"alpha"										"0"
 		"mouseinputenabled"							"0"
 
-		"pinCorner"									"2"
-		//"autoResize"								"1"
 
-		"pin_to_sibling" 							"chatlog"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"chatlog"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"EntryShadow"
@@ -124,7 +120,5 @@
 
 		"keyboardinputenabled"						"0"
 		"mouseinputenabled"							"0"
-
-		"pinCorner"									"2"
 	}
 }

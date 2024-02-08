@@ -1,8 +1,8 @@
-#base	"../../../../../customizations/resolutions/4x3/storepage.res"
-#base	"../../../../../customizations/resolutions/5x4/storepage.res"
-#base	"../../../../../customizations/resolutions/16x10/storepage.res"
-#base	"../../../../../customizations/resolutions/16x9/storepage.res"
-#base 	"storepage.res"
+#base "../../../../../customizations/resolutions/4x3/storepage.res"
+#base "../../../../../customizations/resolutions/5x4/storepage.res"
+#base "../../../../../customizations/resolutions/16x10/storepage.res"
+#base "../../../../../customizations/resolutions/16x9/storepage.res"
+#base "storepage.res"
 
 "Resource/UI/Econ/Store/V2/StorePage_Maps.res"
 {
@@ -18,7 +18,7 @@
 			"itemmodelpanel"
 			{
 				"force_square_image"				"1"
-				"inventory_image_type" 				"1"
+				"inventory_image_type"				"1"
 			}
 		}
 	}
@@ -82,7 +82,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									"#Store_Maps_Title"
 		"textAlignment"								"north-west"
 		"xpos"										"c-296"
@@ -90,19 +90,17 @@
 		"zpos"										"5"
 		"wide"										"500"
 		"tall"										"25"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"SubTitleLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SubTitleLabel"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"labelText"									"#Store_Maps_SubTitle"
 		"textAlignment"								"south-west"
 		"xpos"										"c-301"
@@ -110,8 +108,6 @@
 		"zpos"										"5"
 		"wide"										"500"
 		"tall"										"25"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"AllCaps"									"1"
@@ -127,12 +123,10 @@
 		"zpos"										"5"
 		"wide"										"110"
 		"tall"										"22"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"learn more"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"Command"									"maps_learnmore"
 		"AllCaps"									"1"
@@ -140,8 +134,8 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"

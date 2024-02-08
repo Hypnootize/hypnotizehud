@@ -1,4 +1,4 @@
-#base "../../resource/tools/reloadschemebutton.res"
+#base "../tools/reloadschemebutton.res"
 
 "Resource/UI/AbuseReportSubmitDialog.res"
 {
@@ -11,7 +11,7 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
-		"bgcolor_override"							"GrayDarkest"
+		"bgcolor_override"							"Gray_Darkest"
 	}
 
 	"BackgroundCustom"
@@ -26,14 +26,14 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
-		"border"									"MaterialBlackDark"
+		"border"									"Material_Black_Dark"
 	}
 
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Size 24"
+		"font"										"Size_24"
 		"labelText"									"#AbuseReport_DialogTitle"
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5"
@@ -44,7 +44,7 @@
 		"centerwrap"								"1"
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"GameServerRadio"
@@ -58,7 +58,7 @@
 		"wide"										"170"
 		"tall"										"20"
 		"editable"									"0"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"AllCaps"									"1"
 	}
 
@@ -73,7 +73,7 @@
 		"wide"										"170"
 		"tall"										"20"
 		"editable"									"0"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"AllCaps"									"1"
 	}
 
@@ -88,7 +88,7 @@
 		"wide"										"170"
 		"tall"										"15"
 		"editable"									"0"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"AllCaps"									"1"
 	}
 
@@ -102,16 +102,16 @@
 		"wide"										"170"
 		"tall"										"15"
 		"editable"									"0"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"AllCaps"									"1"
 
 		//"fgcolor_override"						"White"
 		"bgcolor_override"							"Black"
-		//"disabledFgColor_override" 				"White"
-		"disabledBgColor_override" 					"Black"
-		"selectionColor_override" 					"Black"
-		"selectionTextColor_override" 				"White"
-		"defaultSelectionBG2Color_override" 		"Blank"
+		//"disabledFgColor_override"				"White"
+		"disabledBgColor_override"					"Black"
+		"selectionColor_override"					"Black"
+		"selectionTextColor_override"				"White"
+		"defaultSelectionBG2Color_override"			"Blank"
 	}
 
 	"AbuseContentLabel"
@@ -125,7 +125,7 @@
 		"wide"										"170"
 		"tall"										"15"
 		"editable"									"0"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"AllCaps"									"1"
 	}
 
@@ -139,16 +139,16 @@
 		"wide"										"170"
 		"tall"										"15"
 		"editable"									"0"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"AllCaps"									"1"
 
 		//"fgcolor_override"						"White"
 		"bgcolor_override"							"Black"
-		//"disabledFgColor_override" 				"White"
-		"disabledBgColor_override"				 	"Black"
+		//"disabledFgColor_override"				"White"
+		"disabledBgColor_override"					"Black"
 		"selectionColor_override"					"Black"
-		"selectionTextColor_override" 				"White"
-		"defaultSelectionBG2Color_override" 		"Blank"
+		"selectionTextColor_override"				"White"
+		"defaultSelectionBG2Color_override"			"Blank"
 	}
 
 	"AbuseTypeLabel"
@@ -162,7 +162,7 @@
 		"wide"										"170"
 		"tall"										"15"
 		"editable"									"0"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"AllCaps"									"1"
 	}
 
@@ -176,16 +176,16 @@
 		"wide"										"170"
 		"tall"										"15"
 		"editable"									"0"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"AllCaps"									"1"
 
 		//"fgcolor_override"						"White"
 		"bgcolor_override"							"Black"
-		//"disabledFgColor_override" 				"White"
-		"disabledBgColor_override" 					"Black"
-		"selectionColor_override" 					"Black"
-		"selectionTextColor_override" 				"White"
-		"defaultSelectionBG2Color_override" 		"Blank"
+		//"disabledFgColor_override"				"White"
+		"disabledBgColor_override"					"Black"
+		"selectionColor_override"					"Black"
+		"selectionTextColor_override"				"White"
+		"defaultSelectionBG2Color_override"			"Blank"
 	}
 
 	"ScreenShotBitmap"
@@ -211,7 +211,7 @@
 		"wide"										"360"
 		"tall"										"18"
 		"labelText"									"Screenshot shows abuse; upload it with report."
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"west"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -244,7 +244,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#AbuseReport_NoAvatar"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"centerwrap"								"1"
 		"AllCaps"									"1"
 	}
@@ -271,12 +271,10 @@
 		"zpos"										"20"
 		"wide"										"18"
 		"tall"										"43"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_LessThan"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"textinsetx"								"0"
 		"Command"									"prevcustomtexture"
@@ -285,12 +283,12 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"CustomTextureNextButton"
@@ -302,12 +300,10 @@
 		"zpos"										"20"
 		"wide"										"18"
 		"tall"										"43"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_GreaterThan"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"Command"									"nextcustomtexture"
 		"AllCaps"									"1"
@@ -315,12 +311,12 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"NoCustomTexturesLabel"
@@ -335,7 +331,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#AbuseReport_NoCustomTextures"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"centerwrap"								"1"
 		"AllCaps"									"1"
 	}
@@ -351,7 +347,7 @@
 		"wide"										"140"
 		"tall"										"15"
 		"editable"									"0"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"AllCaps"									"1"
 	}
 
@@ -364,9 +360,9 @@
 		"zpos"										"2"
 		"wide"										"540"
 		"tall"										"90"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"AllCaps"									"1"
-		"bgcolor_override"							"BlackLight"
+		"bgcolor_override"							"Black_Light"
 		"fgcolor_override"							"White"
 		"maxchars"									"512"
 	}
@@ -381,7 +377,7 @@
 		"wide"										"130"
 		"tall"										"30"
 		"labelText"									"#AbuseReport_Discard"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"Command"									"discard"
 		"AllCaps"									"1"
@@ -389,12 +385,12 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"SubmitButton"
@@ -407,7 +403,7 @@
 		"wide"										"130"
 		"tall"										"30"
 		"labelText"									"#AbuseReport_Submit"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"Command"									"submit"
 		"AllCaps"									"1"
@@ -415,12 +411,12 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"SaveForLaterButton"
@@ -433,7 +429,7 @@
 		"wide"										"130"
 		"tall"										"30"
 		"labelText"									"#AbuseReport_SaveForLater"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"Command"									"cancel"
 		"AllCaps"									"1"
@@ -441,11 +437,11 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 }

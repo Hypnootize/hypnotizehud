@@ -1,4 +1,4 @@
-#base "../../resource/tools/reloadschemebutton.res"
+#base "../tools/reloadschemebutton.res"
 
 "Resource/UI/SelectPlayerDialog_Coach.res"
 {
@@ -29,27 +29,25 @@
 				"ypos"								"0"
 				"wide"								"375"
 				"tall"								"30"
-				"autoResize"						"0"
-				"pinCorner"							"3"
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							""
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"textAlignment"						"west"
 				"textinsetx"						"34"
-				"use_proportional_insets" 			"1"
+				"use_proportional_insets"			"1"
 				"default"							"1"
 				"AllCaps"							"1"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
 
 				"paintbackground"					"0"
-				"border_default"					"MaterialGrayDark"
-				"border_armed"						"MaterialHypno"
+				"border_default"					"Material_Gray_Dark"
+				"border_armed"						"Material_Hypno"
 
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
-				"depressedFgColor_override" 		"White"
+				"depressedFgColor_override"			"White"
 			}
 
 			"avatar"
@@ -65,7 +63,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"scaleImage"						"1"
-				"color_outline"						"WhiteDark"
+				"color_outline"						"White_Dark"
 			}
 		}
 	}
@@ -82,14 +80,14 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
-		"border"									"MaterialBlackDark"
+		"border"									"Material_Black_Dark"
 	}
 
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Size 24"
+		"font"										"Size_24"
 		"labelText"									"%title%"
 		"textAlignment"								"north"
 		"xpos"										"c-200"
@@ -97,12 +95,10 @@
 		"zpos"										"4"
 		"wide"										"400"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"PlayerListScroller"
@@ -115,8 +111,8 @@
 		"wide"										"380"
 		"tall"										"130"
 		"PaintBackgroundType"						"0"
-		"fgcolor_override"							"WhiteDark"
-		"bgcolor_override"							"BlackLight"
+		"fgcolor_override"							"White_Dark"
+		"bgcolor_override"							"Black_Light"
 
 		"PlayerList"
 		{
@@ -145,21 +141,21 @@
 	"StatePanel0"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName" 								"StatePanel0"
-		"visible" 									"1"
-		"enabled" 									"1"
+		"fieldName"									"StatePanel0"
+		"visible"									"1"
+		"enabled"									"1"
 		"xpos"										"c-200"
 		"ypos"										"130"
 		"zpos"										"3"
-		"wide"	 									"400"
-		"tall"	 									"180"
+		"wide"										"400"
+		"tall"										"180"
 		"PaintBackgroundType"						"0"
 
 		"QueryLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"QueryLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#TF_SelectPlayer_Select"
 			"textAlignment"							"north"
 			"xpos"									"0"
@@ -167,12 +163,10 @@
 			"zpos"									"-1"
 			"wide"									"400"
 			"tall"									"15"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"subbutton0"
@@ -184,12 +178,10 @@
 			"zpos"									"1"
 			"wide"									"200"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_SelectPlayer_SelectFriends"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"friends"
@@ -198,12 +190,12 @@
 			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"paintbackground"						"0"
-			"border_default"						"MaterialGrayDark"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Gray_Dark"
+			"border_armed"							"Material_Hypno"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override"			 	"White"
+			"depressedFgColor_override"				"White"
 		}
 
 		"subbutton1"
@@ -215,12 +207,10 @@
 			"zpos"									"1"
 			"wide"									"200"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_FindCoachDialog_Match"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"performmatchmaking"
@@ -229,52 +219,50 @@
 			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"paintbackground"						"0"
-			"border_default"						"MaterialGrayDark"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Gray_Dark"
+			"border_armed"							"Material_Hypno"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 		}
 	}
 
 	"StatePanel1"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName" 								"StatePanel1"
-		"visible" 									"1"
-		"enabled" 									"1"
+		"fieldName"									"StatePanel1"
+		"visible"									"1"
+		"enabled"									"1"
 		"xpos"										"c-200"
 		"ypos"										"130"
 		"zpos"										"3"
-		"wide"	 									"400"
-		"tall"	 									"180"
+		"wide"										"400"
+		"tall"										"180"
 		"PaintBackgroundType"						"0"
 
 		"QueryLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"QueryLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#TF_SelectPlayer_Friends"
 			"textAlignment"							"north"
 			"xpos"									"0"
 			"ypos"									"10"
 			"wide"									"400"
 			"tall"									"15"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"EmptyPlayerListLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#TF_SelectPlayer_FriendsNone"
 			"textAlignment"							"north"
 			"xpos"									"0"
@@ -282,14 +270,12 @@
 			"zpos"									"1"
 			"wide"									"400"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 	}
 
@@ -302,12 +288,10 @@
 		"zpos"										"4"
 		"wide"										"100"
 		"tall"										"30"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Cancel"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"cancel"
@@ -316,11 +300,11 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 }

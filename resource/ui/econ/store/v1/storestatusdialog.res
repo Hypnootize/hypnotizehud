@@ -13,28 +13,26 @@
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
-		"bgcolor_override"							"BlackDark"
+		"bgcolor_override"							"Black_Dark"
 	}
 
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"xpos"										"10"
 		"ypos"										"10"
 		"zpos"										"0"
 		"wide"										"230"
 		"tall"										"90"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"0"
 		"centerwrap"								"1"
 		"labelText"									"%updatetext%"
 		"textAlignment"								"center"
-		"fgcolor" 									"White"
+		"fgcolor"									"White"
 	}
 
 	"CloseButton"
@@ -46,12 +44,10 @@
 		"zpos"										"1"
 		"wide"										"100"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#GameUI_Ok"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"close"
@@ -60,11 +56,11 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 }

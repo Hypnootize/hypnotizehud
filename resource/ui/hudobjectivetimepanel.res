@@ -21,24 +21,24 @@
 		"src_corner_height"							"0"
 		"src_corner_width"							"0"
 		"draw_corner_width"							"0"
-		"draw_corner_height" 						"0"
+		"draw_corner_height"						"0"
 	}
 
 	"ServerTimeLimitLabel"
 	{
-		"ControlName" 								"CExLabel"
-		"fieldName" 								"ServerTimeLimitLabel"
-		"xpos" 										"11"
-		"ypos" 										"20"
-		"zpos" 										"3"
-		"wide" 										"50"
+		"ControlName"								"CExLabel"
+		"fieldName"									"ServerTimeLimitLabel"
+		"xpos"										"11"
+		"ypos"										"20"
+		"zpos"										"3"
+		"wide"										"50"
 		"tall"										"15"
-		"visible" 									"1"
-		"enabled" 									"1"
+		"visible"									"1"
+		"enabled"									"1"
 		"labelText"									"%servertimeleft%"
 		"textAlignment"								"center"
-		"wrap" 										"0"
-		"font" 										"Size 10"
+		"wrap"										"0"
+		"font"										"Size_10"
 		"fgcolor"									"White"
 
 		"if_mvm"
@@ -61,7 +61,7 @@
 		"AllCaps"									"1"
 		"labelText"									"#game_Overtime"
 		"textAlignment"								"west"
-		"font"										"Size 10"
+		"font"										"Size_10"
 	}
 
 

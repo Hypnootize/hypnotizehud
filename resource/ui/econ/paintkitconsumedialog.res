@@ -15,7 +15,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Title"
-		"font"										"Size 24"
+		"font"										"Size_24"
 		"labelText"									"#TF_UsePaintkit_Panel_Title"
 		"textAlignment"								"north"
 		"xpos"										"cs-0.5"
@@ -34,7 +34,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DescText"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"labelText"									"#TF_UsePaintkit_Panel_Desc"
 		"textAlignment"								"north"
 		"xpos"										"cs-0.5"
@@ -44,7 +44,7 @@
 		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"		 							"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
 	}
@@ -58,7 +58,7 @@
 		"wide"										"f0"
 		"tall"										"f0"
 		"proportionaltoparent"						"1"
-		"border"									"MaterialBlackDark"
+		"border"									"Material_Black_Dark"
 	}
 
 	"Shade"
@@ -66,6 +66,11 @@
 		"fieldName"									"Shade"
 		"controlname"								"EditablePanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 
 	"RedeemingPanel"
@@ -79,7 +84,7 @@
 		"tall"										"150"
 		"proportionaltoparent"						"1"
 		"visible"									"0"
-		"border"									"MaterialBlackDark"
+		"border"									"Material_Black_Dark"
 
 		"CTFLogoPanel"
 		{
@@ -93,14 +98,14 @@
 			"proportionaltoparent"					"1"
 			"velocity"								"200"
 			"radius"								"30"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor_override"						"White_Dark"
 		}
 
 		"WorkingText"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"WorkingText"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#TF_UsePaintkit_Working"
 			"textAlignment"							"north"
 			"xpos"									"cs-0.5"
@@ -109,7 +114,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"		 						"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
 		}
@@ -126,7 +131,7 @@
 		"tall"										"150"
 		"proportionaltoparent"						"1"
 		"visible"									"0"
-		"border"									"MaterialBlackDark"
+		"border"									"Material_Black_Dark"
 
 		"CTFLogoPanel"
 		{
@@ -140,14 +145,14 @@
 			"proportionaltoparent"					"1"
 			"velocity"								"0"
 			"radius"								"30"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor_override"						"White_Dark"
 		}
 
 		"SuccessText"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"SuccessText"
-			"font"									"Size 24"
+			"font"									"Size_24"
 			"labelText"								"#AbuseReport_SucceededTitle"
 			"textAlignment"							"north"
 			"xpos"									"cs-0.5"
@@ -173,7 +178,7 @@
 		"tall"										"150"
 		"proportionaltoparent"						"1"
 		"visible"									"0"
-		"border"									"MaterialBlackDark"
+		"border"									"Material_Black_Dark"
 
 		"CTFLogoPanel"
 		{
@@ -187,14 +192,14 @@
 			"proportionaltoparent"					"1"
 			"velocity"								"0"
 			"radius"								"30"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor_override"						"White_Dark"
 		}
 
 		"FailureText"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"FailureText"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#TF_UsePaintkit_Failed"
 			"textAlignment"							"north"
 			"xpos"									"cs-0.5"
@@ -203,7 +208,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"		 						"Red"
+			"fgcolor"								"Red"
 			"proportionaltoparent"					"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
@@ -230,12 +235,10 @@
 		"zpos"										"20"
 		"wide"										"100"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#GameUI_CancelBold"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
 		"Command"									"cancel"
@@ -245,12 +248,12 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"ConfirmButton"
@@ -263,12 +266,10 @@
 		"wide"										"140"
 		"tall"										"25"
 		"default"									"1"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_QuestView_RedeemReward"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
 		"Command"									"accept"
@@ -278,11 +279,11 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 }

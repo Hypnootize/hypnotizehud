@@ -22,7 +22,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"GrayDark"
+		"bgcolor_override"							"Gray_Dark"
 
 		"EntryToggleButton"
 		{
@@ -39,8 +39,8 @@
 			"labeltext"								""
 
 			"paintborder"							"1"
-			"defaultBgColor_override"				"GrayDark"
-			"armedBgColor_override"					"GrayMedium"
+			"defaultBgColor_override"				"Gray_Dark"
+			"armedBgColor_override"					"Gray_Medium"
 
 			"sound_armed"							"ui/item_info_mouseover.wav"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -60,7 +60,7 @@
 			"mouseinputenabled"						"0"
 
 			"labeltext"								"#TF_Competitive_MatchHistory_Win"
-			"font"									"Size 9"
+			"font"									"Size_9"
 			"fgcolor"								"Green"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
@@ -79,7 +79,7 @@
 			"mouseinputenabled"						"0"
 
 			"labeltext"								"#TF_Competitive_MatchHistory_Loss"
-			"font"									"Size 9"
+			"font"									"Size_9"
 			"fgcolor"								"Red"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
@@ -98,7 +98,7 @@
 			"mouseinputenabled"						"0"
 
 			"labeltext"								"%match_date%"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"fgcolor"								"White"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
@@ -117,7 +117,7 @@
 			"mouseinputenabled"						"0"
 
 			"labeltext"								"%map_name%"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"fgcolor"								"White"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
@@ -136,7 +136,7 @@
 			"mouseinputenabled"						"0"
 
 			"labeltext"								"%kd_ratio%"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"fgcolor"								"White"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
@@ -221,7 +221,7 @@
 				"mouseinputenabled"					"0"
 
 				"labeltext"							"%stat_kills%"
-				"font"								"Size 9"
+				"font"								"Size_9"
 				"fgcolor"							"White"
 				"textAlignment"						"west"
 			}
@@ -239,7 +239,7 @@
 				"mouseinputenabled"					"0"
 
 				"labeltext"							"%stat_deaths%"
-				"font"								"Size 9"
+				"font"								"Size_9"
 				"fgcolor"							"White"
 				"textAlignment"						"west"
 			}
@@ -270,7 +270,7 @@
 				"mouseinputenabled"					"0"
 
 				"labeltext"							"%stat_damage%"
-				"font"								"Size 9"
+				"font"								"Size_9"
 				"fgcolor"							"White"
 				"textAlignment"						"west"
 			}
@@ -302,7 +302,7 @@
 				"mouseinputenabled"					"0"
 
 				"labeltext"							"%stat_healing%"
-				"font"								"Size 9"
+				"font"								"Size_9"
 				"fgcolor"							"White"
 				"textAlignment"						"west"
 			}
@@ -333,7 +333,7 @@
 				"mouseinputenabled"					"0"
 
 				"labeltext"							"%stat_support%"
-				"font"								"Size 9"
+				"font"								"Size_9"
 				"fgcolor"							"White"
 				"textAlignment"						"west"
 			}
@@ -366,7 +366,7 @@
 				"pincorner"							"3"
 
 				"labeltext"							"%stat_score%"
-				"font"								"Size 9"
+				"font"								"Size_9"
 				"fgcolor"							"White"
 				"textAlignment"						"west"
 			}

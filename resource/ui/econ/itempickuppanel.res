@@ -1,4 +1,4 @@
-#base "../../../resource/tools/reloadschemebutton.res"
+#base "../../tools/reloadschemebutton.res"
 
 "Resource/UI/Econ/ItemPickupPanel.res"
 {
@@ -11,15 +11,13 @@
 		"zpos"										"10000"
 		"wide"										"f0"
 		"tall"										"480"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayDarkest"
-		"infocus_bgcolor_override" 					"GrayDarkest"
-		"outoffocus_bgcolor_override" 				"GrayDarkest"
+		"bgcolor_override"							"Gray_Darkest"
+		"infocus_bgcolor_override"					"Gray_Darkest"
+		"outoffocus_bgcolor_override"				"Gray_Darkest"
 
 		"modelpanels_spacing"						"40"
 		"modelpanels_width"							"500"
@@ -32,7 +30,7 @@
 			"PaintBackgroundType"					"0"
 			"paintborder"							"1"
 			"paintbackground"						"1"
-			"border"								"MaterialBlackLight"
+			"border"								"Material_Black_Light"
 
 			"model_xpos"							"0"
 			"model_center_y"						"1"
@@ -44,12 +42,12 @@
 			"text_wide"								"230"
 			"text_center"							"1"
 			"is_mouseover"							"1"
-			"hide_collection_panel" 				"1"
+			"hide_collection_panel"					"1"
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
-				"inventory_image_type" 				"1"
+				"use_item_rendertarget"				"0"
+				"inventory_image_type"				"1"
 			}
 		}
 	}
@@ -58,17 +56,15 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemsFoundLabel"
-		"font"										"Size 24"
+		"font"										"Size_24"
 		"labelText"									"#NewItemsAcquired"
-		"fgcolor"		   							"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"textAlignment"								"center"
 		"xpos"										"0"
 		"ypos"										"20"
 		"zpos"										"1"
 		"wide"										"f0"
 		"tall"										"50"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
@@ -99,15 +95,15 @@
 		"wide"										"22"
 		"tall"										"22"
 		"visible"									"1"
-		"bgcolor_override" 							"WhiteDark"
-		"pin_to_sibling" 							"classimage"
+		"bgcolor_override"							"White_Dark"
+		"pin_to_sibling"							"classimage"
 	}
 
 	"SelectedItemFoundMethodLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SelectedItemFoundMethodLabel"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"labelText"									""
 		"textAlignment"								"center"
 		"xpos"										"0"
@@ -115,18 +111,16 @@
 		"zpos"										"1"
 		"wide"										"f0"
 		"tall"										"35"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"		   							"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"ItemCountLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemCountLabel"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"labelText"									"#Item"
 		"textAlignment"								"north-west"
 		"xpos"										"c-245"
@@ -134,18 +128,16 @@
 		"zpos"										"5"
 		"wide"										"100"
 		"tall"										"10"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"			   						"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"SelectedItemNumberLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SelectedItemNumberLabel"
-		"font"										"Size 30"
+		"font"										"Size_30"
 		"labelText"									"#SelectedItemNumber"
 		"textAlignment"								"north-west"
 		"xpos"										"c-245"
@@ -153,11 +145,9 @@
 		"zpos"										"5"
 		"wide"										"120"
 		"tall"										"40"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"			   						"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"NextButton"
@@ -169,12 +159,10 @@
 		"zpos"										"1"
 		"wide"										"20"
 		"tall"										"65"
-		"autoResize"								"0"
-		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									">"
-		"font"										"Symbols 26"
+		"font"										"Symbols_26"
 		"textAlignment"								"center"
 		"Command"									"nextitem"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -186,8 +174,8 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Main Theme"
-		"depressedFgColor_override" 				"White"
+		"armedFgColor_override"						"Main_Theme"
+		"depressedFgColor_override"					"White"
 	}
 	"NextButtonShortCut"
 	{
@@ -197,8 +185,8 @@
 		"labelText"									"&D"
 		"Command"									"nextitem"
 		"visible"									"1"
-		"sound_depressed"    						"UI/buttonclick.wav"
-		"sound_released"     						"UI/buttonclickrelease.wav"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 	}
 
 	"PrevButton"
@@ -210,12 +198,10 @@
 		"zpos"										"1"
 		"wide"										"20"
 		"tall"										"65"
-		"autoResize"								"0"
-		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"<"
-		"font"										"Symbols 26"
+		"font"										"Symbols_26"
 		"textAlignment"								"center"
 		"Command"									"previtem"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -227,8 +213,8 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Main Theme"
-		"depressedFgColor_override" 				"White"
+		"armedFgColor_override"						"Main_Theme"
+		"depressedFgColor_override"					"White"
 	}
 	"PrevButtonShortCut"
 	{
@@ -238,8 +224,8 @@
 		"labelText"									"&A"
 		"Command"									"previtem"
 		"visible"									"1"
-		"sound_depressed"    						"UI/buttonclick.wav"
-		"sound_released"     						"UI/buttonclickrelease.wav"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 	}
 
 	"CloseButton"
@@ -251,12 +237,10 @@
 		"zpos"										"6"
 		"wide"										"502"
 		"tall"										"35"
-		"autoResize"								"0"
-		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#CloseItemPanel"
-		"font"										"Size 20"
+		"font"										"Size_20"
 		"textAlignment"								"center"
 		"Command"									"vguicancel"
 		"default"									"1"
@@ -264,12 +248,12 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDarker"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Darker"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"OpenLoadoutButton"
@@ -281,24 +265,22 @@
 		"zpos"										"6"
 		"wide"										"502"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%loadouttext%"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"textAlignment"								"center"
 		"Command"									"changeloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDarker"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Darker"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"DiscardButton"
@@ -310,12 +292,10 @@
 		"zpos"										"10"
 		"wide"										"25"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"D"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"Command"									"discarditem"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -323,12 +303,12 @@
 
 		"paintbackground"							"0"
 
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialRed"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Red"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"DiscardButtonTooltip"
@@ -342,21 +322,19 @@
 		"tall"										"50"
 		"visible"									"0"
 		"PaintBackgroundType"						"2"
-		"border"									"MaterialBlackDark"
+		"border"									"Material_Black_Dark"
 
 		"TipLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipLabel"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"#DiscardItem"
 			"textAlignment"							"center"
 			"xpos"									"12"
 			"ypos"									"0"
 			"wide"									"80"
 			"tall"									"50"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fgcolor"								"White"
@@ -370,7 +348,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DiscardedLabel"
-		"font"										"Size 24"
+		"font"										"Size_24"
 		"labelText"									"#Discarded"
 		"textAlignment"								"center"
 		"xpos"										"c-215"
@@ -378,14 +356,12 @@
 		"zpos"										"5"
 		"wide"										"420"
 		"tall"										"60"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor"		 							"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"PaintBackground"							"0"
-		"border"									"MaterialGrayDark"
+		"border"									"Material_Gray_Dark"
 	}
 
 	"ScoreEntry"
@@ -396,8 +372,6 @@
 		"ypos"										"380"
 		"wide"										"200"
 		"tall"										"16"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"0"
 		"textHidden"								"0"

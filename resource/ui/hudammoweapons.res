@@ -19,9 +19,9 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInClip"
-		"font"										"Game 40"
-		"font_minmode"								"Game 30"
-		"fgcolor"									"Ammo In Clip"
+		"font"										"Game_40"
+		"font_minmode"								"Game_30"
+		"fgcolor"									"Ammo_In_Clip"
 		"xpos"										"0"
 		"xpos_minmode"								"0"
 		"ypos"										"0"
@@ -43,8 +43,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInClipShadow"
-		"font"										"Game 40 Blur"
-		"font_minmode"								"Game 30 Blur"
+		"font"										"Game_40_Blur"
+		"font_minmode"								"Game_30_Blur"
 		"fgcolor"									"Shadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
@@ -58,16 +58,16 @@
 		"textAlignment"								"east"
 		"labelText"									"%Ammo%"
 
-		"pin_to_sibling" 							"AmmoInClip"
+		"pin_to_sibling"							"AmmoInClip"
 	}
 
 	"AmmoInReserve"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInReserve"
-		"font"										"Game 18"
-		"font_minmode"								"Game 16"
-		"fgcolor"									"Ammo In Reserve"
+		"font"										"Game_18"
+		"font_minmode"								"Game_16"
+		"fgcolor"									"Ammo_In_Reserve"
 		"xpos"										"5"
 		"xpos_minmode"								"2"
 		"ypos"										"0"
@@ -89,8 +89,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInReserveshadow"
-		"font"										"Game 18 Blur"
-		"font_minmode"								"Game 16 Blur"
+		"font"										"Game_18_Blur"
+		"font_minmode"								"Game_16_Blur"
 		"fgcolor"									"Shadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
@@ -102,20 +102,20 @@
 		"textAlignment"								"west"
 		"labelText"									"%AmmoInReserve%"
 
-		"pin_to_sibling" 							"AmmoInReserve"
+		"pin_to_sibling"							"AmmoInReserve"
 	}
 
 	"AmmoNoClip"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmonoClip"
-		"font"										"Game 40"
-		"font_minmode"								"Game 30"
-		"fgcolor"									"Ammo No Clip"
+		"font"										"Game_40"
+		"font_minmode"								"Game_30"
+		"fgcolor"									"Ammo_No_Clip"
 		"xpos"										"0"
 		"xpos_minmode"								"0"
-		"ypos"    									"0"
-		"ypos_minmode"    							"0"
+		"ypos"										"0"
+		"ypos_minmode"								"0"
 		"zpos"										"5"
 		"wide"										"150"
 		"tall"										"50"
@@ -133,8 +133,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmonoClipshadow"
-		"font"										"Game 40 Blur"
-		"font_minmode"								"Game 30 Blur"
+		"font"										"Game_40_Blur"
+		"font_minmode"								"Game_30_Blur"
 		"fgcolor"									"Shadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
@@ -148,7 +148,7 @@
 		"textAlignment"								"center"
 		"labelText"									"%Ammo%"
 
-		"pin_to_sibling" 							"AmmoNoClip"
+		"pin_to_sibling"							"AmmoNoClip"
 	}
 
 
@@ -160,11 +160,21 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"HudWeaponAmmoBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"HudWeaponLowAmmoImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

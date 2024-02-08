@@ -4,7 +4,7 @@
 {
 	"CantBuildReason"
 	{
-		"font"										"Symbols 24"
+		"font"										"Symbols_24"
 		"labelText"									"+"
 		"visible"									"1"
 	}

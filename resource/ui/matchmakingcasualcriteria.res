@@ -13,9 +13,6 @@
 		"PaintBackgroundType"						"0"
 		"proportionaltoparent"						"1"
 
-		"pinCorner"									"2"
-		"autoResize"								"1"
-
 		"RankImage"
 		{
 			"ControlName"							"CTFLocalPlayerBadgePanel"
@@ -61,12 +58,10 @@
 			"zpos"									"100"
 			"wide"									"22"
 			"tall"									"22"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"e"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"save_search_criteria"
@@ -77,12 +72,12 @@
 
 			"paintbackground"						"0"
 
-			"border_default"						"MaterialGrayDark"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Gray_Dark"
+			"border_armed"							"Material_Hypno"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 		}
 
 		"RestoreCasualSearchCriteria"
@@ -94,12 +89,10 @@
 			"zpos"									"100"
 			"wide"									"22"
 			"tall"									"22"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"d"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"restore_search_criteria"
@@ -110,16 +103,16 @@
 
 			"paintbackground"						"0"
 
-			"border_default"						"MaterialGrayDark"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Gray_Dark"
+			"border_armed"							"Material_Hypno"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 
-			"pin_to_sibling" 						"SaveCasualSearchCriteria"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
-			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
+			"pin_to_sibling"						"SaveCasualSearchCriteria"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}
 
 		"ShowExplanationsButton"
@@ -131,12 +124,10 @@
 			"zpos"									"100"
 			"wide"									"22"
 			"tall"									"22"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"1"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"show_explanations"
@@ -150,16 +141,16 @@
 
 			"paintbackground"						"0"
 
-			"border_default"						"MaterialGrayDark"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Gray_Dark"
+			"border_armed"							"Material_Hypno"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 
-			"pin_to_sibling" 						"RestoreCasualSearchCriteria"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
-			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
+			"pin_to_sibling"						"RestoreCasualSearchCriteria"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}
 
 		"SelectedCount"
@@ -174,8 +165,8 @@
 			"proportionaltoparent"					"1"
 			"labeltext"								"%selected_maps_count%"
 			"textAlignment"							"west"
-			"font"									"Size 11"
-			"fgcolor"								"Main Theme"
+			"font"									"Size_11"
+			"fgcolor"								"Main_Theme"
 			"AllCaps"								"1"
 			"mouseinputenabled"						"1"
 		}
@@ -192,7 +183,7 @@
 			"proportionaltoparent"					"1"
 			"labeltext"								"#TF_Casual_QueueEstimation"
 			"textAlignment"							"east"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"fgcolor"								"White"
 			"visible"								"0"
 			"AllCaps"								"1"
@@ -204,12 +195,22 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"Title"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"PlayListDropShadow"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"PlayListDropShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"GameModesList"
@@ -222,7 +223,7 @@
 			"tall"									"f40"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
-			"restrict_width" 						"0"
+			"restrict_width"						"0"
 			"paintborder"							"0"
 
 			"ScrollBar"
@@ -239,7 +240,7 @@
 
 				"Slider"
 				{
-					"fgcolor_override"				"WhiteDark"
+					"fgcolor_override"				"White_Dark"
 				}
 
 				"UpButton"

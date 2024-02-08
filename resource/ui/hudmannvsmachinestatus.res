@@ -38,9 +38,9 @@
 		"visible"									"1"
 		"enabled"									"1"
 
-		"pin_to_sibling"             				"WaveStatusPanel"
-		"pin_corner_to_sibling"       				"4"
-		"pin_to_sibling_corner"       				"6"
+		"pin_to_sibling"							"WaveStatusPanel"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"6"
 	}
 
 	"InWorldCurrencyPanel"
@@ -51,8 +51,8 @@
 		"ypos"										"r35"
 		"wide"										"100"
 		"tall"										"100"
-		"visible" 									"1"
-		"enabled" 									"1"
+		"visible"									"1"
+		"enabled"									"1"
 	}
 
 	"WarningSwoop"
@@ -100,8 +100,6 @@
 			"ypos"									"r24"
 			"wide"									"20"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"image"									"../hud/hud_mvm_bomb_upgrade_1_disabled"
@@ -116,8 +114,6 @@
 			"ypos"									"r42"
 			"wide"									"20"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"image"									"../hud/hud_mvm_bomb_upgrade_2_disabled"
@@ -132,8 +128,6 @@
 			"ypos"									"r60"
 			"wide"									"20"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"image"									"../hud/hud_mvm_bomb_upgrade_3_disabled"
@@ -148,8 +142,6 @@
 			"ypos"									"r46"
 			"wide"									"20"
 			"tall"									"40"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
 			"image"									"../hud/hud_mvm_bomb_upgrade_boss"
@@ -210,8 +202,6 @@
 			"ypos"									"398"
 			"wide"									"190"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"image"									"replay/thumbnails/panels/material_red_transparent50"
@@ -220,14 +210,14 @@
 			"src_corner_width"						"24"
 
 			"draw_corner_width"						"8"
-			"draw_corner_height" 					"8"
+			"draw_corner_height"					"8"
 		}
 
 		"ServerChangeLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ServerChangeLabel"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"textAlignment"							"center"
 			"labelText"								"%servermessage%"
 			"xpos"									"c-90"

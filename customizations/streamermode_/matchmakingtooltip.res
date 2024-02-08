@@ -4,7 +4,7 @@
 	{
 		"TipLabel"
 		{
-			"alpha" 								"0"
+			"Alpha"									"0"
 		}
 	}
 }

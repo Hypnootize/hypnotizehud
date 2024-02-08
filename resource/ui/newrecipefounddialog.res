@@ -12,28 +12,26 @@
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
-		"bgcolor_override"							"BlackDark"
+		"bgcolor_override"							"Black_Dark"
 	}
 
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Size 24"
+		"font"										"Size_24"
 		"xpos"										"0"
 		"ypos"										"10"
 		"zpos"										"0"
 		"wide"										"400"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"0"
 		"labelText"									"#NewRecipeFound"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"fgcolor"		 							"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"RecipeItemModelPanel"
@@ -65,8 +63,6 @@
 			"zpos"									"2"
 			"wide"									"140"
 			"tall"									"100"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"%attriblist%"
@@ -85,12 +81,10 @@
 		"zpos"										"1"
 		"wide"										"100"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#GameUI_Ok"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"close"
@@ -100,11 +94,11 @@
 
 		"paintbackground"							"0"
 
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 }

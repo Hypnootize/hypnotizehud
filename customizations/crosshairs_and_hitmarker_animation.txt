@@ -14,12 +14,12 @@
 
 event DamagedPlayer
 {
-    StopEvent	HitMarker				0.0
+	StopEvent	HitMarker				0.0
 	RunEvent	HitMarker				0.01
 
-	//Animate 	"CustomCrosshair"		FgColor     "Crosshair Pulse"		Linear 	0.0 	0.00001
-    //Animate 	"CustomCrosshair"		FgColor     "Crosshair"				Linear 	0.10 	0.10001
+	//Animate	"CustomCrosshair"		FgColor		"Crosshair_Pulse"		Linear	0.0		0.00001
+	//Animate	"CustomCrosshair"		FgColor		"Crosshair"				Linear	0.10	0.10001
 
-	//Animate 	"Hitmarker"    	 		Alpha     	"255"					Linear 	0.0 	0.0
-    //Animate 	"Hitmarker"    			Alpha     	"0"						Linear 	0.0 	0.35
+	//Animate	"Hitmarker"				Alpha		"255"					Linear	0.0		0.0
+	//Animate	"Hitmarker"				Alpha		"0"						Linear	0.0		0.35
 }

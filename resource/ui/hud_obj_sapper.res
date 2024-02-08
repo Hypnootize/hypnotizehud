@@ -24,7 +24,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"border"									"MaterialTransparent50"
+		"border"									"Material_Transparent_50"
 	}
 
 	"IconBackgound"
@@ -39,7 +39,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"border"									"MaterialTransparent50"
+		"border"									"Material_Transparent_50"
 	}
 
 	"Icon"
@@ -58,9 +58,9 @@
 		"icon"										"obj_status_icon_sapper"
 		"iconColor"									"Red"
 
-		"pin_to_sibling" 							"IconBackgound"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"IconBackgound"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 
 	"NotBuiltPanel"
@@ -79,13 +79,18 @@
 			"ControlName"							"EditablePanel"
 			"fieldName"								"NotBuiltBG"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"NotBuiltLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"NotBuiltLabel"
-			"font"									"Size 9"
+			"font"									"Size_9"
 			"xpos"									"cs-0.5"
 			"ypos"									"cs-0.5"
 			"wide"									"f0"
@@ -115,18 +120,23 @@
 		{
 			"ControlName"							"CBuildingHealthBar"
 			"fieldName"								"Health"
+			"xpos"									"9999"
+			"ypos"									"9999"
 			"wide"									"0"
 			"tall"									"0"
 			"visible"								"0"
+			"enabled"								"0"
 		}
-
 		"BuildingPanel"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"BuildingPanel"
+			"xpos"									"9999"
+			"ypos"									"9999"
 			"wide"									"0"
 			"tall"									"0"
 			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"RunningPanel"
@@ -172,7 +182,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"TargetLabel"
-				"font"								"Size 7"
+				"font"								"Size_7"
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"1"
@@ -184,7 +194,7 @@
 				"textAlignment"						"center"
 				"fgcolor"							"Black"
 				"proportionaltoparent"				"1"
-				"pin_to_sibling" 					"TargetHealth"
+				"pin_to_sibling"					"TargetHealth"
 			}
 		}
 	}
@@ -194,5 +204,10 @@
 		"ControlName"								"CIconPanel"
 		"fieldName"									"Background"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

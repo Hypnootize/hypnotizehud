@@ -8,7 +8,7 @@
 		"PositiveColor"								"Green"
 		"NegativeColor"								"255 0 0 155"
 		"delta_lifetime"							"1"
-		"delta_item_font"							"Game 14"
+		"delta_item_font"							"Game_14"
 	}
 
 	"AccountValue"
@@ -20,16 +20,14 @@
 		"zpos"										"2"
 		"wide"										"200"
 		"tall"										"30"
-		"autoResize"								"1"
-		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
-		"font"										"Game 18"
-		"font_minmode"								"Game 16"
-		"fgcolor"   								"White"
+		"font"										"Game_18"
+		"font_minmode"								"Game_16"
+		"fgcolor"									"White"
 	}
 
 	"AccountValueShadow"
@@ -41,18 +39,16 @@
 		"zpos"										"2"
 		"wide"										"200"
 		"tall"										"30"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
-		"font"										"Game 18 Blur"
-		"font_minmode"								"Game 16 Blur"
-		"fgcolor"   								"Shadow"
+		"font"										"Game_18_Blur"
+		"font_minmode"								"Game_16_Blur"
+		"fgcolor"									"Shadow"
 
-		"pin_to_sibling" 							"AccountValue"
+		"pin_to_sibling"							"AccountValue"
 	}
 
 
@@ -61,11 +57,21 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"AccountBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MetalIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"MetalIcon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

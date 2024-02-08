@@ -1,4 +1,4 @@
-#base "../../resource/tools/reloadschemebutton.res"
+#base "../tools/reloadschemebutton.res"
 
 "Resource/UI/SteamWorkshopDialog.res"
 {
@@ -27,7 +27,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"0"
 		"paintborder"								"1"
-		"border"									"MaterialBlackDark"
+		"border"									"Material_Black_Dark"
 
 		"NoItemsContainer"
 		{
@@ -41,13 +41,13 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintbackground"						"0"
-			"border"								"MaterialBlackLight"
+			"border"								"Material_Black_Light"
 
 			"TitleLabel"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"TitleLabel"
-				"font"								"Size 24"
+				"font"								"Size_24"
 				"labelText"							"#TF_SteamWorkshop_Title"
 				"textAlignment"						"center"
 				"xpos"								"0"
@@ -55,12 +55,10 @@
 				"zpos"								"1"
 				"wide"								"550"
 				"tall"								"25"
-				"autoResize"						"1"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"AllCaps"							"1"
-				"fgcolor" 							"WhiteDark"
+				"fgcolor"							"White_Dark"
 			}
 
 			"DescLabel"
@@ -78,10 +76,10 @@
 				"wrap"								"1"
 				"centerwrap"						"1"
 				"AllCaps"							"1"
-				"font"								"Size 12"
+				"font"								"Size_12"
 				"labelText"							"#TF_SteamWorkshop_Desc"
 				"textAlignment"						"north"
-				"fgcolor" 							"WhiteDark"
+				"fgcolor"							"White_Dark"
 			}
 
 			"LearnMoreButton"
@@ -93,12 +91,10 @@
 				"zpos"								"20"
 				"wide"								"f10"
 				"tall"								"25"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"#TF_SteamWorkshop_LearnHow"
-				"font"								"Size 15"
+				"font"								"Size_15"
 				"textAlignment"						"center"
 				"Command"							"learn_more"
 				"AllCaps"							"1"
@@ -107,12 +103,12 @@
 				"sound_released"					"UI/buttonclickrelease.wav"
 
 				"paintbackground"					"0"
-				"border_default"					"MaterialGrayDarker"
-				"border_armed"						"MaterialHypno"
+				"border_default"					"Material_Gray_Darker"
+				"border_armed"						"Material_Hypno"
 
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
-				"depressedFgColor_override" 		"White"
+				"depressedFgColor_override"			"White"
 			}
 		}
 
@@ -129,13 +125,13 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintbackground"						"0"
-			"border"								"MaterialBlackDark"
+			"border"								"Material_Black_Dark"
 
 			"TitleLabel"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"TitleLabel"
-				"font"								"Size 20"
+				"font"								"Size_20"
 				"labelText"							"#TF_SteamWorkshop_YourItems"
 				"textAlignment"						"west"
 				"xpos"								"8"
@@ -147,7 +143,7 @@
 				"enabled"							"1"
 				"AllCaps"							"1"
 				"proportionaltoparent"				"1"
-				"fgcolor"		 					"WhiteDark"
+				"fgcolor"							"White_Dark"
 			}
 
 			"ViewPublishedButton"
@@ -162,7 +158,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"#TF_SteamWorkshop_ViewPublished"
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"textAlignment"						"center"
 				"proportionaltoparent"				"1"
 				"Command"							"view_files"
@@ -170,12 +166,12 @@
 				"sound_released"					"UI/buttonclickrelease.wav"
 
 				"paintbackground"					"0"
-				"border_default"					"MaterialGrayDarker"
-				"border_armed"						"MaterialHypno"
+				"border_default"					"Material_Gray_Darker"
+				"border_armed"						"Material_Hypno"
 
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
-				"depressedFgColor_override" 		"White"
+				"depressedFgColor_override"			"White"
 			}
 
 			"SteamWorkshopItem0"
@@ -238,7 +234,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"<"
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"textAlignment"						"center"
 				"proportionaltoparent"				"1"
 				"Command"							"prevpage"
@@ -246,16 +242,16 @@
 				"sound_released"					"UI/buttonclickrelease.wav"
 
 				"paintbackground"					"0"
-				"border_default"					"MaterialGrayDarker"
-				"border_armed"						"MaterialHypno"
+				"border_default"					"Material_Gray_Darker"
+				"border_armed"						"Material_Hypno"
 
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
-				"depressedFgColor_override" 		"White"
+				"depressedFgColor_override"			"White"
 
-				"pin_to_sibling" 					"CurPageLabel"
-				"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
-				"pin_to_sibling_corner" 			"PIN_TOPLEFT"
+				"pin_to_sibling"					"CurPageLabel"
+				"pin_corner_to_sibling"				"PIN_TOPRIGHT"
+				"pin_to_sibling_corner"				"PIN_TOPLEFT"
 			}
 			"PrevPageSkipButton"
 			{
@@ -269,23 +265,23 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"<<"
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"textAlignment"						"center"
 				"Command"							"prevpageskip"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
 
 				"paintbackground"					"0"
-				"border_default"					"MaterialGrayDarker"
-				"border_armed"						"MaterialHypno"
+				"border_default"					"Material_Gray_Darker"
+				"border_armed"						"Material_Hypno"
 
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
-				"depressedFgColor_override" 		"White"
+				"depressedFgColor_override"			"White"
 
-				"pin_to_sibling" 					"PrevPageButton"
-				"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
-				"pin_to_sibling_corner" 			"PIN_TOPLEFT"
+				"pin_to_sibling"					"PrevPageButton"
+				"pin_corner_to_sibling"				"PIN_TOPRIGHT"
+				"pin_to_sibling_corner"				"PIN_TOPLEFT"
 			}
 			"SkipToStartButton"
 			{
@@ -299,30 +295,30 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"|<"
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"textAlignment"						"center"
 				"Command"							"skiptostart"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
 
 				"paintbackground"					"0"
-				"border_default"					"MaterialGrayDarker"
-				"border_armed"						"MaterialHypno"
+				"border_default"					"Material_Gray_Darker"
+				"border_armed"						"Material_Hypno"
 
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
-				"depressedFgColor_override" 		"White"
+				"depressedFgColor_override"			"White"
 
-				"pin_to_sibling" 					"PrevPageSkipButton"
-				"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
-				"pin_to_sibling_corner" 			"PIN_TOPLEFT"
+				"pin_to_sibling"					"PrevPageSkipButton"
+				"pin_corner_to_sibling"				"PIN_TOPRIGHT"
+				"pin_to_sibling_corner"				"PIN_TOPLEFT"
 			}
 
 			"CurPageLabel"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"CurPageLabel"
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"labelText"							"%page%"
 				"textAlignment"						"center"
 				"xpos"								"cs-0.5"
@@ -334,7 +330,7 @@
 				"enabled"							"1"
 				"AllCaps"							"1"
 				"proportionaltoparent"				"1"
-				"fgcolor" 							"WhiteDark"
+				"fgcolor"							"White_Dark"
 			}
 
 			"NextPageButton"
@@ -349,7 +345,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							">"
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"textAlignment"						"center"
 				"proportionaltoparent"				"1"
 				"Command"							"nextpage"
@@ -357,16 +353,16 @@
 				"sound_released"					"UI/buttonclickrelease.wav"
 
 				"paintbackground"					"0"
-				"border_default"					"MaterialGrayDarker"
-				"border_armed"						"MaterialHypno"
+				"border_default"					"Material_Gray_Darker"
+				"border_armed"						"Material_Hypno"
 
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
-				"depressedFgColor_override" 		"White"
+				"depressedFgColor_override"			"White"
 
-				"pin_to_sibling" 					"CurPageLabel"
-				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
+				"pin_to_sibling"					"CurPageLabel"
+				"pin_corner_to_sibling"				"PIN_TOPLEFT"
+				"pin_to_sibling_corner"				"PIN_TOPRIGHT"
 			}
 			"NextPageSkipButton"
 			{
@@ -380,23 +376,23 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							">>"
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"textAlignment"						"center"
 				"Command"							"nextpageskip"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
 
 				"paintbackground"					"0"
-				"border_default"					"MaterialGrayDarker"
-				"border_armed"						"MaterialHypno"
+				"border_default"					"Material_Gray_Darker"
+				"border_armed"						"Material_Hypno"
 
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
-				"depressedFgColor_override" 		"White"
+				"depressedFgColor_override"			"White"
 
-				"pin_to_sibling" 					"NextPageButton"
-				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
+				"pin_to_sibling"					"NextPageButton"
+				"pin_corner_to_sibling"				"PIN_TOPLEFT"
+				"pin_to_sibling_corner"				"PIN_TOPRIGHT"
 			}
 			"SkipToEndButton"
 			{
@@ -410,23 +406,23 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							">|"
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"textAlignment"						"center"
 				"Command"							"skiptoend"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
 
 				"paintbackground"					"0"
-				"border_default"					"MaterialGrayDarker"
-				"border_armed"						"MaterialHypno"
+				"border_default"					"Material_Gray_Darker"
+				"border_armed"						"Material_Hypno"
 
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
-				"depressedFgColor_override" 		"White"
+				"depressedFgColor_override"			"White"
 
-				"pin_to_sibling" 					"NextPageSkipButton"
-				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
+				"pin_to_sibling"					"NextPageSkipButton"
+				"pin_corner_to_sibling"				"PIN_TOPLEFT"
+				"pin_to_sibling_corner"				"PIN_TOPRIGHT"
 			}
 
 			"EditButton"
@@ -439,8 +435,8 @@
 				"tall"								"25"
 				"visible"							"1"
 				"enabled"							"1"
-				"use_proportional_insets" 			"1"
-				"font"								"Size 14"
+				"use_proportional_insets"			"1"
+				"font"								"Size_14"
 				"textAlignment"						"center"
 				"default"							"1"
 				"proportionaltoparent"				"1"
@@ -448,12 +444,12 @@
 				"sound_released"					"UI/buttonclickrelease.wav"
 
 				"paintbackground"					"0"
-				"border_default"					"MaterialGrayDarker"
-				"border_armed"						"MaterialHypno"
+				"border_default"					"Material_Gray_Darker"
+				"border_armed"						"Material_Hypno"
 
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
-				"depressedFgColor_override" 		"White"
+				"depressedFgColor_override"			"White"
 
 				"labelText"							"#TF_SteamWorkshop_Edit"
 				"command"							"edit"
@@ -469,8 +465,8 @@
 				"tall"								"25"
 				"visible"							"1"
 				"enabled"							"1"
-				"use_proportional_insets" 			"1"
-				"font"								"Size 14"
+				"use_proportional_insets"			"1"
+				"font"								"Size_14"
 				"textAlignment"						"center"
 				"default"							"1"
 				"proportionaltoparent"				"1"
@@ -478,12 +474,12 @@
 				"sound_released"					"UI/buttonclickrelease.wav"
 
 				"paintbackground"					"0"
-				"border_default"					"MaterialGrayDarker"
-				"border_armed"						"MaterialHypno"
+				"border_default"					"Material_Gray_Darker"
+				"border_armed"						"Material_Hypno"
 
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
-				"depressedFgColor_override" 		"White"
+				"depressedFgColor_override"			"White"
 
 				"labelText"							"#TF_SteamWorkshop_View"
 				"command"							"view"
@@ -499,8 +495,8 @@
 				"tall"								"25"
 				"visible"							"1"
 				"enabled"							"1"
-				"use_proportional_insets" 			"1"
-				"font"								"Size 14"
+				"use_proportional_insets"			"1"
+				"font"								"Size_14"
 				"textAlignment"						"center"
 				"default"							"1"
 				"proportionaltoparent"				"1"
@@ -508,12 +504,12 @@
 				"sound_released"					"UI/buttonclickrelease.wav"
 
 				"paintbackground"					"0"
-				"border_default"					"MaterialGrayDarker"
-				"border_armed"						"MaterialHypno"
+				"border_default"					"Material_Gray_Darker"
+				"border_armed"						"Material_Hypno"
 
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
-				"depressedFgColor_override" 		"White"
+				"depressedFgColor_override"			"White"
 
 				"labelText"							"#TF_SteamWorkshop_Delete"
 				"command"							"delete_item"
@@ -532,7 +528,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_SteamWorkshop_BrowseTheWorkshop"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"textAlignment"							"center"
 			"Command"								"browse"
 			"proportionaltoparent"					"1"
@@ -541,12 +537,12 @@
 			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"paintbackground"						"0"
-			"border_default"						"MaterialGrayDarker"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Gray_Darker"
+			"border_armed"							"Material_Hypno"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 		}
 
 		"LoadTestMapButton"
@@ -561,7 +557,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_SteamWorkshop_Test"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"textAlignment"							"center"
 			"Command"								"itemtest"
 			"AllCaps"								"1"
@@ -570,12 +566,12 @@
 			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"paintbackground"						"0"
-			"border_default"						"MaterialGrayDarker"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Gray_Darker"
+			"border_armed"							"Material_Hypno"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 		}
 
 		"PublishButton"
@@ -590,7 +586,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"PUBLISH NEW ITEM"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"textAlignment"							"center"
 			"Command"								"publish"
 			"AllCaps"								""
@@ -599,12 +595,12 @@
 			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"paintbackground"						"0"
-			"border_default"						"MaterialGrayDarker"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Gray_Darker"
+			"border_armed"							"Material_Hypno"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 		}
 
 		"LearnMore2Button"
@@ -620,7 +616,7 @@
 			"visible"								"0"
 			"enabled"								"1"
 			"labelText"								"#TF_SteamWorkshop_Instructions"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"textAlignment"							"center"
 			"proportionaltoparent"					"1"
 			"Command"								"learn_more"
@@ -628,12 +624,12 @@
 			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"paintbackground"						"0"
-			"border_default"						"MaterialGrayDarker"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Gray_Darker"
+			"border_armed"							"Material_Hypno"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 		}
 
 		"ViewLegalAgreementButton"
@@ -648,7 +644,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_SteamWorkshop_Legal"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"textAlignment"							"center"
 			"proportionaltoparent"					"1"
 			"Command"								"view_legal_agreement"
@@ -656,12 +652,12 @@
 			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"paintbackground"						"0"
-			"border_default"						"MaterialGrayDarker"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Gray_Darker"
+			"border_armed"							"Material_Hypno"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 		}
 
 		"CancelButton"
@@ -676,7 +672,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"BACK"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"textAlignment"							"center"
 			"Command"								"cancel"
 			"proportionaltoparent"					"1"
@@ -684,12 +680,12 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 
 			"paintbackground"						"0"
-			"border_default"						"MaterialRed"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Red"
+			"border_armed"							"Material_Hypno"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 		}
 
 		"Background"
@@ -697,18 +693,33 @@
 			"ControlName"							"EditablePanel"
 			"fieldName"								"Background"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"WorkshopBranding"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"WorkshopBranding"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"BackgroundBottom"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"BackgroundBottom"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 }

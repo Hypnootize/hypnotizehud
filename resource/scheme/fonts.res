@@ -8,7 +8,7 @@
 
 	"Fonts"
 	{
-		"Game 12"
+		"Game_12"
 		{
 			"1"
 			{
@@ -17,7 +17,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Game 14"
+		"Game_14"
 		{
 			"1"
 			{
@@ -26,7 +26,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Game 15"
+		"Game_15"
 		{
 			"1"
 			{
@@ -35,7 +35,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Game 16"
+		"Game_16"
 		{
 			"1"
 			{
@@ -44,7 +44,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Game 18"
+		"Game_18"
 		{
 			"1"
 			{
@@ -53,7 +53,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Game 20"
+		"Game_20"
 		{
 			"1"
 			{
@@ -62,7 +62,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Game 22"
+		"Game_22"
 		{
 			"1"
 			{
@@ -71,7 +71,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Game 24"
+		"Game_24"
 		{
 			"1"
 			{
@@ -80,7 +80,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Game 30"
+		"Game_30"
 		{
 			"1"
 			{
@@ -89,7 +89,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Game 40"
+		"Game_40"
 		{
 			"1"
 			{
@@ -99,7 +99,7 @@
 			}
 		}
 
-		"Game 12 Blur"
+		"Game_12_Blur"
 		{
 			"1"
 			{
@@ -109,7 +109,7 @@
 				"blur"										"1"
 			}
 		}
-		"Game 14 Blur"
+		"Game_14_Blur"
 		{
 			"1"
 			{
@@ -119,7 +119,7 @@
 				"blur"										"1"
 			}
 		}
-		"Game 15 Blur"
+		"Game_15_Blur"
 		{
 			"1"
 			{
@@ -129,7 +129,7 @@
 				"blur"										"1"
 			}
 		}
-		"Game 16 Blur"
+		"Game_16_Blur"
 		{
 			"1"
 			{
@@ -139,7 +139,7 @@
 				"blur"										"1"
 			}
 		}
-		"Game 18 Blur"
+		"Game_18_Blur"
 		{
 			"1"
 			{
@@ -149,7 +149,7 @@
 				"blur"										"1"
 			}
 		}
-		"Game 20 Blur"
+		"Game_20_Blur"
 		{
 			"1"
 			{
@@ -159,7 +159,7 @@
 				"blur"										"1"
 			}
 		}
-		"Game 22 Blur"
+		"Game_22_Blur"
 		{
 			"1"
 			{
@@ -169,7 +169,7 @@
 				"blur"										"1"
 			}
 		}
-		"Game 24 Blur"
+		"Game_24_Blur"
 		{
 			"1"
 			{
@@ -179,7 +179,7 @@
 				"blur"										"1"
 			}
 		}
-		"Game 30 Blur"
+		"Game_30_Blur"
 		{
 			"1"
 			{
@@ -189,7 +189,7 @@
 				"blur"										"2"
 			}
 		}
-		"Game 40 Blur"
+		"Game_40_Blur"
 		{
 			"1"
 			{
@@ -200,7 +200,7 @@
 			}
 		}
 
-		"Game 18 Shadow"
+		"Game_18_Shadow"
 		{
 			"1"
 			{
@@ -210,7 +210,7 @@
 				"dropshadow"								"1"
 			}
 		}
-		"Game 22 Shadow"
+		"Game_22_Shadow"
 		{
 			"1"
 			{
@@ -220,7 +220,7 @@
 				"dropshadow"								"1"
 			}
 		}
-		"Game 24 Shadow"
+		"Game_24_Shadow"
 		{
 			"1"
 			{
@@ -230,7 +230,7 @@
 				"dropshadow"								"1"
 			}
 		}
-		"Game 28 Shadow"
+		"Game_28_Shadow"
 		{
 			"1"
 			{
@@ -241,7 +241,7 @@
 			}
 		}
 
-		"Game 18 Outline"
+		"Game_18_Outline"
 		{
 			"1"
 			{
@@ -251,7 +251,7 @@
 				"outline"									"1"
 			}
 		}
-		"Game 22 Outline"
+		"Game_22_Outline"
 		{
 			"1"
 			{
@@ -261,7 +261,7 @@
 				"outline"									"1"
 			}
 		}
-		"Game 28 Outline"
+		"Game_28_Outline"
 		{
 			"1"
 			{
@@ -272,7 +272,7 @@
 			}
 		}
 
-		"Size 7"
+		"Size_7"
 		{
 			"1"
 			{
@@ -281,7 +281,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 8"
+		"Size_8"
 		{
 			"1"
 			{
@@ -290,7 +290,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 9"
+		"Size_9"
 		{
 			"1"
 			{
@@ -299,7 +299,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 10"
+		"Size_10"
 		{
 			"1"
 			{
@@ -308,7 +308,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 11"
+		"Size_11"
 		{
 			"1"
 			{
@@ -317,7 +317,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 12"
+		"Size_12"
 		{
 			"1"
 			{
@@ -326,7 +326,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 14"
+		"Size_14"
 		{
 			"1"
 			{
@@ -335,7 +335,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 15"
+		"Size_15"
 		{
 			"1"
 			{
@@ -344,7 +344,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 16"
+		"Size_16"
 		{
 			"1"
 			{
@@ -353,7 +353,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 18"
+		"Size_18"
 		{
 			"1"
 			{
@@ -362,7 +362,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 20"
+		"Size_20"
 		{
 			"1"
 			{
@@ -371,7 +371,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 22"
+		"Size_22"
 		{
 			"1"
 			{
@@ -380,7 +380,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 24"
+		"Size_24"
 		{
 			"1"
 			{
@@ -389,7 +389,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 28"
+		"Size_28"
 		{
 			"1"
 			{
@@ -398,7 +398,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 30"
+		"Size_30"
 		{
 			"1"
 			{
@@ -407,7 +407,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 36"
+		"Size_36"
 		{
 			"1"
 			{
@@ -416,7 +416,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 40"
+		"Size_40"
 		{
 			"1"
 			{
@@ -425,7 +425,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 44"
+		"Size_44"
 		{
 			"1"
 			{
@@ -435,7 +435,7 @@
 			}
 		}
 
-		"Size 9 Blur"
+		"Size_9_Blur"
 		{
 			"1"
 			{
@@ -445,7 +445,7 @@
 				"blur"										"1"
 			}
 		}
-		"Size 10 Blur"
+		"Size_10_Blur"
 		{
 			"1"
 			{
@@ -455,7 +455,7 @@
 				"blur"										"1"
 			}
 		}
-		"Size 11 Blur"
+		"Size_11_Blur"
 		{
 			"1"
 			{
@@ -465,7 +465,7 @@
 				"blur"										"1"
 			}
 		}
-		"Size 12 Blur"
+		"Size_12_Blur"
 		{
 			"1"
 			{
@@ -475,7 +475,7 @@
 				"blur"										"1"
 			}
 		}
-		"Size 14 Blur"
+		"Size_14_Blur"
 		{
 			"1"
 			{
@@ -485,7 +485,7 @@
 				"blur"										"1"
 			}
 		}
-		"Size 16 Blur"
+		"Size_16_Blur"
 		{
 			"1"
 			{
@@ -495,7 +495,7 @@
 				"blur"										"1"
 			}
 		}
-		"Size 18 Blur"
+		"Size_18_Blur"
 		{
 			"1"
 			{
@@ -505,7 +505,7 @@
 				"blur"										"1"
 			}
 		}
-		"Size 20 Blur"
+		"Size_20_Blur"
 		{
 			"1"
 			{
@@ -515,7 +515,7 @@
 				"blur"										"2"
 			}
 		}
-		"Size 24 Blur"
+		"Size_24_Blur"
 		{
 			"1"
 			{
@@ -525,7 +525,7 @@
 				"blur"										"2"
 			}
 		}
-		"Size 30 Blur"
+		"Size_30_Blur"
 		{
 			"1"
 			{
@@ -535,7 +535,7 @@
 				"blur"										"2"
 			}
 		}
-		"Size 36 Blur"
+		"Size_36_Blur"
 		{
 			"1"
 			{
@@ -545,7 +545,7 @@
 				"blur"										"2"
 			}
 		}
-		"Size 40 Blur"
+		"Size_40_Blur"
 		{
 			"1"
 			{
@@ -557,7 +557,7 @@
 		}
 
 
-		"Size 10 Shadow"
+		"Size_10_Shadow"
 		{
 			"1"
 			{
@@ -567,7 +567,7 @@
 				"dropshadow"								"1"
 			}
 		}
-		"Size 12 Shadow"
+		"Size_12_Shadow"
 		{
 			"1"
 			{
@@ -578,7 +578,7 @@
 			}
 		}
 
-		"Size 10 Numbers"
+		"Size_10_Numbers"
 		{
 			"1"
 			{
@@ -587,7 +587,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 14 Numbers"
+		"Size_14_Numbers"
 		{
 			"1"
 			{
@@ -624,7 +624,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"11"
 				"antialias"									"1"
-				"underline" 								"1"
+				"underline"									"1"
 				"range"										"0x0000 0x017F"
 			}
 		}
@@ -663,10 +663,10 @@
 		{
 			"1"
 			{
-				"name"										"Rubik Medium" 	[!$OSX]
-				"name"										"Rubik Medium" 	[$OSX]
+				"name"										"Rubik Medium"	[!$OSX]
+				"name"										"Rubik Medium"	[$OSX]
 				"tall"										"18"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"additive"									"1"
 			}
 		}
@@ -677,7 +677,7 @@
 				"name"										"Verdana"
 				"tall"										"6"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudHintText"
@@ -687,7 +687,7 @@
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontGiant"
@@ -696,7 +696,7 @@
 			{
 				"name"										"Rubik Medium"
 				"tall"										"24"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontGiantBold"
@@ -705,7 +705,7 @@
 			{
 				"name"										"Rubik Medium"
 				"tall"										"44"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -716,7 +716,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"35"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -727,7 +727,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"36"
 				"weight"									"500"
-				"antialias"								 	"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMediumBig"
@@ -737,7 +737,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"30"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMediumBigBold"
@@ -747,7 +747,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"30"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMedium"
@@ -757,7 +757,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"24"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMediumSecondary"
@@ -767,7 +767,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"24"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMediumBold"
@@ -777,7 +777,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"24"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMediumSmallBold"
@@ -787,7 +787,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"18"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMediumSmall"
@@ -797,7 +797,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"18"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMediumSmallSecondary"
@@ -807,7 +807,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"18"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontSmall"
@@ -817,7 +817,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"14"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontSmallishBold"
@@ -827,7 +827,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"16"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontSmallBold"
@@ -837,7 +837,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"14"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontSmallBoldShadow"
@@ -847,7 +847,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"14"
 				"weight"									"500"
-				"antialias"								 	"1"
+				"antialias"									"1"
 				"dropshadow"								"1"
 			}
 		}
@@ -858,7 +858,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"11"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontSmallestShadow"
@@ -868,7 +868,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"11"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"dropshadow"								"1"
 			}
 		}
@@ -879,7 +879,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"11"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"PerformanceModeSmall"
@@ -889,7 +889,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"4"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"StorePromotionsTitle"
@@ -899,7 +899,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"10"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"FontCartPrice"
@@ -909,7 +909,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"16"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"FontStorePrice"
@@ -918,7 +918,7 @@
 			{
 				"name"										"Rubik Medium"
 				"tall"										"9"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"FontStoreOriginalPrice"
@@ -927,7 +927,7 @@
 			{
 				"name"										"Rubik Medium"
 				"tall"										"9"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"FontStorePriceSmall"
@@ -936,7 +936,7 @@
 			{
 				"name"										"Verdana"
 				"tall"										"6"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"FontStorePromotion"
@@ -946,7 +946,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"12"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"TextTooltipFont"
@@ -956,7 +956,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"11"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"GameUIButtons"
@@ -1026,7 +1026,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"18"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudClassHealth"
@@ -1036,7 +1036,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"16"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"SpectatorKeyHints"
@@ -1046,7 +1046,7 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ClockSubText"
@@ -1056,7 +1056,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"9"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ClockSubTextSuddenDeath"
@@ -1066,7 +1066,7 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ClockSubTextTiny"
@@ -1076,7 +1076,7 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudSelectionText"
@@ -1086,7 +1086,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"15"
 				"weight"									"700"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"yres"										"1 599"
 				"range"										"0x0000 0x017F"
 				"additive"									"1"
@@ -1096,7 +1096,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"15"
 				"weight"									"700"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"yres"										"600 767"
 				"range"										"0x0000 0x017F"
 				"additive"									"1"
@@ -1106,7 +1106,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"18"
 				"weight"									"900"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"yres"										"768 1023"
 				"range"										"0x0000 0x017F"
 			}
@@ -1115,7 +1115,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"21"
 				"weight"									"900"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"yres"										"1024 1199"
 				"range"										"0x0000 0x017F"
 			}
@@ -1124,7 +1124,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"24"
 				"weight"									"1000"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"yres"										"1200 10000"
 				"range"										"0x0000 0x017F"
 			}
@@ -1144,20 +1144,20 @@
 		{
 			"1"
 			{
-				"name"  									"tfd"
-				"tall"  									"28"
-				"antialias" 								"1"
+				"name"										"tfd"
+				"tall"										"28"
+				"antialias"									"1"
 			}
 		}
 
 		"Icons"
 		{
 			"1"
-			 {
-				"name"  									"Team Fortress"
-				"tall"  									"28"
-				"additive" 									"1"
-				"antialias" 								"1"
+			{
+				"name"										"Team Fortress"
+				"tall"										"28"
+				"additive"									"1"
+				"antialias"									"1"
 			}
 		}
 		"BetaFont"
@@ -1168,7 +1168,7 @@
 				"tall"										"90"
 				"weight"									"900"
 				"range"										"0x0000 0x007F"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -1176,17 +1176,17 @@
 		{
 			"1"
 			{
-				"name" 										"Team Fortress"
-				"tall"  									"28"
-				"additive" 									"1"
-				"antialias" 								"1"
+				"name"										"Team Fortress"
+				"tall"										"28"
+				"additive"									"1"
+				"antialias"									"1"
 			}
 			"2"
 			{
-				"name" 								 		"Rubik Medium"
-				"tall"  									"28"
-				"additive" 									"1"
-				"antialias" 								"1"
+				"name"										"Rubik Medium"
+				"tall"										"28"
+				"additive"									"1"
+				"antialias"									"1"
 			}
 		}
 		"CloseCaption_Normal"
@@ -1196,7 +1196,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"24"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"CloseCaption_Italic"
@@ -1206,7 +1206,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"24"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"CloseCaption_Bold"
@@ -1216,7 +1216,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"24"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"CloseCaption_BoldItalic"
@@ -1226,7 +1226,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"24"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"CloseCaption_Small"
@@ -1236,7 +1236,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"16"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -1266,7 +1266,7 @@
 			{
 				"name"										"Rubik Medium"
 				"tall"										"24"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"weight"									"500"
 			}
 		}
@@ -1276,7 +1276,7 @@
 			{
 				"name"										"Rubik Medium"
 				"tall"										"11"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"weight"									"500"
 			}
 		}
@@ -1286,7 +1286,7 @@
 			{
 				"name"										"Rubik Medium"
 				"tall"										"12"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"weight"									"500"
 			}
 		}
@@ -1298,7 +1298,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"13"
 				"weight"									"800"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -1309,7 +1309,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"28"
 				"antialias"									"1"
-				"custom"									"1" 	[$OSX]
+				"custom"									"1"	[$OSX]
 				"weight"									"500"
 			}
 		}
@@ -1320,7 +1320,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"40"
 				"antialias"									"1"
-				"custom"									"1" 	[$OSX]
+				"custom"									"1"	[$OSX]
 				"weight"									"500"
 			}
 		}
@@ -1330,8 +1330,8 @@
 			{
 				"name"										"Rubik Medium"
 				"tall"										"24"
-				"antialias" 								"1"
-				"custom"									"1" 	[$OSX]
+				"antialias"									"1"
+				"custom"									"1"	[$OSX]
 				"weight"									"500"
 			}
 		}
@@ -1340,10 +1340,10 @@
 			"1"
 			{
 				"name"										"Rubik Medium"
-				"tall"										"14" 	[!$OSX]
-				"tall"										"15" 	[$OSX]
+				"tall"										"14"	[!$OSX]
+				"tall"										"15"	[$OSX]
 				"antialias"									"1"
-				"custom"									"1" 	[$OSX]
+				"custom"									"1"		[$OSX]
 				"weight"									"500"
 			}
 		}
@@ -1354,7 +1354,7 @@
 				"name"										"Verdana"
 				"tall"										"6"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ScoreboardVerySmall"
@@ -1364,7 +1364,7 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ScoreboardSmall"
@@ -1374,7 +1374,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"10"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ScoreboardMediumSmall"
@@ -1385,7 +1385,7 @@
 				"tall"										"14"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ScoreboardMedium"
@@ -1396,7 +1396,7 @@
 				"tall"										"20"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ScoreboardTeamName"
@@ -1407,7 +1407,7 @@
 				"tall"										"20"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ScoreboardTeamCountNew"
@@ -1418,7 +1418,7 @@
 				"tall"										"14"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ScoreboardTeamNameNew"
@@ -1429,7 +1429,7 @@
 				"tall"										"20"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ScoreboardTeamNameLarge"
@@ -1440,18 +1440,18 @@
 				"tall"										"34"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
 		"ScoreboardTeamScoreNew"
- 		{
+		{
 			"1"
 			{
 				"name"										"Rubik Medium"
 				"tall"										"36"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ScoreboardTeamScore"
@@ -1460,25 +1460,25 @@
 			{
 				"name"										"Rubik Medium"
 				"tall"										"52"
-				"range" 									"0x0000 0x00FF"
+				"range"										"0x0000 0x00FF"
 				"weight"									"400"
 				"yres"										"1 599"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 			"2"
 			{
 				"name"										"Rubik Medium"
 				"tall"										"72"
-				"range" 									"0x0000 0x00FF"
+				"range"										"0x0000 0x00FF"
 				"weight"									"400"
 				"yres"										"600 767"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 			"3"
 			{
 				"name"										"Rubik Medium"
 				"tall"										"100"
-				"range" 									"0x0000 0x00FF"
+				"range"										"0x0000 0x00FF"
 				"weight"									"400"
 				"yres"										"768 1023"
 				"antialias"									"1"
@@ -1487,19 +1487,19 @@
 			{
 				"name"										"Rubik Medium"
 				"tall"										"140"
-				"range" 									"0x0000 0x00FF"
+				"range"										"0x0000 0x00FF"
 				"weight"									"400"
 				"yres"										"1024 1199"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 			"5"
 			{
 				"name"										"Rubik Medium"
 				"tall"										"180"
-				"range" 									"0x0000 0x00FF"
+				"range"										"0x0000 0x00FF"
 				"weight"									"400"
 				"yres"										"1200 10000"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"MatchSummaryTeamScores"
@@ -1510,7 +1510,7 @@
 				"tall"										"36"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"MatchSummaryStatsAndMedals"
@@ -1520,7 +1520,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"14"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"MatchSummaryWinner"
@@ -1530,7 +1530,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"20"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"CompMatchStartTeamNames"
@@ -1540,7 +1540,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"14"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ControlPointTimer"
@@ -1550,7 +1550,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"10"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ControlPointTimerSmaller"
@@ -1560,7 +1560,7 @@
 				"name"										"Product Sans"
 				"tall"										"7"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -1571,7 +1571,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"10"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -1706,7 +1706,7 @@
 			{
 				"name"										"Arial Black"
 				"tall"										"8"
-				"range" 									"0x0000 0x00FF"
+				"range"										"0x0000 0x00FF"
 				"weight"									"300"
 				"antialias"									"1"
 			}
@@ -1718,7 +1718,7 @@
 			{
 				"name"										"Rubik Medium"
 				"tall"										"14"
-				"range" 									"0x0000 0x00FF"
+				"range"										"0x0000 0x00FF"
 				"weight"									"300"
 				"antialias"									"1"
 			}
@@ -1732,7 +1732,7 @@
 				"weight"									"500"
 				"range"										"0x0000 0x017F"
 				"TextColor"									"Black"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"CapPlayerFontSmall"
@@ -1744,7 +1744,7 @@
 				"weight"									"500"
 				"range"										"0x0000 0x017F"
 				"TextColor"									"Black"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -1755,7 +1755,7 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"additive"									"1"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"TFFontMedium"
@@ -1765,7 +1765,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"9"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -1774,10 +1774,10 @@
 			"1"
 			{
 				"name"										"Rubik Medium"
-				"tall"										"11"  	[!$OSX]
-				"tall"										"9"  	[$OSX]
+				"tall"										"11"	[!$OSX]
+				"tall"										"9"		[$OSX]
 				"weight"									"800"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -1879,7 +1879,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"36"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"TeamMenu"
@@ -1889,7 +1889,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"11"
 				"weight"									"600"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"IntroMenuCaption"
@@ -1899,7 +1899,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"18"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"AchievementNotification"
@@ -1909,7 +1909,7 @@
 				"name"										"Trebuchet MS"
 				"tall"										"14"
 				"weight"									"900"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ImportToolSmallestBold"
@@ -1919,7 +1919,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"10"
 				"weight"									"600"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ImportToolSmallest"
@@ -1929,7 +1929,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"10"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"SpectatorVerySmall"
@@ -1939,8 +1939,8 @@
 				"name"										"Rubik Medium"
 				"tall"										"9"
 				"weight"									"400"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
+				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 
@@ -1979,7 +1979,7 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
-				"antialias"								 	"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemFontNameSmall"
@@ -1989,7 +1989,7 @@
 				"name"										"Product Sans"
 				"tall"										"9"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemFontNameLarge"
@@ -1999,7 +1999,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"12"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemFontNameLarger"
@@ -2009,7 +2009,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"18"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemFontAttribSmallest"
@@ -2019,7 +2019,7 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemFontAttribSmallv2"
@@ -2028,7 +2028,7 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"8"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"weight"									"500"
 			}
 		}
@@ -2039,7 +2039,7 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemFontAttribLarge"
@@ -2049,7 +2049,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"11"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemFontAttribLarger"
@@ -2059,7 +2059,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"14"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2070,7 +2070,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"9"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"AchievementTracker_NameGlow"
@@ -2082,7 +2082,7 @@
 				"weight"									"500"
 				"blur"										"3"
 				"additive"									"1"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"AchievementTracker_Desc"
@@ -2092,7 +2092,7 @@
 				"name"										"Product Sans"
 				"tall"										"7"
 				"additive"									"1"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"QuestObjectiveTracker_Desc"
@@ -2102,7 +2102,7 @@
 				"name"										"Product Sans"
 				"tall"										"7"
 				"additive"									"1"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"QuestObjectiveTracker_DescGlow"
@@ -2111,7 +2111,7 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"7"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"QuestObjectiveTracker_DescBlur"
@@ -2122,7 +2122,7 @@
 				"tall"										"7"
 				"blur"										"3"
 				"additive"									"1"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemTrackerScore_InGame"
@@ -2131,7 +2131,7 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"7"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2198,7 +2198,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"16"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2208,8 +2208,8 @@
 			{
 				"name"										"Rubik Medium"
 				"tall"										"20"
-				"antialias" 								"1"
-				"custom"									"1" 	[$OSX]
+				"antialias"									"1"
+				"custom"									"1"	[$OSX]
 				"weight"									"500"
 			}
 		}
@@ -2308,7 +2308,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"13"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2319,7 +2319,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"16"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2330,7 +2330,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"10"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2341,7 +2341,7 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"AdFont_PurchaseButton"
@@ -2350,7 +2350,7 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"8"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2361,7 +2361,7 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2372,7 +2372,7 @@
 				"name"										"Trebuchet MS"
 				"tall"										"9"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"italic"									"1"
 			}
 		}
@@ -2425,7 +2425,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"11"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ReplaySmaller"
@@ -2472,7 +2472,7 @@
 			{
 				"name"										"Arial"
 				"tall"										"12"
-				"range" 									"0x0000 0x00FF"
+				"range"										"0x0000 0x00FF"
 			}
 		}
 		"ReplayMediumSmall"
@@ -2482,7 +2482,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"11"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ReplayMedium"
@@ -2492,7 +2492,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"14"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ReplayMediumBig"
@@ -2502,7 +2502,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"18"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ReplayBrowserTab"
@@ -2512,7 +2512,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"24"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ReplayLarger"
@@ -2522,7 +2522,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"18"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2533,7 +2533,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"14"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"EconFontMedium"
@@ -2543,7 +2543,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"24"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2555,7 +2555,7 @@
 				"tall"										"15"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2566,7 +2566,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"9"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2577,7 +2577,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"11"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2590,7 +2590,7 @@
 				"weight"									"500"
 				"blur"										"3"
 				"additive"									"1"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2601,7 +2601,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"12"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"dropshadow"								"1"
 			}
 		}
@@ -2614,7 +2614,7 @@
 				"tall"										"7"
 				"blur"										"3"
 				"additive"									"1"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2625,7 +2625,7 @@
 				"name"										"Product Sans"
 				"tall"										"7"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2636,7 +2636,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"10"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2647,7 +2647,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"14"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2658,7 +2658,7 @@
 				"name"										"Rubik Medium"
 				"tall"										"30"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 	}
@@ -2667,23 +2667,23 @@
 	{
 		"20"
 		{
-			"font" 		"resource/scheme/fonts/rubik-medium.otf"
-			"name" 		"Rubik Medium"
+			"font"		"resource/scheme/fonts/rubik_medium.otf"
+			"name"		"Rubik Medium"
 		}
 		"21"
 		{
-			"font" 		"resource/scheme/fonts/rubik-numbers.otf"
-			"name" 		"Rubik Numbers"
+			"font"		"resource/scheme/fonts/rubik_numbers.otf"
+			"name"		"Rubik Numbers"
 		}
 		"22"
 		{
-			"font" 		"resource/scheme/fonts/rubik-semibold.otf"
-			"name" 		"Rubik SemiBold"
+			"font"		"resource/scheme/fonts/rubik_semibold.otf"
+			"name"		"Rubik SemiBold"
 		}
 		"23"
 		{
-			"font" 		"resource/scheme/fonts/product.ttf"
-			"name" 		"Product Sans"
+			"font"		"resource/scheme/fonts/product.ttf"
+			"name"		"Product Sans"
 		}
 	}
 }

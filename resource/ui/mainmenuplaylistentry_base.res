@@ -13,15 +13,15 @@
 		"enabled"								"1"
 		"labelText"								"%button_token%"
 		"textinsetx"							"0"
-		"use_proportional_insets" 				"1"
-		"font"									"Size 22"
+		"use_proportional_insets"				"1"
+		"font"									"Size_22"
 		"textAlignment"							"center"
 		"wrap"									"1"
 		"centerwrap"							"1"
 		"AllCaps"								"1"
 		"default"								"1"
 		"command"								"%button_command%"
-		"proportionaltoparent" 					"1"
+		"proportionaltoparent"					"1"
 		"actionsignallevel"						"2"
 
 		"paintbackground"						"0"
@@ -30,8 +30,8 @@
 		"armedFgColor_override"					"White"
 		"depressedFgColor_override"				"White"
 
-		"border_default"						"MaterialGrayDark"
-		"border_armed"							"MaterialHypno"
+		"border_default"						"Material_Gray_Dark"
+		"border_armed"							"Material_Hypno"
 	}
 
 	"MatchmakingBanPanel"
@@ -53,7 +53,7 @@
 		{
 			"ControlName"						"CExLabel"
 			"fieldName"							"MatchmakingBanDurationLabel"
-			"font"								"Size 9"
+			"font"								"Size_9"
 			"fgcolor"							"Red"
 			"labelText"							"#TF_Matchmaking_Ban_Duration_Remaining"
 			"textalignment"						"south-west"
@@ -64,8 +64,6 @@
 			"tall"								"f0"
 			"visible"							"1"
 			"enabled"							"1"
-			"autoResize"						"1"
-			"pinCorner"							"0"
 			"proportionaltoparent"				"1"
 
 			"paintbackground"					"0"
@@ -143,7 +141,7 @@
 		"mouseinputenabled"							"1"
 		"eatmouseinput"								"0"
 		"showtooltipswhenmousedisabled"				"1"
-		"proportionaltoparent" 						"1"
+		"proportionaltoparent"						"1"
 	}
 	"DisabledIcon"
 	{

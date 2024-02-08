@@ -1,6 +1,6 @@
 "Resource/UI/TrainingComplete.res"
 {
- 	"TrainingComplete"
+	"TrainingComplete"
 	{
 		"ControlName"								"CTFTrainingComplete"
 		"fieldName"									"TrainingComplete"
@@ -27,18 +27,18 @@
 			"labelText"								"#Button_NextTraining"
 			"textAlignment"							"center"
 			"command"								"next"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
-			"paintbackground" 						"0"
+			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
 
-			"border_default"						"MaterialTransparent70"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Transparent_70"
+			"border_armed"							"Material_Hypno"
 		}
 
 		"Quit"
@@ -56,18 +56,18 @@
 			"labelText"								"#Button_QuitTraining"
 			"textAlignment"							"center"
 			"command"								"quit"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
-			"paintbackground" 						"0"
+			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
 
-			"border_default"						"MaterialTransparent70"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Transparent_70"
+			"border_armed"							"Material_Hypno"
 		}
 
 		"Replay"
@@ -85,19 +85,19 @@
 			"labelText"								"#Button_ReplayTraining"
 			"textAlignment"							"center"
 			"command"								"replay"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"fgcolor"								"Black"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
-			"paintbackground" 						"0"
+			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
 
-			"border_default"						"MaterialTransparent70"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Transparent_70"
+			"border_armed"							"Material_Hypno"
 		}
 
 		"BottomBar"
@@ -161,7 +161,7 @@
 		"mouseinputenabled"							"0"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"MaterialTransparent70"
+		"border"									"Material_Transparent_70"
 
 		"ResultsLabel"
 		{
@@ -175,7 +175,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 16"
+			"font"									"Size_16"
 			"labelText"								"%wintext%"
 			"textAlignment"							"center"
 			"fgcolor"								"White"
@@ -197,13 +197,18 @@
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"textAlignment"							"north"
-			"font"									"Size 12"
+			"font"									"Size_12"
 		}
 		"ResultsBG"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"ResultsBG"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 }

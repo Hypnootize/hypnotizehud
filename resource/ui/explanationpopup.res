@@ -4,21 +4,19 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									"%title%"
 		"textAlignment"								"north"
 		"xpos"										"cs-0.5"
 		"ypos"										"10"
 		"wide"										"f20"
 		"tall"										"30"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"		 							"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"auto_tall_tocontents"						"1"
 	}
 
@@ -26,20 +24,18 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TextLabel"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									"%body%"
 		"textAlignment"								"north-west"
 		"xpos"										"cs-0.5"
 		"ypos"										"45"
 		"wide"										"f20"
 		"tall"										"135"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"		 							"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"auto_tall_tocontents"						"1"
 	}
 
@@ -52,25 +48,23 @@
 		"zpos"										"10"
 		"wide"										"18"
 		"tall"										"18"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labeltext"									"%"
-		"font"										"Symbols 20"
+		"font"										"Symbols_20"
 		"textAlignment"								"center"
 		"default"									"0"
 		"Command"									"close"
 		"proportionaltoparent"						"1"
-		"autoresize"								"0"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override" 					"WhiteDark"
+		"defaultFgColor_override"					"White_Dark"
 		"armedFgColor_override"						"Red"
-		"depressedFgColor_override" 				"Red"
+		"depressedFgColor_override"					"Red"
 	}
 
 	"PrevButton"
@@ -85,7 +79,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labeltext"									"#"
-		"font"										"Symbols 24"
+		"font"										"Symbols_24"
 		"textAlignment"								"center"
 		"default"									"0"
 		"Command"									"prevexplanation"
@@ -97,9 +91,9 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override" 					"WhiteDark"
-		"armedFgColor_override" 					"Main Theme"
-		"depressedFgColor_override" 				"Main Theme"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"Main_Theme"
+		"depressedFgColor_override"					"Main_Theme"
 	}
 	"NextButton"
 	{
@@ -110,11 +104,10 @@
 		"zpos"										"10"
 		"wide"										"30"
 		"tall"										"30"
-		"autoResize"								"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labeltext"									"$"
-		"font"										"Symbols 24"
+		"font"										"Symbols_24"
 		"textAlignment"								"center"
 		"default"									"0"
 		"Command"									"nextexplanation"
@@ -126,15 +119,15 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override" 					"WhiteDark"
-		"armedFgColor_override" 					"Main Theme"
-		"depressedFgColor_override" 				"Main Theme"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"Main_Theme"
+		"depressedFgColor_override"					"Main_Theme"
 	}
 	"PositionLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PositionLabel"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									"%explanationnumber%"
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5"
@@ -144,7 +137,7 @@
 		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"		 							"Main Theme"
+		"fgcolor"									"Main_Theme"
 		"proportionaltoparent"						"1"
 		"skip_autoresize"							"1"
 	}

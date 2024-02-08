@@ -1,2 +1,2 @@
-#base	"../../customizations/streamermode/mvmscoreboard.res"
-#base 	"mvmscoreboard_base.res"
+#base "../../customizations/streamermode/mvmscoreboard.res"
+#base "mvmscoreboard_base.res"

@@ -22,12 +22,10 @@
 		"zpos"										"10"
 		"wide"										"20"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labeltext"									"x"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 		"default"									"0"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -36,11 +34,11 @@
 
 		"paintbackground"							"0"
 		"paintborder"								"1"
-		"border_default"							"MaterialBlackLight"
-		"border_armed"								"MaterialGreen"
+		"border_default"							"Material_Black_Light"
+		"border_armed"								"Material_Green"
 
 		"defaultFgColor_override"					"White"
 		"ArmedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 }

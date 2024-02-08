@@ -1,2 +1,2 @@
-#base 	"../../customizations/streamermode/scoreboard.res"
-#base 	"../../customizations/scoreboards.res"
+#base "../../customizations/streamermode/scoreboard.res"
+#base "../../customizations/scoreboards.res"

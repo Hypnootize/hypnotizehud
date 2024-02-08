@@ -68,7 +68,7 @@
 			"actionsignallevel"						"2"
 			"command"								"show_match_history"
 			"labeltext"								"#TF_Competitive_ViewMatches"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -76,13 +76,13 @@
 
 			"paintbackground"						"1"
 
-			"defaultBgColor_override"				"BlackLight"
-			"armedBgColor_override"					"Main Theme"
-			"depressedBgColor_override" 			"Main Theme"
+			"defaultBgColor_override"				"Black_Light"
+			"armedBgColor_override"					"Main_Theme"
+			"depressedBgColor_override"				"Main_Theme"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 		}
 
 		"ShowLeaderboardsButton"
@@ -99,7 +99,7 @@
 			"actionsignallevel"						"2"
 			"command"								"show_leaderboards"
 			"labeltext"								"#TF_Competitive_ViewLeaderboards"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -107,13 +107,13 @@
 
 			"paintbackground"						"1"
 
-			"defaultBgColor_override"				"BlackLight"
-			"armedBgColor_override"					"Main Theme"
-			"depressedBgColor_override" 			"Main Theme"
+			"defaultBgColor_override"				"Black_Light"
+			"armedBgColor_override"					"Main_Theme"
+			"depressedBgColor_override"				"Main_Theme"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 		}
 
 		"PlaylistBGPanel"
@@ -127,17 +127,20 @@
 			"tall"									"p1"
 			"visible"								"1"
 			"paintbackground"						"1"
-			"bgcolor_override"						"BlackLight"
+			"bgcolor_override"						"Black_Light"
 			"proportionaltoparent"					"1"
 
-			"pinCorner"								"2"
-			"autoResize"							"1"
 
 			"PlayListDropShadow"
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"PlayListDropShadow"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 
 			"MatchHistoryCategories"
@@ -157,6 +160,11 @@
 					"ControlName"					"EditablePanel"
 					"fieldName"						"BGPanel"
 					"xpos"							"9999"
+					"ypos"							"9999"
+					"wide"							"0"
+					"tall"							"0"
+					"visible"						"0"
+					"enabled"						"0"
 				}
 
 				"SortArrow"
@@ -176,9 +184,9 @@
 					"font"							"MarlettSmall"
 					"textAlignment"					"west"
 
-					"defaultFgColor_override" 		"White"
+					"defaultFgColor_override"		"White"
 					"armedFgColor_override"			"White"
-					"selectedFgColor_override" 		"White"
+					"selectedFgColor_override"		"White"
 				}
 
 				"ResultButton"
@@ -192,7 +200,7 @@
 					"proportionaltoparent"			"1"
 					"visible"						"1"
 					"labeltext"						"#TF_Competitive_Result"
-					"font"							"Size 10"
+					"font"							"Size_10"
 					"textAlignment"					"center"
 					"textinsetx"					"0"
 					"AllCaps"						"1"
@@ -201,14 +209,14 @@
 
 					"paintbackground"				"1"
 
-					"defaultBgColor_override"		"GrayDarker"
-					"armedBgColor_override"			"GrayMedium"
-					"selectedBgColor_override"		"GrayMedium"
-					"depressedBgColor_override" 	"GrayMedium"
+					"defaultBgColor_override"		"Gray_Darker"
+					"armedBgColor_override"			"Gray_Medium"
+					"selectedBgColor_override"		"Gray_Medium"
+					"depressedBgColor_override"		"Gray_Medium"
 
 					"defaultFgColor_override"		"White"
 					"armedFgColor_override"			"White"
-					"depressedFgColor_override" 	"White"
+					"depressedFgColor_override"		"White"
 
 					"command"						"sort0"
 					"actionsignallevel"				"4"
@@ -225,7 +233,7 @@
 					"proportionaltoparent"			"1"
 					"visible"						"1"
 					"labeltext"						"#TF_Competitive_Date"
-					"font"							"Size 10"
+					"font"							"Size_10"
 					"textAlignment"					"center"
 					"textinsetx"					"0"
 					"AllCaps"						"1"
@@ -234,14 +242,14 @@
 
 					"paintbackground"				"1"
 
-					"defaultBgColor_override"		"GrayDarker"
-					"armedBgColor_override"			"GrayMedium"
-					"selectedBgColor_override"		"GrayMedium"
-					"depressedBgColor_override" 	"GrayMedium"
+					"defaultBgColor_override"		"Gray_Darker"
+					"armedBgColor_override"			"Gray_Medium"
+					"selectedBgColor_override"		"Gray_Medium"
+					"depressedBgColor_override"		"Gray_Medium"
 
 					"defaultFgColor_override"		"White"
 					"armedFgColor_override"			"White"
-					"depressedFgColor_override" 	"White"
+					"depressedFgColor_override"		"White"
 
 					"command"						"sort1"
 					"actionsignallevel"				"4"
@@ -257,7 +265,7 @@
 					"tall"							"12"
 					"visible"						"1"
 					"labeltext"						"#TF_Competitive_Map"
-					"font"							"Size 10"
+					"font"							"Size_10"
 					"textAlignment"					"center"
 					"textinsetx"					"0"
 					"proportionaltoparent"			"1"
@@ -267,14 +275,14 @@
 
 					"paintbackground"				"1"
 
-					"defaultBgColor_override"		"GrayDarker"
-					"armedBgColor_override"			"GrayMedium"
-					"depressedBgColor_override" 	"GrayMedium"
+					"defaultBgColor_override"		"Gray_Darker"
+					"armedBgColor_override"			"Gray_Medium"
+					"depressedBgColor_override"		"Gray_Medium"
 
 					"defaultFgColor_override"		"White"
 					"armedFgColor_override"			"White"
-					"selectedBgColor_override"		"GrayMedium"
-					"depressedFgColor_override" 	"White"
+					"selectedBgColor_override"		"Gray_Medium"
+					"depressedFgColor_override"		"White"
 
 					"command"						"sort2"
 					"actionsignallevel"				"4"
@@ -291,7 +299,7 @@
 					"proportionaltoparent"			"1"
 					"visible"						"1"
 					"labeltext"						"#TF_Competitive_KDR"
-					"font"							"Size 10"
+					"font"							"Size_10"
 					"textAlignment"					"center"
 					"AllCaps"						"1"
 					"sound_depressed"				"UI/buttonclick.wav"
@@ -299,14 +307,14 @@
 
 					"paintbackground"				"1"
 
-					"defaultBgColor_override"		"GrayDarker"
-					"armedBgColor_override"			"GrayMedium"
-					"selectedBgColor_override"		"GrayMedium"
-					"depressedBgColor_override" 	"GrayMedium"
+					"defaultBgColor_override"		"Gray_Darker"
+					"armedBgColor_override"			"Gray_Medium"
+					"selectedBgColor_override"		"Gray_Medium"
+					"depressedBgColor_override"		"Gray_Medium"
 
 					"defaultFgColor_override"		"White"
 					"armedFgColor_override"			"White"
-					"depressedFgColor_override" 	"White"
+					"depressedFgColor_override"		"White"
 
 					"command"						"sort3"
 					"actionsignallevel"				"4"
@@ -323,7 +331,7 @@
 				"tall"								"p0.89"
 				"visible"							"1"
 				"proportionaltoparent"				"1"
-				"restrict_width" 					"0"
+				"restrict_width"					"0"
 
 				"ScrollBar"
 				{
@@ -332,14 +340,14 @@
 					"xpos"							"rs1+1"
 					"ypos"							"0"
 					"tall"							"f0"
-					"wide"							"3" 	// This gets slammed from client schme.  GG.
+					"wide"							"3"		// This gets slammed from client schme. GG.
 					"zpos"							"1000"
 					"nobuttons"						"1"
 					"proportionaltoparent"			"1"
 
 					"Slider"
 					{
-						"fgcolor_override"			"WhiteDark"
+						"fgcolor_override"			"White_Dark"
 					}
 
 					"UpButton"
@@ -369,7 +377,7 @@
 				"tall"								"f20"
 				"visible"							"0"
 				"enabled"							"1"
-				"mouseinputenabled" 				"1"
+				"mouseinputenabled"					"1"
 				"scaleImage"						"1"
 				"entry_step"						"23"
 				"proportionaltoparent"				"1"

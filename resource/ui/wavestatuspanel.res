@@ -9,8 +9,6 @@
 		"zpos"										"-1"
 		"wide"										"200"
 		"tall"										"35"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"image"										"replay/thumbnails/panels/material_transparent30"
@@ -19,15 +17,15 @@
 		"src_corner_width"							"24"
 
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 	}
 
 	"WaveCountLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WaveCountLabel"
-		"font"										"Size 10"
-		"font_minmode"								"Size 10"
+		"font"										"Size_10"
+		"font_minmode"								"Size_10"
 		"fgcolor"									"White"
 		"xpos"										"211"
 		"ypos"										"4"
@@ -48,8 +46,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WaveCountLabelShadow"
-		"font"										"Size 10 Blur"
-		"font_minmode"								"Size 10 Blur"
+		"font"										"Size_10_Blur"
+		"font_minmode"								"Size_10_Blur"
 		"fgcolor"									"Shadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
@@ -80,7 +78,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"scaleImage"								"1"
-		"PaintBackgroundType" 						"0"
+		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"White"
 
 		"if_verbose"
@@ -93,7 +91,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SupportLabel"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"fgcolor"									"White"
 		"xpos"										"55"
 		"ypos"										"6"
@@ -130,7 +128,7 @@
 		"src_corner_width"							"24"
 
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 	}
 
 	"ProgressBarBG"
@@ -151,6 +149,6 @@
 		"src_corner_width"							"24"
 
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 	}
 }

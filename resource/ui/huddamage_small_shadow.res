@@ -2,7 +2,7 @@
 {
 	"CDamageAccountPanel"
 	{
-		"delta_item_font"							"Game 18 Shadow"
-		"delta_item_font_big"						"Game 18 Shadow"
+		"delta_item_font"							"Game_18_Shadow"
+		"delta_item_font_big"						"Game_18_Shadow"
 	}
 }

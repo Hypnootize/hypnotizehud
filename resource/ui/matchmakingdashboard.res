@@ -29,8 +29,6 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 
-		"pinCorner"									"2"
-		"autoResize"								"1"
 
 		"BGPanel"
 		{
@@ -43,7 +41,7 @@
 			"tall"									"29"
 			"visible"								"1"
 			"paintbackground"						"0"
-			"border"								"MaterialBlackLight"
+			"border"								"Material_Black_Light"
 		}
 
 		"ToggleChatButton"
@@ -55,11 +53,9 @@
 			"zpos"									"100"
 			"wide"									"26"
 			"tall"									"24"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"Command"								"toggle_chat"
 			"proportionaltoparent"					"1"
@@ -73,12 +69,12 @@
 			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"paintbackground"						"0"
-			"border_default"						"MaterialGrayDarker"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Gray_Darker"
+			"border_armed"							"Material_Hypno"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 		}
 
 		"PartySlot0"
@@ -90,8 +86,6 @@
 			"zpos"									"100"
 			"wide"									"18"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -110,8 +104,6 @@
 			"zpos"									"100"
 			"wide"									"18"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -119,9 +111,9 @@
 			"keyboardinputenabled"					"0"
 			"party_slot"							"1"
 
-			"pin_to_sibling" 						"PartySlot0"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"PartySlot0"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"PartySlot2"
@@ -133,8 +125,6 @@
 			"zpos"									"100"
 			"wide"									"18"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -142,9 +132,9 @@
 			"keyboardinputenabled"					"0"
 			"party_slot"							"2"
 
-			"pin_to_sibling" 						"PartySlot1"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"PartySlot1"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"PartySlot3"
@@ -156,8 +146,6 @@
 			"zpos"									"100"
 			"wide"									"18"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -165,9 +153,9 @@
 			"keyboardinputenabled"					"0"
 			"party_slot"							"3"
 
-			"pin_to_sibling" 						"PartySlot2"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"PartySlot2"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"PartySlot4"
@@ -179,8 +167,6 @@
 			"zpos"									"100"
 			"wide"									"18"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -188,9 +174,9 @@
 			"keyboardinputenabled"					"0"
 			"party_slot"							"4"
 
-			"pin_to_sibling" 						"PartySlot3"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"PartySlot3"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"PartySlot5"
@@ -202,8 +188,6 @@
 			"zpos"									"100"
 			"wide"									"18"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -212,9 +196,9 @@
 
 			"party_slot"							"5"
 
-			"pin_to_sibling" 						"PartySlot4"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"PartySlot4"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"QueueContainer"
@@ -241,7 +225,7 @@
 				"visible"							"1"
 				"proportionaltoparent"				"1"
 
-				"border"							"MaterialGrayDarkest"
+				"border"							"Material_Gray_Darkest"
 			}
 
 			"CTFLogoPanel"
@@ -273,7 +257,7 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 9"
+				"font"								"Size_9"
 				"AllCaps"							"1"
 				"fgcolor_override"					"White"
 				"textAlignment"						"west"
@@ -285,15 +269,15 @@
 				{
 					"0"
 					{
-						"font"						"Size 9"
+						"font"						"Size_9"
 					}
 					"1"
 					{
-						"font"						"Size 9"
+						"font"						"Size_9"
 					}
 					"2"
 					{
-						"font"						"Size 9"
+						"font"						"Size_9"
 					}
 				}
 			}
@@ -307,12 +291,10 @@
 				"zpos"								"10"
 				"wide"								"21"
 				"tall"								"21"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"labeltext"							"*"
-				"font"								"Symbols 16"
+				"font"								"Symbols_16"
 				"textAlignment"						"center"
 				"default"							"1"
 				"sound_depressed"					"UI/buttonclick.wav"
@@ -322,12 +304,12 @@
 				"actionsignallevel"					"3"
 
 				"paintbackground"					"0"
-				"border_default"					"MaterialGrayDark"
-				"border_armed"						"MaterialHypno"
+				"border_default"					"Material_Gray_Dark"
+				"border_armed"						"Material_Hypno"
 
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
-				"depressedFgColor_override" 		"White"
+				"depressedFgColor_override"			"White"
 			}
 
 			"CloseButton"
@@ -339,12 +321,10 @@
 				"zpos"								"10"
 				"wide"								"21"
 				"tall"								"21"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"labeltext"							"-"
-				"font"								"Symbols 18"
+				"font"								"Symbols_18"
 				"textAlignment"						"center"
 				"default"							"1"
 				"Command"							"leave_queue"
@@ -356,12 +336,12 @@
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
 
-				"border_default"					"MaterialGrayDark"
-				"border_armed"						"MaterialRed"
+				"border_default"					"Material_Gray_Dark"
+				"border_armed"						"Material_Red"
 
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
-				"depressedFgColor_override" 		"White"
+				"depressedFgColor_override"			"White"
 			}
 
 			"OuterShadow"
@@ -369,12 +349,22 @@
 				"ControlName"						"Panel"
 				"fieldName"							"OuterShadow"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"QueueLogoButton"
 			{
 				"ControlName"						"Button"
 				"fieldName"							"QueueLogoButton"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 		}
 
@@ -401,7 +391,7 @@
 				"tall"								"30"
 				"visible"							"1"
 				"proportionaltoparent"				"1"
-				"border"							"MaterialGrayDarkest"
+				"border"							"Material_Gray_Darkest"
 			}
 
 			"PromptText"
@@ -415,7 +405,7 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 9"
+				"font"								"Size_9"
 				"AllCaps"							"1"
 				"fgcolor"							"White"
 				"textAlignment"						"west"
@@ -440,11 +430,9 @@
 					"wide"							"150"
 				}
 
-				"autoResize"						"0"
-				"pinCorner"							"3"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 11"
+				"font"								"Size_11"
 				"AllCaps"							"1"
 				"textAlignment"						"center"
 				"Command"							"join_party_match"
@@ -459,18 +447,23 @@
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
 
-				"border_default"					"MaterialGrayDark"
-				"border_armed"						"MaterialGreen"
+				"border_default"					"Material_Gray_Dark"
+				"border_armed"						"Material_Green"
 
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
-				"depressedFgColor_override" 		"White"
+				"depressedFgColor_override"			"White"
 			}
 			"OuterShadow"
 			{
 				"ControlName"						"Panel"
 				"fieldName"							"OuterShadow"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 		}
 
@@ -496,11 +489,9 @@
 			"zpos"									"100"
 			"wide"									"28"
 			"tall"									"24"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Symbols 18"
+			"font"									"Symbols_18"
 			"textAlignment"							"center"
 			"Command"								"quit"
 			"proportionaltoparent"					"1"
@@ -515,16 +506,16 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
-			"border_default"						"MaterialGrayDarker"
-			"border_armed"							"MaterialRed"
+			"border_default"						"Material_Gray_Darker"
+			"border_armed"							"Material_Red"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 
-			"pin_to_sibling" 						"DashboardAnchor"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"DashboardAnchor"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"DisconnectButton"
@@ -536,11 +527,9 @@
 			"zpos"									"100"
 			"wide"									"28"
 			"tall"									"24"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Symbols 18"
+			"font"									"Symbols_18"
 			"textAlignment"							"center"
 			"Command"								"quit"
 			"proportionaltoparent"					"1"
@@ -555,16 +544,16 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
-			"border_default"						"MaterialGrayDarker"
-			"border_armed"							"MaterialRed"
+			"border_default"						"Material_Gray_Darker"
+			"border_armed"							"Material_Red"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 
-			"pin_to_sibling" 						"DashboardAnchor"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"DashboardAnchor"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"FindAGameButton2"
@@ -576,11 +565,9 @@
 			"zpos"									"100"
 			"wide"									"28"
 			"tall"									"24"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Symbols 18"
+			"font"									"Symbols_18"
 			"textAlignment"							"center"
 			"Command"								"find_game"
 			"proportionaltoparent"					"1"
@@ -594,16 +581,16 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
-			"border_default"						"MaterialGrayDarker"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Gray_Darker"
+			"border_armed"							"Material_Hypno"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 
-			"pin_to_sibling" 						"DashboardAnchor"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"DashboardAnchor"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 
@@ -613,12 +600,22 @@
 			"ControlName"							"ImagePanel"
 			"fieldName"								"Gradient"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"OuterShadow"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"OuterShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"QuitButton"
@@ -630,11 +627,9 @@
 			"zpos"									"100"
 			"wide"									"22"
 			"tall"									"22"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"textinsety"							"-12"
 			"Command"								"quit"
@@ -651,11 +646,11 @@
 			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"border_default"						"MeterialGrayDarkest"
-			"border_armed"							"MaterialRed"
+			"border_armed"							"Material_Red"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 
 			"SubImage"
 			{
@@ -673,11 +668,9 @@
 			"zpos"									"100"
 			"wide"									"0"		//17
 			"tall"									"0"		//27
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"west"
 			"textinsety"							"5"
 			"Command"								"resume_game"
@@ -695,8 +688,8 @@
 			"armedBgColor_override"					"Blank"
 			"defaultBgColor_override"				"Blank"
 
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"Main Theme"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"Main_Theme"
 
 			"image_drawcolor"						"255 255 255 255"
 			"image_armedcolor"						"80 150 255 255"
@@ -717,11 +710,9 @@
 			"zpos"									"100"
 			"wide"									"22"
 			"tall"									"22"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"0"
 			"enabled"								"1"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"Command"								"find_game"
 			"proportionaltoparent"					"1"
@@ -739,8 +730,8 @@
 			"armedBgColor_override"					"Blank"
 			"defaultBgColor_override"				"Blank"
 
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"80 150 255 255"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"80 150 255 255"
 
 			"SubImage"
 			{

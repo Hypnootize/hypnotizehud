@@ -8,13 +8,11 @@
 		"ypos"										"40"
 		"wide"										"f0"
 		"tall"										"480"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayDarkest"
+		"bgcolor_override"							"Gray_Darkest"
 	}
 
 	"SearchTextEntry"
@@ -26,8 +24,6 @@
 		"zpos"										"1"
 		"wide"										"122"
 		"tall"										"15"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"textHidden"								"0"
@@ -35,14 +31,14 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"Blank"
-		"paintbackgroundtype" 						"2"
-		"font"										"Size 11"
+		"PaintBackgroundType"						"2"
+		"font"										"Size_11"
 	}
 	"NameFilterBG"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NameFilterBG"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"xpos"										"20"
 		"ypos"										"5"
 		"zpos"										"0"
@@ -50,16 +46,14 @@
 		"tall"										"24"
 		"visible"									"1"
 		"enabled"									"1"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"textAlignment"								"west"
 		"textinsetx"								"11"
 		"labeltext"									"q"
 		"fgcolor"									"White"
 
-		"border"									"MaterialGrayDarker"
+		"border"									"Material_Gray_Darker"
 
-		"pin_to_sibling" 							"SearchTextEntry"
+		"pin_to_sibling"							"SearchTextEntry"
 	}
 	"NameFilterLine"
 	{
@@ -73,11 +67,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
-		"bgcolor_override"							"WhiteDark"
+		"bgcolor_override"							"White_Dark"
 		"proportionaltoparent"						"1"
-		"pin_to_sibling" 							"SearchTextEntry"
-		"pin_corner_to_sibling"					 	"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		"pin_to_sibling"							"SearchTextEntry"
+		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
 
 	"ReplayList"
@@ -90,8 +84,8 @@
 		"tall"										"350"
 		"visible"									"1"
 		"enabled"									"1"
-		"autohide_scrollbar" 						"1"
+		"autohide_scrollbar"						"1"
 		"paintbackground"							"1"
-		"bgcolor_override"							"GrayDarkest"
+		"bgcolor_override"							"Gray_Darkest"
 	}
 }

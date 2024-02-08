@@ -7,8 +7,6 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"0"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"bgcolor_override"							"Blank"
@@ -23,12 +21,10 @@
 		"zpos"										"1"
 		"wide"										"290"
 		"tall"										"160"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"paintborder"								"1"
-		"border"									"MaterialBlackDark"
+		"border"									"Material_Black_Dark"
 
 		"Icon"
 		{
@@ -49,7 +45,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"Title"
-			"font"									"Size 18"
+			"font"									"Size_18"
 			"labelText"								"#Replay_ReplayIntroTitle"
 			"textAlignment"							"west"
 			"xpos"									"37"
@@ -57,31 +53,27 @@
 			"zpos"									"1"
 			"wide"									"280"
 			"tall"									"20"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"		 						"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"textAlignment"							"north"
 			"xpos"									"13"
 			"ypos"									"35"
 			"zpos"									"1"
 			"wide"									"260"
 			"tall"									"300"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"		 						"White"
+			"fgcolor"								"White"
 			"wrap"									"1"
 		}
 
@@ -98,8 +90,6 @@
 			"zpos"									"20"
 			"wide"									"100"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
 		}
@@ -113,11 +103,9 @@
 			"zpos"									"20"
 			"wide"									"80"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"textAlignment"							"center"
 			"textinsetx"							"50"
 			"labelText"								"#GameUI_OK"
@@ -127,12 +115,12 @@
 			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"paintbackground"						"0"
-			"border_default"						"MaterialGrayDark"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Gray_Dark"
+			"border_armed"							"Material_Hypno"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 		}
 	}
 }

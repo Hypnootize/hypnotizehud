@@ -29,7 +29,7 @@
 		"visible"									"1"
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"0"
-		"border"									"MaterialGrayDarkest"
+		"border"									"Material_Gray_Darkest"
 		"proportionaltoparent"						"1"
 	}
 
@@ -46,7 +46,7 @@
 		"labeltext"									"Ping Settings"
 		"AllCaps"									"1"
 		"textAlignment"								"center"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"fgcolor"									"White"
 
 		"mouseinputenabled"							"0"
@@ -64,7 +64,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_MM_InviteMode"
 		"textAlignment"								"center"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"smallcheckimage"							"1"
 		"fgcolor"									"White"
 		"AllCaps"									"1"
@@ -83,18 +83,18 @@
 		"wide"										"190"
 		"tall"										"15"
 		"textAlignment"								"west"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"keyboardinputenabled"						"0"
 		"AllCaps"									"1"
 
 		"editable"									"0"
 		"bgcolor_override"							"0 0 0 100"
 		"fgcolor_override"							"White"
-		"disabledFgColor_override" 					"White"
-		"disabledBgColor_override" 					"Blank"
-		"selectionColor_override" 					"Blank"
-		"selectionTextColor_override" 				"White"
-		"defaultSelectionBG2Color_override" 		"Blank"
+		"disabledFgColor_override"					"White"
+		"disabledBgColor_override"					"Blank"
+		"selectionColor_override"					"Blank"
+		"selectionTextColor_override"				"White"
+		"defaultSelectionBG2Color_override"			"Blank"
 	}
 
 	"IgnorePartyInvites"
@@ -109,7 +109,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_MM_IgnoreInvites"
 		"textAlignment"								"west"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"smallcheckimage"							"1"
 		"fgcolor_override"							"White"
 		"fgcolor"									"White"
@@ -133,7 +133,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"textAlignment"								"west"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"smallcheckimage"							"1"
 		"enabled"									"0"
 		"AllCaps"									"1"
@@ -154,7 +154,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_MM_PartySameTeam"
 		"textAlignment"								"west"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"smallcheckimage"							"1"
 		"wrap"										"1"
 		"AllCaps"									"1"
@@ -176,7 +176,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"textAlignment"								"west"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"smallcheckimage"							"1"
 		"actionsignallevel"							"1"
 		"AllCaps"									"1"
@@ -188,7 +188,7 @@
 	}
 
 	// VGUI is weird and makes some checkboxes have their text lower than it's supposed to be
-	// and the above checkbox has that behavior.  To get around it, make another label
+	// and the above checkbox has that behavior.To get around it, make another label
 	"CheckLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -201,7 +201,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_LobbyContainer_CustomPingButton"
 		"textAlignment"								"west"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"smallcheckimage"							"1"
 		"AllCaps"									"1"
 
@@ -221,7 +221,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_LobbyContainer_CustomPingDesc"
 		"textAlignment"								"north-west"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"wrap"										"1"
 		"fgcolor"									"White"
 		"AllCaps"									"1"
@@ -242,7 +242,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"textAlignment"								"center"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"AllCaps"									"1"
 
 		"mouseinputenabled"							"0"
@@ -256,8 +256,6 @@
 		"ypos"										"140"
 		"wide"										"150"
 		"tall"										"24"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"RoundedCorners"							"15"
 		"pin_corner_to_sibling"						"0"
 		"pin_to_sibling_corner"						"0"
@@ -266,7 +264,7 @@
 		"proportionaltoparent"						"1"
 
 		"cvar_name"									"tf_mm_custom_ping"
-		"use_convar_minmax" 						"1"
+		"use_convar_minmax"							"1"
 	}
 
 	"DataCenterBackground"
@@ -283,7 +281,7 @@
 		"proportionaltoparent"					"1"
 
 		"paintborder"							"1"
-		"border"								"MaterialBlackDark"
+		"border"								"Material_Black_Dark"
 	}
 
 	"DataCenterContainer"
@@ -295,8 +293,6 @@
 		"zpos"										"100"
 		"wide"										"184"
 		"tall"										"129"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -312,7 +308,7 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
-			"restrict_width" 						"0"
+			"restrict_width"						"0"
 
 			"ScrollBar"
 			{
@@ -377,7 +373,7 @@
 		"command"									"nav_close"
 
 		"textAlignment"								"east"
-		"font"										"Size 14"
+		"font"										"Size_14"
 
 		"armedBgColor_override"						"Blank"
 		"defaultBgColor_override"					"Blank"
@@ -408,7 +404,7 @@
 		"labelText"									"<"
 
 		"textAlignment"								"west"
-		"font"										"Size 14"
+		"font"										"Size_14"
 
 		"armedBgColor_override"						"Blank"
 		"defaultBgColor_override"					"Blank"

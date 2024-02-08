@@ -1,4 +1,4 @@
-#base "../../../../../resource/tools/reloadschemebutton.res"
+#base "../../../../tools/reloadschemebutton.res"
 
 "Resource/UI/Econ/Store/V2/StorePage.res"
 {
@@ -10,15 +10,13 @@
 		"ypos"										"40"
 		"wide"										"f0"
 		"tall"										"480"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayDarkest"
-		"infocus_bgcolor_override" 					"GrayDarkest"
-		"outoffocus_bgcolor_override"				"GrayDarkest"
+		"bgcolor_override"							"Gray_Darkest"
+		"infocus_bgcolor_override"					"Gray_Darkest"
+		"outoffocus_bgcolor_override"				"Gray_Darkest"
 
 		"max_cart_model_panels"						"10"
 
@@ -73,8 +71,8 @@
 			"text_ypos"								"80"
 			"text_center"							"0"
 			"name_only"								"1"
-			"resize_to_text" 						"0"
-			"name_label_alignment" 					"3"
+			"resize_to_text"						"0"
+			"name_label_alignment"					"3"
 
 			"inset_eq_x"							"2"
 			"inset_eq_y"							"2"
@@ -84,28 +82,26 @@
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
+				"use_item_rendertarget"				"0"
 				"allow_rot"							"0"
-				"inventory_image_type" 				"1"
+				"inventory_image_type"				"1"
 			}
 
-			"use_item_sounds" 						"1"
+			"use_item_sounds"						"1"
 		}
 
 		"modelpanel_labels_kv"
 		{
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"textAlignment"							"north-east"
 			"xpos"									"c-61"
 			"ypos"									"32"
 			"zpos"									"15"
 			"wide"									"0"
 			"tall"									"0"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
-			"use_item_sounds" 						"1"
+			"use_item_sounds"						"1"
 		}
 
 		"cart_modelpanels_kv"
@@ -135,29 +131,27 @@
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
-				"inventory_image_type" 				"1"
+				"use_item_rendertarget"				"0"
+				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
 
-			"use_item_sounds" 						"1"
+			"use_item_sounds"						"1"
 		}
 
 		"cart_labels_kv"
 		{
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"textAlignment"							"north-east"
 			"xpos"									"c-61"
 			"ypos"									"32"
 			"zpos"									"15"
 			"wide"									"16"
 			"tall"									"10"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
-			"use_item_sounds" 						"1"
-			"Alpha" 								"0"
+			"use_item_sounds"						"1"
+			"Alpha"									"0"
 		}
 	}
 
@@ -173,7 +167,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
-		"border"									"MaterialBlackLight"
+		"border"									"Material_Black_Light"
 		"proportionaltoparent"						"1"
 
 		"FiltersBG"
@@ -188,7 +182,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"paintbackground"						"0"
-			"border"								"MaterialGrayDarker"
+			"border"								"Material_Gray_Darker"
 			"proportionaltoparent"					"1"
 		}
 	}
@@ -202,8 +196,6 @@
 		"zpos"										"1"
 		"wide"										"300"
 		"tall"										"19"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 
@@ -218,8 +210,6 @@
 		{
 			"wide"									"19"
 			"tall"									"19"
-			"autoResize"							"0"
-			"pinCorner"								"2"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								""
@@ -227,8 +217,8 @@
 			"scaleImage"							"1"
 
 			"fgcolor"								"TanDark"
-			"defaultFgColor_override" 				"TanDark"
-			"armedFgColor_override" 				"TanDark"
+			"defaultFgColor_override"				"TanDark"
+			"armedFgColor_override"					"TanDark"
 			"depressedFgColor_override"				"TanDark"
 
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -399,7 +389,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ClassFilterTooltipLabel"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"xpos"										"46"
@@ -407,15 +397,13 @@
 		"zpos"										"100"
 		"wide"										"170"
 		"tall"										"30"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"textinsetx"								"100"
 		"centerwrap"								"1"
 		"PaintBackground"							"0"
 		"paintborder"								"1"
-		"border"									"MaterialBlackLight"
+		"border"									"Material_Black_Light"
 		"fgcolor"									"White"
 	}
 
@@ -428,8 +416,6 @@
 		"zpos"										"5"
 		"wide"										"105"
 		"tall"										"14"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"textHidden"								"0"
@@ -437,14 +423,14 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"Blank"
-		"paintbackgroundtype" 						"2"
-		"font"										"Size 11"
+		"PaintBackgroundType"						"2"
+		"font"										"Size_11"
 	}
 	"NameFilterBG"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NameFilterBG"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"xpos"										"20"
 		"ypos"										"4"
 		"zpos"										"0"
@@ -452,15 +438,13 @@
 		"tall"										"22"
 		"visible"									"1"
 		"enabled"									"1"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"textAlignment"								"west"
 		"textinsetx"								"11"
 		"labeltext"									"q"
 		"fgcolor"									"White"
-		"border"									"MaterialGrayDark"
+		"border"									"Material_Gray_Dark"
 
-		"pin_to_sibling" 							"NameFilterTextEntry"
+		"pin_to_sibling"							"NameFilterTextEntry"
 	}
 	"NameFilterLine"
 	{
@@ -474,26 +458,24 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
-		"bgcolor_override"							"WhiteDark"
+		"bgcolor_override"							"White_Dark"
 		"alpha"										"25"
 		"proportionaltoparent"						"1"
-		"pin_to_sibling" 							"NameFilterTextEntry"
-		"pin_corner_to_sibling"					 	"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		"pin_to_sibling"							"NameFilterTextEntry"
+		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
 
 	"SubcategoryFilterComboBox"
 	{
 		"ControlName"								"ComboBox"
 		"fieldName"									"SubcategoryFilterComboBox"
-		"Font"										"Size 11"
+		"Font"										"Size_11"
 		"xpos"										"c80"
 		"ypos"										"43"
 		"zpos"										"1"
 		"wide"										"105"
 		"tall"										"22"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"textHidden"								"0"
@@ -506,11 +488,11 @@
 
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"Blank"
-		"disabledFgColor_override" 					"White"
-		"disabledBgColor_override" 					"Blank"
-		"selectionColor_override" 					"Blank"
-		"selectionTextColor_override" 				"White"
-		"defaultSelectionBG2Color_override" 		"Blank"
+		"disabledFgColor_override"					"White"
+		"disabledBgColor_override"					"Blank"
+		"selectionColor_override"					"Blank"
+		"selectionTextColor_override"				"White"
+		"defaultSelectionBG2Color_override"			"Blank"
 
 		"Button"
 		{
@@ -532,23 +514,21 @@
 		"tall"										"22"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialGrayDark"
+		"border"									"Material_Gray_Dark"
 
-		"pin_to_sibling" 							"SubcategoryFilterComboBox"
+		"pin_to_sibling"							"SubcategoryFilterComboBox"
 	}
 
 	"SortFilterComboBox"
 	{
 		"ControlName"								"ComboBox"
 		"fieldName"									"SortFilterComboBox"
-		"Font"										"Size 11"
+		"Font"										"Size_11"
 		"xpos"										"c192"
 		"ypos"										"43"
 		"zpos"										"1"
 		"wide"										"105"
 		"tall"										"22"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"textHidden"								"0"
@@ -561,11 +541,11 @@
 
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"Blank"
-		"disabledFgColor_override" 					"White"
-		"disabledBgColor_override" 					"Blank"
-		"selectionColor_override" 					"Blank"
-		"selectionTextColor_override" 				"White"
-		"defaultSelectionBG2Color_override" 		"Blank"
+		"disabledFgColor_override"					"White"
+		"disabledBgColor_override"					"Blank"
+		"selectionColor_override"					"Blank"
+		"selectionTextColor_override"				"White"
+		"defaultSelectionBG2Color_override"			"Blank"
 
 		"Button"
 		{
@@ -587,8 +567,8 @@
 		"tall"										"22"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialGrayDark"
-		"pin_to_sibling" 							"SortFilterComboBox"
+		"border"									"Material_Gray_Dark"
+		"pin_to_sibling"							"SortFilterComboBox"
 	}
 
 	"mouseoveritempanel"
@@ -614,14 +594,12 @@
 
 		"attriblabel"
 		{
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"xpos"									"0"
 			"ypos"									"30"
 			"zpos"									"2"
 			"wide"									"140"
 			"tall"									"60"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"%attriblist%"
@@ -640,28 +618,26 @@
 		"zpos"										"10"
 		"wide"										"22"
 		"tall"										"88"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"<"
-		"font"										"Symbols 20"
+		"font"										"Symbols_20"
 		"textAlignment"								"center"
 		"Command"									"prevpage"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialBlackLight"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Black_Light"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
 
-		"pin_to_sibling" 							"BackgroundCustom"
-		"pin_corner_to_sibling"					 	"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
+		"pin_to_sibling"							"BackgroundCustom"
+		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
 	"PrevPageShortCut"
 	{
@@ -671,15 +647,15 @@
 		"labelText"									"&A"
 		"Command"									"prevpage"
 		"visible"									"1"
-		"sound_depressed"    						"UI/buttonclick.wav"
-		"sound_released"     						"UI/buttonclickrelease.wav"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 	}
 
 	"CurPageLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurPageLabel"
-		"font"										"Size 24"
+		"font"										"Size_24"
 		"labelText"									"%backpackpage%"
 		"textAlignment"								"center"
 		"xpos"										"0"
@@ -687,15 +663,13 @@
 		"zpos"										"10"
 		"wide"										"f0"
 		"tall"										"30"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"		 							"GrayDark"
+		"fgcolor"									"Gray_Dark"
 
-		"pin_to_sibling" 							"BackgroundCustom"
-		"pin_corner_to_sibling"					 	"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"BackgroundCustom"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 
 	"NextPageButton"
@@ -707,28 +681,26 @@
 		"zpos"										"10"
 		"wide"										"22"
 		"tall"										"88"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									">"
-		"font"										"Symbols 20"
+		"font"										"Symbols_20"
 		"textAlignment"								"center"
 		"Command"									"nextpage"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialBlackLight"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Black_Light"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
 
-		"pin_to_sibling" 							"BackgroundCustom"
-		"pin_corner_to_sibling"					 	"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
+		"pin_to_sibling"							"BackgroundCustom"
+		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
 	"NextPageShortCut"
 	{
@@ -738,15 +710,15 @@
 		"labelText"									"&D"
 		"Command"									"nextpage"
 		"visible"									"1"
-		"sound_depressed"    						"UI/buttonclick.wav"
-		"sound_released"     						"UI/buttonclickrelease.wav"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 	}
 
 	"CartButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"CartButton"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									"GO TO THE SHOPPING CART"
 		"textAlignment"								"center"
 		"xpos"										"0"
@@ -758,21 +730,21 @@
 		"enabled"									"1"
 		"textinsetx"								"0"
 		"Command"									"viewcart"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
 
-		"pin_to_sibling" 							"BackgroundCustom"
-		"pin_corner_to_sibling"					 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"BackgroundCustom"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 
 	"CartImage"
@@ -789,14 +761,14 @@
 		"image"										"store_cart"
 		"scaleImage"								"1"
 		"Alpha"										"0"
-		"pin_to_sibling" 							"CartButton"
+		"pin_to_sibling"							"CartButton"
 	}
 
 	"PriceLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PriceLabel"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									"%selectionprice%"
 		"textAlignment"								"east"
 		"xpos"										"c20"
@@ -804,8 +776,6 @@
 		"zpos"										"5"
 		"wide"										"303"
 		"tall"										"20"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"wrap"										"1"
@@ -815,7 +785,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BackpackSpaceLabel"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									"%freebackpackspace%"
 		"textAlignment"								"west"
 		"AllCaps"									"1"
@@ -824,8 +794,6 @@
 		"zpos"										"10"
 		"wide"										"f0"
 		"tall"										"20"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 	}
@@ -839,12 +807,10 @@
 		"zpos"										"100"
 		"wide"										"20"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"1"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 		"textinsetx"								"0"
 		"default"									"0"
@@ -853,12 +819,12 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"StartExplanation"
@@ -872,8 +838,8 @@
 		"tall"										"140"
 		"visible"									"0"
 		"PaintBackgroundType"						"2"
-		"paintbackground" 							"0"
-		"border"									"MaterialBlackDark"
+		"paintbackground"							"0"
+		"border"									"Material_Black_Dark"
 
 		"force_close"								"1"
 		"end_x"										"c-150"
@@ -888,39 +854,35 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#StoreWelcomeExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
 			"ypos"									"10"
 			"wide"									"260"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#StoreWelcomeExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
 			"ypos"									"45"
 			"wide"									"260"
 			"tall"									"85"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -932,12 +894,10 @@
 			"zpos"									"10"
 			"wide"									"18"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"close"
@@ -947,16 +907,16 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
+			"defaultFgColor_override"				"White_Dark"
 			"armedFgColor_override"					"Red"
-			"depressedFgColor_override" 			"Red"
+			"depressedFgColor_override"				"Red"
 		}
 
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PositionLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%explanationnumber%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -964,11 +924,9 @@
 			"zpos"									"-1"
 			"wide"									"300"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor" 								"Main Theme"
+			"fgcolor"								"Main_Theme"
 		}
 
 		"NextButton"
@@ -980,12 +938,10 @@
 			"zpos"									"10"
 			"wide"									"30"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"$"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"nextexplanation"
@@ -995,9 +951,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"Main Theme"
-			"depressedFgColor_override" 			"Main Theme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 	}
 
@@ -1012,8 +968,8 @@
 		"tall"										"160"
 		"visible"									"0"
 		"PaintBackgroundType"						"2"
-		"paintbackground" 							"0"
-		"border"									"MaterialBlackDark"
+		"paintbackground"							"0"
+		"border"									"Material_Black_Dark"
 
 		"force_close"								"1"
 		"end_x"										"c-200"
@@ -1028,39 +984,35 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#StoreTabsExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
 			"ypos"									"10"
 			"wide"									"260"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#StoreTabsExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
 			"ypos"									"45"
 			"wide"									"260"
 			"tall"									"85"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -1072,12 +1024,10 @@
 			"zpos"									"10"
 			"wide"									"18"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"close"
@@ -1087,9 +1037,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
+			"defaultFgColor_override"				"White_Dark"
 			"armedFgColor_override"					"Red"
-			"depressedFgColor_override" 			"Red"
+			"depressedFgColor_override"				"Red"
 		}
 
 		"PrevButton"
@@ -1101,12 +1051,10 @@
 			"zpos"									"10"
 			"wide"									"30"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"#"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"prevexplanation"
@@ -1116,16 +1064,16 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"Main Theme"
-			"depressedFgColor_override" 			"Main Theme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PositionLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%explanationnumber%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -1133,11 +1081,9 @@
 			"zpos"									"-1"
 			"wide"									"300"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor" 								"Main Theme"
+			"fgcolor"								"Main_Theme"
 		}
 
 		"NextButton"
@@ -1149,12 +1095,10 @@
 			"zpos"									"10"
 			"wide"									"30"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"$"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"nextexplanation"
@@ -1164,9 +1108,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"Main Theme"
-			"depressedFgColor_override"				"Main Theme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 	}
 
@@ -1181,8 +1125,8 @@
 		"tall"										"160"
 		"visible"									"0"
 		"PaintBackgroundType"						"2"
-		"paintbackground" 							"0"
-		"border"									"MaterialBlackDark"
+		"paintbackground"							"0"
+		"border"									"Material_Black_Dark"
 
 		"force_close"								"1"
 		"end_x"										"c-190"
@@ -1197,39 +1141,35 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#StoreItemsExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
 			"ypos"									"10"
 			"wide"									"260"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#StoreItemsExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
 			"ypos"									"45"
 			"wide"									"260"
 			"tall"									"135"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -1241,12 +1181,10 @@
 			"zpos"									"10"
 			"wide"									"18"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -1256,9 +1194,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
+			"defaultFgColor_override"				"White_Dark"
 			"armedFgColor_override"					"Red"
-			"depressedFgColor_override" 			"Red"
+			"depressedFgColor_override"				"Red"
 		}
 
 		"PrevButton"
@@ -1270,12 +1208,10 @@
 			"zpos"									"10"
 			"wide"									"30"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"#"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"prevexplanation"
@@ -1285,9 +1221,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"Main Theme"
-			"depressedFgColor_override" 			"Main Theme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 
 		"NextButton"
@@ -1299,12 +1235,10 @@
 			"zpos"									"10"
 			"wide"									"30"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"$"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"nextexplanation"
@@ -1314,16 +1248,16 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"Main Theme"
-			"depressedFgColor_override" 			"Main Theme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PositionLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%explanationnumber%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -1331,11 +1265,9 @@
 			"zpos"									"-1"
 			"wide"									"300"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor" 								"Main Theme"
+			"fgcolor"								"Main_Theme"
 		}
 	}
 
@@ -1350,8 +1282,8 @@
 		"tall"										"140"
 		"visible"									"0"
 		"PaintBackgroundType"						"2"
-		"paintbackground" 							"0"
-		"border"									"MaterialBlackDark"
+		"paintbackground"							"0"
+		"border"									"Material_Black_Dark"
 
 		"force_close"								"1"
 		"end_x"										"c-260"
@@ -1366,39 +1298,35 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#StoreDetailsExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
 			"ypos"									"10"
 			"wide"									"260"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#StoreDetailsExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
 			"ypos"									"45"
 			"wide"									"260"
 			"tall"									"135"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -1410,12 +1338,10 @@
 			"zpos"									"10"
 			"wide"									"18"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -1425,9 +1351,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
+			"defaultFgColor_override"				"White_Dark"
 			"armedFgColor_override"					"Red"
-			"depressedFgColor_override" 			"Red"
+			"depressedFgColor_override"				"Red"
 		}
 
 		"PrevButton"
@@ -1439,12 +1365,10 @@
 			"zpos"									"10"
 			"wide"									"30"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"#"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"prevexplanation"
@@ -1454,9 +1378,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"Main Theme"
-			"depressedFgColor_override" 			"Main Theme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 
 		"NextButton"
@@ -1468,12 +1392,10 @@
 			"zpos"									"10"
 			"wide"									"30"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"$"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"nextexplanation"
@@ -1483,16 +1405,16 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"Main Theme"
-			"depressedFgColor_override" 			"Main Theme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PositionLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%explanationnumber%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -1500,11 +1422,9 @@
 			"zpos"									"-1"
 			"wide"									"300"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor" 								"Main Theme"
+			"fgcolor"								"Main_Theme"
 		}
 	}
 
@@ -1519,8 +1439,8 @@
 		"tall"										"160"
 		"visible"									"0"
 		"PaintBackgroundType"						"2"
-		"paintbackground" 							"0"
-		"border"									"MaterialBlackDark"
+		"paintbackground"							"0"
+		"border"									"Material_Black_Dark"
 		"next_explanation"							"AddToCartExplanation"
 
 		"force_close"								"1"
@@ -1535,39 +1455,35 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#StorePreviewToggleExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
 			"ypos"									"10"
 			"wide"									"260"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#StorePreviewToggleExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
 			"ypos"									"45"
 			"wide"									"260"
 			"tall"									"135"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -1579,12 +1495,10 @@
 			"zpos"									"10"
 			"wide"									"18"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -1594,9 +1508,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
+			"defaultFgColor_override"				"White_Dark"
 			"armedFgColor_override"					"Red"
-			"depressedFgColor_override" 			"Red"
+			"depressedFgColor_override"				"Red"
 		}
 
 		"PrevButton"
@@ -1608,12 +1522,10 @@
 			"zpos"									"10"
 			"wide"									"30"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"#"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"prevexplanation"
@@ -1623,9 +1535,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"Main Theme"
-			"depressedFgColor_override" 			"Main Theme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 
 		"NextButton"
@@ -1637,12 +1549,10 @@
 			"zpos"									"10"
 			"wide"									"30"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"$"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"nextexplanation"
@@ -1652,16 +1562,16 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"Main Theme"
-			"depressedFgColor_override" 			"Main Theme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PositionLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%explanationnumber%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -1669,11 +1579,9 @@
 			"zpos"									"-1"
 			"wide"									"300"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor" 								"Main Theme"
+			"fgcolor"								"Main_Theme"
 		}
 	}
 
@@ -1688,8 +1596,8 @@
 		"tall"										"160"
 		"visible"									"0"
 		"PaintBackgroundType"						"2"
-		"paintbackground" 							"0"
-		"border"									"MaterialBlackDark"
+		"paintbackground"							"0"
+		"border"									"Material_Black_Dark"
 
 		"force_close"								"1"
 		"end_x"										"c-260"
@@ -1704,39 +1612,35 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#StoreAddToCartExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
 			"ypos"									"10"
 			"wide"									"260"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#StoreAddToCartExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
 			"ypos"									"45"
 			"wide"									"260"
 			"tall"									"135"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -1748,12 +1652,10 @@
 			"zpos"									"10"
 			"wide"									"18"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -1763,9 +1665,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
+			"defaultFgColor_override"				"White_Dark"
 			"armedFgColor_override"					"Red"
-			"depressedFgColor_override" 			"Red"
+			"depressedFgColor_override"				"Red"
 		}
 
 		"PrevButton"
@@ -1777,12 +1679,10 @@
 			"zpos"									"10"
 			"wide"									"30"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"#"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"prevexplanation"
@@ -1792,9 +1692,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"Main Theme"
-			"depressedFgColor_override" 			"Main Theme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 
 		"NextButton"
@@ -1806,12 +1706,10 @@
 			"zpos"									"10"
 			"wide"									"30"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"$"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"nextexplanation"
@@ -1821,16 +1719,16 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"Main Theme"
-			"depressedFgColor_override" 			"Main Theme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PositionLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%explanationnumber%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -1838,11 +1736,9 @@
 			"zpos"									"-1"
 			"wide"									"300"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor" 								"Main Theme"
+			"fgcolor"								"Main_Theme"
 		}
 	}
 
@@ -1857,8 +1753,8 @@
 		"tall"										"180"
 		"visible"									"0"
 		"PaintBackgroundType"						"2"
-		"paintbackground" 							"0"
-		"border"									"MaterialBlackDark"
+		"paintbackground"							"0"
+		"border"									"Material_Black_Dark"
 
 		"force_close"								"1"
 		"end_x"										"c-150"
@@ -1873,39 +1769,35 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#StoreCartStatusExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
 			"ypos"									"10"
 			"wide"									"260"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#StoreCartStatusExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
 			"ypos"									"45"
 			"wide"									"260"
 			"tall"									"135"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -1917,12 +1809,10 @@
 			"zpos"									"10"
 			"wide"									"18"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -1932,9 +1822,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
+			"defaultFgColor_override"				"White_Dark"
 			"armedFgColor_override"					"Red"
-			"depressedFgColor_override" 			"Red"
+			"depressedFgColor_override"				"Red"
 		}
 
 		"PrevButton"
@@ -1946,12 +1836,10 @@
 			"zpos"									"10"
 			"wide"									"30"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"#"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"prevexplanation"
@@ -1961,9 +1849,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"Main Theme"
-			"depressedFgColor_override" 			"Main Theme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 
 		"NextButton"
@@ -1975,12 +1863,10 @@
 			"zpos"									"10"
 			"wide"									"30"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"$"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"nextexplanation"
@@ -1990,16 +1876,16 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"Main Theme"
-			"depressedFgColor_override" 			"Main Theme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PositionLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%explanationnumber%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -2007,11 +1893,9 @@
 			"zpos"									"-1"
 			"wide"									"300"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor" 								"Main Theme"
+			"fgcolor"								"Main_Theme"
 		}
 	}
 
@@ -2026,8 +1910,8 @@
 		"tall"										"160"
 		"visible"									"0"
 		"PaintBackgroundType"						"2"
-		"paintbackground" 							"0"
-		"border"									"MaterialBlackDark"
+		"paintbackground"							"0"
+		"border"									"Material_Black_Dark"
 		"next_explanation"							"HelpExplanation"
 
 		"force_close"								"1"
@@ -2042,39 +1926,35 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#StoreCheckoutExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
 			"ypos"									"10"
 			"wide"									"260"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#StoreCheckoutExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
 			"ypos"									"45"
 			"wide"									"260"
 			"tall"									"135"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -2086,12 +1966,10 @@
 			"zpos"									"10"
 			"wide"									"18"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -2101,9 +1979,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
+			"defaultFgColor_override"				"White_Dark"
 			"armedFgColor_override"					"Red"
-			"depressedFgColor_override" 			"Red"
+			"depressedFgColor_override"				"Red"
 		}
 
 		"PrevButton"
@@ -2115,12 +1993,10 @@
 			"zpos"									"10"
 			"wide"									"30"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"#"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"prevexplanation"
@@ -2130,9 +2006,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"Main Theme"
-			"depressedFgColor_override" 			"Main Theme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 
 		"NextButton"
@@ -2144,12 +2020,10 @@
 			"zpos"									"10"
 			"wide"									"30"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"$"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"nextexplanation"
@@ -2159,16 +2033,16 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"Main Theme"
-			"depressedFgColor_override" 			"Main Theme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PositionLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%explanationnumber%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -2176,11 +2050,9 @@
 			"zpos"									"-1"
 			"wide"									"300"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor" 								"Main Theme"
+			"fgcolor"								"Main_Theme"
 		}
 	}
 
@@ -2195,8 +2067,8 @@
 		"tall"										"160"
 		"visible"									"0"
 		"PaintBackgroundType"						"2"
-		"paintbackground" 							"0"
-		"border"									"MaterialBlackDark"
+		"paintbackground"							"0"
+		"border"									"Material_Black_Dark"
 
 		"force_close"								"1"
 		"end_x"										"c-150"
@@ -2210,39 +2082,35 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#StoreHelpExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
 			"ypos"									"10"
 			"wide"									"260"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#StoreHelpExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
 			"ypos"									"45"
 			"wide"									"260"
 			"tall"									"135"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -2254,12 +2122,10 @@
 			"zpos"									"10"
 			"wide"									"18"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -2269,9 +2135,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
+			"defaultFgColor_override"				"White_Dark"
 			"armedFgColor_override"					"Red"
-			"depressedFgColor_override" 			"Red"
+			"depressedFgColor_override"				"Red"
 		}
 
 		"PrevButton"
@@ -2283,12 +2149,10 @@
 			"zpos"									"10"
 			"wide"									"30"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"#"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"prevexplanation"
@@ -2298,16 +2162,16 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"Main Theme"
-			"depressedFgColor_override" 			"Main Theme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PositionLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%explanationnumber%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -2315,11 +2179,9 @@
 			"zpos"									"-1"
 			"wide"									"300"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor" 								"Main Theme"
+			"fgcolor"								"Main_Theme"
 		}
 	}
 
@@ -2330,29 +2192,54 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"NameFilterLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"SubcategoryFiltersLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SubcategoryFiltersLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"SortFilterLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SortFilterLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ClassFilterLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ClassFilterLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CartFeaturedItemSymbol"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"CartFeaturedItemSymbol"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

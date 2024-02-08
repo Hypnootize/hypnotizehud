@@ -6,11 +6,9 @@
 		"fieldName"									"PreviewPanel"
 		"wide"										"160"
 		"zpos"										"100"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
-		"border"									"MaterialGrayDarker"
+		"border"									"Material_Gray_Darker"
 		"proportional"								"0"
 	}
 
@@ -19,8 +17,6 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"Screenshot"
 		"zpos"										"0"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"enabled"									"1"
 	}
 
@@ -37,7 +33,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"NoScreenshotLabel"
-			"Font"									"Size 18"
+			"Font"									"Size_18"
 			"visible"								"0"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -50,7 +46,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"MapLabel"
-			"Font"									"Size 11"
+			"Font"									"Size_11"
 			"TextAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"15"
@@ -62,7 +58,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"DateTimeLabel"
-			"Font"									"Size 11"
+			"Font"									"Size_11"
 			"TextAlignment"							"west"
 			"fgcolor"								"White"
 			"xpos"									"0"
@@ -75,7 +71,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"Label0_0"
-			"Font"									"Size 7"
+			"Font"									"Size_7"
 			"TextAlignment"							"west"
 			"fgcolor"								"White"
 			"xpos"									"0"
@@ -88,7 +84,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"Label0_1"
-			"Font"									"Size 7"
+			"Font"									"Size_7"
 			"TextAlignment"							"west"
 			"fgcolor"								"White"
 			"xpos"									"60"
@@ -100,7 +96,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"Label1_0"
-			"Font"									"Size 7"
+			"Font"									"Size_7"
 			"TextAlignment"							"west"
 			"fgcolor"								"White"
 			"xpos"									"0"
@@ -113,7 +109,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"Label1_1"
-			"Font"									"Size 7"
+			"Font"									"Size_7"
 			"TextAlignment"							"west"
 			"fgcolor"								"White"
 			"xpos"									"60"
@@ -125,7 +121,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"Label2_0"
-			"Font"									"Size 7"
+			"Font"									"Size_7"
 			"TextAlignment"							"west"
 			"fgcolor"								"White"
 			"xpos"									"0"
@@ -138,7 +134,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"Label2_1"
-			"Font"									"Size 7"
+			"Font"									"Size_7"
 			"TextAlignment"							"west"
 			"fgcolor"								"White"
 			"xpos"									"60"

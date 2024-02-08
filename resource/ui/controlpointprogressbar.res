@@ -14,12 +14,13 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-
 	
 	"ProgressBar"
 	{
 		"ControlName"								"CircularProgressBar"
 		"fieldName"									"ProgressBar"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
@@ -29,6 +30,8 @@
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"Teardrop"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
@@ -38,6 +41,8 @@
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"TeardropSide"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
@@ -47,6 +52,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ProgressText"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
@@ -56,6 +63,8 @@
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"Blocked"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"

@@ -14,7 +14,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ConfirmLabel"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									"#ToolStrangifierConfirm"
 		"textAlignment"								"center"
 		"xpos"										"20"
@@ -22,12 +22,10 @@
 		"zpos"										"0"
 		"wide"										"360"
 		"tall"										"100"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor" 									"Red"
+		"fgcolor"									"Red"
 		"centerwrap"								"1"
 	}
 
@@ -35,7 +33,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PreviewLabel"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									"#ToolPaintKitPreview"
 		"textAlignment"								"north"
 		"xpos"										"20"
@@ -43,12 +41,10 @@
 		"zpos"										"6"
 		"wide"										"360"
 		"tall"										"100"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"centerwrap"								"1"
 		"mouseinputenabled"							"0"
 	}
@@ -62,13 +58,13 @@
 		"wide"										"300"
 		"tall"										"150"
 		"visible"									"1"
-		"border"									"MaterialGrayDarker"
+		"border"									"Material_Gray_Darker"
 		"paintborder"								"1"
 
 		"proportionaltoparent"						"1"
 
 		"force_use_model"							"1"
-		"use_item_rendertarget" 					"0"
+		"use_item_rendertarget"						"0"
 		"allow_rot"									"1"
 		"allow_pitch"								"1"
 		"max_pitch"									"30"
@@ -80,16 +76,16 @@
 		{
 			"force_pos"								"1"
 
-			"angles_x" 								"7"
-			"angles_y" 								"130"
-			"angles_z" 								"0"
-			"origin_x" 								"175"
-			"origin_y" 								"0"
-			"origin_z" 								"0"
+			"angles_x"								"7"
+			"angles_y"								"130"
+			"angles_z"								"0"
+			"origin_x"								"175"
+			"origin_y"								"0"
+			"origin_z"								"0"
 			"frame_origin_x"						"0"
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
-			"spotlight" 							"1"
+			"spotlight"								"1"
 
 			"modelname"								""
 		}

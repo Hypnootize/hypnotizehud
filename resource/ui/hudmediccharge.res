@@ -25,13 +25,11 @@
 		"wide"										"110"
 		"tall"										"22"
 		"tall_minmode"								"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent50"
+		"border"									"Material_Transparent_50"
 
-		"pin_to_sibling" 							"UBERAnchor"
+		"pin_to_sibling"							"UBERAnchor"
 	}
 
 	"ChargeMeter"
@@ -44,15 +42,13 @@
 		"wide"										"100"
 		"tall"										"12"
 		"tall_minmode"								"10"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"									"Full Ubercharge Pulse"
-		"fgcolor_override"							"Full Ubercharge Pulse"
+		"fgcolor"									"Full_Ubercharge_Pulse"
+		"fgcolor_override"							"Full_Ubercharge_Pulse"
 		"bgcolor_override"							"Blank"
 
-		"pin_to_sibling" 							"ChargeMeterBG"
+		"pin_to_sibling"							"ChargeMeterBG"
 	}
 
 	"ChargeLabel"
@@ -65,19 +61,17 @@
 		"wide"										"110"
 		"tall"										"22"
 		"tall_minmode"								"20"
-		"autoResize"								"1"
-		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
-		"font"										"Game 14"
-		"font_minmode"								"Game 12"
-		"fgcolor"   								"White"
+		"font"										"Game_14"
+		"font_minmode"								"Game_12"
+		"fgcolor"									"White"
 
-		"pin_to_sibling" 							"ChargeMeterBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"ChargeMeterBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 
 	"ResistIconAnchor"
@@ -110,8 +104,8 @@
 		"scaleImage"								"1"
 
 		"pin_to_sibling"							"ResistIconAnchor"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 
 	"ChargeMeter1"
@@ -124,14 +118,12 @@
 		"wide"										"24"
 		"tall"										"12"
 		"tall_minmode"								"10"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"TransparentLightBlack"
 
-		"pin_to_sibling" 							"ChargeMeter"
+		"pin_to_sibling"							"ChargeMeter"
 	}
 
 	"ChargeMeter2"
@@ -144,16 +136,14 @@
 		"wide"										"24"
 		"tall"										"12"
 		"tall_minmode"								"10"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"TransparentLightBlack"
 
-		"pin_to_sibling" 							"ChargeMeter1"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"ChargeMeter1"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"ChargeMeter3"
@@ -166,16 +156,14 @@
 		"wide"										"24"
 		"tall"										"12"
 		"tall_minmode"								"10"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"TransparentLightBlack"
 
-		"pin_to_sibling" 							"ChargeMeter2"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"ChargeMeter2"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"ChargeMeter4"
@@ -188,16 +176,14 @@
 		"wide"										"25"
 		"tall"										"12"
 		"tall_minmode"								"10"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"TransparentLightBlack"
 
-		"pin_to_sibling" 							"ChargeMeter3"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"ChargeMeter3"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 
@@ -209,17 +195,32 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"Background"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"IndividualChargesLabel"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"IndividualChargesLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"HealthClusterIcon"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"HealthClusterIcon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

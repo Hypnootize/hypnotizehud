@@ -18,6 +18,8 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"MvMLogoImage"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
@@ -37,9 +39,9 @@
 		"enabled"									"1"
 		"labeltext"									"Mann"
 		"textAlignment"								"center"
-		"font"										"Size 40"
+		"font"										"Size_40"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"proportionaltoparent"						"1"
 	}
 	"VSLabel"
@@ -55,14 +57,14 @@
 		"enabled"									"1"
 		"labeltext"									"vs"
 		"textAlignment"								"center"
-		"font"										"Size 28"
+		"font"										"Size_28"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"proportionaltoparent"						"1"
 
-		"pin_to_sibling" 							"MannLabel"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"MannLabel"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 	"MachineLabel"
 	{
@@ -77,14 +79,14 @@
 		"enabled"									"1"
 		"labeltext"									"Machine"
 		"textAlignment"								"center"
-		"font"										"Size 40"
+		"font"										"Size_40"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"proportionaltoparent"						"1"
 
-		"pin_to_sibling" 							"VSLabel"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"VSLabel"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 	"Separator"
 	{
@@ -97,12 +99,12 @@
 		"tall"										"1"
 		"visible"									"1"
 		"enabled"									"1"
-		"bgcolor_override"							"WhiteDark"
+		"bgcolor_override"							"White_Dark"
 		"proportionaltoparent"						"1"
 
-		"pin_to_sibling" 							"MachineLabel"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"MachineLabel"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 
 	"MannUpGroupBox"
@@ -123,18 +125,33 @@
 			"ControlName"							"EditablePanel"
 			"fieldName"								"DropShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"MannUpImage"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"MannUpImage"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"Gradient"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"Gradient"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"PlayNowButton"
@@ -146,12 +163,10 @@
 			"zpos"									"20"
 			"wide"									"f5"
 			"tall"									"35"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_MvM_MannUp"
-			"font"									"Size 20"
+			"font"									"Size_20"
 			"AllCaps"								"1"
 			"textAlignment"							"center"
 			"Command"								"mannup"
@@ -160,20 +175,20 @@
 
 			"paintbackground"						"0"
 
-			"border_default"						"MaterialGrayDark"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Gray_Dark"
+			"border_armed"							"Material_Hypno"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 		}
 
 		"PlayForBraggingRightsExplanation"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PlayForBraggingRightsExplanation"
-			"font"									"Size 14"
-			"fgcolor"								"WhiteDark"
+			"font"									"Size_14"
+			"fgcolor"								"White_Dark"
 			"labelText"								"#TF_MvM_BraggingRightsExplaination"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -181,15 +196,15 @@
 			"zpos"									"2"
 			"wide"									"f10"
 			"tall"									"60"
-			"wrap" 									"1"
-			"centerwrap" 							"1"
+			"wrap"									"1"
+			"centerwrap"							"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 
-			"pin_to_sibling" 						"PlayNowButton"
-			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
-			"pin_to_sibling_corner" 				"PIN_CENTER_BOTTOM"
+			"pin_to_sibling"						"PlayNowButton"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"					"PIN_CENTER_BOTTOM"
 		}
 	}
 
@@ -211,18 +226,33 @@
 			"ControlName"							"EditablePanel"
 			"fieldName"								"DropShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"MannUpImage"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"MannUpImage"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"Gradient"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"Gradient"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"PracticeButton"
@@ -234,12 +264,10 @@
 			"zpos"									"20"
 			"wide"									"f5"
 			"tall"									"35"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_MvM_BootCamp"
-			"font"									"Size 20"
+			"font"									"Size_20"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"Command"								"bootcamp"
@@ -248,20 +276,20 @@
 
 			"paintbackground"						"0"
 
-			"border_default"						"MaterialGrayDark"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Gray_Dark"
+			"border_armed"							"Material_Hypno"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 		}
 
 		"PlayOnCommunityServerExplanation"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PlayOnCommunityServerExplanation"
-			"font"									"Size 14"
-			"fgcolor"								"WhiteDark"
+			"font"									"Size_14"
+			"fgcolor"								"White_Dark"
 			"labelText"								"#TF_MvM_PracticeExplaination"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -269,15 +297,15 @@
 			"zpos"									"3"
 			"wide"									"f10"
 			"tall"									"40"
-			"wrap" 									"1"
-			"centerwrap" 							"1"
+			"wrap"									"1"
+			"centerwrap"							"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 
-			"pin_to_sibling" 						"PracticeButton"
-			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
-			"pin_to_sibling_corner" 				"PIN_CENTER_BOTTOM"
+			"pin_to_sibling"						"PracticeButton"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"					"PIN_CENTER_BOTTOM"
 		}
 	}
 }

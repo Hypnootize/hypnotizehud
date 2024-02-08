@@ -26,7 +26,7 @@
 		"bar_gap"									"1"
 		"attrib_y_step"								"2"
 
-		"bonus_glow_color" 							"QuestMap_ActiveOrange"
+		"bonus_glow_color"							"QuestMap_ActiveOrange"
 
 		"item_attribute_res_file"					"resource/UI/quests/QuestObjectivePanel_InGame_Base.res"
 
@@ -45,7 +45,7 @@
 			"zpos"									"4"
 			"visible"								"1"
 			"enabled"								"1"
-			"proportionaltoparent" 					"1"
+			"proportionaltoparent"					"1"
 
 			"bgcolor_override"						"255 255 255 51"
 
@@ -62,7 +62,7 @@
 				"font"								"QuestObjectiveTracker_Desc"
 				"textinsety"						"-1"
 				"TextAlignment"						"center"
-				"proportionaltoparent" 				"1"
+				"proportionaltoparent"				"1"
 			}
 
 			"ProgressBarStandardHighlight" // current completed
@@ -77,7 +77,7 @@
 				"zpos"								"2"
 				"visible"							"1"
 				"enabled"							"1"
-				"proportionaltoparent" 				"1"
+				"proportionaltoparent"				"1"
 
 				"PointsLabelInvert"
 				{
@@ -92,7 +92,7 @@
 					"font"							"ItemTrackerScore_InGame"
 					"textinsety"					"-1"
 					"TextAlignment"					"center"
-					"proportionaltoparent" 			"1"
+					"proportionaltoparent"			"1"
 					"fgcolor"						"White"
 				}
 			}
@@ -155,7 +155,7 @@
 			"zpos"									"4"
 			"visible"								"1"
 			"enabled"								"1"
-			"proportionaltoparent" 					"1"
+			"proportionaltoparent"					"1"
 
 			"bgcolor_override"						"255 255 255 41"
 
@@ -172,7 +172,7 @@
 				"font"								"ItemTrackerScore_InGame"
 				"textinsety"						"-1"
 				"TextAlignment"						"center"
-				"proportionaltoparent" 				"1"
+				"proportionaltoparent"				"1"
 				"fgcolor"							"QuestMap_Bonus"
 			}
 
@@ -188,7 +188,7 @@
 				"zpos"								"2"
 				"visible"							"1"
 				"enabled"							"1"
-				"proportionaltoparent" 				"1"
+				"proportionaltoparent"				"1"
 
 
 				"PointsLabelInvert"
@@ -204,7 +204,7 @@
 					"font"							"ItemTrackerScore_InGame"
 					"textinsety"					"-1"
 					"TextAlignment"					"center"
-					"proportionaltoparent" 			"1"
+					"proportionaltoparent"			"1"
 					"fgcolor"						"Black"
 				}
 			}
@@ -237,7 +237,7 @@
 					"font"							"ItemTrackerScore_InGame"
 					"textinsety"					"-1"
 					"TextAlignment"					"center"
-					"proportionaltoparent" 			"1"
+					"proportionaltoparent"			"1"
 					"fgcolor"						"Black"
 				}
 			}

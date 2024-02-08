@@ -12,9 +12,8 @@
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
-		"TFFont"									"Size 14"
+		"TFFont"									"Size_14"
 		"TextColor"									"HudOffWhite"
-		"autoResize"								"1"
 	}
 
 	"SpectatorGUIHealth"
@@ -29,8 +28,7 @@
 		"tall"										"128"
 		"visible"									"1"
 		"enabled"									"1"
-		"TFFont"									"Size 14"
+		"TFFont"									"Size_14"
 		"TextColor"									"HudOffWhite"
-		"autoResize"								"1"
 	}
 }

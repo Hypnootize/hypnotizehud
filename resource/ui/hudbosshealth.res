@@ -13,7 +13,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent50"
+		"border"									"Material_Transparent_50"
 	}
 
 	"HealthBarPanel"
@@ -38,8 +38,6 @@
 			"zpos"									"5"
 			"wide"									"168"
 			"tall"									"12"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"image"									"../hud/halloween_bar"
@@ -57,8 +55,6 @@
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"8"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -71,5 +67,10 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"BorderImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

@@ -11,7 +11,7 @@
 		"tall"										"100"
 		"visible"									"0"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent50"
+		"border"									"Material_Transparent_50"
 
 		"model_ypos"								"10"
 		"model_center_x"							"1"
@@ -36,12 +36,12 @@
 			"ypos"									"9999"
 			"visible"								"0"
 			"enabled"								"0"
-        }
+		}
 
 		"itemmodelpanel"
 		{
 			"fieldName"								"itemmodelpanel"
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"allow_rot"								"0"
 			"useparentbg"							"1"
 			"inventory_image_type"					"1"
@@ -57,12 +57,10 @@
 			"zpos"									"1"
 			"wide"									"270"
 			"tall"									"9"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#FreezePanel_Item"
-			"textAlignment"							"Left"
+			"textAlignment"							"west"
 		}
 	}
 }

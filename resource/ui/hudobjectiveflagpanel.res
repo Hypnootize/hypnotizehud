@@ -32,7 +32,7 @@
 		"proportionaltoparent"						"1"
 		"PaintBackground"							"0"
 		"paintborder"								"1"
-		"border"									"MaterialTransparent50"
+		"border"									"Material_Transparent_50"
 
 		"if_hybrid"
 		{
@@ -62,7 +62,7 @@
 		"labelText"									"#TF_PlayingTo"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"font"										"Size 8"
+		"font"										"Size_8"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"BlackTransparentBG"
@@ -97,7 +97,7 @@
 		"proportionaltoparent"						"1"
 		"PaintBackground"							"0"
 		"PaintBorder"								"1"
-		"border"									"MaterialBlue"
+		"border"									"Material_Blue"
 
 		"pin_to_sibling"							"BlackTransparentBG"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
@@ -130,7 +130,7 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"west"
 		"labelText"									"%bluescore%"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"BlueScoreBG"
@@ -164,7 +164,7 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"west"
 		"labelText"									"%bluescore%"
-		"font"										"Size 18 Blur"
+		"font"										"Size_18_Blur"
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"BlueScore"
 
@@ -196,7 +196,7 @@
 		"proportionaltoparent"						"1"
 		"PaintBackground"							"0"
 		"paintborder"								"1"
-		"border"									"MaterialRed"
+		"border"									"Material_Red"
 
 		"pin_to_sibling"							"BlackTransparentBG"
 		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
@@ -229,7 +229,7 @@
 		"enabled"									"1"
 		"textAlignment"								"east"
 		"labelText"									"%redscore%"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"fgcolor"									"White"
 		"pin_to_sibling"							"RedScoreBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
@@ -261,7 +261,7 @@
 		"enabled"									"1"
 		"textAlignment"								"east"
 		"labelText"									"%redscore%"
-		"font"										"Size 18 Blur"
+		"font"										"Size_18_Blur"
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"RedScore"
 
@@ -422,7 +422,7 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"west"
 		"labelText"									"%redscore%"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"PoisonIcon"
@@ -468,11 +468,21 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"OutlineBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"PlayingToBG"
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"PlayingToBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

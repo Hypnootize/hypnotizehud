@@ -9,7 +9,7 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"0"
-		"border" 									"MaterialBlackLight"
+		"border"									"Material_Black_Light"
 	}
 
 	"avatar"
@@ -46,34 +46,34 @@
 		"textAlignment"								"east"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor_override"							"White_Dark"
 
 		"fonts"
 		{
 			"1"
 			{
-				"font"								"Size 10"
+				"font"								"Size_10"
 			}
 
 			"2"
 			{
-				"font"								"Size 9"
+				"font"								"Size_9"
 			}
 
 			"3"
 			{
-				"font"								"Size 8"
+				"font"								"Size_8"
 			}
 
 			"4"
 			{
-				"font"								"Size 7"
+				"font"								"Size_7"
 			}
 		}
 
 		"colors"
 		{
-			"1"										"Main Theme"
+			"1"										"Main_Theme"
 			"2"										"White"
 		}
 	}
@@ -101,7 +101,7 @@
 
 		"radius"									"10"
 		"velocity"									"60"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor_override"							"White_Dark"
 	}
 
 	"AcceptButton"
@@ -117,7 +117,7 @@
 		"visible"									"1"
 
 		"enabled"									"1"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"textAlignment"								"center"
 		"Command"									"accept"
 		"proportionaltoparent"						"1"
@@ -130,8 +130,8 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGreen"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Green"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
@@ -158,7 +158,7 @@
 		"visible"									"1"
 
 		"enabled"									"1"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"textAlignment"								"center"
 		"Command"									"decline"
 		"proportionaltoparent"						"1"
@@ -171,11 +171,11 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialRed"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Red"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 }

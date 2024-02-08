@@ -36,7 +36,7 @@
 		"wrap"										"1"
 		"labelText"									""
 		"textAlignment"								"North"
-		"font"										"Size 14"
+		"font"										"Size_14"
 	}
 	"GoalImage"
 	{

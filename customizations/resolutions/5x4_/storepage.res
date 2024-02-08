@@ -9,12 +9,12 @@
 	{
 		"xpos"										"-3"
 		"wide"										"18"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 	}
 	"NextPageButton"
 	{
 		"xpos"										"-3"
 		"wide"										"18"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 	}
 }

@@ -15,7 +15,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ModeNameLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%modename%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -23,12 +23,10 @@
 			"zpos"									"2"
 			"wide"									"225"
 			"tall"									"25"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"mouseinputenabled" 					"0"
-			"fgcolor"								"WhiteDark"
+			"mouseinputenabled"						"0"
+			"fgcolor"								"White_Dark"
 			"AllCaps"								"1"
 		}
 
@@ -36,7 +34,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DescLabel"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"%description%"
 			"textAlignment"							"north"
 			"xpos"									"0"
@@ -44,14 +42,12 @@
 			"zpos"									"2"
 			"wide"									"225"
 			"tall"									"55"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
-			"auto_wide_tocontents" 					"0"
-			"wrap"				   					"1"
-			"centerwrap"		   					"1"
+			"fgcolor"								"White_Dark"
+			"auto_wide_tocontents"					"0"
+			"wrap"									"1"
+			"centerwrap"							"1"
 			"AllCaps"								"1"
 		}
 
@@ -94,12 +90,10 @@
 		"zpos"										"100"
 		"wide"										"192"
 		"tall"										"30"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_Training_SelectMode"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
 		"Command"									"%startcommand%"
@@ -108,11 +102,11 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 }

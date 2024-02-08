@@ -8,21 +8,19 @@
 		"ypos"										"140"
 		"wide"										"300"
 		"tall"										"200"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
-		"bgcolor_override"							"BlackDark"
+		"bgcolor_override"							"Black_Dark"
 	}
 
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Size 24"
+		"font"										"Size_24"
 		"labelText"									"#ConfirmTitle"
 		"textAlignment"								"north"
 		"xpos"										"0"
@@ -30,19 +28,17 @@
 		"zpos"										"1"
 		"wide"										"300"
 		"tall"										"30"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"ExplanationLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ExplanationLabel"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									"%text%"
 		"textAlignment"								"north"
 		"xpos"										"40"
@@ -50,13 +46,11 @@
 		"zpos"										"1"
 		"wide"										"220"
 		"tall"										"170"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"centerwrap"								"1"
 		"AllCaps"									"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"UpgradeButton"
@@ -68,12 +62,10 @@
 		"zpos"										"20"
 		"wide"										"175"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_Trial_Upgrade"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
 		"Command"									"upgrade"
@@ -83,12 +75,12 @@
 
 		"paintbackground"							"0"
 
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"ConfirmButton"
@@ -100,12 +92,10 @@
 		"zpos"										"20"
 		"wide"										"175"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#ConfirmButtonText"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
 		"Command"									"confirm"
@@ -114,11 +104,11 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 }

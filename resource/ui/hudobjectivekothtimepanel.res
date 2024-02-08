@@ -18,7 +18,7 @@
 		"src_corner_height"							"0"
 		"src_corner_width"							"0"
 		"draw_corner_width"							"0"
-		"draw_corner_height" 						"0"
+		"draw_corner_height"						"0"
 	}
 
 	"BlueTimer"
@@ -37,7 +37,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"Size 20"
+			"font"									"Size_20"
 			"fgcolor"								"White"
 			"xpos"									"20"
 			"ypos"									"0"
@@ -69,7 +69,7 @@
 		"src_corner_height"							"0"
 		"src_corner_width"							"0"
 		"draw_corner_width"							"0"
-		"draw_corner_height" 						"0"
+		"draw_corner_height"						"0"
 	}
 
 	"RedTimer"
@@ -88,7 +88,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"Size 20"
+			"font"									"Size_20"
 			"fgcolor"								"White"
 			"xpos"									"20"
 			"ypos"									"0"
@@ -113,6 +113,6 @@
 		"tall"										"0"		//21
 		"visible"									"0"
 		"enabled"									"1"
-		"border"									"MaterialTransparent50"
+		"border"									"Material_Transparent_50"
 	}
 }

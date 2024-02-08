@@ -12,9 +12,9 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"-95"
-		"font"										"Game 22 Shadow"
+		"font"										"Game_22_Shadow"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
-		"proportionaltoparent" 						"1"
+		"proportionaltoparent"						"1"
 	}
 }

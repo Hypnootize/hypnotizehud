@@ -45,7 +45,7 @@
 		"tall"										"10"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"AllCaps"									"1"
 		"fgcolor"									"White"
 		"textAlignment"								"east"

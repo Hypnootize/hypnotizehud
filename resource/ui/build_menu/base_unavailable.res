@@ -4,11 +4,11 @@
 {
 	"Background"
 	{
-		"border"									"MaterialTransparentRed"
+		"border"									"Material_Transparent_Red"
 	}
 	"CantBuildReason"
 	{
-		"font"										"Symbols 24"
+		"font"										"Symbols_24"
 		"visible"									"1"
 		"labelText"									"-"
 	}

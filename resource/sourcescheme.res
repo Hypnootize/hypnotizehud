@@ -5,7 +5,7 @@
 	"Colors"
 	{
 		// Custom
-		"Main Theme"										"80 150 255 255"
+		"Main_Theme"										"80 150 255 255"
 
 		"DarkBG"											"20 21 23 255"
 		"DarkBGInactive"									"20 21 23 125"
@@ -21,30 +21,30 @@
 		"ControlBlack"										"32 32 32 255"
 
 		// TF2
-	    "TFDarkBrown"               						"60 56 53 255"
-	    "TFDarkBrownTransparent"    						"60 56 53 190"
-	    "TFTanBright"               						"236 227 203 150"
-	    "TFTanLight"                						"201 188 162 150"
-	    "TFTanMedium"              							"131 121 104 150"
+		"TFDarkBrown"										"60 56 53 255"
+		"TFDarkBrownTransparent"							"60 56 53 190"
+		"TFTanBright"										"236 227 203 150"
+		"TFTanLight"										"201 188 162 150"
+		"TFTanMedium"										"131 121 104 150"
 
-	    "TFTanLightBright"          						"229 223 211 90"
-	    "TFTanLightDark"            						"96 90 78 90"
+		"TFTanLightBright"									"229 223 211 90"
+		"TFTanLightDark"									"96 90 78 90"
 
-	    "TFOrangeBright"            						"156 82 33 255"
+		"TFOrangeBright"									"156 82 33 255"
 
-	    "TFTextBright"              						"251 236 203 150"
-	    "TFTextLight"               						"201 188 162 255"
-	    "TFTextMedium"              						"131 121 104 255"
-	    "TFTextMediumDark"          						"104 96 83 255"
-	    "TFTextBlack"               						"42 39 37 255"
-	    "TFTextDull"               							"131 121 104 255"
+		"TFTextBright"										"251 236 203 150"
+		"TFTextLight"										"201 188 162 255"
+		"TFTextMedium"										"131 121 104 255"
+		"TFTextMediumDark"									"104 96 83 255"
+		"TFTextBlack"										"42 39 37 255"
+		"TFTextDull"										"131 121 104 255"
 
-	    "TFMediumBrown"										"69 64 58 255"
+		"TFMediumBrown"										"69 64 58 255"
 
-	    "QuickListBGDeselected"								"69 64 58 255"
-	    "QuickListBGSelected"               				"131 121 104 150"
+		"QuickListBGDeselected"								"69 64 58 255"
+		"QuickListBGSelected"								"131 121 104 150"
 
-	    "Blank"												"0 0 0 0"
+		"Blank"												"0 0 0 0"
 
 		"ControlBG"											"76 88 68 200"		// background color of controls
 		"ControlDarkBG"										"90 106 80 200"	// darker background color; used for background of scrollbars
@@ -64,7 +64,7 @@
 		"Button.TextColor"									"White"
 		"Button.BgColor"									"DarkBG"
 		"Button.ArmedTextColor"								"White"
-		"Button.ArmedBgColor"								"Main Theme"
+		"Button.ArmedBgColor"								"Main_Theme"
 		"Button.DepressedTextColor"							"White"
 		"Button.DepressedBgColor"							"Blank"
 		"Button.FocusBorderColor"							"White"
@@ -72,13 +72,13 @@
 		"CheckButton.TextColor"								"OffWhite"
 		"CheckButton.SelectedTextColor"						"White"
 		"CheckButton.BgColor"								"DarkBG"
-		"CheckButton.HighlightFgColor"						"Main Theme"
+		"CheckButton.HighlightFgColor"						"Main_Theme"
 		"CheckButton.ArmedBgColor"							"Blank"
 		"CheckButton.DepressedBgColor"						"Blank"
-		"CheckButton.Border1"  								"Blank"
-		"CheckButton.Border2"  								"Blank"
+		"CheckButton.Border1"								"Blank"
+		"CheckButton.Border2"								"Blank"
 		"CheckButton.Check"									"White"
-		"CheckButton.DisabledBgColor"	   					"Blank"
+		"CheckButton.DisabledBgColor"						"Blank"
 
 		"ToggleButton.SelectedTextColor"					"TFTextBright"
 
@@ -97,7 +97,7 @@
 		"FrameGrip.Color2"									"0 0 0 0"
 		"FrameTitleButton.FgColor"							"200 200 200 196"
 		"FrameTitleBar.Font"								"UiBold"
-		"FrameTitleBar.TextColor"							"Main Theme"
+		"FrameTitleBar.TextColor"							"Main_Theme"
 		"FrameTitleBar.DisabledTextColor"					"255 255 255 192"
 
 		"Label.TextDullColor"								"DullWhite"
@@ -110,18 +110,18 @@
 
 		"ListPanel.TextColor"								"OffWhite"
 		"ListPanel.BgColor"									"DarkBG"
-		"ListPanel.SelectedBgColor"							"Main Theme"
+		"ListPanel.SelectedBgColor"							"Main_Theme"
 		"ListPanel.SelectedOutOfFocusBgColor"				"DarkBGIanctive"
 
 		"MainMenu.TextColor"								"White"
-		"MainMenu.ArmedTextColor"							"Main Theme"
+		"MainMenu.ArmedTextColor"							"Main_Theme"
 		"MainMenu.Inset"									"32"
 
 		"Menu.TextInset"									"6"
 		"Menu.FgColor"										"White"
 		"Menu.BgColor"										"17 17 17 255"
-		"Menu.ArmedFgColor"									"Main Theme"
-		"Menu.ArmedBgColor"									"Main Theme"
+		"Menu.ArmedFgColor"									"Main_Theme"
+		"Menu.ArmedBgColor"									"Main_Theme"
 		"Menu.DividerColor"									"BorderDark"
 
 		"ScrollBarButton.FgColor"							"White"
@@ -142,7 +142,7 @@
 
 		"TextEntry.TextColor"								"OffWhite"
 		"TextEntry.DisabledTextColor"						"170 170 170 255"
-		"TextEntry.SelectedBgColor"							"Main Theme"
+		"TextEntry.SelectedBgColor"							"Main_Theme"
 
 		/////////////////// Borrowed from CS:S SourceScheme /////////////////////////
 
@@ -185,7 +185,7 @@
 		"RichText.TextColor"								"OffWhite"
 		"RichText.BgColor"									"DarkBG"
 		"RichText.SelectedTextColor"						"Black"
-		"RichText.SelectedBgColor"							"Main Theme"
+		"RichText.SelectedBgColor"							"Main_Theme"
 
 		"ScrollBar.Wide"									"17"
 
@@ -196,7 +196,7 @@
 		"SectionedListPanel.BrightTextColor"				"White"
 		"SectionedListPanel.BgColor"						"DarkBG"
 		"SectionedListPanel.SelectedTextColor"				"Black"
-		"SectionedListPanel.SelectedBgColor"				"Main Theme"
+		"SectionedListPanel.SelectedBgColor"				"Main_Theme"
 		"SectionedListPanel.OutOfFocusSelectedTextColor"	"Black"
 		"SectionedListPanel.OutOfFocusSelectedBgColor"		"100 100 100 128"
 
@@ -210,7 +210,7 @@
 		"ToggleButton.SelectedTextColor"					"White"
 
 		"Tooltip.TextColor"									"0 0 0 196"
-		"Tooltip.BgColor"									"Main Theme"
+		"Tooltip.BgColor"									"Main_Theme"
 
 		"TreeView.BgColor"									"DarkBG"
 
@@ -220,12 +220,12 @@
 		"MainMenu.MenuItemHeight"							"25"
 		"MainMenu.Backdrop"									"0 0 0 156"
 
-		"Console.TextColor"									"Main Theme"
+		"Console.TextColor"									"Main_Theme"
 		"Console.DevTextColor"								"White"
 
 		"NewGame.TextColor"									"White"
 		"NewGame.FillColor"									"0 0 0 255"
-		"NewGame.SelectionColor"							"Main Theme"
+		"NewGame.SelectionColor"							"Main_Theme"
 		"NewGame.DisabledColor"								"128 128 128 196"
 	}
 
@@ -244,13 +244,13 @@
 			{
 				"1"
 				{
-					"color" 								"Border.DarkSolid"
-					"offset" 								"0 0"
+					"color"									"Border.DarkSolid"
+					"offset"								"0 0"
 				}
 				"2"
 				{
-					"color" 								"Border.DarkSolid"
-					"offset" 								"0 0"
+					"color"									"Border.DarkSolid"
+					"offset"								"0 0"
 				}
 			}
 
@@ -258,13 +258,13 @@
 			{
 				"1"
 				{
-					"color" 								"Border.DarkSolid"
-					"offset" 								"0 0"
+					"color"									"Border.DarkSolid"
+					"offset"								"0 0"
 				}
 				"2"
 				{
-					"color" 								"Border.DarkSolid"
-					"offset" 								"0 0"
+					"color"									"Border.DarkSolid"
+					"offset"								"0 0"
 				}
 			}
 
@@ -272,13 +272,13 @@
 			{
 				"1"
 				{
-					"color" 								"Border.DarkSolid"
-					"offset" 								"0 0"
+					"color"									"Border.DarkSolid"
+					"offset"								"0 0"
 				}
 				"2"
 				{
-					"color" 								"Border.DarkSolid"
-					"offset" 								"0 0"
+					"color"									"Border.DarkSolid"
+					"offset"								"0 0"
 				}
 			}
 
@@ -286,13 +286,13 @@
 			{
 				"1"
 				{
-					"color" 								"Border.DarkSolid"
-					"offset" 								"0 0"
+					"color"									"Border.DarkSolid"
+					"offset"								"0 0"
 				}
 				"2"
 				{
 					"color"									"Border.DarkSolid"
-					"offset" 								"0 0"
+					"offset"								"0 0"
 				}
 			}
 		}
@@ -309,7 +309,7 @@
 				"tall"										"18"
 				"weight"									"500"
 				"additive"									"0"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -319,14 +319,14 @@
 			{
 				"name"										"TF2 Build"
 				"tall"										"35"
-				"tall_lodef"									"40"
+				"tall_lodef"								"40"
 				"weight"									"500"
 				"additive"									"0"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
-		"Default" [$OSX]
+		"Default"	[$OSX]
 		{
 			"1"
 			{
@@ -382,40 +382,40 @@
 				"antialias"									"1"
 			}
 		}
-		"AchievementItemTitle" [$WIN32]
+		"AchievementItemTitle"	[$WIN32]
 		{
 			"1"
 			{
-				"name"										"Arial" 			[!$OSX]
-				"name"										"Verdana Bold" 		[$OSX]
+				"name"										"Arial"				[!$OSX]
+				"name"										"Verdana Bold"		[$OSX]
 				"weight"									"1500"
-				"tall"										"16" 				[!$OSX]
-				"tall"										"18" 				[$OSX]
+				"tall"										"16"				[!$OSX]
+				"tall"										"18"				[$OSX]
 				"antialias"									"1"
 			}
 		}
-		"AchievementItemTitleLarge" [$WIN32]
+		"AchievementItemTitleLarge"	[$WIN32]
 		{
 			"1"
 			{
-				"name"										"Arial" 			[!$OSX]
-				"name"										"Verdana Bold" 		[$OSX]
+				"name"										"Arial"				[!$OSX]
+				"name"										"Verdana Bold"		[$OSX]
 				"weight"									"1500"
-				"tall"										"18" 				[!$OSX]
-				"tall"										"19" 				[$OSX]
+				"tall"										"18"				[!$OSX]
+				"tall"										"19"				[$OSX]
 				"antialias"									"1"
 			}
 		}
-		"AchievementItemDescription" [$WIN32]
+		"AchievementItemDescription"	[$WIN32]
 		{
 			"1"
 			{
-				"name"										"Arial" 			[!$OSX]
+				"name"										"Arial"				[!$OSX]
 				"name"										"Verdana"			[$OSX]
 				"weight"									"1000"
-				"tall"										"14" 				[!$OSX]
-				"tall"										"12" 				[$OSX]
-				"antialias"									"1" 				[!$OSX]
+				"tall"										"14"				[!$OSX]
+				"tall"										"12"				[$OSX]
+				"antialias"									"1"					[!$OSX]
 			}
 		}
 
@@ -425,16 +425,16 @@
 	{
 		"9"
 		{
-			"font" 		"resource/TF2Build.ttf"
-			"name" 		"TF2 Build"
+			"font"		"resource/TF2Build.ttf"
+			"name"		"TF2 Build"
 
 			"russian"
 			{
-				"range" "0x0000 0xFFFF"
+				"range"	"0x0000 0xFFFF"
 			}
 			"polish"
 			{
-				"range" "0x0000 0xFFFF"
+				"range"	"0x0000 0xFFFF"
 			}
 		}
 	}

@@ -26,8 +26,8 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_Matchmaking_HeaderCompetitive"
 		"textAlignment"								"west"
-		"font"										"Size 30"
-		"fgcolor"									"WhiteDark"
+		"font"										"Size_30"
+		"fgcolor"									"White_Dark"
 		"AllCaps"									"1"
 
 		"mouseinputenabled"							"0"
@@ -42,12 +42,10 @@
 		"zpos"										"100"
 		"wide"										"20"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"1"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"textAlignment"								"center"
 		"default"									"0"
 		"Command"									"show_explanations"
@@ -58,12 +56,12 @@
 
 		"paintbackground"							"0"
 
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"RankTooltipPanel"
@@ -109,7 +107,7 @@
 		"mouseinputenabled"							"1"
 		"eatmouseinput"								"0"
 		"showtooltipswhenmousedisabled"				"1"
-		"proportionaltoparent" 						"1"
+		"proportionaltoparent"						"1"
 	}
 
 	"QueueButton"
@@ -121,11 +119,9 @@
 		"zpos"										"105"
 		"wide"										"f0"
 		"tall"										"28"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"textAlignment"								"center"
 		"Command"									"find_game"
 		"proportionaltoparent"						"1"
@@ -139,11 +135,11 @@
 
 		"paintbackground"							"0"
 
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 }

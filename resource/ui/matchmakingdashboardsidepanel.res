@@ -11,7 +11,7 @@
 		"tall"										"415"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		"border"									"MaterialGrayDarkest"
+		"border"									"Material_Gray_Darkest"
 	}
 
 	"ReturnButton"
@@ -37,9 +37,9 @@
 		"labelText"									">"
 
 		"textAlignment"								"center"
-		"font"										"Symbols 20"
+		"font"										"Symbols_20"
 
-		"armedBgColor_override"						"GrayDark"
+		"armedBgColor_override"						"Gray_Dark"
 		"defaultBgColor_override"					"26 27 29 255"
 
 		"armedFgColor_override"						"White"
@@ -50,29 +50,54 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"Shade"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TitleGradient"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"TitleGradient"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"InnerGradient"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"InnerGradient"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"OuterGradient"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"OuterGradient"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"CloseButton"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

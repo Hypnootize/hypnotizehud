@@ -1,4 +1,4 @@
-#base "../../../../../resource/tools/reloadschemebutton.res"
+#base "../../../../tools/reloadschemebutton.res"
 
 "Resource/UI/Econ/Store/V2/StoreViewCartPanel.res"
 {
@@ -10,18 +10,16 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"settitlebarvisible"						"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayDarkest"
-		"infocus_bgcolor_override"					"GrayDarkest"
-		"outoffocus_bgcolor_override"				"GrayDarkest"
+		"bgcolor_override"							"Gray_Darkest"
+		"infocus_bgcolor_override"					"Gray_Darkest"
+		"outoffocus_bgcolor_override"				"Gray_Darkest"
 
 		"title"										"#StoreTitle"
-		"title_font"								"Size 24"
+		"title_font"								"Size_24"
 		"titletextinsetX"							"40"
 		"titletextinsetY"							"0"
 		"titlebarfgcolor_override"					"Blank"
@@ -61,13 +59,13 @@
 				"text_ypos"							"24"
 				"text_wide"							"250"
 				"text_center"						"0"
-				"text_forcesize" 					"1"
+				"text_forcesize"					"1"
 
 				"name_only"							"1"
 
 				"itemmodelpanel"
 				{
-					"use_item_rendertarget" 		"0"
+					"use_item_rendertarget"			"0"
 					"allow_rot"						"0"
 					"inventory_image_type"			"1"
 				}
@@ -85,22 +83,20 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"paintbackground"					"0"
-				"border"							"MaterialBlackLight"
+				"border"							"Material_Black_Light"
 			}
 
 			"quantitylabel"
 			{
 				"ControlName"						"CExLabel"
 				"fieldname"							"quantitylabel"
-				"font"								"Size 11"
+				"font"								"Size_11"
 				"textAlignment"						"north-east"
 				"xpos"								"70"
 				"ypos"								"45"
 				"zpos"								"15"
 				"wide"								"16"
 				"tall"								"10"
-				"autoResize"						"1"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"%quantity%"
@@ -112,6 +108,11 @@
 				"ControlName"						"ImagePanel"
 				"fieldName"							"SeparatorLine"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 
 			"RemoveButton"
@@ -123,12 +124,10 @@
 				"zpos"								"5"
 				"wide"								"100"
 				"tall"								"25"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"#Store_Remove"
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"textAlignment"						"center"
 				"default"							"1"
 				"AllCaps"							"1"
@@ -137,8 +136,8 @@
 				"sound_released"					"UI/buttonclickrelease.wav"
 
 				"paintbackground"					"0"
-				"border_default"					"MaterialGrayDark"
-				"border_armed"						"MaterialHypno"
+				"border_default"					"Material_Gray_Dark"
+				"border_armed"						"Material_Hypno"
 
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
@@ -149,19 +148,17 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldname"							"PriceLabel"
-				"font"								"Size 16"
+				"font"								"Size_16"
 				"textAlignment"						"east"
 				"xpos"								"475"
 				"ypos"								"0"
 				"zpos"								"15"
 				"wide"								"95"
 				"tall"								"60"
-				"autoResize"						"1"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"%price%"
-				"fgcolor"		 					"White"
+				"fgcolor"							"White"
 			}
 		}
 	}
@@ -179,7 +176,7 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 		"paintborder"								"1"
-		"border"									"MaterialReverseBlackLight"
+		"border"									"Material_Reverse_Black_Light"
 	}
 
 	"ClientArea"
@@ -190,20 +187,25 @@
 		"ypos"										"55"
 		"wide"										"f0"
 		"tall"										"368"
-		"bgcolor_override"							"GrayDarkest"
+		"bgcolor_override"							"Gray_Darkest"
 
 		"HeaderLine"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"HeaderLine"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"CartItemsLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CartItemsLabel"
-			"font"									"Size 24"
+			"font"									"Size_24"
 			"labelText"								"%storecart%"
 			"textAlignment"							"west"
 			"xpos"									"c-296"
@@ -211,12 +213,10 @@
 			"zpos"									"1"
 			"wide"									"350"
 			"tall"									"20"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"SeparatorLine"
@@ -224,13 +224,18 @@
 			"ControlName"							"ImagePanel"
 			"fieldName"								"SeparatorLine"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"EmptyCartLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"EmptyCartLabel"
-			"font"									"Size 24"
+			"font"									"Size_24"
 			"labelText"								"#Store_CartIsEmpty"
 			"textAlignment"							"center"
 			"xpos"									"c-300"
@@ -238,8 +243,6 @@
 			"zpos"									"6"
 			"wide"									"600"
 			"tall"									"240"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
 			"AllCaps"								"1"
@@ -256,9 +259,9 @@
 			"wide"									"600"
 			"tall"									"240"
 			"PaintBackgroundType"					"0"
-			"fgcolor_override"						"GrayDark"
-			"bgcolor_override"						"GrayDarkest"
-			"autohide_buttons" 						"1"
+			"fgcolor_override"						"Gray_Dark"
+			"bgcolor_override"						"Gray_Darkest"
+			"autohide_buttons"						"1"
 
 			"Scrollbar"
 			{
@@ -332,7 +335,7 @@
 					{
 						"ControlName"				"CExLabel"
 						"fieldName"					"EstimatedTotalLabel"
-						"font"						"Size 14"
+						"font"						"Size_14"
 						"labelText"					"#Store_EstimatedTotal"
 						"textAlignment"				"south-east"
 						"xpos"						"0"
@@ -340,18 +343,16 @@
 						"zpos"						"100"
 						"wide"						"425"
 						"tall"						"15"
-						"autoResize"				"1"
-						"pinCorner"					"0"
 						"visible"					"1"
 						"enabled"					"1"
 						"AllCaps"					"1"
-						"fgcolor"					"WhiteDark"
+						"fgcolor"					"White_Dark"
 					}
 					"WashingtonStateSalesTaxLabel"
 					{
 						"ControlName"				"CExLabel"
 						"fieldName"					"WashingtonStateSalesTaxLabel"
-						"font"						"Size 11"
+						"font"						"Size_11"
 						"labelText"					"#Store_WAStateSalesTax"
 						"textAlignment"				"north-east"
 						"xpos"						"0"
@@ -359,18 +360,16 @@
 						"zpos"						"100"
 						"wide"						"425"
 						"tall"						"12"
-						"autoResize"				"1"
-						"pinCorner"					"0"
 						"visible"					"1"
 						"enabled"					"1"
 						"AllCaps"					"1"
-						"fgcolor" 					"WhiteDark"
+						"fgcolor"					"White_Dark"
 					}
 					"TotalSubtextLabelB"
 					{
 						"ControlName"				"CExLabel"
 						"fieldName"					"TotalSubtextLabelB"
-						"font"						"Size 11"
+						"font"						"Size_11"
 						"labelText"					"#Store_TotalSubtextB"
 						"textAlignment"				"north-east"
 						"xpos"						"0"
@@ -378,32 +377,28 @@
 						"zpos"						"100"
 						"wide"						"425"
 						"tall"						"12"
-						"autoResize"				"1"
-						"pinCorner"					"0"
 						"visible"					"1"
 						"enabled"					"1"
 						"AllCaps"					"1"
-						"fgcolor" 					"WhiteDark"
+						"fgcolor"					"White_Dark"
 					}
 
 					"TotalPriceLabel"
 					{
 						"ControlName"				"CExLabel"
 						"fieldname"					"TotalPriceLabel"
-						"font"						"Size 16"
+						"font"						"Size_16"
 						"textAlignment"				"east"
 						"xpos"						"475"
 						"ypos"						"0"
 						"zpos"						"15"
 						"wide"						"100"
 						"tall"						"60"
-						"autoResize"				"1"
-						"pinCorner"					"0"
 						"visible"					"1"
 						"enabled"					"1"
 						"AllCaps"					"1"
 						"labelText"					"%totalprice%"
-						"fgcolor"		 			"Red"
+						"fgcolor"					"Red"
 					}
 
 				}
@@ -420,12 +415,10 @@
 		"zpos"										"2"
 		"wide"										"70"
 		"tall"										"22"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"Back (&Q)"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"default"									"1"
 		"AllCaps"									"1"
@@ -434,12 +427,12 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"CheckoutButton"
@@ -451,12 +444,10 @@
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"22"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"CHECKOUT (&E)"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"default"									"0"
 		"Command"									"checkout"
@@ -464,30 +455,45 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"BackgroundHeader"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BackgroundHeader"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BackgroundFooter"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BackgroundFooter"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"FooterLine"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"FooterLine"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

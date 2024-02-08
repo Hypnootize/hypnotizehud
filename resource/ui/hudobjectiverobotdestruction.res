@@ -38,8 +38,7 @@
 			"visible"								"1"
 			"paintbackground"						"0"
 			"paintborder"							"0"
-			"AutoResize" 							"1"
-			"skip_autoresize" 						"1"
+			"skip_autoresize"						"1"
 		}
 	}
 
@@ -56,7 +55,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"PaintBorder"								"1"
-		"border"									"MaterialTransparent50"
+		"border"									"Material_Transparent_50"
 	}
 	"PlayingTo"
 	{
@@ -72,7 +71,7 @@
 		"labelText"									"#TF_PlayingTo"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"font"										"Size 8"
+		"font"										"Size_8"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"BlackTransparentBG"
@@ -105,7 +104,7 @@
 			"enabled"								"1"
 			"textAlignment"							"center"
 			"labelText"								"%flagvalue%"
-			"font"									"Size 20"
+			"font"									"Size_20"
 			"fgcolor"								"White"
 			"proportionalToParent"					"1"
 		}
@@ -122,7 +121,7 @@
 			"enabled"								"1"
 			"textAlignment"							"center"
 			"labelText"								"%flagvalue%"
-			"font"									"Size 20"
+			"font"									"Size_20"
 			"fgcolor"								"Shadow"
 			"proportionalToParent"					"1"
 			"pin_to_sibling"						"FlagValue"
@@ -133,12 +132,22 @@
 			"ControlName"							"ImagePanel"
 			"fieldName"								"CarriedImage"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"CarriedProgressBar"
 		{
 			"fieldName"								"CarriedProgressBar"
 			"ControlName"							"ImagePanel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -159,6 +168,11 @@
 			"fieldName"								"ProgressBarContainer"
 			"ControlName"							"EditablePanel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"BlueScoreValueContainer"
@@ -176,7 +190,7 @@
 			"enabled"								"1"
 			"proportionalToParent"					"1"
 			"PaintBorder"							"1"
-			"border"								"MaterialBlue"
+			"border"								"Material_Blue"
 
 			"Score"
 			{
@@ -191,7 +205,7 @@
 				"enabled"							"1"
 				"textAlignment"						"west"
 				"labelText"							"%score%"
-				"font"								"Size 18"
+				"font"								"Size_18"
 				"fgcolor"							"White"
 				"proportionalToParent"				"1"
 			}
@@ -208,10 +222,10 @@
 				"enabled"							"1"
 				"textAlignment"						"west"
 				"labelText"							"%score%"
-				"font"								"Size 18 Blur"
+				"font"								"Size_18_Blur"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
-				"pin_to_sibling" 					"Score"
+				"pin_to_sibling"					"Score"
 			}
 		}
 
@@ -228,7 +242,7 @@
 			"enabled"								"1"
 			"proportionalToParent"					"1"
 			"PaintBorder"							"1"
-			"border"								"MaterialRed"
+			"border"								"Material_Red"
 
 			"Score"
 			{
@@ -243,7 +257,7 @@
 				"enabled"							"1"
 				"textAlignment"						"east"
 				"labelText"							"%score%"
-				"font"								"Size 18"
+				"font"								"Size_18"
 				"fgcolor"							"White"
 				"proportionalToParent"				"1"
 			}
@@ -260,10 +274,10 @@
 				"enabled"							"1"
 				"textAlignment"						"east"
 				"labelText"							"%score%"
-				"font"								"Size 18 Blur"
+				"font"								"Size_18_Blur"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
-				"pin_to_sibling" 					"Score"
+				"pin_to_sibling"					"Score"
 			}
 		}
 
@@ -340,7 +354,7 @@
 				"enabled"							"1"
 				"textAlignment"						"west"
 				"labelText"							"%intelvalue%"
-				"font"								"Size 16"
+				"font"								"Size_16"
 				"fgcolor"							"White"
 				"proportionalToParent"				"1"
 			}
@@ -357,7 +371,7 @@
 				"enabled"							"1"
 				"textAlignment"						"west"
 				"labelText"							"%intelvalue%"
-				"font"								"Size 16"
+				"font"								"Size_16"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
 				"pin_to_sibling"					"IntelValue"
@@ -437,7 +451,7 @@
 				"enabled"							"1"
 				"textAlignment"						"east"
 				"labelText"							"%intelvalue%"
-				"font"								"Size 16"
+				"font"								"Size_16"
 				"fgcolor"							"White"
 				"proportionalToParent"				"1"
 			}
@@ -454,7 +468,7 @@
 				"enabled"							"1"
 				"textAlignment"						"east"
 				"labelText"							"%intelvalue%"
-				"font"								"Size 16"
+				"font"								"Size_16"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
 				"pin_to_sibling"					"IntelValue"

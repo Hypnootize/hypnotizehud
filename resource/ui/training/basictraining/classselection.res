@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DescLabel"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"labelText"									"#TF_COMPLETE_TRAINING_DESC"
 		"textAlignment"								"center"
 		"xpos"										"0"
@@ -12,11 +12,9 @@
 		"zpos"										"1"
 		"wide"										"430"
 		"tall"										"20"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 }

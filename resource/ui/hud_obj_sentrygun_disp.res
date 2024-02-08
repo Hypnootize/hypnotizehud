@@ -24,7 +24,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"border"									"MaterialTransparent50"
+		"border"									"Material_Transparent_50"
 	}
 
 	"IconBackgound"
@@ -39,7 +39,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"border"									"MaterialTransparent50"
+		"border"									"Material_Transparent_50"
 	}
 
 	"Icon_Sentry_1"
@@ -58,9 +58,9 @@
 		"icon"										"obj_status_sentrygun_1"
 		"iconColor"									"White"
 
-		"pin_to_sibling" 							"IconBackgound"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"IconBackgound"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 
 	"NotBuiltPanel"
@@ -79,13 +79,18 @@
 			"ControlName"							"EditablePanel"
 			"fieldName"								"NotBuiltBG"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"NotBuiltLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"NotBuiltLabel"
-			"font"									"Size 9"
+			"font"									"Size_9"
 			"xpos"									"cs-0.5"
 			"ypos"									"cs-0.5"
 			"wide"									"f0"
@@ -167,13 +172,22 @@
 			"ControlName"							"CBuildingStatusAlertTray"
 			"fieldName"								"AlertTray"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
-
 		"WrenchIcon"
 		{
 			"ControlName"							"CIconPanel"
 			"fieldName"								"WrenchIcon"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"SapperIcon"
@@ -212,9 +226,12 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"BuildingPanel"
+			"xpos"									"9999"
+			"ypos"									"9999"
 			"wide"									"0"
 			"tall"									"0"
 			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"RunningPanel"
@@ -232,7 +249,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"KillsLabel"
-				"font"								"Size 10"
+				"font"								"Size_10"
 				"xpos"								"32"
 				"ypos"								"3"
 				"wide"								"200"
@@ -273,8 +290,8 @@
 				"image"								"replay/thumbnails/game/buildingstatus_ammo"
 				"drawcolor"							"Black"
 
-				"pin_to_sibling" 					"Shells"
-				"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+				"pin_to_sibling"					"Shells"
+				"pin_corner_to_sibling"				"PIN_CENTER_TOP"
 				"pin_to_sibling_corner"				"PIN_CENTER_TOP"
 			}
 
@@ -283,6 +300,11 @@
 				"ControlName"						"ImagePanel"
 				"fieldName"							"KillIcon"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 		}
 	}
@@ -292,5 +314,10 @@
 		"ControlName"								"CIconPanel"
 		"fieldName"									"Background"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

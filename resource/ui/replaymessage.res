@@ -7,7 +7,6 @@
 		"zpos"										"1000"
 		"tall"										"84"
 		"wide"										"200"
-		"autoResize"								"0"
 		"visible"									"1"
 		"enabled"									"1"
 	}
@@ -16,7 +15,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ReplayLabel"
-		"font"										"Size 24"
+		"font"										"Size_24"
 		"xpos"										"35"
 		"ypos"										"2"
 		"zpos"										"0"
@@ -32,7 +31,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"MessageLabel"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"zpos"										"0"
 		"wide"										"180"
 		"tall"										"0"

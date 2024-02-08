@@ -1,4 +1,4 @@
-#base "../../resource/tools/reloadschemebutton.res"
+#base "../tools/reloadschemebutton.res"
 
 "Resource/UI/ItemSelectionPanel.res"
 {
@@ -11,12 +11,10 @@
 		"zpos"										"500"
 		"wide"										"f0"
 		"tall"										"480"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
-		"bgcolor_override"							"GrayDarkest"
+		"bgcolor_override"							"Gray_Darkest"
 
 		"item_ypos"									"60"
 		"item_ydelta"								"80"
@@ -78,7 +76,7 @@
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
+				"use_item_rendertarget"				"0"
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
@@ -88,15 +86,13 @@
 
 		"duplicatelabels_kv"
 		{
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"textAlignment"							"center"
 			"wide"									"20"
 			"tall"									"15"
 			"zpos"									"1"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"enabled"								"1"
-			"fgcolor"								"BlackLight"
+			"fgcolor"								"Black_Light"
 		}
 	}
 
@@ -113,7 +109,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"0"
-		"border"									"MaterialBlackLight"
+		"border"									"Material_Black_Light"
 	}
 
 	"NameFilterTextEntry"
@@ -125,8 +121,6 @@
 		"zpos"										"1"
 		"wide"										"122"
 		"tall"										"15"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"textHidden"								"0"
@@ -135,7 +129,7 @@
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"Blank"
 		"paintbackgroundtype"						"0"
-		"font"										"Size 11"
+		"font"										"Size_11"
 
 		"pin_to_sibling"							"BackpackBGCustom"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
@@ -146,7 +140,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NameFilterBG"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"xpos"										"20"
 		"ypos"										"5"
 		"zpos"										"0"
@@ -154,16 +148,14 @@
 		"tall"										"24"
 		"visible"									"1"
 		"enabled"									"1"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"textAlignment"								"west"
 		"textinsetx"								"11"
 		"labeltext"									"q"
 		"fgcolor"									"White"
 
-		"border"									"MaterialGrayDarker"
+		"border"									"Material_Gray_Darker"
 
-		"pin_to_sibling" 							"NameFilterTextEntry"
+		"pin_to_sibling"							"NameFilterTextEntry"
 	}
 	"NameFilterLine"
 	{
@@ -177,12 +169,12 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
-		"bgcolor_override"							"WhiteDark"
+		"bgcolor_override"							"White_Dark"
 		"alpha"										"25"
 		"proportionaltoparent"						"1"
-		"pin_to_sibling" 							"NameFilterTextEntry"
-		"pin_corner_to_sibling"					 	"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		"pin_to_sibling"							"NameFilterTextEntry"
+		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
 
 	"PrevPageButton"
@@ -194,12 +186,10 @@
 		"zpos"										"1"
 		"wide"										"24"
 		"tall"										"24"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"&A"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"textAlignment"								"center"
 		"Command"									"prevpage"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -211,8 +201,8 @@
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
 
-		"border_default"							"MaterialGrayDarker"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Darker"
+		"border_armed"								"Material_Hypno"
 
 		"pin_to_sibling"							"CurPageLabel"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
@@ -223,7 +213,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurPageLabel"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"labelText"									"%backpackpage%"
 		"textAlignment"								"center"
 		"xpos"										"0"
@@ -231,11 +221,9 @@
 		"zpos"										"1"
 		"wide"										"50"
 		"tall"										"24"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"									"Main Theme"
+		"fgcolor"									"Main_Theme"
 
 		"pin_to_sibling"							"BackpackBGCustom"
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
@@ -251,12 +239,10 @@
 		"zpos"										"1"
 		"wide"										"24"
 		"tall"										"24"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"&D"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"textAlignment"								"center"
 		"Command"									"nextpage"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -268,8 +254,8 @@
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
 
-		"border_default"							"MaterialGrayDarker"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Darker"
+		"border_armed"								"Material_Hypno"
 
 		"pin_to_sibling"							"CurPageLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -285,12 +271,10 @@
 		"zpos"										"20"
 		"wide"										"710"
 		"tall"										"24"
-		"autoResize"								"0"
-		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Cancel"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"Command"									"vguicancel"
 
@@ -301,12 +285,12 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 
 		"pin_to_sibling"							"BackpackBGCustom"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -322,12 +306,10 @@
 		"zpos"										"20"
 		"wide"										"150"
 		"tall"										"24"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"backpack"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
 		"Command"									"show_backpack"
@@ -338,12 +320,12 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"border_default"							"MaterialGrayDarker"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Darker"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 
 		"pin_to_sibling"							"BackpackBGCustom"
 		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
@@ -359,12 +341,10 @@
 		"zpos"										"20"
 		"wide"										"150"
 		"tall"										"24"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"show selection"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
 		"Command"									"show_selection"
@@ -374,12 +354,12 @@
 
 		"paintbackground"							"0"
 
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 
 		"pin_to_sibling"							"BackpackBGCustom"
 		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
@@ -414,8 +394,6 @@
 			"zpos"									"2"
 			"wide"									"140"
 			"tall"									"60"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"%attriblist%"
@@ -432,47 +410,87 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"CaratLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ClassLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ClassLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NameFilterLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NameFilterLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TopLine"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"TopLine"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BottomLine"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"BottomLine"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ItemSlotLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemSlotLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NoItemsLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NoItemsLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"OnlyAllowUniqueQuality"
 	{
 		"ControlName"								"CheckButton"
 		"fieldName"									"OnlyAllowUniqueQuality"
-		"xpos"										"99999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

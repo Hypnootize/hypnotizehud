@@ -1,4 +1,4 @@
-#base "../../resource/tools/reloadschemebutton.res"
+#base "../tools/reloadschemebutton.res"
 
 "Resource/UI/PublishedFileBrowserDialog.res"
 {
@@ -16,7 +16,7 @@
 		"Title"										"#TF_PublishedFiles_Browse"
 		"paintbackground"							"0"
 		"paintborder"								"1"
-		"border"									"MaterialBlackDark"
+		"border"									"Material_Black_Dark"
 	}
 
 	"LabelPublishedFiles"
@@ -31,7 +31,7 @@
 		"enabled"									"1"
 		"labelText"									"#TF_PublishedFiles_Files"
 		"textAlignment"								"west"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 
 	}
 
@@ -46,7 +46,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"west"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"LabelPublishedFileTitle"
@@ -61,7 +61,7 @@
 		"enabled"									"1"
 		"labelText"									"#TF_PublishFile_TitleLabel"
 		"textAlignment"								"west"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"LabelPublishedFileTitleValue"
@@ -78,7 +78,7 @@
 		"labelText"									""
 		// "editable"								"0"
 		// "maxchars"								"128"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"LabelPublishedFileDesc"
@@ -94,7 +94,7 @@
 		"labelText"									"#TF_PublishFile_DescLabel"
 		"textAlignment"								"west"
 		"wrap"										"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"LabelPublishedFileDescValue"
@@ -130,12 +130,12 @@
 		"Default"									"0"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDarker"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Darker"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"ButtonDeleteFile"
@@ -154,12 +154,12 @@
 		"Default"									"0"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDarker"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Darker"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"ButtonEditFile"
@@ -178,12 +178,12 @@
 		"Default"									"0"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDarker"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Darker"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"ButtonRefresh"
@@ -202,12 +202,12 @@
 		"Default"									"0"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDarker"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Darker"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"ButtonClose"
@@ -226,11 +226,11 @@
 		"Default"									"0"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDarker"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Darker"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 }

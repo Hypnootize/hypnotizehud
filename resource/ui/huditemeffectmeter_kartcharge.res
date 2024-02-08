@@ -22,15 +22,13 @@
 		"zpos"										"2"
 		"wide"										"80"
 		"tall"										"8"
-		"autoResize"								"1"
-		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_KART"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 8"
+		"font"										"Size_8"
 		"fgcolor"									"White"
 	}
 
@@ -44,8 +42,6 @@
 		"zpos"										"2"
 		"wide"										"80"
 		"tall"										"2"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"Center"
@@ -61,13 +57,12 @@
 		"zpos"										"2"
 		"wide"										"80"
 		"tall"										"14"
-		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
-		"font"										"Size 12"
+		"font"										"Size_12"
 	}
 
 	"ItemEffectMeterBG"
@@ -75,5 +70,10 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"ItemEffectMeterBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

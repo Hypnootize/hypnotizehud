@@ -11,7 +11,6 @@
 
 		"collapsed_height"							"27"
 		"resize_time"								"0.1"
-
 	}
 
 	"TopContainer"
@@ -41,7 +40,7 @@
 			"mouseinputenabled"						"0"
 
 			"proportionaltoparent"					"1"
-			"bgcolor_override"						"GrayDark"
+			"bgcolor_override"						"Gray_Dark"
 		}
 
 		"BGImage"
@@ -49,6 +48,11 @@
 			"ControlName"							"ImagePanel"
 			"fieldName"								"BGImage"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"EntryToggleButton"
@@ -73,8 +77,8 @@
 
 			"paintbackground"						"0"
 
-			"border_default"						"MaterialTransparent50"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Transparent_50"
+			"border_armed"							"Material_Hypno"
 
 			"sound_armed"							"ui/item_info_mouseover.wav"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -146,10 +150,10 @@
 			"enabled"								"1"
 			"labelText"								"%title_token%"
 			"use_proportional_insets"				"1"
-			"font"									"Size 16"
+			"font"									"Size_16"
 			"textAlignment"							"center"
 			"default"								"1"
-			"proportionaltoparent" 					"1"
+			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 
 			"AllCaps"								"1"
@@ -162,18 +166,33 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"DescLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DescLabel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"DescLabelShadow"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DescLabelShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -192,12 +211,10 @@
 
 		"border"									"NoBorder"
 
-		"pinCorner"									"2"
-		"autoResize"								"1"
 
 		"skip_autoresize"							"1"
 
-		"bgcolor_override"							"BlackDark"
+		"bgcolor_override"							"Black_Dark"
 	}
 
 	"PlayListDropShadow"
@@ -205,5 +222,10 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"PlayListDropShadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

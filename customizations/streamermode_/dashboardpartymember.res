@@ -2,6 +2,6 @@
 {
 	"avatar"
 	{
-		"alpha" 									"0"
+		"Alpha"										"0"
 	}
 }

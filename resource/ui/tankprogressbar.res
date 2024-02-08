@@ -45,7 +45,7 @@
 		"src_corner_width"							"24"
 
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 	}
 
 	"ProgressBarBG"
@@ -66,6 +66,6 @@
 		"src_corner_width"							"24"
 
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 	}
 }

@@ -38,8 +38,7 @@
 			"bgcolor_override"						"Blank"
 			"PaintBackgroundType"					"0"
 			"paintborder"							"0"
-			"AutoResize"							"0"
-			"skip_autoresize" 						"1"
+			"skip_autoresize"						"1"
 		}
 	}
 
@@ -56,7 +55,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"PaintBorder"								"1"
-		"border"									"MaterialTransparent50"
+		"border"									"Material_Transparent_50"
 	}
 	"PlayingTo"
 	{
@@ -72,7 +71,7 @@
 		"labelText"									"#TF_PlayingTo"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"font"										"Size 8"
+		"font"										"Size_8"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"BlackTransparentBG"
@@ -91,9 +90,9 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-        "proportionaltoparent"						"1"
+		"proportionaltoparent"						"1"
 		"PaintBorder"								"1"
-		"border"									"MaterialBlue"
+		"border"									"Material_Blue"
 
 		"pin_to_sibling"							"BlackTransparentBG"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
@@ -110,9 +109,9 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-        "proportionaltoparent"						"1"
+		"proportionaltoparent"						"1"
 		"PaintBorder"								"1"
-		"border"									"MaterialRed"
+		"border"									"Material_Red"
 
 		"pin_to_sibling"							"BlackTransparentBG"
 		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
@@ -132,7 +131,7 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 		"paintborder"								"1"
-		"border"									"MaterialTransparentGreen70"
+		"border"									"Material_Transparent_Green_70"
 
 		"CarriedImage"
 		{
@@ -162,7 +161,7 @@
 			"enabled"								"1"
 			"textAlignment"							"center"
 			"labelText"								"%flagvalue%"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"fgcolor"								"White"
 			"proportionalToParent"					"1"
 		}
@@ -179,7 +178,7 @@
 			"enabled"								"1"
 			"textAlignment"							"center"
 			"labelText"								"%flagvalue%"
-			"font"									"Size 12 Blur"
+			"font"									"Size_12_Blur"
 			"fgcolor"								"Shadow"
 			"proportionalToParent"					"1"
 			"pin_to_sibling"						"FlagValue"
@@ -190,24 +189,44 @@
 			"fieldName"								"CarriedProgressBar"
 			"ControlName"							"ImagePanel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"TeamLeaderImage"
 		{
 			"ControlName"							"CTFImagePanel"
 			"fieldName"								"TeamLeaderImage"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"FlagValueShadow"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"FlagValueShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"WhiteBG"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"WhiteBG"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -241,6 +260,11 @@
 				"fieldName"							"ScoreOutline"
 				"ControlName"						"ImagePanel"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 
 			"FlagImageBlue"
@@ -271,7 +295,7 @@
 				"enabled"							"1"
 				"textAlignment"						"west"
 				"labelText"							"%blue_escrow%"
-				"font"								"Size 16"
+				"font"								"Size_16"
 				"fgcolor"							"White"
 				"proportionalToParent"				"1"
 
@@ -292,7 +316,7 @@
 				"enabled"							"1"
 				"textAlignment"						"west"
 				"labelText"							"%blue_escrow%"
-				"font"								"Size 16 Blur"
+				"font"								"Size_16_Blur"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
 
@@ -327,7 +351,7 @@
 				"enabled"							"1"
 				"textAlignment"						"east"
 				"labelText"							"%red_escrow%"
-				"font"								"Size 16"
+				"font"								"Size_16"
 				"fgcolor"							"White"
 				"proportionalToParent"				"1"
 
@@ -348,7 +372,7 @@
 				"enabled"							"1"
 				"textAlignment"						"east"
 				"labelText"							"%red_escrow%"
-				"font"								"Size 16 Blur"
+				"font"								"Size_16_Blur"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
 
@@ -381,7 +405,7 @@
 					"enabled"						"1"
 					"textAlignment"					"west"
 					"labelText"						"WIN:"
-					"font"							"Size 16"
+					"font"							"Size_16"
 					"fgcolor"						"White"
 					"proportionalToParent"			"1"
 				}
@@ -398,10 +422,10 @@
 					"enabled"						"1"
 					"textAlignment"					"west"
 					"labelText"						"WIN:"
-					"font"							"Size 16 Blur"
+					"font"							"Size_16_Blur"
 					"fgcolor"						"Shadow"
 					"proportionalToParent"			"1"
-					"pin_to_sibling" 				"VictoryLabel2"
+					"pin_to_sibling"				"VictoryLabel2"
 				}
 
 				"VictoryLabelTime"
@@ -417,13 +441,13 @@
 					"enabled"						"1"
 					"textAlignment"					"east"
 					"labelText"						"%victorytime%"
-					"font"							"Size 18"
+					"font"							"Size_18"
 					"fgcolor"						"White"
 					"proportionalToParent"			"1"
 
-					"pin_to_sibling" 				"VictoryLabel2"
-					"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-					"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
+					"pin_to_sibling"				"VictoryLabel2"
+					"pin_corner_to_sibling"			"PIN_TOPLEFT"
+					"pin_to_sibling_corner"			"PIN_TOPRIGHT"
 				}
 				"VictoryLabelTimeShadow"
 				{
@@ -438,10 +462,10 @@
 					"enabled"						"1"
 					"textAlignment"					"east"
 					"labelText"						"%victorytime%"
-					"font"							"Size 18 Blur"
+					"font"							"Size_18_Blur"
 					"fgcolor"						"Shadow"
 					"proportionalToParent"			"1"
-					"pin_to_sibling" 				"VictoryLabelTime"
+					"pin_to_sibling"				"VictoryLabelTime"
 				}
 
 				"VictoryLabel"
@@ -449,12 +473,22 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"VictoryLabel"
 					"xpos"							"9999"
+					"ypos"							"9999"
+					"wide"							"0"
+					"tall"							"0"
+					"visible"						"0"
+					"enabled"						"0"
 				}
 				"VictoryLabelShadow"
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"VictoryLabelShadow"
 					"xpos"							"9999"
+					"ypos"							"9999"
+					"wide"							"0"
+					"tall"							"0"
+					"visible"						"0"
+					"enabled"						"0"
 				}
 			}
 
@@ -462,17 +496,23 @@
 			{
 				"fieldName"							"BlueProgressBarFill"
 				"ControlName"						"ImagePanel"
+				"xpos"								"9999"
+				"ypos"								"9999"
 				"wide"								"0"
 				"tall"								"0"
 				"visible"							"0"
+				"enabled"							"0"
 			}
 			"BlueProgressBarEscrow"
 			{
 				"fieldName"							"BlueProgressBarEscrow"
 				"ControlName"						"ImagePanel"
+				"xpos"								"9999"
+				"ypos"								"9999"
 				"wide"								"0"
 				"tall"								"0"
 				"visible"							"0"
+				"enabled"							"0"
 			}
 
 			"RedVictoryContainer"
@@ -501,7 +541,7 @@
 					"enabled"						"1"
 					"textAlignment"					"west"
 					"labelText"						"WIN:"
-					"font"							"Size 16"
+					"font"							"Size_16"
 					"fgcolor"						"White"
 					"proportionalToParent"			"1"
 				}
@@ -518,10 +558,10 @@
 					"enabled"						"1"
 					"textAlignment"					"west"
 					"labelText"						"WIN:"
-					"font"							"Size 16 Blur"
+					"font"							"Size_16_Blur"
 					"fgcolor"						"Shadow"
 					"proportionalToParent"			"1"
-					"pin_to_sibling" 				"VictoryLabel2"
+					"pin_to_sibling"				"VictoryLabel2"
 				}
 
 				"VictoryLabelTime"
@@ -537,13 +577,13 @@
 					"enabled"						"1"
 					"textAlignment"					"east"
 					"labelText"						"%victorytime%"
-					"font"							"Size 18"
+					"font"							"Size_18"
 					"fgcolor"						"White"
 					"proportionalToParent"			"1"
 
-					"pin_to_sibling" 				"VictoryLabel2"
-					"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-					"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
+					"pin_to_sibling"				"VictoryLabel2"
+					"pin_corner_to_sibling"			"PIN_TOPLEFT"
+					"pin_to_sibling_corner"			"PIN_TOPRIGHT"
 				}
 				"VictoryLabelTimeShadow"
 				{
@@ -558,10 +598,10 @@
 					"enabled"						"1"
 					"textAlignment"					"east"
 					"labelText"						"%victorytime%"
-					"font"							"Size 18 Blur"
+					"font"							"Size_18_Blur"
 					"fgcolor"						"Shadow"
 					"proportionalToParent"			"1"
-					"pin_to_sibling" 				"VictoryLabelTime"
+					"pin_to_sibling"				"VictoryLabelTime"
 				}
 
 				"VictoryLabel"
@@ -569,12 +609,22 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"VictoryLabel"
 					"xpos"							"9999"
+					"ypos"							"9999"
+					"wide"							"0"
+					"tall"							"0"
+					"visible"						"0"
+					"enabled"						"0"
 				}
 				"VictoryLabelShadow"
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"VictoryLabelShadow"
 					"xpos"							"9999"
+					"ypos"							"9999"
+					"wide"							"0"
+					"tall"							"0"
+					"visible"						"0"
+					"enabled"						"0"
 				}
 			}
 
@@ -582,17 +632,23 @@
 			{
 				"fieldName"							"RedProgressBarFill"
 				"ControlName"						"ImagePanel"
+				"xpos"								"9999"
+				"ypos"								"9999"
 				"wide"								"0"
 				"tall"								"0"
 				"visible"							"0"
+				"enabled"							"0"
 			}
 			"RedProgressBarEscrow"
 			{
 				"fieldName"							"RedProgressBarEscrow"
 				"ControlName"						"ImagePanel"
+				"xpos"								"9999"
+				"ypos"								"9999"
 				"wide"								"0"
 				"tall"								"0"
 				"visible"							"0"
+				"enabled"							"0"
 			}
 		}
 
@@ -622,7 +678,7 @@
 				"enabled"							"1"
 				"textAlignment"						"west"
 				"labelText"							"%score%"
-				"font"								"Size 18"
+				"font"								"Size_18"
 				"fgcolor"							"White"
 				"proportionalToParent"				"1"
 			}
@@ -639,10 +695,10 @@
 				"enabled"							"1"
 				"textAlignment"						"west"
 				"labelText"							"%score%"
-				"font"								"Size 18 Blur"
+				"font"								"Size_18_Blur"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
-				"pin_to_sibling" 					"Score"
+				"pin_to_sibling"					"Score"
 			}
 		}
 
@@ -672,7 +728,7 @@
 				"enabled"							"1"
 				"textAlignment"						"east"
 				"labelText"							"%score%"
-				"font"								"Size 18"
+				"font"								"Size_18"
 				"fgcolor"							"White"
 				"proportionalToParent"				"1"
 			}
@@ -689,10 +745,10 @@
 				"enabled"							"1"
 				"textAlignment"						"east"
 				"labelText"							"%score%"
-				"font"								"Size 18 Blur"
+				"font"								"Size_18_Blur"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
-				"pin_to_sibling" 					"Score"
+				"pin_to_sibling"					"Score"
 			}
 		}
 		"BlueStolenContainer"
@@ -700,12 +756,22 @@
 			"ControlName"							"EditablePanel"
 			"fieldName"								"BlueStolenContainer"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"RedStolenContainer"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"RedStolenContainer"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -734,7 +800,7 @@
 			"enabled"								"1"
 			"textAlignment"							"center"
 			"labelText"								"%countdowntime%"
-			"font"									"Size 16"
+			"font"									"Size_16"
 			"fgcolor"								"White"
 			"proportionalToParent"					"1"
 		}
@@ -752,7 +818,7 @@
 			"enabled"								"1"
 			"textAlignment"							"center"
 			"labelText"								"%countdowntime%"
-			"font"									"Size 16 Blur"
+			"font"									"Size_16_Blur"
 			"fgcolor"								"Shadow"
 			"proportionalToParent"					"1"
 
@@ -764,12 +830,22 @@
 			"ControlName"							"CTFImagePanel"
 			"fieldName"								"Background"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"CountdownImage"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"CountdownImage"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -778,6 +854,8 @@
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"PlayingToBG"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"

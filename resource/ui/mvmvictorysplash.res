@@ -19,8 +19,6 @@
 			"ypos"									"0"
 			"wide"									"250"
 			"tall"									"40"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"image"									"replay/thumbnails/panels/material_red_transparent70"
@@ -29,16 +27,16 @@
 			"src_corner_width"						"24"
 
 			"draw_corner_width"						"8"
-			"draw_corner_height" 					"8"
+			"draw_corner_height"					"8"
 		}
 
 		"SplashLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"SplashLabel"
-			"font"									"Size 40"
+			"font"									"Size_40"
 			"labelText"								"#TF_MVM_Victory"
-			"textAlignment" 						"center"
+			"textAlignment"							"center"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"1"
@@ -51,16 +49,16 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"SplashLabelShadow"
-			"font"									"Size 40 Blur"
+			"font"									"Size_40_Blur"
 			"labelText"								"#TF_MVM_Victory"
-			"textAlignment"						 	"center"
+			"textAlignment"							"center"
 			"xpos"									"-1"
 			"ypos"									"-1"
 			"wide"									"300"
 			"tall"									"40"
 			"AllCaps"								"1"
 			"fgcolor"								"Shadow"
-			"pin_to_sibling" 						"SplashLabel"
+			"pin_to_sibling"						"SplashLabel"
 		}
 	}
 }

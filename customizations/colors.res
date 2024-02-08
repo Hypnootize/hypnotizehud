@@ -18,40 +18,40 @@
 		//=============================================================================
 
 		"Crosshair"											"227 228 230 255"
-		"Crosshair Shadow"									"0 0 0 255"
-		"Crosshair Pulse"									"255 0 0 255"
+		"Crosshair_Shadow"									"0 0 0 255"
+		"Crosshair_Pulse"									"255 0 0 255"
 
 		"HitMarker"											"255 0 0 255"
 
-		"Health Numbers"									"227 228 230 255"
+		"Health_Numbers"									"227 228 230 255"
 
 		"Shadow"											"0 0 0 175"
 
-		"Buffed Health"										"30 175 255 255"
-		"Buffed Health Pulse"								"80 150 255 255"
+		"Buffed_Health"										"30 175 255 255"
+		"Buffed_Health_Pulse"								"80 150 255 255"
 
-		"Low Health"										"255 50 50 255"
-		"Low Health Pulse"									"255 0 0 255"
+		"Low_Health"										"255 50 50 255"
+		"Low_Health_Pulse"									"255 0 0 255"
 
-		"Ammo In Clip"										"227 228 230 255"
-		"Ammo In Reserve"									"227 228 230 255"
-		"Ammo No Clip"										"227 228 230 255"
+		"Ammo_In_Clip"										"227 228 230 255"
+		"Ammo_In_Reserve"									"227 228 230 255"
+		"Ammo_No_Clip"										"227 228 230 255"
 
-		"Low Ammo In Clip"									"255 50 50 255"
-		"Low Ammo In Clip Pulse"							"255 0 0 255"
-		"Low Ammo In Reserve"								"255 50 50 255"
-		"Low Ammo In Reserve Pulse"							"255 0 0 255"
-		"Low Ammo No Clip"									"255 50 50 255"
-		"Low Ammo No Clip Pulse"							"255 0 0 255"
+		"Low_Ammo_In_Clip"									"255 50 50 255"
+		"Low_Ammo_In_Clip_Pulse"							"255 0 0 255"
+		"Low_Ammo_In_Reserve"								"255 50 50 255"
+		"Low_Ammo_In_Reserve_Pulse"							"255 0 0 255"
+		"Low_Ammo_No_Clip"									"255 50 50 255"
+		"Low_Ammo_No_Clip_Pulse"							"255 0 0 255"
 
-		"Full Ubercharge"									"30 175 255 255"
-		"Full Ubercharge Pulse"								"80 150 255 255"
+		"Full_Ubercharge"									"30 175 255 255"
+		"Full_Ubercharge_Pulse"								"80 150 255 255"
 
-		"Heal Numbers"										"0 255 0 255"
-		"Last Damage Done"									"227 228 230 255"
+		"Heal_Numbers"										"0 255 0 255"
+		"Last_Damage_Done"									"227 228 230 255"
 
-		"Health Gained"										"75 210 75 255"
-		"Health Lost"										"255 50 50 255"
+		"Health_Gained"										"75 210 75 255"
+		"Health_Lost"										"255 50 50 255"
 
 		"Red"												"255 61 61 255"
 		"Blue"												"92 173 255 255"
@@ -61,19 +61,17 @@
 		// MENU COLORS
 		//=============================================================================
 
-		"Main Theme"										"80 150 255 255"
-
-		"WhiteLight"										"227 228 230 255"
+		"Main_Theme"										"80 150 255 255"
 		"White"												"227 228 230 255"
-		"WhiteDark"											"172 173 175 255"
-		"WhiteGray"											"127 128 130 255"
-		"GrayLight"											"77 78 82 255"
-		"GrayMedium"										"62 63 66 255"
-		"GrayDark"											"46 47 51 255"
-		"GrayDarker"										"37 38 40 255"
-		"GrayDarkest"										"27 28 30 255"
-		"BlackLight"										"20 21 23 255"
-		"BlackDark"											"15 16 18 255"
+		"White_Dark"										"172 173 175 255"
+		"White_Gray"										"127 128 130 255"
+		"Gray_Light"										"77 78 82 255"
+		"Gray_Medium"										"62 63 66 255"
+		"Gray_Dark"											"46 47 51 255"
+		"Gray_Darker"										"37 38 40 255"
+		"Gray_Darkest"										"27 28 30 255"
+		"Black_Light"										"20 21 23 255"
+		"Black_Dark"										"15 16 18 255"
 		"Black"												"0 0 0 255"
 		"TransparentBlack"									"0 0 0 150"
 		"TransparentLightBlack"								"0 0 0 100"

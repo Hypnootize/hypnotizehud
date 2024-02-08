@@ -1,6 +1,6 @@
 "Resource/UI/HudTraining.res"
 {
- 	"ObjectiveStatusTraining"
+	"ObjectiveStatusTraining"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ObjectiveStatusTraining"
@@ -27,7 +27,7 @@
 		"enabled"									"1"
 		"wrap"										"1"
 		"labelText"									"%goal%"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"textAlignment"								"North"
 		"fgcolor"									"White"
 	}
@@ -46,7 +46,7 @@
 		"wrap"										"1"
 		"labelText"									""
 		"textAlignment"								"North"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"fgcolor"									"White"
 	}
 
@@ -64,7 +64,7 @@
 		"wrap"										"1"
 		"labelText"									"#TF_Training_SpaceToContinue"
 		"textAlignment"								"North"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"fgcolor"									"White"
 	}
 

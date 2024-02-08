@@ -24,19 +24,17 @@
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"7"
-		"autoResize"								"1"
-		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_Charge"
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
-		"font"										"Size 7"
+		"font"										"Size_7"
 		"fgcolor"									"White"
 
-		"pin_to_sibling" 							"ChargeMeter"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"ChargeMeter"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 
 	"PipesPresentPanel"
@@ -61,15 +59,13 @@
 			"zpos"									"2"
 			"wide"									"30"
 			"tall"									"20"
-			"autoResize"							"1"
-			"pinCorner"								"2"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"%activepipes%"
 			"textAlignment"							"center"
-			"font"									"Game 20"
-			"font_minmode"							"Game 16"
-			"fgcolor"   							"White"
+			"font"									"Game_20"
+			"font_minmode"							"Game_16"
+			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
 		}
 
@@ -82,18 +78,16 @@
 			"zpos"									"2"
 			"wide"									"30"
 			"tall"									"20"
-			"autoResize"							"1"
-			"pinCorner"								"2"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"%activepipes%"
 			"textAlignment"							"center"
-			"font"									"Game 20 Blur"
-			"font_minmode"							"Game 16 Blur"
+			"font"									"Game_20_Blur"
+			"font_minmode"							"Game_16_Blur"
 			"fgcolor"								"Shadow"
 			"proportionaltoparent"					"1"
 
-			"pin_to_sibling" 						"NumPipesLabel"
+			"pin_to_sibling"						"NumPipesLabel"
 		}
 
 		"PipeIcon"
@@ -101,6 +95,11 @@
 			"ControlName"							"CTFImagePanel"
 			"fieldName"								"PipeIcon"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -110,11 +109,21 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"background"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NoPipesPresentPanel"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"NoPipesPresentPanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

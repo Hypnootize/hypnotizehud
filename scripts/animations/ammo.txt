@@ -2,28 +2,28 @@
 
 event HudLowAmmoPulse
 {
-	Animate AmmoInClip 							FgColor 	"Low Ammo In Clip" 					Linear 	0.0 	0.075
-	Animate AmmoInClip 							FgColor 	"Low Ammo In Clip Pulse" 			Linear 	0.125 	0.075
+	Animate AmmoInClip							FgColor	"Low_Ammo_In_Clip"						Linear	0.0		0.075
+	Animate AmmoInClip							FgColor	"Low_Ammo_In_Clip_Pulse"				Linear	0.125	0.075
 
-	Animate AmmoInReserve						FgColor 	"Low Ammo In Reserve" 				Linear 	0.0 	0.075
-	Animate AmmoInReserve 						FgColor 	"Low Ammo In Reserve Pulse" 		Linear 	0.125 	0.075
+	Animate AmmoInReserve						FgColor	"Low_Ammo_In_Reserve" 					Linear	0.0		0.075
+	Animate AmmoInReserve						FgColor	"Low_Ammo_In_Reserve_Pulse"				Linear	0.125	0.075
 
-	Animate AmmoNoClip 							FgColor 	"Low Ammo No Clip" 					Linear 	0.0 	0.075
-	Animate AmmoNoClip 							FgColor 	"Low Ammo No Clip Pulse" 			Linear 	0.125 	0.075
+	Animate AmmoNoClip							FgColor	"Low_Ammo_No_Clip" 						Linear	0.0		0.075
+	Animate AmmoNoClip							FgColor	"Low_Ammo_No_Clip_Pulse"				Linear	0.125	0.075
 
 	RunEvent HudLowAmmoPulseLoop				0.4
 }
 
 event HudLowAmmoPulseStop
 {
-	StopEvent HudLowAmmoPulse 					0.0
-	StopEvent HudLowAmmoPulseLoop 				0.0
+	StopEvent HudLowAmmoPulse					0.0
+	StopEvent HudLowAmmoPulseLoop				0.0
 
-	Animate AmmoInClip 							FgColor 	"Ammo In Clip" 						Linear 	0.0 	0.0
+	Animate AmmoInClip							FgColor	"Ammo_In_Clip"							Linear	0.0		0.0
 
-	Animate AmmoInReserve 						FgColor 	"Ammo In Reserve" 					Linear 	0.0 	0.0
+	Animate AmmoInReserve						FgColor	"Ammo_In_Reserve"						Linear	0.0		0.0
 
-	Animate AmmoNoClip 							FgColor 	"Ammo No Clip" 						Linear 	0.0 	0.0
+	Animate AmmoNoClip							FgColor	"Ammo_No_Clip"							Linear	0.0		0.0
 }
 
 //====================================================================================================================

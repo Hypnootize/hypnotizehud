@@ -1,4 +1,4 @@
-#base "../../resource/tools/reloadschemebutton.res"
+#base "../tools/reloadschemebutton.res"
 
 "Resource/UI/CharInfoArmorySubPanel.res"
 {
@@ -9,14 +9,12 @@
 		"wide"										"f0"
 		"zpos"										"501"
 		"visible"									"1"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayDarkest"
-		"infocus_bgcolor_override" 					"GrayDarkest"
-		"outoffocus_bgcolor_override" 				"GrayDarkest"
+		"bgcolor_override"							"Gray_Darkest"
+		"infocus_bgcolor_override"					"Gray_Darkest"
+		"outoffocus_bgcolor_override"				"Gray_Darkest"
 
 		"thumbnail_bgcolor"							"Normal"
 		"thumbnail_bgcolor_mouseover"				"Normal_Hover"
@@ -58,8 +56,8 @@
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
-				"inventory_image_type" 				"1"
+				"use_item_rendertarget"				"0"
+				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
 		}
@@ -77,7 +75,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
-		"border"									"MaterialBlackLight"
+		"border"									"Material_Black_Light"
 	}
 
 	"FilterComboBoxBG"
@@ -92,23 +90,21 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
-		"border"									"MaterialGrayDarker"
+		"border"									"Material_Gray_Darker"
 
-		"pin_to_sibling" 							"ItemsBackground"
+		"pin_to_sibling"							"ItemsBackground"
 	}
 
 	"FilterComboBox"
 	{
 		"ControlName"								"ComboBox"
 		"fieldName"									"FilterComboBox"
-		"Font"										"Size 11"
+		"Font"										"Size_11"
 		"xpos"										"-4"
 		"ypos"										"-1"
 		"zpos"										"1"
 		"wide"										"275"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"textHidden"								"0"
@@ -121,13 +117,13 @@
 
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"Blank"
-		"disabledFgColor_override" 					"White"
-		"disabledBgColor_override" 					"BlackDark"
-		"selectionColor_override" 					"Blank"
-		"selectionTextColor_override" 				"White"
-		"defaultSelectionBG2Color_override" 		"BlackDark"
+		"disabledFgColor_override"					"White"
+		"disabledBgColor_override"					"Black_Dark"
+		"selectionColor_override"					"Blank"
+		"selectionTextColor_override"				"White"
+		"defaultSelectionBG2Color_override"			"Black_Dark"
 
-		"pin_to_sibling" 							"FilterComboBoxBG"
+		"pin_to_sibling"							"FilterComboBoxBG"
 	}
 
 	"PrevPageButton"
@@ -139,12 +135,10 @@
 		"zpos"										"1"
 		"wide"										"22"
 		"tall"										"22"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"&A"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"textAlignment"								"center"
 		"Command"									"prevpage"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -153,22 +147,22 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
 
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
-		"pin_to_sibling" 							"ItemsBackground"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"ItemsBackground"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"CurPageLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurPageLabel"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"labelText"									"%thumbnailpage%"
 		"textAlignment"								"center"
 		"xpos"										"0"
@@ -176,15 +170,13 @@
 		"zpos"										"1"
 		"wide"										"60"
 		"tall"										"20"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"		 							"Main Theme"
+		"fgcolor"									"Main_Theme"
 
-		"pin_to_sibling" 							"ItemsBackground"
-		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"ItemsBackground"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 
 	"NextPageButton"
@@ -196,12 +188,10 @@
 		"zpos"										"1"
 		"wide"										"22"
 		"tall"										"22"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"&D"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"textAlignment"								"center"
 		"Command"									"nextpage"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -211,18 +201,18 @@
 
 		"defaultBgColor_override"					"Blank"
 		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
+		"depressedBgColor_override"						"Blank"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
 
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
-		"pin_to_sibling" 							"ItemsBackground"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		"pin_to_sibling"							"ItemsBackground"
+		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
 
 	"DescriptionBackground"
@@ -237,11 +227,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
-		"border"									"MaterialBlackLight"
+		"border"									"Material_Black_Light"
 
-		"pin_to_sibling" 							"ItemsBackground"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"ItemsBackground"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"SelectedItemImageModelPanel"
@@ -265,12 +255,12 @@
 		"model_only"								"1"
 		"paint_icon_hide"							"1"
 
-		"pin_to_sibling" 							"DescriptionBackground"
+		"pin_to_sibling"							"DescriptionBackground"
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
-			"inventory_image_type" 					"1"
+			"use_item_rendertarget"					"0"
+			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
 	}
@@ -290,14 +280,14 @@
 
 		"model_hide"								"1"
 		"text_center"								"1"
-		"resize_to_text" 							"1"
+		"resize_to_text"							"1"
 
-		"pin_to_sibling" 							"DescriptionBackground"
+		"pin_to_sibling"							"DescriptionBackground"
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
-			"inventory_image_type" 					"1"
+			"use_item_rendertarget"					"0"
+			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
 	}
@@ -316,27 +306,25 @@
 		"PaintBackground"							"0"
 		"PaintBorder"								"0"
 
-		"pin_to_sibling" 							"DescriptionBackground"
+		"pin_to_sibling"							"DescriptionBackground"
 
 		"Data_TextRichText"
 		{
 			"ControlName"							"CEconItemDetailsRichText"
 			"fieldName"								"Data_TextRichText"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"%datatext%"
 			"textAlignment"							"north-west"
 			"xpos"									"0"
 			"ypos"									"0"
 			"wide"									"255"
 			"tall"									"280"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fgcolor"								"White"
 			"wrap"									"1"
 			"centerwrap"							"1"
-			"highlight_color"						"Main Theme"
+			"highlight_color"						"Main_Theme"
 			"itemset_color"							"Yellow"
 			"link_color"							"Green"
 			"image_up_arrow"						"scroll_up_off"
@@ -380,8 +368,8 @@
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
-			"inventory_image_type" 					"1"
+			"use_item_rendertarget"					"0"
+			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
 	}
@@ -395,12 +383,10 @@
 		"zpos"										"20"
 		"wide"										"139"
 		"tall"										"24"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"#ArmoryButton_Store"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"Command"									"openstore"
 		"AllCaps"									"1"
@@ -411,15 +397,15 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
 
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
-		"pin_to_sibling" 							"DescriptionBackground"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		"pin_to_sibling"							"DescriptionBackground"
+		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
 
 	"WikiButton"
@@ -431,12 +417,10 @@
 		"zpos"										"20"
 		"wide"										"139"
 		"tall"										"24"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#ArmoryButton_Wiki"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"Command"									"wiki"
 		"AllCaps"									"1"
@@ -447,15 +431,15 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
 
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
-		"pin_to_sibling" 							"DescriptionBackground"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"DescriptionBackground"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"ViewSetButton"
@@ -467,12 +451,10 @@
 		"zpos"										"20"
 		"wide"										"277"
 		"tall"										"24"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#ArmoryButton_SetDetails"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"Command"									"viewset"
 		"AllCaps"									"1"
@@ -483,15 +465,15 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
 
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
-		"pin_to_sibling" 							"DescriptionBackground"
-		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"DescriptionBackground"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 
 	"CaratLabel"
@@ -499,17 +481,32 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"CaratLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"FiltersLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"FiltersLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ArmoryLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ArmoryLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

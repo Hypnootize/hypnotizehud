@@ -23,7 +23,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StopWatchPointsLabel"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"fgcolor"									"White"
 		"labelText"									"%pointslabel%"
 		"textAlignment"								"center"
@@ -33,22 +33,20 @@
 		"zpos"										"4"
 		"wide"										"50"
 		"tall"										"18"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
 
-		"pin_to_sibling" 							"StopWatchAnchor"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"StopWatchAnchor"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 
 	"StopWatchScoreToBeat"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StopWatchScoreToBeat"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"fgcolor"									"White"
 		"labelText"									"%scoretobeat%"
 		"textAlignment"								"east"
@@ -57,15 +55,13 @@
 		"zpos"										"4"
 		"wide"										"15"
 		"tall"										"18"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"AllCaps"									"1"
 
-		"pin_to_sibling" 							"StopWatchPointsLabel"
-		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
+		"pin_to_sibling"							"StopWatchPointsLabel"
+		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
 
 	"ObjectiveStatusTimePanel"
@@ -80,28 +76,38 @@
 		"visible"									"0"
 		"enabled"									"1"
 
-		"pin_to_sibling" 							"StopWatchPointsLabel"
-		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
+		"pin_to_sibling"							"StopWatchPointsLabel"
+		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 
 		"ClockIcon"
 		{
 			"controlName"							"CExLabel"
-			"fieldName"	 							"ClockIcon"
+			"fieldName"								"ClockIcon"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"ClockIconShadow"
 		{
 			"controlName"							"CExLabel"
-			"fieldName"	 							"ClockIconShadow"
+			"fieldName"								"ClockIconShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"TimePanelValue"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"fgcolor"								"White"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -122,23 +128,43 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"StopWatchImageCaptureTime"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"HudStopWatchDescriptionBG"
 	{
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"HudStopWatchDescriptionBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"StopWatchDescriptionLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StopWatchDescriptionLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"StopWatchLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StopWatchLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

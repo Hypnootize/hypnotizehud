@@ -1,5 +1,5 @@
 //=========================================================
-// SUNSET TEXTURES
+// HYPNOTIZE HUD TEXTURES
 //=========================================================
 
 #base "textures/textures_killfeed.txt"

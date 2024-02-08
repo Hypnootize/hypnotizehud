@@ -4,15 +4,13 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CancelLabel"
-		"font"										"Size 9"
-		"fgcolor" 									"White"
+		"font"										"Size_9"
+		"fgcolor"									"White"
 		"xpos"										"2"
 		"ypos"										"1"
 		"zpos"										"1"
 		"wide"										"200"
 		"tall"										"13"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Hud_Menu_Build_Cancel"
@@ -218,32 +216,57 @@
 	//USELESS
 	"MainBackground"
 	{
-		"ControlName"		     					"EditablePanel"
+		"ControlName"								"EditablePanel"
 		"fieldName"									"MainBackground"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Divider"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"Divider"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BuildIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"BuildIcon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BuildIconShadow"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"BuildIconShadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

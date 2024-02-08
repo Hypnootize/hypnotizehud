@@ -8,8 +8,6 @@
 		"ypos"										"295"
 		"wide"										"250"
 		"tall"										"120"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
@@ -25,8 +23,8 @@
 			"wide"									"210"
 			"tall"									"30"
 			"paintbackground"						"0"
-			"border"								"MaterialTransparent50"
-			"text_forcesize" 						"2"
+			"border"								"Material_Transparent_50"
+			"text_forcesize"						"2"
 
 			"model_xpos"							"25"
 			"model_ypos"							"3"
@@ -53,7 +51,7 @@
 		"PaintBackgroundType"						"2"
 		"fgcolor_override"							"Blank"
 		"bgcolor_override"							"Blank"
-		"autohide_buttons" 							"1"
+		"autohide_buttons"							"1"
 	}
 
 	"CustomBG"
@@ -66,7 +64,7 @@
 		"wide"										"244"
 		"tall"										"121"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent50"
+		"border"									"Material_Transparent_50"
 	}
 
 	"itemcontainer"
@@ -85,7 +83,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CurrentlyEquippedBackground"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"labelText"								"+"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -95,7 +93,7 @@
 			"tall"									"24"
 			"visible"								"1"
 			"PaintBackgroundType"					"2"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 		}
 	}
 
@@ -108,8 +106,6 @@
 		"zpos"										"20"
 		"wide"										"30"
 		"tall"										"f0"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
@@ -120,23 +116,43 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"CaratLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ClassLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ClassLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ItemSlotLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemSlotLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NoItemsLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NoItemsLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

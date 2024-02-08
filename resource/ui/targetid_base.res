@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TargetNameLabel"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"xpos"										"40"
 		"ypos"										"25"
 		"zpos"										"2"
@@ -20,7 +20,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TargetNameLabelShadow"
-		"font"										"Size 10 Blur"
+		"font"										"Size_10_Blur"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"1"
@@ -32,14 +32,14 @@
 		"textAlignment"								"west"
 		"fgcolor"									"Shadow"
 		"alpha"										"255"
-		"pin_to_sibling" 							"TargetNameLabel"
+		"pin_to_sibling"							"TargetNameLabel"
 	}
 
 	"TargetDataLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TargetDataLabel"
-		"font"										"Size 10 Shadow"
+		"font"										"Size_10_Shadow"
 		"xpos"										"40"
 		"ypos"										"32"
 		"zpos"										"1"
@@ -65,7 +65,7 @@
 		"enabled"									"0"
 		"HealthBonusPosAdj"							"10"
 		"HealthDeathWarning"						"0.49"
-		"TFFont"									"Size 14"
+		"TFFont"									"Size_14"
 		"HealthDeathWarningColor"					"HUDDeathWarning"
 		"TextColor"									"HudOffWhite"
 	}
@@ -96,9 +96,9 @@
 		"image"										"replay/thumbnails/game/streak"
 		"scaleImage"								"1"
 
-		"pin_to_sibling" 							"KillAnchor"
-		"pin_corner_to_sibling" 					"1"
-		"pin_to_sibling_corner" 					"1"
+		"pin_to_sibling"							"KillAnchor"
+		"pin_corner_to_sibling"						"1"
+		"pin_to_sibling_corner"						"1"
 	}
 
 	"MoveableSubPanel"
@@ -117,7 +117,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"HandIcon"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"xpos"									"0"
 			"ypos"									"25"
 			"zpos"									"1"
@@ -135,24 +135,39 @@
 			"ControlName"							"CIconPanel"
 			"fieldName"								"MoveableIconBG"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"MoveableIcon"
 		{
 			"ControlName"							"CIconPanel"
 			"fieldName"								"MoveableIcon"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"MoveableSymbolIcon"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"MoveableSymbolIcon"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"MoveableKeyLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MoveableKeyLabel"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"xpos"									"9999"
 			"ypos"									"9999"
 			"zpos"									"0"
@@ -171,6 +186,9 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"TargetIDBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
 		"visible"									"0"
 		"enabled"									"0"
 	}
@@ -179,6 +197,9 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"TargetIDBG_Spec_Blue"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
 		"visible"									"0"
 		"enabled"									"0"
 	}
@@ -187,6 +208,9 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"TargetIDBG_Spec_Red"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
 		"visible"									"0"
 		"enabled"									"0"
 	}
@@ -194,15 +218,19 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"AmmoIcon"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
 		"enabled"									"0"
-    }
+	}
 	"AvatarImage"
 	{
 		"ControlName"								"CAvatarImagePanel"
 		"fieldName"									"AvatarImage"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"

@@ -10,7 +10,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"TextLabel"
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"labelText"							"#TF_SurveyQuestion_MapQuality"
 				"textAlignment"						"north"
 				"xpos"								"cs-0.5"
@@ -18,13 +18,11 @@
 				"zpos"								"1000"
 				"wide"								"p0.85"
 				"tall"								"30"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"wrap"								"0"
 				"centerwrap"						"1"
-				"fgcolor"		 					"WhiteDark"
+				"fgcolor"							"White_Dark"
 				"proportionaltoparent"				"1"
 			}
 
@@ -32,7 +30,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"MapLabel"
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"labelText"							"%mapname%"
 				"textAlignment"						"north"
 				"xpos"								"cs-0.5"
@@ -40,13 +38,11 @@
 				"zpos"								"1000"
 				"wide"								"p1"
 				"tall"								"30"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"wrap"								"0"
 				"centerwrap"						"1"
-				"fgcolor"		 					"WhiteDark"
+				"fgcolor"							"White_Dark"
 				"proportionaltoparent"				"1"
 			}
 
@@ -62,16 +58,21 @@
 				"visible"							"1"
 				"proportionaltoparent"				"1"
 				"paintbackground"					"0"
-				"border"							"MaterialGrayDark"
+				"border"							"Material_Gray_Dark"
 
 				"InnerShadow"
 				{
 					"ControlName"					"EditablePanel"
 					"fieldName"						"InnerShadow"
 					"xpos"							"9999"
+					"ypos"							"9999"
+					"wide"							"0"
+					"tall"							"0"
+					"visible"						"0"
+					"enabled"						"0"
 				}
 
-				"Radio0" 							// Horrible				//well said valve
+				"Radio0"							// Horrible				//well said valve
 				{
 					"ControlName"					"RadioButton"
 					"fieldName"						"Radio0"
@@ -103,7 +104,7 @@
 					"proportionaltoparent"			"1"
 
 					"labelText"						"#TF_SurveyQuestion_Rating0"
-					"font"							"Size 11"
+					"font"							"Size_11"
 					"textAlignment"					"center"
 
 					"associate"						"Radio0"
@@ -141,11 +142,11 @@
 					"proportionaltoparent"			"1"
 
 					"labelText"						"#TF_SurveyQuestion_Rating1"
-					"font"							"Size 11"
+					"font"							"Size_11"
 					"textAlignment"					"center"
 				}
 
-				"Radio2" 							// Neutral
+				"Radio2"							// Neutral
 				{
 					"ControlName"					"RadioButton"
 					"fieldName"						"Radio2"
@@ -177,12 +178,12 @@
 					"proportionaltoparent"			"1"
 
 					"labelText"						"#TF_SurveyQuestion_Rating2"
-					"font"							"Size 11"
+					"font"							"Size_11"
 					"textAlignment"					"center"
 					"default"						"1"
 				}
 
-				"Radio3" 							// Good
+				"Radio3"							// Good
 				{
 					"ControlName"					"RadioButton"
 					"fieldName"						"Radio3"
@@ -214,11 +215,11 @@
 					"proportionaltoparent"			"1"
 
 					"labelText"						"#TF_SurveyQuestion_Rating3"
-					"font"							"Size 11"
+					"font"							"Size_11"
 					"textAlignment"					"center"
 				}
 
-				"Radio4" 							// Great
+				"Radio4"							// Great
 				{
 					"ControlName"					"RadioButton"
 					"fieldName"						"Radio4"
@@ -250,7 +251,7 @@
 					"proportionaltoparent"			"1"
 
 					"labelText"						"#TF_SurveyQuestion_Rating4"
-					"font"							"Size 11"
+					"font"							"Size_11"
 					"textAlignment"					"center"
 				}
 			}
@@ -265,7 +266,7 @@
 				"wide"								"130"
 				"tall"								"25"
 				"labelText"							"#AbuseReport_Submit"
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"textAlignment"						"center"
 				"Command"							"submit"
 				"sound_depressed"					"UI/buttonclick.wav"
@@ -273,12 +274,12 @@
 				"proportionaltoparent"				"1"
 				"actionsignallevel"					"2"
 				"paintbackground"					"0"
-				"border_default"					"MaterialGrayDark"
-				"border_armed"						"MaterialHypno"
+				"border_default"					"Material_Gray_Dark"
+				"border_armed"						"Material_Hypno"
 
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
-				"depressedFgColor_override" 		"White"
+				"depressedFgColor_override"			"White"
 			}
 		}
 	}

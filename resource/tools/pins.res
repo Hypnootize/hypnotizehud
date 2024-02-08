@@ -15,6 +15,6 @@
 // PIN EXAMPLE
 //==================================================
 
-"pin_to_sibling" 		"CODE NAME"
-"pin_corner_to_sibling" "PIN_TOPLEFT"
-"pin_to_sibling_corner" "PIN_TOPLEFT"
+"pin_to_sibling"		"CODE NAME"
+"pin_corner_to_sibling"	"PIN_TOPLEFT"
+"pin_to_sibling_corner"	"PIN_TOPLEFT"

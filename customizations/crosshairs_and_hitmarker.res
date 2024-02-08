@@ -37,7 +37,7 @@
 
 		"font"		"Size:18 | Blur:ON"
 
-		"fgcolor"	"Crosshair Shadow"
+		"fgcolor"	"Crosshair_Shadow"
 	}
 
 	//====================================================================================
@@ -53,7 +53,7 @@
 
 	"HitMarker"
 	{
-		"labelText"	"s"																																																																			"ControlName" "CExLabel" "fieldName" "HitMarker" "enabled" "1" "visible" "1" "zpos" "0" "wide" "f0" "tall" "f0" "textAlignment" "center" "alpha" "0"
+		"labelText"	"s"																																																																			"ControlName" "CExLabel" "fieldName" "HitMarker" "enabled" "1" "visible" "1" "zpos" "0" "wide" "f0" "tall" "f0" "textAlignment" "center" "Alpha"	"0"
 
 		"font"		"Size:24 | Outline:OFF"
 

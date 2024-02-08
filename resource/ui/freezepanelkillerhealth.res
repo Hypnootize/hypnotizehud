@@ -8,15 +8,13 @@
 		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"50"
-		"tall"	 									"31"
-		"autoResize"								"0"
+		"tall"										"31"
 		"paintbackground"							"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"alpha"										"255"
 
-		"border"									"HealthBorder"
+		"border"									"Health_Border"
 		"scaleImage"								"1"
 	}
 
@@ -28,15 +26,13 @@
 		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"50"
-		"tall"	 									"31"
-		"autoResize"								"0"
+		"tall"										"31"
 		"paintbackground"							"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"alpha"										"0"
 
-		"border"									"BuffedBorder"
+		"border"									"Buffed_Border"
 		"scaleImage"								"1"
 	}
 
@@ -48,15 +44,13 @@
 		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"50"
-		"tall"	 									"31"
-		"autoResize"								"0"
+		"tall"										"31"
 		"paintbackground"							"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"alpha"										"0"
 
-		"border"									"HurtBorder"
+		"border"									"Hurt_Border"
 		"scaleImage"								"1"
 	}
 
@@ -71,12 +65,12 @@
 		"tall"										"31"
 		"visible"									"1"
 		"enable"									"1"
-		"font"										"Game 24"
+		"font"										"Game_24"
 		"fgcolor"									"White"
 		"labelText"									"%Health%"
 		"textAlignment"								"center"
 
-		"pin_to_sibling" 							"HealthBG"
+		"pin_to_sibling"							"HealthBG"
 	}
 
 	"PlayerStatusHealthValueShadowKiller"
@@ -90,12 +84,12 @@
 		"tall"										"31"
 		"visible"									"1"
 		"enable"									"1"
-		"font"										"Game 24 Blur"
+		"font"										"Game_24_Blur"
 		"fgcolor"									"Shadow"
 		"labelText"									"%Health%"
 		"textAlignment"								"center"
 
-		"pin_to_sibling" 							"PlayerStatusHealthValueKiller"
+		"pin_to_sibling"							"PlayerStatusHealthValueKiller"
 	}
 
 
@@ -106,6 +100,8 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthImage"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
@@ -115,6 +111,8 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthImageBG"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
@@ -124,6 +122,8 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"BuildingStatusHealthImageBG"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
@@ -133,6 +133,8 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthBonusImage"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"

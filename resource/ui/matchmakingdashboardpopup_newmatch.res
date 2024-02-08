@@ -17,14 +17,17 @@
 		"collapsed_height"							"0"
 		"expanded_height"							"60"
 
-		"pinCorner"									"2"
-		"autoResize"								"1"
 
 		"OuterShadow"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"OuterShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"BGPanel"
@@ -38,9 +41,8 @@
 			"tall"									"f5"
 			"visible"								"1"
 			"PaintBackgroundType"					"2"
-			"border"								"MaterialGrayDarkest"
+			"border"								"Material_Gray_Darkest"
 			"proportionaltoparent"					"1"
-			"pinCorner"								"3"
 
 			"DescLabel"
 			{
@@ -53,19 +55,18 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"fgcolor_override"					"White"
 				"textAlignment"						"center"
 				"labelText"							"%match_type%"
 				"proportionaltoparent"				"1"
-				"pinCorner"							"3"
 				"AllCaps"							"1"
 
 				"fonts"
 				{
-					"0"								"Size 11"
-					"1"								"Size 10"
-					"2"								"Size 9"
+					"0"								"Size_11"
+					"1"								"Size_10"
+					"2"								"Size_9"
 				}
 			}
 
@@ -80,12 +81,11 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 11"
+				"font"								"Size_11"
 				"fgcolor"							"White"
 				"textAlignment"						"center"
 				"labelText"							"%auto_join%"
 				"proportionaltoparent"				"1"
-				"pinCorner"							"3"
 				"AllCaps"							"1"
 			}
 
@@ -98,8 +98,6 @@
 				"zpos"								"100"
 				"wide"								"75"
 				"tall"								"18"
-				"autoResize"						"0"
-				"pinCorner"							"3"
 				"visible"							"1"
 
 				"if_queued"
@@ -108,7 +106,7 @@
 				}
 
 				"enabled"							"1"
-				"font"								"Size 11"
+				"font"								"Size_11"
 				"textAlignment"						"center"
 				"Command"							"abandon_match"
 				"proportionaltoparent"				"1"
@@ -122,12 +120,12 @@
 
 				"paintbackground"					"0"
 
-				"border_default"					"MaterialRed"
-				"border_armed"						"MaterialHypno"
+				"border_default"					"Material_Red"
+				"border_armed"						"Material_Hypno"
 
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
-				"depressedFgColor_override" 		"White"
+				"depressedFgColor_override"			"White"
 			}
 
 			"SmallJoinButton"
@@ -146,11 +144,9 @@
 					"wide"							"150"
 				}
 
-				"autoResize"						"0"
-				"pinCorner"							"3"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 11"
+				"font"								"Size_11"
 				"textAlignment"						"center"
 				"Command"							"join_match"
 				"proportionaltoparent"				"1"
@@ -164,8 +160,8 @@
 
 				"paintbackground"					"0"
 
-				"border_default"					"MaterialGreen"
-				"border_armed"						"MaterialHypno"
+				"border_default"					"Material_Green"
+				"border_armed"						"Material_Hypno"
 
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
@@ -182,11 +178,9 @@
 				"zpos"								"100"
 				"tall"								"18"
 
-				"autoResize"						"0"
-				"pinCorner"							"3"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 11"
+				"font"								"Size_11"
 				"textAlignment"						"center"
 				"Command"							"join_match"
 				"proportionaltoparent"				"1"
@@ -200,12 +194,12 @@
 
 				"paintbackground"					"0"
 
-				"border_default"					"MaterialGreen"
-				"border_armed"						"MaterialHypno"
+				"border_default"					"Material_Green"
+				"border_armed"						"Material_Hypno"
 
 				"defaultFgColor_override"			"White"
 				"armedFgColor_override"				"White"
-				"depressedFgColor_override" 		"White"
+				"depressedFgColor_override"			"White"
 			}
 
 			"JoiningLabel"
@@ -219,12 +213,11 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 11"
+				"font"								"Size_11"
 				"fgcolor"							"White"
 				"textAlignment"						"east"
 				"labelText"							"#TF_Matchmaking_RollingQueue_MatchReadyJoining"
 				"proportionaltoparent"				"1"
-				"pinCorner"							"3"
 				"AllCaps"							"1"
 			}
 
@@ -245,7 +238,7 @@
 
 				"radius"							"10"
 				"velocity"							"250"
-				"fgcolor_override"					"Main Theme"
+				"fgcolor_override"					"Main_Theme"
 			}
 		}
 	}

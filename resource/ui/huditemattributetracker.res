@@ -2,9 +2,9 @@
 {
 	"ItemAttributeTracker"
 	{
-		"fieldName" 								"ItemAttributeTracker"
-		"visible" 									"1"
-		"enabled" 									"1"
+		"fieldName"									"ItemAttributeTracker"
+		"visible"									"1"
+		"enabled"									"1"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -25,7 +25,7 @@
 		"proportionaltoparent"						"1"
 
 		"border"									"NoBorder"
-		"paintborder"								"2"
+		"paintborder"								"1"
 
 		"Header"
 		{
@@ -39,10 +39,10 @@
 			"zpos"									"4"
 			"textinsetx"							"5"
 			"fgcolor"								"White"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			//"wrap"								"1"
 			"TextAlignment"							"north-east"
-			"proportionaltoparent" 					"1"
+			"proportionaltoparent"					"1"
 		}
 
 		"CallToAction"
@@ -60,7 +60,7 @@
 			"font"									"DefaultVerySmall"
 			//"wrap"								"1"
 			"TextAlignment"							"north-east"
-			"proportionaltoparent" 					"1"
+			"proportionaltoparent"					"1"
 		}
 
 		"Image"
@@ -68,6 +68,11 @@
 			"ControlName"							"CTFImagePanel"
 			"fieldName"								"Image"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 }

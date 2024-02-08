@@ -24,10 +24,8 @@
 		"zpos"										"20"
 		"wide"										"530"
 		"tall"										"135"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"autoresize"								"3"
 		"linespacing"								"20"
 		"textcolor"									"White"
 		"alpha"										"255"
@@ -43,7 +41,7 @@
 		"tall"										"141"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent50"
+		"border"									"Material_Transparent_50"
 
 		"pin_to_sibling"							"MvMPlayerList"
 	}
@@ -58,7 +56,7 @@
 		"tall"										"28"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialRed"
+		"border"									"Material_Red"
 
 		"pin_to_sibling"							"PlayerListBackground"
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
@@ -76,7 +74,7 @@
 		"tall"										"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent50"
+		"border"									"Material_Transparent_50"
 
 		"pin_to_sibling"							"MvMPlayerList"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -87,7 +85,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PopFileLabel"
-		"font"										"Size 16"
+		"font"										"Size_16"
 		"labelText"									"%popfile%"
 		"textAlignment"								"west"
 		"xpos"										"-8"
@@ -104,7 +102,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PopFileLabelShadow"
-		"font"										"Size 16 Blur"
+		"font"										"Size_16_Blur"
 		"labelText"									"%popfile%"
 		"textAlignment"								"west"
 		"xpos"										"-1"
@@ -136,14 +134,19 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DifficultyLabel"
-			"xpos"									"999"
+			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"DifficultyValue"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DifficultyValue"
-			"font"									"Size 16"
+			"font"									"Size_16"
 			"labelText"								"%difficultyvalue%"
 			"textAlignment"							"east"
 			"xpos"									"-8"
@@ -158,7 +161,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DifficultyValueShadow"
-			"font"									"Size 16 Blur"
+			"font"									"Size_16_Blur"
 			"labelText"								"%difficultyvalue%"
 			"textAlignment"							"east"
 			"xpos"									"-1"
@@ -180,7 +183,7 @@
 		"wide"										"536"
 		"tall"										"58"
 		"visible"									"1"
-		"border"									"MaterialTransparent50"
+		"border"									"Material_Transparent_50"
 
 		"pin_to_sibling"							"PlayerListBackground"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -250,9 +253,9 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RespecStatusLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%respecstatus%"
-			"textAlignment" 						"north-east"
+			"textAlignment"							"north-east"
 			"xpos"									"115"
 			"ypos"									"8"
 			"wide"									"275"
@@ -265,12 +268,22 @@
 			"ControlName"							"ScalableImagePanel"
 			"fieldName"								"CreditStatsBackground"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"CreditsLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CreditsLabel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 }

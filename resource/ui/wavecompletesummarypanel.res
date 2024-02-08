@@ -8,8 +8,6 @@
 		"ypos"										"0"
 		"wide"										"250"
 		"tall"										"80"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"replay/thumbnails/panels/material_transparent50"
@@ -17,7 +15,7 @@
 		"src_corner_height"							"32"
 		"src_corner_width"							"32"
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 	}
 
 	"WaveCompleteContainer"
@@ -29,13 +27,13 @@
 		"wide"										"249"
 		"tall"										"35"
 		"visible"									"1"
-		"PaintBackgroundType" 						"0"
+		"PaintBackgroundType"						"0"
 
 		"WaveCompleteLabelShadow"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"WaveCompleteLabelShadow"
-			"font"									"Size 14 Blur"
+			"font"									"Size_14_Blur"
 			"textAlignment"							"center"
 			"labelText"								"%titletext%"
 			"xpos"									"3"
@@ -48,7 +46,7 @@
 			"fgcolor"								"Shadow"
 
 			// Red Background
-			"PaintBackgroundType" 					"0"
+			"PaintBackgroundType"					"0"
 			"fgcolor"								"Shadow"
 			"bgcolor_override"						"Green"
 		}
@@ -57,7 +55,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"WaveCompleteLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"textAlignment"							"center"
 			"labelText"								"%titletext%"
 			"xpos"									"1"
@@ -69,7 +67,7 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"fgcolor"								"White"
-			"pin_to_sibling" 						"WaveCompleteLabelShadow"
+			"pin_to_sibling"						"WaveCompleteLabelShadow"
 		}
 	}
 
@@ -81,16 +79,15 @@
 		"ypos"										"30"
 		"wide"										"400"
 		"tall"										"400"
-		"autoResize"								"1"
 		"visible"									"1"
 
 		"CreditCollectedTextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CreditCollectedTextLabel"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"labelText"								"#TF_PVE_CurrencyCollected"
-			"textAlignment" 						"north-east"
+			"textAlignment"							"north-east"
 			"xpos"									"0"
 			"ypos"									"9"
 			"wide"									"105"
@@ -103,9 +100,9 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CreditCollectedCountLabel"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"labelText"								"%creditscollected%"
-			"textAlignment" 						"north-east"
+			"textAlignment"							"north-east"
 			"xpos"									"115"
 			"ypos"									"9"
 			"wide"									"30"
@@ -118,9 +115,9 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CreditMissedTextLabel"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"labelText"								"#TF_PVE_Missed"
-			"textAlignment"						 	"north-east"
+			"textAlignment"							"north-east"
 			"xpos"									"0"
 			"ypos"									"21"
 			"wide"									"105"
@@ -133,9 +130,9 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CreditMissedCountLabel"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"labelText"								"%creditsmissed%"
-			"textAlignment" 						"north-east"
+			"textAlignment"							"north-east"
 			"xpos"									"115"
 			"ypos"									"21"
 			"wide"									"30"
@@ -148,9 +145,9 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CreditBonusTextLabel"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"labelText"								"#TF_PVE_Bonus"
-			"textAlignment" 						"north-east"
+			"textAlignment"							"north-east"
 			"xpos"									"0"
 			"ypos"									"33"
 			"wide"									"105"
@@ -163,9 +160,9 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CreditBonusCountLabel"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"labelText"								"%creditbonus%"
-			"textAlignment" 						"north-east"
+			"textAlignment"							"north-east"
 			"xpos"									"115"
 			"ypos"									"33"
 			"wide"									"30"
@@ -183,16 +180,15 @@
 		"ypos"										"30"
 		"wide"										"400"
 		"tall"										"400"
-		"autoResize"								"1"
 		"visible"									"1"
 
 		"RatingLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RatingLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%ratinglabel%"
-			"textAlignment" 						"center"
+			"textAlignment"							"center"
 			"xpos"									"0"
 			"ypos"									"5"
 			"wide"									"115"
@@ -205,9 +201,9 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RatingTextShadow"
-			"font"									"Size 24 Blur"
+			"font"									"Size_24_Blur"
 			"labelText"								"%ratingscore%"
-			"textAlignment" 						"center"
+			"textAlignment"							"center"
 			"xpos"									"1"
 			"ypos"									"20"
 			"wide"									"115"
@@ -220,9 +216,9 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RatingText"
-			"font"									"Size 24"
+			"font"									"Size_24"
 			"labelText"								"%ratingscore%"
-			"textAlignment" 						"center"
+			"textAlignment"							"center"
 			"xpos"									"0"
 			"ypos"									"19"
 			"wide"									"115"
@@ -240,8 +236,6 @@
 		"ypos"										"80"
 		"wide"										"250"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"image"										"replay/thumbnails/panels/material_transparent50"
@@ -249,7 +243,7 @@
 		"src_corner_height"							"24"
 		"src_corner_width"							"24"
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 	}
 
 	"RespecContainer"
@@ -261,15 +255,15 @@
 		"wide"										"250"
 		"tall"										"25"
 		"visible"									"1"
-		"PaintBackgroundType" 						"2"
+		"PaintBackgroundType"						"2"
 
 		"RespecTextLabelWin"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RespecTextLabelWin"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#TF_PVE_Respecs"
-			"textAlignment" 						"center"
+			"textAlignment"							"center"
 			"xpos"									"0"
 			"ypos"									"3"
 			"wide"									"160"
@@ -282,9 +276,9 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RespecCountLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%respeccount%"
-			"textAlignment" 						"center"
+			"textAlignment"							"center"
 			"xpos"									"145"
 			"ypos"									"3"
 			"wide"									"30"

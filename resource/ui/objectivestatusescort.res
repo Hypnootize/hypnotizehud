@@ -204,10 +204,10 @@
 			"tall"									"8"
 			"visible"								"0"
 			"enabled"								"1"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"labelText"								"#ControlPointIconCappers"
 			"textAlignment"							"center"
-			"fgcolor"								"BlackLight"
+			"fgcolor"								"Black_Light"
 			"proportionaltoparent"					"1"
 			"use_proportional_insets"				"1"
 		}
@@ -223,10 +223,10 @@
 			"tall"									"8"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"labelText"								"%recede%"
 			"textAlignment"							"center"
-			"fgcolor"								"BlackLight"
+			"fgcolor"								"Black_Light"
 			"proportionaltoparent"					"1"
 		}
 
@@ -242,7 +242,7 @@
 			"visible"								"0"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"drawcolor"								"BlackLight"
+			"drawcolor"								"Black_Light"
 			"image"									"replay\thumbnails\cart_icons\cart_arrow_left"
 			"scaleImage"							"1"
 		}
@@ -268,18 +268,33 @@
 			"ControlName"							"ImagePanel"
 			"fieldName"								"EscortItemImageAlert"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"CapPlayerImage"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"CapPlayerImage"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"EscortTeardrop"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"EscortTeardrop"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 }

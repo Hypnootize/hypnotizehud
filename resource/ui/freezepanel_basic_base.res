@@ -23,7 +23,7 @@
 		"tall"										"480"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		"ForceStereoRenderToFrameBuffer" 			"1"
+		"ForceStereoRenderToFrameBuffer"			"1"
 
 		"FreezePanelHealth"
 		{
@@ -38,7 +38,7 @@
 			"enabled"								"1"
 			"HealthBonusPosAdj"						"9"
 			"HealthDeathWarning"					"0.49"
-			"TFFont"								"Size 14"
+			"TFFont"								"Size_14"
 			"HealthDeathWarningColor"				"HUDDeathWarning"
 			"TextColor"								"HudOffWhite"
 			"proportionaltoparent"					"1"
@@ -48,14 +48,12 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"FreezeLabelKiller"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"xpos"									"cs-0.5"
 			"ypos"									"c105"
 			"zpos"									"2"
 			"wide"									"f0"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fgcolor"								"White"
@@ -69,14 +67,12 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"FreezeLabelKillerShadow"
-			"font"									"Size 12 Blur"
+			"font"									"Size_12_Blur"
 			"xpos"									"-1"
 			"ypos"									"-1"
 			"zpos"									"1"
 			"wide"									"f0"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fgcolor"								"Shadow"
@@ -84,13 +80,15 @@
 			"textAlignment"							"center"
 			"proportionaltoparent"					"1"
 			"alpha"									"255"
-			"pin_to_sibling" 						"FreezeLabelKiller"
+			"pin_to_sibling"						"FreezeLabelKiller"
 		}
 
 		"FreezeLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"FreezeLabel"
+			"xpos"									"9999"
+			"ypos"									"9999"
 			"wide"									"0"
 			"tall"									"0"
 			"visible"								"0"
@@ -110,6 +108,8 @@
 		{
 			"ControlName"							"CTFImagePanel"
 			"fieldName"								"FreezePanelBG"
+			"xpos"									"9999"
+			"ypos"									"9999"
 			"wide"									"0"
 			"tall"									"0"
 			"visible"								"0"
@@ -119,19 +119,23 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"NemesisSubPanel"
+			"xpos"									"9999"
+			"ypos"									"9999"
 			"wide"									"0"
 			"tall"									"0"
 			"visible"								"0"
 			"enabled"								"0"
 		}
 	}
-
 	"ScreenshotPanel"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ScreenshotPanel"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
+		"enabled"									"0"
 	}
 }

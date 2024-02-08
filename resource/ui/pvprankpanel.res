@@ -33,11 +33,11 @@
 			{
 				"0"
 				{
-					"particle_xpos" 				"c0"
-					"particle_ypos" 				"c0"
-					"particle_scale" 				"3"
+					"particle_xpos"					"c0"
+					"particle_ypos"					"c0"
+					"particle_scale"				"3"
 					"particleName"					"rankup_base"
-					"start_activated" 				"0"
+					"start_activated"				"0"
 					"loop"							"0"
 				}
 			}
@@ -54,8 +54,6 @@
 			"zpos"									"0"
 			"wide"									"o1"
 			"tall"									"p0.12"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fov"									"70"
@@ -132,11 +130,11 @@
 			{
 				"0"
 				{
-					"particle_xpos" 				"c0"
-					"particle_ypos" 				"c0"
+					"particle_xpos"					"c0"
+					"particle_ypos"					"c0"
 					"particle_scale"				"5"
 					"particleName"					"rankup_glitter"
-					"start_activated" 				"0"
+					"start_activated"				"0"
 					"loop"							"0"
 				}
 				"1"
@@ -150,11 +148,11 @@
 				}
 				"2"
 				{
-					"particle_xpos" 				"c-8"
-					"particle_ypos" 				"c0"
-					"particle_scale" 				"4"
+					"particle_xpos"					"c-8"
+					"particle_ypos"					"c0"
+					"particle_scale"				"4"
 					"particleName"					"rankdown_base"
-					"start_activated" 				"0"
+					"start_activated"				"0"
 					"loop"							"0"
 				}
 			}
@@ -213,8 +211,8 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 14"
-			"fgcolor"								"WhiteGray"
+			"font"									"Size_14"
+			"fgcolor"								"White_Gray"
 			"textAlignment"							"west"
 			"labelText"								"%name%"
 			"proportionaltoparent"					"1"
@@ -236,8 +234,8 @@
 			"tall"									"15"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 14"
-			"fgcolor"								"WhiteGray"
+			"font"									"Size_14"
+			"fgcolor"								"White_Gray"
 			"textAlignment"							"west"
 			"labelText"								"LEVEL"
 			"proportionaltoparent"					"1"
@@ -259,15 +257,15 @@
 			"tall"									"15"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 14 Numbers"
-			"fgcolor_override"						"WhiteGray"
+			"font"									"Size_14_Numbers"
+			"fgcolor_override"						"White_Gray"
 			"textAlignment"							"west"
 			"labelText"								"%desc2%"
 			"proportionaltoparent"					"1"
 
-			"pin_to_sibling" 						"LevelLabelMENU"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"LevelLabelMENU"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 
 			"if_mini"
 			{
@@ -286,7 +284,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"fgcolor_override"						"White"
 			"textAlignment"							"north-west"
 			"labelText"								"%desc1%"
@@ -300,9 +298,9 @@
 
 			"fonts"
 			{
-				"0"									"Size 12"
-				"1"									"Size 11"
-				"2"									"Size 10"
+				"0"									"Size_12"
+				"1"									"Size_11"
+				"2"									"Size_10"
 			}
 		}
 
@@ -317,7 +315,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"fgcolor_override"						"White"
 			"textAlignment"							"north-west"
 			"labelText"								"%desc2%"
@@ -331,9 +329,9 @@
 
 			"fonts"
 			{
-				"0"									"Size 12"
-				"1"									"Size 11"
-				"2"									"Size 10"
+				"0"									"Size_12"
+				"1"									"Size_11"
+				"2"									"Size_10"
 			}
 
 			"colors"
@@ -390,7 +388,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"Size 8"
+					"font"							"Size_8"
 					"fgcolor"						"White"
 					"textAlignment"					"south-west"
 					"labelText"						"%current_xp%"
@@ -413,7 +411,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"Size 8"
+					"font"							"Size_8"
 					"fgcolor"						"White"
 					"textAlignment"					"south-east"
 					"labelText"						"%next_level_xp%"
@@ -476,7 +474,7 @@
 						"proportionaltoparent"		"1"
 						"progress"					"0"
 
-						"fgcolor_override"			"WhiteGray"
+						"fgcolor_override"			"White_Gray"
 
 						"if_mini"
 						{
@@ -485,7 +483,7 @@
 							"zpos"					"6"
 							"wide"					"f2"
 							"tall"					"f2"
-							"fgcolor_override"		"Main Theme"
+							"fgcolor_override"		"Main_Theme"
 						}
 					}
 
@@ -557,7 +555,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"Size 11"
+					"font"							"Size_11"
 					"fgcolor"						"White"
 					"textAlignment"					"north-west"
 					"labelText"						"%stat_games%"
@@ -575,7 +573,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"Size 11"
+					"font"							"Size_11"
 					"fgcolor"						"White"
 					"textAlignment"					"north-west"
 					"labelText"						"%stat_kills%"
@@ -593,7 +591,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"Size 11"
+					"font"							"Size_11"
 					"fgcolor"						"White"
 					"textAlignment"					"north-west"
 					"labelText"						"%stat_deaths%"
@@ -612,7 +610,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"Size 11"
+					"font"							"Size_11"
 					"fgcolor"						"White"
 					"textAlignment"					"north-west"
 					"labelText"						"%stat_damage%"
@@ -630,7 +628,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"Size 11"
+					"font"							"Size_11"
 					"fgcolor"						"White"
 					"textAlignment"					"north-west"
 					"labelText"						"%stat_healing%"
@@ -648,7 +646,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"Size 11"
+					"font"							"Size_11"
 					"fgcolor"						"White"
 					"textAlignment"					"north-west"
 					"labelText"						"%stat_support%"
@@ -667,7 +665,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"Size 11"
+					"font"							"Size_11"
 					"fgcolor"						"White"
 					"textAlignment"					"north-west"
 					"labelText"						"%stat_score%"

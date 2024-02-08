@@ -25,10 +25,10 @@
 
 				"paintborder"						"0"
 				"paintbackground"					"1"
-				"bgcolor_override"					"BlackLight"
-				"fgcolor_override"					"WhiteDark"
+				"bgcolor_override"					"Black_Light"
+				"fgcolor_override"					"White_Dark"
 
-				"ButtonBorder"						"MaterialGrayDark"
+				"ButtonBorder"						"Material_Gray_Dark"
 			}
 
 			"UpButton"

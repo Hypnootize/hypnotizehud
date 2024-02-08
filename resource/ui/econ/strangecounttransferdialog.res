@@ -27,13 +27,13 @@
 		"paintbackground"							"0"
 		"settitlebarvisible"						"0"
 		"proportionaltoparent"						"1"
-		"border"									"MaterialBlackLight"
+		"border"									"Material_Black_Light"
 
 		"TitleLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#TF_StrangeCount_TransferTitle"
 			"textAlignment"							"center"
 			"xpos"									"95"
@@ -41,20 +41,18 @@
 			"zpos"									"0"
 			"wide"									"210"
 			"tall"									"60"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"ToolBG"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ToolBG"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								""
 			"textAlignment"							"east"
 			"xpos"									"10"
@@ -62,11 +60,9 @@
 			"zpos"									"-1"
 			"wide"									"84"
 			"tall"									"64"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"paintbackground" 						"0"
+			"paintbackground"						"0"
 			"border"								"BackpackItemBorder_SelfMade"
 		}
 		"SourceItem"
@@ -90,12 +86,12 @@
 			"text_ypos"								"100"		// Hide it off the bottom
 			"text_center"							"1"
 			"name_only"								"1"
-			"paint_icon_hide" 						"1"
+			"paint_icon_hide"						"1"
 			"actionsignallevel"						"2"
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
+				"use_item_rendertarget"				"0"
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
@@ -105,7 +101,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"SubjectBG"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								""
 			"textAlignment"							"east"
 			"xpos"									"300"
@@ -113,11 +109,9 @@
 			"zpos"									"-1"
 			"wide"									"84"
 			"tall"									"64"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"paintbackground" 						"0"
+			"paintbackground"						"0"
 			"border"								"BackpackItemBorder_Vintage"
 		}
 
@@ -146,7 +140,7 @@
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
+				"use_item_rendertarget"				"0"
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
@@ -156,7 +150,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ConfirmLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#TF_StrangeCount_TransferExplain"
 			"textAlignment"							"center"
 			"xpos"									"20"
@@ -164,12 +158,10 @@
 			"zpos"									"0"
 			"wide"									"360"
 			"tall"									"100"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CancelButton"
@@ -181,12 +173,10 @@
 			"zpos"									"1"
 			"wide"									"130"
 			"tall"									"25"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"Cancel (&Q)"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"default"								"0"
@@ -201,8 +191,8 @@
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
 
-			"border_default"						"MaterialGrayDark"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Gray_Dark"
+			"border_armed"							"Material_Hypno"
 		}
 
 		"OkButton"
@@ -214,12 +204,10 @@
 			"zpos"									"1"
 			"wide"									"130"
 			"tall"									"25"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#CraftNameConfirm"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"default"								"1"
@@ -234,8 +222,8 @@
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
 
-			"border_default"						"MaterialGrayDark"
-			"border_armed"							"MaterialHypno"
+			"border_default"						"Material_Gray_Dark"
+			"border_armed"							"Material_Hypno"
 		}
 	}
 }

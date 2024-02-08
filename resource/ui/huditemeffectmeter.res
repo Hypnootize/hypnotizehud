@@ -29,7 +29,7 @@
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 7"
+		"font"										"Size_7"
 		"fgcolor"									"White"
 	}
 

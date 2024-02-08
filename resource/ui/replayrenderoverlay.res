@@ -5,7 +5,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BottomPanel"
 		"visible"									"1"
-		"bgcolor_override"							"BlackLight"
+		"bgcolor_override"							"Black_Light"
 	}
 
 	"FilenameLabel"
@@ -16,34 +16,28 @@
 		"labelText"									""
 		"textAlignment"								"west"
 		"zpos"										"10"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"		 							"White"
+		"fgcolor"									"White"
 	}
 
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									"#Replay_RenderOverlayText"
 		"textAlignment"								"west"
 		"zpos"										"10"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"		 							"White"
+		"fgcolor"									"White"
 	}
 
 	"ReplayRenderOverlay"
 	{
 		"ControlName"								"Frame"
 		"fieldName"									"ReplayRenderOverlay"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"zpos"										"1000"
 		"enabled"									"1"
@@ -55,13 +49,11 @@
 	{
 		"ControlName"								"ProgressBar"
 		"fieldName"									"RenderProgress"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"progress"									"0"
-		"bgcolor_override" 							"BlackDark"
-		"fgcolor_override" 							"Main Theme"
+		"bgcolor_override"							"Black_Dark"
+		"FgColor_override"							"Main_Theme"
 	}
 
 	"ProgressLabel"
@@ -72,11 +64,9 @@
 		"labelText"									""
 		"textAlignment"								"east"
 		"zpos"										"10"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"		 							"White"
+		"fgcolor"									"White"
 	}
 
 	"CancelButton"
@@ -86,12 +76,10 @@
 		"zpos"										"20"
 		"wide"										"100"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Replay_CancelRender"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
 		"Command"									"confirmcancel"
@@ -100,12 +88,12 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"Material_Gray_Dark"
+		"border_armed"								"Material_Hypno"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"PreviewCheckButton"
@@ -121,8 +109,6 @@
 		"zpos"										"1"
 		"wide"										"300"
 		"tall"										"15"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 	}
