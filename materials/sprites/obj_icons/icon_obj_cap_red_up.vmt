@@ -6,7 +6,6 @@
 	"$alpha"					"1"
 	"$translucent"				"1"
 	"$vertexcolor"				"1"
-	"$no_fullbright"			"1"
 	"$detailblendmode"			"9"
 	"$separatedetailuvs"		"1"
 }
