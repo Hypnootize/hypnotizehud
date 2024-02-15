@@ -1,4 +1,4 @@
-![logo](https://i.imgur.com/oG7xN4t.png)
+![logo](https://i.imgur.com/IrLApTG.png)
 
 <p align="center">
   <a href="https://comfig.app/huds/page/hypnotizehud"><img src="https://i.imgur.com/0o80QUt.png"></a>
