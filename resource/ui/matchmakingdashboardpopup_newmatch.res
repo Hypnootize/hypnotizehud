@@ -17,7 +17,6 @@
 		"collapsed_height"							"0"
 		"expanded_height"							"60"
 
-
 		"OuterShadow"
 		{
 			"ControlName"							"EditablePanel"
@@ -41,7 +40,7 @@
 			"tall"									"f5"
 			"visible"								"1"
 			"PaintBackgroundType"					"2"
-			"border"								"Material_Gray_Darkest"
+			"border"								"Material_Black_Light"
 			"proportionaltoparent"					"1"
 
 			"DescLabel"

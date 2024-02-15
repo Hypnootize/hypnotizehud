@@ -120,7 +120,7 @@
 		{
 			"bordertype"				"scalable_image"
 			"backgroundtype"			"2"
-			"color"						"green"
+			"color"						"CreditsGreen"
 			"image"						"replay/thumbnails/panels/material_generic"
 			"src_corner_height"			"24"
 			"src_corner_width"			"24"
