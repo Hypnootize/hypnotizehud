@@ -308,10 +308,10 @@
 	"HudEurekaEffectTeleportMenu"
 	{
 		"xpos"										"0"
-		"ypos"										"c-117"
+		"ypos"										"c60"
 		"zpos"										"20"
 		"wide"										"f0"
-		"tall"										"480"
+		"tall"										"60"
 	}
 
 	"HudMenuSpyDisguise"

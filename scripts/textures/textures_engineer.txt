@@ -84,11 +84,35 @@
 		}
 		"ico_metal"
 		{
-			"file"			"vgui\replay\thumbnails\game\buildingstatus_upgrade"
+			"file"			"vgui/logos/build_icons/buildingstatus_upgrade"
 			"x"				"0"
 			"y"				"0"
 			"width"			"64"
 			"height"		"16"
+		}
+		"obj_status_icon_wrench"
+		{
+			"file"			"vgui/logos/build_icons/eng_status_alert_ico_wrench"
+			"x"				"0"
+			"y"				"0"
+			"width"			"64"
+			"height"		"64"
+		}
+		"obj_status_icon_sapper"
+		{
+			"file"			"vgui/logos/build_icons/hud_obj_status_sapper"
+			"x"				"0"
+			"y"				"0"
+			"width"			"64"
+			"height"		"64"
+		}
+		"obj_eng_status_area_sentry_alrt"
+		{
+			"file"			"vgui/logos/build_icons/eng_status_area_sentry_alrt"
+			"x"				"0"
+			"y"				"0"
+			"width"			"62"
+			"height"		"110"
 		}
 	}
 }

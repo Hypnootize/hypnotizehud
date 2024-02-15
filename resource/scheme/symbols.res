@@ -6,7 +6,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"Hypnotize Icons V8"
 				"tall"										"10"
 				"antialias"									"1"
 			}
@@ -15,7 +15,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"Hypnotize Icons V8"
 				"tall"										"12"
 				"antialias"									"1"
 			}
@@ -24,7 +24,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"Hypnotize Icons V8"
 				"tall"										"14"
 				"antialias"									"1"
 			}
@@ -33,7 +33,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"Hypnotize Icons V8"
 				"tall"										"14"
 				"antialias"									"1"
 				"blur"										"1"
@@ -43,7 +43,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"Hypnotize Icons V8"
 				"tall"										"16"
 				"antialias"									"1"
 			}
@@ -52,7 +52,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"Hypnotize Icons V8"
 				"tall"										"16"
 				"antialias"									"1"
 				"blur"										"1"
@@ -62,7 +62,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"Hypnotize Icons V8"
 				"tall"										"18"
 				"antialias"									"1"
 			}
@@ -71,7 +71,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"Hypnotize Icons V8"
 				"tall"										"18"
 				"antialias"									"1"
 				"blur"										"1"
@@ -81,7 +81,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"Hypnotize Icons V8"
 				"tall"										"20"
 				"antialias"									"1"
 			}
@@ -90,7 +90,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"Hypnotize Icons V8"
 				"tall"										"20"
 				"antialias"									"1"
 				"blur"										"1"
@@ -100,7 +100,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"Hypnotize Icons V8"
 				"tall"										"22"
 				"antialias"									"1"
 			}
@@ -109,7 +109,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"Hypnotize Icons V8"
 				"tall"										"22"
 				"antialias"									"1"
 				"blur"										"1"
@@ -119,7 +119,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"Hypnotize Icons V8"
 				"tall"										"24"
 				"antialias"									"1"
 			}
@@ -128,7 +128,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"Hypnotize Icons V8"
 				"tall"										"24"
 				"antialias"									"1"
 				"blur"										"1"
@@ -138,7 +138,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"Hypnotize Icons V8"
 				"tall"										"26"
 				"antialias"									"1"
 			}
@@ -148,7 +148,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"Hypnotize Icons V8"
 				"tall"										"30"
 				"antialias"									"1"
 			}
@@ -158,7 +158,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"Hypnotize Icons V8"
 				"tall"										"34"
 				"antialias"									"1"
 			}
@@ -167,7 +167,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"Hypnotize Icons V8"
 				"tall"										"46"
 				"antialias"									"1"
 			}
@@ -176,7 +176,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"Hypnotize Icons V8"
 				"tall"										"50"
 				"antialias"									"1"
 			}
@@ -255,7 +255,7 @@
 		{
 			"font"	"resource/scheme/fonts/Hypnotize_Icons.ttf"			[$WINDOWS]
 			"font"	"resource/scheme/fonts/Hypnotize_Icons_Linux.ttf"	[$POSIX]
-			"name"	"Hypnotize Icons V7"
+			"name"	"Hypnotize Icons V8"
 		}
 		"31"
 		{

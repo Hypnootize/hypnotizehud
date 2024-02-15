@@ -12,7 +12,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		"border"									"Material_Transparent_Green_50"
+		"border"									"Material_Green"
 	}
 
 	"CostLabel"
