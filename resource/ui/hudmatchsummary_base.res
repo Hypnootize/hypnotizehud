@@ -226,6 +226,7 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
+				"alpha"								"255"
 
 				"BlueTeamScoreBG"
 				{
@@ -449,6 +450,7 @@
 					"tall"							"215"
 					"visible"						"1"
 					"enabled"						"1"
+					"alpha"							"255"
 
 					"if_large"
 					{
@@ -525,6 +527,7 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
+				"alpha"								"255"
 
 				"RedTeamScoreBG"
 				{
@@ -748,6 +751,7 @@
 					"tall"							"215"
 					"visible"						"1"
 					"enabled"						"1"
+					"alpha"							"255"
 
 					"if_large"
 					{
