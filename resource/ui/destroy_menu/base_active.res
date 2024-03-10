@@ -12,7 +12,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		"border"									"Material_Red"
+		"border"									"Material_Transparent_Red_50"
 	}
 
 	"DestroyIcon"

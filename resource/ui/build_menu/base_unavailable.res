@@ -4,7 +4,7 @@
 {
 	"Background"
 	{
-		"border"									"Material_Red"
+		"border"									"Material_Transparent_Red_50"
 	}
 	"CantBuildReason"
 	{

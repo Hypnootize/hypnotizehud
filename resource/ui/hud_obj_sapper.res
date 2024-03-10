@@ -55,7 +55,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"scaleImage"								"1"
-		"icon"										"obj_status_icon_sapper"
+		"icon"										"obj_status_sapper"
 		"iconColor"									"Red"
 
 		"pin_to_sibling"							"IconBackgound"
