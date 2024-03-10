@@ -1,5 +1,5 @@
-#base "../tools/reloadmenubutton.res"
-#base "../tools/vtf_preload.res"
+#base "../dev/reload_menu.res"
+#base "../dev/textures_preload.res"
 
 "Resource/UI/MainMenuOverride.res"
 {

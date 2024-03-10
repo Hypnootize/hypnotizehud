@@ -49,8 +49,9 @@
 	"HudBossHealth"
 	{
 		"xpos"										"cs-0.5"
+		"ypos"										"65"
 		"wide"										"178"
-		"tall"										"22"
+		"tall"										"50"
 	}
 
 	"CHudAccountPanel"

@@ -1,4 +1,4 @@
-#base "../tools/reloadschemebutton.res"
+#base "../dev/reload_scheme.res"
 
 "Resource/UI/SelectPlayerDialog_Duel.res"
 {

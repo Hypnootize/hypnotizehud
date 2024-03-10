@@ -1,4 +1,4 @@
-"Resource/Tools/Preload.res"
+"Resource/DEV/Preload.res"
 {
 	//===================================================================================================
 	// CONTROL POINT ICONS

@@ -1,4 +1,4 @@
-#base "../../../../tools/reloadschemebutton.res"
+#base "../../../../dev/reload_scheme.res"
 
 "Resource/UI/Econ/Store/V2/StorePanel.res"
 {

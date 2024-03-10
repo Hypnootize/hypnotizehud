@@ -1,30 +1,24 @@
 //============================================================
 // STREAMER MODE LAYOUT
 //============================================================
-
 #base "../customizations/streamermode/hudlayout.res"
 
 //============================================================
 // TRANSPARENT VIEWMODELS
 //============================================================
-
 #base "../customizations/transparent_viewmodels.res"
 
 //============================================================
 // HYPNOTIZEHUD LAYOUT
 //============================================================
-
 #base "layouts/layout_hypnotize.res"
 
 //============================================================
 // DEFAULT LAYOUT
 //============================================================
-
 #base "layouts/layout_default.res"
 
 //============================================================
-// DEV TOOLS
+// DEVELOPER TOOLS
 //============================================================
-
-#base "../resource/tools/flatscreen.res"
-#base "../resource/tools/damage_simulator.res"
+#base "../resource/dev/flat_screen.res"

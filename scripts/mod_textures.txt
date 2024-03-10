@@ -1,12 +1,10 @@
 //=========================================================
 // HYPNOTIZE HUD TEXTURES
 //=========================================================
-
 #base "textures/textures_killfeed.txt"
 #base "textures/textures_engineer.txt"
 
 //=========================================================
 // DEFAULT TEXTURES
 //=========================================================
-
 #base "textures/textures_default.txt"
