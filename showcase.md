@@ -139,7 +139,7 @@
 ![Capture The Flag](../screenshots/45_Capture_The_Flag.jpg?raw=true)
 
 ## KOTH
-![Koth](../screenshots/46_Koth.jpg?raw=true)
+![Koth](../screenshots/46_KOTH.jpg?raw=true)
 
 ## PAYLOAD
 ![Payload](../screenshots/47_Payload.jpg?raw=true)
@@ -169,7 +169,7 @@
 ![Pass Time](../screenshots/55_Pass_Time.jpg?raw=true)
 
 ## PLAYER DESTRUCTION
-![Player Destruction](../screenshots/56_Player_Destruction.png?raw=true)
+![Player Destruction](../screenshots/56_Player_Destruction.jpg?raw=true)
 
 ## ROBOT DESTRUCTION
 ![Robot Destruction](../screenshots/57_Robot_Destruction.jpg?raw=true)
