@@ -9,7 +9,7 @@
 
 ##
 
-<a href="https://imgur.com/a/4sgZ1"><img src="https://i.imgur.com/vVxJdvB.png"></a>
+<a href="../screenshots/showcase.md"><img src="https://i.imgur.com/vVxJdvB.png"></a>
 
 <a href="https://github.com/Hypnootize/Hypnotize-Hud/wiki"><img src="https://i.imgur.com/UpvlsG7.png"></a>
 
