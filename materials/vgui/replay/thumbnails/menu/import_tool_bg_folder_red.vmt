@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture"				"vgui\replay\thumbnails\menu\import_tool_bg_folder_red"
-	"$vertexalpha"				"1"
-	"$alpha"					"1"
-	"$translucent"				"1"
-	"$vertexcolor"				"1"
-}

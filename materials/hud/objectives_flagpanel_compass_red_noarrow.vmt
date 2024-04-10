@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture"				"vgui\replay\thumbnails\flag_icons\objectives_flagpanel_compass_red_noarrow"
-	"$vertexalpha"				"1"
-	"$alpha"					"1"
-	"$translucent"				"1"
-	"$vertexcolor"				"1"
-}

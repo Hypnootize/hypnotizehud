@@ -1,9 +1,0 @@
-//=========================================================================================
-// RESOLUTION FIXES
-//=========================================================================================
-// Remove the underscore from the folder matching your aspect ration
-// IMPORTANT: MAKE SURE ONLY ONE FOLDER STAYS WITHOUT UNDERSCORE!!
-//=========================================================================================
-// For more in depth information check out the wiki:
-// https://github.com/Hypnootize/Hypnotize-Hud/wiki/Resolution-Fixes
-//=========================================================================================
