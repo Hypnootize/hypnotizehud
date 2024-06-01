@@ -80,7 +80,7 @@
 			"tall"									"f4"
 			"visible"								"1"
 			"enabled"								"1"
-			"labelText"								"#Building_hud_dispenser_not_built"
+			"labelText"								"#Building_hud_tele_enter_not_built_360"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
