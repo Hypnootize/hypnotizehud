@@ -61,7 +61,7 @@
 		"tabwidth"									"240"
 		"tabheight"									"20"
 		"transition_time"							"0"
-		"yoffset"									"6"
+		"yoffset"									"0"
 
 		"tabskv"
 		{

@@ -606,15 +606,56 @@
 				"antialias"									"1"
 			}
 		}
-
 		"Default"
 		{
 			"1"
 			{
 				"name"										"Rubik Medium"
-				"tall"										"11"
-				"antialias"									"1"
+				"tall"										"14"
 				"range"										"0x0000 0x017F"
+				"yres"										"480 599"
+			}
+			"2"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"15"
+				"range"										"0x0000 0x017F"
+				"yres"										"600 767"
+			}
+			"3"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"16"
+				"range"										"0x0000 0x017F"
+				"yres"										"768 1023"
+				"antialias"									"1"
+			}
+			"4"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"23"
+				"range"										"0x0000 0x017F"
+				"yres"										"1024 1199"
+				"antialias"									"1"
+			}
+			"5"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"10"
+				"range"										"0x0000 0x017F"
+				"antialias"									"1"
+			}
+			"6"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"12"
+				"range"										"0x0000 0x00FF"
+			}
+			"7"
+			{
+				"name"										"Arial"
+				"tall"										"12"
+				"range"										"0x0000 0x00FF"
 			}
 		}
 		"DefaultUnderline"
@@ -633,9 +674,45 @@
 			"1"
 			{
 				"name"										"Rubik Medium"
-				"tall"										"11"
-				"antialias"									"1"
+				"tall"										"13"
 				"range"										"0x0000 0x017F"
+				"yres"										"480 599"
+			}
+			"2"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"14"
+				"range"										"0x0000 0x017F"
+				"yres"										"600 767"
+			}
+			"3"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"15"
+				"range"										"0x0000 0x017F"
+				"yres"										"768 1023"
+				"antialias"									"1"
+			}
+			"4"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"22"
+				"range"										"0x0000 0x017F"
+				"yres"										"1024 1199"
+				"antialias"									"1"
+			}
+			"5"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"9"
+				"range"										"0x0000 0x017F"
+				"antialias"									"1"
+			}
+			"6"
+			{
+				"name"										"Arial"
+				"tall"										"12"
+				"range"										"0x0000 0x00FF"
 			}
 		}
 		"DefaultVerySmall"
@@ -643,9 +720,39 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"7"
-				"antialias"									"1"
+				"tall"										"12"
 				"range"										"0x0000 0x017F"
+				"yres"										"480 599"
+			}
+			"2"
+			{
+				"name"										"Verdana"
+				"tall"										"12"
+				"range"										"0x0000 0x017F"
+				"yres"										"600 767"
+			}
+			"3"
+			{
+				"name"										"Verdana"
+				"tall"										"12"
+				"range"										"0x0000 0x017F"
+				"yres"										"768 1023"
+				"antialias"									"1"
+			}
+			"4"
+			{
+				"name"										"Verdana"
+				"tall"										"14"
+				"range"										"0x0000 0x017F"
+				"yres"										"1024 1199"
+				"antialias"									"1"
+			}
+			"5"
+			{
+				"name"										"Verdana"
+				"tall"										"9"
+				"range"										"0x0000 0x017F"
+				"antialias"									"1"
 			}
 		}
 		"DefaultLarge"
@@ -654,8 +761,54 @@
 			{
 				"name"										"Rubik Medium"
 				"tall"										"18"
-				"antialias"									"1"
 				"range"										"0x0000 0x017F"
+				"yres"										"480 599"
+				"antialias"									"1"
+			}
+			"2"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"21"
+				"range"										"0x0000 0x017F"
+				"yres"										"600 767"
+				"antialias"									"1"
+			}
+			"3"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"22"
+				"range"										"0x0000 0x017F"
+				"yres"										"768 1023"
+				"antialias"									"1"
+			}
+			"4"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"28"
+				"range"										"0x0000 0x017F"
+				"yres"										"1024 1199"
+				"antialias"									"1"
+			}
+			"5"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"18"
+				"range"										"0x0000 0x017F"
+				"antialias"									"1"
+			}
+			"6"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"20"
+				"range"										"0x0000 0x00FF"
+				"antialias"									"1"
+			}
+			"7"
+			{
+				"name"										"Arial"
+				"tall"										"20"
+				"range"										"0x0000 0x00FF"
+				"weight"									"800"
 			}
 		}
 
@@ -684,9 +837,36 @@
 		{
 			"1"
 			{
-				"name"										"Product Sans"
-				"tall"										"10"
-				"weight"									"500"
+				"name"										"Rubik Medium"
+				"tall"										"13"
+				"yres"										"480 599"
+				"antialias"									"1"
+			}
+			"2"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"14"
+				"yres"										"600 767"
+				"antialias"									"1"
+			}
+			"3"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"15"
+				"yres"										"768 1023"
+				"antialias"									"1"
+			}
+			"4"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"22"
+				"yres"										"1024 1199"
+				"antialias"									"1"
+			}
+			"5"
+			{
+				"name"										"Verdana"
+				"tall"										"12"
 				"antialias"									"1"
 			}
 		}
@@ -696,6 +876,39 @@
 			{
 				"name"										"Rubik Medium"
 				"tall"										"24"
+				"weight"									"500"
+				"antialias"									"1"
+				"yres"										"480 599"
+			}
+			"2"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"32"
+				"weight"									"500"
+				"antialias"									"1"
+				"yres"										"600 767"
+			}
+			"3"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"44"
+				"weight"									"500"
+				"antialias"									"1"
+				"yres"										"768 1023"
+			}
+			"4"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"48"
+				"weight"									"500"
+				"antialias"									"1"
+				"yres"										"1024 1199"
+			}
+			"5"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"24"
+				"weight"									"500"
 				"antialias"									"1"
 			}
 		}
@@ -767,6 +980,13 @@
 				"name"										"Rubik Medium"
 				"tall"										"24"
 				"weight"									"500"
+				"yres"										"1 1199"
+				"antialias"									"1"
+			}
+			"2"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"10"
 				"antialias"									"1"
 			}
 		}
@@ -2328,7 +2548,7 @@
 			"1"
 			{
 				"name"										"Rubik Medium"
-				"tall"										"10"
+				"tall"										"12"
 				"weight"									"400"
 				"antialias"									"1"
 			}

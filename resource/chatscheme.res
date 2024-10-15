@@ -189,6 +189,8 @@
 	{
 		"Default"
 		{
+			"isproportional"								"only"
+
 			"1"
 			{
 				"name"										"Product Sans"
@@ -226,10 +228,9 @@
 			"5"
 			{
 				"name"										"Product Sans"
-				"tall"										"20"
+				"tall"										"8"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
 		}
@@ -376,6 +377,8 @@
 
 		"ChatFont"
 		{
+			"isproportional"								"only"
+
 			"1"
 			{
 				"name"										"Verdana"
@@ -412,9 +415,8 @@
 			{
 				"name"										"Verdana"
 				"tall"										"22"
-				"weight"									"700"
-				"yres"										"1200 10000"
 				"dropshadow"								"1"
+				"antilias"									"1"
 			}
 		}
 	}

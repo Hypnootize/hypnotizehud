@@ -338,7 +338,7 @@
 
 		"Slider.NobColor"									"White_Dark"
 		"Slider.TextColor"									"White"
-		"Slider.TrackColor"									"Gray_Darkest"
+		"Slider.TrackColor"									"Black"
 		"Slider.DisabledTextColor1"							"White_Gray"
 		"Slider.DisabledTextColor2"							"Gray_Darkest"
 
