@@ -14,7 +14,7 @@
 		"zpos"										"250"
 		"wide"										"15"
 		"tall"										"15"
-		"visible"									"1"				//1 to enable
+		"visible"									"0"				//1 to enable
 		"enabled"									"1"
 		"labelText"									"RS"
 		"font"										"Default"
