@@ -414,7 +414,7 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"22"
+				"tall"										"8"
 				"dropshadow"								"1"
 				"antilias"									"1"
 			}
