@@ -49,85 +49,19 @@
 			"show_type"								"1"
 		}
 
-		"SaveCasualSearchCriteria"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SaveCasualSearchCriteria"
-			"xpos"									"rs1-1"
-			"ypos"									"17"
-			"zpos"									"100"
-			"wide"									"22"
-			"tall"									"22"
-			"visible"								"1"
-			"enabled"								"1"
-			"labelText"								"e"
-			"font"									"Symbols_16"
-			"textAlignment"							"center"
-			"default"								"0"
-			"Command"								"save_search_criteria"
-			"actionsignallevel"						"2"
-			"proportionaltoparent"					"1"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-
-			"paintbackground"						"0"
-
-			"border_default"						"Material_Gray_Dark"
-			"border_armed"							"Material_Hypno"
-
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"White"
-			"depressedFgColor_override"				"White"
-		}
-
-		"RestoreCasualSearchCriteria"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"RestoreCasualSearchCriteria"
-			"xpos"									"-2"
-			"ypos"									"0"
-			"zpos"									"100"
-			"wide"									"22"
-			"tall"									"22"
-			"visible"								"1"
-			"enabled"								"1"
-			"labelText"								"d"
-			"font"									"Symbols_16"
-			"textAlignment"							"center"
-			"default"								"0"
-			"Command"								"restore_search_criteria"
-			"actionsignallevel"						"2"
-			"proportionaltoparent"					"1"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-
-			"paintbackground"						"0"
-
-			"border_default"						"Material_Gray_Dark"
-			"border_armed"							"Material_Hypno"
-
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"White"
-			"depressedFgColor_override"				"White"
-
-			"pin_to_sibling"						"SaveCasualSearchCriteria"
-			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"					"PIN_TOPLEFT"
-		}
-
 		"ShowExplanationsButton"
 		{
 			"ControlName"							"CExButton"
 			"fieldName"								"ShowExplanationsButton"
-			"xpos"									"-2"
-			"ypos"									"0"
+			"xpos"									"rs1-1"
+			"ypos"									"17"
 			"zpos"									"100"
-			"wide"									"22"
-			"tall"									"22"
+			"wide"									"20"
+			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"1"
-			"font"									"Symbols_16"
+			"font"									"Symbols_12"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"show_explanations"
@@ -147,8 +81,76 @@
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
+		}
 
-			"pin_to_sibling"						"RestoreCasualSearchCriteria"
+		"SaveCasualSearchCriteria"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SaveCasualSearchCriteria"
+			"xpos"									"-3"
+			"ypos"									"0"
+			"zpos"									"100"
+			"wide"									"54"
+			"tall"									"20"
+			"visible"								"1"
+			"enabled"								"1"
+			"labelText"								"Save"
+			"font"									"Size_10"
+			"textAlignment"							"center"
+			"default"								"0"
+			"AllCaps"								"1"
+			"Command"								"save_search_criteria"
+			"actionsignallevel"						"2"
+			"proportionaltoparent"					"1"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+
+			"paintbackground"						"0"
+
+			"border_default"						"Material_Gray_Dark"
+			"border_armed"							"Material_Hypno"
+
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White"
+			"depressedFgColor_override"				"White"
+
+			"pin_to_sibling"						"ShowExplanationsButton"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_TOPLEFT"
+		}
+
+		"RestoreCasualSearchCriteria"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"RestoreCasualSearchCriteria"
+			"xpos"									"-3"
+			"ypos"									"0"
+			"zpos"									"100"
+			"wide"									"54"
+			"tall"									"20"
+			"visible"								"1"
+			"enabled"								"1"
+			"labelText"								"Restore"
+			"font"									"Size_10"
+			"textAlignment"							"center"
+			"default"								"0"
+			"AllCaps"								"1"
+			"Command"								"restore_search_criteria"
+			"actionsignallevel"						"2"
+			"proportionaltoparent"					"1"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+
+			"paintbackground"						"0"
+
+			"border_default"						"Material_Gray_Dark"
+			"border_armed"							"Material_Hypno"
+
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White"
+			"depressedFgColor_override"				"White"
+
+			"pin_to_sibling"						"SaveCasualSearchCriteria"
 			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}

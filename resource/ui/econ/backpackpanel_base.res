@@ -65,6 +65,7 @@
 				"font"								"Size_11"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
+				"button_activation_type"			"2"
 			}
 
 			"New"
