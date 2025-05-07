@@ -2513,7 +2513,7 @@
 		"infection_emp"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
-			"dnegfile"		"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_white/dneg_images_v3"
 			"x"				"384"
 			"y"				"0"
 			"width"			"96"
@@ -2522,7 +2522,7 @@
 		"infection_acid_ball"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
-			"dnegfile"		"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_white/dneg_images_v3"
 			"x"				"384"
 			"y"				"32"
 			"width"			"96"
@@ -2531,7 +2531,7 @@
 		"infection_acid_puddle"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
-			"dnegfile"		"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_white/dneg_images_v3"
 			"x"				"384"
 			"y"				"64"
 			"width"			"96"
@@ -2540,7 +2540,7 @@
 		"infection_soldier"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
-			"dnegfile"		"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_white/dneg_images_v3"
 			"x"				"384"
 			"y"				"96"
 			"width"			"64"
@@ -2549,7 +2549,7 @@
 		"infection_heavy"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
-			"dnegfile"		"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_white/dneg_images_v3"
 			"x"				"384"
 			"y"				"128"
 			"width"			"64"
@@ -2558,7 +2558,7 @@
 		"infection_scout"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
-			"dnegfile"		"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_white/dneg_images_v3"
 			"x"				"384"
 			"y"				"160"
 			"width"			"64"
@@ -2567,7 +2567,7 @@
 		"infection_pyro"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
-			"dnegfile"		"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_white/dneg_images_v3"
 			"x"				"384"
 			"y"				"192"
 			"width"			"64"
@@ -2576,7 +2576,7 @@
 		"infection_demoman"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
-			"dnegfile"		"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_white/dneg_images_v3"
 			"x"				"448"
 			"y"				"96"
 			"width"			"64"
@@ -2585,7 +2585,7 @@
 		"infection_sniper"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
-			"dnegfile"		"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_white/dneg_images_v3"
 			"x"				"448"
 			"y"				"128"
 			"width"			"64"
@@ -2594,7 +2594,7 @@
 		"infection_medic"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
-			"dnegfile"		"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_white/dneg_images_v3"
 			"x"				"448"
 			"y"				"160"
 			"width"			"64"
@@ -2603,7 +2603,7 @@
 		"infection_engineer"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
-			"dnegfile"		"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_white/dneg_images_v3"
 			"x"				"448"
 			"y"				"192"
 			"width"			"64"
